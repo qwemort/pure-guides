@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JSON formatter and validator — runs in your browser, nothing is uploaded</title>
+<meta name="description" content="Paste JSON to format, minify and validate it. Everything runs locally in your browser: no upload, no account, no tracking.">
+<link rel="canonical" href="https://qwemort.github.io/pure-guides/json-formatter.html">
+<link rel="stylesheet" href="style.css">
+<style>
+textarea{width:100%;min-height:260px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;resize:vertical}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+button{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px 14px;font:inherit;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);color:#06281b;border-color:var(--accent);font-weight:600}
+#msg{min-height:1.6em;margin:6px 0}
+.ok{color:var(--accent)}.err{color:#e5534b}
+select{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px}
+</style>
+</head>
+<body>
+<main>
+<a class="brand" href="./">← Pure guides</a>
+<h1>JSON formatter and validator</h1>
+<p>Paste JSON below to format, minify or check it. <strong>Everything happens in your browser.</strong> The text is never uploaded, and this page has no analytics.</p>
+
+<textarea id="in" spellcheck="false" placeholder='{"hello":"world","list":[1,2,3]}' aria-label="JSON input"></textarea>
+<div class="bar">
+<button class="primary" id="fmt">Format</button>
+<button id="min">Minify</button>
+<button id="chk">Validate</button>
+<button id="cp">Copy</button>
+<button id="clr">Clear</button>
+<label>Indent <select id="ind"><option value="2">2 spaces</option><option value="4">4 spaces</option><option value="tab">Tab</option></select></label>
+</div>
+<div id="msg" role="status" aria-live="polite"></div>
+
+<div class="note"><strong>Need more than this?</strong> The PureJSON browser extension shows JSON files and API responses as a collapsible tree with copy-path, and keeps big numbers exact. Install it from
+<a href="https://microsoftedge.microsoft.com/addons/detail/jgaejimgiijadilkfklimmmgacjabijd">Edge Add-ons</a> or
+<a href="https://addons.mozilla.org/firefox/addon/json-viewer-formatter-purejson/">Firefox Add-ons</a> (Chrome coming). I build it; this page is a free companion and works without it.</div>
+
+<h2>Common JSON errors</h2>
+<ul>
+<li><strong>Trailing comma</strong> after the last item: <code>{"a":1,}</code> is not valid JSON.</li>
+<li><strong>Single quotes</strong> instead of double quotes: <code>{'a':1}</code> is not valid JSON.</li>
+<li><strong>Unquoted keys</strong>: <code>{a:1}</code> is JavaScript, not JSON.</li>
+<li><strong>Comments</strong> (<code>//</code> or <code>/* */</code>) are not allowed.</li>
+<li><strong>Missing comma</strong> between items, or a missing closing bracket.</li>
+</ul>
+<p class="muted">Note: this page uses your browser's own JSON parser. Numbers larger than 2<sup>53</sup> can lose precision when reformatted, because JavaScript stores them as floating point. If exact big numbers matter, use a tool that keeps them as text (PureJSON does).</p>
+
+<footer>
+<p><a href="./">More guides</a> · <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
+<p>This site has no analytics, no cookies and no trackers.</p>
+</footer>
+</main>
+<script>
+(function(){
+  var $=function(i){return document.getElementById(i)};
+  var inp=$('in'),msg=$('msg');
+  function say(t,c){msg.textContent=t;msg.className=c||''}
+  function indent(){var v=$('ind').value;return v==='tab'?'\t':Number(v)}
+  function lineCol(text,pos){var l=1,c=1;for(var i=0;i<pos&&i<text.length;i++){if(text[i]==='\n'){l++;c=1}else c++}return {l:l,c:c}}
+  function parse(){
+    var t=inp.value;
+    if(!t.trim()){say('Paste some JSON first.','err');return null}
+    try{return JSON.parse(t)}catch(e){
+      var m=/position (\d+)/.exec(e.message), where='';
+      if(m){var p=lineCol(t,Number(m[1]));where=' (line '+p.l+', column '+p.c+')'}
+      else{var m2=/line (\d+) column (\d+)/.exec(e.message);if(m2)where=' (line '+m2[1]+', column '+m2[2]+')'}
+      say('Invalid JSON: '+e.message+where,'err');return null}
+  }
+  $('fmt').onclick=function(){var v=parse();if(v===null&&!/^\s*null\s*$/.test(inp.value))return;inp.value=JSON.stringify(v,null,indent());say('Valid JSON, formatted.','ok')};
+  $('min').onclick=function(){var v=parse();if(v===null&&!/^\s*null\s*$/.test(inp.value))return;inp.value=JSON.stringify(v);say('Valid JSON, minified.','ok')};
+  $('chk').onclick=function(){var v=parse();if(v===null&&!/^\s*null\s*$/.test(inp.value))return;say('Valid JSON.','ok')};
+  $('cp').onclick=function(){if(!inp.value)return;(navigator.clipboard?navigator.clipboard.writeText(inp.value):Promise.reject()).then(function(){say('Copied.','ok')},function(){inp.select();document.execCommand('copy');say('Copied.','ok')})};
+  $('clr').onclick=function(){inp.value='';say('');inp.focus()};
+})();
+</script>
+</body>
+</html>
