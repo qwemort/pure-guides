@@ -14,3 +14,18 @@ ol li,ul li{margin:.35em 0}
 footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
 table{border-collapse:collapse;width:100%;margin:12px 0}
 td,th{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+figure{margin:22px 0}
+figure img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block}
+figcaption{color:var(--muted);font-size:.9rem;margin-top:6px}
+.hero{display:flex;gap:14px;align-items:center;margin:18px 0 6px}
+.hero img{width:56px;height:56px;border-radius:12px}
+.tldr{border-left:4px solid var(--accent)}
+.tools{display:grid;gap:14px;margin:16px 0}
+.tool{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.tool img{width:48px;height:48px;border-radius:10px;flex:none}
+.tool h3{margin:0 0 4px;font-size:1.1rem}
+.tool p{margin:0 0 6px}
+.links a{margin-right:12px;white-space:nowrap}
+.card-link{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--text)}
+.card-link:hover{border-color:var(--accent)}
+.card-link span{color:var(--muted);display:block;font-size:.95rem;margin-top:4px}

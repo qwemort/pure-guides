@@ -9,15 +9,26 @@
 </head>
 <body>
 <main>
-<a class="brand" href="./">Pure guides</a>
+<a class="brand" href="./">← Pure guides</a>
+<div class="hero"><img src="img/pureheaders.png" alt=""><span class="muted">HTTP headers · migration guide</span></div>
 <h1>ModHeader was removed from Chrome and Edge. Here is how to move your header profiles in 2 minutes</h1>
-<p class="muted">Last updated: 25 October 2026</p>
+<p class="muted">Last updated: 25 October 2026 · about 6 minutes to read</p>
 
 <div class="note"><strong>Disclosure:</strong> I build PureHeaders, one of the replacements mentioned below. I have tried to keep the facts and the checklist useful whichever tool you choose. Other options are listed at the end.</div>
 
+<div class="note tldr"><strong>Short version</strong>
+<ol>
+<li>ModHeader is gone from both stores, but it is <strong>still installed</strong> in browsers that had it.</li>
+<li>Export your profiles: <strong>Export → Export JSON → Download JSON</strong>.</li>
+<li>Remove ModHeader.</li>
+<li>Import the file into a replacement you have checked (five-point check below).</li>
+</ol></div>
+
 <h2>What happened</h2>
-<p>ModHeader, a popular extension for changing HTTP request and response headers, had more than 1.6 million installs (roughly 900,000 on Chrome and 700,000 on Edge). In 2026 security researchers at Stripe OLT reported that version 7.0.18 contained a hidden data-collection module: code that could gather the domains you visit, encrypt them and upload them to a remote server once a day. According to the report the collector was switched off by default, but the code, key and schedule were already inside the extension. The extension also showed ads and opened advertising tabs after updates.</p>
+<p>ModHeader, a popular extension for changing HTTP request and response headers, had more than 1.6 million installs (roughly 900,000 on Chrome and 700,000 on Edge). Developers, testers and support teams used it every day to add auth tokens, switch environments and test APIs.</p>
+<p>In 2026 security researchers at Stripe OLT reported that version 7.0.18 contained a hidden data-collection module: code that could gather the domains you visit, encrypt them and upload them to a remote server once a day. According to the report the collector was switched off by default, but the code, key and schedule were already inside the extension. The extension also showed ads and opened advertising tabs after updates, including on company-managed computers.</p>
 <p>Microsoft removed ModHeader from Edge Add-ons and Google removed it from the Chrome Web Store on 10 July 2026. Reports differ on the exact Edge date (June or July 2026). <a href="https://techradar.com/pro/security/experts-get-google-microsoft-to-pull-trusted-modheader-with-1-6-million-installs-after-finding-it-could-harvest-all-kinds-of-data">TechRadar has a summary</a>.</p>
+<p>The part that matters for you: a header extension sees and changes requests to the sites it runs on. That is why it is useful, and that is also why a dormant collector inside one is a serious problem. It could be switched on later without asking you for any new permission.</p>
 
 <h2>Is it still in your browser?</h2>
 <p>Very likely, yes. Removing an extension from a store <strong>does not remove it from browsers where it is already installed</strong>. Check:</p>
@@ -25,7 +36,8 @@
 <li>Chrome: open <code>chrome://extensions</code></li>
 <li>Edge: open <code>edge://extensions</code></li>
 </ul>
-<p>If ModHeader is there, <strong>export your profiles first</strong> (next section), then remove it.</p>
+<p>If ModHeader is there, <strong>export your profiles first</strong> (next step), then remove it. If you manage company computers, check them too: store removal does not clean up existing installs.</p>
+<p><strong>On Firefox:</strong> Firefox Add-ons has several listings that use the ModHeader name. Before installing any of them, check who the developer is and when it was last updated.</p>
 
 <h2>Step 1 — export your profiles from ModHeader</h2>
 <ol>
@@ -36,7 +48,7 @@
 <p class="muted">The file contains your header values. If some are tokens or API keys, keep the file somewhere private and delete it after importing.</p>
 
 <h2>Step 2 — before you pick a replacement, check these five things</h2>
-<p>A header extension sits in the path of your web traffic, so a bad one can do a lot of damage. Whatever you choose, check:</p>
+<p>A bad header extension can do a lot of damage. Whatever you choose, check:</p>
 <ol>
 <li><strong>Site access.</strong> Does it ask for access to <em>all websites</em> at install, or only to the sites you add?</li>
 <li><strong>Its own network requests.</strong> In <code>chrome://extensions</code>, turn on Developer mode, open the extension's service worker and watch the Network tab while you use it. A header tool has little reason to talk to a server.</li>
@@ -46,18 +58,41 @@
 </ol>
 
 <h2>Step 3 — import into PureHeaders</h2>
-<p>PureHeaders reads ModHeader JSON exports (the classic format and the newer "sections" format) and the import is free.</p>
+<p>PureHeaders reads ModHeader JSON exports (the classic format and the newer "sections" format). The import is free.</p>
 <ol>
 <li>Install PureHeaders: <a href="https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj">Microsoft Edge</a>. Firefox is in review and Chrome is coming; this page will be updated when they are live.</li>
-<li>The welcome page opens with an <strong>Import a JSON export</strong> button. Later you can use <strong>Import</strong> in the popup.</li>
-<li>Pick the file from step 1. You get a short report of what was imported and anything that did not carry over. Nothing you already have is overwritten.</li>
+<li>The welcome page opens with an <strong>Import a JSON export</strong> button. Later you can use <strong>Import</strong> at the bottom of the popup.</li>
+<li>Pick the file from step 1. Before anything is saved you see what is in the file and what did not carry over. Imported profiles are added next to yours; nothing is replaced.</li>
 <li>Add the sites the rules should work on. PureHeaders has access to no sites at install and asks for each site you add.</li>
 </ol>
-<p><strong>What does not carry over:</strong> ModHeader values written as <code>function(...)</code> are imported switched off, because PureHeaders never runs code from an imported file. You will see them in the report.</p>
+<figure><img src="img/screenshot-3-import.png" alt="PureHeaders import window showing two ModHeader profiles and notes about what did not carry over" loading="lazy" width="1280" height="800">
+<figcaption>The import report: profiles found in the file, and a note for everything that needs your attention.</figcaption></figure>
+
+<h3>What the report may tell you</h3>
+<ul>
+<li><strong>Script values</strong> (<code>function(...)</code> in ModHeader) are imported switched off. PureHeaders never runs code from an imported file; enter a fixed value instead.</li>
+<li><strong>Cookie rules</strong> are not imported; add them as normal headers if you need them.</li>
+<li><strong>URL filters with look-ahead or look-behind</strong> (<code>(?!...)</code>) are imported switched off, because Chrome and Edge rules do not support them.</li>
+<li><strong>"Append" headers</strong> become "set".</li>
+<li><strong>Redirects</strong> are imported; they work with Pro.</li>
+</ul>
+
+<h2>Step 4 — check that your headers are applied</h2>
+<p>Open the page you work on and click the PureHeaders icon. The top of the popup shows which rules were applied on this page, and the number on the icon shows how many rules are active. If a rule does not work, the usual reason is that its site was not added or access was not granted.</p>
+<figure><img src="img/screenshot-1-headers.png" alt="PureHeaders popup with request headers for a staging profile" loading="lazy" width="1280" height="800">
+<figcaption>Profiles (Dev, Staging, Prod) and the headers in each.</figcaption></figure>
+<p>Two habits that save time: use the <strong>auto-off timer</strong> (1 or 8 hours) so you never forget a header that breaks a site later, and the <strong>main switch</strong> to turn everything off in one click.</p>
 
 <h2>A note on CORS</h2>
-<p>Many "Allow CORS" extensions set <code>Access-Control-Allow-Origin: *</code> for every site. That has two problems: browsers reject <code>*</code> for requests with cookies, so logged-in API calls still fail, and switching it on for the whole web lets any page read responses from sites you are logged into. PureHeaders' <strong>Fix CORS</strong> works for one page → the API sites you choose, sends the exact origin instead of <code>*</code> and adds <code>Access-Control-Allow-Credentials: true</code>, so requests with cookies work.</p>
-<p>Honest limits: an extension cannot change the server's status code, so if the server answers the preflight (OPTIONS) with an error, the browser will still block the request. Cookies to another site may also be blocked by SameSite rules or third-party cookie settings.</p>
+<p>Many "Allow CORS" extensions set <code>Access-Control-Allow-Origin: *</code> for every site. That has two problems:</p>
+<ul>
+<li>Browsers reject <code>*</code> for requests with cookies, so logged-in API calls still fail.</li>
+<li>Switched on for the whole web, it lets any page read responses from sites you are logged into.</li>
+</ul>
+<p>PureHeaders' <strong>Fix CORS</strong> works for one page → the API sites you choose, sends the exact origin instead of <code>*</code> and adds <code>Access-Control-Allow-Credentials: true</code>, so requests with cookies work. Other websites get nothing.</p>
+<figure><img src="img/screenshot-2-cors.png" alt="PureHeaders Fix CORS section allowing localhost:3000 to call the selected API sites" loading="lazy" width="1280" height="800">
+<figcaption>Fix CORS for <code>localhost:3000</code> calling your API sites, with cookies.</figcaption></figure>
+<p><strong>Honest limits:</strong> an extension cannot change the server's status code, so if the server answers the preflight (OPTIONS) with an error like 404 or 405, the browser will still block the request; the server has to allow OPTIONS. Cookies to another site may also be blocked by SameSite rules or the browser's third-party cookie settings.</p>
 
 <h2>What PureHeaders is, in short</h2>
 <table>
@@ -65,6 +100,12 @@
 <tr><th>Pro (one-time purchase, no subscription)</th><td>Unlimited headers and profiles, URL redirects, "only this tab" rules, profile colours.</td></tr>
 <tr><th>Privacy</th><td>No account. No content scripts, no <code>tabs</code> permission, no remote configuration, no analytics. Everything is stored locally. The only network request is a license check with Gumroad when you activate Pro.</td></tr>
 </table>
+<figure><img src="img/screenshot-4-privacy.png" alt="PureHeaders privacy summary" loading="lazy" width="1280" height="800"></figure>
+
+<h2>Questions</h2>
+<p><strong>Can I keep using ModHeader if it still works?</strong><br>You can, but it no longer gets reviewed store updates, and the reported collector code was in the extension itself. I would export and remove it.</p>
+<p><strong>Will my tokens be uploaded during import?</strong><br>No. The file is read in your browser and stored locally. You can check it yourself with the Network tab, as in step 2.</p>
+<p><strong>Do I need Pro to migrate?</strong><br>No. Import is free. Pro is only needed for more than 6 active headers or 2 profiles, redirects and "only this tab".</p>
 
 <h2>Other options</h2>
 <p>If PureHeaders is not for you, these are other replacements people mention. I have not reviewed them in depth, so run the five-point check above:</p>
