@@ -20,9 +20,9 @@ cover_image: https://qwemort.github.io/pure-guides/img/screenshot-3-import.png
 
 ModHeader, a popular extension for changing HTTP request and response headers, had more than 1.6 million installs (roughly 900,000 on Chrome and 700,000 on Edge). Developers, testers and support teams used it every day to add auth tokens, switch environments and test APIs.
 
-In 2026 security researchers at Stripe OLT reported that version 7.0.18 contained a hidden data-collection module: code that could gather the domains you visit, encrypt them and upload them to a remote server once a day. According to the report the collector was switched off by default, but the code, key and schedule were already inside the extension. The extension also showed ads and opened advertising tabs after updates, including on company-managed computers.
+In 2026 security researchers at Stripe OLT reported that version 7.0.18 contained a hidden data-collection module: code that could gather the domains you visit, encrypt them and upload them to a remote server once a day. According to the report the collector was switched off by default, but the code, key and schedule were already inside the extension. The same report says the extension also showed ads and opened advertising tabs after updates, including on company-managed computers.
 
-Microsoft removed ModHeader from Edge Add-ons and Google removed it from the Chrome Web Store on 10 July 2026. Reports differ on the exact Edge date (June or July 2026). [TechRadar has a summary](https://techradar.com/pro/security/experts-get-google-microsoft-to-pull-trusted-modheader-with-1-6-million-installs-after-finding-it-could-harvest-all-kinds-of-data).
+According to press reports, ModHeader was removed from the Chrome Web Store on 10 July 2026 and from Edge Add-ons at about the same time; reports differ on the exact Edge date (June or July 2026). [TechRadar has a summary](https://techradar.com/pro/security/experts-get-google-microsoft-to-pull-trusted-modheader-with-1-6-million-installs-after-finding-it-could-harvest-all-kinds-of-data).
 
 The part that matters for you: a header extension sees and changes requests to the sites it runs on. That is why it is useful, and that is also why a dormant collector inside one is a serious problem. It could be switched on later without asking you for any new permission.
 
