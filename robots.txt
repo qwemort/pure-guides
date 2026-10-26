@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qwemort.github.io/pure-guides/sitemap.xml

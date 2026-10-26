@@ -3,10 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JSON formatter and validator — runs in your browser, nothing is uploaded</title>
+<title>JSON formatter and validator: runs in your browser</title>
 <meta name="description" content="Paste JSON to format, minify and validate it. Everything runs locally in your browser: no upload, no account, no tracking.">
 <link rel="canonical" href="https://qwemort.github.io/pure-guides/json-formatter.html">
 <link rel="stylesheet" href="style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pure guides">
+<meta property="og:title" content="JSON formatter and validator: runs in your browser">
+<meta property="og:description" content="Paste JSON to format, minify and validate it. Everything runs locally in your browser: no upload, no account, no tracking.">
+<meta property="og:url" content="https://qwemort.github.io/pure-guides/json-formatter.html">
+<meta property="og:image" content="https://qwemort.github.io/pure-guides/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "WebApplication", "name": "JSON formatter and validator", "url": "https://qwemort.github.io/pure-guides/json-formatter.html", "applicationCategory": "DeveloperApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Paste JSON to format, minify and validate it. Everything runs locally in your browser: no upload, no account, no tracking."}
+</script>
 <style>
 textarea{width:100%;min-height:260px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;resize:vertical}
 .bar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
@@ -48,6 +58,13 @@ select{background:var(--card);color:var(--text);border:1px solid var(--line);bor
 <li><strong>Missing comma</strong> between items, or a missing closing bracket.</li>
 </ul>
 <p class="muted">Note: this page uses your browser's own JSON parser. Numbers larger than 2<sup>53</sup> can lose precision when reformatted, because JavaScript stores them as floating point. If exact big numbers matter, use a tool that keeps them as text (PureJSON does).</p>
+
+<h2>Related</h2>
+<ul>
+<li><a href="cors-credentials-wildcard.html">CORS with cookies: why Allow-Origin "*" fails, and the fix</a></li>
+<li><a href="modheader-alternative.html">ModHeader alternative: move your header profiles in 2 minutes</a></li>
+<li><a href="./">All guides</a></li>
+</ul>
 
 <footer>
 <p><a href="./">More guides</a> · <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>

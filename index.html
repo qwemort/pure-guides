@@ -8,6 +8,13 @@
 <meta name="google-site-verification" content="qdY7cwSpgf7T7k_Q3edxyvBnH_G2_CTa29Fmq8ErL_E" />
 <link rel="canonical" href="https://qwemort.github.io/pure-guides/">
 <link rel="stylesheet" href="style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pure guides">
+<meta property="og:title" content="Pure guides — practical notes for web developers">
+<meta property="og:description" content="Short, practical guides about HTTP headers, CORS and JSON from the developer of the Pure zero-telemetry browser extensions.">
+<meta property="og:url" content="https://qwemort.github.io/pure-guides/">
+<meta property="og:image" content="https://qwemort.github.io/pure-guides/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
 <main>
@@ -17,6 +24,8 @@
 <p class="muted">Written by the developer of the Pure browser extensions. Each guide says so where it mentions our tools.</p>
 
 <h2>Guides</h2>
+<a class="card-link" href="cors-credentials-wildcard.html"><strong>CORS with cookies: why Allow-Origin "*" fails, and the fix</strong>
+<span>The exact headers a request with cookies needs, the preflight rules people miss, and what to check when the cookie still does not arrive.</span></a>
 <a class="card-link" href="modheader-alternative.html"><strong>ModHeader was removed from Chrome and Edge — how to move your header profiles in 2 minutes</strong>
 <span>What happened, how to check if it is still installed, a five-point safety check for any replacement, and a step-by-step migration.</span></a>
 
@@ -28,7 +37,7 @@
 <p>Small browser tools with no account and no tracking. The free versions stay free; Pro is a one-time purchase.</p>
 <div class="tools">
 <div class="tool"><img src="img/pureheaders.png" alt=""><div><h3>PureHeaders</h3><p>Change request and response headers and fix CORS with cookies, only on the sites you choose. Imports ModHeader profiles.</p>
-<p class="links"><a href="https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj">Edge</a><span class="muted">Firefox and Chrome coming</span></p></div></div>
+<p class="links"><a href="https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj">Edge</a><a href="https://addons.mozilla.org/firefox/addon/pureheaders-modify-headers/">Firefox</a><span class="muted">Chrome coming</span></p></div></div>
 <div class="tool"><img src="img/purejson.png" alt=""><div><h3>PureJSON</h3><p>Read JSON like a human: a collapsible tree, copy paths and values; big numbers stay exact.</p>
 <p class="links"><a href="https://microsoftedge.microsoft.com/addons/detail/jgaejimgiijadilkfklimmmgacjabijd">Edge</a><a href="https://addons.mozilla.org/firefox/addon/json-viewer-formatter-purejson/">Firefox</a><span class="muted">Chrome coming</span></p></div></div>
 <div class="tool"><img src="img/puresession.png" alt=""><div><h3>PureSession</h3><p>Tabs and sessions in a side panel, with automatic local backups.</p>

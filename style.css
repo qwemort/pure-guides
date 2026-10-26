@@ -29,3 +29,10 @@ figcaption{color:var(--muted);font-size:.9rem;margin-top:6px}
 .card-link{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--text)}
 .card-link:hover{border-color:var(--accent)}
 .card-link span{color:var(--muted);display:block;font-size:.95rem;margin-top:4px}
+
+pre{background:var(--code);border-radius:10px;padding:12px 14px;overflow-x:auto;margin:12px 0}
+pre code{background:none;padding:0}
+code{overflow-wrap:anywhere}
+pre code{overflow-wrap:normal}
+td,th{overflow-wrap:anywhere}
+h1{overflow-wrap:anywhere}

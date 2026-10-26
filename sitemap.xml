@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://qwemort.github.io/pure-guides/</loc><lastmod>2026-10-25</lastmod></url>
-<url><loc>https://qwemort.github.io/pure-guides/modheader-alternative.html</loc><lastmod>2026-10-25</lastmod></url>
+<url><loc>https://qwemort.github.io/pure-guides/</loc><lastmod>2026-10-26</lastmod></url>
+<url><loc>https://qwemort.github.io/pure-guides/modheader-alternative.html</loc><lastmod>2026-10-26</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/json-formatter.html</loc><lastmod>2026-10-25</lastmod></url>
+<url><loc>https://qwemort.github.io/pure-guides/cors-credentials-wildcard.html</loc><lastmod>2026-10-26</lastmod></url>
 </urlset>
