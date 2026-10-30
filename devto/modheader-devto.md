@@ -59,7 +59,7 @@ A bad header extension can do a lot of damage. Whatever you choose, check:
 
 PureHeaders reads ModHeader JSON exports (the classic format and the newer "sections" format). The import is free.
 
-1. Install PureHeaders: [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj). Firefox is in review and Chrome is coming; the [original guide](https://qwemort.github.io/pure-guides/modheader-alternative.html) will be updated when they are live.
+1. Install PureHeaders: [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj) · [Firefox](https://addons.mozilla.org/firefox/addon/pureheaders-modify-headers/) · [Chrome](https://chromewebstore.google.com/detail/flplhcopkoiihcapihkljhjaminhpink).
 2. The welcome page opens with an **Import a JSON export** button. Later you can use **Import** at the bottom of the popup.
 3. Pick the file from step 1. Before anything is saved you see what is in the file and what did not carry over. Imported profiles are added next to yours; nothing is replaced.
 4. Add the sites the rules should work on. PureHeaders has access to no sites at install and asks for each site you add.
