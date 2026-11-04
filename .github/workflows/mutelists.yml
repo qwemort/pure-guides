@@ -1,0 +1,27 @@
+name: mutelists
+# Раз в неделю пересобирает страницы mute-list/ из готовых списков Pure Spoiler Shield (публичные исходники).
+on:
+  schedule:
+    - cron: '53 6 * * 1'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with: { repository: qwemort/pure-spoiler-shield, path: ext/shield }
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: node tools/gen-mutelists.mjs ext/shield/src/lib/words.js
+      - run: |
+          rm -rf ext
+          git config user.name "mutelists bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A mute-list sitemap.xml
+          git diff --cached --quiet && exit 0
+          git commit -m "mute lists: $(date -u +%F)"
+          git push
