@@ -12,6 +12,7 @@ if (!fs.existsSync(path.join(EXT, 'manifest.json'))) { console.error('нет --e
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..'); const OUT = path.join(ROOT, 'media'); fs.mkdirSync(OUT, { recursive: true });
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'rm-'));
 const W = 1080, H = 1920;
+const tLaunch = Date.now(); // запись видео начинается вместе с первой вкладкой, то есть почти сразу после запуска
 const ctx = await chromium.launchPersistentContext(fs.mkdtempSync(path.join(os.tmpdir(), 'rp-')), {
   channel: 'chromium', headless: true, viewport: { width: W, height: H }, locale: 'en-US', colorScheme: 'dark',
   recordVideo: { dir: tmp, size: { width: W, height: H } },
@@ -28,7 +29,6 @@ const setOn = (on) => sw.evaluate(async ([on, preset]) => {
 await setOn(false);
 
 const p = ctx.pages()[0] || await ctx.newPage();
-const t0 = Date.now();
 await p.goto('https://www.youtube.com/results?search_query=' + encodeURIComponent(query), { waitUntil: 'domcontentloaded', timeout: 45000 });
 await p.waitForTimeout(8000);
 const txt = await p.evaluate(() => document.body ? document.body.innerText.slice(0, 2000) : '');
@@ -41,7 +41,7 @@ const overlay = (show) => p.evaluate(([show, cap]) => {
   let o = document.getElementById('__cap');
   if (!show) { if (o) o.remove(); return; }
   o = document.createElement('div'); o.id = '__cap'; o.textContent = cap;
-  Object.assign(o.style, { position: 'fixed', left: '0', right: '0', top: '22%', height: '56%', zIndex: 2147483647, display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '0 40px',
+  Object.assign(o.style, { position: 'fixed', left: '0', right: '0', top: '8.5%', bottom: '0', zIndex: 2147483647, display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '0 40px',
     background: 'rgba(10,10,14,.9)', color: '#fff', font: '800 34px/1.2 system-ui,-apple-system,Segoe UI,Roboto,sans-serif' });
   document.documentElement.appendChild(o);
 }, [show, cap]);
@@ -51,7 +51,7 @@ const brand = () => p.evaluate(() => {
   document.documentElement.appendChild(b);
 });
 await overlay(true); await brand();
-const tStart = (Date.now() - t0) / 1000;
+const tStart = (Date.now() - tLaunch) / 1000 + 0.25; // с запасом: лучше потерять кадр, чем показать открытую ленту
 await p.waitForTimeout(900);
 await overlay(false); await setOn(true);
 await p.waitForTimeout(3200);
@@ -60,7 +60,7 @@ await p.screenshot({ path: path.join(OUT, `${slug}-after.png`) });
 await p.waitForTimeout(500);
 const vid = p.video(); await ctx.close(); const webm = await vid.path();
 // обрезаем загрузку страницы: ролик начинается с подписи
-execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-ss', String(Math.max(0, tStart - 0.15).toFixed(2)), '-i', webm, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', path.join(OUT, `${slug}.mp4`)]);
+execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-ss', String(tStart.toFixed(2)), '-i', webm, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', path.join(OUT, `${slug}.mp4`)]);
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(`размыто элементов: ${veiled}; media/${slug}.mp4, media/${slug}-after.png`);
 if (!veiled) process.exit(3);
