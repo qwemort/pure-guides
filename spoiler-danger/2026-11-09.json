@@ -3,51 +3,9 @@
  "items": [
   {
    "kind": "series",
-   "title": "FBI",
-   "day": "Monday",
-   "note": "season 9, episode 6"
-  },
-  {
-   "kind": "series",
-   "title": "CIA",
-   "day": "Monday",
-   "note": "season 2, episode 6"
-  },
-  {
-   "kind": "series",
-   "title": "Murdoch Mysteries",
-   "day": "Monday",
-   "note": "season 20, episode 6"
-  },
-  {
-   "kind": "series",
-   "title": "NCIS",
-   "day": "Tuesday",
-   "note": "season 24, episode 5"
-  },
-  {
-   "kind": "series",
-   "title": "NCIS: Origins",
-   "day": "Tuesday",
-   "note": "season 3, episode 5"
-  },
-  {
-   "kind": "series",
    "title": "VisionQuest",
    "day": "Tuesday",
    "note": "season 1, episode 8"
-  },
-  {
-   "kind": "series",
-   "title": "Scrubs",
-   "day": "Wednesday",
-   "note": "season 2, episode 8"
-  },
-  {
-   "kind": "series",
-   "title": "Chicago Med",
-   "day": "Wednesday",
-   "note": "season 12, episode 6"
   },
   {
    "kind": "anime",
@@ -56,10 +14,22 @@
    "note": "episode 7"
   },
   {
+   "kind": "series",
+   "title": "The Lord of the Rings: The Rings of Power",
+   "day": "Wednesday",
+   "note": "season 3, full drop"
+  },
+  {
    "kind": "anime",
    "title": "Black Clover Season 2",
    "day": "Saturday",
    "note": "episode 7"
+  },
+  {
+   "kind": "series",
+   "title": "Georgie & Mandy's First Marriage",
+   "day": "Thursday",
+   "note": "season 3, episode 6"
   },
   {
    "kind": "anime",
@@ -68,16 +38,34 @@
    "note": "episode 1220"
   },
   {
+   "kind": "series",
+   "title": "Fire Country",
+   "day": "Friday",
+   "note": "season 5, episode 6"
+  },
+  {
    "kind": "anime",
    "title": "The Exiled Heavy Knight Knows How to Game the System",
    "day": "Thursday",
    "note": "episode 20"
   },
   {
+   "kind": "series",
+   "title": "The Institute",
+   "day": "Sunday",
+   "note": "season 2, episode 2"
+  },
+  {
    "kind": "anime",
    "title": "Overgeared",
    "day": "Sunday",
    "note": "episode 8"
+  },
+  {
+   "kind": "series",
+   "title": "The Gilded Age",
+   "day": "Sunday",
+   "note": "season 4, episode 3"
   },
   {
    "kind": "anime",
