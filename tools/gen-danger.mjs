@@ -93,7 +93,7 @@ async function series() {
   }
   // Спойлеры важны для сюжетных сериалов, а не для процедуралов (FBI, NCIS, Chicago Med):
   // берём тайтлы из списков Shield, премьеры сезонов и короткие сюжетные сериалы, без «дело недели».
-  const PROC = ['Crime', 'Medical', 'Legal'];
+  const PROC = ['Crime', 'Medical', 'Legal', 'Comedy'];
   const ok = (x) => shieldPage(x.title) || ((x.score >= 80) && (x.eps.includes(1) || x.season <= 5) && !x.genres.some((g) => PROC.includes(g)));
   return [...by.values()].filter(ok).sort((a, b) => (shieldPage(b.title) ? 1e6 : 0) + b.score - (shieldPage(a.title) ? 1e6 : 0) - a.score).slice(0, 6).map((x) => {
     const eps = x.eps.filter((n) => n != null);
