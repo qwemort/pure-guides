@@ -83,4 +83,6 @@ jobs:
             echo
             echo "Если текст звучит не как ты — ответь тут, поправим шаблоны. Issue можно закрыть."
           } > out/issue.md
-          gh issue create --title "Неделя $(jq -r .slug out/post.json): тексты для Threads и X" --body-file out/issue.md
+          T="Неделя $(jq -r .slug out/post.json): тексты для Threads и X"
+          N=$(gh issue list --state open --search "in:title $(jq -r .slug out/post.json)" --json number -q '.[0].number')
+          if [ -n "$N" ]; then gh issue edit "$N" --body-file out/issue.md; else gh issue create --title "$T" --body-file out/issue.md; fi

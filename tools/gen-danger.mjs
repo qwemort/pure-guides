@@ -85,13 +85,17 @@ async function series() {
       for (const e of list) {
         const s = e.show || (e._embedded && e._embedded.show);
         if (!s || s.language !== 'English' || !['Scripted', 'Animation'].includes(s.type)) continue;
-        const it = by.get(s.id) || { kind: 'series', title: s.name, score: s.weight || 0, source: s.url, eps: [], when: new Date(d + 'T12:00:00Z'), season: e.season };
+        const it = by.get(s.id) || { kind: 'series', title: s.name, score: s.weight || 0, source: s.url, eps: [], when: new Date(d + 'T12:00:00Z'), season: e.season, genres: s.genres || [], web: url.includes('/web') };
         it.eps.push(e.number); by.set(s.id, it);
       }
       await new Promise((r) => setTimeout(r, 400));
     }
   }
-  return [...by.values()].filter((x) => x.score >= 60).sort((a, b) => b.score - a.score).slice(0, 8).map((x) => {
+  // Спойлеры важны для сюжетных сериалов, а не для процедуралов (FBI, NCIS, Chicago Med):
+  // берём тайтлы из списков Shield, премьеры сезонов и короткие сюжетные сериалы, без «дело недели».
+  const PROC = ['Crime', 'Medical', 'Legal'];
+  const ok = (x) => shieldPage(x.title) || ((x.score >= 80) && (x.eps.includes(1) || x.season <= 5) && !x.genres.some((g) => PROC.includes(g)));
+  return [...by.values()].filter(ok).sort((a, b) => (shieldPage(b.title) ? 1e6 : 0) + b.score - (shieldPage(a.title) ? 1e6 : 0) - a.score).slice(0, 6).map((x) => {
     const eps = x.eps.filter((n) => n != null);
     let note = eps.includes(1) ? `season ${x.season} premiere` : eps.length > 1 ? `${eps.length} episodes` : eps.length ? `season ${x.season}, episode ${eps[0]}` : 'new episode';
     if (eps.length > 3 && eps.includes(1)) note = `season ${x.season}, full drop`;
@@ -129,7 +133,9 @@ const words = (it) => {
   const end = it.kind === 'game' ? ['ending', 'leak'] : ['finale', 'ending', 'leak'];
   return [`${t} spoiler`, `${t} spoilers`, ...end.map((w) => `${t} ${w}`)];
 };
-const all = [...data.games, ...data.series, ...data.anime];
+// чередуем сериалы и аниме, чтобы в карточку и пост попали оба
+const mix = []; for (let i = 0; i < 8; i++) { if (data.series[i]) mix.push(data.series[i]); if (data.anime[i]) mix.push(data.anime[i]); }
+const all = [...data.games, ...mix];
 const label = { game: 'Game', series: 'Series', anime: 'Anime' };
 const row = (it, i) => {
   const mute = it.mute || shieldPage(it.title) || (it.alt && shieldPage(it.alt));
@@ -276,7 +282,7 @@ const T = [
   `${first.title} виходить ${ua(first.when)}. хто дивиться пізніше, тримайте слова щоб не наспойлерили ${url}`,
   `кожен понеділок збираю що виходить за тиждень і що замьютити. цього разу ${t3}. ${url}\nчогось нема? пишіть, додам`,
   `якщо ${first.title} в тебе не в день виходу, цей тиждень мінне поле. що мьютити: ${url}`,
-  `на ютубі і реддіті мьюту по словах взагалі нема, тому я колись зробив розширення яке блюрить спойлери. а для threads ось слова на цей тиждень (${t3}): ${url}`,
+  `на ютубі і реддіті мьюту по словах взагалі нема, тому я зробив розширення яке блюрить спойлери. а для threads ось слова на цей тиждень (${t3}): ${url}`,
   `що виходить цього тижня: ${all.slice(0, 5).map((x) => x.title).join(', ')}. слова для мьюту по кожному тут ${url}\nале спойлер на картинці не зловить жоден мьют, тому обережно`,
 ];
 const wk = Math.floor(from.getTime() / (7 * 864e5));
