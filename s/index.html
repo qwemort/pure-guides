@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spoiler link: share a spoiler without spoiling anyone</title>
+<meta name="description" content="Paste a spoiler, get a link. People see a blurred text and choose to reveal it. Works on X, Threads, Instagram, YouTube comments. Nothing is stored anywhere.">
+<link rel="canonical" href="https://qwemort.github.io/pure-guides/s/">
+<link rel="stylesheet" href="../style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pure guides">
+<meta property="og:title" content="🛡 Spoiler inside. Tap to reveal">
+<meta property="og:description" content="Someone hid a spoiler behind this link. You choose whether to see it.">
+<meta property="og:image" content="https://qwemort.github.io/pure-guides/img/spoiler-link.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:16px 0}
+label{display:block;font-weight:600;margin:12px 0 6px}
+input,textarea{width:100%;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit}
+textarea{min-height:120px;resize:vertical}
+.btn{background:var(--accent);color:#06281b;border:0;border-radius:10px;padding:10px 16px;font:inherit;font-weight:700;cursor:pointer;margin:12px 8px 0 0}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.out{display:none}.out.on{display:block}
+.out input{font-size:.95rem}
+.about{font-size:1.25rem;font-weight:700;margin:6px 0 10px}
+.veil{position:relative;border-radius:14px;overflow:hidden;min-height:110px;cursor:pointer;user-select:none}
+.veil .txt{padding:18px;white-space:pre-wrap;overflow-wrap:anywhere;filter:blur(9px);transition:filter .25s}
+.veil::after{content:attr(data-label);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px 16px;white-space:pre-line;
+  background:linear-gradient(135deg,rgba(255,61,139,.30),rgba(255,138,61,.26) 55%,rgba(45,226,230,.18)),rgba(24,10,40,.62);
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:#fff;font:600 16px/1.35 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;text-shadow:0 1px 2px rgba(0,0,0,.45);box-shadow:inset 0 0 0 1px rgba(255,255,255,.16)}
+.veil.armed::after{background:linear-gradient(135deg,rgba(255,61,139,.55),rgba(255,138,61,.5)),rgba(24,10,40,.55)}
+.veil.open{cursor:auto;user-select:text}.veil.open::after{display:none}.veil.open .txt{filter:none}
+.cta{border-left:4px solid var(--accent)}
+.hidden{display:none}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:8px 14px;opacity:0;transition:opacity .2s;pointer-events:none}#toast.on{opacity:1}
+</style>
+</head>
+<body>
+<main>
+<a class="brand" href="../">Pure guides</a>
+
+<!-- просмотр: ссылка открыта с #… -->
+<section id="view" class="hidden">
+<h1 data-t="v_h">Someone hid a spoiler here</h1>
+<p class="muted" data-t="v_p">You choose whether to see it. Click twice to reveal.</p>
+<div class="about" id="about"></div>
+<div class="veil" id="veil"><div class="txt" id="txt"></div></div>
+<div class="note cta"><strong data-t="cta_h">Tired of spoilers in your feed?</strong> <span data-t="cta_p">Pure Spoiler Shield is a free browser extension that blurs spoilers for the games, series, films and anime you pick, on YouTube, Reddit and X. It runs locally, no account, no tracking.</span> <a id="store1" href="#" data-t="cta_a">Get it for Chrome</a>. <span class="muted" data-t="disc">Disclosure: I build it.</span></div>
+<p><a class="btn ghost" href="./" data-t="make_own">Make your own spoiler link</a></p>
+</section>
+
+<!-- создание -->
+<section id="make">
+<h1 data-t="m_h">Spoiler link: share a spoiler without spoiling anyone</h1>
+<p data-t="m_p">X, Threads, Instagram and YouTube comments have no spoiler tag. Paste your spoiler, get a link. People who open it see a blurred text and decide for themselves.</p>
+<div class="box">
+<label for="t" data-t="l_about">What is it about? (shown openly, no spoilers here)</label>
+<input id="t" maxlength="80" placeholder="GTA 6 ending" data-tp="ph_about">
+<label for="s" data-t="l_text">The spoiler</label>
+<textarea id="s" maxlength="2000" placeholder="..." ></textarea>
+<button class="btn" id="go" data-t="b_make">Make link</button>
+<div class="out" id="out">
+<label for="link" data-t="l_link">Your link</label>
+<input id="link" readonly>
+<button class="btn" id="copy" data-t="b_copy">Copy link</button><button class="btn ghost" id="share" data-t="b_share">Share</button><button class="btn ghost" id="test" data-t="b_test">Open it</button>
+</div>
+</div>
+<h2 data-t="h_how">How it works</h2>
+<ul>
+<li data-t="how1">The spoiler is stored inside the link itself, after the # sign. Browsers never send that part to any server, so it is not stored on this site or anywhere else.</li>
+<li data-t="how2">Link previews on X, Threads or Telegram show only "Spoiler inside", never the text.</li>
+<li data-t="how3">Anyone with the link can read it, so do not put private things there.</li>
+</ul>
+<div class="note cta"><strong data-t="cta_h">Tired of spoilers in your feed?</strong> <span data-t="cta_p">Pure Spoiler Shield is a free browser extension that blurs spoilers for the games, series, films and anime you pick, on YouTube, Reddit and X. It runs locally, no account, no tracking.</span> <a id="store2" href="#" data-t="cta_a">Get it for Chrome</a>. <span class="muted" data-t="disc">Disclosure: I build it.</span> <a href="../demo/" data-t="demo">See how it looks</a>.</div>
+</section>
+
+<footer>
+<p><a href="../">Pure guides</a> · <a href="../spoiler-danger/">Spoiler danger this week</a> · <a href="../mute-list/">Mute lists</a></p>
+<p data-t="foot">This page has no analytics, no cookies and no trackers.</p>
+</footer>
+</main>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+  var STORE='https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&utm_medium=spoilerlink';
+  var L={
+    uk:{v_h:'Тут хтось сховав спойлер',v_p:'Ти сам вирішуєш, чи дивитись. Натисни двічі, щоб показати.',cta_h:'Набридли спойлери в стрічці?',cta_p:'Pure Spoiler Shield — безкоштовне розширення для браузера, яке розмиває спойлери до ігор, серіалів, фільмів і аніме, які ти обереш, на YouTube, Reddit і X. Працює локально, без акаунта і без стеження.',cta_a:'Встановити для Chrome',disc:'Чесно: це розширення роблю я.',make_own:'Зробити своє спойлер-посилання',m_h:'Спойлер-посилання: поділись спойлером і нікому не зіпсуй',m_p:'В X, Threads, Instagram і коментарях YouTube немає спойлер-тегу. Встав спойлер, отримай посилання. Хто відкриє, побачить розмитий текст і сам вирішить.',l_about:'Про що це? (видно всім, без спойлерів)',ph_about:'Кінцівка GTA 6',l_text:'Спойлер',b_make:'Зробити посилання',l_link:'Твоє посилання',b_copy:'Скопіювати',b_share:'Поділитись',b_test:'Відкрити',h_how:'Як це працює',how1:'Спойлер зберігається в самому посиланні, після знака #. Браузер не відправляє цю частину на сервер, тож вона ніде не зберігається.',how2:'Прев’ю посилання в X, Threads чи Telegram показує тільки «Спойлер всередині», без тексту.',how3:'Прочитати може кожен, у кого є посилання, тож не пиши туди нічого приватного.',demo:'Подивитись, як це виглядає',foot:'Без аналітики, без cookies і трекерів.',label:'🛡 Приховано · {0}\nНатисни, щоб показати',confirm:'Натисни ще раз, щоб показати.\nМоже зіпсувати сюжет.',copied:'Скопійовано',spoiler:'спойлер',empty:'Спочатку встав спойлер',bad:'Посилання пошкоджене або обрізане'},
+    ru:{v_h:'Здесь кто-то спрятал спойлер',v_p:'Ты сам решаешь, смотреть ли. Нажми дважды, чтобы показать.',cta_h:'Надоели спойлеры в ленте?',cta_p:'Pure Spoiler Shield — бесплатное расширение для браузера, которое размывает спойлеры к играм, сериалам, фильмам и аниме, которые ты выберешь, на YouTube, Reddit и X. Работает локально, без аккаунта и без слежки.',cta_a:'Установить для Chrome',disc:'Честно: это расширение делаю я.',make_own:'Сделать свою спойлер-ссылку',m_h:'Спойлер-ссылка: поделись спойлером и никому не испорти',m_p:'В X, Threads, Instagram и комментариях YouTube нет спойлер-тега. Вставь спойлер, получи ссылку. Кто откроет, увидит размытый текст и сам решит.',l_about:'О чём это? (видно всем, без спойлеров)',ph_about:'Концовка GTA 6',l_text:'Спойлер',b_make:'Сделать ссылку',l_link:'Твоя ссылка',b_copy:'Скопировать',b_share:'Поделиться',b_test:'Открыть',h_how:'Как это работает',how1:'Спойлер хранится в самой ссылке, после знака #. Браузер не отправляет эту часть на сервер, так что она нигде не хранится.',how2:'Превью ссылки в X, Threads или Telegram показывает только «Спойлер внутри», без текста.',how3:'Прочитать может любой, у кого есть ссылка, так что не пиши туда ничего личного.',demo:'Посмотреть, как это выглядит',foot:'Без аналитики, без cookies и трекеров.',label:'🛡 Скрыто · {0}\nНажми, чтобы показать',confirm:'Нажми ещё раз, чтобы показать.\nМожет испортить сюжет.',copied:'Скопировано',spoiler:'спойлер',empty:'Сначала вставь спойлер',bad:'Ссылка повреждена или обрезана'},
+    pl:{v_h:'Ktoś ukrył tu spoiler',v_p:'Sam decydujesz, czy go zobaczyć. Kliknij dwa razy, aby pokazać.',cta_h:'Masz dość spoilerów w feedzie?',cta_p:'Pure Spoiler Shield to darmowe rozszerzenie przeglądarki, które rozmywa spoilery do wybranych gier, seriali, filmów i anime na YouTube, Reddicie i X. Działa lokalnie, bez konta i bez śledzenia.',cta_a:'Pobierz dla Chrome',disc:'Uczciwie: to rozszerzenie robię ja.',make_own:'Zrób własny link ze spoilerem',m_h:'Link ze spoilerem: podziel się spoilerem i nikomu nie zepsuj',m_p:'X, Threads, Instagram i komentarze YouTube nie mają tagu spoilera. Wklej spoiler, dostaniesz link. Kto go otworzy, zobaczy rozmyty tekst i sam zdecyduje.',l_about:'O czym to jest? (widoczne dla wszystkich, bez spoilerów)',ph_about:'Zakończenie GTA 6',l_text:'Spoiler',b_make:'Zrób link',l_link:'Twój link',b_copy:'Kopiuj',b_share:'Udostępnij',b_test:'Otwórz',h_how:'Jak to działa',how1:'Spoiler jest zapisany w samym linku, po znaku #. Przeglądarka nie wysyła tej części na serwer, więc nigdzie nie jest przechowywany.',how2:'Podgląd linku w X, Threads czy Telegramie pokazuje tylko „Spoiler w środku”, bez tekstu.',how3:'Każdy, kto ma link, może go przeczytać, więc nie wpisuj tam nic prywatnego.',demo:'Zobacz, jak to wygląda',foot:'Bez analityki, bez cookies i trackerów.',label:'🛡 Ukryte · {0}\nKliknij, aby pokazać',confirm:'Kliknij jeszcze raz, aby pokazać.\nMoże zepsuć fabułę.',copied:'Skopiowano',spoiler:'spoiler',empty:'Najpierw wklej spoiler',bad:'Link jest uszkodzony lub ucięty'}
+  };
+  var EN={label:'🛡 Hidden · {0}\nClick to show',confirm:'Click again to show.\nIt may spoil the story.',copied:'Copied',spoiler:'spoiler',empty:'Paste the spoiler first',bad:'This link is broken or cut off'};
+  var lang=(navigator.language||'en').slice(0,2); if(lang==='ua')lang='uk';
+  var D=L[lang]||{}; function tr(k){return D[k]||EN[k]||''}
+  if(L[lang]){document.documentElement.lang=lang;
+    document.querySelectorAll('[data-t]').forEach(function(e){var v=D[e.dataset.t];if(v)e.textContent=v});
+    document.querySelectorAll('[data-tp]').forEach(function(e){var v=D[e.dataset.tp];if(v)e.placeholder=v});}
+  document.getElementById('store1').href=STORE+'-view'; document.getElementById('store2').href=STORE+'-make';
+  var toast=document.getElementById('toast'),tt;
+  function say(m){toast.textContent=m;toast.className='on';clearTimeout(tt);tt=setTimeout(function(){toast.className=''},1400)}
+
+  // кодирование: JSON → UTF-8 → (deflate, если браузер умеет) → base64url. Формат: #1<z|p><данные>
+  function b64(u8){var s='';for(var i=0;i<u8.length;i++)s+=String.fromCharCode(u8[i]);return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')}
+  function unb64(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+  async function pipe(u8,T){var st=new Blob([u8]).stream().pipeThrough(new T('deflate-raw'));return new Uint8Array(await new Response(st).arrayBuffer())}
+  async function enc(obj){var u=new TextEncoder().encode(JSON.stringify(obj));
+    if(window.CompressionStream){try{var z=await pipe(u,CompressionStream);if(z.length<u.length)return '1z'+b64(z)}catch(e){}}
+    return '1p'+b64(u)}
+  async function dec(h){var m=h.charAt(1),u=unb64(h.slice(2));
+    if(m==='z'){if(!window.DecompressionStream)throw new Error('old browser');u=await pipe(u,DecompressionStream)}
+    return JSON.parse(new TextDecoder().decode(u))}
+
+  var hash=location.hash.slice(1);
+  if(hash&&hash.charAt(0)==='1'){
+    document.getElementById('make').classList.add('hidden');document.getElementById('view').classList.remove('hidden');
+    document.title='🛡 '+tr('spoiler');
+    dec(hash).then(function(o){
+      var about=String(o.a||'').slice(0,80), text=String(o.s||'').slice(0,2000);
+      document.getElementById('about').textContent=about;
+      document.getElementById('txt').textContent=text;
+      var v=document.getElementById('veil'); v.dataset.label=tr('label').replace('{0}',about||tr('spoiler'));
+      v.onclick=function(){
+        if(v.classList.contains('open'))return;
+        if(!v.classList.contains('armed')){v.classList.add('armed');v.dataset.label=tr('confirm');return}
+        v.classList.add('open');
+      };
+    }).catch(function(){document.getElementById('about').textContent=tr('bad')});
+    return;
+  }
+  var t=document.getElementById('t'),s=document.getElementById('s'),out=document.getElementById('out'),link=document.getElementById('link');
+  document.getElementById('go').onclick=async function(){
+    if(!s.value.trim()){say(tr('empty'));s.focus();return}
+    var o={s:s.value.trim().slice(0,2000)}; if(t.value.trim())o.a=t.value.trim().slice(0,80);
+    link.value=location.origin+location.pathname+'#'+await enc(o);
+    out.classList.add('on');link.select();
+  };
+  function copy(x){if(navigator.clipboard&&navigator.clipboard.writeText)return navigator.clipboard.writeText(x);link.select();try{document.execCommand('copy')}catch(e){}return Promise.resolve()}
+  document.getElementById('copy').onclick=function(){copy(link.value).then(function(){say(tr('copied'))})};
+  var sh=document.getElementById('share'); if(!navigator.share)sh.style.display='none';
+  sh.onclick=function(){navigator.share({title:'🛡 '+(t.value.trim()||tr('spoiler')),url:link.value}).catch(function(){})};
+  document.getElementById('test').onclick=function(){window.open(link.value,'_blank','noopener')};
+})();
+</script>
+</body>
+</html>

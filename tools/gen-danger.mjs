@@ -38,8 +38,9 @@ if (SRC && fs.existsSync(SRC)) {
 }
 const norm = (s) => String(s).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9а-яёіїєґ]+/g, ' ').trim();
 function shieldPage(title) {
-  const n = norm(title);
-  const p = LIB.find((x) => norm(x.label) === n || (x.game || []).some((g) => norm(g) === n));
+  const n = norm(title).replace(/ (season|part|cour) \d+$/, '').replace(/ \d+(st|nd|rd|th) season$/, '');
+  const has = (a, b) => a === b || (b.length >= 8 && (' ' + a + ' ').includes(' ' + b + ' '));
+  const p = LIB.find((x) => has(n, norm(x.label)) || (x.game || []).some((g) => has(n, norm(g))));
   if (!p) return null;
   return p.id === 'gta6' ? 'gta-6-mute-list.html' : `mute-list/${p.id}.html`;
 }
@@ -202,7 +203,8 @@ ${soonList.length ? `<h2>Coming soon</h2>\n<ul>${soonList.map((g) => `<li><stron
 <li><strong>Threads:</strong> Settings, Privacy, Hidden words.</li>
 <li><strong>YouTube and Reddit</strong> have no mute by words.</li>
 </ul>
-<div class="note"><strong>For YouTube and Reddit.</strong> I build a free browser extension, Pure Spoiler Shield, that blurs videos, posts and comments with spoiler words for the titles you pick, on YouTube, Reddit and X. It runs locally, no account, no tracking, <a href="https://github.com/qwemort/pure-spoiler-shield">source is public</a>. It reads text, so a spoiler only inside an image can slip through. <a href="${STORE}">Get it for Chrome</a>. Disclosure: I build it.</div>
+<div class="note"><strong>For YouTube and Reddit.</strong> I build a free browser extension, Pure Spoiler Shield, that blurs videos, posts and comments with spoiler words for the titles you pick, on YouTube, Reddit and X. It runs locally, no account, no tracking, <a href="https://github.com/qwemort/pure-spoiler-shield">source is public</a>. It reads text, so a spoiler only inside an image can slip through. <a href="${STORE}">Get it for Chrome</a> or <a href="../demo/">see the demo</a>. Disclosure: I build it.</div>
+<p>Need to talk about an ending without ruining it for others? Use a <a href="../s/">spoiler link</a>: people see a blurred text and choose to reveal it.</p>
 <p class="muted">Schedules: <a href="https://anilist.co/">AniList</a> (anime), <a href="https://www.tvmaze.com/">TVmaze</a> (series, CC BY-SA), games from the linked sources. Times shown for ${TZ}. Ranked by popularity on those sites, top 8. Not affiliated with any of the titles. Missing something? <a href="https://github.com/qwemort/pure-spoiler-shield/issues/new?template=title-request.yml">Request a list</a>.</p>
 <footer>
 <p><a href="./">All weeks</a> · <a href="../feed.xml">RSS</a> · <a href="../mute-list/">Mute lists</a> · <a href="../">Pure guides</a></p>
