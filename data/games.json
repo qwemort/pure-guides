@@ -1,3 +1,17 @@
 [
-  {"title": "GTA VI", "date": "2026-11-19", "platforms": "PS5, Xbox Series X|S", "source": "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/", "mute": "gta-6-mute-list.html"}
+ {
+  "title": "GTA VI",
+  "date": "2026-11-19",
+  "platforms": "PS5, Xbox Series X|S",
+  "source": "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/",
+  "mute": "gta-6-mute-list.html"
+ },
+ {
+  "kind": "movie",
+  "title": "The Hunger Games: Sunrise on the Reaping",
+  "date": "2026-11-20",
+  "platforms": "in cinemas",
+  "source": "https://www.tomsguide.com/entertainment/movies/sunrise-on-the-reaping-movie",
+  "mute": "mute-list/hunger-games-reaping.html"
+ }
 ]
