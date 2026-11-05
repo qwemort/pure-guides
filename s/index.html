@@ -32,12 +32,13 @@ textarea{min-height:120px;resize:vertical}
 .veil.open{cursor:auto;user-select:text}.veil.open::after{display:none}.veil.open .txt{filter:none}
 .cta{border-left:4px solid var(--accent)}
 .hidden{display:none}
+.langs{float:right;font-size:.9rem}.langs a{margin-left:8px;color:var(--muted);text-decoration:none}.langs a.on{color:var(--accent);font-weight:700}
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:8px 14px;opacity:0;transition:opacity .2s;pointer-events:none}#toast.on{opacity:1}
 </style>
 </head>
 <body>
 <main>
-<a class="brand" href="../">Pure guides</a>
+<a class="brand" href="../">Pure guides</a> <span class="langs" id="langs"></span>
 
 <!-- просмотр: ссылка открыта с #… -->
 <section id="view" class="hidden">
@@ -89,7 +90,10 @@ textarea{min-height:120px;resize:vertical}
     pl:{v_h:'Ktoś ukrył tu spoiler',v_p:'Sam decydujesz, czy go zobaczyć. Kliknij dwa razy, aby pokazać.',cta_h:'Masz dość spoilerów w feedzie?',cta_p:'Pure Spoiler Shield to darmowe rozszerzenie przeglądarki, które rozmywa spoilery do wybranych gier, seriali, filmów i anime na YouTube, Reddicie i X. Działa lokalnie, bez konta i bez śledzenia.',cta_a:'Pobierz dla Chrome',disc:'Uczciwie: to rozszerzenie robię ja.',make_own:'Zrób własny link ze spoilerem',m_h:'Link ze spoilerem: podziel się spoilerem i nikomu nie zepsuj',m_p:'X, Threads, Instagram i komentarze YouTube nie mają tagu spoilera. Wklej spoiler, dostaniesz link. Kto go otworzy, zobaczy rozmyty tekst i sam zdecyduje.',l_about:'O czym to jest? (widoczne dla wszystkich, bez spoilerów)',ph_about:'Zakończenie GTA 6',l_text:'Spoiler',b_make:'Zrób link',l_link:'Twój link',b_copy:'Kopiuj',b_share:'Udostępnij',b_test:'Otwórz',h_how:'Jak to działa',how1:'Spoiler jest zapisany w samym linku, po znaku #. Przeglądarka nie wysyła tej części na serwer, więc nigdzie nie jest przechowywany.',how2:'Podgląd linku w X, Threads czy Telegramie pokazuje tylko „Spoiler w środku”, bez tekstu.',how3:'Każdy, kto ma link, może go przeczytać, więc nie wpisuj tam nic prywatnego.',demo:'Zobacz, jak to wygląda',foot:'Bez analityki, bez cookies i trackerów.',label:'🛡 Ukryte · {0}\nKliknij, aby pokazać',confirm:'Kliknij jeszcze raz, aby pokazać.\nMoże zepsuć fabułę.',copied:'Skopiowano',spoiler:'spoiler',empty:'Najpierw wklej spoiler',bad:'Link jest uszkodzony lub ucięty'}
   };
   var EN={label:'🛡 Hidden · {0}\nClick to show',confirm:'Click again to show.\nIt may spoil the story.',copied:'Copied',spoiler:'spoiler',empty:'Paste the spoiler first',bad:'This link is broken or cut off'};
-  var lang=(navigator.language||'en').slice(0,2); if(lang==='ua')lang='uk';
+  var q=new URLSearchParams(location.search).get('lang');
+  var lang=(q||(navigator.language||'en')).slice(0,2).toLowerCase(); if(lang==='ua')lang='uk';
+  ['en','uk','ru','pl'].forEach(function(c){var a=document.createElement('a');a.textContent=c.toUpperCase();a.className=(c===lang||(c==='en'&&!L[lang]))?'on':'';
+    a.href=location.pathname+'?lang='+c+location.hash;document.getElementById('langs').appendChild(a)});
   var D=L[lang]||{}; function tr(k){return D[k]||EN[k]||''}
   if(L[lang]){document.documentElement.lang=lang;
     document.querySelectorAll('[data-t]').forEach(function(e){var v=D[e.dataset.t];if(v)e.textContent=v});
