@@ -3,9 +3,12 @@ name: demo-media
 on:
   workflow_dispatch:
     inputs:
-      title: { description: 'Тайтл, как в Shield (например: GTA VI, One Piece)', required: true }
-      kind: { description: 'game / series / movie / anime', required: true, default: 'game' }
-      caption: { description: 'Подпись сверху (мем), можно пусто', required: false }
+      source: { description: 'real = настоящий YouTube + настоящий Shield; demo = наша демо-лента', required: true, default: 'real' }
+      title: { description: 'demo: тайтл как в Shield (GTA VI, One Piece)', required: false, default: 'GTA VI' }
+      kind: { description: 'demo: game / series / movie / anime', required: false, default: 'game' }
+      preset: { description: 'real: id списка Shield (gta6, one-piece, rings-of-power...)', required: false, default: 'gta6' }
+      query: { description: 'real: что искать на YouTube', required: false, default: 'gta 6 ending leak' }
+      caption: { description: 'Подпись (мем)', required: false }
 permissions:
   contents: write
 concurrency: { group: demo-media, cancel-in-progress: false }
@@ -21,7 +24,11 @@ jobs:
           npm i --no-save --no-package-lock playwright@1.55.0
           npx playwright install --with-deps chromium
           which ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
-      - name: Render
+      - uses: actions/checkout@v5
+        if: inputs.source == 'real'
+        with: { repository: qwemort/pure-spoiler-shield, path: ext/shield }
+      - name: Render (demo)
+        if: inputs.source != 'real'
         env:
           T: ${{ inputs.title }}
           K: ${{ inputs.kind }}
@@ -30,12 +37,22 @@ jobs:
           python3 -m http.server 8765 >/dev/null 2>&1 &
           sleep 2
           node tools/gen-demo-media.mjs --title "$T" --kind "$K" --cap "$C"
+      - name: Render (real YouTube)
+        if: inputs.source == 'real'
+        env:
+          P: ${{ inputs.preset }}
+          Q: ${{ inputs.query }}
+          C: ${{ inputs.caption }}
+        run: |
+          python3 ext/shield/tools/build.py
+          node tools/gen-real-media.mjs --ext ext/shield/release/chrome --preset "$P" --query "$Q" ${C:+--cap "$C"}
+          rm -rf ext
       - name: Commit
         run: |
           git config user.name "demo-media bot"
           git config user.email "actions@users.noreply.github.com"
           git add media
           git diff --cached --quiet && exit 0
-          git commit -m "media: ${{ inputs.title }}"
+          git commit -m "media: ${{ inputs.source }} ${{ inputs.preset }} ${{ inputs.title }}"
           git pull --rebase -q origin main
           git push
