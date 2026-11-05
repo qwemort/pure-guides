@@ -78,12 +78,12 @@ ${JSON.stringify({ '@context': 'https://schema.org', '@graph': [
 <p><a class="cta" href="${STORE}${p.id}">Add Pure Spoiler Shield to Chrome, free</a><br><span class="muted">Disclosure: I build it. Firefox version is in review.</span></p>
 
 <h2>Try it right here</h2>
-<p class="muted">A made-up YouTube-style feed with no real spoilers. Switch the Shield on and watch the ${esc(L)} spoiler videos blur while trailers and everything else stay.</p>
+<p class="muted">A made-up YouTube-style feed with no real spoilers. Switch the Shield on and watch the ${esc(L)} spoiler videos blur while trailers and everything else stay (this is the "spoilers only" level).</p>
 <iframe class="demo" src="../demo/?t=${encodeURIComponent(L)}&amp;kind=${DEMO_KIND[p.kind] || 'game'}&amp;embed=1" title="Pure Spoiler Shield demo for ${esc(L)}" loading="lazy"></iframe>
 
 <h2>What the ${esc(L)} list hides</h2>
 <ul>
-<li><strong>${spell} spellings of the title</strong>${sc.length ? ` (${sc.join(', ')} script)` : ''}, combined with spoiler words like ending, finale, leak and twist, so plain news and trailers stay visible. A strict mode hides everything about the title.</li>
+<li><strong>${spell} spellings of the title</strong>${sc.length ? ` (${sc.join(', ')} script)` : ''}, ${p.kind === 'anime' || p.kind === 'show' ? `By default it hides <strong>everything</strong> about ${esc(L)} (for a running season almost any news can spoil); switch the level to "spoilers only" to keep plain news and trailers.` : `By default it hides spoiler talk (ending, leak, twist and the like) and keeps plain news and trailers; switch the level to "everything" to hide all of it.`}</li>
 ${names ? `<li><strong>${names} character and place names</strong> from the list. Names that belong only to ${esc(L)} are recognised on their own; names that are also ordinary words count only on pages that are already about ${esc(L)}.</li>` : ''}
 <li>Works on <strong>YouTube</strong> (home, search, Shorts, comments), <strong>Reddit</strong> (posts and comments) and <strong>X</strong>.</li>
 <li>To see a hidden item, click it twice. Nothing is deleted, only covered.</li>
