@@ -1,1 +1,1 @@
-{"threads_autopost": false, "_comment": "false = Action присылает черновик (issue), true = сам постит в Threads. Включать после 2 недель черновиков."}
+{"threads_autopost": false, "_comment": "threads_autopost: false = не постить. threads_text: false = не делать текст для Threads (решение Антона 05.11: посты только через мем, не «спрячь слова»).", "threads_text": false}

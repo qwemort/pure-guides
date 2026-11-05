@@ -75,8 +75,10 @@ jobs:
             echo "Threads: $(cat out/threads-result.txt 2>/dev/null || echo 'не подключён (нет THREADS_TOKEN)')"
             [ -f out/token-warn.txt ] && cat out/token-warn.txt
             echo
-            echo "### Текст для Threads"
-            echo '```'; jq -r .threads out/post.json; echo '```'
+            if [ "$(jq -r '.threads_text // true' spoiler-danger/config.json)" != "false" ]; then
+              echo "### Текст для Threads"
+              echo '```'; jq -r .threads out/post.json; echo '```'
+            fi
             echo "### Текст для X (с картинкой выше)"
             echo '```'; jq -r .x out/post.json; echo '```'
             echo
