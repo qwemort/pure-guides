@@ -112,6 +112,10 @@ jobs:
             echo
             echo "**Текст для Threads** (если постишь сам):"
             echo '```'; jq -r .threads out/index-post.json; echo '```'
+            if [ "$(jq -r .day out/index-post.json)" != "1" ]; then
+              echo "Если это твой первый пост про индекс — вот вводный вариант:"
+              echo '```'; jq -r .intro out/index-post.json; echo '```'
+            fi
             echo
             echo "Threads: $(cat out/threads-result.txt 2>/dev/null || echo 'нет данных')"
             cat out/social-result.txt 2>/dev/null

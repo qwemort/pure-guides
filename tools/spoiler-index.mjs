@@ -43,7 +43,7 @@ async function measure(q) {
     if (n >= N + 5) break;
     await p.mouse.wheel(0, 2400); await sleep(1600);
   }
-  await p.evaluate(() => window.scrollTo(0, 0)); await sleep(3500); // Shield успевает обработать догруженное
+  await p.evaluate(() => window.scrollTo(0, 0)); await sleep(5000); // Shield успевает обработать догруженное
   return p.evaluate(([sel, N]) => {
     const all = [...document.querySelectorAll(sel)].filter((el) => !el.parentElement.closest(sel) && !el.closest('ytd-ad-slot-renderer, ytd-in-feed-ad-layout-renderer'));
     const items = [];
@@ -62,10 +62,20 @@ async function measure(q) {
 }
 
 const per = [], details = [];
-for (const q of QUERIES) {
+// Выдача YouTube слегка «гуляет» от загрузки к загрузке (проверено 05.11: 1/37 и 7/37 с разницей в 10 минут).
+// Поэтому главный запрос меряем 3 раза и берём средний по доле спойлеров замер (медиану), остальные — 1 раз.
+async function sample(q) {
   let r = await measure(q);
   if (r.blocked) { await sleep(30000); r = await measure(q); }
   if (r.blocked) { console.error(`YouTube показал капчу/согласие на «${q}» — день пропущен`); await ctx.close(); process.exit(2); }
+  return r;
+}
+for (const [qi, q] of QUERIES.entries()) {
+  const runs = [];
+  for (let k = 0; k < (qi === 0 ? 3 : 1); k++) runs.push(await sample(q));
+  runs.sort((a, b) => a.spoilers / Math.max(1, a.cards) - b.spoilers / Math.max(1, b.cards));
+  const r = runs[Math.floor(runs.length / 2)];
+  if (runs.length > 1) console.log(`«${q}» замеры: ${runs.map((x) => `${x.spoilers}/${x.cards}`).join(', ')} → медиана`);
   per.push({ q, cards: r.cards, spoilers: r.spoilers });
   details.push({ q, items: r.items });
   console.log(`«${q}»: ${r.spoilers} из ${r.cards}`);

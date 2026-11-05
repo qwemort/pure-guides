@@ -18,26 +18,26 @@ const fmtDate = (d, lang) => new Date(d + 'T12:00:00Z').toLocaleDateString(lang 
 const L = {
   uk: {
     title: 'ІНДЕКС СПОЙЛЕРІВ', day: `день ${day}`, lead: 'вбиваєш на YouTube просто',
-    of: (s, n) => `${s} з ${n}`, unit: 'перших відео вже зі спойлерами',
-    q: 'інші запити', total: 'унікальних спойлерних відео по всіх запитах', chart: 'як змінюється',
+    of: (s, n) => `${s} з ${n}`, unit: 'перших відео вже зі спойлерами*',
+    q: 'інші запити', total: 'унікальних спойлерних відео по всіх запитах', chart: 'як змінюється «gta 6»',
     left: dLeft > 0 ? `до релізу ${dLeft} дн.` : dLeft === 0 ? 'сьогодні реліз' : `після релізу ${-dLeft} дн.`,
-    foot: 'рахує бот щодня · YouTube без логіну, США', lq: '«', rq: '»',
+    foot: '* так їх бачить Pure Spoiler Shield · рахує бот щодня · YouTube без логіну, США', lq: '«', rq: '»',
   },
   en: {
     title: 'SPOILER INDEX', day: `day ${day}`, lead: 'search YouTube for just',
-    of: (s, n) => `${s} of ${n}`, unit: 'top videos already carry spoilers',
-    q: 'other searches', total: 'unique spoiler videos across all searches', chart: 'trend',
+    of: (s, n) => `${s} of ${n}`, unit: 'top videos already carry spoilers*',
+    q: 'other searches', total: 'unique spoiler videos across all searches', chart: 'trend for "gta 6"',
     left: dLeft > 0 ? `${dLeft} days to release` : dLeft === 0 ? 'release day' : `${-dLeft} days after release`,
-    foot: 'counted daily by a bot · YouTube, no login, US', lq: '"', rq: '"',
+    foot: '* as Pure Spoiler Shield sees them · counted daily by a bot · YouTube, no login, US', lq: '"', rq: '"',
   },
 };
 
 function chart(lang) {
   const W = 920, Ht = 330, pad = 34;
-  const pts = H.slice(-21); const max = Math.max(4, ...pts.map((x) => x.unique_spoilers)) * 1.3; // запас сверху для подписи
+  const pts = H.slice(-21); const max = Math.max(4, ...pts.map((x) => x.main.spoilers)) * 1.3; // запас сверху для подписи
   const x = (i) => pts.length === 1 ? W / 2 : pad + (i * (W - 2 * pad)) / (pts.length - 1);
   const y = (v) => Ht - pad - (v / max) * (Ht - 2 * pad);
-  const line = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.unique_spoilers).toFixed(1)}`).join(' ');
+  const line = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.main.spoilers).toFixed(1)}`).join(' ');
   const area = pts.length > 1 ? `${line} L${x(pts.length - 1).toFixed(1)},${Ht - pad} L${x(0).toFixed(1)},${Ht - pad} Z` : '';
   const ri = pts.findIndex((p) => p.date >= RELEASE);
   const rel = ri > 0 ? `<line x1="${x(ri)}" x2="${x(ri)}" y1="${pad - 10}" y2="${Ht - pad}" stroke="#ffcc4d" stroke-dasharray="6 6" stroke-width="2"/><text x="${x(ri) + 8}" y="${pad}" fill="#ffcc4d" font-size="20" font-weight="700">${lang === 'uk' ? 'реліз' : 'release'}</text>` : '';
@@ -48,8 +48,8 @@ function chart(lang) {
     ${area ? `<path d="${area}" fill="rgba(255,90,95,.16)"/>` : ''}
     ${pts.length > 1 ? `<path d="${line}" fill="none" stroke="#ff5a5f" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>` : ''}
     ${rel}
-    <circle cx="${x(pts.length - 1)}" cy="${y(last.unique_spoilers)}" r="10" fill="#ff5a5f"/>
-    <text x="${x(pts.length - 1) + (pts.length === 1 ? 0 : -16)}" y="${y(last.unique_spoilers) - 20}" fill="#fff" font-size="28" font-weight="800" text-anchor="${pts.length === 1 ? 'middle' : 'end'}">${last.unique_spoilers}</text>
+    <circle cx="${x(pts.length - 1)}" cy="${y(last.main.spoilers)}" r="10" fill="#ff5a5f"/>
+    <text x="${x(pts.length - 1) + (pts.length === 1 ? 0 : -16)}" y="${y(last.main.spoilers) - 20}" fill="#fff" font-size="28" font-weight="800" text-anchor="${pts.length === 1 ? 'middle' : 'end'}">${last.main.spoilers}</text>
     ${labels}
   </svg>`;
 }
@@ -120,7 +120,8 @@ function texts() {
     uk = `індекс спойлерів gta 6, день ${day}\n\n«gta 6» на ютубі: ${m.spoilers} з ${m.cards} відео зі спойлерами (вчора ${P.main.spoilers})\n${left}\n\n${mood}`;
     en = `gta 6 spoiler index, day ${day}\n\n"gta 6" on youtube: ${m.spoilers} of ${m.cards} videos with spoilers (yesterday ${P.main.spoilers})\n${leftEn}\n\n${moodEn}`;
   }
-  return { uk, en };
+  const intro = `зробив бота, який щодня вбиває «gta 6» на ютубі і рахує спойлери. щоб не робити це самому\n\nсьогодні: ${m.spoilers} з ${m.cards} перших відео вже зі спойлерами\n${left}\n\nзавтра порахує знову. подивимось, як воно росте`;
+  return { uk, en, intro };
 }
 
 // ---------------------------------------------------------------- страница (для поиска и ИИ-помощников: открытые числа и метод)
@@ -184,5 +185,5 @@ await b.close();
 for (const f of fs.readdirSync(DIR)) { const m = /^(\d{4}-\d{2}-\d{2})-(uk|en)\.png$/.exec(f); if (m && Date.parse(E.date) - Date.parse(m[1]) > 45 * 864e5) fs.rmSync(path.join(DIR, f)); }
 fs.writeFileSync(path.join(DIR, 'index.html'), page());
 const T = texts();
-fs.writeFileSync(path.join(ROOT, 'out', 'index-post.json'), JSON.stringify({ slug: E.date, day, url: `${BASE}spoiler-index/`, threads: T.uk, en: T.en, image: `${BASE}spoiler-index/${E.date}-uk.png`, image_en: `${BASE}spoiler-index/${E.date}-en.png` }, null, 1));
+fs.writeFileSync(path.join(ROOT, 'out', 'index-post.json'), JSON.stringify({ slug: E.date, day, url: `${BASE}spoiler-index/`, threads: T.uk, intro: T.intro, en: T.en, image: `${BASE}spoiler-index/${E.date}-uk.png`, image_en: `${BASE}spoiler-index/${E.date}-en.png` }, null, 1));
 console.log(`день ${day}: ${E.main.spoilers}/${E.main.cards}, уникальных ${E.unique_spoilers}; ${T.uk.split('\n')[0]}`);
