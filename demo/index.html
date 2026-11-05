@@ -45,6 +45,8 @@ body.rec main{max-width:none;padding:0 18px}
 body.rec .feed{grid-template-columns:1fr 1fr;gap:14px;margin:0}
 body.rec .th{font-size:19px}
 body.rec .tt{font-size:14px}
+body.embed main>.brand,body.embed main>h1,body.embed main>p,body.embed main>.note,body.embed footer{display:none!important}
+body.embed main{padding:12px 14px}
 #cap{padding:26px 18px 16px;text-align:center}
 #cap .c1{font:800 30px/1.15 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--text)}
 #cap .c2{margin-top:12px}
@@ -107,6 +109,7 @@ body.rec .tt{font-size:14px}
     V=[];TPL.forEach(function(x,i){V.push({t:T,sp:x[0],title:x[1].replace('%T',T),th:x[2],ch:CH[i],views:VW[i],d:DU[i],c:C[i]});if(i===1)V.push(NEU[0]);if(i===4)V.push(NEU[1]);});
     picks={};picks[T]=true;
   }
+  if(Q.get('embed')==='1')document.body.classList.add('embed');
   if(REC){document.body.classList.add('rec');on=false;
     var cap=document.createElement('div');cap.id='cap';cap.innerHTML='<div class="c1"></div><div class="c2"><span id="st">Shield: OFF</span></div>';
     var ft=document.createElement('div');ft.id='brand';ft.innerHTML='<img src="../img/spoilershield.png" alt=""> Pure Spoiler Shield · free for Chrome';document.body.appendChild(ft);

@@ -17,11 +17,12 @@ jobs:
       - uses: actions/setup-node@v5
         with: { node-version: '22' }
       - run: node tools/gen-mutelists.mjs ext/shield/src/lib/words.js
+      - run: node tools/gen-block.mjs ext/shield/src/lib/words.js
       - run: |
           rm -rf ext
           git config user.name "mutelists bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A mute-list sitemap.xml
+          git add -A mute-list block sitemap.xml
           git diff --cached --quiet && exit 0
           git commit -m "mute lists: $(date -u +%F)"
           git pull --rebase -q origin main
