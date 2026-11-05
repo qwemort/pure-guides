@@ -386,6 +386,9 @@ const T = [
 const wk = Math.floor(from.getTime() / (7 * 864e5));
 let threads = T[wk % T.length];
 if ([...threads].length > 480) threads = T[1];
+// люди не знают, где в Threads прятать слова: говорим прямо
+const HOW = '\n\nде ховати: налаштування → конфіденційність → приховані слова';
+if ([...(threads + HOW)].length <= 490) threads += HOW;
 const x = `Spoiler danger this week: ${t3}. Copy-ready words to mute, no spoilers on the page: ${url}`;
 fs.writeFileSync(path.join(OUT, 'post.json'), JSON.stringify({ slug: SLUG, url, image: `${BASE}spoiler-danger/${SLUG}.png`, threads, x }, null, 1));
 console.log(`week ${SLUG}: ${data.games.length} games, ${data.series.length} series, ${data.anime.length} anime`);
