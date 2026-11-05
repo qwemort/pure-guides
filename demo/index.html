@@ -63,7 +63,7 @@ body.embed main{padding:12px 14px}
 <p>A YouTube-style feed with <strong>made-up videos</strong> (no real spoilers here). Pick what you have not finished yet and watch the spoiler videos blur, while trailers, guides and everything else stay. Click a blurred card twice to see it.</p>
 
 <div class="bar" id="picks"></div>
-<div class="bar"><span class="count" id="count"></span><span class="sw">Shield <button id="sw" class="on" aria-label="Shield on or off" aria-pressed="true"></button></span></div>
+<div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="Shield on or off" aria-pressed="true"></button></span></div>
 <div class="feed" id="feed"></div>
 
 <div class="note cta"><strong>That is the whole idea.</strong> Pure Spoiler Shield does this on the real YouTube (home, search, Shorts, comments), on Reddit and on X, for 35 ready-made titles in 13 languages, plus 3 of your own. Free; Pro is a $5 one-time purchase. It runs locally, no account, no tracking, <a href="https://github.com/qwemort/pure-spoiler-shield">source is public</a>. It reads text, so a spoiler only inside a thumbnail image can slip through. <a href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Get it for Chrome</a>. Disclosure: I build it.</div>
@@ -109,7 +109,11 @@ body.embed main{padding:12px 14px}
     V=[];TPL.forEach(function(x,i){V.push({t:T,sp:x[0],title:x[1].replace('%T',T),th:x[2],ch:CH[i],views:VW[i],d:DU[i],c:C[i]});if(i===1)V.push(NEU[0]);if(i===4)V.push(NEU[1]);});
     picks={};picks[T]=true;
   }
-  if(Q.get('embed')==='1')document.body.classList.add('embed');
+  var EMBED=Q.get('embed')==='1';
+  if(EMBED){document.body.classList.add('embed');on=false;document.getElementById('sw').classList.remove('on');
+    // на страницах «How to block…»: сначала опасная лента, через секунду Shield сам включается
+    setTimeout(function(){on=true;var b=document.getElementById('sw');b.classList.add('on');b.setAttribute('aria-pressed',true);draw();
+      var h=document.getElementById('hint');if(h)h.textContent='try the switch →';},1100);}
   if(REC){document.body.classList.add('rec');on=false;
     var cap=document.createElement('div');cap.id='cap';cap.innerHTML='<div class="c1"></div><div class="c2"><span id="st">Shield: OFF</span></div>';
     var ft=document.createElement('div');ft.id='brand';ft.innerHTML='<img src="../img/spoilershield.png" alt=""> Pure Spoiler Shield · free for Chrome';document.body.appendChild(ft);
