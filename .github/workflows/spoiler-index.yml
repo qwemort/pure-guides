@@ -1,0 +1,124 @@
+name: spoiler-index
+# «Индекс спойлеров GTA 6»: каждый день бот открывает настоящий YouTube (без логина, США), вбивает
+# одни и те же запросы и считает, сколько из первых 40 видео настоящий Pure Spoiler Shield закрыл бы.
+# → data/spoiler-index.json (только числа), карточки spoiler-index/*.png, страница spoiler-index/,
+# комментарий в issue «Индекс спойлеров» с картинкой и текстом для Антона,
+# публикация в Threads / Telegram / Bluesky — ТОЛЬКО если включено в spoiler-index/config.json.
+# Если YouTube показал капчу — день пропускается, ничего не пишется и не публикуется.
+on:
+  schedule:
+    - cron: '41 15 * * *'   # 16:41 Варшава, 17:41 Киев — вечером, когда люди в телефоне
+  workflow_dispatch:
+    inputs:
+      post: { description: 'Публиковать сейчас (по config.json)? false = только замер и issue', required: false, default: 'false' }
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: spoiler-index, cancel-in-progress: false }
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with: { repository: qwemort/pure-spoiler-shield, path: ext/shield }
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Setup
+        run: |
+          npm i --no-save --no-package-lock playwright@1.55.0
+          npx playwright install --with-deps chromium
+          python3 ext/shield/tools/build.py >/dev/null
+      - name: Measure YouTube
+        id: m
+        run: |
+          set +e
+          node tools/spoiler-index.mjs --ext ext/shield/release/chrome --n 40
+          c=$?
+          set -e
+          if [ $c -eq 2 ]; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "::warning::YouTube не дал замерить — день пропущен"; exit 0; fi
+          exit $c
+      - name: Titles for checking (artifact, not committed — they are spoilers)
+        if: steps.m.outputs.skip != '1'
+        uses: actions/upload-artifact@v4
+        with: { name: index-details, path: out/index-details.json, retention-days: 3 }
+      - name: Card, page, texts
+        if: steps.m.outputs.skip != '1'
+        run: node tools/spoiler-index-card.mjs
+      - name: Commit
+        if: steps.m.outputs.skip != '1'
+        run: |
+          rm -rf ext
+          git config user.name "spoiler-index bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/spoiler-index.json spoiler-index sitemap.xml
+          git diff --cached --quiet || { git commit -m "spoiler index: $(jq -r .slug out/index-post.json)"; git pull --rebase -q origin main; git push; }
+      - name: Ping search engines (IndexNow)
+        if: steps.m.outputs.skip != '1'
+        continue-on-error: true
+        env: { K: 658113910c13cdd1724ac74e4449ac14 }
+        run: |
+          curl -sS -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json' \
+            -d "{\"host\":\"qwemort.github.io\",\"key\":\"$K\",\"keyLocation\":\"https://qwemort.github.io/pure-guides/$K.txt\",\"urlList\":[\"https://qwemort.github.io/pure-guides/spoiler-index/\"]}" \
+            -o /dev/null -w "IndexNow: %{http_code}\n"
+      - name: Threads
+        if: steps.m.outputs.skip != '1'
+        continue-on-error: true
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" -o "${{ inputs.post }}" = "true" ] && [ "$(jq -r .threads_autopost spoiler-index/config.json)" = "true" ]; then
+            node tools/post-threads.mjs --post out/index-post.json --publish
+          else node tools/post-threads.mjs --post out/index-post.json; fi
+      - name: Save refreshed Threads token
+        if: steps.m.outputs.skip != '1'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          [ -f out/new-token.txt ] || exit 0
+          echo "::add-mask::$(cat out/new-token.txt)"
+          [ -n "$GH_TOKEN" ] || exit 0
+          gh secret set THREADS_TOKEN --repo ${{ github.repository }} < out/new-token.txt
+      - name: Telegram / Bluesky
+        if: steps.m.outputs.skip != '1'
+        continue-on-error: true
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: |
+          F=""
+          if [ "${{ github.event_name }}" = "schedule" -o "${{ inputs.post }}" = "true" ]; then
+            [ "$(jq -r .telegram_autopost spoiler-index/config.json)" = "true" ] && F="$F --tg"
+            [ "$(jq -r .bluesky_autopost spoiler-index/config.json)" = "true" ] && F="$F --bsky"
+          fi
+          node tools/post-social.mjs --post out/index-post.json $F
+      - name: Issue for Anton
+        if: steps.m.outputs.skip != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          IMG=$(jq -r .image out/index-post.json)
+          for i in $(seq 1 20); do curl -sfI "$IMG" >/dev/null && break; sleep 15; done
+          {
+            echo "### Индекс спойлеров, день $(jq -r .day out/index-post.json)"
+            echo
+            echo "![карточка]($IMG?v=$(date +%s))"
+            echo
+            echo "Английская: $(jq -r .image_en out/index-post.json) · страница: $(jq -r .url out/index-post.json)"
+            echo
+            echo "**Текст для Threads** (если постишь сам):"
+            echo '```'; jq -r .threads out/index-post.json; echo '```'
+            echo
+            echo "Threads: $(cat out/threads-result.txt 2>/dev/null || echo 'нет данных')"
+            cat out/social-result.txt 2>/dev/null
+          } > out/issue.md
+          N=$(gh issue list --state open --search 'in:title "Индекс спойлеров"' --json number -q '.[0].number')
+          if [ -z "$N" ]; then
+            printf 'Сюда каждый день приходит замер «Индекса спойлеров GTA 6»: картинка и готовый текст. Числа считает бот на настоящем YouTube.\nАвтопубликация включается в spoiler-index/config.json (пока выключена).\n' > out/head.md
+            N=$(gh issue create --title "Индекс спойлеров GTA 6" --body-file out/head.md | grep -o '[0-9]*$')
+          fi
+          gh issue comment "$N" --body-file out/issue.md

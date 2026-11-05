@@ -1,0 +1,6 @@
+{
+ "_comment": "Что публикует индекс спойлеров. Пока всё false: картинка и текст приходят Антону в issue «Индекс спойлеров». Включать только после его ок.",
+ "threads_autopost": false,
+ "telegram_autopost": false,
+ "bluesky_autopost": false
+}

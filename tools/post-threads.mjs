@@ -12,7 +12,8 @@ const call = async (url, method = 'GET') => {
   if (!r.ok || j.error) throw new Error(`${r.status} ${JSON.stringify(j.error || j).slice(0, 300)}`);
   return j;
 };
-const post = JSON.parse(fs.readFileSync(path.join(ROOT, 'out', 'post.json'), 'utf8'));
+const pi = process.argv.indexOf('--post');
+const post = JSON.parse(fs.readFileSync(pi > 0 ? path.resolve(process.argv[pi + 1]) : path.join(ROOT, 'out', 'post.json'), 'utf8'));
 const me = await call(`${G}/me?fields=id,username&access_token=${encodeURIComponent(T)}`);
 if (process.argv.includes('--publish')) {
   // картинка должна уже открываться по публичной ссылке (GitHub Pages)
