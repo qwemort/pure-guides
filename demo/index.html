@@ -39,6 +39,19 @@ main{max-width:1040px}
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.v.veil::after{background:rgb(28,12,46)}}
 .count{color:var(--muted)}
 .cta{border-left:4px solid var(--accent)}
+
+body.rec main>*:not(.feed){display:none!important}
+body.rec main{max-width:none;padding:0 18px}
+body.rec .feed{grid-template-columns:1fr 1fr;gap:14px;margin:0}
+body.rec .th{font-size:19px}
+body.rec .tt{font-size:14px}
+#cap{padding:26px 18px 16px;text-align:center}
+#cap .c1{font:800 30px/1.15 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--text)}
+#cap .c2{margin-top:12px}
+#cap #st{display:inline-block;padding:6px 16px;border-radius:999px;background:#444;color:#fff;font:700 18px system-ui}
+#cap #st.on{background:var(--accent);color:#06281b}
+#brand{position:fixed;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;gap:10px;padding:14px;background:rgba(13,17,23,.92);color:#fff;font:700 18px system-ui;z-index:5}
+#brand img{width:30px;height:30px;border-radius:8px}
 </style>
 </head>
 <body>
@@ -77,6 +90,30 @@ main{max-width:1040px}
     {t:'One Piece',sp:1,title:'One Piece biggest twist ever (spoilers)',th:'THE TWIST',ch:'Manga Theories',views:'520K',d:'14:20',c:['#8e2de2','#4a00e0']}
   ];
   var picks={'GTA VI':true,'The Last of Us':false,'One Piece':true}, on=true;
+  // ?t=Название&kind=game|series|movie|anime — лента под один тайтл; &rec=1 — режим записи видео (tools/gen-demo-media.mjs)
+  var Q=new URLSearchParams(location.search), T=Q.get('t'), REC=Q.get('rec')==='1';
+  if(T){
+    var K=Q.get('kind')||'game';
+    var TPL={
+      game:[[1,'%T ENDING EXPLAINED (full story spoilers)','THE ENDING'],[0,'%T trailer reaction','TRAILER'],[1,'%T final mission is insane','FINAL MISSION'],[1,'%T story leak: this changes everything','LEAKED'],[0,'Best %T settings for PS5 and PC','SETTINGS'],[1,'%T secret ending (spoilers)','SECRET ENDING']],
+      series:[[1,'%T finale explained','FINALE?!'],[0,'%T trailer breakdown','TRAILER'],[1,'Who dies in %T?','WHO DIES?'],[1,'%T leaked episode','LEAKED'],[0,'%T: where to start','WHERE TO START'],[1,'%T ending reaction','THE ENDING']],
+      movie:[[1,'%T ending explained','THE ENDING'],[0,'%T official trailer reaction','TRAILER'],[1,'%T post credits scene','POST CREDITS'],[1,'%T twist (spoilers)','THE TWIST'],[0,'%T: is it worth a cinema ticket?','WORTH IT?'],[1,'Who dies in %T?','WHO DIES?']],
+      anime:[[1,'%T chapter leak: this changes everything','LEAKED!!'],[0,'%T: how to start watching','WHERE TO START'],[1,'%T finale explained','FINALE'],[1,'%T biggest twist ever (spoilers)','THE TWIST'],[0,'%T opening reaction','OPENING'],[1,'Who dies in %T?','WHO DIES?']]
+    }[K]||[];
+    var C=[['#ff3d8b','#ff8a3d'],['#2de2e6','#7b2ff7'],['#ff512f','#dd2476'],['#f12711','#f5af19'],['#141e30','#243b55'],['#8e2de2','#4a00e0']];
+    var CH=['Lore Explained','Game Reacts','Speedrun Zone','Leak Watch','Tech Tips','Theory Daily'], VW=['1.2M','2.1M','770K','640K','350K','520K'], DU=['24:11','15:40','31:45','12:03','8:12','14:20'];
+    var NEU=[{t:null,sp:0,title:'lofi beats to study and relax to',th:'lofi',ch:'Chill Room',views:'3.4M',d:'LIVE',c:['#4b6cb7','#182848']},
+             {t:null,sp:0,title:'I built a tiny house in 30 days',th:'30 DAYS',ch:'Build Club',views:'5.6M',d:'21:09',c:['#56ab2f','#a8e063']}];
+    V=[];TPL.forEach(function(x,i){V.push({t:T,sp:x[0],title:x[1].replace('%T',T),th:x[2],ch:CH[i],views:VW[i],d:DU[i],c:C[i]});if(i===1)V.push(NEU[0]);if(i===4)V.push(NEU[1]);});
+    picks={};picks[T]=true;
+  }
+  if(REC){document.body.classList.add('rec');on=false;
+    var cap=document.createElement('div');cap.id='cap';cap.innerHTML='<div class="c1"></div><div class="c2"><span id="st">Shield: OFF</span></div>';
+    var ft=document.createElement('div');ft.id='brand';ft.innerHTML='<img src="../img/spoilershield.png" alt=""> Pure Spoiler Shield · free for Chrome';document.body.appendChild(ft);
+    cap.querySelector('.c1').textContent=Q.get('cap')||((T||'GTA VI')+' spoilers on your YouTube?');
+    document.body.insertBefore(cap,document.body.firstChild);
+    window.__shield=function(v){on=v;var b=document.getElementById('sw');b.classList.toggle('on',on);document.getElementById('st').textContent='Shield: '+(on?'ON':'OFF');document.getElementById('st').className=on?'on':'';draw()};
+  }
   var feed=document.getElementById('feed'), pk=document.getElementById('picks');
   Object.keys(picks).forEach(function(k){
     var b=document.createElement('button');b.type='button';b.className='pick'+(picks[k]?' on':'');b.textContent=k;

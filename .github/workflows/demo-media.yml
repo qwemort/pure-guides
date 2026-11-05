@@ -1,0 +1,41 @@
+name: demo-media
+# По кнопке (или по просьбе Claude): видео 1080×1920 и картинки до/после с демо-ленты под тайтл → media/.
+on:
+  workflow_dispatch:
+    inputs:
+      title: { description: 'Тайтл, как в Shield (например: GTA VI, One Piece)', required: true }
+      kind: { description: 'game / series / movie / anime', required: true, default: 'game' }
+      caption: { description: 'Подпись сверху (мем), можно пусто', required: false }
+permissions:
+  contents: write
+concurrency: { group: demo-media, cancel-in-progress: false }
+jobs:
+  media:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: |
+          npm i --no-save --no-package-lock playwright@1.55.0
+          npx playwright install --with-deps chromium
+          which ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+      - name: Render
+        env:
+          T: ${{ inputs.title }}
+          K: ${{ inputs.kind }}
+          C: ${{ inputs.caption }}
+        run: |
+          python3 -m http.server 8765 >/dev/null 2>&1 &
+          sleep 2
+          node tools/gen-demo-media.mjs --title "$T" --kind "$K" --cap "$C"
+      - name: Commit
+        run: |
+          git config user.name "demo-media bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add media
+          git diff --cached --quiet && exit 0
+          git commit -m "media: ${{ inputs.title }}"
+          git pull --rebase -q origin main
+          git push
