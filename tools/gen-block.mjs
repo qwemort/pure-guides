@@ -149,4 +149,16 @@ let s = fs.readFileSync(sm, 'utf8').replace(/<!-- block:start -->[\s\S]*?<!-- bl
 s = s.replace('</urlset>', '<!-- block:start -->\n' + [`${BASE}block/`, ...LIB.map((p) => `${BASE}block/${p.id}.html`)]
   .map((u) => `<url><loc>${u}</loc><lastmod>${TODAY}</lastmod></url>`).join('\n') + '\n<!-- block:end -->\n</urlset>');
 fs.writeFileSync(sm, s);
+
+// Главная: чипы тайтлов (между маркерами) и число списков (между <!--n--> и <!--/n-->) обновляются сами.
+const home = path.join(ROOT, 'index.html');
+if (fs.existsSync(home)) {
+  const lower = (x) => String(x).toLowerCase();
+  const chips = LIB.map((p) => `<a class="chip" data-t="${esc(lower([p.label, p.id, ...(p.game || []).slice(0, 4)].join(' ')))}" href="block/${p.id}.html">${esc(p.label)}</a>`).join('\n');
+  let h = fs.readFileSync(home, 'utf8');
+  h = h.replace(/<!-- titles:start -->[\s\S]*?<!-- titles:end -->/, `<!-- titles:start -->\n${chips}\n<!-- titles:end -->`);
+  h = h.replace(/<!--n-->[\s\S]*?<!--\/n-->/g, `<!--n-->${LIB.length}<!--/n-->`);
+  fs.writeFileSync(home, h);
+  console.log('home: chips updated');
+}
 console.log(`block pages: ${LIB.length} + index`);

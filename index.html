@@ -3,70 +3,399 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pure guides — practical notes for web developers</title>
-<meta name="description" content="Short, practical guides about HTTP headers, CORS and JSON from the developer of the Pure zero-telemetry browser extensions.">
+<title>Pure guides: spoiler-free tools and notes for web developers</title>
+<meta name="description" content="Block spoilers on YouTube, Reddit and X with a free extension, see the daily GTA 6 spoiler index, and read short guides on HTTP headers, CORS and JSON. By the developer of the Pure zero-telemetry extensions.">
 <meta name="google-site-verification" content="qdY7cwSpgf7T7k_Q3edxyvBnH_G2_CTa29Fmq8ErL_E" />
 <link rel="canonical" href="https://qwemort.github.io/pure-guides/">
-<link rel="stylesheet" href="style.css">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pure guides">
-<meta property="og:title" content="Pure guides — practical notes for web developers">
-<meta property="og:description" content="Short, practical guides about HTTP headers, CORS and JSON from the developer of the Pure zero-telemetry browser extensions.">
+<meta property="og:title" content="Pure guides: spoiler-free tools and notes for web developers">
+<meta property="og:description" content="Block spoilers on YouTube, Reddit and X, see the daily GTA 6 spoiler index, and read short guides on HTTP headers, CORS and JSON.">
 <meta property="og:url" content="https://qwemort.github.io/pure-guides/">
 <meta property="og:image" content="https://qwemort.github.io/pure-guides/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
+<script>document.documentElement.className="js"</script>
+<link rel="preload" href="fonts/archivo-latin-900-italic.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Archivo;font-style:normal;font-weight:700;font-display:swap;src:url(fonts/archivo-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:Archivo;font-style:normal;font-weight:900;font-display:swap;src:url(fonts/archivo-latin-900-normal.woff2) format("woff2")}
+@font-face{font-family:Archivo;font-style:italic;font-weight:900;font-display:swap;src:url(fonts/archivo-latin-900-italic.woff2) format("woff2")}
+@font-face{font-family:Inter;font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Inter;font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Yellowtail;font-style:normal;font-weight:400;font-display:swap;src:url(fonts/yellowtail-latin-400-normal.woff2) format("woff2")}
+:root{--bg:#fff3e6;--ink:#1b1240;--muted:#5a4f7a;--pink:#ff4f9a;--pink-d:#d6196f;--teal:#00c2b8;--sun:#ffc928;--line:#f0cdc4;--card:#ffffff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--ink)}
+:focus-visible{outline:3px solid var(--pink-d);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+section{scroll-margin-top:84px}
+
+/* top bar: stays on screen, shows where you are */
+.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:2px solid var(--ink)}
+.top .wrap{display:flex;align-items:center;gap:20px;min-height:64px}
+.logo{font:italic 900 22px Archivo,sans-serif;letter-spacing:-.01em;text-decoration:none;text-shadow:2px 2px 0 #ff9ec7;white-space:nowrap}
+.nav{display:flex;gap:4px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{padding:10px 14px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;white-space:nowrap;transition:background-color .2s ease}
+.nav a:hover{background:#ffe0ee}
+.nav a[aria-current=true]{background:var(--ink);color:var(--bg)}
+.top .get{flex:none;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;font-size:15px;padding:10px 16px;border-radius:12px;transition:transform .18s ease,box-shadow .18s ease}
+.top .get:hover{transform:translateY(-2px);box-shadow:0 4px 0 var(--pink)}
+
+/* hero */
+.hero{position:relative;overflow-x:clip;display:flex;flex-wrap:wrap;gap:56px;align-items:center;padding:56px 0 80px}
+.sun{--so:1;position:absolute;right:10px;top:18px;width:300px;height:300px;border-radius:50%;background:linear-gradient(180deg,#ffc928 0%,#ff7a59 48%,#ff4f9a 100%);
+-webkit-mask-image:linear-gradient(#000 50%,transparent 50%),repeating-linear-gradient(to bottom,#000 0 13px,transparent 13px 22px);-webkit-mask-size:100% 100%,100% 50%;-webkit-mask-position:0 0,0 100%;-webkit-mask-repeat:no-repeat,no-repeat;
+mask-image:linear-gradient(#000 50%,transparent 50%),repeating-linear-gradient(to bottom,#000 0 13px,transparent 13px 22px);mask-size:100% 100%,100% 50%;mask-position:0 0,0 100%;mask-repeat:no-repeat,no-repeat;
+animation:rise 1.1s cubic-bezier(.2,.7,.2,1) both;pointer-events:none}
+@keyframes rise{from{transform:translateY(46px);opacity:0}to{transform:none;opacity:var(--so)}}
+.hero-l{position:relative;flex:1 1 520px;min-width:0}
+.script{margin:0 0 6px;font:400 30px/1 Yellowtail,cursive;color:var(--pink-d)}
+h1{margin:0 0 24px;font:italic 900 clamp(42px,6.4vw,68px)/1 Archivo,sans-serif;letter-spacing:-.035em}
+.hide{display:inline-block;filter:blur(7px);transition:filter .4s cubic-bezier(.2,.7,.2,1);cursor:pointer}
+.hide:hover,.hide.show{filter:blur(0)}
+.lead{margin:0 0 28px;font-size:20px;color:#3a3160;max-width:500px}
+.btns{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.cta{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;font-size:18px;padding:16px 26px;border-radius:14px;min-height:44px;transition:transform .18s ease,box-shadow .18s ease}
+.cta:hover{transform:translateY(-2px);box-shadow:0 6px 0 var(--pink)}
+.cta:active{transform:none;box-shadow:0 1px 0 var(--pink)}
+.cta .arr{display:inline-block;transition:transform .2s ease}
+.cta:hover .arr{transform:translateX(5px)}
+.btns .alt{font-weight:600;min-height:44px;display:inline-flex;align-items:center}
+.small{font-size:14px;color:var(--muted)}
+.quick{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+.quick a{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border:2px solid var(--ink);border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;background:#fff;transition:background-color .2s ease,transform .18s ease}
+.quick a:hover{background:var(--sun);transform:translateY(-2px)}
+
+/* demo feed */
+.hero-r{position:relative;z-index:1;flex:1 1 400px;min-width:0}
+.feed{background:#fff;border:2px solid var(--ink);border-radius:18px;overflow:hidden;box-shadow:7px 7px 0 var(--teal)}
+.feed-h{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:2px solid var(--ink);background:#ffe0ee;font-size:14px;font-weight:600}
+.tog{display:inline-flex;align-items:center;gap:10px;border:2px solid var(--ink);border-radius:999px;padding:5px 14px 5px 8px;min-height:44px;background:#fff;color:var(--ink);font:600 14px Inter,sans-serif;cursor:pointer;transition:background-color .2s ease}
+.tog[aria-pressed=true]{background:var(--pink)}
+.tog .tr{width:48px;height:28px;border-radius:999px;background:#fff;border:2px solid var(--ink);display:block;position:relative;flex:none}
+.tog .knob{position:absolute;top:2px;left:2px;width:20px;height:20px;border-radius:50%;background:var(--ink);transition:transform .25s cubic-bezier(.2,.7,.2,1)}
+.tog[aria-pressed=true] .knob{transform:translateX(20px)}
+.row{display:flex;gap:14px;align-items:center;padding:14px 16px;border-bottom:1px solid #f6e1d8;transition:filter .5s cubic-bezier(.2,.7,.2,1),opacity .5s ease}
+.row:last-child{border-bottom:0}
+.row .th{width:84px;height:48px;border-radius:8px;background:linear-gradient(135deg,#ff9ec7,#7fe3dc);flex:none}
+.row strong{display:block;font-size:15px;line-height:1.3}
+.row span{font-size:13px;color:var(--muted)}
+.feed.on .row.sp{filter:blur(9px);opacity:.5}
+
+.stripes{height:18px;background:linear-gradient(var(--pink) 0 6px,transparent 6px 8px,var(--teal) 8px 14px,transparent 14px 16px,var(--sun) 16px 18px)}
+
+/* spoiler index */
+.index{padding:72px 0 64px;display:flex;flex-wrap:wrap;gap:48px;align-items:flex-start}
+.ix-l{flex:1 1 300px;min-width:0}
+.ix-l .lab{margin:0 0 10px;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.ix-num{display:flex;align-items:flex-end;gap:8px}
+.ix-num b{font:italic 900 150px/.85 Archivo,sans-serif;letter-spacing:-.04em;text-shadow:5px 5px 0 var(--teal)}
+.ix-num i{font:italic 900 56px/1 Archivo,sans-serif;font-style:italic}
+.ix-l p.d{margin:16px 0 0;font-size:18px;max-width:340px}
+.ix-r{flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:18px;padding-top:6px}
+.q .qh{display:flex;justify-content:space-between;font-size:15px;font-weight:600;margin-bottom:6px}
+.q .bg{display:block;height:14px;background:#f6e1d8;border:2px solid var(--ink);border-radius:99px;overflow:hidden}
+.q .bar{display:block;height:100%;background:linear-gradient(90deg,var(--pink),#ff7a59);transform-origin:left;transition:transform 1s cubic-bezier(.2,.7,.2,1)}
+.js .q .bar{transform:scaleX(0)}
+.js .index.in .q .bar{transform:scaleX(1)}
+
+h2{margin:0 0 4px;font:italic 900 38px/1.1 Archivo,sans-serif;letter-spacing:-.02em}
+.sub{margin:0 0 10px;color:var(--muted)}
+.sec{padding-top:72px}
+.list{border-top:2px solid var(--ink)}
+.lnk{display:grid;grid-template-columns:minmax(0,1fr) 32px;gap:12px;align-items:start;padding:20px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.lnk .t{font-weight:600;font-size:20px;background-image:linear-gradient(var(--pink),var(--pink));background-repeat:no-repeat;background-position:0 100%;background-size:0 3px;transition:background-size .3s ease}
+.lnk:hover .t{background-size:100% 3px}
+.lnk .d{display:block;color:var(--muted);font-size:16px}
+.lnk .go{justify-self:end;font-size:22px;line-height:1.2;color:var(--pink-d);transition:transform .2s ease}
+.lnk:hover .go{transform:translateX(6px)}
+
+/* title finder */
+.find{display:block;width:100%;max-width:560px;min-height:52px;padding:12px 18px;font:400 18px Inter,sans-serif;color:var(--ink);background:#fff;border:2px solid var(--ink);border-radius:14px;box-shadow:5px 5px 0 var(--teal)}
+.find::placeholder{color:var(--muted)}
+label.fl{display:block;font-weight:600;margin:0 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 0}
+.chip{display:inline-block;padding:9px 16px;border-radius:999px;background:#fff;border:2px solid var(--line);text-decoration:none;font-weight:600;font-size:15px;transition:border-color .2s ease,background-color .2s ease,transform .18s ease}
+.chip:hover{border-color:var(--ink);background:#ffe0ee;transform:translateY(-2px)}
+.chip[hidden]{display:none}
+.none{margin:18px 0 0}
+
+/* extensions */
+.exts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:24px}
+.ext{display:block;background:#fff;border:2px solid var(--ink);border-radius:16px;padding:20px;box-shadow:5px 5px 0 var(--teal);transition:transform .2s ease,box-shadow .2s ease}
+.ext:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--pink)}
+.ext img{width:44px;height:44px;border-radius:10px;display:block;margin-bottom:12px}
+.ext h3{margin:0 0 6px;font:700 20px Archivo,sans-serif}
+.ext p{margin:0 0 10px;color:var(--muted);font-size:15px}
+.ext .l a{font-size:15px;font-weight:600;margin-right:12px}
+
+footer{padding:20px 0 56px;color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+.totop{font-weight:600}
+
+@media (max-width:720px){
+.top .wrap{gap:10px;min-height:60px;padding:0 16px}
+.top .get{display:none}
+.logo{font-size:19px}
+.wrap{padding:0 16px}
+.hero{padding:40px 0 56px;gap:40px}
+.sun{--so:.22;width:240px;height:240px;right:-60px;top:6px}
+.lead{font-size:18px}
+.ix-num b{font-size:110px}.ix-num i{font-size:44px}
+h2{font-size:32px}
+}
+@media (prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}
+*{animation:none !important;transition:none !important}
+.js .q .bar{transform:scaleX(1)}
+}
+</style>
 </head>
 <body>
+
+<header class="top">
+<div class="wrap">
+<a class="logo" href="./">Pure guides</a>
+<nav class="nav" aria-label="Sections">
+<a href="#spoilers">Spoilers</a>
+<a href="#titles">Find your title</a>
+<a href="#developers">Developers</a>
+<a href="#extensions">Extensions</a>
+</nav>
+<a class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-top">Add to Chrome</a>
+</div>
+</header>
+
 <main>
-<a class="brand" href="./">Pure guides</a>
-<h1>Practical notes for web developers</h1>
-<p>Short guides about HTTP headers, CORS and JSON in the browser: what breaks, why, and how to fix it without handing your data to anyone.</p>
-<p class="muted">Written by the developer of the Pure browser extensions. Each guide says so where it mentions our tools.</p>
+<div class="wrap">
 
-<h2>Guides</h2>
-<a class="card-link" href="cors-credentials-wildcard.html"><strong>CORS with cookies: why Allow-Origin "*" fails, and the fix</strong>
-<span>The exact headers a request with cookies needs, the preflight rules people miss, and what to check when the cookie still does not arrive.</span></a>
-<a class="card-link" href="gta-6-mute-list.html"><strong>GTA 6 mute list: words to mute on X and Threads</strong>
-<span>Copy-ready, no spoilers in the list itself. English, Ukrainian, Polish, Russian.</span></a>
-<a class="card-link" href="block/"><strong>How to block spoilers on YouTube, Reddit and X</strong>
-<span>One page per game, series, film and anime, with a live demo. YouTube and Reddit can't mute words; here is what works.</span></a>
-<a class="card-link" href="s/"><strong>Spoiler link: share a spoiler without spoiling anyone</strong>
-<span>Paste a spoiler, get a link with a blurred text. For X, Threads, Instagram and YouTube comments, which have no spoiler tag.</span></a>
-<a class="card-link" href="demo/"><strong>Demo: see what Pure Spoiler Shield hides on YouTube</strong>
-<span>Made-up videos, real behaviour. Pick a title and watch the spoiler videos blur.</span></a>
-<a class="card-link" href="spoiler-danger/"><strong>Spoiler danger: what comes out this week</strong>
-<span>Every Monday: games, series and anime out that week, with words to mute on X and Threads.</span></a>
-<a class="card-link" href="mute-list/"><strong>Spoiler mute lists for 35 games, series, films and anime</strong>
-<span>One page per title, copy-ready words for X and Threads, no spoilers in the lists.</span></a>
-<a class="card-link" href="gta-6-pc-release-date.html"><strong>GTA 6 PC release date: what is known</strong>
-<span>What Take-Two said, how long past PC ports took, and how to wait without spoilers. Also in Ukrainian and Polish.</span></a>
-<p class="muted">Also: <a href="gta-6-pc-data-vykhodu.html">GTA 6 на ПК (українською)</a> · <a href="gta-6-pc-data-premiery.html">GTA 6 na PC (po polsku)</a></p>
-<a class="card-link" href="avoid-gta-6-spoilers.html"><strong>How to avoid GTA 6 spoilers on YouTube, Reddit and X</strong>
-<span>Where spoilers come from, what X, YouTube and Reddit let you turn off, and what no setting can catch.</span></a>
-<a class="card-link" href="modheader-alternative.html"><strong>ModHeader was removed from Chrome and Edge — how to move your header profiles in 2 minutes</strong>
-<span>What happened, how to check if it is still installed, a five-point safety check for any replacement, and a step-by-step migration.</span></a>
-
-<h2>Free tools</h2>
-<a class="card-link" href="json-formatter.html"><strong>JSON formatter and validator</strong>
-<span>Paste JSON, format, minify and check it. Runs in your browser; nothing is uploaded.</span></a>
-
-<h2>The Pure extensions</h2>
-<p>Small browser tools with no account and no tracking. The free versions stay free; Pro is a one-time purchase.</p>
-<div class="tools">
-<div class="tool"><img src="img/pureheaders.png" alt=""><div><h3>PureHeaders</h3><p>Change request and response headers and fix CORS with cookies, only on the sites you choose. Imports ModHeader profiles.</p>
-<p class="links"><a href="https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj">Edge</a><a href="https://addons.mozilla.org/firefox/addon/pureheaders-modify-headers/">Firefox</a><a href="https://chromewebstore.google.com/detail/flplhcopkoiihcapihkljhjaminhpink">Chrome</a></p></div></div>
-<div class="tool"><img src="img/purejson.png" alt=""><div><h3>PureJSON</h3><p>Read JSON like a human: a collapsible tree, copy paths and values; big numbers stay exact.</p>
-<p class="links"><a href="https://microsoftedge.microsoft.com/addons/detail/jgaejimgiijadilkfklimmmgacjabijd">Edge</a><a href="https://addons.mozilla.org/firefox/addon/json-viewer-formatter-purejson/">Firefox</a><span class="muted">Chrome coming</span></p></div></div>
-<div class="tool"><img src="img/puresession.png" alt=""><div><h3>PureSession</h3><p>Tabs and sessions in a side panel, with automatic local backups.</p>
-<p class="links"><a href="https://microsoftedge.microsoft.com/addons/detail/ojfadjpeagojacihpdnbepiljnadeiio">Edge</a><a href="https://addons.mozilla.org/firefox/addon/puresession-tab-manager/">Firefox</a><span class="muted">Chrome coming</span></p></div></div>
-<div class="tool"><img src="img/spoilershield.png" alt=""><div><h3>Pure Spoiler Shield</h3><p>Blurs spoilers for games, series, films and anime on YouTube, Reddit and X. Runs locally; free lists, one-time Pro.</p>
-<p class="links"><a href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng">Chrome</a><span class="muted">Firefox in review</span></p></div></div>
+<div class="hero">
+<div class="sun" aria-hidden="true"></div>
+<div class="hero-l">
+<p class="script">spoiler-free nights</p>
+<h1>Don't let the internet tell you <span class="hide" id="hide" tabindex="0" role="button" aria-label="how it ends. Click to show">how it ends.</span></h1>
+<p class="lead">Pure Spoiler Shield blurs spoilers for games, series, films and anime on YouTube, Reddit and X. Free, local, no tracking.</p>
+<div class="btns">
+<a class="cta" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-hero">Add to Chrome, free <span class="arr">→</span></a>
+<a class="alt" href="demo/">Try the demo first</a>
+</div>
+<p class="small" style="margin:16px 0 0">I build it. <!--n-->35<!--/n--> ready-made lists are free; Pro is a one-time $5. Firefox version is in review.</p>
+<div class="quick" aria-label="Start here">
+<a href="block/">Hide spoilers</a>
+<a href="s/">Share a spoiler safely</a>
+<a href="spoiler-danger/">What is out this week</a>
+<a href="#titles">Find my title</a>
+</div>
 </div>
 
+<div class="hero-r">
+<div class="feed" id="feed">
+<div class="feed-h"><span>Made-up YouTube feed</span>
+<button class="tog" id="tog" type="button" aria-pressed="false"><span class="tr"><span class="knob"></span></span><span>Shield <span id="togl">off</span></span></button>
+</div>
+<div class="row"><div class="th"></div><div><strong>Launch trailer, official</strong><span>Trailer</span></div></div>
+<div class="row sp"><div class="th"></div><div><strong>The ending, explained</strong><span>Story</span></div></div>
+<div class="row"><div class="th"></div><div><strong>Preload guide: how to prepare</strong><span>Guide</span></div></div>
+<div class="row sp"><div class="th"></div><div><strong>What the leak really showed</strong><span>Leak</span></div></div>
+<div class="row"><div class="th"></div><div><strong>Ten things to do first</strong><span>Tips</span></div></div>
+<div class="row sp"><div class="th"></div><div><strong>Who survives? The full story</strong><span>Story</span></div></div>
+</div>
+<p class="small" style="margin:16px 4px 0">Made-up videos with no real spoilers. The extension does this on real pages.</p>
+</div>
+</div>
+
+</div>
+
+<div class="stripes" aria-hidden="true"></div>
+
+<div class="wrap">
+
+<section class="index" id="index" aria-labelledby="ixh">
+<div class="ix-l">
+<p class="script" style="margin:0 0 2px">spoiler index</p>
+<p class="lab" id="ix-lab">GTA VI · day 1</p>
+<h2 id="ixh" style="position:absolute;left:-9999px">GTA 6 spoiler index</h2>
+<div class="ix-num"><b id="ix-n">6</b><i id="ix-of">/37</i></div>
+<p class="d"><span id="ix-d">top YouTube results for “gta 6” already carry spoilers.</span> <span id="ix-left">14 days to release.</span></p>
+</div>
+<div class="ix-r">
+<div id="ix-q">
+<div class="q"><div class="qh"><span>“gta 6 ending”</span><span>30/34</span></div><span class="bg"><span class="bar" style="width:88%"></span></span></div>
+<div class="q" style="margin-top:18px"><div class="qh"><span>“gta 6 story”</span><span>27/35</span></div><span class="bg"><span class="bar" style="width:77%"></span></span></div>
+<div class="q" style="margin-top:18px"><div class="qh"><span>“gta 6 leak”</span><span>28/31</span></div><span class="bg"><span class="bar" style="width:90%"></span></span></div>
+</div>
+<p class="small" style="margin:4px 0 0">Counted by a bot every day on real YouTube, no login. <a href="spoiler-index/">How it is counted</a></p>
+</div>
+</section>
+
+<section class="sec" id="spoilers" style="padding-top:8px" aria-labelledby="h-sp">
+<h2 id="h-sp">Spoilers</h2>
+<p class="sub">Where they come from, and what you can switch off.</p>
+<div class="list">
+<a class="lnk" href="block/"><span><span class="t">How to block spoilers on YouTube, Reddit and X</span><span class="d">One page per game, series, film and anime, with a live demo. YouTube and Reddit can't mute words; here is what works.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="s/"><span><span class="t">Spoiler link: share a spoiler without spoiling anyone</span><span class="d">Paste a spoiler, get a link with blurred text. For X, Threads, Instagram and YouTube comments, which have no spoiler tag.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="spoiler-danger/"><span><span class="t">Spoiler danger: what comes out this week</span><span class="d">Every Monday: games, series and anime out that week, with words to mute on X and Threads.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="spoiler-index/"><span><span class="t">GTA 6 spoiler index: how it is counted</span><span class="d">The daily count of YouTube results with spoilers, with every number and the method.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="demo/"><span><span class="t">Demo: see what Pure Spoiler Shield hides on YouTube</span><span class="d">Made-up videos, real behaviour. Pick a title and watch the spoiler videos blur.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="mute-list/"><span><span class="t">Spoiler mute lists for <!--n-->35<!--/n--> games, series, films and anime</span><span class="d">One page per title, copy-ready words for X and Threads, no spoilers in the lists.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="gta-6-mute-list.html"><span><span class="t">GTA 6 mute list: words to mute on X and Threads</span><span class="d">Copy-ready, no spoilers in the list itself. English, Ukrainian, Polish, Russian.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="avoid-gta-6-spoilers.html"><span><span class="t">How to avoid GTA 6 spoilers on YouTube, Reddit and X</span><span class="d">Where spoilers come from, what each site lets you turn off, and what no setting can catch.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="gta-6-pc-release-date.html"><span><span class="t">GTA 6 PC release date: what is known</span><span class="d">What Take-Two said, how long past PC ports took, and how to wait without spoilers.</span></span><span class="go" aria-hidden="true">→</span></a>
+</div>
+<p class="small" style="margin:14px 0 0">GTA 6 PC release date in other languages: <a href="gta-6-pc-data-vykhodu.html">Українською</a> · <a href="gta-6-pc-data-premiery.html">Po polsku</a></p>
+</section>
+
+<section class="sec" id="titles" aria-labelledby="h-ti">
+<h2 id="h-ti">Find your title</h2>
+<p class="sub"><!--n-->35<!--/n--> ready-made lists, one page each: a short answer, a live demo and the words to mute.</p>
+<label class="fl" for="find">Game, series, film or anime</label>
+<input class="find" id="find" type="search" placeholder="Type a title, for example gta or one piece" autocomplete="off">
+<div class="chips" id="chips">
+<!-- titles:start -->
+<a class="chip" data-t="gta vi gta6 gta 6 gta6 gta vi gtavi" href="block/gta6.html">GTA VI</a>
+<a class="chip" data-t="marvel’s wolverine wolverine marvels wolverine marvel s wolverine wolverine ps5 wolverine game" href="block/wolverine.html">Marvel’s Wolverine</a>
+<a class="chip" data-t="resident evil requiem re-requiem resident evil requiem re requiem resident evil 9 re9" href="block/re-requiem.html">Resident Evil Requiem</a>
+<a class="chip" data-t="gears of war: e-day gears-eday gears of war e day gears e day gears of war eday gow e day" href="block/gears-eday.html">Gears of War: E-Day</a>
+<a class="chip" data-t="ghost of yōtei ghost-yotei ghost of yotei ghost of yōtei призрак ётэй призрак йотей" href="block/ghost-yotei.html">Ghost of Yōtei</a>
+<a class="chip" data-t="avengers: doomsday avengers-doomsday avengers doomsday avengers 5 мстители судный день мстители 5" href="block/avengers-doomsday.html">Avengers: Doomsday</a>
+<a class="chip" data-t="dune: part three dune-3 dune part three dune part 3 dune 3 dune messiah" href="block/dune-3.html">Dune: Part Three</a>
+<a class="chip" data-t="the hunger games: sunrise on the reaping hunger-games-reaping sunrise on the reaping hunger games sunrise голодные игры рассвет жатвы голодные игры восход" href="block/hunger-games-reaping.html">The Hunger Games: Sunrise on the Reaping</a>
+<a class="chip" data-t="godzilla minus zero godzilla-minus-zero godzilla minus zero godzilla 0 0 godzilla minus 0 годзилла минус ноль" href="block/godzilla-minus-zero.html">Godzilla Minus Zero</a>
+<a class="chip" data-t="spider-man: brand new day spider-man-bnd spider man brand new day spiderman brand new day spider man 4 spiderman 4" href="block/spider-man-bnd.html">Spider-Man: Brand New Day</a>
+<a class="chip" data-t="the rings of power rings-of-power rings of power кольца власти персні влади pierscienie wladzy" href="block/rings-of-power.html">The Rings of Power</a>
+<a class="chip" data-t="percy jackson and the olympians percy-jackson percy jackson перси джексон персі джексон percy jackson season 3" href="block/percy-jackson.html">Percy Jackson and the Olympians</a>
+<a class="chip" data-t="yellowjackets yellowjackets yellowjackets шершни сериал шершні серіал yellowjackets season 4" href="block/yellowjackets.html">Yellowjackets</a>
+<a class="chip" data-t="house of the dragon house-dragon house of the dragon дом дракона дім дракона rod smoka" href="block/house-dragon.html">House of the Dragon</a>
+<a class="chip" data-t="the last of us last-of-us the last of us tlou tlou2 одни из нас" href="block/last-of-us.html">The Last of Us</a>
+<a class="chip" data-t="black doves black-doves black doves черные голуби чорні голуби czarne golebie" href="block/black-doves.html">Black Doves</a>
+<a class="chip" data-t="the boys the-boys the boys season 5 the boys s5 the boys final season the boys finale" href="block/the-boys.html">The Boys</a>
+<a class="chip" data-t="severance severance severance season severance s2 severance s3 severance finale" href="block/severance.html">Severance</a>
+<a class="chip" data-t="one piece one-piece one piece ван пис ван піс ванпис" href="block/one-piece.html">One Piece</a>
+<a class="chip" data-t="jujutsu kaisen jjk jujutsu kaisen jjk магическая битва магічна битва" href="block/jjk.html">Jujutsu Kaisen</a>
+<a class="chip" data-t="chainsaw man chainsaw-man chainsaw man человек бензопила людина бензопила チェンソーマン" href="block/chainsaw-man.html">Chainsaw Man</a>
+<a class="chip" data-t="frieren frieren sousou no frieren frieren anime frieren season frieren staffel" href="block/frieren.html">Frieren</a>
+<a class="chip" data-t="solo leveling solo-leveling solo leveling поднятие уровня в одиночку соло левелинг поднятие уровня" href="block/solo-leveling.html">Solo Leveling</a>
+<a class="chip" data-t="demon slayer demon-slayer demon slayer kimetsu no yaiba infinity castle клинок рассекающий демонов" href="block/demon-slayer.html">Demon Slayer</a>
+<a class="chip" data-t="the apothecary diaries apothecary apothecary diaries kusuriya no hitorigoto монолог фармацевта монолог травницы" href="block/apothecary.html">The Apothecary Diaries</a>
+<a class="chip" data-t="cyberpunk: edgerunners 2 edgerunners-2 edgerunners 2 cyberpunk edgerunners 2 киберпанк бегущие по краю 2 кіберпанк ті що біжать по краю 2" href="block/edgerunners-2.html">Cyberpunk: Edgerunners 2</a>
+<a class="chip" data-t="jojo: steel ball run jojo-sbr steel ball run jojo part 7 jojos bizarre adventure jojo bizarre adventure" href="block/jojo-sbr.html">JoJo: Steel Ball Run</a>
+<a class="chip" data-t="black clover black-clover black clover черный клевер чёрный клевер чорна конюшина" href="block/black-clover.html">Black Clover</a>
+<a class="chip" data-t="sakamoto days sakamoto-days sakamoto days дни сакамото сакамото дейз サカモトデイズ" href="block/sakamoto-days.html">Sakamoto Days</a>
+<a class="chip" data-t="one-punch man one-punch-man one punch man onepunch man ванпанчмен ван панч мен" href="block/one-punch-man.html">One-Punch Man</a>
+<a class="chip" data-t="dragon ball dragon-ball dragon ball super dragon ball daima dragon ball драгонболл" href="block/dragon-ball.html">Dragon Ball</a>
+<a class="chip" data-t="tokyo revengers tokyo-revengers tokyo revengers токийские мстители токійські месники 東京リベンジャーズ" href="block/tokyo-revengers.html">Tokyo Revengers</a>
+<a class="chip" data-t="golden kamuy golden-kamuy golden kamuy золотое божество золотий камуй ゴールデンカムイ" href="block/golden-kamuy.html">Golden Kamuy</a>
+<a class="chip" data-t="boruto: two blue vortex boruto boruto two blue vortex boruto боруто ボルト" href="block/boruto.html">Boruto: Two Blue Vortex</a>
+<a class="chip" data-t="kaiju no. 8 kaiju-8 kaiju no 8 kaiju number 8 kaiju n8 кайдзю номер восемь" href="block/kaiju-8.html">Kaiju No. 8</a>
+<!-- titles:end -->
+</div>
+<p class="none" id="none" hidden>No list for that yet. <a href="https://github.com/qwemort/pure-spoiler-shield/issues/new?template=title-request.yml">Request one</a>, it is free.</p>
+</section>
+
+<section class="sec" id="developers" aria-labelledby="h-dev">
+<h2 id="h-dev">For developers</h2>
+<p class="sub">Short guides about HTTP headers, CORS and JSON in the browser: what breaks, why, and how to fix it without handing your data to anyone.</p>
+<div class="list">
+<a class="lnk" href="cors-credentials-wildcard.html"><span><span class="t">CORS with cookies: why Allow-Origin "*" fails, and the fix</span><span class="d">The exact headers a request with cookies needs, the preflight rules people miss, and what to check when the cookie still does not arrive.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="modheader-alternative.html"><span><span class="t">ModHeader was removed from Chrome and Edge: how to move your header profiles in 2 minutes</span><span class="d">What happened, how to check if it is still installed, a five-point safety check for any replacement, and a step-by-step migration.</span></span><span class="go" aria-hidden="true">→</span></a>
+<a class="lnk" href="json-formatter.html"><span><span class="t">JSON formatter and validator</span><span class="d">Paste JSON, format, minify and check it. Runs in your browser; nothing is uploaded.</span></span><span class="go" aria-hidden="true">→</span></a>
+</div>
+</section>
+
+<section class="sec" id="extensions" aria-labelledby="h-ex">
+<h2 id="h-ex">The Pure extensions</h2>
+<p class="sub">Small browser tools with no account and no tracking. The free versions stay free; Pro is a one-time purchase.</p>
+<div class="exts">
+<div class="ext"><img src="img/spoilershield.png" alt=""><h3>Pure Spoiler Shield</h3><p>Blurs spoilers for games, series, films and anime on YouTube, Reddit and X. Runs locally; free lists, one-time Pro.</p><p class="l"><a href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-card">Chrome</a><span class="small">Firefox in review</span></p></div>
+<div class="ext"><img src="img/pureheaders.png" alt=""><h3>PureHeaders</h3><p>Change request and response headers and fix CORS with cookies, only on the sites you choose. Imports ModHeader profiles.</p><p class="l"><a href="https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj">Edge</a><a href="https://addons.mozilla.org/firefox/addon/pureheaders-modify-headers/">Firefox</a><a href="https://chromewebstore.google.com/detail/flplhcopkoiihcapihkljhjaminhpink">Chrome</a></p></div>
+<div class="ext"><img src="img/purejson.png" alt=""><h3>PureJSON</h3><p>Read JSON like a human: a collapsible tree, copy paths and values; big numbers stay exact.</p><p class="l"><a href="https://microsoftedge.microsoft.com/addons/detail/jgaejimgiijadilkfklimmmgacjabijd">Edge</a><a href="https://addons.mozilla.org/firefox/addon/json-viewer-formatter-purejson/">Firefox</a><span class="small">Chrome coming</span></p></div>
+<div class="ext"><img src="img/puresession.png" alt=""><h3>PureSession</h3><p>Tabs and sessions in a side panel, with automatic local backups.</p><p class="l"><a href="https://microsoftedge.microsoft.com/addons/detail/ojfadjpeagojacihpdnbepiljnadeiio">Edge</a><a href="https://addons.mozilla.org/firefox/addon/puresession-tab-manager/">Firefox</a><span class="small">Chrome coming</span></p></div>
+</div>
+</section>
+
+<div class="stripes" aria-hidden="true" style="margin-top:80px"></div>
 <footer>
-<p>Contact: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
-<p>This site has no analytics, no cookies and no trackers.</p>
+<span>This site has no analytics, no cookies and no trackers. Fonts are hosted here.</span>
+<span>Contact: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a> · <a class="totop" href="#">Back to top ↑</a></span>
 </footer>
+
+</div>
 </main>
+
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var $ = function (id) { return document.getElementById(id); };
+
+  // headline phrase: hover clears it on desktop, tap or Enter toggles on touch and keyboard
+  var hide = $('hide');
+  function flip() { hide.classList.toggle('show'); }
+  hide.addEventListener('click', flip);
+  hide.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } });
+
+  // demo feed: the Shield turns itself on once, then the visitor can switch it
+  var feed = $('feed'), tog = $('tog'), togl = $('togl');
+  function setShield(on) { feed.classList.toggle('on', on); tog.setAttribute('aria-pressed', on ? 'true' : 'false'); togl.textContent = on ? 'on' : 'off'; }
+  tog.addEventListener('click', function () { clearTimeout(auto); setShield(tog.getAttribute('aria-pressed') !== 'true'); });
+  var auto = setTimeout(function () { setShield(true); }, reduce ? 0 : 1500);
+
+  // title finder
+  var find = $('find'), chips = Array.prototype.slice.call(document.querySelectorAll('#chips .chip')), none = $('none');
+  find.addEventListener('input', function () {
+    var q = find.value.trim().toLowerCase(), shown = 0;
+    chips.forEach(function (c) { var ok = !q || c.getAttribute('data-t').indexOf(q) !== -1; c.hidden = !ok; if (ok) shown++; });
+    none.hidden = shown > 0;
+  });
+
+  // current section in the top bar
+  var links = {}; Array.prototype.forEach.call(document.querySelectorAll('.nav a'), function (a) { links[a.getAttribute('href').slice(1)] = a; });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting && links[e.target.id]) { Object.keys(links).forEach(function (k) { links[k].removeAttribute('aria-current'); }); links[e.target.id].setAttribute('aria-current', 'true'); } });
+    }, { rootMargin: '-35% 0px -55% 0px' });
+    Object.keys(links).forEach(function (k) { var s = $(k); if (s) io.observe(s); });
+  }
+
+  // spoiler index: real numbers from data/spoiler-index.json, counted up when it scrolls into view
+  var ix = $('index'), target = 6;
+  function countUp() {
+    var n = $('ix-n'); ix.classList.add('in');
+    if (reduce) { n.textContent = target; return; }
+    var t0 = null;
+    (function step(t) { if (t0 === null) t0 = t; var p = Math.min(1, (t - t0) / 1100), e = 1 - Math.pow(1 - p, 3); n.textContent = Math.round(target * e); if (p < 1) requestAnimationFrame(step); })(performance.now());
+  }
+  function render(h, games) {
+    var last = h[h.length - 1]; if (!last || !last.main) return;
+    target = last.main.spoilers;
+    var d = new Date(last.date + 'T12:00:00Z').toLocaleDateString('en-US', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+    $('ix-lab').textContent = 'GTA VI · day ' + h.length + ' · ' + d;
+    $('ix-of').textContent = '/' + last.main.cards;
+    $('ix-d').textContent = 'top YouTube results for “' + last.main.q + '” already carry spoilers.';
+    var gta = (games || []).filter(function (g) { return /gta/i.test(g.title); })[0];
+    if (gta) { var left = Math.round((Date.parse(gta.date) - Date.parse(last.date)) / 864e5); $('ix-left').textContent = left > 0 ? left + ' days to release.' : left === 0 ? 'Release day.' : (-left) + ' days after release.'; }
+    var box = $('ix-q'); box.textContent = '';
+    last.queries.slice(1).forEach(function (q, i) {
+      var w = document.createElement('div'); w.className = 'q'; if (i) w.style.marginTop = '18px';
+      var hd = document.createElement('div'); hd.className = 'qh';
+      var a = document.createElement('span'); a.textContent = '“' + q.q + '”'; var b = document.createElement('span'); b.textContent = q.spoilers + '/' + q.cards;
+      hd.appendChild(a); hd.appendChild(b);
+      var bg = document.createElement('span'); bg.className = 'bg'; var bar = document.createElement('span'); bar.className = 'bar'; bar.style.width = (q.cards ? Math.round(100 * q.spoilers / q.cards) : 0) + '%'; bg.appendChild(bar);
+      w.appendChild(hd); w.appendChild(bg); box.appendChild(w);
+    });
+  }
+  function start() {
+    if ('IntersectionObserver' in window) {
+      var o = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { o.disconnect(); countUp(); } }, { threshold: 0.35 });
+      o.observe(ix);
+    } else { countUp(); }
+  }
+  Promise.all([
+    fetch('data/spoiler-index.json').then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; }),
+    fetch('data/games.json').then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; })
+  ]).then(function (v) { if (v[0].length) render(v[0], v[1]); }).then(start, start);
+})();
+</script>
 </body>
 </html>

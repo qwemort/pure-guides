@@ -48,6 +48,13 @@
 <url><loc>https://qwemort.github.io/pure-guides/mute-list/boruto.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/mute-list/kaiju-8.html</loc><lastmod>2026-11-05</lastmod></url>
 <!-- mutelists:end -->
+<!-- danger:start -->
+<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/</loc><lastmod>2026-11-09</lastmod></url>
+<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html</loc><lastmod>2026-11-09</lastmod></url>
+<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/uk/2026-11-09.html</loc><lastmod>2026-11-09</lastmod></url>
+<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/pl/2026-11-09.html</loc><lastmod>2026-11-09</lastmod></url>
+<!-- danger:end -->
+<url><loc>https://qwemort.github.io/pure-guides/spoiler-index/</loc><changefreq>daily</changefreq></url>
 <!-- block:start -->
 <url><loc>https://qwemort.github.io/pure-guides/block/</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/block/gta6.html</loc><lastmod>2026-11-05</lastmod></url>
@@ -86,11 +93,4 @@
 <url><loc>https://qwemort.github.io/pure-guides/block/boruto.html</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/block/kaiju-8.html</loc><lastmod>2026-11-05</lastmod></url>
 <!-- block:end -->
-<!-- danger:start -->
-<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/</loc><lastmod>2026-11-09</lastmod></url>
-<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html</loc><lastmod>2026-11-09</lastmod></url>
-<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/uk/2026-11-09.html</loc><lastmod>2026-11-09</lastmod></url>
-<url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/pl/2026-11-09.html</loc><lastmod>2026-11-09</lastmod></url>
-<!-- danger:end -->
-<url><loc>https://qwemort.github.io/pure-guides/spoiler-index/</loc><changefreq>daily</changefreq></url>
 </urlset>
