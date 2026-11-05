@@ -10,7 +10,7 @@ on:
       from: { description: 'Начало недели YYYY-MM-DD (пусто = ближайший понедельник)', required: false }
   push:
     branches: [main]
-    paths: ['tools/gen-danger.mjs', '.github/workflows/spoiler-danger.yml']
+    paths: ['tools/gen-danger.mjs', 'tools/post-threads.mjs', '.github/workflows/spoiler-danger.yml']
 permissions:
   contents: write
   issues: write
@@ -49,14 +49,13 @@ jobs:
             -d "{\"host\":\"qwemort.github.io\",\"key\":\"$INDEXNOW_KEY\",\"keyLocation\":\"https://qwemort.github.io/pure-guides/$INDEXNOW_KEY.txt\",\"urlList\":[\"$URL\",\"https://qwemort.github.io/pure-guides/spoiler-danger/\",\"https://qwemort.github.io/pure-guides/feed.xml\"]}" \
             -o /dev/null -w "IndexNow: %{http_code}\n"
       - name: Threads
-        if: github.event_name != 'push'
         continue-on-error: true
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
         run: |
-          if [ "$(jq -r .threads_autopost spoiler-danger/config.json)" = "true" ]; then node tools/post-threads.mjs --publish; else node tools/post-threads.mjs; fi
+          # при push — только проверка токена, публикация лишь по расписанию/вручную и если включено
+          if [ "${{ github.event_name }}" != "push" ] && [ "$(jq -r .threads_autopost spoiler-danger/config.json)" = "true" ]; then node tools/post-threads.mjs --publish; else node tools/post-threads.mjs; fi
       - name: Save refreshed Threads token
-        if: github.event_name != 'push'
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
