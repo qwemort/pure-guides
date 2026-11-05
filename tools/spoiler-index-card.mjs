@@ -185,11 +185,4 @@ for (const f of fs.readdirSync(DIR)) { const m = /^(\d{4}-\d{2}-\d{2})-(uk|en)\.
 fs.writeFileSync(path.join(DIR, 'index.html'), page());
 const T = texts();
 fs.writeFileSync(path.join(ROOT, 'out', 'index-post.json'), JSON.stringify({ slug: E.date, day, url: `${BASE}spoiler-index/`, threads: T.uk, en: T.en, image: `${BASE}spoiler-index/${E.date}-uk.png`, image_en: `${BASE}spoiler-index/${E.date}-en.png` }, null, 1));
-// sitemap
-const sm = path.join(ROOT, 'sitemap.xml');
-if (fs.existsSync(sm)) {
-  let s = fs.readFileSync(sm, 'utf8').replace(/<!-- index:start -->[\s\S]*?<!-- index:end -->\n?/, '');
-  s = s.replace('</urlset>', `<!-- index:start -->\n<url><loc>${BASE}spoiler-index/</loc><lastmod>${E.date}</lastmod></url>\n<!-- index:end -->\n</urlset>`);
-  fs.writeFileSync(sm, s);
-}
 console.log(`день ${day}: ${E.main.spoilers}/${E.main.cards}, уникальных ${E.unique_spoilers}; ${T.uk.split('\n')[0]}`);

@@ -11,6 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       post: { description: 'Публиковать сейчас (по config.json)? false = только замер и issue', required: false, default: 'false' }
+      debug: { description: 'true = названия видео в лог (сжато в base64, чтобы спойлеры не читались глазами) — для проверки Claude', required: false, default: 'false' }
 permissions:
   contents: write
   issues: write
@@ -39,10 +40,9 @@ jobs:
           set -e
           if [ $c -eq 2 ]; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "::warning::YouTube не дал замерить — день пропущен"; exit 0; fi
           exit $c
-      - name: Titles for checking (artifact, not committed — they are spoilers)
-        if: steps.m.outputs.skip != '1'
-        uses: actions/upload-artifact@v4
-        with: { name: index-details, path: out/index-details.json, retention-days: 3 }
+      - name: Titles for checking (not committed — they are spoilers)
+        if: steps.m.outputs.skip != '1' && inputs.debug == 'true'
+        run: echo "DETAILS:$(gzip -9c out/index-details.json | base64 -w0)"
       - name: Card, page, texts
         if: steps.m.outputs.skip != '1'
         run: node tools/spoiler-index-card.mjs
@@ -52,7 +52,7 @@ jobs:
           rm -rf ext
           git config user.name "spoiler-index bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/spoiler-index.json spoiler-index sitemap.xml
+          git add data/spoiler-index.json spoiler-index
           git diff --cached --quiet || { git commit -m "spoiler index: $(jq -r .slug out/index-post.json)"; git pull --rebase -q origin main; git push; }
       - name: Ping search engines (IndexNow)
         if: steps.m.outputs.skip != '1'
