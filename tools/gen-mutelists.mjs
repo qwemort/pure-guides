@@ -105,6 +105,7 @@ ${chips('names', names)}
 </ul>
 
 <div class="note"><strong>The gap no mute list covers.</strong> YouTube thumbnails, Shorts, Reddit post titles and comments are where spoilers usually land, and neither site lets you mute words. Pure Spoiler Shield, a free browser extension I build, blurs videos, posts and comments that look like spoilers for ${esc(p.label)} (it ships with this exact list) on YouTube, Reddit and X. It runs locally, no account, no tracking, <a href="https://github.com/qwemort/pure-spoiler-shield">source is public</a>. It reads text, so a spoiler only inside an image can slip through. <a href="${STORE}${p.id}">Get it for Chrome</a>. Disclosure: I build it.</div>
+<p>Waiting for something else? <a href="https://github.com/qwemort/pure-spoiler-shield/issues/new?template=title-request.yml">Request a list for another title</a>.</p>
 <p class="muted">Not affiliated with the creators or rights holders of ${esc(p.label)}. Titles are trademarks of their owners.</p>
 
 <footer>
@@ -149,6 +150,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <p>Copy-ready words to mute on X and Threads, one page per title. No spoilers in the lists. Updated ${TODAY}.</p>
 <ul><li><a href="../gta-6-mute-list.html">GTA VI</a> (with Ukrainian, Polish and Russian words)</li></ul>
 ${list}
+<p>Your title is not here? <a href="https://github.com/qwemort/pure-spoiler-shield/issues/new?template=title-request.yml">Request it</a>, no spoilers in the request please. Requests close automatically when the list ships.</p>
 <footer>
 <p><a href="../">Pure guides</a> · <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
 <p>This site has no analytics, no cookies and no trackers.</p>
