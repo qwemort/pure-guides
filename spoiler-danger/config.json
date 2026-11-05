@@ -1,0 +1,1 @@
+{"threads_autopost": false, "_comment": "false = Action присылает черновик (issue), true = сам постит в Threads. Включать после 2 недель черновиков."}

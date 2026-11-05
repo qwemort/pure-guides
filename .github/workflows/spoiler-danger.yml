@@ -1,0 +1,86 @@
+name: spoiler-danger
+# Каждый понедельник: что выходит за неделю → страница spoiler-danger/<дата>.html, карточка, RSS,
+# оповещение поисковиков (IndexNow), пост в Threads (если включено в spoiler-danger/config.json)
+# и issue с готовыми текстами для Threads и X (чтобы Антон видел, что ушло, и мог запостить в X).
+on:
+  schedule:
+    - cron: '17 7 * * 1'
+  workflow_dispatch:
+    inputs:
+      from: { description: 'Начало недели YYYY-MM-DD (пусто = ближайший понедельник)', required: false }
+  push:
+    branches: [main]
+    paths: ['tools/gen-danger.mjs', '.github/workflows/spoiler-danger.yml']
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: spoiler-danger, cancel-in-progress: false }
+jobs:
+  week:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      INDEXNOW_KEY: 658113910c13cdd1724ac74e4449ac14
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with: { repository: qwemort/pure-spoiler-shield, path: ext/shield }
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Build page
+        run: node tools/gen-danger.mjs ext/shield/src/lib/words.js ${{ inputs.from && format('--from {0}', inputs.from) || '' }}
+      - name: Render card
+        run: |
+          npm i --no-save --no-package-lock playwright@1.55.0
+          npx playwright install --with-deps chromium
+          node tools/render-card.mjs
+      - name: Commit
+        run: |
+          rm -rf ext
+          git config user.name "spoiler-danger bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A spoiler-danger feed.xml sitemap.xml
+          git diff --cached --quiet || { git commit -m "spoiler danger: $(jq -r .slug out/post.json)"; git push; }
+      - name: Ping search engines (IndexNow)
+        continue-on-error: true
+        run: |
+          URL=$(jq -r .url out/post.json)
+          curl -sS -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json' \
+            -d "{\"host\":\"qwemort.github.io\",\"key\":\"$INDEXNOW_KEY\",\"keyLocation\":\"https://qwemort.github.io/pure-guides/$INDEXNOW_KEY.txt\",\"urlList\":[\"$URL\",\"https://qwemort.github.io/pure-guides/spoiler-danger/\",\"https://qwemort.github.io/pure-guides/feed.xml\"]}" \
+            -o /dev/null -w "IndexNow: %{http_code}\n"
+      - name: Threads
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+        run: |
+          if [ "$(jq -r .threads_autopost spoiler-danger/config.json)" = "true" ]; then node tools/post-threads.mjs --publish; else node tools/post-threads.mjs; fi
+      - name: Save refreshed Threads token
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          [ -f out/new-token.txt ] || exit 0
+          echo "::add-mask::$(cat out/new-token.txt)"
+          [ -n "$GH_TOKEN" ] || { echo "нет GH_PAT: новый токен не сохранён" > out/token-warn.txt; exit 0; }
+          gh secret set THREADS_TOKEN --repo ${{ github.repository }} < out/new-token.txt
+      - name: Issue with texts for Anton
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Страница: $(jq -r .url out/post.json)"
+            echo "Картинка: $(jq -r .image out/post.json)"
+            echo
+            echo "Threads: $(cat out/threads-result.txt 2>/dev/null || echo 'не подключён (нет THREADS_TOKEN)')"
+            [ -f out/token-warn.txt ] && cat out/token-warn.txt
+            echo
+            echo "### Текст для Threads"
+            echo '```'; jq -r .threads out/post.json; echo '```'
+            echo "### Текст для X (с картинкой выше)"
+            echo '```'; jq -r .x out/post.json; echo '```'
+            echo
+            echo "Если текст звучит не как ты — ответь тут, поправим шаблоны. Issue можно закрыть."
+          } > out/issue.md
+          gh issue create --title "Неделя $(jq -r .slug out/post.json): тексты для Threads и X" --body-file out/issue.md
