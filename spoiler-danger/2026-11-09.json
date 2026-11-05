@@ -1,89 +1,131 @@
 {
- "range": "9 Nov to 15 Nov 2026",
+ "range": "9 Nov – 15 Nov 2026",
  "items": [
   {
    "kind": "series",
    "title": "The Lord of the Rings: The Rings of Power",
+   "date": "2026-11-11",
    "day": "Wednesday",
-   "note": "season 3, full drop"
+   "note": "season 3, full drop",
+   "mute": "mute-list/rings-of-power.html",
+   "source": "https://www.tvmaze.com/shows/33352/the-lord-of-the-rings-the-rings-of-power"
   },
   {
    "kind": "anime",
    "title": "The Apothecary Diaries Season 3",
+   "date": "2026-11-13",
    "day": "Friday",
-   "note": "episode 7"
+   "note": "episode 7",
+   "mute": "mute-list/apothecary.html",
+   "source": "https://anilist.co/anime/195516"
   },
   {
    "kind": "series",
    "title": "VisionQuest",
+   "date": "2026-11-10",
    "day": "Tuesday",
-   "note": "season 1, episode 8"
+   "note": "season 1, episode 8",
+   "mute": null,
+   "source": "https://www.tvmaze.com/shows/64950/visionquest"
   },
   {
    "kind": "anime",
    "title": "Black Clover Season 2",
+   "date": "2026-11-14",
    "day": "Saturday",
-   "note": "episode 7"
+   "note": "episode 7",
+   "mute": "mute-list/black-clover.html",
+   "source": "https://anilist.co/anime/195604"
   },
   {
    "kind": "series",
    "title": "Fire Country",
+   "date": "2026-11-13",
    "day": "Friday",
-   "note": "season 5, episode 6"
+   "note": "season 5, episode 6",
+   "mute": null,
+   "source": "https://www.tvmaze.com/shows/60339/fire-country"
   },
   {
    "kind": "anime",
    "title": "Detective Conan",
+   "date": "2026-11-14",
    "day": "Saturday",
-   "note": "episode 1220"
+   "note": "episode 1220",
+   "mute": null,
+   "source": "https://anilist.co/anime/235"
   },
   {
    "kind": "series",
    "title": "The Institute",
+   "date": "2026-11-15",
    "day": "Sunday",
-   "note": "season 2, episode 2"
+   "note": "season 2, episode 2",
+   "mute": null,
+   "source": "https://www.tvmaze.com/shows/77778/the-institute"
   },
   {
    "kind": "anime",
    "title": "The Exiled Heavy Knight Knows How to Game the System",
+   "date": "2026-11-12",
    "day": "Thursday",
-   "note": "episode 20"
+   "note": "episode 20",
+   "mute": null,
+   "source": "https://anilist.co/anime/180136"
   },
   {
    "kind": "series",
    "title": "The Gilded Age",
+   "date": "2026-11-15",
    "day": "Sunday",
-   "note": "season 4, episode 3"
+   "note": "season 4, episode 3",
+   "mute": null,
+   "source": "https://www.tvmaze.com/shows/34685/the-gilded-age"
   },
   {
    "kind": "anime",
    "title": "Overgeared",
+   "date": "2026-11-15",
    "day": "Sunday",
-   "note": "episode 8"
+   "note": "episode 8",
+   "mute": null,
+   "source": "https://anilist.co/anime/212888"
   },
   {
    "kind": "series",
    "title": "Blue Skies",
+   "date": "2026-11-12",
    "day": "Thursday",
-   "note": "season 2, episode 7"
+   "note": "season 2, episode 7",
+   "mute": null,
+   "source": "https://www.tvmaze.com/shows/89844/blue-skies"
   },
   {
    "kind": "anime",
    "title": "Reincarnated as a Sword Season 2",
+   "date": "2026-11-11",
    "day": "Wednesday",
-   "note": "episode 7"
+   "note": "episode 7",
+   "mute": null,
+   "source": "https://anilist.co/anime/159042"
   },
   {
    "kind": "anime",
    "title": "Blue Box Season 2",
+   "date": "2026-11-15",
    "day": "Sunday",
-   "note": "episode 6"
+   "note": "episode 6",
+   "mute": null,
+   "source": "https://anilist.co/anime/189123"
   },
   {
    "kind": "anime",
    "title": "Firefly Wedding",
+   "date": "2026-11-13",
    "day": "Friday",
-   "note": "episode 6"
+   "note": "episode 6",
+   "mute": null,
+   "source": "https://anilist.co/anime/205909"
   }
  ]
 }

@@ -1,0 +1,207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Pure guides//Spoiler danger//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Spoiler danger
+X-WR-CALDESC:Game, series and anime releases with what to mute. No spoilers.
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:2026-11-11-the-lord-of-the-rings-the-rings-of-power@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🛡 The Lord of the Rings: The Rings of Power · season 3\, full
+  drop
+DESCRIPTION:Spoiler danger: The Lord of the Rings: The Rings of Power (se
+ ason 3\, full drop). Words to mute on X and Threads: https://qwemort.git
+ hub.io/pure-guides/mute-list/rings-of-power.html\nAll of this week: http
+ s://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/mute-list/rings-of-power.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-the-apothecary-diaries-season-3@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🛡 The Apothecary Diaries Season 3 · episode 7
+DESCRIPTION:Spoiler danger: The Apothecary Diaries Season 3 (episode 7). 
+ Words to mute on X and Threads: https://qwemort.github.io/pure-guides/mu
+ te-list/apothecary.html\nAll of this week: https://qwemort.github.io/pur
+ e-guides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/mute-list/apothecary.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-visionquest@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🛡 VisionQuest · season 1\, episode 8
+DESCRIPTION:Spoiler danger: VisionQuest (season 1\, episode 8). Words to 
+ mute on X and Threads: https://qwemort.github.io/pure-guides/spoiler-dan
+ ger/2026-11-09.html\nAll of this week: https://qwemort.github.io/pure-gu
+ ides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-black-clover-season-2@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🛡 Black Clover Season 2 · episode 7
+DESCRIPTION:Spoiler danger: Black Clover Season 2 (episode 7). Words to m
+ ute on X and Threads: https://qwemort.github.io/pure-guides/mute-list/bl
+ ack-clover.html\nAll of this week: https://qwemort.github.io/pure-guides
+ /spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/mute-list/black-clover.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-fire-country@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🛡 Fire Country · season 5\, episode 6
+DESCRIPTION:Spoiler danger: Fire Country (season 5\, episode 6). Words to
+  mute on X and Threads: https://qwemort.github.io/pure-guides/spoiler-da
+ nger/2026-11-09.html\nAll of this week: https://qwemort.github.io/pure-g
+ uides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-detective-conan@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🛡 Detective Conan · episode 1220
+DESCRIPTION:Spoiler danger: Detective Conan (episode 1220). Words to mute
+  on X and Threads: https://qwemort.github.io/pure-guides/spoiler-danger/
+ 2026-11-09.html\nAll of this week: https://qwemort.github.io/pure-guides
+ /spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-the-institute@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🛡 The Institute · season 2\, episode 2
+DESCRIPTION:Spoiler danger: The Institute (season 2\, episode 2). Words t
+ o mute on X and Threads: https://qwemort.github.io/pure-guides/spoiler-d
+ anger/2026-11-09.html\nAll of this week: https://qwemort.github.io/pure-
+ guides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-the-exiled-heavy-knight-knows-how-to-game-the-system@qwemo
+ rt.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🛡 The Exiled Heavy Knight Knows How to Game the System · epis
+ ode 20
+DESCRIPTION:Spoiler danger: The Exiled Heavy Knight Knows How to Game the
+  System (episode 20). Words to mute on X and Threads: https://qwemort.gi
+ thub.io/pure-guides/spoiler-danger/2026-11-09.html\nAll of this week: ht
+ tps://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-the-gilded-age@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🛡 The Gilded Age · season 4\, episode 3
+DESCRIPTION:Spoiler danger: The Gilded Age (season 4\, episode 3). Words 
+ to mute on X and Threads: https://qwemort.github.io/pure-guides/spoiler-
+ danger/2026-11-09.html\nAll of this week: https://qwemort.github.io/pure
+ -guides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-overgeared@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🛡 Overgeared · episode 8
+DESCRIPTION:Spoiler danger: Overgeared (episode 8). Words to mute on X an
+ d Threads: https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-
+ 09.html\nAll of this week: https://qwemort.github.io/pure-guides/spoiler
+ -danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-blue-skies@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🛡 Blue Skies · season 2\, episode 7
+DESCRIPTION:Spoiler danger: Blue Skies (season 2\, episode 7). Words to m
+ ute on X and Threads: https://qwemort.github.io/pure-guides/spoiler-dang
+ er/2026-11-09.html\nAll of this week: https://qwemort.github.io/pure-gui
+ des/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-reincarnated-as-a-sword-season-2@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🛡 Reincarnated as a Sword Season 2 · episode 7
+DESCRIPTION:Spoiler danger: Reincarnated as a Sword Season 2 (episode 7).
+  Words to mute on X and Threads: https://qwemort.github.io/pure-guides/s
+ poiler-danger/2026-11-09.html\nAll of this week: https://qwemort.github.
+ io/pure-guides/spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-blue-box-season-2@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🛡 Blue Box Season 2 · episode 6
+DESCRIPTION:Spoiler danger: Blue Box Season 2 (episode 6). Words to mute 
+ on X and Threads: https://qwemort.github.io/pure-guides/spoiler-danger/2
+ 026-11-09.html\nAll of this week: https://qwemort.github.io/pure-guides/
+ spoiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-firefly-wedding@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🛡 Firefly Wedding · episode 6
+DESCRIPTION:Spoiler danger: Firefly Wedding (episode 6). Words to mute on
+  X and Threads: https://qwemort.github.io/pure-guides/spoiler-danger/202
+ 6-11-09.html\nAll of this week: https://qwemort.github.io/pure-guides/sp
+ oiler-danger/2026-11-09.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-gta-vi@qwemort.github.io
+DTSTAMP:20261105T014244Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🛡 GTA VI · release
+DESCRIPTION:Spoiler danger: GTA VI comes out (PS5\, Xbox Series X|S). Wor
+ ds to mute: https://qwemort.github.io/pure-guides/gta-6-mute-list.html
+URL:https://qwemort.github.io/pure-guides/gta-6-mute-list.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
