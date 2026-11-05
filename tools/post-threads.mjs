@@ -31,4 +31,4 @@ const rf = await call(`https://graph.threads.net/refresh_access_token?grant_type
 const daysLeft = Math.round((rf.expires_in || 0) / 86400);
 console.log(`токен продлён, дней: ${daysLeft}`);
 if (rf.access_token && rf.access_token !== T) fs.writeFileSync(path.join(ROOT, 'out', 'new-token.txt'), rf.access_token);
-// проверено: 2026-11-05
+// проверено: 2026-11-05T0112
