@@ -1,0 +1,42 @@
+name: threads-stats
+# Раз в день берёт у Threads статистику своих постов (просмотры/лайки/ответы) и складывает в data/threads-stats.json.
+# Видно, какие посты цепляют. Только числа, ничего не публикуется. Сводка — в «Summary» запуска и в issue «Статистика Threads».
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: threads-stats, cancel-in-progress: false }
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Fetch stats
+        id: s
+        env: { THREADS_TOKEN: '${{ secrets.THREADS_TOKEN }}' }
+        run: |
+          set +e
+          node tools/threads-stats.mjs
+          c=$?
+          cat out/threads-stats.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null
+          [ $c -eq 3 ] && echo "noperm=1" >> "$GITHUB_OUTPUT"
+          [ $c -eq 0 ] || [ $c -eq 3 ] || exit $c
+      - name: Commit
+        run: |
+          git config user.name "threads-stats bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/threads-stats.json
+          git diff --cached --quiet || { git commit -qm "threads stats: $(date -u +%F)"; git pull --rebase -q origin "$GITHUB_REF_NAME"; git push origin "HEAD:$GITHUB_REF_NAME"; }
+      - name: Issue (once a week or on manual run)
+        if: github.event_name == 'workflow_dispatch' || github.run_number % 7 == 0
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          [ -f out/threads-stats.md ] || exit 0
+          N=$(gh issue list --state open --search 'in:title "Статистика Threads"' --json number -q '.[0].number')
+          [ -n "$N" ] || N=$(gh issue create --title "Статистика Threads" --body "Сюда раз в неделю приходит сводка по постам: просмотры, лайки, ответы." | grep -o '[0-9]*$')
+          gh issue comment "$N" --body-file out/threads-stats.md
