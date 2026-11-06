@@ -126,3 +126,19 @@ jobs:
             N=$(gh issue create --title "Индекс спойлеров GTA 6" --body-file out/head.md | grep -o '[0-9]*$')
           fi
           gh issue comment "$N" --body-file out/issue.md
+      - name: Site check — did a site change its layout? (1.2 self-check)
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node tools/site-health.mjs --ext ext/shield/release/chrome || true
+          cat out/site-health.md >> "$GITHUB_STEP_SUMMARY" || true
+          if [ "$(cat out/site-health-broken.txt 2>/dev/null)" = "1" ]; then
+            N=$(gh issue list --state open --search 'in:title "Shield: проверка сайтов"' --json number -q '.[0].number')
+            if [ -z "$N" ]; then
+              printf 'Сюда бот пишет, когда настоящий Shield перестаёт находить карточки на сайте (вероятно, сайт поменял вёрстку). Чинится правкой одной строки в src/content/sites.js.\n' > out/sh-head.md
+              N=$(gh issue create --title "Shield: проверка сайтов" --body-file out/sh-head.md | grep -o '[0-9]*$')
+            fi
+            gh issue comment "$N" --body-file out/site-health.md
+          fi
