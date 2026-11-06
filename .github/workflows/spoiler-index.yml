@@ -68,8 +68,18 @@ jobs:
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
         run: |
+          TODAY=$(date -u +%F)
           if [ "${{ github.event_name }}" = "schedule" -o "${{ inputs.post }}" = "true" ] && [ "$(jq -r .threads_autopost spoiler-index/config.json)" = "true" ]; then
-            node tools/post-threads.mjs --post out/index-post.json --publish
+            if [ -f "spoiler-index/posted-$TODAY.txt" ]; then
+              echo "Сегодня уже опубликовано — второй пост не делаем" | tee out/threads-result.txt
+            else
+              node tools/post-threads.mjs --post out/index-post.json --publish
+              if grep -q "^опубликовано" out/threads-result.txt 2>/dev/null; then
+                cp out/threads-result.txt "spoiler-index/posted-$TODAY.txt"
+                git add "spoiler-index/posted-$TODAY.txt"
+                git commit -qm "spoiler index: posted $TODAY" && git pull --rebase -q origin main && git push || true
+              fi
+            fi
           else node tools/post-threads.mjs --post out/index-post.json; fi
       - name: Save refreshed Threads token
         if: steps.m.outputs.skip != '1'
