@@ -1,0 +1,24 @@
+name: weekly-report
+# По понедельникам собирает один отчёт: Threads, индекс спойлеров, поиск магазина → комментарий в issue «Недельный отчёт».
+on:
+  schedule:
+    - cron: '37 7 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: node tools/weekly-report.mjs >/dev/null && cat out/weekly-report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Issue
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          N=$(gh issue list --state open --search 'in:title "Недельный отчёт"' --json number -q '.[0].number')
+          [ -n "$N" ] || N=$(gh issue create --title "Недельный отчёт" --body "Сюда каждый понедельник приходит один отчёт: Threads, индекс спойлеров, позиция в поиске Chrome Web Store." | grep -o '[0-9]*$')
+          gh issue comment "$N" --body-file out/weekly-report.md
