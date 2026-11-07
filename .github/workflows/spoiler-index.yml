@@ -113,9 +113,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          node tools/notify.mjs "📊 Индекс спойлеров, день $(jq -r .day out/index-post.json)
-$(jq -r .threads out/index-post.json)
-$(jq -r .url out/index-post.json)"
+          M=$(printf '📊 Индекс спойлеров, день %s\n%s\n%s' "$(jq -r .day out/index-post.json)" "$(jq -r .threads out/index-post.json)" "$(jq -r .url out/index-post.json)")
+          node tools/notify.mjs "$M"
       - name: Issue for Anton
         if: steps.m.outputs.skip != '1'
         env:

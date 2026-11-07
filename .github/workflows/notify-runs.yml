@@ -22,12 +22,10 @@ jobs:
       - name: Ping
         run: |
           if [ "$RESULT" = failure ]; then
-            node tools/notify.mjs "❌ pure-guides: $NAME упал
-$URL"
+            node tools/notify.mjs "$(printf '❌ pure-guides: %s упал\n%s' "$NAME" "$URL")"
           else
             case "$NAME" in
-              spoiler-danger|mutelists) node tools/notify.mjs "✅ pure-guides: $NAME готово
-$URL" ;;
-              *) echo "успех $NAME — без уведомления" ;;
+              spoiler-danger|mutelists) node tools/notify.mjs "$(printf '✅ pure-guides: %s готово\n%s' "$NAME" "$URL")" ;;
+              *) echo "успех $NAME, без уведомления" ;;
             esac
           fi

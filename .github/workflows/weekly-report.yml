@@ -27,5 +27,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: node tools/notify.mjs "📈 Недельный отчёт
-$(cat out/weekly-report.md)"
+        run: |
+          M=$(printf '📈 Недельный отчёт\n%s' "$(cat out/weekly-report.md)")
+          node tools/notify.mjs "$M"
