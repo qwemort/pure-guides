@@ -9,6 +9,7 @@ if (!SRC || !fs.existsSync(SRC)) { console.error('usage: node tools/gen-block.mj
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'block');
 const BASE = 'https://qwemort.github.io/pure-guides/';
+const FF = 'https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=block-';
 const STORE = 'https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=block-';
 const TODAY = new Date().toISOString().slice(0, 10);
 
@@ -75,7 +76,7 @@ ${JSON.stringify({ '@context': 'https://schema.org', '@graph': [
 
 <div class="note short"><strong>Short answer.</strong> YouTube and Reddit have no way to mute words, so ${esc(L)} spoilers in thumbnails, titles and comments get through. A browser extension that reads the page and blurs matching videos, posts and comments is what actually works. I build one, Pure Spoiler Shield: it is free, ships with a ready-made ${esc(L)} list and runs locally.</div>
 
-<p><a class="cta" href="${STORE}${p.id}">Add Pure Spoiler Shield to Chrome, free</a><br><span class="muted">Disclosure: I build it. Firefox version is in review.</span></p>
+<p><a class="cta" href="${STORE}${p.id}">Add Pure Spoiler Shield to Chrome, free</a><br><span class="muted">Disclosure: I build it. Also on <a href="${FF}${p.id}">Firefox</a>.</span></p>
 
 <h2>Try it right here</h2>
 <p class="muted">A made-up YouTube-style feed with no real spoilers. Switch the Shield on and watch the ${esc(L)} spoiler videos blur while trailers and everything else stay (this is the "spoilers only" level).</p>
