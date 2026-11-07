@@ -1,0 +1,33 @@
+name: notify-runs
+# Личные уведомления Антону в Telegram о запусках остальных workflow:
+# любой сбой — сразу; еженедельные задачи — «готово». Тексты индекса и отчёта шлют сами workflow.
+on:
+  workflow_run:
+    workflows: [spoiler-index, spoiler-danger, weekly-report, threads-stats, store-rank, mutelists, demo-media]
+    types: [completed]
+permissions: {}
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    if: github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'success'
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      NAME: ${{ github.event.workflow_run.name }}
+      RESULT: ${{ github.event.workflow_run.conclusion }}
+      URL: ${{ github.event.workflow_run.html_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Ping
+        run: |
+          if [ "$RESULT" = failure ]; then
+            node tools/notify.mjs "❌ pure-guides: $NAME упал
+$URL"
+          else
+            case "$NAME" in
+              spoiler-danger|mutelists) node tools/notify.mjs "✅ pure-guides: $NAME готово
+$URL" ;;
+              *) echo "успех $NAME — без уведомления" ;;
+            esac
+          fi

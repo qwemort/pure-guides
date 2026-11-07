@@ -106,6 +106,16 @@ jobs:
             [ "$(jq -r .bluesky_autopost spoiler-index/config.json)" = "true" ] && F="$F --bsky"
           fi
           node tools/post-social.mjs --post out/index-post.json $F
+      - name: Telegram для Антона
+        if: steps.m.outputs.skip != '1'
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          node tools/notify.mjs "📊 Индекс спойлеров, день $(jq -r .day out/index-post.json)
+$(jq -r .threads out/index-post.json)
+$(jq -r .url out/index-post.json)"
       - name: Issue for Anton
         if: steps.m.outputs.skip != '1'
         env:

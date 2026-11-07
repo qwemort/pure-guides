@@ -22,3 +22,10 @@ jobs:
           N=$(gh issue list --state open --search 'in:title "Недельный отчёт"' --json number -q '.[0].number')
           [ -n "$N" ] || N=$(gh issue create --title "Недельный отчёт" --body "Сюда каждый понедельник приходит один отчёт: Threads, индекс спойлеров, позиция в поиске Chrome Web Store." | grep -o '[0-9]*$')
           gh issue comment "$N" --body-file out/weekly-report.md
+      - name: Telegram для Антона
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node tools/notify.mjs "📈 Недельный отчёт
+$(cat out/weekly-report.md)"
