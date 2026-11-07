@@ -2,7 +2,8 @@ name: tg-hello
 # Проверка личного Telegram-бота. Ручной запуск. Находит chat_id Антона (он написал боту любое слово)
 # и шлёт ему в личку: «бот работает» + его chat_id (в публичный лог chat_id не пишется).
 on: workflow_dispatch
-permissions: {}
+permissions:
+  contents: read
 jobs:
   hello:
     runs-on: ubuntu-latest

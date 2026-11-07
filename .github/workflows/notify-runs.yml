@@ -5,7 +5,8 @@ on:
   workflow_run:
     workflows: [spoiler-index, spoiler-danger, weekly-report, threads-stats, store-rank, mutelists, demo-media]
     types: [completed]
-permissions: {}
+permissions:
+  contents: read
 jobs:
   ping:
     runs-on: ubuntu-latest
