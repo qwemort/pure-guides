@@ -26,5 +26,5 @@ jobs:
           git add -A mute-list block sitemap.xml index.html
           git diff --cached --quiet && exit 0
           git commit -m "mute lists: $(date -u +%F)"
-          git pull --rebase -q origin main
+          git pull --rebase -X theirs -q origin main
           git push

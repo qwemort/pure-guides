@@ -40,7 +40,7 @@ jobs:
           git config user.name "spoiler-danger bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A spoiler-danger feed.xml sitemap.xml data/candidates.json
-          git diff --cached --quiet || { git commit -m "spoiler danger: $(jq -r .slug out/post.json)"; git pull --rebase -q origin main; git push; }
+          git diff --cached --quiet || { git commit -m "spoiler danger: $(jq -r .slug out/post.json)"; git pull --rebase -X theirs -q origin main; git push; }
       - name: Ping search engines (IndexNow)
         continue-on-error: true
         run: |
