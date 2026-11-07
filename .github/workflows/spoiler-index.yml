@@ -10,6 +10,7 @@ on:
     - cron: '41 15 * * *'   # 16:41 Варшава, 17:41 Киев — вечером, когда люди в телефоне
   workflow_dispatch:
     inputs:
+      only_bluesky: { description: 'true = при публикации писать только в Bluesky (Threads не трогать)', required: false, default: 'false' }
       post: { description: 'Публиковать сейчас (по config.json)? false = только замер и issue', required: false, default: 'false' }
       debug: { description: 'true = названия видео в лог (сжато в base64, чтобы спойлеры не читались глазами) — для проверки Claude', required: false, default: 'false' }
 permissions:
@@ -69,7 +70,7 @@ jobs:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
         run: |
           TODAY=$(date -u +%F)
-          if [ "${{ github.event_name }}" = "schedule" -o "${{ inputs.post }}" = "true" ] && [ "$(jq -r .threads_autopost spoiler-index/config.json)" = "true" ]; then
+          if [ "${{ inputs.only_bluesky }}" != "true" ] && [ "${{ github.event_name }}" = "schedule" -o "${{ inputs.post }}" = "true" ] && [ "$(jq -r .threads_autopost spoiler-index/config.json)" = "true" ]; then
             if [ -f "spoiler-index/posted-$TODAY.txt" ]; then
               echo "Сегодня уже опубликовано — второй пост не делаем" | tee out/threads-result.txt
             else
@@ -100,12 +101,20 @@ jobs:
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
         run: |
+          TODAY=$(date -u +%F)
           F=""
           if [ "${{ github.event_name }}" = "schedule" -o "${{ inputs.post }}" = "true" ]; then
             [ "$(jq -r .telegram_autopost spoiler-index/config.json)" = "true" ] && F="$F --tg"
-            [ "$(jq -r .bluesky_autopost spoiler-index/config.json)" = "true" ] && F="$F --bsky"
+            if [ "$(jq -r .bluesky_autopost spoiler-index/config.json)" = "true" ]; then
+              if [ -f "spoiler-index/bsky-$TODAY.txt" ]; then echo "Bluesky: сегодня уже опубликовано, второй пост не делаем"; else F="$F --bsky"; fi
+            fi
           fi
           node tools/post-social.mjs --post out/index-post.json $F
+          if grep -q "Bluesky: опубликовано" out/social-result.txt 2>/dev/null; then
+            cp out/social-result.txt "spoiler-index/bsky-$TODAY.txt"
+            git add "spoiler-index/bsky-$TODAY.txt"
+            git commit -qm "spoiler index: bluesky posted $TODAY" && git pull --rebase -q origin main && git push || true
+          fi
       - name: Telegram для Антона
         if: steps.m.outputs.skip != '1'
         continue-on-error: true
