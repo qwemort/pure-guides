@@ -1,0 +1,30 @@
+name: tg-hello
+# Проверка личного Telegram-бота. Ручной запуск. Находит chat_id Антона (он написал боту любое слово)
+# и шлёт ему в личку: «бот работает» + его chat_id (в публичный лог chat_id не пишется).
+on: workflow_dispatch
+permissions: {}
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Hello
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then echo "::error::Нет секрета TELEGRAM_BOT_TOKEN"; exit 1; fi
+          if [ -z "$TELEGRAM_CHAT_ID" ]; then
+            id=$(curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getUpdates" | jq -r '[.result[].message.chat.id // empty] | last // empty')
+            if [ -z "$id" ]; then echo "::error::Бот не получил сообщений. Напиши ему любое слово и запусти снова"; exit 1; fi
+            echo "::add-mask::$id"
+            curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" -d chat_id="$id" \
+              --data-urlencode text="Бот работает. Твой chat_id: $id
+Положи его в секрет TELEGRAM_CHAT_ID (pure-guides → Settings → Secrets → Actions)." >/dev/null
+            echo "Отправил chat_id тебе в Telegram (в лог он не пишется)."
+          else
+            node tools/notify.mjs "Бот работает. Уведомления подключены."
+          fi
