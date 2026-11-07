@@ -7,6 +7,8 @@ JID=${JOB%%$'\t'*}
 STEP=""; WHY=""
 if [ -n "$JID" ] && [ "$JID" != "null" ]; then
   STEP=$(gh api "repos/$REPO/actions/jobs/$JID" --jq '[.steps[] | select(.conclusion=="failure")][0].name' 2>/dev/null || true)
-  WHY=$(gh api "repos/$REPO/actions/jobs/$JID/logs" 2>/dev/null | sed 's/\x1b\[[0-9;]*m//g' | grep -iE '##\[error\]|conflict|fatal|error:|traceback|exception' | tail -5 | cut -c1-200 | sed -E 's/^[0-9TZ:.-]+ //' || true)
+  LOG=$(gh api "repos/$REPO/actions/jobs/$JID/logs" 2>/dev/null | sed 's/\x1b\[[0-9;]*m//g' | sed -E 's/^[0-9TZ:.-]+ //' || true)
+  WHY=$(printf '%s\n' "$LOG" | grep -E '##\[error\]|FAIL|[Cc]onflict|fatal|[Ee]rror:|Traceback|[Ee]xception|passed, [1-9]' | tail -5 | cut -c1-200 || true)
+  [ -n "$WHY" ] || WHY=$(printf '%s\n' "$LOG" | grep -v '^$' | tail -4 | cut -c1-200 || true)
 fi
 printf '❌ %s: %s упал\nШаг: %s\nПричина:\n%s\n%s' "${REPO#*/}" "$NAME" "${STEP:-неизвестно}" "${WHY:-не удалось прочитать лог}" "$URL"
