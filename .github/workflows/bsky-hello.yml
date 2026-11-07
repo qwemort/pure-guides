@@ -1,0 +1,28 @@
+name: bsky-hello
+# Проверка входа в Bluesky без публикации. Результат приходит Антону в Telegram.
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+      BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Login
+        run: |
+          if [ -z "$BSKY_HANDLE" ] || [ -z "$BSKY_APP_PASSWORD" ]; then
+            node tools/notify.mjs "Bluesky: нет секретов BSKY_HANDLE / BSKY_APP_PASSWORD"; exit 1
+          fi
+          R=$(curl -s -X POST https://bsky.social/xrpc/com.atproto.server.createSession -H 'content-type: application/json' -d "$(jq -n --arg i "$BSKY_HANDLE" --arg p "$BSKY_APP_PASSWORD" '{identifier:$i,password:$p}')")
+          H=$(echo "$R" | jq -r '.handle // empty')
+          if [ -n "$H" ]; then
+            node tools/notify.mjs "Bluesky: вход рабочий, аккаунт @$H"
+          else
+            node tools/notify.mjs "Bluesky: вход не удался. $(echo "$R" | jq -r '.message // .error // "неизвестно"')"; exit 1
+          fi

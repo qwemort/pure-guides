@@ -1,6 +1,6 @@
 {
- "_comment": "Что публикует индекс спойлеров. Threads включён Антоном 05.11 23:53. Telegram/Bluesky — когда появятся секреты.",
+ "_comment": "Что публикует индекс спойлеров. Threads включён Антоном 05.11 23:53. Bluesky включён Антоном 07.11 (секреты добавлены). Telegram-канал выключен; личные уведомления идут отдельно через notify.",
  "threads_autopost": true,
  "telegram_autopost": false,
- "bluesky_autopost": false
+ "bluesky_autopost": true
 }
