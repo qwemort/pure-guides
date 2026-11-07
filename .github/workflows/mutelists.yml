@@ -6,6 +6,7 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+concurrency: { group: spoiler-danger, cancel-in-progress: false }
 jobs:
   build:
     runs-on: ubuntu-latest

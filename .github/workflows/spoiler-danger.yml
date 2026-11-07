@@ -87,3 +87,12 @@ jobs:
           T="Неделя $(jq -r .slug out/post.json): тексты для Threads и X"
           N=$(gh issue list --state open --search "in:title $(jq -r .slug out/post.json)" --json number -q '.[0].number')
           if [ -n "$N" ]; then gh issue edit "$N" --body-file out/issue.md; else gh issue create --title "$T" --body-file out/issue.md; fi
+      - name: Telegram для Антона
+        if: success()
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -f out/issue.md ] || exit 0
+          node tools/notify.mjs "$(printf '🗓 Неделя %s: тексты для Threads и X\n\n%s' "$(jq -r .slug out/post.json)" "$(cat out/issue.md)")"
