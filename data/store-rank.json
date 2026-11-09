@@ -48,5 +48,30 @@
     "rank": null
    }
   ]
+ },
+ {
+  "date": "2026-11-09",
+  "results": [
+   {
+    "q": "spoiler blocker",
+    "total": 10,
+    "rank": null
+   },
+   {
+    "q": "hide spoilers",
+    "total": 10,
+    "rank": null
+   },
+   {
+    "q": "spoiler shield",
+    "total": 10,
+    "rank": 9
+   },
+   {
+    "q": "block spoilers youtube",
+    "total": 10,
+    "rank": null
+   }
+  ]
  }
 ]
