@@ -111,21 +111,21 @@
   },
   {
    "kind": "anime",
-   "title": "Blue Box Season 2",
-   "date": "2026-11-15",
-   "day": "Sunday",
-   "note": "episode 6",
-   "mute": null,
-   "source": "https://anilist.co/anime/189123"
-  },
-  {
-   "kind": "anime",
    "title": "Firefly Wedding",
    "date": "2026-11-13",
    "day": "Friday",
    "note": "episode 6",
    "mute": null,
    "source": "https://anilist.co/anime/205909"
+  },
+  {
+   "kind": "anime",
+   "title": "Blue Box Season 2",
+   "date": "2026-11-15",
+   "day": "Sunday",
+   "note": "episode 6",
+   "mute": null,
+   "source": "https://anilist.co/anime/189123"
   }
  ]
 }
