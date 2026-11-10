@@ -33,6 +33,24 @@ jobs:
             git add "queue/posted-$TODAY.txt"
             git commit -qm "scheduled post: posted $TODAY" && git pull --rebase -q origin main && git push || true
           fi
+      - name: Bluesky (если в посте есть поле en)
+        continue-on-error: true
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: |
+          TODAY=$(date -u +%F)
+          [ -f "queue/$TODAY.json" ] || exit 0
+          [ -f "queue/bsky-$TODAY.txt" ] && { echo "Bluesky: сегодня уже опубликовано"; exit 0; }
+          [ "$(jq -r '.en // empty' "queue/$TODAY.json")" ] || exit 0
+          node tools/post-social.mjs --post "queue/$TODAY.json" --bsky
+          if grep -q "^Bluesky: опубликовано" out/social-result.txt 2>/dev/null; then
+            cp out/social-result.txt "queue/bsky-$TODAY.txt"
+            git config user.name "scheduled-post bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add "queue/bsky-$TODAY.txt"
+            git commit -qm "scheduled post: bluesky $TODAY" && git pull --rebase -q origin main && git push || true
+          fi
       - name: Save refreshed Threads token
         continue-on-error: true
         env:

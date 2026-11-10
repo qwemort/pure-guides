@@ -40,7 +40,7 @@ if (env.BSKY_HANDLE && env.BSKY_APP_PASSWORD) {
       const record = {
         $type: 'app.bsky.feed.post', text, createdAt: new Date().toISOString(), langs: ['en'],
         facets: [{ index: { byteStart: start, byteEnd: start + enc.encode(post.url).length }, features: [{ $type: 'app.bsky.richtext.facet#link', uri: post.url }] }],
-        embed: { $type: 'app.bsky.embed.images', images: [{ image: blob.blob, alt: `GTA 6 spoiler index card: ${post.en.split('\n').slice(0, 3).join(' ')}`, aspectRatio: { width: 1080, height: 1350 } }] },
+        embed: { $type: 'app.bsky.embed.images', images: [{ image: blob.blob, alt: post.alt || `GTA 6 spoiler index card: ${post.en.split("\n").slice(0, 3).join(" ")}`, aspectRatio: { width: 1080, height: 1350 } }] },
       };
       await j(await fetch(X + 'com.atproto.repo.createRecord', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + s.accessJwt }, body: JSON.stringify({ repo: s.did, collection: 'app.bsky.feed.post', record }) }));
       out.push(`Bluesky: опубликовано @${env.BSKY_HANDLE}`);
