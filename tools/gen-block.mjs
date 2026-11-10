@@ -29,8 +29,10 @@ function page(p) {
   const L = p.label, k = KIND[p.kind] || 'title';
   const spell = (p.game || []).length, names = new Set([...(p.unique || []), ...(p.common || [])]).size;
   const sc = scripts(p.game || []);
-  const title = `How to block ${L} spoilers on YouTube, Reddit and X`;
-  const desc = `YouTube and Reddit can't mute words. Here is what works for ${L} spoilers: a free extension that blurs them, plus what each site lets you turn off.`;
+  // люди ищут «GTA 6», а не «GTA VI» (проверка выдачи 10.11.2026): в заголовке и описании пишем так, как ищут
+  const T = p.id === 'gta6' ? 'GTA 6' : L, D = p.id === 'gta6' ? 'GTA 6 (GTA VI)' : L;
+  const title = `How to block ${T} spoilers on YouTube, Reddit and X`;
+  const desc = `YouTube and Reddit can't mute words. Here is what works for ${D} spoilers: a free extension that blurs them, plus what each site lets you turn off.`;
   const url = `${BASE}block/${p.id}.html`;
   const faq = [
     [`Can YouTube block ${L} spoilers by itself?`, `No. YouTube has no word filter. You can tap "Not interested" or "Don't recommend channel" on single videos, but new spoiler thumbnails, Shorts and comments still show up.`],

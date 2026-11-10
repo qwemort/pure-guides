@@ -5,7 +5,7 @@ import fs from 'node:fs'; import path from 'node:path';
 import { chromium } from 'playwright';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const ID = 'aloilpojkoblacapdlknacjiljgjibng';
-const QUERIES = ['spoiler blocker', 'hide spoilers', 'spoiler shield', 'block spoilers youtube'];
+const QUERIES = ['spoiler blocker', 'hide spoilers', 'spoiler shield', 'block spoilers youtube', 'gta 6 spoiler', 'gta 6 spoiler blocker'];
 const today = new Date().toISOString().slice(0, 10);
 const b = await chromium.launch(); const ctx = await b.newContext({ locale: 'en-US', viewport: { width: 1280, height: 900 } });
 const res = [];
