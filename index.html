@@ -132,6 +132,22 @@ label.fl{display:block;font-weight:600;margin:0 0 8px}
 .ext p{margin:0 0 10px;color:var(--muted);font-size:15px}
 .ext .l a{font-size:15px;font-weight:600;margin-right:12px}
 
+/* free and pro: two cards, same facts as the store listings */
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:24px}
+.plan{display:flex;flex-direction:column;background:#fff;border:2px solid var(--ink);border-radius:16px;padding:24px;box-shadow:5px 5px 0 var(--teal)}
+.plan.pro{box-shadow:5px 5px 0 var(--pink)}
+.plan h3{margin:0;font:700 24px Archivo,sans-serif}
+.plan .price{margin:2px 0 4px;font:italic 900 34px/1.1 Archivo,sans-serif;letter-spacing:-.02em}
+.plan .price small{font:600 15px Inter,sans-serif;color:var(--muted);letter-spacing:0}
+.plan .for{margin:0 0 14px;color:var(--muted);font-size:15px}
+.plan ul{list-style:none;margin:0 0 20px;padding:0;flex:1}
+.plan li{position:relative;padding:7px 0 7px 28px;font-size:16px;line-height:1.45;border-top:1px solid var(--line)}
+.plan li::before{content:"";position:absolute;left:4px;top:13px;width:11px;height:6px;border-left:3px solid var(--pink-d);border-bottom:3px solid var(--pink-d);transform:rotate(-45deg)}
+.plan .act{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;border-radius:14px;border:2px solid var(--ink);text-decoration:none;font-weight:600;transition:transform .18s ease,box-shadow .18s ease}
+.plan .act:hover{transform:translateY(-2px);box-shadow:0 5px 0 var(--pink)}
+.plan .act.dark{background:var(--ink);color:var(--bg)}
+.plans-note{margin:20px 0 0;max-width:760px;font-size:15px;color:var(--muted)}
+
 footer{padding:20px 0 56px;color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
 .totop{font-weight:600}
 
@@ -161,6 +177,7 @@ html{scroll-behavior:auto}
 <nav class="nav" aria-label="Sections">
 <a href="#spoilers">Spoilers</a>
 <a href="#titles">Find your title</a>
+<a href="#free-pro">Free and Pro</a>
 <a href="#developers">Developers</a>
 <a href="#extensions">Extensions</a>
 </nav>
@@ -181,7 +198,7 @@ html{scroll-behavior:auto}
 <a class="cta" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-hero">Add to Chrome, free <span class="arr">→</span></a>
 <a class="alt" href="demo/">Try the demo first</a>
 </div>
-<p class="small" style="margin:16px 0 0">I build it. <!--n-->35<!--/n--> ready-made lists are free; Pro is a one-time $5. Also on <a href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=home">Firefox</a>.</p>
+<p class="small" style="margin:16px 0 0">I build it. All 52 ready-made lists are free; Pro is a one-time $5. <a href="#free-pro">What is free</a>. Also on <a href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=home">Firefox</a>.</p>
 <div class="quick" aria-label="Start here">
 <a href="block/">Hide spoilers</a>
 <a href="s/">Share a spoiler safely</a>
@@ -251,7 +268,7 @@ html{scroll-behavior:auto}
 
 <section class="sec" id="titles" aria-labelledby="h-ti">
 <h2 id="h-ti">Find your title</h2>
-<p class="sub"><!--n-->35<!--/n--> ready-made lists, one page each: a short answer, a live demo and the words to mute.</p>
+<p class="sub"><!--n-->35<!--/n--> titles have their own page so far (the extension has 52 lists): a short answer, a live demo and the words to mute.</p>
 <label class="fl" for="find">Game, series, film or anime</label>
 <input class="find" id="find" type="search" placeholder="Type a title, for example gta or one piece" autocomplete="off">
 <div class="chips" id="chips">
@@ -296,6 +313,42 @@ html{scroll-behavior:auto}
 <p class="none" id="none" hidden>No list for that yet. <a href="https://github.com/qwemort/pure-spoiler-shield/issues/new?template=title-request.yml">Request one</a>, it is free.</p>
 </section>
 
+<section class="sec" id="free-pro" aria-labelledby="h-fp">
+<h2 id="h-fp">Free and Pro</h2>
+<p class="sub">Pure Spoiler Shield, version 1.3.2. The same in Chrome and Firefox.</p>
+<div class="plans">
+<div class="plan">
+<h3>Free</h3>
+<p class="price">$0 <small>no account, no trial timer</small></p>
+<p class="for">Enough for most people.</p>
+<ul>
+<li>All 52 ready-made lists: games, series, films and anime</li>
+<li>3 titles of your own, with character names</li>
+<li>Three levels for each title; blur or hide completely</li>
+<li>A release day and an end date for each title</li>
+<li>YouTube, Reddit and X from the start</li>
+<li>Google search, TikTok and Instagram after one click in the extension</li>
+</ul>
+<a class="act dark" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-plans">Add to Chrome, free</a>
+</div>
+<div class="plan pro">
+<h3>Pro</h3>
+<p class="price">$5 <small>one payment, no subscription</small></p>
+<p class="for">Everything in Free, plus:</p>
+<ul>
+<li>Every other website (access is asked only when you turn it on)</li>
+<li>“I watched up to episode N”</li>
+<li>AI summaries about your titles are hidden</li>
+<li>Trusted channels, and authors you always hide</li>
+<li>One end date for everything</li>
+<li>Unlimited titles of your own, and backup to a file</li>
+</ul>
+<a class="act" href="https://papana8.gumroad.com/l/dihltc">Get Pro on Gumroad</a>
+</div>
+</div>
+<p class="plans-note">Both run inside your browser, with no account and no analytics. The only network request is the Pro key check with Gumroad: when you enter a key, then at most once a week. It reads text, so a spoiler that exists only inside a picture or a video frame is not caught. Also on <a href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=home-plans">Firefox</a>.</p>
+</section>
+
 <section class="sec" id="developers" aria-labelledby="h-dev">
 <h2 id="h-dev">For developers</h2>
 <p class="sub">Short guides about HTTP headers, CORS and JSON in the browser: what breaks, why, and how to fix it without handing your data to anyone.</p>
@@ -310,7 +363,7 @@ html{scroll-behavior:auto}
 <h2 id="h-ex">The Pure extensions</h2>
 <p class="sub">Small browser tools with no account and no tracking. The free versions stay free; Pro is a one-time purchase.</p>
 <div class="exts">
-<div class="ext"><img src="img/spoilershield.png" alt=""><h3>Pure Spoiler Shield</h3><p>Blurs spoilers for games, series, films and anime on YouTube, Reddit and X. Runs locally; free lists, one-time Pro.</p><p class="l"><a href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-card">Chrome</a><a href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=home-card">Firefox</a></p></div>
+<div class="ext"><img src="img/spoilershield.png" alt=""><h3>Pure Spoiler Shield</h3><p>Blurs spoilers for games, series, films and anime on YouTube, Reddit and X. Runs locally; 52 free lists, one-time Pro.</p><p class="l"><a href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-card">Chrome</a><a href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=home-card">Firefox</a></p></div>
 <div class="ext"><img src="img/pureheaders.png" alt=""><h3>PureHeaders</h3><p>Change request and response headers and fix CORS with cookies, only on the sites you choose. Imports ModHeader profiles.</p><p class="l"><a href="https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj">Edge</a><a href="https://addons.mozilla.org/firefox/addon/pureheaders-modify-headers/">Firefox</a><a href="https://chromewebstore.google.com/detail/flplhcopkoiihcapihkljhjaminhpink">Chrome</a></p></div>
 <div class="ext"><img src="img/purejson.png" alt=""><h3>PureJSON</h3><p>Read JSON like a human: a collapsible tree, copy paths and values; big numbers stay exact.</p><p class="l"><a href="https://microsoftedge.microsoft.com/addons/detail/jgaejimgiijadilkfklimmmgacjabijd">Edge</a><a href="https://addons.mozilla.org/firefox/addon/json-viewer-formatter-purejson/">Firefox</a><span class="small">Chrome coming</span></p></div>
 <div class="ext"><img src="img/puresession.png" alt=""><h3>PureSession</h3><p>Tabs and sessions in a side panel, with automatic local backups.</p><p class="l"><a href="https://microsoftedge.microsoft.com/addons/detail/ojfadjpeagojacihpdnbepiljnadeiio">Edge</a><a href="https://addons.mozilla.org/firefox/addon/puresession-tab-manager/">Firefox</a><span class="small">Chrome coming</span></p></div>

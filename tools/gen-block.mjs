@@ -38,7 +38,7 @@ function page(p) {
     [`Can YouTube block ${L} spoilers by itself?`, `No. YouTube has no word filter. You can tap "Not interested" or "Don't recommend channel" on single videos, but new spoiler thumbnails, Shorts and comments still show up.`],
     [`How do I hide ${L} spoilers on Reddit?`, `Reddit lets you mute whole communities, not words, so posts about ${L} in other subreddits and in search still appear. An extension that reads post titles and comments is the only way to filter by words.`],
     [`Does X (Twitter) have a filter for ${L} spoilers?`, `Yes, X has muted words. It hides posts that contain them, but not the same videos on YouTube or posts on Reddit.`],
-    [`Is Pure Spoiler Shield free?`, `Yes. The ready-made ${L} list and the other ready-made lists are free on YouTube, Reddit and X, plus 3 titles of your own. Pro is an optional $5 one-time purchase for more sites and extra features.`],
+    [`Is Pure Spoiler Shield free?`, `Yes. The ready-made ${L} list and the other ready-made lists are free on YouTube, Reddit and X, and after one click on Google search, TikTok and Instagram, plus 3 titles of your own. Pro is an optional $5 one-time purchase, no subscription, for every other website and extras such as hiding AI summaries.`],
     [`Does it collect my data?`, `No. It runs in your browser with no account and no tracking, and its source code is public.`],
   ];
   return `<!doctype html>
