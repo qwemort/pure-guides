@@ -1,0 +1,2 @@
+Telegram: не подключён (нет TG_BOT_TOKEN / TG_CHAT)
+Bluesky: опубликовано @pureextensions.bsky.social
