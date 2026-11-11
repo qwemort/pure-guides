@@ -5,72 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Design draft A: Pure Spoiler Shield</title>
-<style>
-@font-face{font-family:Archivo;font-weight:900;font-display:swap;src:url(../../fonts/archivo-latin-900-normal.woff2) format("woff2")}
-@font-face{font-family:Archivo;font-weight:700;font-display:swap;src:url(../../fonts/archivo-latin-700-normal.woff2) format("woff2")}
-:root{
-  --bg:#F4F5F3; --surface:#FFFFFF; --ink:#2A2D32; --muted:#666B66; --line:#E2E4E0; --signal:#F6D860; --cover:#3A3E45;
-  --font-display:Archivo, "Arial Narrow", sans-serif;
-  --font-body:system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-mono:ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
-  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px; --s9:96px;
-  --r-sm:8px; --r-md:14px;
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--font-body)}
-a{color:var(--ink)}
-a:focus-visible,button:focus-visible{outline:3px solid #2A2D32;outline-offset:3px}
-.wrap{max-width:1180px;margin:0 auto;padding:0 var(--s5)}
-
-/* header */
-.top{border-bottom:1px solid var(--line);background:var(--bg)}
-.top .wrap{display:flex;align-items:center;gap:var(--s6);height:64px}
-.brand{display:flex;align-items:center;gap:var(--s2);font:700 18px/1 var(--font-display);text-decoration:none}
-.brand .bar{display:inline-block;width:34px;height:12px;background:var(--cover);border-radius:6px}
-.nav{display:flex;gap:var(--s5);margin-left:auto}
-.nav a{font-size:15px;text-decoration:none;color:var(--muted);padding:var(--s2) 0}
-.nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
-.get{white-space:nowrap;font:700 15px/1 var(--font-body);background:var(--signal);color:var(--ink);text-decoration:none;padding:var(--s3) var(--s4);border-radius:var(--r-sm);border:1px solid transparent}
-
-/* hero */
-.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:var(--s8);align-items:center;padding-top:var(--s8);padding-bottom:var(--s9)}
-.tag{font:13px/1.4 var(--font-mono);color:var(--muted);margin:0 0 var(--s4)}
-h1{font:700 60px/1.05 var(--font-display);letter-spacing:-0.02em;margin:0 0 var(--s5)}
-h1 .cover{background:var(--cover);color:var(--bg);border-radius:var(--r-sm);padding:0 var(--s3)}
-.lead{font-size:19px;color:var(--muted);max-width:30em;margin:0 0 var(--s6)}
-.lead strong{color:var(--ink)}
-.cta{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center}
-.btn{font:700 17px/1 var(--font-body);text-decoration:none;padding:var(--s4) var(--s5);border-radius:var(--r-sm);border:1px solid transparent}
-.btn.main{background:var(--signal);color:var(--ink)}
-.btn.alt{background:var(--surface);color:var(--ink);border-color:var(--line)}
-.facts{margin:var(--s6) 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5);font:14px/1.4 var(--font-mono);color:var(--muted)}
-
-/* feed demo */
-.feed{background:var(--surface);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.04);border-radius:var(--r-md);padding:var(--s4)}
-.feed-head{display:flex;justify-content:space-between;align-items:baseline;font:13px/1.4 var(--font-mono);color:var(--muted);padding:0 var(--s1) var(--s3);border-bottom:1px solid var(--line)}
-.row{display:grid;grid-template-columns:128px 1fr;gap:var(--s4);padding:var(--s4) var(--s1);border-bottom:1px solid var(--line)}
-.row:last-child{border-bottom:0}
-.thumb{position:relative;height:72px;border-radius:var(--r-sm);background:#C9CCC6}
-.thumb .dur{position:absolute;right:var(--s1);bottom:var(--s1);font:11px/1 var(--font-mono);background:var(--ink);color:var(--bg);padding:2px var(--s1);border-radius:2px}
-.row.hid .thumb{background:repeating-linear-gradient(135deg,#3A3E45 0 8px,#454A52 8px 16px)} /* design-ok: штриховка закрытой превью, не декоративный градиент */
-.title{font-weight:600;font-size:16px;line-height:1.35;margin:0 0 var(--s2)}
-.meta{font-size:13px;color:var(--muted);margin:0}
-.redact{display:block;height:12px;background:var(--cover);border-radius:6px;opacity:.85;margin:var(--s1) 0 var(--s2)}
-.redact.short{width:62%}
-.hidbar{display:flex;align-items:center;gap:var(--s3);font:12px/1.3 var(--font-mono);color:var(--muted)}
-.open{font:700 12px/1 var(--font-body);background:var(--signal);color:var(--ink);border:0;border-radius:999px;padding:var(--s1) var(--s3);cursor:pointer}
-
-@media (max-width:860px){
-  .nav{display:none}
-  .top .wrap{gap:var(--s3)}
-  .get{margin-left:auto;padding:var(--s2) var(--s3)}
-  .hero .wrap{grid-template-columns:1fr;gap:var(--s7);padding-top:var(--s6);padding-bottom:var(--s7)}
-  h1{font-size:42px}
-  .row{grid-template-columns:96px 1fr}
-  .thumb{height:56px}
-}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
-</style>
+<link rel="stylesheet" href="../pure.css">
 </head>
 <body>
 <header class="top">
@@ -82,28 +17,24 @@ h1 .cover{background:var(--cover);color:var(--bg);border-radius:var(--r-sm);padd
       <a href="../../spoiler-index/">Spoiler index</a>
       <a href="https://github.com/qwemort/pure-spoiler-shield">Source code</a>
     </nav>
-    <a class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=draft-a">Add to Chrome</a>
+    <a class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=draft-a-top">Add to Chrome</a>
   </div>
 </header>
 
-<main class="hero">
-  <div class="wrap">
+<main>
+<section class="hero">
+  <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:var(--s8);align-items:center;padding-top:var(--s8);padding-bottom:var(--s9)">
     <div>
       <p class="tag">Browser extension for games, shows and anime</p>
       <h1>Scroll freely. Spoilers stay <span class="cover">covered</span>.</h1>
-      <p class="lead">Pure Spoiler Shield hides spoilers on <strong>YouTube, Reddit and X</strong>. Pick a title from 52 ready lists or add your own. Nothing opens until you click it.</p>
+      <p class="lead">Pure Spoiler Shield blurs spoilers on <strong>YouTube, Reddit and X</strong>. Pick a title from 52 ready lists or add your own. Nothing opens until you click it twice.</p>
       <div class="cta">
         <a class="btn main" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=draft-a-hero">Add to Chrome, free</a>
         <a class="btn alt" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=draft-a-hero">Get for Firefox</a>
       </div>
-      <ul class="facts">
-        <li>Works on your device</li>
-        <li>Open source</li>
-        <li>No account</li>
-      </ul>
+      <ul class="facts"><li>Works on your device</li><li>Open source</li><li>No account</li></ul>
     </div>
-
-    <section class="feed" aria-label="Example: a video feed with Shield on">
+    <div class="feed" aria-label="Example: a video feed with Shield on">
       <div class="feed-head"><span>Example feed</span><span>Shield: on, GTA VI</span></div>
       <div class="row">
         <div class="thumb" aria-hidden="true"><span class="dur">14:08</span></div>
@@ -111,20 +42,94 @@ h1 .cover{background:var(--cover);color:var(--bg);border-radius:var(--r-sm);padd
       </div>
       <div class="row hid">
         <div class="thumb" aria-hidden="true"></div>
-        <div><span class="redact"></span><span class="redact short"></span>
-          <div class="hidbar"><span>Spoiler hidden: GTA VI</span><button class="open" type="button">Open</button></div></div>
+        <div class="txt" aria-hidden="true"><p class="title">This title is blurred by the extension</p><p class="meta">Channel name</p></div>
+        <span class="veil">Hidden: GTA VI <b>Click to show</b></span>
       </div>
       <div class="row hid">
         <div class="thumb" aria-hidden="true"></div>
-        <div><span class="redact"></span><span class="redact short"></span>
-          <div class="hidbar"><span>Spoiler hidden: GTA VI</span><button class="open" type="button">Open</button></div></div>
+        <div class="txt" aria-hidden="true"><p class="title">This title is blurred by the extension</p><p class="meta">Channel name</p></div>
+        <span class="veil">Hidden: GTA VI <b>Click to show</b></span>
       </div>
       <div class="row">
         <div class="thumb" aria-hidden="true"><span class="dur">9:41</span></div>
         <div><p class="title">Best settings for a smooth 60 fps</p><p class="meta">Not about GTA VI</p></div>
       </div>
-    </section>
+    </div>
   </div>
+</section>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="intro">Three steps. No account, no setup page to fight with.</p>
+    <div class="steps">
+      <div class="card"><span class="n">01</span><h3>Pick what to protect</h3><p class="small">52 ready lists for games, shows and anime. Add up to 3 of your own titles for free.</p></div>
+      <div class="card"><span class="n">02</span><h3>Scroll as usual</h3><p class="small">Videos, posts and comments that match your titles get blurred, with a short label saying why.</p></div>
+      <div class="card"><span class="n">03</span><h3>Two clicks to look</h3><p class="small">One click arms it, the second shows it. No accidental spoilers from a hover.</p></div>
+    </div>
+    <p class="small" style="margin-top:var(--s5)">Saw a spoiler word the lists missed? Select it, right-click, choose “Hide as a spoiler”.</p>
+  </div>
+</section>
+
+<section class="section" id="sites">
+  <div class="wrap">
+    <h2>Where it works</h2>
+    <div class="sites">
+      <div class="card"><h3>On right away</h3><ul class="chips on"><li>YouTube</li><li>Reddit</li><li>X</li></ul></div>
+      <div class="card"><h3>One button, still free</h3><p class="small">Press “Turn on there too” in the extension.</p><ul class="chips"><li>Google</li><li>TikTok</li><li>Instagram</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="free">
+  <div class="wrap split">
+    <div>
+      <h2>Free covers the big stuff</h2>
+      <ul class="plain">
+        <li>52 ready lists</li>
+        <li>3 titles of your own</li>
+        <li>Release day and end date for each title</li>
+        <li>YouTube, Reddit, X, Google, TikTok, Instagram</li>
+        <li>Three levels: Light, Medium, Hard</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Pro, if you want more</h3>
+      <p class="small">One-time, no subscription.</p>
+      <ul class="plain small">
+        <li>Other sites</li>
+        <li>“I watched up to episode N”</li>
+        <li>Hide AI summaries</li>
+        <li>Trusted channels</li>
+        <li>Backup and unlimited own titles</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="data">
+  <div class="wrap split">
+    <div>
+      <h2>Your data stays with you</h2>
+      <p class="small">The filter runs inside your browser and reads page text only, not pictures.</p>
+    </div>
+    <ul class="plain">
+      <li>No account, no tracking</li>
+      <li>One network request, only for Pro: a key check with Gumroad when you enter it and once every 7 days</li>
+      <li>The code is open: <a href="https://github.com/qwemort/pure-spoiler-shield">github.com/qwemort/pure-spoiler-shield</a></li>
+    </ul>
+  </div>
+</section>
 </main>
+
+<footer class="foot">
+  <div class="wrap">
+    <a class="brand" href="../../"><span class="bar" aria-hidden="true"></span>Pure Spoiler Shield</a>
+    <a href="../../avoid-gta-6-spoilers.html">GTA 6 guide</a>
+    <a href="../../mute-list/">Mute lists</a>
+    <a href="../../spoiler-index/">Spoiler index</a>
+    <a href="https://github.com/qwemort/pure-spoiler-shield">Source code</a>
+  </div>
+</footer>
 </body>
 </html>

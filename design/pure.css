@@ -1,0 +1,96 @@
+/* Pure: общий стиль (направление A, мягкая версия). Токены: pure-extensions/design-kit/DESIGN.md */
+@font-face{font-family:Archivo;font-weight:700;font-display:swap;src:url(../fonts/archivo-latin-700-normal.woff2) format("woff2")}
+:root{
+  --bg:#F4F5F3; --surface:#FFFFFF; --ink:#2A2D32; --muted:#666B66; --line:#E2E4E0;
+  --signal:#F6D860; --on-signal:#2A2D32; --cover:#3A3E45; --on-cover:#F4F5F3; --thumb:#C9CCC6;
+  --font-display:Archivo, "Arial Narrow", sans-serif;
+  --font-body:system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px; --s9:96px;
+  --r-sm:8px; --r-md:14px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#17191C; --surface:#1F2226; --ink:#E8EAE6; --muted:#A3A8A2; --line:#30343A;
+  --signal:#E9C95A; --on-signal:#1B1D20; --cover:#D3D6D0; --on-cover:#17191C; --thumb:#3A3E45;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--font-body)}
+a{color:var(--ink)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--s5)}
+.mono{font-family:var(--font-mono)}
+
+/* шапка */
+.top{border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:var(--s6);height:64px}
+.brand{display:flex;align-items:center;gap:var(--s2);font:700 18px/1 var(--font-display);text-decoration:none}
+.brand .bar{display:inline-block;width:34px;height:12px;background:var(--cover);border-radius:6px}
+.nav{display:flex;gap:var(--s5);margin-left:auto}
+.nav a{font-size:15px;text-decoration:none;color:var(--muted);padding:var(--s2) 0}
+.nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.get{white-space:nowrap;font:700 15px/1 var(--font-body);background:var(--signal);color:var(--on-signal);text-decoration:none;padding:var(--s3) var(--s4);border-radius:var(--r-sm)}
+
+/* общие элементы */
+h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;margin:0}
+h1{font-size:60px;letter-spacing:-0.02em;margin-bottom:var(--s5)}
+h2{font-size:36px;letter-spacing:-0.01em;margin-bottom:var(--s4)}
+h3{font-size:20px;margin-bottom:var(--s2)}
+.cover{background:var(--cover);color:var(--on-cover);border-radius:var(--r-sm);padding:0 var(--s3)}
+.tag{font:13px/1.4 var(--font-mono);color:var(--muted);margin:0 0 var(--s4)}
+.lead{font-size:19px;color:var(--muted);max-width:32em;margin:0 0 var(--s6)}
+.lead strong{color:var(--ink)}
+.btn{display:inline-block;font:700 17px/1 var(--font-body);text-decoration:none;padding:var(--s4) var(--s5);border-radius:var(--r-sm);border:1px solid transparent}
+.btn.main{background:var(--signal);color:var(--on-signal)}
+.btn.alt{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.cta{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center}
+.facts{margin:var(--s6) 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5);font:14px/1.4 var(--font-mono);color:var(--muted)}
+.section{padding:var(--s9) 0;border-top:1px solid var(--line)}
+.section .intro{color:var(--muted);max-width:36em;margin:0 0 var(--s7)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--s5)}
+
+/* пример ленты: так выглядит размытие Shield */
+.feed{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--s4)}
+.feed-head{display:flex;justify-content:space-between;gap:var(--s3);font:13px/1.4 var(--font-mono);color:var(--muted);padding:0 var(--s1) var(--s3);border-bottom:1px solid var(--line)}
+.row{position:relative;display:grid;grid-template-columns:128px 1fr;gap:var(--s4);padding:var(--s4) var(--s1);border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.thumb{position:relative;height:72px;border-radius:var(--r-sm);background:var(--thumb)}
+.thumb .dur{position:absolute;right:var(--s1);bottom:var(--s1);font:11px/1 var(--font-mono);background:var(--cover);color:var(--on-cover);padding:2px var(--s1);border-radius:4px}
+.title{font-weight:600;font-size:16px;line-height:1.35;margin:0 0 var(--s2)}
+.meta{font-size:13px;color:var(--muted);margin:0}
+.row.hid .thumb,.row.hid .txt{filter:blur(6px)}
+.veil{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:var(--s2);background:var(--cover);color:var(--on-cover);font:600 13px/1.2 var(--font-body);padding:var(--s2) var(--s4);border-radius:999px;white-space:nowrap}
+.veil b{font-weight:400;opacity:.8}
+
+/* сетки блоков */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s5);counter-reset:s}
+.steps .card{position:relative}
+.steps .n{font:13px/1 var(--font-mono);color:var(--muted);display:block;margin-bottom:var(--s4)}
+.sites{display:grid;grid-template-columns:1.3fr 1fr;gap:var(--s5)}
+.chips{display:flex;flex-wrap:wrap;gap:var(--s2);margin:var(--s4) 0 0;padding:0;list-style:none}
+.chips li{border:1px solid var(--line);border-radius:999px;padding:var(--s1) var(--s4);font-size:15px;background:var(--bg)}
+.chips.on li{background:var(--cover);color:var(--on-cover);border-color:var(--cover)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:var(--s8);align-items:start}
+.plain{margin:0;padding:0;list-style:none}
+.plain li{padding:var(--s3) 0;border-bottom:1px solid var(--line)}
+.plain li:last-child{border-bottom:0}
+.small{font-size:15px;color:var(--muted)}
+
+/* подвал */
+.foot{border-top:1px solid var(--line);padding:var(--s7) 0;color:var(--muted);font-size:15px}
+.foot .wrap{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s6);align-items:center}
+.foot a{color:var(--muted)}
+.foot .brand{color:var(--ink);margin-right:auto}
+
+@media (max-width:860px){
+  .nav{display:none}
+  .top .wrap{gap:var(--s3)}
+  .get{margin-left:auto;padding:var(--s2) var(--s3)}
+  h1{font-size:42px}
+  h2{font-size:28px}
+  .section{padding:var(--s8) 0}
+  .steps,.sites,.split{grid-template-columns:1fr}
+  .split{gap:var(--s6)}
+  .row{grid-template-columns:96px 1fr}
+  .thumb{height:56px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
