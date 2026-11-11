@@ -1,4 +1,76 @@
 {
+ "Detective Conan": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/235",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
+ "The Institute": {
+  "kind": "series",
+  "source": "https://www.tvmaze.com/shows/77778/the-institute",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
+ "The Exiled Heavy Knight Knows How to Game the System": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/180136",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
+ "The Gilded Age": {
+  "kind": "series",
+  "source": "https://www.tvmaze.com/shows/34685/the-gilded-age",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
+ "Overgeared": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/212888",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
+ "Reincarnated as a Sword Season 2": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/159042",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
+ "Blue Box Season 2": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/189123",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
+ "Firefly Wedding": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/205909",
+  "weeks": [
+   "2026-11-09",
+   "2026-11-16"
+  ],
+  "ready": true
+ },
  "VisionQuest": {
   "kind": "series",
   "source": "https://www.tvmaze.com/shows/64950/visionquest",
@@ -15,73 +87,9 @@
   ],
   "ready": false
  },
- "Detective Conan": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/235",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
- "The Institute": {
-  "kind": "series",
-  "source": "https://www.tvmaze.com/shows/77778/the-institute",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
- "The Exiled Heavy Knight Knows How to Game the System": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/180136",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
- "The Gilded Age": {
-  "kind": "series",
-  "source": "https://www.tvmaze.com/shows/34685/the-gilded-age",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
- "Overgeared": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/212888",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
  "Blue Skies": {
   "kind": "series",
   "source": "https://www.tvmaze.com/shows/89844/blue-skies",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
- "Reincarnated as a Sword Season 2": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/159042",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
- "Blue Box Season 2": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/189123",
-  "weeks": [
-   "2026-11-09"
-  ],
-  "ready": false
- },
- "Firefly Wedding": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/205909",
   "weeks": [
    "2026-11-09"
   ],

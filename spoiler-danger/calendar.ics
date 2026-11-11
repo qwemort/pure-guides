@@ -9,8 +9,220 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:2026-11-19-gta-vi@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🛡 GTA VI · release\, PS5\, Xbox Series X|S
+DESCRIPTION:Spoiler danger: GTA VI (release\, PS5\, Xbox Series X|S). Wor
+ ds to mute on X and Threads: https://qwemort.github.io/pure-guides/gta-6
+ -mute-list.html\nAll of this week: https://qwemort.github.io/pure-guides
+ /spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/gta-6-mute-list.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-the-hunger-games-sunrise-on-the-reaping@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:🛡 The Hunger Games: Sunrise on the Reaping · release\, in cin
+ emas
+DESCRIPTION:Spoiler danger: The Hunger Games: Sunrise on the Reaping (rel
+ ease\, in cinemas). Words to mute on X and Threads: https://qwemort.gith
+ ub.io/pure-guides/mute-list/hunger-games-reaping.html\nAll of this week:
+  https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/mute-list/hunger-games-reaping.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-the-lord-of-the-rings-the-rings-of-power@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:🛡 The Lord of the Rings: The Rings of Power · 2 episodes
+DESCRIPTION:Spoiler danger: The Lord of the Rings: The Rings of Power (2 
+ episodes). Words to mute on X and Threads: https://qwemort.github.io/pur
+ e-guides/mute-list/rings-of-power.html\nAll of this week: https://qwemor
+ t.github.io/pure-guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/mute-list/rings-of-power.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-the-apothecary-diaries-season-3@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:🛡 The Apothecary Diaries Season 3 · episode 8
+DESCRIPTION:Spoiler danger: The Apothecary Diaries Season 3 (episode 8). 
+ Words to mute on X and Threads: https://qwemort.github.io/pure-guides/mu
+ te-list/apothecary.html\nAll of this week: https://qwemort.github.io/pur
+ e-guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/mute-list/apothecary.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-yellowjackets@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:🛡 Yellowjackets · season 4 premiere
+DESCRIPTION:Spoiler danger: Yellowjackets (season 4 premiere). Words to m
+ ute on X and Threads: https://qwemort.github.io/pure-guides/mute-list/ye
+ llowjackets.html\nAll of this week: https://qwemort.github.io/pure-guide
+ s/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/mute-list/yellowjackets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-black-clover-season-2@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:🛡 Black Clover Season 2 · episode 8
+DESCRIPTION:Spoiler danger: Black Clover Season 2 (episode 8). Words to m
+ ute on X and Threads: https://qwemort.github.io/pure-guides/mute-list/bl
+ ack-clover.html\nAll of this week: https://qwemort.github.io/pure-guides
+ /spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/mute-list/black-clover.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-percy-jackson-and-the-olympians@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:🛡 Percy Jackson and the Olympians · season 3 premiere
+DESCRIPTION:Spoiler danger: Percy Jackson and the Olympians (season 3 pre
+ miere). Words to mute on X and Threads: https://qwemort.github.io/pure-g
+ uides/mute-list/percy-jackson.html\nAll of this week: https://qwemort.gi
+ thub.io/pure-guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/mute-list/percy-jackson.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-detective-conan@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:🛡 Detective Conan · episode 1221
+DESCRIPTION:Spoiler danger: Detective Conan (episode 1221). Words to mute
+  on X and Threads: https://qwemort.github.io/pure-guides/spoiler-danger/
+ 2026-11-16.html\nAll of this week: https://qwemort.github.io/pure-guides
+ /spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-the-chosen@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🛡 The Chosen · season 6\, episode 4
+DESCRIPTION:Spoiler danger: The Chosen (season 6\, episode 4). Words to m
+ ute on X and Threads: https://qwemort.github.io/pure-guides/mute-list/th
+ e-chosen.html\nAll of this week: https://qwemort.github.io/pure-guides/s
+ poiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/mute-list/the-chosen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-the-exiled-heavy-knight-knows-how-to-game-the-system@qwemo
+ rt.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🛡 The Exiled Heavy Knight Knows How to Game the System · epis
+ ode 21
+DESCRIPTION:Spoiler danger: The Exiled Heavy Knight Knows How to Game the
+  System (episode 21). Words to mute on X and Threads: https://qwemort.gi
+ thub.io/pure-guides/spoiler-danger/2026-11-16.html\nAll of this week: ht
+ tps://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-the-institute@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🛡 The Institute · season 2\, episode 3
+DESCRIPTION:Spoiler danger: The Institute (season 2\, episode 3). Words t
+ o mute on X and Threads: https://qwemort.github.io/pure-guides/spoiler-d
+ anger/2026-11-16.html\nAll of this week: https://qwemort.github.io/pure-
+ guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-overgeared@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🛡 Overgeared · episode 9
+DESCRIPTION:Spoiler danger: Overgeared (episode 9). Words to mute on X an
+ d Threads: https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-
+ 16.html\nAll of this week: https://qwemort.github.io/pure-guides/spoiler
+ -danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-the-gilded-age@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🛡 The Gilded Age · season 4\, episode 4
+DESCRIPTION:Spoiler danger: The Gilded Age (season 4\, episode 4). Words 
+ to mute on X and Threads: https://qwemort.github.io/pure-guides/spoiler-
+ danger/2026-11-16.html\nAll of this week: https://qwemort.github.io/pure
+ -guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-reincarnated-as-a-sword-season-2@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:🛡 Reincarnated as a Sword Season 2 · episode 8
+DESCRIPTION:Spoiler danger: Reincarnated as a Sword Season 2 (episode 8).
+  Words to mute on X and Threads: https://qwemort.github.io/pure-guides/s
+ poiler-danger/2026-11-16.html\nAll of this week: https://qwemort.github.
+ io/pure-guides/spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-firefly-wedding@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:🛡 Firefly Wedding · episode 7
+DESCRIPTION:Spoiler danger: Firefly Wedding (episode 7). Words to mute on
+  X and Threads: https://qwemort.github.io/pure-guides/spoiler-danger/202
+ 6-11-16.html\nAll of this week: https://qwemort.github.io/pure-guides/sp
+ oiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-blue-box-season-2@qwemort.github.io
+DTSTAMP:20261111T184332Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🛡 Blue Box Season 2 · episode 7
+DESCRIPTION:Spoiler danger: Blue Box Season 2 (episode 7). Words to mute 
+ on X and Threads: https://qwemort.github.io/pure-guides/spoiler-danger/2
+ 026-11-16.html\nAll of this week: https://qwemort.github.io/pure-guides/
+ spoiler-danger/2026-11-16.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-16.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-11-the-lord-of-the-rings-the-rings-of-power@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:🛡 The Lord of the Rings: The Rings of Power · season 3\, full
@@ -24,7 +236,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-the-apothecary-diaries-season-3@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🛡 The Apothecary Diaries Season 3 · episode 7
@@ -37,7 +249,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-visionquest@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:🛡 VisionQuest · season 1\, episode 8
@@ -50,7 +262,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-black-clover-season-2@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:🛡 Black Clover Season 2 · episode 7
@@ -63,7 +275,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-fire-country@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🛡 Fire Country · season 5\, episode 6
@@ -76,7 +288,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-detective-conan@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:🛡 Detective Conan · episode 1220
@@ -89,7 +301,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-the-institute@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 The Institute · season 2\, episode 2
@@ -103,7 +315,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-the-exiled-heavy-knight-knows-how-to-game-the-system@qwemo
  rt.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:🛡 The Exiled Heavy Knight Knows How to Game the System · epis
@@ -117,7 +329,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-the-gilded-age@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 The Gilded Age · season 4\, episode 3
@@ -130,7 +342,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-overgeared@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 Overgeared · episode 8
@@ -143,7 +355,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-blue-skies@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:🛡 Blue Skies · season 2\, episode 7
@@ -156,7 +368,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-reincarnated-as-a-sword-season-2@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:🛡 Reincarnated as a Sword Season 2 · episode 7
@@ -169,7 +381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-firefly-wedding@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🛡 Firefly Wedding · episode 6
@@ -182,7 +394,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-blue-box-season-2@qwemort.github.io
-DTSTAMP:20261109T173554Z
+DTSTAMP:20261111T184332Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 Blue Box Season 2 · episode 6
@@ -191,30 +403,6 @@ DESCRIPTION:Spoiler danger: Blue Box Season 2 (episode 6). Words to mute
  026-11-09.html\nAll of this week: https://qwemort.github.io/pure-guides/
  spoiler-danger/2026-11-09.html
 URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-09.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19-gta-vi@qwemort.github.io
-DTSTAMP:20261109T173554Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:🛡 GTA VI · release
-DESCRIPTION:Spoiler danger: GTA VI comes out (PS5\, Xbox Series X|S). Wor
- ds to mute: https://qwemort.github.io/pure-guides/gta-6-mute-list.html
-URL:https://qwemort.github.io/pure-guides/gta-6-mute-list.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-20-the-hunger-games-sunrise-on-the-reaping@qwemort.github.io
-DTSTAMP:20261109T173554Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:🛡 The Hunger Games: Sunrise on the Reaping · release
-DESCRIPTION:Spoiler danger: The Hunger Games: Sunrise on the Reaping come
- s out (in cinemas). Words to mute: https://qwemort.github.io/pure-guides
- /mute-list/hunger-games-reaping.html
-URL:https://qwemort.github.io/pure-guides/mute-list/hunger-games-reaping.
- html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
