@@ -117,3 +117,13 @@ button.veil{border:0;cursor:pointer}
 .row.armed .veil{background:var(--signal);color:var(--on-signal)}
 .row.open .thumb,.row.open .txt{filter:none}
 .row.open .veil{display:none}
+
+/* главная: списки тайтлов, расширения, подвал */
+.titles{list-style:none;margin:0 0 var(--s5);padding:0;columns:3 220px;column-gap:var(--s6)}
+.titles li{break-inside:avoid;padding:var(--s2) 0;border-bottom:1px solid var(--line)}
+.titles a{text-decoration:none}
+.titles a:hover{text-decoration:underline;text-underline-offset:3px}
+.exts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--s5)}
+.exts .links{display:flex;flex-wrap:wrap;gap:var(--s4);margin:var(--s3) 0 0}
+.exts .links a{font-weight:600}
+.foot-note{flex-basis:100%;font-size:14px}

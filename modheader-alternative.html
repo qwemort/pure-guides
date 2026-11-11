@@ -20,7 +20,7 @@
 </head>
 <body>
 <main>
-<a class="brand" href="./">← Pure guides</a>
+<a class="brand" href="./">Pure guides</a>
 <div class="hero"><img src="img/pureheaders.png" alt=""><span class="muted">HTTP headers · migration guide</span></div>
 <h1>ModHeader was removed from Chrome and Edge: how to move your header profiles to a safe alternative</h1>
 <p class="muted">Last updated: 30 October 2026 · about 6 minutes to read</p>
@@ -50,7 +50,7 @@
 <p>If ModHeader is there, <strong>export your profiles first</strong> (next step), then remove it. If you manage company computers, check them too: store removal does not clean up existing installs.</p>
 <p><strong>On Firefox:</strong> Firefox Add-ons has several listings that use the ModHeader name. Before installing any of them, check who the developer is and when it was last updated.</p>
 
-<h2>Step 1 — export your profiles from ModHeader</h2>
+<h2>Step 1: export your profiles from ModHeader</h2>
 <ol>
 <li>Open ModHeader.</li>
 <li>Choose <strong>Export → Export JSON → Download JSON</strong>. You get a <code>.json</code> file with your profiles.</li>
@@ -58,7 +58,7 @@
 </ol>
 <p class="muted">The file contains your header values. If some are tokens or API keys, keep the file somewhere private and delete it after importing.</p>
 
-<h2>Step 2 — before you pick a replacement, check these five things</h2>
+<h2>Step 2: before you pick a replacement, check these five things</h2>
 <p>A bad header extension can do a lot of damage. Whatever you choose, check:</p>
 <ol>
 <li><strong>Site access.</strong> Does it ask for access to <em>all websites</em> at install, or only to the sites you add?</li>
@@ -68,7 +68,7 @@
 <li><strong>Where your values are stored.</strong> Tokens should stay on your device, not be synced to someone's cloud.</li>
 </ol>
 
-<h2>Step 3 — import into PureHeaders</h2>
+<h2>Step 3: import into PureHeaders</h2>
 <p>PureHeaders reads ModHeader JSON exports (the classic format and the newer "sections" format). The import is free.</p>
 <ol>
 <li>Install PureHeaders: <a href="https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj">Microsoft Edge</a>. <a href="https://addons.mozilla.org/firefox/addon/pureheaders-modify-headers/">Firefox</a>. <a href="https://chromewebstore.google.com/detail/flplhcopkoiihcapihkljhjaminhpink">Chrome</a>.</li>
@@ -88,7 +88,7 @@
 <li><strong>Redirects</strong> are imported; they work with Pro.</li>
 </ul>
 
-<h2>Step 4 — check that your headers are applied</h2>
+<h2>Step 4: check that your headers are applied</h2>
 <p>Open the page you work on and click the PureHeaders icon. The top of the popup shows which rules were applied on this page, and the number on the icon shows how many rules are active. If a rule does not work, the usual reason is that its site was not added or access was not granted.</p>
 <figure><img src="img/screenshot-1-headers.png" alt="PureHeaders popup with request headers for a staging profile" loading="lazy" width="1280" height="800">
 <figcaption>Profiles (Dev, Staging, Prod) and the headers in each.</figcaption></figure>

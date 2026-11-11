@@ -228,7 +228,7 @@ ${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headlin
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
 .chip{background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:5px 11px;font:14px/1.3 inherit;cursor:pointer}
 .chip:hover{border-color:var(--accent)}.chip.done{border-color:var(--accent);color:var(--accent)}
-.copyall{background:var(--accent);color:#06281b;border:0;border-radius:10px;padding:6px 12px;font:inherit;font-size:.9rem;font-weight:600;cursor:pointer}
+.copyall{background:var(--signal);color:var(--on-signal);border:0;border-radius:10px;padding:6px 12px;font:inherit;font-size:.9rem;font-weight:600;cursor:pointer}
 .lang{float:right;font-size:.9rem;color:var(--muted)}.lang a{color:var(--muted)}
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:8px 14px;opacity:0;transition:opacity .2s;pointer-events:none}#toast.on{opacity:1}
 </style>
@@ -292,7 +292,7 @@ fs.writeFileSync(path.join(DIR, 'index.html'), `<!doctype html>
 </head>
 <body>
 <main>
-<a class="brand" href="../">← Pure guides</a>
+<a class="brand" href="../">Pure guides</a>
 <h1>Spoiler danger, every week</h1>
 <p>Every Monday: what comes out that week and the words to mute so it doesn't get spoiled for you. No spoilers on the pages. <a href="../feed.xml">RSS</a>.</p>
 <div class="note">${LANGS.en.cal}</div>
@@ -359,12 +359,13 @@ fs.writeFileSync(CP, JSON.stringify(Object.fromEntries(Object.entries(cand).sort
 fs.mkdirSync(OUT, { recursive: true });
 const cardItems = all.slice(0, 7);
 fs.writeFileSync(path.join(OUT, 'card.html'), `<!doctype html><html><head><meta charset="utf-8"><style>
-*{box-sizing:border-box;margin:0}body{width:1080px;height:1350px;background:#0d1117;color:#e6edf3;font-family:Inter,"Segoe UI",Roboto,system-ui,sans-serif;padding:84px 80px;display:flex;flex-direction:column}
-.k{color:#7ee0b5;font-weight:700;letter-spacing:.14em;font-size:30px}.h{font-size:92px;font-weight:800;line-height:1.02;margin:18px 0 10px}
-.r{color:#9da7b3;font-size:36px;margin-bottom:46px}.it{display:flex;align-items:center;gap:22px;padding:22px 0;border-top:2px solid #2a313c}
-.t{font-size:44px;font-weight:700;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.d{color:#9da7b3;font-size:30px;white-space:nowrap}
-.tag{font-size:24px;font-weight:700;color:#06281b;background:#7ee0b5;border-radius:10px;padding:6px 12px}
-.f{margin-top:auto;color:#9da7b3;font-size:30px;line-height:1.4}.f b{color:#e6edf3}
+@font-face{font-family:Archivo;font-weight:700;src:url(file://${ROOT}/fonts/archivo-latin-700-normal.woff2)}
+*{box-sizing:border-box;margin:0}body{width:1080px;height:1350px;background:#F4F5F3;color:#2A2D32;font-family:system-ui,"DejaVu Sans",sans-serif;padding:84px 80px;display:flex;flex-direction:column}
+.k{color:#666B66;font:500 30px/1.3 ui-monospace,"DejaVu Sans Mono",monospace}.h{font-family:Archivo,sans-serif;font-size:92px;font-weight:700;line-height:1.02;margin:18px 0 10px}
+.r{color:#666B66;font-size:36px;margin-bottom:46px}.it{display:flex;align-items:center;gap:22px;padding:22px 0;border-top:2px solid #E2E4E0}
+.t{font-size:44px;font-weight:700;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.d{color:#666B66;font-size:30px;white-space:nowrap}
+.tag{font-size:24px;font-weight:700;color:#F4F5F3;background:#3A3E45;border-radius:10px;padding:6px 12px}
+.f{margin-top:auto;color:#666B66;font-size:30px;line-height:1.4}.f b{color:#2A2D32}
 </style></head><body>
 <div class="k">SPOILER DANGER</div><div class="h">This week</div><div class="r">${esc(RANGE)}</div>
 ${cardItems.map((x) => `<div class="it"><span class="tag">${label[x.kind].toUpperCase()}</span><span class="t">${esc(x.title)}</span><span class="d">${dayEn(x.when).slice(0, 3)}</span></div>`).join('')}

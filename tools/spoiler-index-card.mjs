@@ -40,16 +40,16 @@ function chart(lang) {
   const line = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.main.spoilers).toFixed(1)}`).join(' ');
   const area = pts.length > 1 ? `${line} L${x(pts.length - 1).toFixed(1)},${Ht - pad} L${x(0).toFixed(1)},${Ht - pad} Z` : '';
   const ri = pts.findIndex((p) => p.date >= RELEASE);
-  const rel = ri > 0 ? `<line x1="${x(ri)}" x2="${x(ri)}" y1="${pad - 10}" y2="${Ht - pad}" stroke="#ffcc4d" stroke-dasharray="6 6" stroke-width="2"/><text x="${x(ri) + 8}" y="${pad}" fill="#ffcc4d" font-size="20" font-weight="700">${lang === 'uk' ? 'реліз' : 'release'}</text>` : '';
-  const labels = pts.map((p, i) => (i === 0 || i === pts.length - 1) ? `<text x="${x(i)}" y="${Ht - 6}" fill="#9da7b3" font-size="20" text-anchor="${pts.length === 1 ? 'middle' : i ? 'end' : 'start'}">${esc(fmtDate(p.date, lang))}</text>` : '').join('');
+  const rel = ri > 0 ? `<line x1="${x(ri)}" x2="${x(ri)}" y1="${pad - 10}" y2="${Ht - pad}" stroke="#B38F00" stroke-dasharray="6 6" stroke-width="2"/><text x="${x(ri) + 8}" y="${pad}" fill="#B38F00" font-size="20" font-weight="700">${lang === 'uk' ? 'реліз' : 'release'}</text>` : '';
+  const labels = pts.map((p, i) => (i === 0 || i === pts.length - 1) ? `<text x="${x(i)}" y="${Ht - 6}" fill="#666B66" font-size="20" text-anchor="${pts.length === 1 ? 'middle' : i ? 'end' : 'start'}">${esc(fmtDate(p.date, lang))}</text>` : '').join('');
   const last = pts[pts.length - 1];
   return `<svg viewBox="0 0 ${W} ${Ht}" width="${W}" height="${Ht}">
-    <line x1="${pad}" x2="${W - pad}" y1="${Ht - pad}" y2="${Ht - pad}" stroke="#2a313c" stroke-width="2"/>
-    ${area ? `<path d="${area}" fill="rgba(255,90,95,.16)"/>` : ''}
-    ${pts.length > 1 ? `<path d="${line}" fill="none" stroke="#ff5a5f" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>` : ''}
+    <line x1="${pad}" x2="${W - pad}" y1="${Ht - pad}" y2="${Ht - pad}" stroke="#E2E4E0" stroke-width="2"/>
+    ${area ? `<path d="${area}" fill="rgba(58,62,69,.08)"/>` : ''}
+    ${pts.length > 1 ? `<path d="${line}" fill="none" stroke="#3A3E45" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>` : ''}
     ${rel}
-    <circle cx="${x(pts.length - 1)}" cy="${y(last.main.spoilers)}" r="10" fill="#ff5a5f"/>
-    <text x="${x(pts.length - 1) + (pts.length === 1 ? 0 : -16)}" y="${y(last.main.spoilers) - 20}" fill="#fff" font-size="28" font-weight="800" text-anchor="${pts.length === 1 ? 'middle' : 'end'}">${last.main.spoilers}</text>
+    <circle cx="${x(pts.length - 1)}" cy="${y(last.main.spoilers)}" r="10" fill="#3A3E45"/>
+    <text x="${x(pts.length - 1) + (pts.length === 1 ? 0 : -16)}" y="${y(last.main.spoilers) - 20}" fill="#2A2D32" font-size="28" font-weight="800" text-anchor="${pts.length === 1 ? 'middle' : 'end'}">${last.main.spoilers}</text>
     ${labels}
   </svg>`;
 }
@@ -60,34 +60,35 @@ function card(lang) {
   const dtxt = delta === null ? '' : delta > 0 ? `+${delta}` : delta < 0 ? `${delta}` : '±0';
   const rows = E.queries.slice(1).map((q) => `<div class="row"><span class="qq">${t.lq}${esc(q.q)}${t.rq}</span><span class="bar"><i style="width:${q.cards ? (100 * q.spoilers) / q.cards : 0}%"></i></span><b>${q.spoilers}/${q.cards}</b></div>`).join('');
   return `<!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
+@font-face{font-family:Archivo;font-weight:700;src:url(file://${ROOT}/fonts/archivo-latin-700-normal.woff2)}
+@font-face{font-family:Archivo;font-weight:900;src:url(file://${ROOT}/fonts/archivo-latin-900-normal.woff2)}
 *{box-sizing:border-box;margin:0}
-body{width:1080px;height:1350px;background:#0d1117;color:#e6edf3;font-family:Inter,system-ui,"DejaVu Sans",sans-serif;padding:64px 80px;display:flex;flex-direction:column;position:relative;overflow:hidden}
-body:before{content:"";position:absolute;inset:0;background:radial-gradient(900px 600px at 85% -10%,rgba(255,90,95,.22),transparent 60%);pointer-events:none}
+body{width:1080px;height:1350px;background:#F4F5F3;color:#2A2D32;font-family:system-ui,"DejaVu Sans",sans-serif;padding:64px 80px;display:flex;flex-direction:column;position:relative;overflow:hidden}
 .top{display:flex;justify-content:space-between;align-items:center}
-.title{font-weight:900;font-size:38px;letter-spacing:.08em}
-.title small{display:block;font-size:22px;letter-spacing:.02em;color:#9da7b3;font-weight:700;margin-top:6px}
-.pill{background:#ff5a5f;color:#fff;font-weight:800;font-size:26px;padding:12px 22px;border-radius:999px}
-.lead{margin-top:58px;font-size:34px;color:#9da7b3;font-weight:700}
-.lead b{color:#fff;background:#1f2630;border:2px solid #2a313c;border-radius:14px;padding:4px 16px;margin-left:8px}
-.big{display:flex;align-items:flex-end;gap:26px;margin-top:22px}
-.num{font-size:210px;line-height:.9;font-weight:900;color:#ff5a5f;letter-spacing:-.04em}
-.num span{color:#e6edf3;font-size:110px;letter-spacing:-.02em}
-.delta{font-size:40px;font-weight:800;color:${delta > 0 ? '#ff5a5f' : '#7ee0b5'};margin-bottom:24px}
-.unit{font-size:40px;font-weight:800;margin-top:14px;line-height:1.2}
-.unit em{font-style:normal;color:#9da7b3;font-weight:700}
-.sec{margin-top:46px;font-size:22px;color:#9da7b3;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+.title{font:700 40px/1.1 Archivo,sans-serif}
+.title small{display:block;font:500 22px/1.3 ui-monospace,"DejaVu Sans Mono",monospace;color:#666B66;margin-top:8px}
+.pill{background:#F6D860;color:#2A2D32;font-weight:700;font-size:26px;padding:12px 22px;border-radius:999px}
+.lead{margin-top:58px;font-size:34px;color:#666B66;font-weight:600}
+.lead b{color:#2A2D32;background:#FFFFFF;border:2px solid #E2E4E0;border-radius:12px;padding:4px 16px;margin-left:8px}
+.big{display:flex;align-items:flex-end;gap:26px;margin-top:26px}
+.num{font:900 190px/1 Archivo,sans-serif;color:#F4F5F3;background:#3A3E45;border-radius:24px;padding:8px 36px 16px;letter-spacing:-.03em}
+.num span{color:#C9CCC6;font-size:100px;letter-spacing:-.02em}
+.delta{font:700 40px/1 Archivo,sans-serif;color:${delta > 0 ? '#2A2D32' : '#666B66'};margin-bottom:24px}
+.unit{font-size:40px;font-weight:700;margin-top:22px;line-height:1.2}
+.unit em{font-style:normal;color:#666B66;font-weight:600}
+.sec{margin-top:46px;font:500 22px/1.3 ui-monospace,"DejaVu Sans Mono",monospace;color:#666B66}
 .row{display:grid;grid-template-columns:330px 1fr 110px;gap:22px;align-items:center;margin-top:16px;font-size:30px}
-.qq{font-weight:700}
-.bar{height:20px;background:#1f2630;border-radius:999px;overflow:hidden}
-.bar i{display:block;height:100%;background:#ff5a5f;border-radius:999px}
-.row b{text-align:right;font-weight:800}
+.qq{font-weight:600}
+.bar{height:20px;background:#E2E4E0;border-radius:999px;overflow:hidden}
+.bar i{display:block;height:100%;background:#3A3E45;border-radius:999px}
+.row b{text-align:right;font-weight:700}
 .chart{margin-top:18px}
-.total{font-size:26px;color:#9da7b3;margin-top:8px}.total b{color:#e6edf3}
-.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-size:20px;color:#9da7b3;gap:24px}
+.total{font-size:26px;color:#666B66;margin-top:8px}.total b{color:#2A2D32}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-size:20px;color:#666B66;gap:24px}
 .foot span{max-width:640px}
-.foot b{color:#e6edf3;font-size:24px;white-space:nowrap}
+.foot b{color:#2A2D32;font:700 26px/1 Archivo,sans-serif;white-space:nowrap;display:flex;align-items:center;gap:10px}
+.foot b:before{content:"";width:34px;height:12px;border-radius:6px;background:#3A3E45}
 </style></head><body>
 <div class="top"><div class="title">${t.title} · GTA VI<small>${esc(t.day)} · ${esc(fmtDate(E.date, lang))}</small></div><div class="pill">${esc(t.left)}</div></div>
 <div class="lead">${t.lead}<b>${esc(m.q)}</b></div>
@@ -98,7 +99,7 @@ ${rows}
 <div class="sec">${t.chart}</div>
 <div class="chart">${chart(lang)}</div>
 <div class="total"><b>${E.unique_spoilers}</b> ${t.total}</div>
-<div class="foot"><span>${esc(t.foot)}</span><b>🛡 Pure Spoiler Shield</b></div>
+<div class="foot"><span>${esc(t.foot)}</span><b>Pure Spoiler Shield</b></div>
 </body></html>`;
 }
 

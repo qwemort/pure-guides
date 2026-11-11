@@ -65,8 +65,8 @@ ${JSON.stringify({ '@context': 'https://schema.org', '@graph': [
 </script>
 <style>
 .demo{width:100%;height:560px;border:1px solid var(--line);border-radius:14px;background:var(--bg);display:block}
-.cta{display:inline-block;background:var(--accent);color:#06281b;border-radius:12px;padding:12px 18px;font-weight:700;text-decoration:none;margin:6px 0 10px}
-.short{border-left:4px solid var(--accent)}
+.cta{display:inline-block;background:var(--signal);color:var(--on-signal);border-radius:12px;padding:12px 18px;font-weight:700;text-decoration:none;margin:6px 0 10px}
+.short{background:var(--code);border-color:transparent}
 </style>
 </head>
 <body>
@@ -138,7 +138,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 </head>
 <body>
 <main>
-<a class="brand" href="../">← Pure guides</a>
+<a class="brand" href="../">Pure guides</a>
 <h1>Block spoilers on YouTube, Reddit and X</h1>
 <p>YouTube and Reddit can't mute words. Pick your title to see what works, with a live demo. Updated ${TODAY}.</p>
 ${groups.map(([k, h]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<h2>${h}</h2>\n<ul>\n${it.map((p) => `<li><a href="${p.id}.html">How to block ${esc(p.label)} spoilers</a></li>`).join('\n')}\n</ul>` : ''; }).join('\n')}

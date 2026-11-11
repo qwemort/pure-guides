@@ -68,7 +68,7 @@ ${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headlin
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
 .chip{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font:15px/1.3 inherit;cursor:pointer}
 .chip:hover{border-color:var(--accent)}.chip.done{border-color:var(--accent);color:var(--accent)}
-.copyall{background:var(--accent);color:#06281b;border:0;border-radius:10px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer;margin:4px 0 18px}
+.copyall{background:var(--signal);color:var(--on-signal);border:0;border-radius:10px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer;margin:4px 0 18px}
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:8px 14px;opacity:0;transition:opacity .2s;pointer-events:none}#toast.on{opacity:1}
 </style>
 </head>
@@ -147,7 +147,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 </head>
 <body>
 <main>
-<a class="brand" href="../">← Pure guides</a>
+<a class="brand" href="../">Pure guides</a>
 <h1>Spoiler mute lists</h1>
 <p>Copy-ready words to mute on X and Threads, one page per title. No spoilers in the lists. Updated ${TODAY}.</p>
 <ul><li><a href="../gta-6-mute-list.html">GTA VI</a> (with Ukrainian, Polish and Russian words)</li></ul>

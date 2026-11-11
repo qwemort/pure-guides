@@ -5,22 +5,22 @@ import asyncio, json, os, html
 from playwright.async_api import async_playwright
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 URL = 'qwemort.github.io/pure-guides/play/'
-CSS = '''*{box-sizing:border-box}body{margin:0;background:#0b0d14;color:#eef1f8;font-family:Inter,system-ui,sans-serif}
+CSS = '''*{box-sizing:border-box}body{margin:0;background:#F4F5F3;color:#2A2D32;font-family:system-ui,"DejaVu Sans",sans-serif}
 .w{width:1080px;height:1350px;padding:70px 64px;display:flex;flex-direction:column;position:relative;overflow:hidden}
-.w:before{content:"";position:absolute;left:-200px;top:-260px;width:700px;height:700px;border-radius:50%;background:radial-gradient(#ff4fa355,transparent 65%)}
-.w:after{content:"";position:absolute;right:-240px;bottom:-280px;width:760px;height:760px;border-radius:50%;background:radial-gradient(#39d5ff44,transparent 65%)}
-.k{font-size:30px;color:#8d96ad;font-weight:600;position:relative;z-index:1}.k b{color:#ff4fa3}
-.cap{font-size:112px;line-height:1.02;font-weight:800;letter-spacing:-.03em;margin:26px 0 8px;position:relative;z-index:1}.cap b{color:#ff4fa3}.cap i{font-style:normal;color:#39d5ff}
-.sub{font-size:40px;color:#b9c0d4;position:relative;z-index:1;line-height:1.25}
+.w:before{content:"";position:absolute;left:-200px;top:-260px;width:700px;height:700px;border-radius:50%;background:none}
+.w:after{content:"";position:absolute;right:-240px;bottom:-280px;width:760px;height:760px;border-radius:50%;background:none}
+.k{font-size:30px;color:#666B66;font-weight:600;position:relative;z-index:1}.k b{color:#3A3E45}
+.cap{font-size:112px;line-height:1.02;font-weight:800;letter-spacing:-.03em;margin:26px 0 8px;position:relative;z-index:1}.cap b{color:#3A3E45}.cap i{font-style:normal;color:#3A3E45}
+.sub{font-size:40px;color:#666B66;position:relative;z-index:1;line-height:1.25}
 .feed{margin-top:auto;display:flex;flex-direction:column;gap:18px;position:relative;z-index:1}
-.c{display:flex;gap:22px;align-items:center;background:#1b2033;border:2px solid #252b3f;border-radius:26px;padding:18px;position:relative;height:150px}
-.th{width:190px;height:112px;border-radius:16px;flex:none}.t{font-size:34px;font-weight:650;line-height:1.2}.m{font-size:24px;color:#8d96ad;margin-top:6px}
-.c.b .th,.c.b .x{filter:blur(16px);opacity:.5}.c.b:after{content:attr(data-h);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:800;color:#39d5ff;letter-spacing:.05em}
-.c.r{border-color:#ff5a5a}
-.u{font-size:30px;color:#8d96ad;margin-top:30px;position:relative;z-index:1}
+.c{display:flex;gap:22px;align-items:center;background:#FFFFFF;border:2px solid #E2E4E0;border-radius:26px;padding:18px;position:relative;height:150px}
+.th{width:190px;height:112px;border-radius:16px;flex:none}.t{font-size:34px;font-weight:650;line-height:1.2}.m{font-size:24px;color:#666B66;margin-top:6px}
+.c.b .th,.c.b .x{filter:blur(16px);opacity:.5}.c.b:after{content:attr(data-h);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:800;color:#3A3E45;letter-spacing:.05em}
+.c.r{border-color:#B38F00}
+.u{font-size:30px;color:#666B66;margin-top:30px;position:relative;z-index:1}
 .sq{display:flex;flex-wrap:wrap;gap:14px;width:760px;margin-top:auto;position:relative;z-index:1}.sq span{width:80px;height:80px;border-radius:14px}
 .og .w{width:1200px;height:630px;padding:54px 60px}.og .cap{font-size:104px;margin-top:14px}.og .feed{flex-direction:row}.og .c{flex:1;height:130px}.og .th{width:120px;height:90px}.og .t{font-size:26px}'''
-G = ['#3a2a5c,#ff4fa3', '#123b4d,#39d5ff', '#4a2d1a,#ffb347', '#1f3b2a,#7ee0b5', '#3b1f2a,#ff7a7a', '#2a2f55,#9aa5ff']
+G = ['#C9CCC6,#B8BCB5', '#D5D7D2,#C2C6BF', '#CDD0C9,#B5B9B2', '#C6CAC3,#AEB3AB', '#D0D3CC,#BCC0B9', '#C9CCC6,#B0B4AD']
 def card(i, title, blur=False, red=False, hid='СПОЙЛЕР СХОВАНО'):
     return f'<div class="c{" b" if blur else ""}{" r" if red else ""}" data-h="{hid}"><div class="th" style="background:linear-gradient(135deg,{G[i % len(G)]})"></div><div class="x"><div class="t">{html.escape(title)}</div><div class="m">якийсь канал · {7 + i * 9} хв тому</div></div></div>'
 SP = ['ПОЯСНЕННЯ КІНЦІВКИ: ████ був ████', 'хто ████ у фінальній місії', 'чому ████ зраджує ████', 'злив: остання катсцена ████']
@@ -31,7 +31,7 @@ def feed(spec):  # spec: список (тип, индекс): s = спойлер
         out.append(card(n, OK[i]) if k == 'o' else card(n, SP[i], blur=(k == 'b'), red=(k == 'r')))
     return '<div class="feed">' + ''.join(out) + '</div>'
 def squares(seq):
-    col = {'b': '#39a0ff', 'r': '#ff5a5a', 'w': '#e9ecf3'}
+    col = {'b': '#3A3E45', 'r': '#B38F00', 'w': '#2A2D32'}
     return '<div class="sq">' + ''.join(f'<span style="background:{col[c]}"></span>' for c in seq) + '</div>'
 K = '<div class="k">заблюр або <b>лови спойлер</b></div>'
 CARDS = {

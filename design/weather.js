@@ -40,7 +40,7 @@
         '<p class="wx-line"><a href="' + base + 'spoiler-index/">Daily spoiler index</a> · <a href="' + base + 'gta-6-mute-list.html">GTA 6 mute list</a></p>' });
     }
     if (wk && wk.items) {
-      wk.items.filter(function (it) { return days(it.date) >= 0; }).sort(function (a, b) { return a.date < b.date ? -1 : 1; }).slice(0, 4).forEach(function (it) {
+      wk.items.filter(function (it) { return days(it.date) >= 0 && !/gta/i.test(it.title); }).sort(function (a, b) { return a.date < b.date ? -1 : 1; }).slice(0, 4).forEach(function (it) {
         var d = days(it.date), dt = new Date(it.date + 'T00:00:00');
         var when = d === 0 ? 'Today' : d === 1 ? 'Tomorrow' : dt.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
         slides.push({ tab: shortName(it.title), html:
