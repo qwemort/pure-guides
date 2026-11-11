@@ -23,7 +23,7 @@
 
 <main>
 <section class="hero">
-  <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:var(--s8);align-items:center;padding-top:var(--s8);padding-bottom:var(--s9)">
+  <div class="wrap hero-grid">
     <div>
       <p class="tag">Browser extension for games, shows and anime</p>
       <h1>Scroll freely. Spoilers stay <span class="cover">covered</span>.</h1>
@@ -34,40 +34,33 @@
       </div>
       <ul class="facts"><li>Works on your device</li><li>Open source</li><li>No account</li></ul>
     </div>
-    <div class="feed" aria-label="Example: a video feed with Shield on">
-      <div class="feed-head"><span>Example feed</span><span>Shield: on, GTA VI</span></div>
-      <div class="row">
-        <div class="thumb" aria-hidden="true"><span class="dur">14:08</span></div>
-        <div><p class="title">GTA VI: every map detail from the two trailers</p><p class="meta">Safe: no story details</p></div>
-      </div>
-      <div class="row hid">
-        <div class="thumb" aria-hidden="true"></div>
-        <div class="txt" aria-hidden="true"><p class="title">This title is blurred by the extension</p><p class="meta">Channel name</p></div>
-        <span class="veil">Hidden: GTA VI <b>Click to show</b></span>
-      </div>
-      <div class="row hid">
-        <div class="thumb" aria-hidden="true"></div>
-        <div class="txt" aria-hidden="true"><p class="title">This title is blurred by the extension</p><p class="meta">Channel name</p></div>
-        <span class="veil">Hidden: GTA VI <b>Click to show</b></span>
-      </div>
-      <div class="row">
-        <div class="thumb" aria-hidden="true"><span class="dur">9:41</span></div>
-        <div><p class="title">Best settings for a smooth 60 fps</p><p class="meta">Not about GTA VI</p></div>
-      </div>
+    <div class="wx" id="wx" aria-live="polite">
+      <div class="wx-head"><span class="mono">Spoiler weather</span><span class="mono wx-date" id="wxDate"></span></div>
+      <div class="wx-tabs" role="tablist" id="wxTabs"></div>
+      <div class="wx-body" id="wxBody"><p class="small">Loading today’s numbers…</p></div>
+      <div class="wx-foot mono">Counted by our bot on YouTube every day. Release dates from TVmaze and AniList.</div>
     </div>
   </div>
 </section>
 
 <section class="section" id="how">
-  <div class="wrap">
-    <h2>How it works</h2>
-    <p class="intro">Three steps. No account, no setup page to fight with.</p>
-    <div class="steps">
-      <div class="card"><span class="n">01</span><h3>Pick what to protect</h3><p class="small">52 ready lists for games, shows and anime. Add up to 3 of your own titles for free.</p></div>
-      <div class="card"><span class="n">02</span><h3>Scroll as usual</h3><p class="small">Videos, posts and comments that match your titles get blurred, with a short label saying why.</p></div>
-      <div class="card"><span class="n">03</span><h3>Two clicks to look</h3><p class="small">One click arms it, the second shows it. No accidental spoilers from a hover.</p></div>
+  <div class="wrap split">
+    <div>
+      <h2>How it works</h2>
+      <ol class="plain steps-list">
+        <li><b>Pick what to protect.</b> 52 ready lists for games, shows and anime, plus 3 titles of your own for free.</li>
+        <li><b>Scroll as usual.</b> Videos, posts and comments that match get blurred, with a short label saying why.</li>
+        <li><b>Two clicks to look.</b> The first click arms it and turns the label yellow. The second shows it. No accidental spoilers from a hover.</li>
+      </ol>
+      <p class="small">Saw a spoiler word the lists missed? Select it, right-click, choose “Hide as a spoiler”.</p>
     </div>
-    <p class="small" style="margin-top:var(--s5)">Saw a spoiler word the lists missed? Select it, right-click, choose “Hide as a spoiler”.</p>
+    <div class="feed" aria-label="Try it: click a hidden item twice">
+      <div class="feed-head"><span>Try it: click twice</span><span>Shield: on, GTA VI</span></div>
+      <div class="row"><div class="thumb" aria-hidden="true"><span class="dur">14:08</span></div><div><p class="title">GTA VI: every map detail from the two trailers</p><p class="meta">Safe: no story details</p></div></div>
+      <div class="row hid"><div class="thumb" aria-hidden="true"></div><div class="txt"><p class="title">Demo: nothing real to spoil here</p><p class="meta">You opened it with two clicks</p></div><button class="veil" type="button" aria-label="Hidden spoiler, click twice to show">Hidden: GTA VI <b>Click to show</b></button></div>
+      <div class="row hid"><div class="thumb" aria-hidden="true"></div><div class="txt"><p class="title">Demo: nothing real to spoil here</p><p class="meta">You opened it with two clicks</p></div><button class="veil" type="button" aria-label="Hidden spoiler, click twice to show">Hidden: GTA VI <b>Click to show</b></button></div>
+      <div class="row"><div class="thumb" aria-hidden="true"><span class="dur">9:41</span></div><div><p class="title">Best settings for a smooth 60 fps</p><p class="meta">Not about GTA VI</p></div></div>
+    </div>
   </div>
 </section>
 
@@ -131,5 +124,6 @@
     <a href="https://github.com/qwemort/pure-spoiler-shield">Source code</a>
   </div>
 </footer>
+<script src="../weather.js"></script>
 </body>
 </html>

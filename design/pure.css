@@ -94,3 +94,26 @@ h3{font-size:20px;margin-bottom:var(--s2)}
   .thumb{height:56px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* главная: «спойлерная погода» и двойной клик */
+.hero-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:var(--s8);align-items:center;padding-top:var(--s8);padding-bottom:var(--s9)}
+.wx{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--s5);min-height:400px;display:flex;flex-direction:column;gap:var(--s4)}
+.wx-head{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.wx-tabs{display:flex;flex-wrap:wrap;gap:var(--s2)}
+.wx-tabs button{font:600 14px/1.2 var(--font-body);background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:var(--s2) var(--s4);cursor:pointer}
+.wx-tabs button[aria-selected="true"]{background:var(--cover);color:var(--on-cover);border-color:var(--cover)}
+.wx-body{flex:1}
+.wx-kind{font:13px/1.4 var(--font-mono);color:var(--muted);margin:0 0 var(--s2)}
+.wx-title{font:700 28px/1.15 var(--font-display);margin:0 0 var(--s5)}
+.wx-big{display:flex;align-items:center;gap:var(--s4);margin-bottom:var(--s4)}
+.wx-num{font:700 48px/1 var(--font-display);background:var(--cover);color:var(--on-cover);border-radius:var(--r-sm);padding:var(--s2) var(--s4);white-space:nowrap}
+.wx-line{margin:0 0 var(--s2)}
+.wx-body a{font-weight:600}
+.wx-foot{font-size:12px;color:var(--muted)}
+.steps-list{counter-reset:st;margin-bottom:var(--s5)}
+.steps-list li{counter-increment:st;padding-left:var(--s7);position:relative}
+.steps-list li::before{content:counter(st,decimal-leading-zero);position:absolute;left:0;top:var(--s3);font:13px/1.6 var(--font-mono);color:var(--muted)}
+button.veil{border:0;cursor:pointer}
+.row.armed .veil{background:var(--signal);color:var(--on-signal)}
+.row.open .thumb,.row.open .txt{filter:none}
+.row.open .veil{display:none}

@@ -274,6 +274,7 @@ for (const lg of Object.keys(LANGS)) {
   fs.writeFileSync(path.join(DIR, LANGS[lg].dir, SLUG + '.html'), r.html);
 }
 fs.writeFileSync(path.join(DIR, SLUG + '.json'), JSON.stringify({ range: RANGE, items: all.map((x) => ({ kind: x.kind, title: x.title, date: dayOf(x.when), day: dayEn(x.when), note: x.note, mute: x.mute || shieldPage(x.title) || (x.alt && shieldPage(x.alt)) || null, source: x.source })) }, null, 1));
+fs.copyFileSync(path.join(DIR, SLUG + '.json'), path.join(DIR, 'latest.json')); // для «спойлерной погоды» на главной
 
 // ---------- индекс, RSS, sitemap
 const weeks = fs.readdirSync(DIR).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().reverse()
