@@ -236,5 +236,39 @@
   ],
   "shield": "1.3.2",
   "where": "youtube.com, US, no login"
+ },
+ {
+  "date": "2026-11-12",
+  "main": {
+   "q": "gta 6",
+   "cards": 40,
+   "spoilers": 3
+  },
+  "unique_spoilers": 78,
+  "unique_videos": 127,
+  "queries": [
+   {
+    "q": "gta 6",
+    "cards": 40,
+    "spoilers": 3
+   },
+   {
+    "q": "gta 6 ending",
+    "cards": 30,
+    "spoilers": 29
+   },
+   {
+    "q": "gta 6 story",
+    "cards": 35,
+    "spoilers": 23
+   },
+   {
+    "q": "gta 6 leak",
+    "cards": 29,
+    "spoilers": 25
+   }
+  ],
+  "shield": "1.3.2",
+  "where": "youtube.com, US, no login"
  }
 ]
