@@ -271,7 +271,9 @@ for (const lg of Object.keys(LANGS)) {
   const r = render(lg);
   if (lg === 'en') RANGE = r.range;
   fs.mkdirSync(path.join(DIR, LANGS[lg].dir), { recursive: true });
-  fs.writeFileSync(path.join(DIR, LANGS[lg].dir, SLUG + '.html'), r.html);
+  // Ссылки с украинской и польской страницы на английские страницы подписываем «EN» (Антон 13.11: язык ссылок не должен путать).
+  const tagEn = (h) => h.replace(/(<a [^>]*href="(?:\.\.\/)+(?:mute-list\/[^"]*|gta-6-mute-list\.html|demo\/|s\/|spoiler-index\/)"[^>]*>[^<]*<\/a>)/g, '$1<span class="lang-tag" lang="en" title="English page">EN</span>');
+  fs.writeFileSync(path.join(DIR, LANGS[lg].dir, SLUG + '.html'), (lg === 'en' ? r.html : tagEn(r.html)).replace('</body>', `<script src="${lg === 'en' ? '../' : '../../'}lang-hint.js" defer></script></body>`));
 }
 fs.writeFileSync(path.join(DIR, SLUG + '.json'), JSON.stringify({ range: RANGE, items: all.map((x) => ({ kind: x.kind, title: x.title, date: dayOf(x.when), day: dayEn(x.when), note: x.note, mute: x.mute || shieldPage(x.title) || (x.alt && shieldPage(x.alt)) || null, source: x.source })) }, null, 1));
 fs.copyFileSync(path.join(DIR, SLUG + '.json'), path.join(DIR, 'latest.json')); // для «спойлерной погоды» на главной
