@@ -1,3 +1,7 @@
+@font-face{font-family:"Press Start 2P";font-weight:400;font-display:swap;src:url(../fonts/press-start-2p-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Bebas Neue";font-weight:400;font-display:swap;src:url(../fonts/bebas-neue-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Courier Prime";font-weight:700;font-display:swap;src:url(../fonts/courier-prime-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Dela Gothic One";font-weight:400;font-display:swap;src:url(../fonts/dela-gothic-one-latin-400-normal.woff2) format("woff2")}
 /* Pure: общий стиль (направление A, мягкая версия). Токены: pure-extensions/design-kit/DESIGN.md */
 @font-face{font-family:Archivo;font-weight:700;font-display:swap;src:url(../fonts/archivo-latin-700-normal.woff2) format("woff2")}
 :root{
@@ -152,3 +156,12 @@ button.veil{border:0;cursor:pointer}
 .titles-h{display:flex;align-items:center;gap:var(--s3);font:700 22px/1.2 var(--font-display);margin:0 0 var(--s3)}
 .titles-h .cover{padding:var(--s1) var(--s3)}
 .tcount{font:13px/1.4 var(--font-mono);font-weight:400;color:var(--muted)}
+
+/* design-ok: по просьбе Антона (14.11) у каждой группы тайтлов свой шрифт и своя форма плашки; только эти четыре подписи, текст везде Archivo/системный */
+.titles-h .cover{background:var(--cover);color:var(--on-cover)}
+.tg-game .titles-h .cover{font:400 13px/1 "Press Start 2P",monospace;border-radius:0;padding:var(--s3) var(--s3);box-shadow:4px 4px 0 var(--muted)}
+.tg-movie .titles-h .cover{font:400 32px/1 "Bebas Neue","Arial Narrow",sans-serif;letter-spacing:.08em;border-radius:0;padding:var(--s2) var(--s5);
+  -webkit-mask:radial-gradient(circle 7px at 0 50%,#0000 97%,#000) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,#0000 97%,#000) right/51% 100% no-repeat;
+  mask:radial-gradient(circle 7px at 0 50%,#0000 97%,#000) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,#0000 97%,#000) right/51% 100% no-repeat}
+.tg-show .titles-h .cover{font:700 20px/1 "Courier Prime",ui-monospace,monospace;background:transparent;color:var(--ink);border:2px solid var(--cover);border-radius:var(--r-sm);padding:var(--s2) var(--s4)}
+.tg-anime .titles-h .cover{font:400 24px/1 "Dela Gothic One","Arial Black",sans-serif;border-radius:0;padding:var(--s3) var(--s6);clip-path:polygon(9% 0,100% 0,91% 100%,0 100%)}
