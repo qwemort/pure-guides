@@ -1,6 +1,6 @@
 name: spoiler-index
 # «Индекс спойлеров GTA 6»: каждый день бот открывает настоящий YouTube (без логина, США), вбивает
-# одни и те же запросы и считает, сколько из первых 40 видео настоящий Pure Spoiler Shield закрыл бы.
+# одни и те же запросы и считает, сколько из первых 40 видео настоящий Pure Spoiler Blocker закрыл бы.
 # → data/spoiler-index.json (только числа), карточки spoiler-index/*.png, страница spoiler-index/,
 # комментарий в issue «Индекс спойлеров» с картинкой и текстом для Антона,
 # публикация в Threads / Telegram / Bluesky — ТОЛЬКО если включено в spoiler-index/config.json.

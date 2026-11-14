@@ -1,5 +1,5 @@
 name: mutelists
-# Раз в неделю пересобирает страницы mute-list/ из готовых списков Pure Spoiler Shield (публичные исходники).
+# Раз в неделю пересобирает страницы mute-list/ из готовых списков Pure Spoiler Blocker (публичные исходники).
 on:
   schedule:
     - cron: '53 6 * * 1'

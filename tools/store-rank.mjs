@@ -1,4 +1,4 @@
-// Позиция Pure Spoiler Shield в поиске Chrome Web Store по нескольким запросам (публичные страницы, без входа).
+// Позиция Pure Spoiler Blocker в поиске Chrome Web Store по нескольким запросам (публичные страницы, без входа).
 //   node tools/store-rank.mjs   → data/store-rank.json (история по дням) и out/store-rank.md
 // Если магазин не отдал список (капча/другая вёрстка) — день пропускается, ничего не пишется.
 import fs from 'node:fs'; import path from 'node:path';

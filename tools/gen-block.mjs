@@ -39,7 +39,7 @@ function page(p) {
     [`Can YouTube block ${L} spoilers by itself?`, `No. YouTube has no word filter. You can tap "Not interested" or "Don't recommend channel" on single videos, but new spoiler thumbnails, Shorts and comments still show up.`],
     [`How do I hide ${L} spoilers on Reddit?`, `Reddit lets you mute whole communities, not words, so posts about ${L} in other subreddits and in search still appear. An extension that reads post titles and comments is the only way to filter by words.`],
     [`Does X (Twitter) have a filter for ${L} spoilers?`, `Yes, X has muted words. It hides posts that contain them, but not the same videos on YouTube or posts on Reddit.`],
-    [`Is Pure Spoiler Shield free?`, `Yes, all of it. The ready-made ${L} list, the other ready-made lists and as many titles of your own as you like work on YouTube, Reddit and X, and after one click on Google search, TikTok and Instagram. There is no paid version and no account.`],
+    [`Is Pure Spoiler Blocker free?`, `Yes, all of it. The ready-made ${L} list, the other ready-made lists and as many titles of your own as you like work on YouTube, Reddit and X, and after one click on Google search, TikTok and Instagram. There is no paid version and no account.`],
     [`Does it collect my data?`, `No. It runs in your browser with no account and no tracking, and its source code is public.`],
   ];
   return `<!doctype html>
@@ -77,13 +77,13 @@ ${JSON.stringify({ '@context': 'https://schema.org', '@graph': [
 <h1>${esc(title)}</h1>
 <p class="muted">Updated ${TODAY}</p>
 
-<div class="note short"><strong>Short answer.</strong> YouTube and Reddit have no way to mute words, so ${esc(L)} spoilers in thumbnails, titles and comments get through. A browser extension that reads the page and blurs matching videos, posts and comments is what actually works. I build one, Pure Spoiler Shield: it is free, ships with a ready-made ${esc(L)} list and runs locally.</div>
+<div class="note short"><strong>Short answer.</strong> YouTube and Reddit have no way to mute words, so ${esc(L)} spoilers in thumbnails, titles and comments get through. A browser extension that reads the page and blurs matching videos, posts and comments is what actually works. I build one, Pure Spoiler Blocker: it is free, ships with a ready-made ${esc(L)} list and runs locally.</div>
 
-<p><a class="cta" href="${STORE}${p.id}">Add Pure Spoiler Shield to Chrome, free</a><br><span class="muted">Disclosure: I build it. Also on <a href="${FF}${p.id}">Firefox</a>.</span></p>
+<p><a class="cta" href="${STORE}${p.id}">Add Pure Spoiler Blocker to Chrome, free</a><br><span class="muted">Disclosure: I build it. Also on <a href="${FF}${p.id}">Firefox</a>.</span></p>
 
 <h2>Try it right here</h2>
 <p class="muted">A made-up YouTube-style feed with no real spoilers. Switch the Shield on and watch the ${esc(L)} spoiler videos blur while trailers and everything else stay (this is the "spoilers only" level).</p>
-<iframe class="demo" src="../demo/?t=${encodeURIComponent(L)}&amp;kind=${DEMO_KIND[p.kind] || 'game'}&amp;embed=1" title="Pure Spoiler Shield demo for ${esc(L)}" loading="lazy"></iframe>
+<iframe class="demo" src="../demo/?t=${encodeURIComponent(L)}&amp;kind=${DEMO_KIND[p.kind] || 'game'}&amp;embed=1" title="Pure Spoiler Blocker demo for ${esc(L)}" loading="lazy"></iframe>
 
 <h2>What the ${esc(L)} list hides</h2>
 <ul>
@@ -96,7 +96,7 @@ ${names ? `<li><strong>${names} character and place names</strong> from the list
 
 <h2>Set it up in a minute</h2>
 <ol>
-<li><a href="${STORE}${p.id}">Install Pure Spoiler Shield</a> from the Chrome Web Store.</li>
+<li><a href="${STORE}${p.id}">Install Pure Spoiler Blocker</a> from the Chrome Web Store.</li>
 <li>Open it and turn on <strong>${esc(L)}</strong> in the list of ready-made titles.</li>
 <li>Open YouTube or Reddit. Matching cards and comments are blurred right away.</li>
 </ol>

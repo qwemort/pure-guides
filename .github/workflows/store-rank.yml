@@ -1,5 +1,5 @@
 name: store-rank
-# Раз в день смотрит, на каком месте Spoiler Shield в поиске Chrome Web Store по 4 запросам. Только публичные страницы.
+# Раз в день смотрит, на каком месте Spoiler Blocker в поиске Chrome Web Store по 4 запросам. Только публичные страницы.
 on:
   schedule:
     - cron: '47 6 * * *'

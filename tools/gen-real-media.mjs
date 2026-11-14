@@ -1,4 +1,4 @@
-// Видео «до/после» с НАСТОЯЩЕГО YouTube и НАСТОЯЩЕГО Pure Spoiler Shield (ничего не подделываем):
+// Видео «до/после» с НАСТОЯЩЕГО YouTube и НАСТОЯЩЕГО Pure Spoiler Blocker (ничего не подделываем):
 // поиск на youtube.com → 0.9 с лента без размытия, центр закрыт нашей подписью (чтобы зритель не словил спойлер с превью)
 // → подпись уходит, Shield включается → настоящие спойлерные видео размываются.
 //   node tools/gen-real-media.mjs --ext <распакованный Shield для Chrome> --preset gta6 --query "gta 6 ending leak" [--cap "..."] [--slug ...]
@@ -46,7 +46,7 @@ const overlay = (show) => p.evaluate(([show, cap]) => {
   document.documentElement.appendChild(o);
 }, [show, cap]);
 const brand = () => p.evaluate(() => {
-  const b = document.createElement('div'); b.textContent = '🛡 Pure Spoiler Shield · free for Chrome';
+  const b = document.createElement('div'); b.textContent = '🛡 Pure Spoiler Blocker · free for Chrome';
   Object.assign(b.style, { position: 'fixed', left: '0', right: '0', bottom: '0', zIndex: 2147483647, padding: '16px', textAlign: 'center', background: 'rgba(13,17,23,.94)', color: '#fff', font: '700 22px system-ui,-apple-system,Segoe UI,Roboto,sans-serif' });
   document.documentElement.appendChild(b);
 });

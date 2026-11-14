@@ -21,14 +21,14 @@ const L = {
     of: (s, n) => `${s} з ${n}`, unit: 'перших відео вже зі спойлерами*',
     q: 'інші запити', total: 'унікальних спойлерних відео по всіх запитах', chart: 'як змінюється «gta 6»',
     left: dLeft > 0 ? `до релізу ${dLeft} дн.` : dLeft === 0 ? 'сьогодні реліз' : `після релізу ${-dLeft} дн.`,
-    foot: '* так їх бачить Pure Spoiler Shield · рахує бот щодня · YouTube без логіну, США', lq: '«', rq: '»',
+    foot: '* так їх бачить Pure Spoiler Blocker · рахує бот щодня · YouTube без логіну, США', lq: '«', rq: '»',
   },
   en: {
     title: 'SPOILER INDEX', day: `day ${day}`, lead: 'search YouTube for just',
     of: (s, n) => `${s} of ${n}`, unit: 'top videos already carry spoilers*',
     q: 'other searches', total: 'unique spoiler videos across all searches', chart: 'trend for "gta 6"',
     left: dLeft > 0 ? `${dLeft} days to release` : dLeft === 0 ? 'release day' : `${-dLeft} days after release`,
-    foot: '* as Pure Spoiler Shield sees them · counted daily by a bot · YouTube, no login, US', lq: '"', rq: '"',
+    foot: '* as Pure Spoiler Blocker sees them · counted daily by a bot · YouTube, no login, US', lq: '"', rq: '"',
   },
 };
 
@@ -99,7 +99,7 @@ ${rows}
 <div class="sec">${t.chart}</div>
 <div class="chart">${chart(lang)}</div>
 <div class="total"><b>${E.unique_spoilers}</b> ${t.total}</div>
-<div class="foot"><span>${esc(t.foot)}</span><b>Pure Spoiler Shield</b></div>
+<div class="foot"><span>${esc(t.foot)}</span><b>Pure Spoiler Blocker</b></div>
 </body></html>`;
 }
 
@@ -160,11 +160,11 @@ ${rows}
 <h2>How it is counted</h2>
 <ul>
 <li>Once a day a bot opens youtube.com in a clean browser with <strong>no account and no history</strong> (US, English), runs the same four searches and takes the first ${E.main.cards} videos of each, Shorts included, ads excluded.</li>
-<li>A video counts as a spoiler when <a href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=spoiler-index">Pure Spoiler Shield</a> with its default GTA VI list on the "spoilers only" level would blur it: GTA VI plus words like ending, leak, story, twist or a character name. Plain trailers and news do not count.</li>
+<li>A video counts as a spoiler when <a href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=spoiler-index">Pure Spoiler Blocker</a> with its default GTA VI list on the "spoilers only" level would blur it: GTA VI plus words like ending, leak, story, twist or a character name. Plain trailers and news do not count.</li>
 <li>It reads titles and text, not images, so it can miss a spoiler that is only in a thumbnail. The same searches run every day, so the trend is comparable even where single videos are judged wrong.</li>
 <li>Video titles are not published here, because they are the spoilers.</li>
 </ul>
-<p class="muted">Disclosure: I build Pure Spoiler Shield. Not affiliated with Rockstar Games or Take-Two.</p>
+<p class="muted">Disclosure: I build Pure Spoiler Blocker. Not affiliated with Rockstar Games or Take-Two.</p>
 <footer><p><a href="../spoiler-danger/">Spoiler danger this week</a> · <a href="../block/gta6.html">How to block GTA 6 spoilers</a> · <a href="../">Pure guides</a></p><p>This site has no analytics, no cookies and no trackers.</p></footer>
 </main>
 </body>

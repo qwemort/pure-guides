@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pure Spoiler Shield demo: see what it hides on YouTube</title>
-<meta name="description" content="A live demo with made-up videos: pick a title and watch the spoiler videos blur, while trailers and news stay. This is how Pure Spoiler Shield works on YouTube.">
+<title>Pure Spoiler Blocker demo: see what it hides on YouTube</title>
+<meta name="description" content="A live demo with made-up videos: pick a title and watch the spoiler videos blur, while trailers and news stay. This is how Pure Spoiler Blocker works on YouTube.">
 <link rel="canonical" href="https://qwemort.github.io/pure-guides/demo/">
 <link rel="stylesheet" href="../style.css">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pure guides">
-<meta property="og:title" content="See what Pure Spoiler Shield hides">
+<meta property="og:title" content="See what Pure Spoiler Blocker hides">
 <meta property="og:description" content="Pick a title and watch the spoiler videos blur. Made-up videos, real behaviour.">
 <meta property="og:image" content="https://qwemort.github.io/pure-guides/img/demo.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -60,7 +60,7 @@ body.embed main{padding:12px 14px}
 <!-- chrome:top -->
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="../"><span class="bar" aria-hidden="true"></span>Pure Spoiler Shield</a>
+    <a class="logo" href="../"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
     <nav class="nav" aria-label="Sections">
       <a href="../block/">Titles</a>
       <a href="../mute-list/">Mute lists</a>
@@ -72,14 +72,14 @@ body.embed main{padding:12px 14px}
 </header>
 <!-- /chrome:top -->
 <main>
-<h1>See what Pure Spoiler Shield hides</h1>
+<h1>See what Pure Spoiler Blocker hides</h1>
 <p>A YouTube-style feed with <strong>made-up videos</strong> (no real spoilers here). Pick what you have not finished yet and watch the spoiler videos blur, while trailers, guides and everything else stay. Click a blurred card twice to see it.</p>
 
 <div class="bar" id="picks"></div>
 <div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="Shield on or off" aria-pressed="true"></button></span></div>
 <div class="feed" id="feed"></div>
 
-<div class="note cta"><strong>That is the whole idea.</strong> Pure Spoiler Shield does this on the real YouTube (home, search, Shorts, comments), on Reddit and on X, and after one click on Google search, TikTok and Instagram, for 52 ready-made titles in 13 languages, plus 3 of your own. All of that is free; Pro is a $5 one-time purchase for every other website and extras. It runs locally, no account, no tracking, <a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">source is public</a>. It reads text, so a spoiler only inside a thumbnail image can slip through. <a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Get it for Chrome</a>. Disclosure: I build it.</div>
+<div class="note cta"><strong>That is the whole idea.</strong> Pure Spoiler Blocker does this on the real YouTube (home, search, Shorts, comments), on Reddit and on X, and after one click on Google search, TikTok and Instagram, for 52 ready-made titles in 13 languages, plus 3 of your own. All of that is free; Pro is a $5 one-time purchase for every other website and extras. It runs locally, no account, no tracking, <a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">source is public</a>. It reads text, so a spoiler only inside a thumbnail image can slip through. <a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Get it for Chrome</a>. Disclosure: I build it.</div>
 <p>Want to share a spoiler without ruining it for others? Use a <a href="../s/">spoiler link</a>.</p>
 
 </main>
@@ -125,7 +125,7 @@ body.embed main{padding:12px 14px}
       var h=document.getElementById('hint');if(h)h.textContent='try the switch →';},1100);}
   if(REC){document.body.classList.add('rec');on=false;
     var cap=document.createElement('div');cap.id='cap';cap.innerHTML='<div class="c1"></div><div class="c2"><span id="st">Shield: OFF</span></div>';
-    var ft=document.createElement('div');ft.id='brand';ft.innerHTML='<img src="../img/spoilershield.png" alt=""> Pure Spoiler Shield · free for Chrome';document.body.appendChild(ft);
+    var ft=document.createElement('div');ft.id='brand';ft.innerHTML='<img src="../img/spoilershield.png" alt=""> Pure Spoiler Blocker · free for Chrome';document.body.appendChild(ft);
     cap.querySelector('.c1').textContent=Q.get('cap')||((T||'GTA VI')+' spoilers on your YouTube?');
     document.body.insertBefore(cap,document.body.firstChild);
     window.__shield=function(v){on=v;var b=document.getElementById('sw');b.classList.toggle('on',on);document.getElementById('st').textContent='Shield: '+(on?'ON':'OFF');document.getElementById('st').className=on?'on':'';draw()};
@@ -166,7 +166,7 @@ body.embed main{padding:12px 14px}
 <footer class="foot">
   <div class="wrap">
     <div class="fgrid">
-      <div><p class="fh">Pure Spoiler Shield</p><ul>
+      <div><p class="fh">Pure Spoiler Blocker</p><ul>
         <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">Add to Chrome</a></li>
         <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">Add to Firefox</a></li>
         <li><a href="../demo/">Try the demo</a></li>

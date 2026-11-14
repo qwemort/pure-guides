@@ -94,7 +94,7 @@ for u in sorted(locs):
     if not tgt.exists(): E('sitemap.xml', f'ссылка на несуществующую страницу {u}')
 
 # 8. переводы i18n/home.<lang>.json против home.en.json
-PROT = ['Pure Spoiler Shield', 'PureHeaders', 'PureJSON', 'PureSession', 'ModHeader', 'YouTube', 'Reddit', 'GTA VI', 'GTA 6',
+PROT = ['Pure Spoiler Blocker', 'PureHeaders', 'PureJSON', 'PureSession', 'ModHeader', 'YouTube', 'Reddit', 'GTA VI', 'GTA 6',
         'TVmaze', 'AniList', 'Instagram', 'TikTok', 'Google', 'Chrome', 'Firefox', 'Edge', 'CORS', 'JSON', 'Allow-Origin', 'Shield']
 need = {'ru': {'one', 'few', 'many', 'other'}, 'uk': {'one', 'few', 'many', 'other'}, 'pl': {'one', 'few', 'many', 'other'}}
 en_p = ROOT / 'i18n' / 'home.en.json'
