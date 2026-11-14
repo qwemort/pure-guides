@@ -130,10 +130,12 @@ for (const p of LIB) {
   made.push(p);
 }
 const groups = ['game', 'movie', 'show', 'anime'];
+const GN = { game: 'Games', movie: 'Films', show: 'Series', anime: 'Anime' };
 const list = groups.map((k) => {
   const items = made.filter((p) => p.kind === k);
   if (!items.length) return '';
-  return `<h2>${({game:'Games',movie:'Films',show:'Series',anime:'Anime'})[k] || KIND[k]}</h2>\n<ul>\n${items.map((p) => `<li><a href="${p.id}.html">${esc(p.label)}</a></li>`).join('\n')}\n</ul>`;
+  const gta = k === 'game' ? '<li><a href="../gta-6-mute-list.html">GTA VI</a></li>' : '';
+  return `<details class="tgroup tg-${k}"${k === 'game' ? ' open' : ''}><summary><h2 class="titles-h"><span class="cover">${GN[k]}</span><span class="tcount">${items.length + (gta ? 1 : 0)} lists</span></h2><span class="tchev" aria-hidden="true"></span></summary>\n<ul class="titles">${gta}${items.map((p) => `<li><a href="${p.id}.html">${esc(p.label)}</a></li>`).join('')}</ul></details>`;
 }).join('\n');
 fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <html lang="en">
@@ -150,8 +152,8 @@ fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <a class="brand" href="../">Pure guides</a>
 <h1>Spoiler mute lists</h1>
 <p>Copy-ready words to mute on X and Threads, one page per title. No spoilers in the lists. Updated ${TODAY}.</p>
-<ul><li><a href="../gta-6-mute-list.html">GTA VI</a> (with Ukrainian, Polish and Russian words)</li></ul>
 ${list}
+<p class="muted">The GTA VI list also has Ukrainian, Polish and Russian words.</p>
 <p>Your title is not here? <a href="https://github.com/qwemort/pure-spoiler-shield/issues/new?template=title-request.yml">Request it</a>, no spoilers in the request please. Requests close automatically when the list ships.</p>
 <footer>
 <p><a href="../">Pure guides</a> · <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>

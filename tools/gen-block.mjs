@@ -141,7 +141,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <a class="brand" href="../">Pure guides</a>
 <h1>Block spoilers on YouTube, Reddit and X</h1>
 <p>YouTube and Reddit can't mute words. Pick your title to see what works, with a live demo. Updated ${TODAY}.</p>
-${groups.map(([k, h]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<h2>${h}</h2>\n<ul>\n${it.map((p) => `<li><a href="${p.id}.html">How to block ${esc(p.label)} spoilers</a></li>`).join('\n')}\n</ul>` : ''; }).join('\n')}
+${groups.map(([k, h]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<details class="tgroup tg-${k}"${k === 'game' ? ' open' : ''}><summary><h2 class="titles-h"><span class="cover">${h}</span><span class="tcount">${it.length} lists</span></h2><span class="tchev" aria-hidden="true"></span></summary>\n<ul class="titles">${it.map((p) => `<li><a href="${p.id}.html">${esc(p.label)}</a></li>`).join('')}</ul></details>` : ''; }).join('\n')}
 <footer><p><a href="../">Pure guides</a></p><p>This site has no analytics, no cookies and no trackers.</p></footer>
 </main>
 </body>
