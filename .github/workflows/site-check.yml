@@ -1,0 +1,13 @@
+name: site-check
+# Проверка сайта на каждый пуш: шапка/подвал, ссылки, устаревшие факты, число списков, sitemap, переводы.
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/site-check.py
