@@ -176,3 +176,8 @@ details.tgroup .titles{margin:var(--s4) 0 0}
 details.tgroup[open] .tchev{rotate:225deg;translate:-1px 1px}
 details.tgroup[data-closing] .tchev{rotate:45deg;translate:-1px -3px}
 details.tgroup summary:hover .tchev{border-color:var(--ink)}
+.langbar{border-top:1px solid var(--line);padding:var(--s5) 0}
+.langbar .wrap{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5)}
+.langbar a{color:var(--muted);text-decoration:none;font-size:.9rem}
+.langbar a:hover{color:var(--ink);text-decoration:underline}
+.langbar a[aria-current]{color:var(--ink);font-weight:700}

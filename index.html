@@ -14,6 +14,7 @@
 <meta property="og:url" content="https://qwemort.github.io/pure-guides/">
 <meta property="og:image" content="https://qwemort.github.io/pure-guides/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
+<!-- hreflang:start --><link rel="alternate" hreflang="en" href="https://qwemort.github.io/pure-guides/"><link rel="alternate" hreflang="de" href="https://qwemort.github.io/pure-guides/de/"><link rel="alternate" hreflang="es" href="https://qwemort.github.io/pure-guides/es/"><link rel="alternate" hreflang="fr" href="https://qwemort.github.io/pure-guides/fr/"><link rel="alternate" hreflang="it" href="https://qwemort.github.io/pure-guides/it/"><link rel="alternate" hreflang="ja" href="https://qwemort.github.io/pure-guides/ja/"><link rel="alternate" hreflang="ko" href="https://qwemort.github.io/pure-guides/ko/"><link rel="alternate" hreflang="pl" href="https://qwemort.github.io/pure-guides/pl/"><link rel="alternate" hreflang="pt-BR" href="https://qwemort.github.io/pure-guides/pt-br/"><link rel="alternate" hreflang="ru" href="https://qwemort.github.io/pure-guides/ru/"><link rel="alternate" hreflang="tr" href="https://qwemort.github.io/pure-guides/tr/"><link rel="alternate" hreflang="uk" href="https://qwemort.github.io/pure-guides/uk/"><link rel="alternate" hreflang="zh-CN" href="https://qwemort.github.io/pure-guides/zh-cn/"><link rel="alternate" hreflang="x-default" href="https://qwemort.github.io/pure-guides/"><!-- hreflang:end -->
 <link rel="stylesheet" href="design/pure.css">
 </head>
 <body>
@@ -126,8 +127,10 @@
     </ul>
   </div>
 </section>
+<!-- langs:start --><nav class="langbar" aria-label="Language"><div class="wrap"><a href="" hreflang="en" lang="en" aria-current="page">English</a><a href="de/" hreflang="de" lang="de">Deutsch</a><a href="es/" hreflang="es" lang="es">Español</a><a href="fr/" hreflang="fr" lang="fr">Français</a><a href="it/" hreflang="it" lang="it">Italiano</a><a href="ja/" hreflang="ja" lang="ja">日本語</a><a href="ko/" hreflang="ko" lang="ko">한국어</a><a href="pl/" hreflang="pl" lang="pl">Polski</a><a href="pt-br/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="ru/" hreflang="ru" lang="ru">Русский</a><a href="tr/" hreflang="tr" lang="tr">Türkçe</a><a href="uk/" hreflang="uk" lang="uk">Українська</a><a href="zh-cn/" hreflang="zh-CN" lang="zh-CN">简体中文</a></div></nav><!-- langs:end -->
 </main>
 
+<!-- i18n:start --><script>window.PURE_I18N={"hero_tag_countdown": {"one": "GTA VI is out in {n} day. Spoilers are out already.", "other": "GTA VI is out in {n} days. Spoilers are out already."}, "btn_add_firefox_free": "Add to Firefox, it’s free", "demo_click_again": "Click again to show. <b>It may spoil the story.<\/b>", "weather_no_data": "No data today.", "wx_game_kind": {"one": "Game · consoles in {n} day", "other": "Game · consoles in {n} days"}, "wx_game_kind_out": "Game · consoles, out now", "wx_game_big": "{a} of {b}", "wx_game_big_text": "videos for “{q}” on YouTube had spoilers today", "wx_game_line_search": "Search “{q}” and it is {a} of {b}.", "wx_link_daily_index": "Daily spoiler index", "wx_link_gta_mute": "GTA 6 mute list", "wx_kind_series": "Series", "wx_kind_anime": "Anime", "wx_today": "Today", "wx_tomorrow": "Tomorrow", "wx_new_episode": "new episode. Spoilers start the same day.", "wx_link_mute_for_it": "Mute list for it", "wx_source": "Source:", "lang": "en"}</script><!-- i18n:end -->
 <!-- chrome:foot -->
 <footer class="foot">
   <div class="wrap">
@@ -160,11 +163,11 @@
 <script src="design/weather.js"></script>
 <script>
 (function(){
-  var r=document.documentElement.dataset.release.split('-'),d=Math.ceil((Date.UTC(+r[0],+r[1]-1,+r[2])-Date.now())/864e5),t=document.getElementById('heroTag');
-  if(t&&d>0)t.textContent='GTA VI is out in '+d+(d===1?' day':' days')+'. Spoilers are out already.';
+  var I=window.PURE_I18N,r=document.documentElement.dataset.release.split('-'),d=Math.ceil((Date.UTC(+r[0],+r[1]-1,+r[2])-Date.now())/864e5),t=document.getElementById('heroTag');
+  if(t&&d>0){var o=I.hero_tag_countdown,f=o[new Intl.PluralRules(I.lang).select(d)]||o.other;t.textContent=f.replace('{n}',d);}
   if(/Firefox\//.test(navigator.userAgent)){
     var g=document.getElementById('heroGet'),a=document.getElementById('heroAlt'),h=g.href;
-    g.href=a.href;g.textContent='Add to Firefox, it’s free';a.href=h;a.textContent='Chrome';
+    g.href=a.href;g.textContent=I.btn_add_firefox_free;a.href=h;a.textContent='Chrome';
   }
 })();
 </script>
