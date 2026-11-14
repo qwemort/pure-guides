@@ -165,7 +165,7 @@ ${rows}
 <li>Video titles are not published here, because they are the spoilers.</li>
 </ul>
 <p class="muted">Disclosure: I build Pure Spoiler Blocker. Not affiliated with Rockstar Games or Take-Two.</p>
-<footer><p><a href="../spoiler-danger/">Spoiler danger this week</a> · <a href="../block/gta6.html">How to block GTA 6 spoilers</a> · <a href="../">Pure guides</a></p><p>This site has no cookies and no ads.</p></footer>
+<footer><p><a href="../spoiler-danger/">Spoiler danger this week</a> · <a href="../block/gta6.html">How to block GTA 6 spoilers</a> · <a href="../">Pure guides</a></p><p>This site has no cookies and no ads. Anonymous visit statistics via Cloudflare Web Analytics. Anonymous visit statistics via Cloudflare Web Analytics.</p></footer>
 </main>
 </body>
 </html>
