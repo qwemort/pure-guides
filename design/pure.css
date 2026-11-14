@@ -165,3 +165,16 @@ button.veil{border:0;cursor:pointer}
   mask:radial-gradient(circle 7px at 0 50%,#0000 97%,#000) left/51% 100% no-repeat,radial-gradient(circle 7px at 100% 50%,#0000 97%,#000) right/51% 100% no-repeat}
 .tg-show .titles-h .cover{font:700 20px/1 "Courier Prime",ui-monospace,monospace;background:transparent;color:var(--ink);border:2px solid var(--cover);border-radius:var(--r-sm);padding:var(--s2) var(--s4)}
 .tg-anime .titles-h .cover{font:400 24px/1 "Dela Gothic One","Arial Black",sans-serif;border-radius:0;padding:var(--s3) var(--s6);clip-path:polygon(9% 0,100% 0,91% 100%,0 100%)}
+
+/* выпадающие группы тайтлов */
+details.tgroup summary{display:flex;align-items:center;gap:var(--s4);cursor:pointer;list-style:none;min-height:44px}
+details.tgroup summary::-webkit-details-marker{display:none}
+details.tgroup summary:focus-visible{outline:3px solid var(--ink);outline-offset:var(--s2);border-radius:var(--r-sm)}
+details.tgroup .titles-h{margin:0}
+details.tgroup .titles{margin:var(--s4) 0 0}
+.tchev{margin-left:auto;flex:none;width:10px;height:10px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg) translate(-2px,-2px);transition:transform .2s}
+details.tgroup[open] .tchev{transform:rotate(-135deg) translate(-2px,-2px)}
+details.tgroup summary:hover .tchev{border-color:var(--ink)}
+:root{interpolate-size:allow-keywords}
+details.tgroup::details-content{block-size:0;overflow:clip;transition:block-size .25s ease,content-visibility .25s allow-discrete}
+details.tgroup[open]::details-content{block-size:auto}

@@ -156,7 +156,7 @@ fs.writeFileSync(sm, s);
 // Главная: чипы тайтлов (между маркерами) и число списков (между <!--n--> и <!--/n-->) обновляются сами.
 const home = path.join(ROOT, 'index.html');
 if (fs.existsSync(home)) {
-  const chips = groups.map(([k, t]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<div class="tgroup tg-${k}"><h3 class="titles-h"><span class="cover">${t}</span><span class="tcount">${it.length} lists</span></h3>\n<ul class="titles">${it.map((p) => `<li><a href="block/${p.id}.html">${esc(p.label)}</a></li>`).join('')}</ul></div>` : ''; }).join('\n');
+  const chips = groups.map(([k, t]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<details class="tgroup tg-${k}"${k === 'game' ? ' open' : ''}><summary><h3 class="titles-h"><span class="cover">${t}</span><span class="tcount">${it.length} lists</span></h3><span class="tchev" aria-hidden="true"></span></summary>\n<ul class="titles">${it.map((p) => `<li><a href="block/${p.id}.html">${esc(p.label)}</a></li>`).join('')}</ul></details>` : ''; }).join('\n');
   let h = fs.readFileSync(home, 'utf8');
   h = h.replace(/<!-- titles:start -->[\s\S]*?<!-- titles:end -->/, `<!-- titles:start -->\n${chips}\n<!-- titles:end -->`);
   h = h.replace(/<!--n-->[\s\S]*?<!--\/n-->/g, `<!--n-->${LIB.length}<!--/n-->`);
