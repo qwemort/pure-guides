@@ -38,7 +38,7 @@ function page(p) {
     [`Can YouTube block ${L} spoilers by itself?`, `No. YouTube has no word filter. You can tap "Not interested" or "Don't recommend channel" on single videos, but new spoiler thumbnails, Shorts and comments still show up.`],
     [`How do I hide ${L} spoilers on Reddit?`, `Reddit lets you mute whole communities, not words, so posts about ${L} in other subreddits and in search still appear. An extension that reads post titles and comments is the only way to filter by words.`],
     [`Does X (Twitter) have a filter for ${L} spoilers?`, `Yes, X has muted words. It hides posts that contain them, but not the same videos on YouTube or posts on Reddit.`],
-    [`Is Pure Spoiler Shield free?`, `Yes. The ready-made ${L} list and the other ready-made lists are free on YouTube, Reddit and X, and after one click on Google search, TikTok and Instagram, plus 3 titles of your own. Pro is an optional $5 one-time purchase, no subscription, for every other website and extras such as hiding AI summaries.`],
+    [`Is Pure Spoiler Shield free?`, `Yes, all of it. The ready-made ${L} list, the other ready-made lists and as many titles of your own as you like work on YouTube, Reddit and X, and after one click on Google search, TikTok and Instagram. There is no paid version and no account.`],
     [`Does it collect my data?`, `No. It runs in your browser with no account and no tracking, and its source code is public.`],
   ];
   return `<!doctype html>
@@ -156,8 +156,7 @@ fs.writeFileSync(sm, s);
 // Главная: чипы тайтлов (между маркерами) и число списков (между <!--n--> и <!--/n-->) обновляются сами.
 const home = path.join(ROOT, 'index.html');
 if (fs.existsSync(home)) {
-  const lower = (x) => String(x).toLowerCase();
-  const chips = LIB.map((p) => `<a class="chip" data-t="${esc(lower([p.label, p.id, ...(p.game || []).slice(0, 4)].join(' ')))}" href="block/${p.id}.html">${esc(p.label)}</a>`).join('\n');
+  const chips = groups.map(([k, t]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<h3 class="titles-h">${t}</h3>\n<ul class="titles">${it.map((p) => `<li><a href="block/${p.id}.html">${esc(p.label)}</a></li>`).join('')}</ul>` : ''; }).join('\n');
   let h = fs.readFileSync(home, 'utf8');
   h = h.replace(/<!-- titles:start -->[\s\S]*?<!-- titles:end -->/, `<!-- titles:start -->\n${chips}\n<!-- titles:end -->`);
   h = h.replace(/<!--n-->[\s\S]*?<!--\/n-->/g, `<!--n-->${LIB.length}<!--/n-->`);

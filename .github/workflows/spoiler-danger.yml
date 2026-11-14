@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-node@v5
         with: { node-version: '22' }
       - name: Build page
-        run: node tools/gen-danger.mjs ext/shield/src/lib/words.js ${{ inputs.from && format('--from {0}', inputs.from) || '' }}
+        run: node tools/gen-danger.mjs ext/shield/src/lib/words.js ${{ inputs.from && format('--from {0}', inputs.from) || '' }} && python3 tools/site-chrome.py
       - name: Render card
         run: |
           npm i --no-save --no-package-lock playwright@1.55.0

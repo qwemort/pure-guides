@@ -19,6 +19,7 @@ jobs:
         with: { node-version: '22' }
       - run: node tools/gen-mutelists.mjs ext/shield/src/lib/words.js
       - run: node tools/gen-block.mjs ext/shield/src/lib/words.js
+      - run: python3 tools/site-chrome.py
       - run: |
           rm -rf ext
           git config user.name "mutelists bot"

@@ -134,3 +134,16 @@ button.veil{border:0;cursor:pointer}
 .nums span{display:block;margin-top:var(--s2);font-size:15px;color:var(--muted)}
 @media (max-width:600px){.nums b{font-size:36px}.nums{gap:var(--s3)}}
 .hero-alt{margin:var(--s3) 0 0}
+
+/* общая шапка и подвал (tools/site-chrome.py) */
+.logo{display:flex;align-items:center;gap:8px;font:700 18px/1 Archivo,"Arial Narrow",sans-serif;color:var(--ink);text-decoration:none}
+.logo .bar{display:inline-block;width:34px;height:12px;background:var(--cover);border-radius:6px}
+.fgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;width:100%}
+.fgrid ul{list-style:none;margin:0;padding:0}
+.fgrid li{margin:0;padding:4px 0}
+.fgrid a{text-decoration:none;display:inline-block;padding:4px 0}
+.fgrid a:hover{text-decoration:underline;text-underline-offset:3px;color:var(--ink)}
+.fh{font:700 15px/1.3 Archivo,"Arial Narrow",sans-serif;color:var(--ink);margin:0 0 8px}
+.foot-note{flex-basis:100%;font-size:14px;margin:32px 0 0}
+@media (max-width:860px){.fgrid{grid-template-columns:1fr 1fr;gap:24px}}
+.titles-h{font:700 20px/1.25 var(--font-display);margin:var(--s6) 0 var(--s2)}

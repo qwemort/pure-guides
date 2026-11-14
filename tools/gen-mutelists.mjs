@@ -133,7 +133,7 @@ const groups = ['game', 'movie', 'show', 'anime'];
 const list = groups.map((k) => {
   const items = made.filter((p) => p.kind === k);
   if (!items.length) return '';
-  return `<h2>${KIND[k]}s</h2>\n<ul>\n${items.map((p) => `<li><a href="${p.id}.html">${esc(p.label)}</a></li>`).join('\n')}\n</ul>`;
+  return `<h2>${({game:'Games',movie:'Films',show:'Series',anime:'Anime'})[k] || KIND[k]}</h2>\n<ul>\n${items.map((p) => `<li><a href="${p.id}.html">${esc(p.label)}</a></li>`).join('\n')}\n</ul>`;
 }).join('\n');
 fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <html lang="en">
