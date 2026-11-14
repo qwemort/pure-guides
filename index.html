@@ -35,34 +35,14 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="tag">Browser extension for games, shows and anime</p>
+      <p class="tag" id="heroTag">Browser extension for games, shows and anime</p>
       <h1>Scroll freely. Spoilers stay <span class="cover">covered</span>.</h1>
-      <p class="lead">Pure Spoiler Shield blurs spoilers on <strong>YouTube, Reddit and X</strong>. Pick a title from 60 ready lists or add as many of your own as you like. Nothing opens until you click it twice.</p>
+      <p class="lead">Blurs spoilers on <strong>YouTube, Reddit and X</strong>. Free, no account.</p>
       <div class="cta">
-        <a class="btn main" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-hero">Add to Chrome, free</a>
-        <a class="btn alt" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=home-hero">Get for Firefox</a>
+        <a class="btn main" id="heroGet" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=home-hero">Add to Chrome, it’s free</a>
       </div>
-      <ul class="facts"><li>No network requests</li><li>Source available</li><li>No account</li></ul>
-    </div>
-    <div class="wx" id="wx" aria-live="polite">
-      <div class="wx-head"><span class="mono">Spoiler weather</span><span class="mono wx-date" id="wxDate"></span></div>
-      <div class="wx-tabs" role="tablist" id="wxTabs"></div>
-      <div class="wx-body" id="wxBody"><p class="small">Loading today’s numbers…</p></div>
-      <div class="wx-foot mono">Counted by our bot on YouTube every day. Release dates from TVmaze and AniList.</div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="how">
-  <div class="wrap split">
-    <div>
-      <h2>How it works</h2>
-      <ol class="plain steps-list">
-        <li><b>Pick what to protect.</b> 60 ready lists for games, shows and anime, plus as many titles of your own as you like.</li>
-        <li><b>Scroll as usual.</b> Videos, posts and comments that match get blurred, with a short label saying why.</li>
-        <li><b>Two clicks to look.</b> The first click arms it and turns the label yellow. The second shows it. No accidental spoilers from a hover.</li>
-      </ol>
-      <p class="small">Saw a spoiler word the lists missed? Select it, right-click, choose “Hide as a spoiler”.</p>
+      <p class="small hero-alt">Also for <a id="heroAlt" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=home-hero">Firefox</a></p>
+      <ul class="facts"><li>No network requests</li><li>Source available</li><li>60 ready lists</li></ul>
     </div>
     <div class="feed" aria-label="Try it: click a hidden item twice">
       <div class="feed-head"><span>Try it: click twice</span><span>Shield: on, GTA VI</span></div>
@@ -74,55 +54,36 @@
   </div>
 </section>
 
-<section class="section" id="sites">
-  <div class="wrap">
-    <h2>Where it works</h2>
-    <div class="sites">
-      <div class="card"><h3>On right away</h3><ul class="chips on"><li>YouTube</li><li>Reddit</li><li>X</li></ul></div>
-      <div class="card"><h3>One button</h3><p class="small">Press “Turn on there too” in the extension.</p><ul class="chips"><li>Google</li><li>TikTok</li><li>Instagram</li></ul></div>
-    </div>
-  </div>
-</section>
-
 <section class="section" id="free">
   <div class="wrap split">
     <div>
       <h2>Free, <span class="cover">all of it</span>.</h2>
-      <p class="small">No key, no limit, no locked buttons. Everything below is in the same extension.</p>
       <ul class="nums"><li><b>60</b><span>ready lists</span></li><li><b>0</b><span>locked features</span></li><li><b>0</b><span>network requests</span></li></ul>
-      <ul class="plain">
-        <li>As many titles of your own as you like</li>
-        <li>A release day and an end date for each title</li>
-        <li>YouTube, Reddit, X, Google, TikTok, Instagram</li>
-        <li>Three levels: Light, Medium, Hard</li>
-      </ul>
     </div>
-    <div class="card">
-      <h3>For people who watch in order</h3>
-      <ul class="plain small">
-        <li>“I watched up to episode N”</li>
-        <li>Hide AI summaries</li>
-        <li>Trusted channels and authors you always hide</li>
-        <li>Backup and a short code to share your list</li>
-        <li>Pause for 5 minutes when you are ready to look</li>
-      </ul>
+    <ul class="plain">
+      <li>Add as many titles of your own as you like</li>
+      <li>Google, TikTok and Instagram too: one button in the extension</li>
+      <li>Runs inside your browser. <a href="https://github.com/qwemort/pure-spoiler-shield">The code is public to read</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="weather">
+  <div class="wrap split">
+    <div>
+      <h2>Spoiler weather today</h2>
+      <p class="small">How many spoiler videos are out there right now, counted every day.</p>
+      <p class="small"><a href="spoiler-index/">Spoiler index</a> · <a href="mute-list/">Mute lists</a> · <a href="avoid-gta-6-spoilers.html">GTA 6 guide</a></p>
+    </div>
+    <div class="wx" id="wx" aria-live="polite">
+      <div class="wx-head"><span class="mono">Spoiler weather</span><span class="mono wx-date" id="wxDate"></span></div>
+      <div class="wx-tabs" role="tablist" id="wxTabs"></div>
+      <div class="wx-body" id="wxBody"><p class="small">Loading today’s numbers…</p></div>
+      <div class="wx-foot mono">Counted by our bot on YouTube every day. Release dates from TVmaze and AniList.</div>
     </div>
   </div>
 </section>
 
-<section class="section" id="data">
-  <div class="wrap split">
-    <div>
-      <h2>Your data stays with you</h2>
-      <p class="small">The filter runs inside your browser and reads page text only, not pictures.</p>
-    </div>
-    <ul class="plain">
-      <li>No account, no tracking</li>
-      <li>No network requests: the extension has none of its own, and the code contains none</li>
-      <li>The code is public to read: <a href="https://github.com/qwemort/pure-spoiler-shield">github.com/qwemort/pure-spoiler-shield</a></li>
-    </ul>
-  </div>
-</section>
 <section class="section" id="titles">
   <div class="wrap">
     <h2>Find your title</h2>
@@ -168,5 +129,15 @@
   </div>
 </footer>
 <script src="design/weather.js"></script>
+<script>
+(function(){
+  var d=Math.ceil((Date.UTC(2026,10,19)-Date.now())/864e5),t=document.getElementById('heroTag');
+  if(t&&d>0)t.textContent='GTA VI is out in '+d+(d===1?' day':' days')+'. Spoilers are out already.';
+  if(/Firefox\//.test(navigator.userAgent)){
+    var g=document.getElementById('heroGet'),a=document.getElementById('heroAlt'),h=g.href;
+    g.href=a.href;g.textContent='Add to Firefox, it’s free';a.href=h;a.textContent='Chrome';
+  }
+})();
+</script>
 </body>
 </html>
