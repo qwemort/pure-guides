@@ -257,7 +257,7 @@ ${soonList.length ? `<h2>${L.soon}</h2>\n<ul>${soonList.map((g) => `<li><strong>
 <p class="muted">${L.foot}</p>
 <footer>
 <p><a href="${R}spoiler-danger/">${L.all}</a> · <a href="${R}feed.xml">RSS</a> · <a href="${CAL}">Calendar</a> · <a href="${R}mute-list/">Mute lists</a> · <a href="${R}">Pure guides</a></p>
-<p>This site has no analytics, no cookies and no trackers.</p>
+<p>This site has no cookies and no ads.</p>
 </footer>
 </main>
 <div id="toast" role="status" aria-live="polite"></div>
@@ -300,7 +300,7 @@ fs.writeFileSync(path.join(DIR, 'index.html'), `<!doctype html>
 <div class="note">${LANGS.en.cal}</div>
 <p class="muted">Also in <a href="uk/${weeks[0].slug}.html">Ukrainian</a> and <a href="pl/${weeks[0].slug}.html">Polish</a>.</p>
 ${weeks.map((w) => `<a class="card-link" href="${w.slug}.html"><strong>${esc(w.range)}</strong><span>${esc(w.items.slice(0, 5).map((i) => i.title).join(', '))}</span></a>`).join('\n')}
-<footer><p><a href="../">Pure guides</a></p><p>This site has no analytics, no cookies and no trackers.</p></footer>
+<footer><p><a href="../">Pure guides</a></p><p>This site has no cookies and no ads.</p></footer>
 </main>
 </body>
 </html>

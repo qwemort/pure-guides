@@ -116,7 +116,7 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3>\n<p>${esc(a)}</p>`).join('\n')}
 <p class="muted">Not affiliated with the creators or rights holders of ${esc(L)}. Titles are trademarks of their owners.</p>
 <footer>
 <p><a href="./">All titles</a> · <a href="../mute-list/">Mute lists</a> · <a href="../spoiler-danger/">Spoiler danger this week</a> · <a href="../">Pure guides</a></p>
-<p>This site has no analytics, no cookies and no trackers.</p>
+<p>This site has no cookies and no ads.</p>
 </footer>
 </main>
 </body>
@@ -143,7 +143,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <h1>Block spoilers on YouTube, Reddit and X</h1>
 <p>YouTube and Reddit can't mute words. Pick your title to see what works, with a live demo. Updated ${TODAY}.</p>
 ${groups.map(([k, h]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<details class="tgroup tg-${k}"${k === 'game' ? ' open' : ''}><summary><h2 class="titles-h"><span class="cover">${h}</span><span class="tcount">${it.length} lists</span></h2><span class="tchev" aria-hidden="true"></span></summary>\n<ul class="titles">${it.map((p) => `<li><a href="${p.id}.html">${esc(p.label)}</a></li>`).join('')}</ul></details>` : ''; }).join('\n')}
-<footer><p><a href="../">Pure guides</a></p><p>This site has no analytics, no cookies and no trackers.</p></footer>
+<footer><p><a href="../">Pure guides</a></p><p>This site has no cookies and no ads.</p></footer>
 </main>
 </body>
 </html>

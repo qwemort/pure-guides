@@ -113,7 +113,7 @@ ${chips('names', names)}
 
 <footer>
 <p><a href="./">All mute lists</a> · <a href="../">Pure guides</a> · <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
-<p>This site has no analytics, no cookies and no trackers.</p>
+<p>This site has no cookies and no ads.</p>
 </footer>
 </main>
 <div id="toast" role="status" aria-live="polite"></div>
@@ -158,7 +158,7 @@ ${list}
 <p>Your title is not here? <a href="https://github.com/qwemort/pure-spoiler-shield/issues/new?template=title-request.yml">Request it</a>, no spoilers in the request please. Requests close automatically when the list ships.</p>
 <footer>
 <p><a href="../">Pure guides</a> · <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
-<p>This site has no analytics, no cookies and no trackers.</p>
+<p>This site has no cookies and no ads.</p>
 </footer>
 </main>
 </body>
