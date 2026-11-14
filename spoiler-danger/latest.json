@@ -70,8 +70,44 @@
    "date": "2026-11-21",
    "day": "Saturday",
    "note": "episode 1221",
-   "mute": null,
+   "mute": "mute-list/detective-conan.html",
    "source": "https://anilist.co/anime/235"
+  },
+  {
+   "kind": "series",
+   "title": "The Institute",
+   "date": "2026-11-22",
+   "day": "Sunday",
+   "note": "season 2, episode 3",
+   "mute": "mute-list/the-institute.html",
+   "source": "https://www.tvmaze.com/shows/77778/the-institute"
+  },
+  {
+   "kind": "anime",
+   "title": "The Exiled Heavy Knight Knows How to Game the System",
+   "date": "2026-11-19",
+   "day": "Thursday",
+   "note": "episode 21",
+   "mute": "mute-list/exiled-heavy-knight.html",
+   "source": "https://anilist.co/anime/180136"
+  },
+  {
+   "kind": "series",
+   "title": "The Gilded Age",
+   "date": "2026-11-22",
+   "day": "Sunday",
+   "note": "season 4, episode 4",
+   "mute": "mute-list/gilded-age.html",
+   "source": "https://www.tvmaze.com/shows/34685/the-gilded-age"
+  },
+  {
+   "kind": "anime",
+   "title": "Overgeared",
+   "date": "2026-11-22",
+   "day": "Sunday",
+   "note": "episode 9",
+   "mute": "mute-list/overgeared.html",
+   "source": "https://anilist.co/anime/212888"
   },
   {
    "kind": "series",
@@ -84,47 +120,11 @@
   },
   {
    "kind": "anime",
-   "title": "The Exiled Heavy Knight Knows How to Game the System",
-   "date": "2026-11-19",
-   "day": "Thursday",
-   "note": "episode 21",
-   "mute": null,
-   "source": "https://anilist.co/anime/180136"
-  },
-  {
-   "kind": "series",
-   "title": "The Institute",
-   "date": "2026-11-22",
-   "day": "Sunday",
-   "note": "season 2, episode 3",
-   "mute": null,
-   "source": "https://www.tvmaze.com/shows/77778/the-institute"
-  },
-  {
-   "kind": "anime",
-   "title": "Overgeared",
-   "date": "2026-11-22",
-   "day": "Sunday",
-   "note": "episode 9",
-   "mute": null,
-   "source": "https://anilist.co/anime/212888"
-  },
-  {
-   "kind": "series",
-   "title": "The Gilded Age",
-   "date": "2026-11-22",
-   "day": "Sunday",
-   "note": "season 4, episode 4",
-   "mute": null,
-   "source": "https://www.tvmaze.com/shows/34685/the-gilded-age"
-  },
-  {
-   "kind": "anime",
    "title": "Reincarnated as a Sword Season 2",
    "date": "2026-11-18",
    "day": "Wednesday",
    "note": "episode 8",
-   "mute": null,
+   "mute": "mute-list/reincarnated-sword-2.html",
    "source": "https://anilist.co/anime/159042"
   },
   {
@@ -133,7 +133,7 @@
    "date": "2026-11-20",
    "day": "Friday",
    "note": "episode 7",
-   "mute": null,
+   "mute": "mute-list/firefly-wedding.html",
    "source": "https://anilist.co/anime/205909"
   },
   {
@@ -142,7 +142,7 @@
    "date": "2026-11-22",
    "day": "Sunday",
    "note": "episode 7",
-   "mute": null,
+   "mute": "mute-list/blue-box.html",
    "source": "https://anilist.co/anime/189123"
   }
  ]
