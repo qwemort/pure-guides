@@ -1,0 +1,19 @@
+{
+  "shield_version": "1.4.0",
+  "release_date": "2026-11-19",
+  "release_name": "GTA VI",
+  "email": "papana44444@gmail.com",
+  "utm": ["chrome", "firefox"],
+  "links": {
+    "chrome": "https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng",
+    "firefox": "https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/",
+    "source": "https://github.com/qwemort/pure-spoiler-shield",
+    "pureheaders_chrome": "https://chromewebstore.google.com/detail/flplhcopkoiihcapihkljhjaminhpink",
+    "pureheaders_firefox": "https://addons.mozilla.org/firefox/addon/pureheaders-modify-headers/",
+    "pureheaders_edge": "https://microsoftedge.microsoft.com/addons/detail/ilodajgedphnnmafkapjcldjbjbkcmfj",
+    "purejson_firefox": "https://addons.mozilla.org/firefox/addon/json-viewer-formatter-purejson/",
+    "purejson_edge": "https://microsoftedge.microsoft.com/addons/detail/jgaejimgiijadilkfklimmmgacjabijd",
+    "puresession_firefox": "https://addons.mozilla.org/firefox/addon/puresession-tab-manager/",
+    "puresession_edge": "https://microsoftedge.microsoft.com/addons/detail/ojfadjpeagojacihpdnbepiljnadeiio"
+  }
+}

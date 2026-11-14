@@ -9,8 +9,9 @@ const SRC = process.argv[2];
 if (!SRC || !fs.existsSync(SRC)) { console.error('usage: node tools/gen-mutelists.mjs <words.js>'); process.exit(1); }
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'mute-list');
+const FACTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/facts.json'), 'utf8'));
 const BASE = 'https://qwemort.github.io/pure-guides/';
-const STORE = 'https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=mutelist-';
+const STORE = FACTS.links.chrome + '?utm_source=pureguides&amp;utm_medium=mutelist-';
 const TODAY = new Date().toISOString().slice(0, 10);
 
 let code = fs.readFileSync(SRC, 'utf8');

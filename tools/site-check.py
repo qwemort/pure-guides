@@ -19,6 +19,7 @@ for f in sorted(ROOT.rglob('*.html')):
     t = f.read_text(encoding='utf-8')
     if '<main' in t: pages.append((rel, t))
 
+FACTS = json.loads((ROOT / 'data' / 'facts.json').read_text(encoding='utf-8'))
 n_lists = len([f for f in (ROOT / 'block').glob('*.html') if f.name != 'index.html'])
 
 STALE = [  # устаревшие факты про Shield (с версии 1.4.0 всё бесплатно, Pro нет)
@@ -32,7 +33,7 @@ for rel, t in pages:
     p = str(rel)
     # 1. шапка и подвал
     if '<!-- chrome:top -->' not in t or '<!-- chrome:foot -->' not in t:
-        E(p, 'нет общей шапки/подвала (запусти tools/site-chrome.py)')
+        E(p, 'нет общей шапки/подвала (запусти python3 tools/build.py --no-generate)')
     # 2. head
     noindex = 'noindex' in t
     if not re.search(r'<title>[^<]{5,}', t): E(p, 'нет <title>')
@@ -43,13 +44,30 @@ for rel, t in pages:
         if not m: W(p, 'нет canonical')
         elif m.group(1) != want: E(p, f'canonical {m.group(1)} ≠ {want}')
     # 3. ссылки
-    for h in re.findall(r'(?:href|src)="([^"]+)"', t):
+    for h in re.findall(r'(?<![\w-])(?:href|src)="([^"]+)"', t):
         if re.match(r'(https?:|mailto:|webcal:|#|javascript:|data:|tel:)', h) or '{' in h: continue
         path = h.split('#')[0].split('?')[0]
         if not path: continue
         tgt = (ROOT / rel.parent / path).resolve()
         if tgt.is_dir(): tgt = tgt / 'index.html'
         if not tgt.exists(): E(p, f'битая ссылка {h}')
+    # 3б. ссылки на магазины/репозиторий должны совпадать с data/facts.json
+    for h in re.findall(r'(?<![\w-])href="([^"]+)"', t):
+        h = html.unescape(h)
+        for nm, base in FACTS['links'].items():
+            ident = base.rstrip('/').split('/')[-1]
+            if ident in h and h.split('/')[2:3] == base.split('/')[2:3] and not h.startswith(base): E(p, f'ссылка {h} не совпадает с facts.json ({nm})')
+    # 3в. метка data-href должна давать ровно ту ссылку, что в href (иначе не запускали build)
+    for tg in re.findall(r'<a\s[^>]*\bdata-href="[^"]+"[^>]*>', t):
+        nm, _, med = re.search(r'data-href="([^"]+)"', tg).group(1).partition(':')
+        hm = re.search(r'(?<![\w-])href="([^"]*)"', tg)
+        if nm not in FACTS['links']: E(p, f'data-href={nm}: нет в facts.json'); continue
+        want = FACTS['links'][nm] + (f'?utm_source=pureguides&amp;utm_medium={med}' if med and nm in FACTS['utm'] else '')
+        if not hm or hm.group(1) != want: E(p, f'ссылка {nm} не совпадает с facts.json (запусти build.py)')
+    # 3г. другие ссылки на наши магазины: чужой ID это дрейф или новая ссылка, которой нет в facts.json
+    known = {u.split('?')[0].rstrip('/') for u in FACTS['links'].values()}
+    for h in re.findall(r'(?<![\w-])href="(https://(?:chromewebstore\.google\.com|addons\.mozilla\.org|microsoftedge\.microsoft\.com)/[^"]+)"', t):
+        if html.unescape(h).split('?')[0].rstrip('/') not in known: W(p, f'ссылка на магазин не из facts.json: {h[:90]}')
     # 4. устаревшие факты
     if rel.name not in NOT_SHIELD:
         for rx, why in STALE:

@@ -46,7 +46,7 @@ jobs:
         run: echo "DETAILS:$(gzip -9c out/index-details.json | base64 -w0)"
       - name: Card, page, texts
         if: steps.m.outputs.skip != '1'
-        run: node tools/spoiler-index-card.mjs && python3 tools/site-chrome.py
+        run: node tools/spoiler-index-card.mjs && python3 tools/build.py --no-generate --no-check
       - name: Commit
         if: steps.m.outputs.skip != '1'
         run: |
