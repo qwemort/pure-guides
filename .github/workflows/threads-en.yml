@@ -1,5 +1,5 @@
 name: threads-en
-# Переводит новые посты укр. Threads на английский аккаунт (Azure OpenAI). Публикует только если переменная репозитория
+# Переводит новые посты укр. Threads на английский аккаунт (GitHub Models, бесплатно). Публикует только если переменная репозитория
 # THREADS_EN_PUBLISH = true (или запуск вручную с publish=true). Иначе черновик в сводке запуска.
 on:
   schedule:
@@ -10,6 +10,7 @@ on:
       last: { description: 'Черновик по последним N постам (0 = обычный режим)', default: '0' }
 permissions:
   contents: write
+  models: read
 concurrency: { group: threads-en, cancel-in-progress: false }
 jobs:
   run:
@@ -23,9 +24,7 @@ jobs:
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
-          AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
-          AZURE_OPENAI_KEY: ${{ secrets.AZURE_OPENAI_KEY }}
-          AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH: ${{ github.event.inputs.publish || vars.THREADS_EN_PUBLISH }}
           LAST: ${{ github.event.inputs.last || '0' }}
         run: |

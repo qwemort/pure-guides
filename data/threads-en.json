@@ -3,5 +3,5 @@
   "suffix": "\n\n(auto-translated from ukrainian)",
   "skip_regex": ["з \\d+ перших відео", "до релізу \\d+ дн"],
   "max_len": 500,
-  "api_version": "2024-10-21"
+  "model": "openai/gpt-4o-mini"
 }

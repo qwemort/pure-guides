@@ -1,8 +1,8 @@
-// Перевод постов украинского Threads на английский аккаунт (Azure OpenAI), текстовые посты.
+// Перевод постов украинского Threads на английский аккаунт (GitHub Models), текстовые посты.
 //   node tools/translate-threads.mjs                 по умолчанию черновик: ничего не публикует
 //   node tools/translate-threads.mjs --last 5        черновик по последним 5 постам (без записи состояния)
 //   node tools/translate-threads.mjs --publish       публикует новые посты на английский аккаунт
-// Секреты: THREADS_TOKEN (укр.), THREADS_TOKEN_EN (англ.), AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_KEY, AZURE_OPENAI_DEPLOYMENT.
+// Секреты: THREADS_TOKEN (укр.), THREADS_TOKEN_EN (англ.). Перевод: GitHub Models (бесплатно, GITHUB_TOKEN с правом models: read).
 // Состояние: data/threads-en-done.json. Первый запуск запоминает время и ничего не переводит из старого.
 // Пропускает: посты с картинкой/видео, ответы (их API не отдаёт в списке), посты по правилам skip_regex, уже обработанные.
 import fs from 'node:fs'; import path from 'node:path';
@@ -12,7 +12,8 @@ const G = process.env.THREADS_API_BASE || 'https://graph.threads.net/v1.0';
 const A = process.argv.slice(2);
 const PUBLISH = A.includes('--publish');
 const li = A.indexOf('--last'); const LAST = li >= 0 ? Math.max(1, +A[li + 1] || 5) : 0;
-const { THREADS_TOKEN: TU, THREADS_TOKEN_EN: TE, AZURE_OPENAI_ENDPOINT: AE, AZURE_OPENAI_KEY: AK, AZURE_OPENAI_DEPLOYMENT: AD } = process.env;
+const { THREADS_TOKEN: TU, THREADS_TOKEN_EN: TE, GITHUB_TOKEN: GH } = process.env;
+const MODELS = process.env.MODELS_API_URL || 'https://models.github.ai/inference/chat/completions';
 fs.mkdirSync(path.join(ROOT, 'out'), { recursive: true });
 const draft = [];
 const say = (s) => { console.log(s); draft.push(s); };
@@ -38,12 +39,12 @@ const SHOTS = [
   ['а від яких спойлерів вас найбільше бісить? у мене гта і аніме', "which spoilers annoy you the most? for me it's gta and anime"],
 ];
 async function translate(text) {
-  if (!AE || !AK || !AD) throw new Error('нет AZURE_OPENAI_ENDPOINT / KEY / DEPLOYMENT');
+  if (!GH) throw new Error('нет GITHUB_TOKEN (в workflow нужно permissions: models: read)');
   const msgs = [{ role: 'system', content: SYSTEM }];
   for (const [u, e] of SHOTS) msgs.push({ role: 'user', content: u }, { role: 'assistant', content: e });
   msgs.push({ role: 'user', content: text });
-  const j = await call(`${AE.replace(/\/$/, '')}/openai/deployments/${AD}/chat/completions?api-version=${CFG.api_version}`,
-    { method: 'POST', headers: { 'api-key': AK, 'content-type': 'application/json' }, body: JSON.stringify({ messages: msgs, temperature: 0.3, max_tokens: 400 }) });
+  const j = await call(MODELS, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/vnd.github+json' },
+    body: JSON.stringify({ model: CFG.model, messages: msgs, temperature: 0.3, max_tokens: 400 }) });
   return (j.choices?.[0]?.message?.content || '').trim();
 }
 function check(src, en) {
