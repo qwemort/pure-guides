@@ -16,3 +16,6 @@ def fix(m):
 new = re.sub(r'<url><loc>([^<]+)</loc>(?:<lastmod>[^<]*</lastmod>)?(?:<changefreq>[^<]*</changefreq>)?</url>', fix, sm)
 (ROOT / 'sitemap.xml').write_text(new, encoding='utf-8')
 print('sitemap: lastmod обновлён у', len(re.findall('<url>', new)), 'страниц')
+# чистая копия без комментариев под другим именем: на случай, если Search Console «залипла» на статусе старого файла
+clean = re.sub(r'<!--.*?-->\n?', '', new, flags=re.S)
+(ROOT / 'sitemap-pages.xml').write_text(clean, encoding='utf-8')
