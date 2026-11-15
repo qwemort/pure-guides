@@ -1,0 +1,73 @@
+<!--meta
+{
+ "slug": "demo/ko.html",
+ "title": "Pure Spoiler Blocker 데모: YouTube에서 무엇을 가리는지 보기",
+ "description": "가짜 영상으로 만든 라이브 데모: 작품을 고르면 스포일러 영상은 흐려지고 트레일러와 뉴스는 그대로 남습니다. Pure Spoiler Blocker는 YouTube에서 이렇게 동작합니다.",
+ "og_title": "Pure Spoiler Blocker가 가리는 것 보기",
+ "og_description": "작품을 고르고 스포일러 영상이 흐려지는 걸 보세요. 영상은 가짜, 동작은 진짜입니다.",
+ "js": {
+  "'GTA 6 ENDING EXPLAINED (full story spoilers)'": "'GTA 6 엔딩 해설 (전체 스토리 스포일러)'",
+  "'THE ENDING'": "'엔딩'",
+  "'lofi beats to study and relax to'": "'공부할 때 듣는 lofi'",
+  "'One Piece chapter leak: this changes everything'": "'원피스 최신화 유출: 모든 게 바뀐다'",
+  "'LEAKED!!'": "'유출!!'",
+  "'GTA 6 trailer 3 reaction'": "'GTA 6 트레일러 3 리액션'",
+  "'The Last of Us season 3 finale: who dies?'": "'The Last of Us 시즌 3 피날레: 누가 죽나?'",
+  "'WHO DIES?'": "'누가 죽나?'",
+  "'I built a tiny house in 30 days'": "'30일 만에 작은 집을 지었다'",
+  "'30 DAYS'": "'30일'",
+  "'GTA 6 final mission is insane'": "'GTA 6 마지막 미션 미쳤다'",
+  "'FINAL MISSION'": "'마지막 미션'",
+  "'One Piece: how to start watching in 2026'": "'One Piece: 2026년에 입문하는 법'",
+  "'WHERE TO START'": "'어디서부터?'",
+  "'Best GTA 6 settings for PS5 and Xbox'": "'PS5·Xbox용 GTA 6 최적 설정'",
+  "'SETTINGS'": "'설정'",
+  "'The Last of Us ending explained'": "'The Last of Us 엔딩 해설'",
+  "'ENDING?'": "'엔딩?'",
+  "'Cooking pasta like an Italian grandma'": "'이탈리아 할머니처럼 파스타 만들기'",
+  "'One Piece biggest twist ever (spoilers)'": "'One Piece 역대급 반전 (스포일러)'",
+  "'THE TWIST'": "'반전'",
+  "'%T ENDING EXPLAINED (full story spoilers)'": "'%T 엔딩 해설 (전체 스토리 스포일러)'",
+  "'%T trailer reaction'": "'%T 트레일러 리액션'",
+  "'%T final mission is insane'": "'%T 마지막 미션 미쳤다'",
+  "'%T story leak: this changes everything'": "'%T 스토리 유출: 모든 게 바뀐다'",
+  "'LEAKED'": "'유출'",
+  "'Best %T settings for PS5 and PC'": "'PS5·PC용 %T 최적 설정'",
+  "'%T secret ending (spoilers)'": "'%T 히든 엔딩 (스포일러)'",
+  "'SECRET ENDING'": "'히든 엔딩'",
+  "'%T finale explained'": "'%T 피날레 해설'",
+  "'FINALE?!'": "'피날레?!'",
+  "'%T trailer breakdown'": "'%T 트레일러 분석'",
+  "'Who dies in %T?'": "'%T에서 누가 죽나?'",
+  "'%T leaked episode'": "'%T 유출 에피소드'",
+  "'%T: where to start'": "'%T: 어디서부터 볼까'",
+  "'%T ending reaction'": "'%T 엔딩 리액션'",
+  "'%T ending explained'": "'%T 결말 해설'",
+  "'%T official trailer reaction'": "'%T 공식 트레일러 리액션'",
+  "'%T post credits scene'": "'%T 쿠키 영상'",
+  "'POST CREDITS'": "'쿠키 영상'",
+  "'%T twist (spoilers)'": "'%T 반전 (스포일러)'",
+  "'%T: is it worth a cinema ticket?'": "'%T: 극장에서 볼 만할까?'",
+  "'WORTH IT?'": "'볼 만할까?'",
+  "'%T chapter leak: this changes everything'": "'%T 최신화 유출: 모든 게 바뀐다'",
+  "'%T: how to start watching'": "'%T: 입문하는 법'",
+  "'%T biggest twist ever (spoilers)'": "'%T 역대급 반전 (스포일러)'",
+  "'%T opening reaction'": "'%T 오프닝 리액션'",
+  "'try the switch →'": "'스위치를 눌러 보세요 →'",
+  "'Shield is off: this is your feed without it'": "'Shield 꺼짐: Shield가 없을 때의 피드입니다'",
+  "+' views'": "+' 조회'",
+  "'Click again to show.\\nIt may spoil the story.'": "'한 번 더 클릭하면 보입니다.\\n스토리가 스포일러될 수 있어요.'",
+  "'🛡 Hidden · '+v.t+'\\nClick to show'": "'🛡 숨김 · '+v.t+'\\n클릭하면 보기'",
+  "('Hidden: '+n+' of '+V.length+' videos')": "('숨김: '+V.length+'개 중 '+n+'개')"
+ }
+}
+-->
+<h1>Pure Spoiler Blocker가 가리는 것 보기</h1>
+<p><strong>가짜 영상</strong>으로 만든 YouTube 스타일 피드입니다(진짜 스포일러는 없어요). 아직 다 보지 않은 작품을 고르면 스포일러 영상은 흐려지고 트레일러, 공략 영상 등은 그대로 남습니다. 흐려진 카드는 두 번 클릭하면 볼 수 있어요.</p>
+
+<div class="bar" id="picks"></div>
+<div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="Shield 켜기 또는 끄기" aria-pressed="true"></button></span></div>
+<div class="feed" id="feed"></div>
+
+<div class="note cta"><strong>핵심은 이게 전부입니다.</strong> Pure Spoiler Blocker는 실제 YouTube(홈, 검색, Shorts, 댓글), Reddit, X에서 똑같이 동작하고, 클릭 한 번이면 Google 검색, TikTok, Instagram에서도 작동합니다. 13개 언어로 된 60개 작품 목록이 준비되어 있고, 내 작품도 원하는 만큼 추가할 수 있습니다. 전부 무료이고 유료 버전은 없습니다. 로컬에서 실행되고, 계정도 추적도 없으며, <a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">소스 코드는 공개</a>되어 있습니다. 텍스트를 읽는 방식이라 썸네일 이미지 안에만 있는 스포일러는 걸러지지 않을 수 있습니다. <a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Chrome에 추가</a>. 밝혀 두자면 제가 만들었습니다.</div>
+<p>다른 사람에게 스포일러하지 않고 이야기를 나누고 싶다면 <a href="../s/">스포일러 링크</a>를 써 보세요.</p>

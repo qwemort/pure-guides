@@ -1,0 +1,73 @@
+<!--meta
+{
+ "slug": "demo/zh-cn.html",
+ "title": "Pure Spoiler Blocker 演示：看看它在 YouTube 上隐藏了什么",
+ "description": "用虚构视频做的实时演示：选一部作品，看剧透视频被模糊，预告片和新闻照常显示。这就是 Pure Spoiler Blocker 在 YouTube 上的工作方式。",
+ "og_title": "看看 Pure Spoiler Blocker 会隐藏什么",
+ "og_description": "选一部作品，看剧透视频被模糊。视频是虚构的，效果是真实的。",
+ "js": {
+  "'GTA 6 ENDING EXPLAINED (full story spoilers)'": "'GTA 6 结局解析（全剧情剧透）'",
+  "'THE ENDING'": "'结局'",
+  "'lofi beats to study and relax to'": "'学习放松用的 lofi'",
+  "'One Piece chapter leak: this changes everything'": "'One Piece 最新话泄露：一切都变了'",
+  "'LEAKED!!'": "'泄露！！'",
+  "'GTA 6 trailer 3 reaction'": "'GTA 6 预告片 3 反应'",
+  "'The Last of Us season 3 finale: who dies?'": "'The Last of Us 第三季大结局：谁死了？'",
+  "'WHO DIES?'": "'谁死了？'",
+  "'I built a tiny house in 30 days'": "'我用 30 天盖了一座小房子'",
+  "'30 DAYS'": "'30 天'",
+  "'GTA 6 final mission is insane'": "'GTA 6 最后一个任务太疯狂了'",
+  "'FINAL MISSION'": "'最终任务'",
+  "'One Piece: how to start watching in 2026'": "'One Piece：2026 年怎么入坑'",
+  "'WHERE TO START'": "'从哪开始'",
+  "'Best GTA 6 settings for PS5 and Xbox'": "'GTA 6 最佳设置（PS5 和 Xbox）'",
+  "'SETTINGS'": "'设置'",
+  "'The Last of Us ending explained'": "'The Last of Us 结局解析'",
+  "'ENDING?'": "'结局？'",
+  "'Cooking pasta like an Italian grandma'": "'像意大利奶奶一样做意面'",
+  "'One Piece biggest twist ever (spoilers)'": "'One Piece 史上最大反转（剧透）'",
+  "'THE TWIST'": "'反转'",
+  "'%T ENDING EXPLAINED (full story spoilers)'": "'%T 结局解析（全剧情剧透）'",
+  "'%T trailer reaction'": "'%T 预告片反应'",
+  "'%T final mission is insane'": "'%T 最后一个任务太疯狂了'",
+  "'%T story leak: this changes everything'": "'%T 剧情泄露：一切都变了'",
+  "'LEAKED'": "'泄露'",
+  "'Best %T settings for PS5 and PC'": "'%T 最佳设置（PS5 和 PC）'",
+  "'%T secret ending (spoilers)'": "'%T 隐藏结局（剧透）'",
+  "'SECRET ENDING'": "'隐藏结局'",
+  "'%T finale explained'": "'%T 大结局解析'",
+  "'FINALE?!'": "'大结局？！'",
+  "'%T trailer breakdown'": "'%T 预告片解析'",
+  "'Who dies in %T?'": "'%T 里谁死了？'",
+  "'%T leaked episode'": "'%T 泄露剧集'",
+  "'%T: where to start'": "'%T：从哪开始看'",
+  "'%T ending reaction'": "'%T 结局反应'",
+  "'%T ending explained'": "'%T 结局解析'",
+  "'%T official trailer reaction'": "'%T 官方预告片反应'",
+  "'%T post credits scene'": "'%T 片尾彩蛋'",
+  "'POST CREDITS'": "'片尾彩蛋'",
+  "'%T twist (spoilers)'": "'%T 反转（剧透）'",
+  "'%T: is it worth a cinema ticket?'": "'%T：值得去电影院看吗？'",
+  "'WORTH IT?'": "'值得吗？'",
+  "'%T chapter leak: this changes everything'": "'%T 最新话泄露：一切都变了'",
+  "'%T: how to start watching'": "'%T：怎么入坑'",
+  "'%T biggest twist ever (spoilers)'": "'%T 史上最大反转（剧透）'",
+  "'%T opening reaction'": "'%T 片头曲反应'",
+  "'try the switch →'": "'试试这个开关 →'",
+  "'Shield is off: this is your feed without it'": "'Shield 已关闭：这是没有它时的信息流'",
+  "+' views'": "+' 次观看'",
+  "'Click again to show.\\nIt may spoil the story.'": "'再点一次即可显示。\\n可能会剧透剧情。'",
+  "'🛡 Hidden · '+v.t+'\\nClick to show'": "'🛡 已隐藏 · '+v.t+'\\n点击显示'",
+  "('Hidden: '+n+' of '+V.length+' videos')": "('已隐藏：'+V.length+' 个视频中的 '+n+' 个')"
+ }
+}
+-->
+<h1>看看 Pure Spoiler Blocker 会隐藏什么</h1>
+<p>一个用<strong>虚构视频</strong>做的 YouTube 风格信息流（这里没有真正的剧透）。选出你还没看完或没玩完的作品，看剧透视频被模糊，预告片、攻略和其他内容照常显示。被模糊的卡片点两次就能看到。</p>
+
+<div class="bar" id="picks"></div>
+<div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="打开或关闭 Shield" aria-pressed="true"></button></span></div>
+<div class="feed" id="feed"></div>
+
+<div class="note cta"><strong>原理就是这样。</strong>Pure Spoiler Blocker 在真实的 YouTube（首页、搜索、Shorts、评论）、Reddit 和 X 上做同样的事，点一下还能用于 Google 搜索、TikTok 和 Instagram。内置 13 种语言的 60 部作品列表，也可以随意添加你自己的作品。全部免费，没有付费版。完全在本地运行，无需账号，不做追踪，<a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">源代码公开</a>。它读取的是文字，所以只出现在缩略图图片里的剧透可能会漏过。<a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">添加到 Chrome</a>。说明：这个扩展是我做的。</div>
+<p>想分享剧透又不想坏了别人的兴致？用<a href="../s/">剧透链接</a>。</p>

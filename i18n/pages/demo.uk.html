@@ -1,0 +1,73 @@
+<!--meta
+{
+ "slug": "demo/uk.html",
+ "title": "Демо Pure Spoiler Blocker: що він ховає на YouTube",
+ "description": "Живе демо з вигаданими відео: обери тайтл і дивись, як відео зі спойлерами розмиваються, а трейлери й новини лишаються. Так Pure Spoiler Blocker працює на YouTube.",
+ "og_title": "Подивись, що ховає Pure Spoiler Blocker",
+ "og_description": "Обери тайтл і дивись, як відео зі спойлерами розмиваються. Відео вигадані, поведінка справжня.",
+ "js": {
+  "'GTA 6 ENDING EXPLAINED (full story spoilers)'": "'КІНЦІВКА GTA 6 ПОЯСНЕНА (спойлери всього сюжету)'",
+  "'THE ENDING'": "'КІНЦІВКА'",
+  "'lofi beats to study and relax to'": "'lofi для навчання та відпочинку'",
+  "'One Piece chapter leak: this changes everything'": "'Злив розділу One Piece: це змінює все'",
+  "'LEAKED!!'": "'ЗЛИВ!!'",
+  "'GTA 6 trailer 3 reaction'": "'Реакція на трейлер 3 GTA 6'",
+  "'The Last of Us season 3 finale: who dies?'": "'Фінал 3 сезону The Last of Us: хто помре?'",
+  "'WHO DIES?'": "'ХТО ПОМРЕ?'",
+  "'I built a tiny house in 30 days'": "'Збудував крихітний будинок за 30 днів'",
+  "'30 DAYS'": "'30 ДНІВ'",
+  "'GTA 6 final mission is insane'": "'Фінальна місія GTA 6 просто шалена'",
+  "'FINAL MISSION'": "'ФІНАЛЬНА МІСІЯ'",
+  "'One Piece: how to start watching in 2026'": "'One Piece: з чого почати у 2026'",
+  "'WHERE TO START'": "'З ЧОГО ПОЧАТИ'",
+  "'Best GTA 6 settings for PS5 and Xbox'": "'Найкращі налаштування GTA 6 для PS5 і Xbox'",
+  "'SETTINGS'": "'НАЛАШТУВАННЯ'",
+  "'The Last of Us ending explained'": "'Кінцівка The Last of Us: розбір'",
+  "'ENDING?'": "'КІНЦІВКА?'",
+  "'Cooking pasta like an Italian grandma'": "'Готую пасту як італійська бабуся'",
+  "'One Piece biggest twist ever (spoilers)'": "'Найбільший поворот у One Piece (спойлери)'",
+  "'THE TWIST'": "'ПОВОРОТ'",
+  "'%T ENDING EXPLAINED (full story spoilers)'": "'КІНЦІВКА %T ПОЯСНЕНА (спойлери всього сюжету)'",
+  "'%T trailer reaction'": "'Реакція на трейлер %T'",
+  "'%T final mission is insane'": "'Фінальна місія %T просто шалена'",
+  "'%T story leak: this changes everything'": "'Злив сюжету %T: це змінює все'",
+  "'LEAKED'": "'ЗЛИВ'",
+  "'Best %T settings for PS5 and PC'": "'Найкращі налаштування %T для PS5 і ПК'",
+  "'%T secret ending (spoilers)'": "'Секретна кінцівка %T (спойлери)'",
+  "'SECRET ENDING'": "'СЕКРЕТНА КІНЦІВКА'",
+  "'%T finale explained'": "'Фінал %T: розбір'",
+  "'FINALE?!'": "'ФІНАЛ?!'",
+  "'%T trailer breakdown'": "'Розбір трейлера %T'",
+  "'Who dies in %T?'": "'Хто помре в %T?'",
+  "'%T leaked episode'": "'Злита серія %T'",
+  "'%T: where to start'": "'%T: з чого почати'",
+  "'%T ending reaction'": "'Реакція на кінцівку %T'",
+  "'%T ending explained'": "'Кінцівка %T: розбір'",
+  "'%T official trailer reaction'": "'Реакція на офіційний трейлер %T'",
+  "'%T post credits scene'": "'Сцена після титрів %T'",
+  "'POST CREDITS'": "'ПІСЛЯ ТИТРІВ'",
+  "'%T twist (spoilers)'": "'Поворот у %T (спойлери)'",
+  "'%T: is it worth a cinema ticket?'": "'%T: чи варто йти в кіно?'",
+  "'WORTH IT?'": "'ЧИ ВАРТО?'",
+  "'%T chapter leak: this changes everything'": "'Злив розділу %T: це змінює все'",
+  "'%T: how to start watching'": "'%T: з чого почати дивитися'",
+  "'%T biggest twist ever (spoilers)'": "'Найбільший поворот у %T (спойлери)'",
+  "'%T opening reaction'": "'Реакція на опенінг %T'",
+  "'try the switch →'": "'спробуй перемикач →'",
+  "'Shield is off: this is your feed without it'": "'Shield вимкнено: ось твоя стрічка без нього'",
+  "+' views'": "+' переглядів'",
+  "'Click again to show.\\nIt may spoil the story.'": "'Натисни ще раз, щоб відкрити.\\nЦе може проспойлерити сюжет.'",
+  "'🛡 Hidden · '+v.t+'\\nClick to show'": "'🛡 Сховано · '+v.t+'\\nНатисни, щоб відкрити'",
+  "('Hidden: '+n+' of '+V.length+' videos')": "('Сховано: '+n+' з '+V.length+' відео')"
+ }
+}
+-->
+<h1>Подивись, що ховає Pure Spoiler Blocker</h1>
+<p>Стрічка в стилі YouTube з <strong>вигаданими відео</strong> (справжніх спойлерів тут немає). Обери те, що ще не додивився чи не пройшов, і дивись, як відео зі спойлерами розмиваються, а трейлери, гайди й усе інше лишаються. Щоб відкрити розмиту картку, натисни на неї двічі.</p>
+
+<div class="bar" id="picks"></div>
+<div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="Shield увімкнено чи вимкнено" aria-pressed="true"></button></span></div>
+<div class="feed" id="feed"></div>
+
+<div class="note cta"><strong>Ось і вся ідея.</strong> Pure Spoiler Blocker робить це на справжньому YouTube (головна, пошук, Shorts, коментарі), на Reddit і в X, а після одного кліку ще в пошуку Google, TikTok та Instagram, для 60 готових тайтлів 13 мовами і скільки завгодно своїх. Усе безкоштовно, платної версії немає. Працює локально, без акаунта й стеження, <a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">вихідний код відкритий</a>. Розширення читає текст, тож спойлер, який є тільки на картинці прев’ю, може проскочити. <a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Встановити в Chrome</a>. Чесно: його роблю я.</div>
+<p>Хочеш поділитися спойлером і нікому не зіпсувати враження? Скористайся <a href="../s/">спойлер-посиланням</a>.</p>

@@ -1,0 +1,73 @@
+<!--meta
+{
+ "slug": "demo/ja.html",
+ "title": "Pure Spoiler Blocker デモ：YouTube で何が隠れるか見てみよう",
+ "description": "架空の動画を使ったライブデモ。作品を選ぶと、ネタバレ動画はぼかされ、トレーラーやニュースはそのまま残ります。Pure Spoiler Blocker は YouTube でこう動きます。",
+ "og_title": "Pure Spoiler Blocker が隠すものを見てみよう",
+ "og_description": "作品を選んで、ネタバレ動画がぼかされる様子を見てみよう。動画は架空、動きは本物です。",
+ "js": {
+  "'GTA 6 ENDING EXPLAINED (full story spoilers)'": "'GTA 6 エンディング解説（ストーリー全ネタバレ）'",
+  "'THE ENDING'": "'エンディング'",
+  "'lofi beats to study and relax to'": "'勉強・リラックス用 lofi'",
+  "'One Piece chapter leak: this changes everything'": "'One Piece 最新話リーク：すべてが変わる'",
+  "'LEAKED!!'": "'リーク!!'",
+  "'GTA 6 trailer 3 reaction'": "'GTA 6 トレーラー3 リアクション'",
+  "'The Last of Us season 3 finale: who dies?'": "'The Last of Us シーズン3 最終回：誰が死ぬ？'",
+  "'WHO DIES?'": "'誰が死ぬ？'",
+  "'I built a tiny house in 30 days'": "'30日で小さな家を建ててみた'",
+  "'30 DAYS'": "'30日'",
+  "'GTA 6 final mission is insane'": "'GTA 6 のラストミッションがヤバすぎる'",
+  "'FINAL MISSION'": "'ラストミッション'",
+  "'One Piece: how to start watching in 2026'": "'One Piece：2026年から見始めるには'",
+  "'WHERE TO START'": "'どこから見る？'",
+  "'Best GTA 6 settings for PS5 and Xbox'": "'GTA 6 のおすすめ設定（PS5・Xbox）'",
+  "'SETTINGS'": "'設定'",
+  "'The Last of Us ending explained'": "'The Last of Us エンディング解説'",
+  "'ENDING?'": "'結末？'",
+  "'Cooking pasta like an Italian grandma'": "'イタリアのおばあちゃん流パスタの作り方'",
+  "'One Piece biggest twist ever (spoilers)'": "'One Piece 史上最大のどんでん返し（ネタバレ）'",
+  "'THE TWIST'": "'どんでん返し'",
+  "'%T ENDING EXPLAINED (full story spoilers)'": "'%T エンディング解説（ストーリー全ネタバレ）'",
+  "'%T trailer reaction'": "'%T トレーラー リアクション'",
+  "'%T final mission is insane'": "'%T のラストミッションがヤバすぎる'",
+  "'%T story leak: this changes everything'": "'%T ストーリーリーク：すべてが変わる'",
+  "'LEAKED'": "'リーク'",
+  "'Best %T settings for PS5 and PC'": "'%T のおすすめ設定（PS5・PC）'",
+  "'%T secret ending (spoilers)'": "'%T 隠しエンディング（ネタバレ）'",
+  "'SECRET ENDING'": "'隠しエンディング'",
+  "'%T finale explained'": "'%T 最終回 解説'",
+  "'FINALE?!'": "'最終回?!'",
+  "'%T trailer breakdown'": "'%T トレーラー徹底分析'",
+  "'Who dies in %T?'": "'%T で誰が死ぬ？'",
+  "'%T leaked episode'": "'%T 流出エピソード'",
+  "'%T: where to start'": "'%T：どこから見る？'",
+  "'%T ending reaction'": "'%T エンディング リアクション'",
+  "'%T ending explained'": "'%T 結末解説'",
+  "'%T official trailer reaction'": "'%T 公式トレーラー リアクション'",
+  "'%T post credits scene'": "'%T エンドロール後のシーン'",
+  "'POST CREDITS'": "'エンドロール後'",
+  "'%T twist (spoilers)'": "'%T のどんでん返し（ネタバレ）'",
+  "'%T: is it worth a cinema ticket?'": "'%T：映画館で観る価値ある？'",
+  "'WORTH IT?'": "'観る価値ある？'",
+  "'%T chapter leak: this changes everything'": "'%T 最新話リーク：すべてが変わる'",
+  "'%T: how to start watching'": "'%T：どこから見始める？'",
+  "'%T biggest twist ever (spoilers)'": "'%T 史上最大のどんでん返し（ネタバレ）'",
+  "'%T opening reaction'": "'%T オープニング リアクション'",
+  "'try the switch →'": "'スイッチを試してみて →'",
+  "'Shield is off: this is your feed without it'": "'Shield はオフ：これが Shield なしのフィードです'",
+  "+' views'": "+' 回視聴'",
+  "'Click again to show.\\nIt may spoil the story.'": "'もう一度クリックで表示。\\nネタバレになるかもしれません。'",
+  "'🛡 Hidden · '+v.t+'\\nClick to show'": "'🛡 非表示 · '+v.t+'\\nクリックで表示'",
+  "('Hidden: '+n+' of '+V.length+' videos')": "('非表示：'+V.length+' 本中 '+n+' 本')"
+ }
+}
+-->
+<h1>Pure Spoiler Blocker が隠すものを見てみよう</h1>
+<p><strong>架空の動画</strong>で作った YouTube 風のフィードです（本物のネタバレはありません）。まだ見終わっていない作品を選ぶと、ネタバレ動画はぼかされ、トレーラーや攻略動画などはそのまま残ります。ぼかされたカードは2回クリックすると表示されます。</p>
+
+<div class="bar" id="picks"></div>
+<div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="Shield のオン・オフ" aria-pressed="true"></button></span></div>
+<div class="feed" id="feed"></div>
+
+<div class="note cta"><strong>やっていることはこれだけです。</strong>Pure Spoiler Blocker は本物の YouTube（ホーム、検索、Shorts、コメント）、Reddit、X で同じことをします。ワンクリックで Google 検索、TikTok、Instagram にも対応。13言語・60作品のリストが用意されていて、自分の作品もいくつでも追加できます。すべて無料で、有料版はありません。処理はすべてブラウザ内、アカウント不要、追跡なし、<a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">ソースコードは公開</a>。テキストを読む仕組みなので、サムネイル画像の中だけにあるネタバレはすり抜けることがあります。<a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Chrome に追加</a>。開示：開発者は私です。</div>
+<p>誰のネタバレにもならないように感想を共有したいなら、<a href="../s/">ネタバレリンク</a>を使ってください。</p>

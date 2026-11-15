@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pure Spoiler Blocker デモ：YouTube で何が隠れるか見てみよう</title>
+<meta name="description" content="架空の動画を使ったライブデモ。作品を選ぶと、ネタバレ動画はぼかされ、トレーラーやニュースはそのまま残ります。Pure Spoiler Blocker は YouTube でこう動きます。">
+<link rel="canonical" href="https://qwemort.github.io/pure-guides/demo/ja.html">
+<link rel="alternate" hreflang="en" href="https://qwemort.github.io/pure-guides/demo/">
+<link rel="alternate" hreflang="de" href="https://qwemort.github.io/pure-guides/demo/de.html">
+<link rel="alternate" hreflang="es" href="https://qwemort.github.io/pure-guides/demo/es.html">
+<link rel="alternate" hreflang="fr" href="https://qwemort.github.io/pure-guides/demo/fr.html">
+<link rel="alternate" hreflang="it" href="https://qwemort.github.io/pure-guides/demo/it.html">
+<link rel="alternate" hreflang="ja" href="https://qwemort.github.io/pure-guides/demo/ja.html">
+<link rel="alternate" hreflang="ko" href="https://qwemort.github.io/pure-guides/demo/ko.html">
+<link rel="alternate" hreflang="pl" href="https://qwemort.github.io/pure-guides/demo/pl.html">
+<link rel="alternate" hreflang="pt-BR" href="https://qwemort.github.io/pure-guides/demo/pt-br.html">
+<link rel="alternate" hreflang="ru" href="https://qwemort.github.io/pure-guides/demo/ru.html">
+<link rel="alternate" hreflang="tr" href="https://qwemort.github.io/pure-guides/demo/tr.html">
+<link rel="alternate" hreflang="uk" href="https://qwemort.github.io/pure-guides/demo/uk.html">
+<link rel="alternate" hreflang="zh-CN" href="https://qwemort.github.io/pure-guides/demo/zh-cn.html">
+<link rel="alternate" hreflang="x-default" href="https://qwemort.github.io/pure-guides/demo/">
+<link rel="stylesheet" href="../style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pure guides">
+<meta property="og:title" content="Pure Spoiler Blocker が隠すものを見てみよう">
+<meta property="og:description" content="作品を選んで、ネタバレ動画がぼかされる様子を見てみよう。動画は架空、動きは本物です。">
+<meta property="og:image" content="https://qwemort.github.io/pure-guides/img/demo.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+main{max-width:1040px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0}
+.pick{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:inherit;cursor:pointer}
+.pick.on{border-color:var(--accent);color:var(--accent);font-weight:600}
+.sw{display:flex;align-items:center;gap:10px;margin-left:auto;font-weight:600}
+.sw button{width:54px;height:30px;border-radius:999px;border:0;background:#444;position:relative;cursor:pointer}
+.sw button::after{content:"";position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;background:#fff;transition:left .2s}
+.sw button.on{background:var(--accent)}.sw button.on::after{left:27px}
+.feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px;margin:18px 0}
+.v{position:relative;border-radius:12px}
+.th{aspect-ratio:16/9;border-radius:12px;display:flex;align-items:flex-end;padding:10px;font:900 22px/1.05 Impact,"Arial Black",system-ui,sans-serif;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.6);letter-spacing:.3px;position:relative;overflow:hidden}
+.th .d{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.8);font:600 12px system-ui;padding:2px 5px;border-radius:4px;text-shadow:none}
+.meta{display:flex;gap:10px;margin-top:10px}
+.av{width:34px;height:34px;border-radius:50%;flex:none}
+.tt{font-weight:600;font-size:15px;line-height:1.3}
+.ch{color:var(--muted);font-size:13px;margin-top:3px}
+.v.veil::after{content:attr(data-label);position:absolute;inset:-4px;z-index:2;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px 14px;border-radius:14px;white-space:pre-line;cursor:pointer;
+  -webkit-backdrop-filter:blur(18px) saturate(1.1);backdrop-filter:blur(18px) saturate(1.1);
+  background:linear-gradient(135deg,rgba(255,61,139,.30),rgba(255,138,61,.26) 55%,rgba(45,226,230,.18)),rgba(24,10,40,.62);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.16);color:#fff;font:600 14px/1.3 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;text-shadow:0 1px 2px rgba(0,0,0,.45)}
+.v.veil.armed::after{background:linear-gradient(135deg,rgba(255,61,139,.55),rgba(255,138,61,.5)),rgba(24,10,40,.55)}
+.v.veil:hover::after{box-shadow:inset 0 0 0 2px rgba(255,210,63,.7)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.v.veil::after{background:rgb(28,12,46)}}
+.count{color:var(--muted)}
+.cta{background:var(--code);border-color:transparent}
+
+body.rec main>*:not(.feed){display:none!important}
+body.rec main{max-width:none;padding:0 18px}
+body.rec .feed{grid-template-columns:1fr 1fr;gap:14px;margin:0}
+body.rec .th{font-size:19px}
+body.rec .tt{font-size:14px}
+body.embed main>.brand,body.embed main>h1,body.embed main>p,body.embed main>.note,body.embed footer{display:none!important}
+body.embed main{padding:12px 14px}
+#cap{padding:26px 18px 16px;text-align:center}
+#cap .c1{font:800 30px/1.15 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--text)}
+#cap .c2{margin-top:12px}
+#cap #st{display:inline-block;padding:6px 16px;border-radius:999px;background:#444;color:#fff;font:700 18px system-ui}
+#cap #st.on{background:var(--signal);color:var(--on-signal)}
+#brand{position:fixed;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;gap:10px;padding:14px;background:rgba(13,17,23,.92);color:#fff;font:700 18px system-ui;z-index:5}
+#brand img{width:30px;height:30px;border-radius:8px}
+</style>
+</head>
+<body>
+<!-- chrome:top -->
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="../"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="../block/">Titles</a>
+      <a href="../mute-list/">Mute lists</a>
+      <a href="../spoiler-index/">Spoiler index</a>
+      <a href="../avoid-gta-6-spoilers.html">GTA 6 guide</a>
+    </nav>
+    <a data-href="chrome:top" class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=top">Add to Chrome</a>
+  </div>
+</header>
+<!-- /chrome:top -->
+<main>
+<h1>Pure Spoiler Blocker が隠すものを見てみよう</h1><!-- mobile-handoff --><aside class="mh" data-u="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=mobile" data-t="Chrome 用 Pure Spoiler Blocker" data-ok="コピーしました"><strong>パソコンで開いてください</strong><p>Pure Spoiler Blocker はパソコン用のブラウザ拡張機能で、スマホにはインストールできません。リンクを自分に送って、パソコンで追加してください。</p><div class="mh-row"><a href="mailto:?subject=Chrome%20%E7%94%A8%20Pure%20Spoiler%20Blocker&amp;body=%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%A7%E8%BF%BD%E5%8A%A0%3A%0Ahttps%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Faloilpojkoblacapdlknacjiljgjibng%3Futm_source%3Dpureguides%26utm_medium%3Dmobile">リンクをメールで自分に送る</a><button type="button" data-c>リンクをコピー</button><button type="button" data-s hidden>共有</button></div><script>(function(){var d=document.currentScript.parentNode,u=d.getAttribute('data-u'),c=d.querySelector('[data-c]'),s=d.querySelector('[data-s]');if(navigator.share){s.hidden=false;s.onclick=function(){navigator.share({title:d.getAttribute('data-t'),url:u}).catch(function(){})}}var ok=function(){var o=c.textContent;c.textContent=d.getAttribute('data-ok');setTimeout(function(){c.textContent=o},1800)},fb=function(){var i=document.createElement('input');i.value=u;document.body.appendChild(i);i.select();try{document.execCommand('copy');ok()}catch(e){}document.body.removeChild(i)};c.onclick=function(){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(ok,fb)}else{fb()}}})();</script></aside><!-- /mobile-handoff -->
+<p><strong>架空の動画</strong>で作った YouTube 風のフィードです（本物のネタバレはありません）。まだ見終わっていない作品を選ぶと、ネタバレ動画はぼかされ、トレーラーや攻略動画などはそのまま残ります。ぼかされたカードは2回クリックすると表示されます。</p>
+
+<div class="bar" id="picks"></div>
+<div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="Shield のオン・オフ" aria-pressed="true"></button></span></div>
+<div class="feed" id="feed"></div>
+
+<div class="note cta"><strong>やっていることはこれだけです。</strong>Pure Spoiler Blocker は本物の YouTube（ホーム、検索、Shorts、コメント）、Reddit、X で同じことをします。ワンクリックで Google 検索、TikTok、Instagram にも対応。13言語・60作品のリストが用意されていて、自分の作品もいくつでも追加できます。すべて無料で、有料版はありません。処理はすべてブラウザ内、アカウント不要、追跡なし、<a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">ソースコードは公開</a>。テキストを読む仕組みなので、サムネイル画像の中だけにあるネタバレはすり抜けることがあります。<a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Chrome に追加</a>。開示：開発者は私です。</div>
+<p>誰のネタバレにもならないように感想を共有したいなら、<a href="../s/">ネタバレリンク</a>を使ってください。</p>
+<!-- langs:start --><p class="muted langs"><a href="./" hreflang="en" lang="en">English</a> · <a href="de.html" hreflang="de" lang="de">Deutsch</a> · <a href="es.html" hreflang="es" lang="es">Español</a> · <a href="fr.html" hreflang="fr" lang="fr">Français</a> · <a href="it.html" hreflang="it" lang="it">Italiano</a> · <span lang="ja">日本語</span> · <a href="ko.html" hreflang="ko" lang="ko">한국어</a> · <a href="pl.html" hreflang="pl" lang="pl">Polski</a> · <a href="pt-br.html" hreflang="pt-BR" lang="pt-BR">Português</a> · <a href="ru.html" hreflang="ru" lang="ru">Русский</a> · <a href="tr.html" hreflang="tr" lang="tr">Türkçe</a> · <a href="uk.html" hreflang="uk" lang="uk">Українська</a> · <a href="zh-cn.html" hreflang="zh-CN" lang="zh-CN">简体中文</a></p><!-- langs:end -->
+</main>
+<script>
+(function(){
+  // t: тайтл (null — не про тайтл), sp: спойлерное видео (такие Shield закрывает; трейлеры и гайды — нет)
+  var V=[
+    {t:'GTA VI',sp:1,title:'GTA 6 エンディング解説（ストーリー全ネタバレ）',th:'エンディング',ch:'Rockstar Lore',views:'1.2M',d:'24:11',c:['#ff3d8b','#ff8a3d']},
+    {t:null,sp:0,title:'勉強・リラックス用 lofi',th:'lofi',ch:'Chill Room',views:'3.4M',d:'LIVE',c:['#4b6cb7','#182848']},
+    {t:'One Piece',sp:1,title:'One Piece 最新話リーク：すべてが変わる',th:'リーク!!',ch:'Grand Line Talk',views:'640K',d:'12:03',c:['#f12711','#f5af19']},
+    {t:'GTA VI',sp:0,title:'GTA 6 トレーラー3 リアクション',th:'TRAILER 3',ch:'Game Reacts',views:'2.1M',d:'15:40',c:['#2de2e6','#7b2ff7']},
+    {t:'The Last of Us',sp:1,title:'The Last of Us シーズン3 最終回：誰が死ぬ？',th:'誰が死ぬ？',ch:'Series Recap',views:'890K',d:'18:22',c:['#3a6073','#16222a']},
+    {t:null,sp:0,title:'30日で小さな家を建ててみた',th:'30日',ch:'Build Club',views:'5.6M',d:'21:09',c:['#56ab2f','#a8e063']},
+    {t:'GTA VI',sp:1,title:'GTA 6 のラストミッションがヤバすぎる',th:'ラストミッション',ch:'Speedrun Zone',views:'770K',d:'31:45',c:['#ff512f','#dd2476']},
+    {t:'One Piece',sp:0,title:'One Piece：2026年から見始めるには',th:'どこから見る？',ch:'Anime Guide',views:'410K',d:'9:58',c:['#0f2027','#2c5364']},
+    {t:'GTA VI',sp:0,title:'GTA 6 のおすすめ設定（PS5・Xbox）',th:'設定',ch:'Tech Tips',views:'350K',d:'8:12',c:['#141e30','#243b55']},
+    {t:'The Last of Us',sp:1,title:'The Last of Us エンディング解説',th:'結末？',ch:'Film Theory Daily',views:'1.5M',d:'16:30',c:['#614385','#516395']},
+    {t:null,sp:0,title:'イタリアのおばあちゃん流パスタの作り方',th:'PASTA',ch:'Home Kitchen',views:'2.8M',d:'11:47',c:['#e65c00','#f9d423']},
+    {t:'One Piece',sp:1,title:'One Piece 史上最大のどんでん返し（ネタバレ）',th:'どんでん返し',ch:'Manga Theories',views:'520K',d:'14:20',c:['#8e2de2','#4a00e0']}
+  ];
+  var picks={'GTA VI':true,'The Last of Us':false,'One Piece':true}, on=true;
+  // ?t=Название&kind=game|series|movie|anime — лента под один тайтл; &rec=1 — режим записи видео (tools/gen-demo-media.mjs)
+  var Q=new URLSearchParams(location.search), T=Q.get('t'), REC=Q.get('rec')==='1';
+  if(T){
+    var K=Q.get('kind')||'game';
+    var TPL={
+      game:[[1,'%T エンディング解説（ストーリー全ネタバレ）','エンディング'],[0,'%T トレーラー リアクション','TRAILER'],[1,'%T のラストミッションがヤバすぎる','ラストミッション'],[1,'%T ストーリーリーク：すべてが変わる','リーク'],[0,'%T のおすすめ設定（PS5・PC）','設定'],[1,'%T 隠しエンディング（ネタバレ）','隠しエンディング']],
+      series:[[1,'%T 最終回 解説','最終回?!'],[0,'%T トレーラー徹底分析','TRAILER'],[1,'%T で誰が死ぬ？','誰が死ぬ？'],[1,'%T 流出エピソード','リーク'],[0,'%T：どこから見る？','どこから見る？'],[1,'%T エンディング リアクション','エンディング']],
+      movie:[[1,'%T 結末解説','エンディング'],[0,'%T 公式トレーラー リアクション','TRAILER'],[1,'%T エンドロール後のシーン','エンドロール後'],[1,'%T のどんでん返し（ネタバレ）','どんでん返し'],[0,'%T：映画館で観る価値ある？','観る価値ある？'],[1,'%T で誰が死ぬ？','誰が死ぬ？']],
+      anime:[[1,'%T 最新話リーク：すべてが変わる','リーク!!'],[0,'%T：どこから見始める？','どこから見る？'],[1,'%T 最終回 解説','FINALE'],[1,'%T 史上最大のどんでん返し（ネタバレ）','どんでん返し'],[0,'%T オープニング リアクション','OPENING'],[1,'%T で誰が死ぬ？','誰が死ぬ？']]
+    }[K]||[];
+    var C=[['#ff3d8b','#ff8a3d'],['#2de2e6','#7b2ff7'],['#ff512f','#dd2476'],['#f12711','#f5af19'],['#141e30','#243b55'],['#8e2de2','#4a00e0']];
+    var CH=['Lore Explained','Game Reacts','Speedrun Zone','Leak Watch','Tech Tips','Theory Daily'], VW=['1.2M','2.1M','770K','640K','350K','520K'], DU=['24:11','15:40','31:45','12:03','8:12','14:20'];
+    var NEU=[{t:null,sp:0,title:'勉強・リラックス用 lofi',th:'lofi',ch:'Chill Room',views:'3.4M',d:'LIVE',c:['#4b6cb7','#182848']},
+             {t:null,sp:0,title:'30日で小さな家を建ててみた',th:'30日',ch:'Build Club',views:'5.6M',d:'21:09',c:['#56ab2f','#a8e063']}];
+    V=[];TPL.forEach(function(x,i){V.push({t:T,sp:x[0],title:x[1].replace('%T',T),th:x[2],ch:CH[i],views:VW[i],d:DU[i],c:C[i]});if(i===1)V.push(NEU[0]);if(i===4)V.push(NEU[1]);});
+    picks={};picks[T]=true;
+  }
+  var EMBED=Q.get('embed')==='1';
+  if(EMBED){document.body.classList.add('embed');on=false;document.getElementById('sw').classList.remove('on');
+    // на страницах «How to block…»: сначала опасная лента, через секунду Shield сам включается
+    setTimeout(function(){on=true;var b=document.getElementById('sw');b.classList.add('on');b.setAttribute('aria-pressed',true);draw();
+      var h=document.getElementById('hint');if(h)h.textContent='スイッチを試してみて →';},1100);}
+  if(REC){document.body.classList.add('rec');on=false;
+    var cap=document.createElement('div');cap.id='cap';cap.innerHTML='<div class="c1"></div><div class="c2"><span id="st">Shield: OFF</span></div>';
+    var ft=document.createElement('div');ft.id='brand';ft.innerHTML='<img src="../img/spoilershield.png" alt=""> Pure Spoiler Blocker · free for Chrome';document.body.appendChild(ft);
+    cap.querySelector('.c1').textContent=Q.get('cap')||((T||'GTA VI')+' spoilers on your YouTube?');
+    document.body.insertBefore(cap,document.body.firstChild);
+    window.__shield=function(v){on=v;var b=document.getElementById('sw');b.classList.toggle('on',on);document.getElementById('st').textContent='Shield: '+(on?'ON':'OFF');document.getElementById('st').className=on?'on':'';draw()};
+  }
+  var feed=document.getElementById('feed'), pk=document.getElementById('picks');
+  Object.keys(picks).forEach(function(k){
+    var b=document.createElement('button');b.type='button';b.className='pick'+(picks[k]?' on':'');b.textContent=k;
+    b.onclick=function(){picks[k]=!picks[k];b.classList.toggle('on');draw()};pk.appendChild(b);
+  });
+  var sw=document.getElementById('sw');
+  sw.onclick=function(){on=!on;sw.classList.toggle('on',on);sw.setAttribute('aria-pressed',on);draw()};
+  V.forEach(function(v,i){
+    var el=document.createElement('div');el.className='v';el.innerHTML=
+      '<div class="th" style="background:linear-gradient(135deg,'+v.c[0]+','+v.c[1]+')"><span></span><span class="d"></span></div>'+
+      '<div class="meta"><div class="av" style="background:'+v.c[0]+'"></div><div><div class="tt"></div><div class="ch"></div></div></div>';
+    el.querySelector('.th span').textContent=v.th;el.querySelector('.d').textContent=v.d;
+    el.querySelector('.tt').textContent=v.title;el.querySelector('.ch').textContent=v.ch+' · '+v.views+' 回視聴';
+    el.onclick=function(){
+      if(!el.classList.contains('veil'))return;
+      if(!el.classList.contains('armed')){el.classList.add('armed');el.dataset.label='もう一度クリックで表示。\nネタバレになるかもしれません。';return}
+      el.classList.remove('veil','armed');v.open=1;draw();
+    };
+    v.el=el;feed.appendChild(el);
+  });
+  function draw(){
+    var n=0;
+    V.forEach(function(v){
+      var hide=on&&v.sp&&v.t&&picks[v.t]&&!v.open;
+      v.el.classList.toggle('veil',!!hide);if(!hide)v.el.classList.remove('armed');
+      if(hide){v.el.dataset.label='🛡 非表示 · '+v.t+'\nクリックで表示';n++}
+    });
+    document.getElementById('count').textContent=on?('非表示：'+V.length+' 本中 '+n+' 本'):'Shield はオフ：これが Shield なしのフィードです';
+  }
+  draw();
+})();
+</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "00464bdc1092441d8976bfc092be4bb0"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- chrome:foot -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="fgrid">
+      <div><p class="fh">Pure Spoiler Blocker</p><ul>
+        <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">Add to Chrome</a></li>
+        <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">Add to Firefox</a></li>
+        <li><a href="../demo/">Try the demo</a></li>
+        <li><a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">Source code</a></li></ul></div>
+      <div><p class="fh">Lists and data</p><ul>
+        <li><a href="../block/">Block spoilers by title</a></li>
+        <li><a href="../mute-list/">Mute lists for X and Threads</a></li>
+        <li><a href="../spoiler-index/">GTA 6 spoiler index</a></li>
+        <li><a href="../spoiler-danger/">Spoiler danger this week</a></li>
+        <li><a href="../s/">Spoiler link</a></li></ul></div>
+      <div><p class="fh">Guides</p><ul>
+        <li><a href="../avoid-gta-6-spoilers.html">How to avoid GTA 6 spoilers</a></li>
+        <li><a href="../jak-uniknac-spoilerow-gta-6.html" hreflang="pl">Po polsku</a></li>
+        <li><a href="../yak-unyknuty-spoileriv-gta-6.html" hreflang="uk">Українською</a></li>
+        <li><a href="../gta-6-pc-release-date.html">GTA 6 PC release date</a></li></ul></div>
+      <div><p class="fh">More from Pure</p><ul>
+        <li><a href="../#extensions">All extensions</a></li>
+        <li><a href="../#dev">For developers</a></li></ul></div>
+    </div>
+    <p class="foot-note">No cookies, no ads. Anonymous visit statistics (Cloudflare Web Analytics). Fonts are hosted here. Contact: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
+  </div>
+</footer>
+<script src="../design/groups.js" defer></script>
+<!-- /chrome:foot -->
+</body>
+</html>

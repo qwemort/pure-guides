@@ -1,0 +1,73 @@
+<!--meta
+{
+ "slug": "demo/es.html",
+ "title": "Demo de Pure Spoiler Blocker: mira lo que oculta en YouTube",
+ "description": "Una demo en vivo con vídeos inventados: elige un título y mira cómo se difuminan los vídeos con spoilers mientras los tráileres y las noticias se quedan. Así funciona Pure Spoiler Blocker en YouTube.",
+ "og_title": "Mira lo que oculta Pure Spoiler Blocker",
+ "og_description": "Elige un título y mira cómo se difuminan los vídeos con spoilers. Vídeos inventados, comportamiento real.",
+ "js": {
+  "'GTA 6 ENDING EXPLAINED (full story spoilers)'": "'FINAL DE GTA 6 EXPLICADO (spoilers de toda la historia)'",
+  "'THE ENDING'": "'EL FINAL'",
+  "'lofi beats to study and relax to'": "'lofi para estudiar y relajarse'",
+  "'One Piece chapter leak: this changes everything'": "'Filtración del capítulo de One Piece: esto lo cambia todo'",
+  "'LEAKED!!'": "'¡¡FILTRADO!!'",
+  "'GTA 6 trailer 3 reaction'": "'Reacción al tráiler 3 de GTA 6'",
+  "'The Last of Us season 3 finale: who dies?'": "'Final de la temporada 3 de The Last of Us: ¿quién muere?'",
+  "'WHO DIES?'": "'¿QUIÉN MUERE?'",
+  "'I built a tiny house in 30 days'": "'Construí una casa diminuta en 30 días'",
+  "'30 DAYS'": "'30 DÍAS'",
+  "'GTA 6 final mission is insane'": "'La misión final de GTA 6 es una locura'",
+  "'FINAL MISSION'": "'MISIÓN FINAL'",
+  "'One Piece: how to start watching in 2026'": "'One Piece: cómo empezar a verlo en 2026'",
+  "'WHERE TO START'": "'POR DÓNDE EMPEZAR'",
+  "'Best GTA 6 settings for PS5 and Xbox'": "'Los mejores ajustes de GTA 6 para PS5 y Xbox'",
+  "'SETTINGS'": "'AJUSTES'",
+  "'The Last of Us ending explained'": "'El final de The Last of Us explicado'",
+  "'ENDING?'": "'¿EL FINAL?'",
+  "'Cooking pasta like an Italian grandma'": "'Cocinar pasta como una abuela italiana'",
+  "'One Piece biggest twist ever (spoilers)'": "'El mayor giro de One Piece (spoilers)'",
+  "'THE TWIST'": "'EL GIRO'",
+  "'%T ENDING EXPLAINED (full story spoilers)'": "'FINAL DE %T EXPLICADO (spoilers de toda la historia)'",
+  "'%T trailer reaction'": "'Reacción al tráiler de %T'",
+  "'%T final mission is insane'": "'La misión final de %T es una locura'",
+  "'%T story leak: this changes everything'": "'Filtración de la historia de %T: esto lo cambia todo'",
+  "'LEAKED'": "'FILTRADO'",
+  "'Best %T settings for PS5 and PC'": "'Los mejores ajustes de %T para PS5 y PC'",
+  "'%T secret ending (spoilers)'": "'Final secreto de %T (spoilers)'",
+  "'SECRET ENDING'": "'FINAL SECRETO'",
+  "'%T finale explained'": "'El final de temporada de %T explicado'",
+  "'FINALE?!'": "'¡¿FINAL?!'",
+  "'%T trailer breakdown'": "'Análisis del tráiler de %T'",
+  "'Who dies in %T?'": "'¿Quién muere en %T?'",
+  "'%T leaked episode'": "'Episodio filtrado de %T'",
+  "'%T: where to start'": "'%T: por dónde empezar'",
+  "'%T ending reaction'": "'Reacción al final de %T'",
+  "'%T ending explained'": "'El final de %T explicado'",
+  "'%T official trailer reaction'": "'Reacción al tráiler oficial de %T'",
+  "'%T post credits scene'": "'Escena poscréditos de %T'",
+  "'POST CREDITS'": "'POSCRÉDITOS'",
+  "'%T twist (spoilers)'": "'El giro de %T (spoilers)'",
+  "'%T: is it worth a cinema ticket?'": "'%T: ¿merece la pena ir al cine?'",
+  "'WORTH IT?'": "'¿MERECE LA PENA?'",
+  "'%T chapter leak: this changes everything'": "'Filtración del capítulo de %T: esto lo cambia todo'",
+  "'%T: how to start watching'": "'%T: cómo empezar a verlo'",
+  "'%T biggest twist ever (spoilers)'": "'El mayor giro de %T (spoilers)'",
+  "'%T opening reaction'": "'Reacción al opening de %T'",
+  "'try the switch →'": "'prueba el interruptor →'",
+  "'Shield is off: this is your feed without it'": "'Shield está apagado: así es tu feed sin él'",
+  "+' views'": "+' visualizaciones'",
+  "'Click again to show.\\nIt may spoil the story.'": "'Haz clic otra vez para verlo.\\nPuede destripar la historia.'",
+  "'🛡 Hidden · '+v.t+'\\nClick to show'": "'🛡 Oculto · '+v.t+'\\nHaz clic para ver'",
+  "('Hidden: '+n+' of '+V.length+' videos')": "('Ocultos: '+n+' de '+V.length+' vídeos')"
+ }
+}
+-->
+<h1>Mira lo que oculta Pure Spoiler Blocker</h1>
+<p>Un feed al estilo de YouTube con <strong>vídeos inventados</strong> (aquí no hay spoilers reales). Elige lo que aún no has terminado y mira cómo se difuminan los vídeos con spoilers, mientras los tráileres, las guías y todo lo demás se quedan. Haz clic dos veces en una tarjeta difuminada para verla.</p>
+
+<div class="bar" id="picks"></div>
+<div class="bar"><span class="count" id="count"></span><span class="sw"><span id="hint" class="muted" style="font-weight:400;font-size:.9rem"></span> Shield <button id="sw" class="on" aria-label="Shield encendido o apagado" aria-pressed="true"></button></span></div>
+<div class="feed" id="feed"></div>
+
+<div class="note cta"><strong>Esa es la idea.</strong> Pure Spoiler Blocker hace esto en el YouTube de verdad (inicio, búsqueda, Shorts, comentarios), en Reddit y en X, y con un clic también en la búsqueda de Google, TikTok e Instagram, para 60 títulos listos en 13 idiomas, más todos los tuyos que quieras. Todo es gratis: no hay versión de pago. Funciona en local, sin cuenta, sin rastreo, <a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">código fuente público</a>. Lee texto, así que un spoiler que solo está dentro de una miniatura puede colarse. <a data-href="chrome:demo" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=demo">Consíguelo para Chrome</a>. Aviso: lo hago yo.</div>
+<p>¿Quieres compartir un spoiler sin arruinárselo a nadie? Usa un <a href="../s/">enlace de spoiler</a>.</p>
