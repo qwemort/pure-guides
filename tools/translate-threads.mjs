@@ -48,7 +48,7 @@ async function translate(text) {
     try {
       const body = { systemInstruction: { parts: [{ text: SYSTEM }] }, generationConfig: { temperature: 0.3 },
         contents: msgs.slice(1).map((x) => ({ role: x.role === 'assistant' ? 'model' : 'user', parts: [{ text: x.content }] })) };
-      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, { method: 'POST', signal: AbortSignal.timeout(45000), headers: { 'x-goog-api-key': GK, 'content-type': 'application/json' }, body: JSON.stringify(body) });
+      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, { method: 'POST', signal: AbortSignal.timeout(90000), headers: { 'x-goog-api-key': GK, 'content-type': 'application/json' }, body: JSON.stringify(body) });
       const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
       if (r.status === 503 || r.status === 429) { errs.push(`gemini ${model}: HTTP ${r.status}, повтор`); continue; }
       if (!r.ok) throw new Error(`HTTP ${r.status} ${raw.replace(/\s+/g, ' ').slice(0, 200)}`);
@@ -56,6 +56,15 @@ async function translate(text) {
       if (out) return out;
       errs.push(`gemini ${model}: пустой ответ ${raw.replace(/\s+/g, ' ').slice(0, 150)}`); break;
     } catch (e) { errs.push(`gemini ${model}: ${e.message.slice(0, 220)}`); break; }
+  }
+  if (GK && !globalThis.__listed) {   // один раз за запуск: какие модели Gemini доступны этому ключу (помогает подобрать имя)
+    globalThis.__listed = true;
+    try {
+      const r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200', { headers: { 'x-goog-api-key': GK }, signal: AbortSignal.timeout(30000) });
+      const j = await r.json();
+      const names = (j.models || []).filter((m) => (m.supportedGenerationMethods || []).includes('generateContent')).map((m) => m.name.replace('models/', ''));
+      errs.push('доступные модели Gemini: ' + names.filter((n) => /flash|lite|gemma/i.test(n)).join(', '));
+    } catch (e) { errs.push('список моделей Gemini: ' + e.message); }
   }
   if (!GH && !GK) throw new Error('нет ни GEMINI_API_KEY, ни GITHUB_TOKEN');
   for (const url of GH ? ENDPOINTS : []) for (const model0 of CFG.models) {   // пробуем по очереди, пока кто-то не вернёт текст
