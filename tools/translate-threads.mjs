@@ -43,17 +43,19 @@ async function translate(text) {
   for (const [u, e] of SHOTS) msgs.push({ role: 'user', content: u }, { role: 'assistant', content: e });
   msgs.push({ role: 'user', content: text });
   const errs = [];
-  if (GK) for (const model of CFG.gemini_models) {
+  if (GK) for (const model of CFG.gemini_models) for (let attempt = 0; attempt < 3; attempt++) {
+    if (attempt) await new Promise((x) => setTimeout(x, 8000 * attempt));
     try {
       const body = { systemInstruction: { parts: [{ text: SYSTEM }] }, generationConfig: { temperature: 0.3 },
         contents: msgs.slice(1).map((x) => ({ role: x.role === 'assistant' ? 'model' : 'user', parts: [{ text: x.content }] })) };
       const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, { method: 'POST', headers: { 'x-goog-api-key': GK, 'content-type': 'application/json' }, body: JSON.stringify(body) });
       const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
+      if (r.status === 503 || r.status === 429) { errs.push(`gemini ${model}: HTTP ${r.status}, повтор`); continue; }
       if (!r.ok) throw new Error(`HTTP ${r.status} ${raw.replace(/\s+/g, ' ').slice(0, 200)}`);
       const out = (j.candidates?.[0]?.content?.parts || []).map((x) => x.text || '').join('').trim();
       if (out) return out;
-      errs.push(`gemini ${model}: пустой ответ ${raw.replace(/\s+/g, ' ').slice(0, 150)}`);
-    } catch (e) { errs.push(`gemini ${model}: ${e.message.slice(0, 220)}`); }
+      errs.push(`gemini ${model}: пустой ответ ${raw.replace(/\s+/g, ' ').slice(0, 150)}`); break;
+    } catch (e) { errs.push(`gemini ${model}: ${e.message.slice(0, 220)}`); break; }
   }
   if (!GH && !GK) throw new Error('нет ни GEMINI_API_KEY, ни GITHUB_TOKEN');
   for (const url of GH ? ENDPOINTS : []) for (const model0 of CFG.models) {   // пробуем по очереди, пока кто-то не вернёт текст

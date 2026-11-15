@@ -3,6 +3,6 @@
   "suffix": "\n\n(auto-translated from ukrainian)",
   "skip_regex": ["з \\d+ перших відео", "до релізу \\d+ дн"],
   "max_len": 500,
-  "gemini_models": ["gemini-2.5-flash", "gemini-flash-latest"],
+  "gemini_models": ["gemini-3.8-flash", "gemini-flash-latest"],
   "models": ["openai/gpt-4o-mini", "openai/gpt-4.1-mini", "meta/Llama-3.3-70B-Instruct"]
 }
