@@ -2,6 +2,7 @@
 //   node tools/translate-threads.mjs                 по умолчанию черновик: ничего не публикует
 //   node tools/translate-threads.mjs --last 5        черновик по последним 5 постам (без записи состояния)
 //   node tools/translate-threads.mjs --publish       публикует новые посты на английский аккаунт
+//   node tools/translate-threads.mjs --publish --last 2   разово опубликовать N последних постов (уже опубликованные пропускает)
 // Секреты: THREADS_TOKEN (укр.), THREADS_TOKEN_EN (англ.). Перевод: сначала Google Gemini (бесплатный ключ GEMINI_API_KEY из AI Studio), потом GitHub Models.
 // Состояние: data/threads-en-done.json. Первый запуск запоминает время и ничего не переводит из старого.
 // Посты с одной картинкой переводятся и публикуются с той же картинкой. Пропускает: видео и карусели, ответы (их API не отдаёт в списке), посты по правилам skip_regex, уже обработанные.
@@ -109,7 +110,7 @@ if (!st && !LAST) {
 const since = st ? new Date(st.since).getTime() : 0;
 const state = st || { since: new Date().toISOString(), done: {} };
 const skipRe = (CFG.skip_regex || []).map((r) => new RegExp(r, 'i'));
-let queue = list.filter((m) => LAST || (new Date(m.timestamp).getTime() > since && !state.done[m.id]));
+let queue = list.filter((m) => LAST ? !(PUBLISH && state.done[m.id]) : (new Date(m.timestamp).getTime() > since && !state.done[m.id]));
 if (LAST) queue = queue.slice(0, LAST);
 queue.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
 if (!queue.length) { say('Новых постов нет.'); done(); process.exit(0); }
@@ -129,7 +130,7 @@ for (const m of queue) {
   if (bad) { say(`EN (отклонён: ${bad}): ${en}`); if (!LAST) state.done[m.id] = { skipped: bad }; continue; }
   const final = en + (CFG.suffix || '');
   say(`EN: ${final}`);
-  if (PUBLISH && !LAST) {
+  if (PUBLISH) {
     try {
       me_en ||= await get(TE, 'me', { fields: 'id,username' });
       const c = await post(TE, `${me_en.id}/threads`, m.media_type === 'IMAGE' ? { media_type: 'IMAGE', image_url: m.media_url, text: final } : { media_type: 'TEXT', text: final });
@@ -141,7 +142,7 @@ for (const m of queue) {
     } catch (e) { say(`ошибка публикации: ${e.message}`); }
   }
 }
-if (!LAST) save(state);
+if (!LAST || PUBLISH) save(state);
 if (PUBLISH && TE) {
   try { const rf = await call(`https://graph.threads.net/refresh_access_token?grant_type=th_refresh_token&access_token=${encodeURIComponent(TE)}`);
     if (rf.access_token && rf.access_token !== TE) fs.writeFileSync(path.join(ROOT, 'out', 'new-token-en.txt'), rf.access_token); } catch (e) { say(`продление токена EN: ${e.message}`); }

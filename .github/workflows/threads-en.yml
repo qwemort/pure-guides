@@ -31,7 +31,7 @@ jobs:
         run: |
           ARGS=""
           [ "$PUBLISH" = "true" ] && ARGS="--publish"
-          [ "$LAST" != "0" ] && ARGS="--last $LAST"
+          [ "$LAST" != "0" ] && ARGS="$ARGS --last $LAST"
           node tools/translate-threads.mjs $ARGS
           cat out/threads-en-draft.md >> "$GITHUB_STEP_SUMMARY" || true
       - name: Save state
