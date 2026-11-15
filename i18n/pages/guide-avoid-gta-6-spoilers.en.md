@@ -1,9 +1,6 @@
 Spoilers · practical guide
 
 # How to avoid GTA 6 spoilers: words to mute, YouTube, Reddit
-Open this on your computerPure Spoiler Blocker is a desktop browser extension, so it will not install on a phone. Send yourself the link and add it on your computer.
-[Email myself the link](mailto:?subject=Pure%20Spoiler%20Blocker%20for%20Chrome&body=Add%20it%20on%20your%20computer%3A%0Ahttps%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Faloilpojkoblacapdlknacjiljgjibng%3Futm_source%3Dpureguides%26utm_medium%3Dmobile)Copy linkShare
-
 Updated 10 November 2026 · English · [Українська](yak-unyknuty-spoileriv-gta-6.html) · [Polski](jak-uniknac-spoilerow-gta-6.html)
 
 Grand Theft Auto VI comes out on November 19, 2026 on PlayStation 5 and Xbox Series X|S. No PC version has been announced. Almost every guide tells you to mute words on X, and that helps, but most spoilers arrive through YouTube thumbnails, Reddit titles and comments, where there is nothing to mute. This page covers both: the words, and what to do where words cannot be muted.
