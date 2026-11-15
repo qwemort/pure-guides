@@ -43,9 +43,18 @@ async function translate(text) {
   const msgs = [{ role: 'system', content: SYSTEM }];
   for (const [u, e] of SHOTS) msgs.push({ role: 'user', content: u }, { role: 'assistant', content: e });
   msgs.push({ role: 'user', content: text });
-  const j = await call(MODELS, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/vnd.github+json' },
-    body: JSON.stringify({ model: CFG.model, messages: msgs, temperature: 0.3, max_tokens: 400 }) });
-  return (j.choices?.[0]?.message?.content || '').trim();
+  const errs = [];
+  for (const model of CFG.models) {   // пробуем по очереди, пока какая-то не вернёт текст
+    try {
+      const j = await call(MODELS, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/vnd.github+json' },
+        body: JSON.stringify({ model, messages: msgs, temperature: 0.3 }) });
+      const c = j.choices?.[0]?.message?.content;
+      const out = (Array.isArray(c) ? c.map((x) => x.text || '').join('') : c || '').trim();
+      if (out) return out;
+      errs.push(`${model}: пустой ответ ${JSON.stringify(j).slice(0, 300)}`);
+    } catch (e) { errs.push(`${model}: ${e.message.slice(0, 300)}`); }
+  }
+  throw new Error(errs.join(' | '));
 }
 function check(src, en) {
   if (!en) return 'пустой перевод';
