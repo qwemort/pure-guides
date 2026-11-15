@@ -2,9 +2,6 @@
 Spoiler protection · game
 
 # How to block GTA 6 spoilers on YouTube, Reddit and X
-Open this on your computerPure Spoiler Blocker is a desktop browser extension, so it will not install on a phone. Send yourself the link and add it on your computer.
-[Email myself the link](mailto:?subject=Pure%20Spoiler%20Blocker%20for%20Chrome&body=Add%20it%20on%20your%20computer%3A%0Ahttps%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Faloilpojkoblacapdlknacjiljgjibng%3Futm_source%3Dpureguides%26utm_medium%3Dmobile)Copy linkShare
-
 Updated 2026-11-14
 
 Short answer. YouTube and Reddit have no way to mute words, so GTA VI spoilers in thumbnails, titles and comments get through. A browser extension that reads the page and blurs matching videos, posts and comments is what actually works. I build one, Pure Spoiler Blocker: it is free, ships with a ready-made GTA VI list and runs locally.
