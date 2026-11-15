@@ -4,7 +4,7 @@
 //   node tools/translate-threads.mjs --publish       публикует новые посты на английский аккаунт
 // Секреты: THREADS_TOKEN (укр.), THREADS_TOKEN_EN (англ.). Перевод: GitHub Models (бесплатно, GITHUB_TOKEN с правом models: read).
 // Состояние: data/threads-en-done.json. Первый запуск запоминает время и ничего не переводит из старого.
-// Пропускает: посты с картинкой/видео, ответы (их API не отдаёт в списке), посты по правилам skip_regex, уже обработанные.
+// Посты с одной картинкой переводятся и публикуются с той же картинкой. Пропускает: видео и карусели, ответы (их API не отдаёт в списке), посты по правилам skip_regex, уже обработанные.
 import fs from 'node:fs'; import path from 'node:path';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CFG = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'threads-en.json'), 'utf8'));
@@ -62,7 +62,7 @@ const st = fs.existsSync(stateFile) ? JSON.parse(fs.readFileSync(stateFile, 'utf
 const save = (s) => fs.writeFileSync(stateFile, JSON.stringify(s, null, 2) + '\n');
 
 const me = await get(TU, 'me', { fields: 'id,username' });
-const list = (await get(TU, `${me.id}/threads`, { fields: 'id,text,timestamp,media_type', limit: '25' })).data || [];
+const list = (await get(TU, `${me.id}/threads`, { fields: 'id,text,timestamp,media_type,media_url', limit: '25' })).data || [];
 say(`# Перевод Threads: укр. @${me.username} → англ. (${PUBLISH ? 'ПУБЛИКАЦИЯ' : 'черновик, ничего не публикуется'})`);
 
 if (!st && !LAST) {
@@ -81,11 +81,12 @@ if (!queue.length) { say('Новых постов нет.'); done(); process.exi
 let me_en = null;
 for (const m of queue) {
   const head = `\n## ${m.timestamp} (${m.id})`;
-  const reason = m.media_type && m.media_type !== 'TEXT_POST' ? `пропуск: пост с медиа (${m.media_type})`
+  const reason = m.media_type && !['TEXT_POST', 'IMAGE'].includes(m.media_type) ? `пропуск: пост с медиа (${m.media_type}), поддерживаются текст и одна картинка`
+    : m.media_type === 'IMAGE' && !m.media_url ? 'пропуск: у картинки нет media_url'
     : !m.text ? 'пропуск: нет текста' : skipRe.some((r) => r.test(m.text)) ? 'пропуск: правило skip_regex (пост бота)' : '';
   say(head);
   if (reason) { say(reason); if (!LAST) state.done[m.id] = { skipped: reason }; continue; }
-  say(`UA: ${m.text}`);
+  say(`UA${m.media_type === 'IMAGE' ? ' (+картинка)' : ''}: ${m.text}`);
   let en;
   try { en = await translate(m.text); } catch (e) { say(`ошибка перевода: ${e.message}`); continue; }
   const bad = check(m.text, en);
@@ -95,7 +96,7 @@ for (const m of queue) {
   if (PUBLISH && !LAST) {
     try {
       me_en ||= await get(TE, 'me', { fields: 'id,username' });
-      const c = await post(TE, `${me_en.id}/threads`, { media_type: 'TEXT', text: final });
+      const c = await post(TE, `${me_en.id}/threads`, m.media_type === 'IMAGE' ? { media_type: 'IMAGE', image_url: m.media_url, text: final } : { media_type: 'TEXT', text: final });
       await new Promise((s) => setTimeout(s, 30000));
       const p = await post(TE, `${me_en.id}/threads_publish`, { creation_id: c.id });
       state.done[m.id] = { en_id: p.id, at: new Date().toISOString() };

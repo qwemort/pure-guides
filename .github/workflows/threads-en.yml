@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "threads-en bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/threads-en-done.json
+          [ -f data/threads-en-done.json ] && git add data/threads-en-done.json
           git diff --cached --quiet || { git commit -qm "threads-en: state" && git pull --rebase -q origin main && git push || true; }
       - name: Save refreshed EN token
         continue-on-error: true
