@@ -74,14 +74,14 @@ body.embed main{padding:12px 14px}
 <!-- chrome:top -->
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="../"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
+    <a class="logo" href="../zh-cn/"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
     <nav class="nav" aria-label="Sections">
-      <a href="../block/">Titles</a>
-      <a href="../mute-list/">Mute lists</a>
-      <a href="../spoiler-index/">Spoiler index</a>
-      <a href="../avoid-gta-6-spoilers.html">GTA 6 guide</a>
+      <a href="../block/">作品</a>
+      <a href="../mute-list/">屏蔽词列表</a>
+      <a href="../spoiler-index/">剧透指数</a>
+      <a href="../gta-6-fang-jutou.html">GTA 6 指南</a>
     </nav>
-    <a data-href="chrome:top" class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=top">Add to Chrome</a>
+    <a data-href="chrome:top" class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=top">添加到 Chrome</a>
   </div>
 </header>
 <!-- /chrome:top -->
@@ -104,14 +104,14 @@ body.embed main{padding:12px 14px}
     {t:'GTA VI',sp:1,title:'GTA 6 结局解析（全剧情剧透）',th:'结局',ch:'Rockstar Lore',views:'1.2M',d:'24:11',c:['#ff3d8b','#ff8a3d']},
     {t:null,sp:0,title:'学习放松用的 lofi',th:'lofi',ch:'Chill Room',views:'3.4M',d:'LIVE',c:['#4b6cb7','#182848']},
     {t:'One Piece',sp:1,title:'One Piece 最新话泄露：一切都变了',th:'泄露！！',ch:'Grand Line Talk',views:'640K',d:'12:03',c:['#f12711','#f5af19']},
-    {t:'GTA VI',sp:0,title:'GTA 6 预告片 3 反应',th:'TRAILER 3',ch:'Game Reacts',views:'2.1M',d:'15:40',c:['#2de2e6','#7b2ff7']},
+    {t:'GTA VI',sp:0,title:'GTA 6 预告片 3 反应',th:'预告片 3',ch:'Game Reacts',views:'2.1M',d:'15:40',c:['#2de2e6','#7b2ff7']},
     {t:'The Last of Us',sp:1,title:'The Last of Us 第三季大结局：谁死了？',th:'谁死了？',ch:'Series Recap',views:'890K',d:'18:22',c:['#3a6073','#16222a']},
     {t:null,sp:0,title:'我用 30 天盖了一座小房子',th:'30 天',ch:'Build Club',views:'5.6M',d:'21:09',c:['#56ab2f','#a8e063']},
     {t:'GTA VI',sp:1,title:'GTA 6 最后一个任务太疯狂了',th:'最终任务',ch:'Speedrun Zone',views:'770K',d:'31:45',c:['#ff512f','#dd2476']},
     {t:'One Piece',sp:0,title:'One Piece：2026 年怎么入坑',th:'从哪开始',ch:'Anime Guide',views:'410K',d:'9:58',c:['#0f2027','#2c5364']},
     {t:'GTA VI',sp:0,title:'GTA 6 最佳设置（PS5 和 Xbox）',th:'设置',ch:'Tech Tips',views:'350K',d:'8:12',c:['#141e30','#243b55']},
     {t:'The Last of Us',sp:1,title:'The Last of Us 结局解析',th:'结局？',ch:'Film Theory Daily',views:'1.5M',d:'16:30',c:['#614385','#516395']},
-    {t:null,sp:0,title:'像意大利奶奶一样做意面',th:'PASTA',ch:'Home Kitchen',views:'2.8M',d:'11:47',c:['#e65c00','#f9d423']},
+    {t:null,sp:0,title:'像意大利奶奶一样做意面',th:'意面',ch:'Home Kitchen',views:'2.8M',d:'11:47',c:['#e65c00','#f9d423']},
     {t:'One Piece',sp:1,title:'One Piece 史上最大反转（剧透）',th:'反转',ch:'Manga Theories',views:'520K',d:'14:20',c:['#8e2de2','#4a00e0']}
   ];
   var picks={'GTA VI':true,'The Last of Us':false,'One Piece':true}, on=true;
@@ -120,10 +120,10 @@ body.embed main{padding:12px 14px}
   if(T){
     var K=Q.get('kind')||'game';
     var TPL={
-      game:[[1,'%T 结局解析（全剧情剧透）','结局'],[0,'%T 预告片反应','TRAILER'],[1,'%T 最后一个任务太疯狂了','最终任务'],[1,'%T 剧情泄露：一切都变了','泄露'],[0,'%T 最佳设置（PS5 和 PC）','设置'],[1,'%T 隐藏结局（剧透）','隐藏结局']],
-      series:[[1,'%T 大结局解析','大结局？！'],[0,'%T 预告片解析','TRAILER'],[1,'%T 里谁死了？','谁死了？'],[1,'%T 泄露剧集','泄露'],[0,'%T：从哪开始看','从哪开始'],[1,'%T 结局反应','结局']],
-      movie:[[1,'%T 结局解析','结局'],[0,'%T 官方预告片反应','TRAILER'],[1,'%T 片尾彩蛋','片尾彩蛋'],[1,'%T 反转（剧透）','反转'],[0,'%T：值得去电影院看吗？','值得吗？'],[1,'%T 里谁死了？','谁死了？']],
-      anime:[[1,'%T 最新话泄露：一切都变了','泄露！！'],[0,'%T：怎么入坑','从哪开始'],[1,'%T 大结局解析','FINALE'],[1,'%T 史上最大反转（剧透）','反转'],[0,'%T 片头曲反应','OPENING'],[1,'%T 里谁死了？','谁死了？']]
+      game:[[1,'%T 结局解析（全剧情剧透）','结局'],[0,'%T 预告片反应','预告片'],[1,'%T 最后一个任务太疯狂了','最终任务'],[1,'%T 剧情泄露：一切都变了','泄露'],[0,'%T 最佳设置（PS5 和 PC）','设置'],[1,'%T 隐藏结局（剧透）','隐藏结局']],
+      series:[[1,'%T 大结局解析','大结局？！'],[0,'%T 预告片解析','预告片'],[1,'%T 里谁死了？','谁死了？'],[1,'%T 泄露剧集','泄露'],[0,'%T：从哪开始看','从哪开始'],[1,'%T 结局反应','结局']],
+      movie:[[1,'%T 结局解析','结局'],[0,'%T 官方预告片反应','预告片'],[1,'%T 片尾彩蛋','片尾彩蛋'],[1,'%T 反转（剧透）','反转'],[0,'%T：值得去电影院看吗？','值得吗？'],[1,'%T 里谁死了？','谁死了？']],
+      anime:[[1,'%T 最新话泄露：一切都变了','泄露！！'],[0,'%T：怎么入坑','从哪开始'],[1,'%T 大结局解析','大结局'],[1,'%T 史上最大反转（剧透）','反转'],[0,'%T 片头曲反应','片头曲'],[1,'%T 里谁死了？','谁死了？']]
     }[K]||[];
     var C=[['#ff3d8b','#ff8a3d'],['#2de2e6','#7b2ff7'],['#ff512f','#dd2476'],['#f12711','#f5af19'],['#141e30','#243b55'],['#8e2de2','#4a00e0']];
     var CH=['Lore Explained','Game Reacts','Speedrun Zone','Leak Watch','Tech Tips','Theory Daily'], VW=['1.2M','2.1M','770K','640K','350K','520K'], DU=['24:11','15:40','31:45','12:03','8:12','14:20'];
@@ -182,28 +182,29 @@ body.embed main{padding:12px 14px}
   <div class="wrap">
     <div class="fgrid">
       <div><p class="fh">Pure Spoiler Blocker</p><ul>
-        <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">Add to Chrome</a></li>
-        <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">Add to Firefox</a></li>
-        <li><a href="../demo/">Try the demo</a></li>
-        <li><a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">Source code</a></li></ul></div>
-      <div><p class="fh">Lists and data</p><ul>
-        <li><a href="../block/">Block spoilers by title</a></li>
-        <li><a href="../mute-list/">Mute lists for X and Threads</a></li>
-        <li><a href="../spoiler-index/">GTA 6 spoiler index</a></li>
-        <li><a href="../spoiler-danger/">Spoiler danger this week</a></li>
-        <li><a href="../s/">Spoiler link</a></li></ul></div>
-      <div><p class="fh">Guides</p><ul>
-        <li><a href="../avoid-gta-6-spoilers.html">How to avoid GTA 6 spoilers</a></li>
-        <li><a href="../jak-uniknac-spoilerow-gta-6.html" hreflang="pl">Po polsku</a></li>
-        <li><a href="../yak-unyknuty-spoileriv-gta-6.html" hreflang="uk">Українською</a></li>
-        <li><a href="../gta-6-pc-release-date.html">GTA 6 PC release date</a></li></ul></div>
-      <div><p class="fh">More from Pure</p><ul>
-        <li><a href="../#extensions">All extensions</a></li>
-        <li><a href="../#dev">For developers</a></li></ul></div>
+        <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">添加到 Chrome</a></li>
+        <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">添加到 Firefox</a></li>
+        <li><a href="zh-cn.html">试用演示</a></li>
+        <li><a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">源代码</a></li></ul></div>
+      <div><p class="fh">列表与数据</p><ul>
+        <li><a href="../block/">按作品屏蔽剧透</a></li>
+        <li><a href="../mute-list/">X 和 Threads 屏蔽词列表</a></li>
+        <li><a href="../spoiler-index/">GTA 6 剧透指数</a></li>
+        <li><a href="../spoiler-danger/">本周剧透风险</a></li>
+        <li><a href="../s/">剧透链接</a></li></ul></div>
+      <div><p class="fh">指南</p><ul>
+        <li><a href="../gta-6-fang-jutou.html">如何避开 GTA 6 剧透</a></li>
+        <li><a href="../gta-6-fang-jutou.html" hreflang="pl">Po polsku</a></li>
+        <li><a href="../gta-6-fang-jutou.html" hreflang="uk">Українською</a></li>
+        <li><a href="../gta-6-pc-release-date.html">GTA 6 PC 版发售日期</a></li></ul></div>
+      <div><p class="fh">更多 Pure 工具</p><ul>
+        <li><a href="../zh-cn/#extensions">全部扩展</a></li>
+        <li><a href="../zh-cn/#dev">开发者专区</a></li></ul></div>
     </div>
-    <p class="foot-note">No cookies, no ads. Anonymous visit statistics (Cloudflare Web Analytics). Fonts are hosted here. Contact: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
+    <p class="foot-note">无 Cookie、无广告。匿名访问统计（Cloudflare Web Analytics）。字体也托管在本站。联系方式： <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
   </div>
 </footer>
+<script src="../lang-hint.js" defer></script>
 <script src="../design/groups.js" defer></script>
 <!-- /chrome:foot -->
 </body>
