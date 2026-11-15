@@ -318,7 +318,7 @@ let s = fs.readFileSync(sm, 'utf8').replace(/<!-- danger:start -->[\s\S]*?<!-- d
 s = s.replace('</urlset>', '<!-- danger:start -->\n' + [`${BASE}spoiler-danger/`, ...weeks.map((w) => `${BASE}spoiler-danger/${w.slug}.html`)]
   .flatMap((u) => u.endsWith('.html') ? [u, u.replace('/spoiler-danger/', '/spoiler-danger/uk/'), u.replace('/spoiler-danger/', '/spoiler-danger/pl/')] : [u])
   .filter((u) => fs.existsSync(path.join(ROOT, u.replace(BASE, '') || 'index.html')) || u.endsWith('/'))
-  .map((u) => `<url><loc>${u}</loc><lastmod>${weeks[0].slug}</lastmod></url>`).join('\n') + '\n<!-- danger:end -->\n</urlset>');
+  .map((u) => `<url><loc>${u}</loc><lastmod>${weeks[0].slug < new Date().toISOString().slice(0, 10) ? weeks[0].slug : new Date().toISOString().slice(0, 10)}</lastmod></url>`).join('\n') + '\n<!-- danger:end -->\n</urlset>');
 fs.writeFileSync(sm, s);
 
 // ---------- календарь (.ics): последние 8 недель + будущие игры; подписка обновляется сама
