@@ -31,7 +31,7 @@ const post = (token, p, q) => call(`${G}/${p}?${new URLSearchParams({ ...q, acce
 
 const SYSTEM = `You translate short social media posts from Ukrainian into English for the personal Threads account of a solo developer who builds a spoiler-blocking browser extension.
 Keep the voice: casual, short lines, same line breaks, dry humor. Start with a lowercase letter, usually no period at the end. Keep the emoji that are in the source, add none, no hashtags.
-Never use dashes as punctuation (use a comma or a period). Keep the product name Pure Spoiler Blocker and write 'gta 6' in lowercase. Do not add, remove or change facts, numbers or links.
+Never use dashes as punctuation (use a comma or a period). Keep the product name Pure Spoiler Blocker and write 'gta 6' in lowercase. Write dates in English style like 'nov 14' (never 14.11), and keep the quotation marks around button names. Do not add, remove or change facts, numbers or links.
 Output only the translation, nothing else.`;
 const SHOTS = [
   ['це моє розширення, я його сам зробив 😅 безкоштовне, розмиває спойлери на ютубі, реддіті і в Х. можна вибрати гру, серіал чи аніме',
