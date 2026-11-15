@@ -189,6 +189,7 @@ def step_lang():
 
 only = A.only
 if only in (None, 'generate') and not A.no_generate: step_generate()
+if only in (None, 'facts'): subprocess.run([sys.executable, str(ROOT / 'tools' / 'i18n-pages.py')], check=True)   # переводы гайда, block/gta6 и демо (i18n/pages/)
 if only in (None, 'facts'): step_facts()
 if only in (None, 'chrome'): step_chrome()
 if only in (None, 'lang'): step_lang()
