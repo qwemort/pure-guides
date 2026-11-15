@@ -1,6 +1,6 @@
 {
   "comment": "Перевод постов украинского Threads на английский аккаунт. Правила пропуска и метка; публикация включается переменной репозитория THREADS_EN_PUBLISH=true.",
-  "suffix": "\n\n(auto-translated from ukrainian)",
+  "suffix": "",
   "skip_regex": ["з \\d+ перших відео", "до релізу \\d+ дн"],
   "max_len": 500,
   "gemini_models": ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-flash-lite-latest", "gemma-4-31b-it"],
