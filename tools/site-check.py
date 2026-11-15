@@ -27,6 +27,8 @@ STALE = [  # устаревшие факты про Shield (с версии 1.4.
     (r'Pro\.</strong>\s*(A one-time|Jednorazowo|Разово)', 'старый пункт Pro в гайде'),
     (r'\b(three|3) titles of your own', 'лимит «3 своих тайтла» отменён'),
     (r'Seriess|Animes', 'опечатка во множественном числе'),
+    (r'Pro is a \$5|one-time purchase for every other', 'старый текст про платный Pro'),
+    (r'\b52 ready-made titles|plus 3 of your own', 'старые числа: 52 тайтла и 3 своих'),
     (r'\b5[0-9]\b[^<\n]{0,12}ready(?:-made)? lists|\b5[0-9] (?:gotowych list|готових списків|готовых списков)', 'число списков меньше 60'),
 ]
 for rel, t in pages:
