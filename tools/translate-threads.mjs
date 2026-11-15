@@ -2,7 +2,7 @@
 //   node tools/translate-threads.mjs                 по умолчанию черновик: ничего не публикует
 //   node tools/translate-threads.mjs --last 5        черновик по последним 5 постам (без записи состояния)
 //   node tools/translate-threads.mjs --publish       публикует новые посты на английский аккаунт
-// Секреты: THREADS_TOKEN (укр.), THREADS_TOKEN_EN (англ.). Перевод: GitHub Models (бесплатно, GITHUB_TOKEN с правом models: read).
+// Секреты: THREADS_TOKEN (укр.), THREADS_TOKEN_EN (англ.). Перевод: сначала Google Gemini (бесплатный ключ GEMINI_API_KEY из AI Studio), потом GitHub Models.
 // Состояние: data/threads-en-done.json. Первый запуск запоминает время и ничего не переводит из старого.
 // Посты с одной картинкой переводятся и публикуются с той же картинкой. Пропускает: видео и карусели, ответы (их API не отдаёт в списке), посты по правилам skip_regex, уже обработанные.
 import fs from 'node:fs'; import path from 'node:path';
@@ -12,7 +12,7 @@ const G = process.env.THREADS_API_BASE || 'https://graph.threads.net/v1.0';
 const A = process.argv.slice(2);
 const PUBLISH = A.includes('--publish');
 const li = A.indexOf('--last'); const LAST = li >= 0 ? Math.max(1, +A[li + 1] || 5) : 0;
-const { THREADS_TOKEN: TU, THREADS_TOKEN_EN: TE, GITHUB_TOKEN: GH } = process.env;
+const { THREADS_TOKEN: TU, THREADS_TOKEN_EN: TE, GITHUB_TOKEN: GH, GEMINI_API_KEY: GK } = process.env;
 const ENDPOINTS = process.env.MODELS_API_URL ? [process.env.MODELS_API_URL] : ['https://models.github.ai/inference/chat/completions', 'https://models.inference.ai.azure.com/chat/completions'];
 fs.mkdirSync(path.join(ROOT, 'out'), { recursive: true });
 const draft = [];
@@ -39,12 +39,24 @@ const SHOTS = [
   ['а від яких спойлерів вас найбільше бісить? у мене гта і аніме', "which spoilers annoy you the most? for me it's gta and anime"],
 ];
 async function translate(text) {
-  if (!GH) throw new Error('нет GITHUB_TOKEN (в workflow нужно permissions: models: read)');
   const msgs = [{ role: 'system', content: SYSTEM }];
   for (const [u, e] of SHOTS) msgs.push({ role: 'user', content: u }, { role: 'assistant', content: e });
   msgs.push({ role: 'user', content: text });
   const errs = [];
-  for (const url of ENDPOINTS) for (const model0 of CFG.models) {   // пробуем по очереди, пока кто-то не вернёт текст
+  if (GK) for (const model of CFG.gemini_models) {
+    try {
+      const body = { systemInstruction: { parts: [{ text: SYSTEM }] }, generationConfig: { temperature: 0.3 },
+        contents: msgs.slice(1).map((x) => ({ role: x.role === 'assistant' ? 'model' : 'user', parts: [{ text: x.content }] })) };
+      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, { method: 'POST', headers: { 'x-goog-api-key': GK, 'content-type': 'application/json' }, body: JSON.stringify(body) });
+      const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
+      if (!r.ok) throw new Error(`HTTP ${r.status} ${raw.replace(/\s+/g, ' ').slice(0, 200)}`);
+      const out = (j.candidates?.[0]?.content?.parts || []).map((x) => x.text || '').join('').trim();
+      if (out) return out;
+      errs.push(`gemini ${model}: пустой ответ ${raw.replace(/\s+/g, ' ').slice(0, 150)}`);
+    } catch (e) { errs.push(`gemini ${model}: ${e.message.slice(0, 220)}`); }
+  }
+  if (!GH && !GK) throw new Error('нет ни GEMINI_API_KEY, ни GITHUB_TOKEN');
+  for (const url of GH ? ENDPOINTS : []) for (const model0 of CFG.models) {   // пробуем по очереди, пока кто-то не вернёт текст
     const model = url.includes('azure.com') ? model0.replace(/^openai\//, '') : model0;   // у старого шлюза имена без «openai/»
     try {
       const r = await fetch(url, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/json' },

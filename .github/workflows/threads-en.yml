@@ -25,6 +25,7 @@ jobs:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PUBLISH: ${{ github.event.inputs.publish || vars.THREADS_EN_PUBLISH }}
           LAST: ${{ github.event.inputs.last || '0' }}
         run: |
