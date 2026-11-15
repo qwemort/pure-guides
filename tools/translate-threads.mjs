@@ -48,7 +48,7 @@ async function translate(text) {
     try {
       const body = { systemInstruction: { parts: [{ text: SYSTEM }] }, generationConfig: { temperature: 0.3 },
         contents: msgs.slice(1).map((x) => ({ role: x.role === 'assistant' ? 'model' : 'user', parts: [{ text: x.content }] })) };
-      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, { method: 'POST', headers: { 'x-goog-api-key': GK, 'content-type': 'application/json' }, body: JSON.stringify(body) });
+      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, { method: 'POST', signal: AbortSignal.timeout(45000), headers: { 'x-goog-api-key': GK, 'content-type': 'application/json' }, body: JSON.stringify(body) });
       const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
       if (r.status === 503 || r.status === 429) { errs.push(`gemini ${model}: HTTP ${r.status}, повтор`); continue; }
       if (!r.ok) throw new Error(`HTTP ${r.status} ${raw.replace(/\s+/g, ' ').slice(0, 200)}`);
@@ -61,7 +61,7 @@ async function translate(text) {
   for (const url of GH ? ENDPOINTS : []) for (const model0 of CFG.models) {   // пробуем по очереди, пока кто-то не вернёт текст
     const model = url.includes('azure.com') ? model0.replace(/^openai\//, '') : model0;   // у старого шлюза имена без «openai/»
     try {
-      const r = await fetch(url, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/json' },
+      const r = await fetch(url, { method: 'POST', signal: AbortSignal.timeout(45000), headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/json' },
         body: JSON.stringify({ model, messages: msgs, temperature: 0.3 }) });
       const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
       if (!r.ok || j.error) throw new Error(`HTTP ${r.status} ${raw.slice(0, 200)}`);
