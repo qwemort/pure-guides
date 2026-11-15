@@ -74,14 +74,14 @@ body.embed main{padding:12px 14px}
 <!-- chrome:top -->
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="../"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
+    <a class="logo" href="../uk/"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
     <nav class="nav" aria-label="Sections">
-      <a href="../block/">Titles</a>
-      <a href="../mute-list/">Mute lists</a>
-      <a href="../spoiler-index/">Spoiler index</a>
-      <a href="../avoid-gta-6-spoilers.html">GTA 6 guide</a>
+      <a href="../block/">Тайтли</a>
+      <a href="../mute-list/">Списки для муту</a>
+      <a href="../spoiler-index/">Індекс спойлерів</a>
+      <a href="../yak-unyknuty-spoileriv-gta-6.html">Гайд по GTA 6</a>
     </nav>
-    <a data-href="chrome:top" class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=top">Add to Chrome</a>
+    <a data-href="chrome:top" class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=top">Додати в Chrome</a>
   </div>
 </header>
 <!-- /chrome:top -->
@@ -104,14 +104,14 @@ body.embed main{padding:12px 14px}
     {t:'GTA VI',sp:1,title:'КІНЦІВКА GTA 6 ПОЯСНЕНА (спойлери всього сюжету)',th:'КІНЦІВКА',ch:'Rockstar Lore',views:'1.2M',d:'24:11',c:['#ff3d8b','#ff8a3d']},
     {t:null,sp:0,title:'lofi для навчання та відпочинку',th:'lofi',ch:'Chill Room',views:'3.4M',d:'LIVE',c:['#4b6cb7','#182848']},
     {t:'One Piece',sp:1,title:'Злив розділу One Piece: це змінює все',th:'ЗЛИВ!!',ch:'Grand Line Talk',views:'640K',d:'12:03',c:['#f12711','#f5af19']},
-    {t:'GTA VI',sp:0,title:'Реакція на трейлер 3 GTA 6',th:'TRAILER 3',ch:'Game Reacts',views:'2.1M',d:'15:40',c:['#2de2e6','#7b2ff7']},
+    {t:'GTA VI',sp:0,title:'Реакція на трейлер 3 GTA 6',th:'ТРЕЙЛЕР 3',ch:'Game Reacts',views:'2.1M',d:'15:40',c:['#2de2e6','#7b2ff7']},
     {t:'The Last of Us',sp:1,title:'Фінал 3 сезону The Last of Us: хто помре?',th:'ХТО ПОМРЕ?',ch:'Series Recap',views:'890K',d:'18:22',c:['#3a6073','#16222a']},
     {t:null,sp:0,title:'Збудував крихітний будинок за 30 днів',th:'30 ДНІВ',ch:'Build Club',views:'5.6M',d:'21:09',c:['#56ab2f','#a8e063']},
     {t:'GTA VI',sp:1,title:'Фінальна місія GTA 6 просто шалена',th:'ФІНАЛЬНА МІСІЯ',ch:'Speedrun Zone',views:'770K',d:'31:45',c:['#ff512f','#dd2476']},
     {t:'One Piece',sp:0,title:'One Piece: з чого почати у 2026',th:'З ЧОГО ПОЧАТИ',ch:'Anime Guide',views:'410K',d:'9:58',c:['#0f2027','#2c5364']},
     {t:'GTA VI',sp:0,title:'Найкращі налаштування GTA 6 для PS5 і Xbox',th:'НАЛАШТУВАННЯ',ch:'Tech Tips',views:'350K',d:'8:12',c:['#141e30','#243b55']},
     {t:'The Last of Us',sp:1,title:'Кінцівка The Last of Us: розбір',th:'КІНЦІВКА?',ch:'Film Theory Daily',views:'1.5M',d:'16:30',c:['#614385','#516395']},
-    {t:null,sp:0,title:'Готую пасту як італійська бабуся',th:'PASTA',ch:'Home Kitchen',views:'2.8M',d:'11:47',c:['#e65c00','#f9d423']},
+    {t:null,sp:0,title:'Готую пасту як італійська бабуся',th:'ПАСТА',ch:'Home Kitchen',views:'2.8M',d:'11:47',c:['#e65c00','#f9d423']},
     {t:'One Piece',sp:1,title:'Найбільший поворот у One Piece (спойлери)',th:'ПОВОРОТ',ch:'Manga Theories',views:'520K',d:'14:20',c:['#8e2de2','#4a00e0']}
   ];
   var picks={'GTA VI':true,'The Last of Us':false,'One Piece':true}, on=true;
@@ -120,10 +120,10 @@ body.embed main{padding:12px 14px}
   if(T){
     var K=Q.get('kind')||'game';
     var TPL={
-      game:[[1,'КІНЦІВКА %T ПОЯСНЕНА (спойлери всього сюжету)','КІНЦІВКА'],[0,'Реакція на трейлер %T','TRAILER'],[1,'Фінальна місія %T просто шалена','ФІНАЛЬНА МІСІЯ'],[1,'Злив сюжету %T: це змінює все','ЗЛИВ'],[0,'Найкращі налаштування %T для PS5 і ПК','НАЛАШТУВАННЯ'],[1,'Секретна кінцівка %T (спойлери)','СЕКРЕТНА КІНЦІВКА']],
-      series:[[1,'Фінал %T: розбір','ФІНАЛ?!'],[0,'Розбір трейлера %T','TRAILER'],[1,'Хто помре в %T?','ХТО ПОМРЕ?'],[1,'Злита серія %T','ЗЛИВ'],[0,'%T: з чого почати','З ЧОГО ПОЧАТИ'],[1,'Реакція на кінцівку %T','КІНЦІВКА']],
-      movie:[[1,'Кінцівка %T: розбір','КІНЦІВКА'],[0,'Реакція на офіційний трейлер %T','TRAILER'],[1,'Сцена після титрів %T','ПІСЛЯ ТИТРІВ'],[1,'Поворот у %T (спойлери)','ПОВОРОТ'],[0,'%T: чи варто йти в кіно?','ЧИ ВАРТО?'],[1,'Хто помре в %T?','ХТО ПОМРЕ?']],
-      anime:[[1,'Злив розділу %T: це змінює все','ЗЛИВ!!'],[0,'%T: з чого почати дивитися','З ЧОГО ПОЧАТИ'],[1,'Фінал %T: розбір','FINALE'],[1,'Найбільший поворот у %T (спойлери)','ПОВОРОТ'],[0,'Реакція на опенінг %T','OPENING'],[1,'Хто помре в %T?','ХТО ПОМРЕ?']]
+      game:[[1,'КІНЦІВКА %T ПОЯСНЕНА (спойлери всього сюжету)','КІНЦІВКА'],[0,'Реакція на трейлер %T','ТРЕЙЛЕР'],[1,'Фінальна місія %T просто шалена','ФІНАЛЬНА МІСІЯ'],[1,'Злив сюжету %T: це змінює все','ЗЛИВ'],[0,'Найкращі налаштування %T для PS5 і ПК','НАЛАШТУВАННЯ'],[1,'Секретна кінцівка %T (спойлери)','СЕКРЕТНА КІНЦІВКА']],
+      series:[[1,'Фінал %T: розбір','ФІНАЛ?!'],[0,'Розбір трейлера %T','ТРЕЙЛЕР'],[1,'Хто помре в %T?','ХТО ПОМРЕ?'],[1,'Злита серія %T','ЗЛИВ'],[0,'%T: з чого почати','З ЧОГО ПОЧАТИ'],[1,'Реакція на кінцівку %T','КІНЦІВКА']],
+      movie:[[1,'Кінцівка %T: розбір','КІНЦІВКА'],[0,'Реакція на офіційний трейлер %T','ТРЕЙЛЕР'],[1,'Сцена після титрів %T','ПІСЛЯ ТИТРІВ'],[1,'Поворот у %T (спойлери)','ПОВОРОТ'],[0,'%T: чи варто йти в кіно?','ЧИ ВАРТО?'],[1,'Хто помре в %T?','ХТО ПОМРЕ?']],
+      anime:[[1,'Злив розділу %T: це змінює все','ЗЛИВ!!'],[0,'%T: з чого почати дивитися','З ЧОГО ПОЧАТИ'],[1,'Фінал %T: розбір','ФІНАЛ'],[1,'Найбільший поворот у %T (спойлери)','ПОВОРОТ'],[0,'Реакція на опенінг %T','ОПЕНІНГ'],[1,'Хто помре в %T?','ХТО ПОМРЕ?']]
     }[K]||[];
     var C=[['#ff3d8b','#ff8a3d'],['#2de2e6','#7b2ff7'],['#ff512f','#dd2476'],['#f12711','#f5af19'],['#141e30','#243b55'],['#8e2de2','#4a00e0']];
     var CH=['Lore Explained','Game Reacts','Speedrun Zone','Leak Watch','Tech Tips','Theory Daily'], VW=['1.2M','2.1M','770K','640K','350K','520K'], DU=['24:11','15:40','31:45','12:03','8:12','14:20'];
@@ -182,28 +182,29 @@ body.embed main{padding:12px 14px}
   <div class="wrap">
     <div class="fgrid">
       <div><p class="fh">Pure Spoiler Blocker</p><ul>
-        <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">Add to Chrome</a></li>
-        <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">Add to Firefox</a></li>
-        <li><a href="../demo/">Try the demo</a></li>
-        <li><a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">Source code</a></li></ul></div>
-      <div><p class="fh">Lists and data</p><ul>
-        <li><a href="../block/">Block spoilers by title</a></li>
-        <li><a href="../mute-list/">Mute lists for X and Threads</a></li>
-        <li><a href="../spoiler-index/">GTA 6 spoiler index</a></li>
-        <li><a href="../spoiler-danger/">Spoiler danger this week</a></li>
-        <li><a href="../s/">Spoiler link</a></li></ul></div>
-      <div><p class="fh">Guides</p><ul>
-        <li><a href="../avoid-gta-6-spoilers.html">How to avoid GTA 6 spoilers</a></li>
-        <li><a href="../jak-uniknac-spoilerow-gta-6.html" hreflang="pl">Po polsku</a></li>
+        <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">Додати в Chrome</a></li>
+        <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">Додати у Firefox</a></li>
+        <li><a href="uk.html">Спробувати демо</a></li>
+        <li><a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">Вихідний код</a></li></ul></div>
+      <div><p class="fh">Списки й дані</p><ul>
+        <li><a href="../block/">Блокування спойлерів за тайтлами</a></li>
+        <li><a href="../mute-list/">Списки для муту в X і Threads</a></li>
+        <li><a href="../spoiler-index/">Індекс спойлерів GTA 6</a></li>
+        <li><a href="../spoiler-danger/">Спойлерна небезпека цього тижня</a></li>
+        <li><a href="../s/">Посилання зі спойлером</a></li></ul></div>
+      <div><p class="fh">Гайди</p><ul>
+        <li><a href="../yak-unyknuty-spoileriv-gta-6.html">Як уникнути спойлерів GTA 6</a></li>
+        <li><a href="../yak-unyknuty-spoileriv-gta-6.html" hreflang="pl">Po polsku</a></li>
         <li><a href="../yak-unyknuty-spoileriv-gta-6.html" hreflang="uk">Українською</a></li>
-        <li><a href="../gta-6-pc-release-date.html">GTA 6 PC release date</a></li></ul></div>
-      <div><p class="fh">More from Pure</p><ul>
-        <li><a href="../#extensions">All extensions</a></li>
-        <li><a href="../#dev">For developers</a></li></ul></div>
+        <li><a href="../gta-6-pc-data-vykhodu.html">Дата виходу GTA 6 на ПК</a></li></ul></div>
+      <div><p class="fh">Ще від Pure</p><ul>
+        <li><a href="../uk/#extensions">Усі розширення</a></li>
+        <li><a href="../uk/#dev">Для розробників</a></li></ul></div>
     </div>
-    <p class="foot-note">No cookies, no ads. Anonymous visit statistics (Cloudflare Web Analytics). Fonts are hosted here. Contact: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
+    <p class="foot-note">Без cookies, без реклами. Анонімна статистика відвідувань (Cloudflare Web Analytics). Шрифти лежать на цьому сайті. Зв’язок: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
   </div>
 </footer>
+<script src="../lang-hint.js" defer></script>
 <script src="../design/groups.js" defer></script>
 <!-- /chrome:foot -->
 </body>

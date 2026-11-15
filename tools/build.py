@@ -90,14 +90,39 @@ def step_facts():
 def step_chrome():
     top, foot = ((ROOT / 'templates' / n).read_text(encoding='utf-8').strip('\n') for n in ('header.html', 'footer.html'))
     n = 0
+    cache = {}
+    def tr_for(lang):   # тексты шапки/подвала на языке страницы (i18n/home.<язык>.json), иначе английские
+        if lang not in cache:
+            p = ROOT / f'i18n/home.{lang}.json'
+            cache[lang] = json.loads(p.read_text(encoding='utf-8')) if lang != 'en' and p.exists() else T
+        return cache[lang]
+    def localize(snip, rel, lang):   # ссылки шапки/подвала ведут на версию страницы на том же языке, если она есть (по hreflang)
+        if lang == 'en': return snip
+        def rep(m):
+            h = m.group(2)
+            if re.match(r'(https?:|mailto:|#|//)', h): return m.group(0)
+            path, _, frag = h.partition('#')
+            tgt = (ROOT / rel.parent / (path or '.')).resolve()
+            if tgt.is_dir(): tgt = tgt / 'index.html'
+            if not tgt.exists(): return m.group(0)
+            alt = re.search(rf'<link rel="alternate" hreflang="{re.escape(lang)}" href="{re.escape(BASEURL)}([^"]*)"', tgt.read_text(encoding='utf-8'))
+            if not alt: return m.group(0)
+            r = alt.group(1)
+            if not r or r.endswith('/'): r += 'index.html'
+            new = os.path.relpath(ROOT / r, ROOT / rel.parent).replace(os.sep, '/')
+            if new.endswith('index.html'): new = new[:-len('index.html')] or './'
+            return m.group(1) + new + ('#' + frag if frag else '') + '"'
+        return re.sub(r'((?<![\w-])href=")([^"]*)"', rep, snip)
     for f, rel, s in pages():
         root = '../' * (len(rel.parts) - 1); o = s
+        lm = re.search(r'<html[^>]*\blang="([^"]+)"', s); lang = lm.group(1) if lm else 'en'
+        L = tr_for(lang); hm = root + LDIR(lang) + '/' if L is not T else None
         for a, b in (('top', 'top'), ('foot', 'foot')): s = re.sub(rf'<!-- chrome:{a} -->[\s\S]*?<!-- /chrome:{b} -->\n?', '', s)
         s = re.sub(r'<header class="top">[\s\S]*?</header>\n?', '', s)
         s = re.sub(r'<footer[^>]*>[\s\S]*?</footer>\n?', '', s)
         s = re.sub(r'<a class="brand" href="(\.\./|\./)?">Pure guides</a>\n?', '', s)
-        s = re.sub(r'(<body[^>]*>\n?)', lambda m: m.group(1) + tag_anchors(render(top, root)) + '\n', s, count=1)
-        ft = tag_anchors(render(foot, root)) + '\n'
+        s = re.sub(r'(<body[^>]*>\n?)', lambda m: m.group(1) + tag_anchors(localize(render(top, root, L, hm), rel, lang)) + '\n', s, count=1)
+        ft = tag_anchors(localize(render(foot, root, L, hm), rel, lang)) + '\n'
         s = s.replace('<script src="design/weather.js">', ft + '<script src="design/weather.js">', 1) if '<script src="design/weather.js">' in s else s.replace('</body>', ft + '</body>', 1)
         if s != o: f.write_text(s, encoding='utf-8'); n += 1
     print(f'chrome: {n} pages updated')

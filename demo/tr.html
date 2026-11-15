@@ -74,14 +74,14 @@ body.embed main{padding:12px 14px}
 <!-- chrome:top -->
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="../"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
+    <a class="logo" href="../tr/"><span class="bar" aria-hidden="true"></span>Pure Spoiler Blocker</a>
     <nav class="nav" aria-label="Sections">
-      <a href="../block/">Titles</a>
-      <a href="../mute-list/">Mute lists</a>
-      <a href="../spoiler-index/">Spoiler index</a>
-      <a href="../avoid-gta-6-spoilers.html">GTA 6 guide</a>
+      <a href="../block/">Yapımlar</a>
+      <a href="../mute-list/">Sessize alma listeleri</a>
+      <a href="../spoiler-index/">Spoiler endeksi</a>
+      <a href="../gta-6-spoilerlarindan-kacinma.html">GTA 6 rehberi</a>
     </nav>
-    <a data-href="chrome:top" class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=top">Add to Chrome</a>
+    <a data-href="chrome:top" class="get" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=top">Chrome'a ekle</a>
   </div>
 </header>
 <!-- /chrome:top -->
@@ -104,14 +104,14 @@ body.embed main{padding:12px 14px}
     {t:'GTA VI',sp:1,title:'GTA 6 FİNALİ AÇIKLANDI (tüm hikâye spoiler)',th:'FİNAL',ch:'Rockstar Lore',views:'1.2M',d:'24:11',c:['#ff3d8b','#ff8a3d']},
     {t:null,sp:0,title:'ders çalışırken dinlemelik lofi',th:'lofi',ch:'Chill Room',views:'3.4M',d:'LIVE',c:['#4b6cb7','#182848']},
     {t:'One Piece',sp:1,title:'One Piece bölüm sızıntısı: her şeyi değiştiriyor',th:'SIZDI!!',ch:'Grand Line Talk',views:'640K',d:'12:03',c:['#f12711','#f5af19']},
-    {t:'GTA VI',sp:0,title:'GTA 6 fragman 3 tepki',th:'TRAILER 3',ch:'Game Reacts',views:'2.1M',d:'15:40',c:['#2de2e6','#7b2ff7']},
+    {t:'GTA VI',sp:0,title:'GTA 6 fragman 3 tepki',th:'FRAGMAN 3',ch:'Game Reacts',views:'2.1M',d:'15:40',c:['#2de2e6','#7b2ff7']},
     {t:'The Last of Us',sp:1,title:'The Last of Us 3. sezon finali: kim ölüyor?',th:'KİM ÖLÜYOR?',ch:'Series Recap',views:'890K',d:'18:22',c:['#3a6073','#16222a']},
     {t:null,sp:0,title:'30 günde minik bir ev yaptım',th:'30 GÜN',ch:'Build Club',views:'5.6M',d:'21:09',c:['#56ab2f','#a8e063']},
     {t:'GTA VI',sp:1,title:'GTA 6 son görevi çılgınca',th:'SON GÖREV',ch:'Speedrun Zone',views:'770K',d:'31:45',c:['#ff512f','#dd2476']},
     {t:'One Piece',sp:0,title:'One Piece: 2026 yılında izlemeye nereden başlanır',th:'NEREDEN BAŞLAMALI',ch:'Anime Guide',views:'410K',d:'9:58',c:['#0f2027','#2c5364']},
     {t:'GTA VI',sp:0,title:'PS5 ve Xbox için en iyi GTA 6 ayarları',th:'AYARLAR',ch:'Tech Tips',views:'350K',d:'8:12',c:['#141e30','#243b55']},
     {t:'The Last of Us',sp:1,title:'The Last of Us sonu açıklandı',th:'SON MU?',ch:'Film Theory Daily',views:'1.5M',d:'16:30',c:['#614385','#516395']},
-    {t:null,sp:0,title:'İtalyan nine gibi makarna yapmak',th:'PASTA',ch:'Home Kitchen',views:'2.8M',d:'11:47',c:['#e65c00','#f9d423']},
+    {t:null,sp:0,title:'İtalyan nine gibi makarna yapmak',th:'MAKARNA',ch:'Home Kitchen',views:'2.8M',d:'11:47',c:['#e65c00','#f9d423']},
     {t:'One Piece',sp:1,title:'One Piece tarihinin en büyük ters köşesi (spoiler)',th:'TERS KÖŞE',ch:'Manga Theories',views:'520K',d:'14:20',c:['#8e2de2','#4a00e0']}
   ];
   var picks={'GTA VI':true,'The Last of Us':false,'One Piece':true}, on=true;
@@ -120,10 +120,10 @@ body.embed main{padding:12px 14px}
   if(T){
     var K=Q.get('kind')||'game';
     var TPL={
-      game:[[1,'%T FİNALİ AÇIKLANDI (tüm hikâye spoiler)','FİNAL'],[0,'%T fragman tepki','TRAILER'],[1,'%T son görevi çılgınca','SON GÖREV'],[1,'%T hikâye sızıntısı: her şeyi değiştiriyor','SIZDI'],[0,'PS5 ve PC için en iyi %T ayarları','AYARLAR'],[1,'%T gizli son (spoiler)','GİZLİ SON']],
-      series:[[1,'%T finali açıklandı','FİNAL Mİ?!'],[0,'%T fragman analizi','TRAILER'],[1,'%T içinde kim ölüyor?','KİM ÖLÜYOR?'],[1,'%T sızan bölüm','SIZDI'],[0,'%T: nereden başlamalı','NEREDEN BAŞLAMALI'],[1,'%T sonuna tepki','FİNAL']],
-      movie:[[1,'%T sonu açıklandı','FİNAL'],[0,'%T resmi fragman tepki','TRAILER'],[1,'%T jenerik sonrası sahne','JENERİK SONRASI'],[1,'%T ters köşe (spoiler)','TERS KÖŞE'],[0,'%T: sinema biletine değer mi?','DEĞER Mİ?'],[1,'%T içinde kim ölüyor?','KİM ÖLÜYOR?']],
-      anime:[[1,'%T bölüm sızıntısı: her şeyi değiştiriyor','SIZDI!!'],[0,'%T: izlemeye nereden başlanır','NEREDEN BAŞLAMALI'],[1,'%T finali açıklandı','FINALE'],[1,'%T tarihinin en büyük ters köşesi (spoiler)','TERS KÖŞE'],[0,'%T opening tepki','OPENING'],[1,'%T içinde kim ölüyor?','KİM ÖLÜYOR?']]
+      game:[[1,'%T FİNALİ AÇIKLANDI (tüm hikâye spoiler)','FİNAL'],[0,'%T fragman tepki','FRAGMAN'],[1,'%T son görevi çılgınca','SON GÖREV'],[1,'%T hikâye sızıntısı: her şeyi değiştiriyor','SIZDI'],[0,'PS5 ve PC için en iyi %T ayarları','AYARLAR'],[1,'%T gizli son (spoiler)','GİZLİ SON']],
+      series:[[1,'%T finali açıklandı','FİNAL Mİ?!'],[0,'%T fragman analizi','FRAGMAN'],[1,'%T içinde kim ölüyor?','KİM ÖLÜYOR?'],[1,'%T sızan bölüm','SIZDI'],[0,'%T: nereden başlamalı','NEREDEN BAŞLAMALI'],[1,'%T sonuna tepki','FİNAL']],
+      movie:[[1,'%T sonu açıklandı','FİNAL'],[0,'%T resmi fragman tepki','FRAGMAN'],[1,'%T jenerik sonrası sahne','JENERİK SONRASI'],[1,'%T ters köşe (spoiler)','TERS KÖŞE'],[0,'%T: sinema biletine değer mi?','DEĞER Mİ?'],[1,'%T içinde kim ölüyor?','KİM ÖLÜYOR?']],
+      anime:[[1,'%T bölüm sızıntısı: her şeyi değiştiriyor','SIZDI!!'],[0,'%T: izlemeye nereden başlanır','NEREDEN BAŞLAMALI'],[1,'%T finali açıklandı','FİNAL'],[1,'%T tarihinin en büyük ters köşesi (spoiler)','TERS KÖŞE'],[0,'%T opening tepki','OPENING'],[1,'%T içinde kim ölüyor?','KİM ÖLÜYOR?']]
     }[K]||[];
     var C=[['#ff3d8b','#ff8a3d'],['#2de2e6','#7b2ff7'],['#ff512f','#dd2476'],['#f12711','#f5af19'],['#141e30','#243b55'],['#8e2de2','#4a00e0']];
     var CH=['Lore Explained','Game Reacts','Speedrun Zone','Leak Watch','Tech Tips','Theory Daily'], VW=['1.2M','2.1M','770K','640K','350K','520K'], DU=['24:11','15:40','31:45','12:03','8:12','14:20'];
@@ -182,28 +182,29 @@ body.embed main{padding:12px 14px}
   <div class="wrap">
     <div class="fgrid">
       <div><p class="fh">Pure Spoiler Blocker</p><ul>
-        <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">Add to Chrome</a></li>
-        <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">Add to Firefox</a></li>
-        <li><a href="../demo/">Try the demo</a></li>
-        <li><a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">Source code</a></li></ul></div>
-      <div><p class="fh">Lists and data</p><ul>
-        <li><a href="../block/">Block spoilers by title</a></li>
-        <li><a href="../mute-list/">Mute lists for X and Threads</a></li>
-        <li><a href="../spoiler-index/">GTA 6 spoiler index</a></li>
-        <li><a href="../spoiler-danger/">Spoiler danger this week</a></li>
-        <li><a href="../s/">Spoiler link</a></li></ul></div>
-      <div><p class="fh">Guides</p><ul>
-        <li><a href="../avoid-gta-6-spoilers.html">How to avoid GTA 6 spoilers</a></li>
-        <li><a href="../jak-uniknac-spoilerow-gta-6.html" hreflang="pl">Po polsku</a></li>
-        <li><a href="../yak-unyknuty-spoileriv-gta-6.html" hreflang="uk">Українською</a></li>
-        <li><a href="../gta-6-pc-release-date.html">GTA 6 PC release date</a></li></ul></div>
-      <div><p class="fh">More from Pure</p><ul>
-        <li><a href="../#extensions">All extensions</a></li>
-        <li><a href="../#dev">For developers</a></li></ul></div>
+        <li><a data-href="chrome:foot" href="https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&amp;utm_medium=foot">Chrome'a ekle</a></li>
+        <li><a data-href="firefox:foot" href="https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&amp;utm_medium=foot">Firefox'a ekle</a></li>
+        <li><a href="tr.html">Demoyu dene</a></li>
+        <li><a data-href="source" href="https://github.com/qwemort/pure-spoiler-shield">Kaynak kodu</a></li></ul></div>
+      <div><p class="fh">Listeler ve veriler</p><ul>
+        <li><a href="../block/">Yapıma göre spoiler engelle</a></li>
+        <li><a href="../mute-list/">X ve Threads için sessize alma listeleri</a></li>
+        <li><a href="../spoiler-index/">GTA 6 spoiler endeksi</a></li>
+        <li><a href="../spoiler-danger/">Bu haftanın spoiler tehlikesi</a></li>
+        <li><a href="../s/">Spoiler bağlantısı</a></li></ul></div>
+      <div><p class="fh">Rehberler</p><ul>
+        <li><a href="../gta-6-spoilerlarindan-kacinma.html">GTA 6 spoiler'larından nasıl kaçınılır</a></li>
+        <li><a href="../gta-6-spoilerlarindan-kacinma.html" hreflang="pl">Po polsku</a></li>
+        <li><a href="../gta-6-spoilerlarindan-kacinma.html" hreflang="uk">Українською</a></li>
+        <li><a href="../gta-6-pc-release-date.html">GTA 6 PC çıkış tarihi</a></li></ul></div>
+      <div><p class="fh">Pure'dan daha fazlası</p><ul>
+        <li><a href="../tr/#extensions">Tüm eklentiler</a></li>
+        <li><a href="../tr/#dev">Geliştiriciler için</a></li></ul></div>
     </div>
-    <p class="foot-note">No cookies, no ads. Anonymous visit statistics (Cloudflare Web Analytics). Fonts are hosted here. Contact: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
+    <p class="foot-note">Çerez yok, reklam yok. Anonim ziyaret istatistikleri (Cloudflare Web Analytics). Yazı tipleri de burada barındırılıyor. İletişim: <a href="mailto:papana44444@gmail.com">papana44444@gmail.com</a></p>
   </div>
 </footer>
+<script src="../lang-hint.js" defer></script>
 <script src="../design/groups.js" defer></script>
 <!-- /chrome:foot -->
 </body>
