@@ -46,8 +46,11 @@ async function translate(text) {
   const errs = [];
   for (const model of CFG.models) {   // пробуем по очереди, пока какая-то не вернёт текст
     try {
-      const j = await call(MODELS, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/vnd.github+json' },
+      const r = await fetch(MODELS, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', 'x-github-api-version': '2022-11-28' },
         body: JSON.stringify({ model, messages: msgs, temperature: 0.3 }) });
+      const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
+      if (!r.ok || j.error) throw new Error(`HTTP ${r.status} ${raw.slice(0, 300)}`);
+      if (!j.choices) throw new Error(`HTTP ${r.status} ${r.headers.get('content-type')} тело: ${raw.slice(0, 300) || '(пусто)'}`);
       const c = j.choices?.[0]?.message?.content;
       const out = (Array.isArray(c) ? c.map((x) => x.text || '').join('') : c || '').trim();
       if (out) return out;
