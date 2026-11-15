@@ -13,7 +13,7 @@ const A = process.argv.slice(2);
 const PUBLISH = A.includes('--publish');
 const li = A.indexOf('--last'); const LAST = li >= 0 ? Math.max(1, +A[li + 1] || 5) : 0;
 const { THREADS_TOKEN: TU, THREADS_TOKEN_EN: TE, GITHUB_TOKEN: GH } = process.env;
-const MODELS = process.env.MODELS_API_URL || 'https://models.github.ai/inference/chat/completions';
+const ENDPOINTS = process.env.MODELS_API_URL ? [process.env.MODELS_API_URL] : ['https://models.github.ai/inference/chat/completions', 'https://models.inference.ai.azure.com/chat/completions'];
 fs.mkdirSync(path.join(ROOT, 'out'), { recursive: true });
 const draft = [];
 const say = (s) => { console.log(s); draft.push(s); };
@@ -44,20 +44,21 @@ async function translate(text) {
   for (const [u, e] of SHOTS) msgs.push({ role: 'user', content: u }, { role: 'assistant', content: e });
   msgs.push({ role: 'user', content: text });
   const errs = [];
-  for (const model of CFG.models) {   // пробуем по очереди, пока какая-то не вернёт текст
+  for (const url of ENDPOINTS) for (const model0 of CFG.models) {   // пробуем по очереди, пока кто-то не вернёт текст
+    const model = url.includes('azure.com') ? model0.replace(/^openai\//, '') : model0;   // у старого шлюза имена без «openai/»
     try {
-      const r = await fetch(MODELS, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', 'x-github-api-version': '2022-11-28' },
+      const r = await fetch(url, { method: 'POST', headers: { authorization: `Bearer ${GH}`, 'content-type': 'application/json', accept: 'application/json' },
         body: JSON.stringify({ model, messages: msgs, temperature: 0.3 }) });
       const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
-      if (!r.ok || j.error) throw new Error(`HTTP ${r.status} ${raw.slice(0, 300)}`);
-      if (!j.choices) throw new Error(`HTTP ${r.status} ${r.headers.get('content-type')} тело: ${raw.slice(0, 300) || '(пусто)'}`);
-      const c = j.choices?.[0]?.message?.content;
+      if (!r.ok || j.error) throw new Error(`HTTP ${r.status} ${raw.slice(0, 200)}`);
+      if (!j.choices) throw new Error(`HTTP ${r.status} ${r.headers.get('content-type')} тело: ${raw.slice(0, 120) || '(пусто)'}`);
+      const c = j.choices[0]?.message?.content;
       const out = (Array.isArray(c) ? c.map((x) => x.text || '').join('') : c || '').trim();
       if (out) return out;
-      errs.push(`${model}: пустой ответ ${JSON.stringify(j).slice(0, 300)}`);
-    } catch (e) { errs.push(`${model}: ${e.message.slice(0, 300)}`); }
+      errs.push(`${url.split('/')[2]} ${model}: пустой ответ`);
+    } catch (e) { errs.push(`${url.split('/')[2]} ${model}: ${e.message.replace(/\s+/g, ' ').slice(0, 200)}`); }
   }
-  throw new Error(errs.join(' | '));
+  throw new Error('\n  ' + errs.join('\n  '));
 }
 function check(src, en) {
   if (!en) return 'пустой перевод';
