@@ -193,5 +193,6 @@ if only in (None, 'facts'): step_facts()
 if only in (None, 'chrome'): step_chrome()
 if only in (None, 'lang'): step_lang()
 if only in (None, 'lang'): import subprocess, sys as _s; subprocess.run([_s.executable, str(ROOT / 'tools' / 'mobile-handoff.py')], check=True)   # блок «открой на компьютере» для телефонов
+if only in (None, 'lang'): import subprocess, sys as _s; subprocess.run([_s.executable, str(ROOT / 'tools' / 'sitemap-lastmod.py')], check=True)   # честная lastmod в sitemap.xml
 if only in (None, 'lang'): import subprocess, sys as _s; subprocess.run([_s.executable, str(ROOT / 'tools' / 'analytics.py')], check=True)   # счётчик ставится последним, после всех страниц
 if only in (None, 'check') and not A.no_check: step_check()
