@@ -1,0 +1,30 @@
+name: title-dates
+# Раз в неделю (и вручную): сверяет даты релизов тайтлов с Wikidata, при изменении
+# перегенерирует страницы тайтлов и коммитит сам. Уведомлений никому не шлёт.
+on:
+  schedule:
+    - cron: '41 5 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: title-dates, cancel-in-progress: false }
+jobs:
+  dates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Check dates
+        id: chk
+        run: node tools/check-title-dates.mjs
+      - name: Rebuild pages
+        if: steps.chk.outputs.changed == 'true'
+        run: python3 tools/gen-title.py
+      - name: Commit
+        run: |
+          git config user.name "title-dates bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/titles.json design/title
+          git diff --cached --quiet || { git commit -m "Даты релизов: автосверка с Wikidata"; git pull --rebase -X theirs -q origin main; git push; }

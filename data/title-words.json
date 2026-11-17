@@ -1,0 +1,675 @@
+{
+ "_note": "Первый проход перевода (Claude). Нужна проверка носителями. В каждом языке строго одинаковое число слов: 8 слов-спойлеров, 3 формы названия, 1 доп. форма, 8 имён.",
+ "langs": [
+  {
+   "code": "en",
+   "label": "English"
+  },
+  {
+   "code": "uk",
+   "label": "Українська"
+  },
+  {
+   "code": "ru",
+   "label": "Русский"
+  },
+  {
+   "code": "pl",
+   "label": "Polski"
+  },
+  {
+   "code": "de",
+   "label": "Deutsch"
+  },
+  {
+   "code": "fr",
+   "label": "Français"
+  },
+  {
+   "code": "es",
+   "label": "Español"
+  },
+  {
+   "code": "it",
+   "label": "Italiano"
+  },
+  {
+   "code": "pt-BR",
+   "label": "Português"
+  },
+  {
+   "code": "tr",
+   "label": "Türkçe"
+  },
+  {
+   "code": "ja",
+   "label": "日本語"
+  },
+  {
+   "code": "ko",
+   "label": "한국어"
+  },
+  {
+   "code": "zh-CN",
+   "label": "中文"
+  }
+ ],
+ "vocab": {
+  "en": [
+   "spoiler",
+   "spoilers",
+   "ending",
+   "ending explained",
+   "post credits",
+   "leak",
+   "twist",
+   "who dies"
+  ],
+  "uk": [
+   "спойлер",
+   "спойлери",
+   "кінцівка",
+   "пояснення кінцівки",
+   "сцена після титрів",
+   "злив",
+   "твіст",
+   "хто помре"
+  ],
+  "ru": [
+   "спойлер",
+   "спойлеры",
+   "концовка",
+   "объяснение концовки",
+   "сцена после титров",
+   "слив",
+   "твист",
+   "кто умрет"
+  ],
+  "pl": [
+   "spoiler",
+   "spoilery",
+   "zakończenie",
+   "wyjaśnienie zakończenia",
+   "scena po napisach",
+   "przeciek",
+   "zwrot akcji",
+   "kto zginie"
+  ],
+  "de": [
+   "spoiler",
+   "spoiler alarm",
+   "ende",
+   "ende erklärt",
+   "post credit szene",
+   "leak",
+   "plot twist",
+   "wer stirbt"
+  ],
+  "fr": [
+   "spoiler",
+   "spoilers",
+   "fin",
+   "fin expliquée",
+   "scène post-générique",
+   "fuite",
+   "retournement de situation",
+   "qui meurt"
+  ],
+  "es": [
+   "spoiler",
+   "spoilers",
+   "final",
+   "final explicado",
+   "escena post créditos",
+   "filtración",
+   "giro argumental",
+   "quién muere"
+  ],
+  "it": [
+   "spoiler",
+   "spoiler alert",
+   "finale",
+   "finale spiegato",
+   "scena post credits",
+   "leak",
+   "colpo di scena",
+   "chi muore"
+  ],
+  "pt-BR": [
+   "spoiler",
+   "spoilers",
+   "final",
+   "final explicado",
+   "cena pós-créditos",
+   "vazamento",
+   "reviravolta",
+   "quem morre"
+  ],
+  "tr": [
+   "spoiler",
+   "spoiler'lar",
+   "sonu",
+   "son açıklaması",
+   "jenerik sonrası sahne",
+   "sızıntı",
+   "sürpriz son",
+   "kim ölüyor"
+  ],
+  "ja": [
+   "ネタバレ",
+   "ネタバレ注意",
+   "結末",
+   "結末 解説",
+   "エンドロール後",
+   "リーク",
+   "どんでん返し",
+   "誰が死ぬ"
+  ],
+  "ko": [
+   "스포",
+   "스포일러",
+   "결말",
+   "결말 해석",
+   "쿠키 영상",
+   "유출",
+   "반전",
+   "누가 죽어"
+  ],
+  "zh-CN": [
+   "剧透",
+   "爆雷",
+   "结局",
+   "结局解析",
+   "彩蛋",
+   "泄露",
+   "反转",
+   "谁会死"
+  ]
+ },
+ "titles": {
+  "dune-3": {
+   "forms": {
+    "en": [
+     "dune part three",
+     "dune part 3",
+     "dune 3"
+    ],
+    "uk": [
+     "дюна частина третя",
+     "дюна частина 3",
+     "дюна 3"
+    ],
+    "ru": [
+     "дюна часть третья",
+     "дюна часть 3",
+     "дюна 3"
+    ],
+    "pl": [
+     "diuna część trzecia",
+     "diuna część 3",
+     "diuna 3"
+    ],
+    "de": [
+     "dune teil drei",
+     "dune teil 3",
+     "dune 3"
+    ],
+    "fr": [
+     "dune troisième partie",
+     "dune partie 3",
+     "dune 3"
+    ],
+    "es": [
+     "dune parte tres",
+     "dune parte 3",
+     "dune 3"
+    ],
+    "it": [
+     "dune parte tre",
+     "dune parte 3",
+     "dune 3"
+    ],
+    "pt-BR": [
+     "duna parte três",
+     "duna parte 3",
+     "duna 3"
+    ],
+    "tr": [
+     "dune üçüncü bölüm",
+     "dune bölüm 3",
+     "dune 3"
+    ],
+    "ja": [
+     "デューン 砂の惑星 part3",
+     "デューン part3",
+     "デューン3"
+    ],
+    "ko": [
+     "듄 파트 3",
+     "듄 파트3",
+     "듄 3"
+    ],
+    "zh-CN": [
+     "沙丘3",
+     "沙丘 第三部",
+     "沙丘 part3"
+    ]
+   },
+   "extra": {
+    "en": [
+     "dune messiah"
+    ],
+    "uk": [
+     "дюна месія"
+    ],
+    "ru": [
+     "дюна мессия"
+    ],
+    "pl": [
+     "diuna mesjasz"
+    ],
+    "de": [
+     "der herr des wüstenplaneten"
+    ],
+    "fr": [
+     "le messie de dune"
+    ],
+    "es": [
+     "dune mesías"
+    ],
+    "it": [
+     "il messia di dune"
+    ],
+    "pt-BR": [
+     "messias de duna"
+    ],
+    "tr": [
+     "dune messiah"
+    ],
+    "ja": [
+     "デューン 砂の惑星 メシア"
+    ],
+    "ko": [
+     "듄 메시아"
+    ],
+    "zh-CN": [
+     "沙丘救世主"
+    ]
+   },
+   "names": {
+    "en": [
+     "paul atreides",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremen",
+     "arrakis",
+     "atreides"
+    ],
+    "uk": [
+     "пол атрейдес",
+     "муад діб",
+     "лето ii",
+     "алія",
+     "чані",
+     "фремени",
+     "арракіс",
+     "атрейдес"
+    ],
+    "ru": [
+     "пол атрейдес",
+     "муад диб",
+     "лето ii",
+     "алия",
+     "чани",
+     "фремены",
+     "арракис",
+     "атрейдес"
+    ],
+    "pl": [
+     "paul atryda",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremeni",
+     "arrakis",
+     "atrydzi"
+    ],
+    "de": [
+     "paul atreides",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremen",
+     "arrakis",
+     "atreides"
+    ],
+    "fr": [
+     "paul atréides",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremen",
+     "arrakis",
+     "atréides"
+    ],
+    "es": [
+     "paul atreides",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremen",
+     "arrakis",
+     "atreides"
+    ],
+    "it": [
+     "paul atreides",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremen",
+     "arrakis",
+     "atreides"
+    ],
+    "pt-BR": [
+     "paul atreides",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremen",
+     "arrakis",
+     "atreides"
+    ],
+    "tr": [
+     "paul atreides",
+     "muad dib",
+     "leto ii",
+     "alia",
+     "chani",
+     "fremen",
+     "arrakis",
+     "atreides"
+    ],
+    "ja": [
+     "ポール・アトレイデス",
+     "ムアディブ",
+     "レト2世",
+     "アリア",
+     "チャニ",
+     "フレメン",
+     "アラキス",
+     "アトレイデス"
+    ],
+    "ko": [
+     "폴 아트레이데스",
+     "무앗딥",
+     "레토 2세",
+     "알리아",
+     "차니",
+     "프레멘",
+     "아라키스",
+     "아트레이데스"
+    ],
+    "zh-CN": [
+     "保罗·厄崔迪",
+     "穆阿迪布",
+     "莱托二世",
+     "艾莉娅",
+     "契妮",
+     "弗雷曼人",
+     "厄拉科斯",
+     "厄崔迪"
+    ]
+   }
+  },
+  "avengers-doomsday": {
+   "forms": {
+    "en": [
+     "avengers doomsday",
+     "avengers 5",
+     "marvel doomsday"
+    ],
+    "uk": [
+     "месники судний день",
+     "avengers doomsday",
+     "avengers 5"
+    ],
+    "ru": [
+     "мстители судный день",
+     "avengers doomsday",
+     "avengers 5"
+    ],
+    "pl": [
+     "avengers doomsday",
+     "avengers 5",
+     "marvel doomsday"
+    ],
+    "de": [
+     "avengers doomsday",
+     "avengers 5",
+     "marvel doomsday"
+    ],
+    "fr": [
+     "avengers doomsday",
+     "avengers 5",
+     "marvel doomsday"
+    ],
+    "es": [
+     "vengadores doomsday",
+     "avengers doomsday",
+     "avengers 5"
+    ],
+    "it": [
+     "avengers doomsday",
+     "avengers 5",
+     "marvel doomsday"
+    ],
+    "pt-BR": [
+     "vingadores doomsday",
+     "avengers doomsday",
+     "avengers 5"
+    ],
+    "tr": [
+     "avengers doomsday",
+     "avengers 5",
+     "marvel doomsday"
+    ],
+    "ja": [
+     "アベンジャーズ ドゥームズデイ",
+     "avengers doomsday",
+     "avengers 5"
+    ],
+    "ko": [
+     "어벤져스 둠스데이",
+     "avengers doomsday",
+     "avengers 5"
+    ],
+    "zh-CN": [
+     "复仇者联盟 毁灭日",
+     "avengers doomsday",
+     "avengers 5"
+    ]
+   },
+   "extra": {
+    "en": [
+     "doctor doom"
+    ],
+    "uk": [
+     "доктор дум"
+    ],
+    "ru": [
+     "доктор дум"
+    ],
+    "pl": [
+     "doktor doom"
+    ],
+    "de": [
+     "doktor doom"
+    ],
+    "fr": [
+     "docteur fatalis"
+    ],
+    "es": [
+     "doctor muerte"
+    ],
+    "it": [
+     "dottor destino"
+    ],
+    "pt-BR": [
+     "doutor destino"
+    ],
+    "tr": [
+     "doctor doom"
+    ],
+    "ja": [
+     "ドクター・ドゥーム"
+    ],
+    "ko": [
+     "닥터 둠"
+    ],
+    "zh-CN": [
+     "毁灭博士"
+    ]
+   },
+   "names": {
+    "en": [
+     "victor von doom",
+     "thor",
+     "loki",
+     "captain america",
+     "steve rogers",
+     "fantastic four",
+     "x-men",
+     "thunderbolts"
+    ],
+    "uk": [
+     "віктор фон дум",
+     "тор",
+     "локі",
+     "капітан америка",
+     "стів роджерс",
+     "фантастична четвірка",
+     "люди ікс",
+     "громовержці"
+    ],
+    "ru": [
+     "виктор фон дум",
+     "тор",
+     "локи",
+     "капитан америка",
+     "стив роджерс",
+     "фантастическая четверка",
+     "люди икс",
+     "громовержцы"
+    ],
+    "pl": [
+     "victor von doom",
+     "thor",
+     "loki",
+     "kapitan ameryka",
+     "steve rogers",
+     "fantastyczna czwórka",
+     "x-men",
+     "thunderbolts"
+    ],
+    "de": [
+     "victor von doom",
+     "thor",
+     "loki",
+     "captain america",
+     "steve rogers",
+     "die fantastischen vier",
+     "x-men",
+     "thunderbolts"
+    ],
+    "fr": [
+     "victor von fatalis",
+     "thor",
+     "loki",
+     "captain america",
+     "steve rogers",
+     "les 4 fantastiques",
+     "x-men",
+     "thunderbolts"
+    ],
+    "es": [
+     "victor von muerte",
+     "thor",
+     "loki",
+     "capitán américa",
+     "steve rogers",
+     "los cuatro fantásticos",
+     "x-men",
+     "thunderbolts"
+    ],
+    "it": [
+     "victor von destino",
+     "thor",
+     "loki",
+     "captain america",
+     "steve rogers",
+     "i fantastici quattro",
+     "x-men",
+     "thunderbolts"
+    ],
+    "pt-BR": [
+     "victor von doom",
+     "thor",
+     "loki",
+     "capitão américa",
+     "steve rogers",
+     "quarteto fantástico",
+     "x-men",
+     "thunderbolts"
+    ],
+    "tr": [
+     "victor von doom",
+     "thor",
+     "loki",
+     "kaptan amerika",
+     "steve rogers",
+     "fantastik dörtlü",
+     "x-men",
+     "thunderbolts"
+    ],
+    "ja": [
+     "ヴィクター・フォン・ドゥーム",
+     "ソー",
+     "ロキ",
+     "キャプテン・アメリカ",
+     "スティーブ・ロジャース",
+     "ファンタスティック・フォー",
+     "X-MEN",
+     "サンダーボルツ"
+    ],
+    "ko": [
+     "빅터 폰 둠",
+     "토르",
+     "로키",
+     "캡틴 아메리카",
+     "스티브 로저스",
+     "판타스틱 4",
+     "엑스맨",
+     "썬더볼츠"
+    ],
+    "zh-CN": [
+     "维克多·冯·杜姆",
+     "雷神",
+     "洛基",
+     "美国队长",
+     "史蒂夫·罗杰斯",
+     "神奇四侠",
+     "X战警",
+     "雷霆特攻队"
+    ]
+   }
+  }
+ }
+}

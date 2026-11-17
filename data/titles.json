@@ -1,0 +1,17 @@
+{
+ "_note": "Даты релизов. Обновляет бот tools/check-title-dates.mjs (Actions, раз в неделю). qid = запись в Wikidata (бот находит сам и запоминает).",
+ "titles": {
+  "dune-3": {
+   "name": "Dune: Part Three",
+   "release": "2026-12-18",
+   "qid": null,
+   "checked": null
+  },
+  "avengers-doomsday": {
+   "name": "Avengers: Doomsday",
+   "release": "2026-12-18",
+   "qid": null,
+   "checked": null
+  }
+ }
+}
