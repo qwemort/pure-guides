@@ -4,14 +4,14 @@
   "dune-3": {
    "name": "Dune: Part Three",
    "release": "2026-12-18",
-   "qid": null,
-   "checked": null
+   "qid": "Q124714245",
+   "checked": "2026-11-17"
   },
   "avengers-doomsday": {
    "name": "Avengers: Doomsday",
    "release": "2026-12-18",
-   "qid": null,
-   "checked": null
+   "qid": "Q113244839",
+   "checked": "2026-11-17"
   }
  }
 }
