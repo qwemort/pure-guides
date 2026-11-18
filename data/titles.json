@@ -65,6 +65,16 @@
    "kind": "film",
    "published": "2026-11-18",
    "modified": "2026-11-18"
+  },
+  "harry-potter-hbo": {
+   "name": "Harry Potter HBO series",
+   "release": "2026-12-25",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-harry-potter-hbo-series-spoilers",
+   "kind": "show",
+   "published": "2026-11-18",
+   "modified": "2026-11-18"
   }
  }
 }

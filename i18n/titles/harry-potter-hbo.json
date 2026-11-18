@@ -1,0 +1,405 @@
+{
+ "en": {
+  "name": "Harry Potter (HBO series)",
+  "kicker": "SERIES · HBO · {date}",
+  "cover_tag": "SERIES · {date}",
+  "keep_val": "Whole season",
+  "desc": "The Harry Potter series starts on HBO {D}. You may know the book, but not what the show changes. Words to mute on X, Threads and TikTok, and what no filter catches.",
+  "lead": "Season 1 adapts Philosopher's Stone. The book is old news, so the real spoilers are what the show changes, cuts and adds, and they will follow every episode.",
+  "why_h": "Everyone knows the book, not the show",
+  "why": "<p>The story is from 1997, so spoilers here are different: new scenes, changed endings of episodes, cut characters and casting surprises. Those show up in reaction videos, memes and \"book vs show\" threads within hours of each episode.</p><p>Leaks from screenings can appear a few days before {D0}. Do not mute plain \"Harry Potter\": it also hides the films, games and everything else in the franchise.</p>",
+  "unknown": "What the show changes cannot be predicted from the book.",
+  "demo": "Harry Potter episode 1: the big change from the book",
+  "cover_line": "Episode 1",
+  "faq": [
+   [
+    "When does the Harry Potter series start?",
+    "The first season premieres on HBO and HBO Max on {D}."
+   ],
+   [
+    "What can be spoiled if I read the book?",
+    "Changes: new scenes, cut characters, a different order of events and casting reveals. Those are discussed right after each episode."
+   ],
+   [
+    "Which words should I mute?",
+    "The series name with words like episode, ending, spoilers and book vs show. Muting only \"Harry Potter\" also hides the films."
+   ],
+   [
+    "Can I mute words on YouTube?",
+    "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+   ]
+  ]
+ },
+ "ru": {
+  "name": "Гарри Поттер (сериал HBO)",
+  "kicker": "СЕРИАЛ · HBO · {date}",
+  "cover_tag": "СЕРИАЛ · {date}",
+  "keep_val": "Весь сезон",
+  "desc": "Сериал «Гарри Поттер» стартует на HBO {D}. Книгу вы, может, и знаете, а вот что поменяет сериал, нет. Какие слова скрыть в X, Threads и TikTok и что не ловит ни один фильтр.",
+  "lead": "Первый сезон снят по «Философскому камню». Книга давно известна, поэтому настоящие спойлеры тут в том, что сериал меняет, вырезает и добавляет, и они будут после каждой серии.",
+  "why_h": "Книгу знают все, сериал никто",
+  "why": "<p>Истории почти тридцать лет, так что спойлеры тут другие: новые сцены, иначе закончившиеся серии, вырезанные персонажи и сюрпризы в касте. Всё это появляется в реакциях, мемах и разборах «книга против сериала» через несколько часов после каждой серии.</p><p>Утечки с показов могут появиться за несколько дней до {D0}. Не скрывайте просто «Гарри Поттер»: пропадут и фильмы, и игры, и всё остальное во франшизе.</p>",
+  "unknown": "Что поменяет сериал, по книге не угадать.",
+  "demo": "Гарри Поттер, 1 серия: главное отличие от книги",
+  "cover_line": "1 серия",
+  "faq": [
+   [
+    "Когда выходит сериал «Гарри Поттер»?",
+    "Премьера первого сезона на HBO и HBO Max {D}."
+   ],
+   [
+    "Что можно проспойлерить, если я читал книгу?",
+    "Изменения: новые сцены, вырезанных персонажей, другой порядок событий и сюрпризы в касте. Их обсуждают сразу после каждой серии."
+   ],
+   [
+    "Какие слова скрыть?",
+    "Название сериала вместе со словами серия, концовка, спойлеры, книга и сериал. Если скрыть только «Гарри Поттер», пропадут и фильмы."
+   ],
+   [
+    "Можно ли скрыть слова на YouTube?",
+    "Нет, фильтра по словам на YouTube нет. В браузере на компьютере это может сделать расширение: оно размывает подходящие ролики и комментарии."
+   ]
+  ]
+ },
+ "uk": {
+  "name": "Гаррі Поттер (серіал HBO)",
+  "kicker": "СЕРІАЛ · HBO · {date}",
+  "cover_tag": "СЕРІАЛ · {date}",
+  "keep_val": "Увесь сезон",
+  "desc": "Серіал «Гаррі Поттер» стартує на HBO {D}. Книжку ви, можливо, знаєте, а от що змінить серіал, ні. Які слова приховати в X, Threads і TikTok і чого не ловить жоден фільтр.",
+  "lead": "Перший сезон знято за «Філософським каменем». Книжка давно відома, тож справжні спойлери тут у тому, що серіал змінює, вирізає й додає, і вони будуть після кожної серії.",
+  "why_h": "Книжку знають усі, серіал ніхто",
+  "why": "<p>Історії майже тридцять років, тож спойлери тут інші: нові сцени, інакше завершені серії, вирізані персонажі й сюрпризи в акторському складі. Усе це з'являється в реакціях, мемах і розборах «книжка проти серіалу» за кілька годин після кожної серії.</p><p>Витоки з показів можуть з'явитися за кілька днів до {D0}. Не приховуйте просто «Гаррі Поттер»: зникнуть і фільми, і ігри, і все інше у франшизі.</p>",
+  "unknown": "Що змінить серіал, за книжкою не вгадати.",
+  "demo": "Гаррі Поттер, 1 серія: головна відмінність від книжки",
+  "cover_line": "1 серія",
+  "faq": [
+   [
+    "Коли виходить серіал «Гаррі Поттер»?",
+    "Прем'єра першого сезону на HBO і HBO Max {D}."
+   ],
+   [
+    "Що можна проспойлерити, якщо я читав книжку?",
+    "Зміни: нові сцени, вирізаних персонажів, інший порядок подій і сюрпризи в акторському складі. Їх обговорюють одразу після кожної серії."
+   ],
+   [
+    "Які слова приховати?",
+    "Назву серіалу разом зі словами серія, фінал, спойлери, книжка і серіал. Якщо приховати лише «Гаррі Поттер», зникнуть і фільми."
+   ],
+   [
+    "Чи можна приховати слова на YouTube?",
+    "Ні, фільтра за словами на YouTube немає. У браузері на комп'ютері це може зробити розширення: воно розмиває відповідні ролики й коментарі."
+   ]
+  ]
+ },
+ "pl": {
+  "name": "Harry Potter (serial HBO)",
+  "kicker": "SERIAL · HBO · {date}",
+  "cover_tag": "SERIAL · {date}",
+  "keep_val": "Cały sezon",
+  "desc": "Serial „Harry Potter” startuje w HBO {D}. Książkę możesz znać, ale nie to, co zmieni serial. Jakie słowa wyciszyć na X, Threads i TikToku i czego nie złapie żaden filtr.",
+  "lead": "Pierwszy sezon to „Kamień filozoficzny”. Książka to stara historia, więc prawdziwe spoilery to zmiany, cięcia i dodatki serialu, a pojawią się po każdym odcinku.",
+  "why_h": "Książkę zna każdy, serialu nikt",
+  "why": "<p>Historia ma prawie trzydzieści lat, więc spoilery są tu inne: nowe sceny, inaczej zakończone odcinki, wycięte postacie i niespodzianki w obsadzie. Trafiają do reakcji, memów i porównań „książka kontra serial” kilka godzin po każdym odcinku.</p><p>Przecieki z pokazów mogą się pojawić kilka dni przed {D0}. Nie wyciszaj samego „Harry Potter”: znikną też filmy, gry i cała reszta serii.</p>",
+  "unknown": "Tego, co zmieni serial, nie da się odgadnąć z książki.",
+  "demo": "Harry Potter, odcinek 1: największa zmiana względem książki",
+  "cover_line": "Odcinek 1",
+  "faq": [
+   [
+    "Kiedy startuje serial „Harry Potter”?",
+    "Premiera pierwszego sezonu w HBO i HBO Max {D}."
+   ],
+   [
+    "Co można zaspoilerować, jeśli czytałem książkę?",
+    "Zmiany: nowe sceny, wycięte postacie, inną kolejność wydarzeń i niespodzianki w obsadzie. Omawia się je zaraz po każdym odcinku."
+   ],
+   [
+    "Jakie słowa wyciszyć?",
+    "Nazwę serialu razem ze słowami odcinek, zakończenie, spoilery, książka a serial. Samo „Harry Potter” ukryje też filmy."
+   ],
+   [
+    "Czy da się wyciszyć słowa na YouTube?",
+    "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+   ]
+  ]
+ },
+ "de": {
+  "name": "Harry Potter (HBO-Serie)",
+  "kicker": "SERIE · HBO · {date}",
+  "cover_tag": "SERIE · {date}",
+  "keep_val": "Ganze Staffel",
+  "desc": "Die Harry-Potter-Serie startet am {D} bei HBO. Das Buch kennst du vielleicht, aber nicht, was die Serie ändert. Welche Wörter du auf X, Threads und TikTok stummschaltest und was kein Filter erwischt.",
+  "lead": "Staffel 1 adaptiert den Stein der Weisen. Das Buch ist bekannt, die echten Spoiler sind also, was die Serie ändert, streicht und ergänzt, und die kommen nach jeder Folge.",
+  "why_h": "Das Buch kennt jeder, die Serie keiner",
+  "why": "<p>Die Geschichte ist fast dreißig Jahre alt, die Spoiler sind hier also andere: neue Szenen, anders endende Folgen, gestrichene Figuren und Überraschungen im Cast. Das landet Stunden nach jeder Folge in Reaktionen, Memes und „Buch gegen Serie“-Threads.</p><p>Leaks von Vorführungen können ein paar Tage vor dem {D0} auftauchen. Schalte nicht einfach „Harry Potter“ stumm: Das blendet auch Filme, Spiele und alles andere der Reihe aus.</p>",
+  "unknown": "Was die Serie ändert, lässt sich aus dem Buch nicht ablesen.",
+  "demo": "Harry Potter Folge 1: die größte Änderung zum Buch",
+  "cover_line": "Folge 1",
+  "faq": [
+   [
+    "Wann startet die Harry-Potter-Serie?",
+    "Die erste Staffel startet am {D} bei HBO und HBO Max."
+   ],
+   [
+    "Was kann gespoilert werden, wenn ich das Buch kenne?",
+    "Änderungen: neue Szenen, gestrichene Figuren, eine andere Reihenfolge und Cast-Überraschungen. Darüber wird direkt nach jeder Folge gesprochen."
+   ],
+   [
+    "Welche Wörter sollte ich stummschalten?",
+    "Den Seriennamen mit Wörtern wie Folge, Ende, Spoiler und Buch gegen Serie. Nur „Harry Potter“ blendet auch die Filme aus."
+   ],
+   [
+    "Kann ich auf YouTube Wörter stummschalten?",
+    "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+   ]
+  ]
+ },
+ "fr": {
+  "name": "Harry Potter (série HBO)",
+  "kicker": "SÉRIE · HBO · {date}",
+  "cover_tag": "SÉRIE · {date}",
+  "keep_val": "Toute la saison",
+  "desc": "La série Harry Potter démarre sur HBO le {D}. Vous connaissez peut-être le livre, pas ce que la série change. Les mots à masquer sur X, Threads et TikTok, et ce qu'aucun filtre n'attrape.",
+  "lead": "La saison 1 adapte L'École des sorciers. Le livre est connu, donc les vrais spoilers sont ce que la série change, coupe et ajoute, et ils suivront chaque épisode.",
+  "why_h": "Tout le monde connaît le livre, pas la série",
+  "why": "<p>L'histoire a presque trente ans, donc les spoilers sont d'un autre genre : nouvelles scènes, fins d'épisode modifiées, personnages coupés et surprises de casting. On les retrouve dans les réactions, les mèmes et les fils « livre contre série » quelques heures après chaque épisode.</p><p>Des fuites de projections peuvent sortir quelques jours avant le {D0}. Ne masquez pas simplement « Harry Potter » : cela cache aussi les films, les jeux et tout le reste de la saga.</p>",
+  "unknown": "Ce que la série change ne se devine pas avec le livre.",
+  "demo": "Harry Potter épisode 1 : le grand changement par rapport au livre",
+  "cover_line": "Épisode 1",
+  "faq": [
+   [
+    "Quand démarre la série Harry Potter ?",
+    "La première saison démarre sur HBO et HBO Max le {D}."
+   ],
+   [
+    "Qu'est-ce qui peut être spoilé si j'ai lu le livre ?",
+    "Les changements : nouvelles scènes, personnages coupés, autre ordre des événements et surprises de casting. On en parle juste après chaque épisode."
+   ],
+   [
+    "Quels mots masquer ?",
+    "Le nom de la série avec des mots comme épisode, fin, spoilers et livre contre série. Masquer seulement « Harry Potter » cache aussi les films."
+   ],
+   [
+    "Peut-on masquer des mots sur YouTube ?",
+    "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+   ]
+  ]
+ },
+ "es": {
+  "name": "Harry Potter (serie de HBO)",
+  "kicker": "SERIE · HBO · {date}",
+  "cover_tag": "SERIE · {date}",
+  "keep_val": "Toda la temporada",
+  "desc": "La serie de Harry Potter empieza en HBO el {D}. Quizá conozcas el libro, pero no lo que cambia la serie. Qué palabras silenciar en X, Threads y TikTok, y qué no atrapa ningún filtro.",
+  "lead": "La temporada 1 adapta La piedra filosofal. El libro es conocido, así que los spoilers de verdad son lo que la serie cambia, quita y añade, y llegarán tras cada episodio.",
+  "why_h": "Todos conocen el libro, nadie la serie",
+  "why": "<p>La historia tiene casi treinta años, así que aquí los spoilers son otros: escenas nuevas, finales de episodio distintos, personajes recortados y sorpresas del reparto. Aparecen en reacciones, memes e hilos de «libro contra serie» horas después de cada episodio.</p><p>Las filtraciones de pases pueden salir unos días antes del {D0}. No silencies solo «Harry Potter»: también ocultas las películas, los juegos y todo lo demás de la saga.</p>",
+  "unknown": "Lo que cambie la serie no se puede adivinar desde el libro.",
+  "demo": "Harry Potter episodio 1: el gran cambio respecto al libro",
+  "cover_line": "Episodio 1",
+  "faq": [
+   [
+    "¿Cuándo empieza la serie de Harry Potter?",
+    "La primera temporada se estrena en HBO y HBO Max el {D}."
+   ],
+   [
+    "¿Qué me pueden destripar si leí el libro?",
+    "Los cambios: escenas nuevas, personajes recortados, otro orden de los hechos y sorpresas del reparto. Se comentan justo después de cada episodio."
+   ],
+   [
+    "¿Qué palabras silencio?",
+    "El nombre de la serie con palabras como episodio, final, spoilers y libro vs serie. Silenciar solo «Harry Potter» también oculta las películas."
+   ],
+   [
+    "¿Puedo silenciar palabras en YouTube?",
+    "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+   ]
+  ]
+ },
+ "it": {
+  "name": "Harry Potter (serie HBO)",
+  "kicker": "SERIE · HBO · {date}",
+  "cover_tag": "SERIE · {date}",
+  "keep_val": "Tutta la stagione",
+  "desc": "La serie di Harry Potter parte su HBO il {D}. Forse conosci il libro, ma non cosa cambia la serie. Quali parole silenziare su X, Threads e TikTok e cosa nessun filtro blocca.",
+  "lead": "La stagione 1 adatta La pietra filosofale. Il libro è noto, quindi i veri spoiler sono ciò che la serie cambia, taglia e aggiunge, e arriveranno dopo ogni episodio.",
+  "why_h": "Tutti conoscono il libro, nessuno la serie",
+  "why": "<p>La storia ha quasi trent'anni, quindi qui gli spoiler sono diversi: scene nuove, finali di episodio cambiati, personaggi tagliati e sorprese nel cast. Finiscono in reaction, meme e thread «libro contro serie» poche ore dopo ogni episodio.</p><p>Le fughe di notizie dalle proiezioni possono uscire qualche giorno prima del {D0}. Non silenziare solo «Harry Potter»: nasconderesti anche film, giochi e tutto il resto della saga.</p>",
+  "unknown": "Cosa cambierà la serie non si capisce dal libro.",
+  "demo": "Harry Potter episodio 1: il grande cambiamento rispetto al libro",
+  "cover_line": "Episodio 1",
+  "faq": [
+   [
+    "Quando parte la serie di Harry Potter?",
+    "La prima stagione debutta su HBO e HBO Max il {D}."
+   ],
+   [
+    "Cosa possono spoilerarmi se ho letto il libro?",
+    "I cambiamenti: scene nuove, personaggi tagliati, un altro ordine degli eventi e sorprese nel cast. Se ne parla subito dopo ogni episodio."
+   ],
+   [
+    "Quali parole silenziare?",
+    "Il nome della serie con parole come episodio, finale, spoiler e libro contro serie. Silenziare solo «Harry Potter» nasconde anche i film."
+   ],
+   [
+    "Posso silenziare parole su YouTube?",
+    "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+   ]
+  ]
+ },
+ "pt-BR": {
+  "name": "Harry Potter (série da HBO)",
+  "kicker": "SÉRIE · HBO · {date}",
+  "cover_tag": "SÉRIE · {date}",
+  "keep_val": "A temporada toda",
+  "desc": "A série de Harry Potter estreia na HBO em {D}. Você pode conhecer o livro, mas não o que a série muda. Que palavras silenciar no X, Threads e TikTok e o que nenhum filtro pega.",
+  "lead": "A temporada 1 adapta A Pedra Filosofal. O livro todo mundo conhece, então os spoilers de verdade são o que a série muda, corta e acrescenta, e vão vir depois de cada episódio.",
+  "why_h": "Todo mundo conhece o livro, ninguém a série",
+  "why": "<p>A história tem quase trinta anos, então aqui os spoilers são outros: cenas novas, episódios que terminam diferente, personagens cortados e surpresas no elenco. Isso aparece em reacts, memes e threads de «livro vs série» poucas horas depois de cada episódio.</p><p>Vazamentos de exibições podem sair alguns dias antes de {D0}. Não silencie só «Harry Potter»: isso esconde os filmes, os jogos e todo o resto da franquia.</p>",
+  "unknown": "O que a série vai mudar não dá para adivinhar pelo livro.",
+  "demo": "Harry Potter episódio 1: a grande mudança em relação ao livro",
+  "cover_line": "Episódio 1",
+  "faq": [
+   [
+    "Quando estreia a série de Harry Potter?",
+    "A primeira temporada estreia na HBO e na HBO Max em {D}."
+   ],
+   [
+    "O que podem me dar spoiler se eu li o livro?",
+    "As mudanças: cenas novas, personagens cortados, outra ordem dos fatos e surpresas no elenco. Isso é comentado logo depois de cada episódio."
+   ],
+   [
+    "Quais palavras silenciar?",
+    "O nome da série com palavras como episódio, final, spoiler e livro vs série. Silenciar só «Harry Potter» esconde também os filmes."
+   ],
+   [
+    "Dá para silenciar palavras no YouTube?",
+    "Não, o YouTube não tem filtro de palavras. No navegador do computador, uma extensão pode desfocar vídeos e comentários que batem."
+   ]
+  ]
+ },
+ "tr": {
+  "name": "Harry Potter (HBO dizisi)",
+  "kicker": "DİZİ · HBO · {date}",
+  "cover_tag": "DİZİ · {date}",
+  "keep_val": "Tüm sezon",
+  "desc": "Harry Potter dizisi {D} tarihinde HBO'da başlıyor. Kitabı biliyor olabilirsiniz ama dizinin neyi değiştireceğini bilmiyorsunuz. X, Threads ve TikTok'ta hangi kelimeleri susturmalı, hangi şeyi hiçbir filtre yakalamaz.",
+  "lead": "1. sezon Felsefe Taşı'nı uyarlıyor. Kitap biliniyor, yani asıl spoilerlar dizinin neyi değiştirdiği, kestiği ve eklediği; bunlar her bölümden sonra gelecek.",
+  "why_h": "Kitabı herkes biliyor, diziyi kimse",
+  "why": "<p>Hikâye neredeyse otuz yaşında, bu yüzden spoilerlar farklı: yeni sahneler, farklı biten bölümler, çıkarılan karakterler ve oyuncu sürprizleri. Bunlar her bölümden birkaç saat sonra tepkilere, mimlere ve «kitap mı dizi mi» başlıklarına düşer.</p><p>Gösterimlerden sızıntılar {D0} tarihinden birkaç gün önce çıkabilir. Sadece «Harry Potter»ı susturmayın: filmler, oyunlar ve serinin geri kalanı da gizlenir.</p>",
+  "unknown": "Dizinin neyi değiştireceği kitaptan tahmin edilemez.",
+  "demo": "Harry Potter 1. bölüm: kitaptan en büyük fark",
+  "cover_line": "1. bölüm",
+  "faq": [
+   [
+    "Harry Potter dizisi ne zaman başlıyor?",
+    "İlk sezon {D} tarihinde HBO ve HBO Max'te başlıyor."
+   ],
+   [
+    "Kitabı okuduysam neyin spoilerını yiyebilirim?",
+    "Değişikliklerin: yeni sahneler, çıkarılan karakterler, farklı olay sırası ve oyuncu sürprizleri. Bunlar her bölümden hemen sonra konuşulur."
+   ],
+   [
+    "Hangi kelimeleri susturmalıyım?",
+    "Dizinin adını bölüm, son, spoiler ve kitap mı dizi mi gibi kelimelerle birlikte. Sadece «Harry Potter»ı susturmak filmleri de gizler."
+   ],
+   [
+    "YouTube'da kelime susturabilir miyim?",
+    "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+   ]
+  ]
+ },
+ "ja": {
+  "name": "ハリー・ポッター（HBO ドラマ）",
+  "kicker": "ドラマ · HBO · {date}",
+  "cover_tag": "ドラマ · {date}",
+  "keep_val": "シーズン全体",
+  "desc": "ドラマ版『ハリー・ポッター』は{D}に HBO で配信開始。原作は知っていても、ドラマが何を変えるかは知らないはず。X、Threads、TikTok でミュートするワードと、どのフィルターでも防げないもの。",
+  "lead": "シーズン1は『賢者の石』が原作です。原作は有名なので、本当のネタバレはドラマが変えたり、削ったり、足したりする部分。それが毎話のあとに出てきます。",
+  "why_h": "原作はみんな知っている、ドラマは誰も知らない",
+  "why": "<p>物語は30年近く前のものなので、ここでのネタバレは別物です。新しいシーン、終わり方が変わった回、削られたキャラクター、キャストのサプライズ。どれも各話の数時間後にはリアクション、ミーム、「原作とドラマの違い」スレッドに出てきます。</p><p>試写からのリークは{D0}の数日前に出ることもあります。「ハリー・ポッター」だけをミュートしないでください。映画やゲーム、シリーズのほかの作品まで消えます。</p>",
+  "unknown": "ドラマが何を変えるかは原作からは分かりません。",
+  "demo": "ハリー・ポッター 第1話：原作との大きな違い",
+  "cover_line": "第1話",
+  "faq": [
+   [
+    "ドラマ版ハリー・ポッターはいつから？",
+    "シーズン1は{D}から HBO と HBO Max で配信されます。"
+   ],
+   [
+    "原作を読んでいても何がネタバレになる？",
+    "変更点です。新しいシーン、削られたキャラクター、出来事の順番、キャストのサプライズ。各話の直後に話題になります。"
+   ],
+   [
+    "どのワードをミュートすべき？",
+    "ドラマのタイトルに、第何話、結末、ネタバレ、原作との違い、などを組み合わせます。「ハリー・ポッター」だけだと映画も消えます。"
+   ],
+   [
+    "YouTube でワードをミュートできる？",
+    "いいえ、YouTube にはワードフィルターがありません。PC のブラウザなら拡張機能で該当する動画やコメントをぼかせます。"
+   ]
+  ]
+ },
+ "ko": {
+  "name": "해리 포터 (HBO 드라마)",
+  "kicker": "드라마 · HBO · {date}",
+  "cover_tag": "드라마 · {date}",
+  "keep_val": "시즌 내내",
+  "desc": "해리 포터 드라마는 {D} HBO에서 시작합니다. 원작은 알아도 드라마가 무엇을 바꿀지는 모릅니다. X, Threads, TikTok에서 뮤트할 단어와 어떤 필터도 못 잡는 것.",
+  "lead": "시즌 1은 『마법사의 돌』이 원작입니다. 원작은 다 아는 이야기라 진짜 스포일러는 드라마가 바꾸고, 빼고, 더하는 부분이고, 매 회차가 끝날 때마다 나옵니다.",
+  "why_h": "원작은 다 알지만 드라마는 아무도 모른다",
+  "why": "<p>이야기가 거의 30년 전 것이라 여기서 스포일러는 다릅니다. 새 장면, 다르게 끝나는 회차, 빠진 캐릭터, 캐스팅 서프라이즈. 이런 것들은 매 회차 몇 시간 뒤 리액션, 밈, \"원작 vs 드라마\" 글에 올라옵니다.</p><p>시사회 유출은 {D0} 며칠 전에 나올 수도 있습니다. \"해리 포터\"만 뮤트하지 마세요. 영화, 게임 등 시리즈 전체가 사라집니다.</p>",
+  "unknown": "드라마가 무엇을 바꿀지는 원작으로 알 수 없습니다.",
+  "demo": "해리 포터 1화: 원작과 가장 큰 차이",
+  "cover_line": "1화",
+  "faq": [
+   [
+    "해리 포터 드라마는 언제 시작하나요?",
+    "시즌 1은 {D} HBO와 HBO Max에서 시작합니다."
+   ],
+   [
+    "원작을 읽었어도 스포일러가 있나요?",
+    "변경점이 있습니다. 새 장면, 빠진 캐릭터, 다른 사건 순서, 캐스팅 서프라이즈. 매 회차 직후에 이야기됩니다."
+   ],
+   [
+    "어떤 단어를 뮤트해야 하나요?",
+    "드라마 제목에 회차, 결말, 스포일러, 원작 vs 드라마 같은 단어를 더하세요. \"해리 포터\"만 뮤트하면 영화도 사라집니다."
+   ],
+   [
+    "YouTube에서 단어를 뮤트할 수 있나요?",
+    "아니요, YouTube에는 단어 필터가 없습니다. PC 브라우저에서는 확장 프로그램이 해당 영상과 댓글을 흐리게 할 수 있습니다."
+   ]
+  ]
+ },
+ "zh-CN": {
+  "name": "哈利·波特（HBO 剧集）",
+  "kicker": "剧集 · HBO · {date}",
+  "cover_tag": "剧集 · {date}",
+  "keep_val": "整季",
+  "desc": "《哈利·波特》剧集{D}在 HBO 开播。你也许熟悉原著，但不知道剧集会改什么。X、Threads 和 TikTok 上该屏蔽哪些词，以及任何过滤都挡不住的东西。",
+  "lead": "第一季改编自《魔法石》。原著大家都知道，所以真正的剧透是剧集改了什么、删了什么、加了什么，而且每集播完都会出现。",
+  "why_h": "原著人人都知道，剧集没人知道",
+  "why": "<p>这个故事已经快三十年了，所以这里的剧透不一样：新场景、结尾不同的单集、被删的角色和选角惊喜。每集播出几小时后，这些就会出现在反应视频、梗图和“原著对比剧集”的帖子里。</p><p>试映的泄露可能在{D0}前几天出现。不要只屏蔽“哈利·波特”：电影、游戏和整个系列的其他内容也会被挡掉。</p>",
+  "unknown": "剧集会改什么，从原著里猜不出来。",
+  "demo": "哈利·波特 第 1 集：和原著最大的不同",
+  "cover_line": "第 1 集",
+  "faq": [
+   [
+    "《哈利·波特》剧集什么时候开播？",
+    "第一季{D}在 HBO 和 HBO Max 开播。"
+   ],
+   [
+    "读过原著还会被剧透什么？",
+    "改动：新场景、被删的角色、不同的事件顺序和选角惊喜。每集播完马上就会有人讨论。"
+   ],
+   [
+    "应该屏蔽哪些词？",
+    "剧名，加上第几集、结局、剧透、原著对比剧集等词。只屏蔽“哈利·波特”也会挡掉电影。"
+   ],
+   [
+    "YouTube 能屏蔽关键词吗？",
+    "不能，YouTube 没有关键词过滤。在电脑浏览器里，扩展可以模糊匹配的视频和评论。"
+   ]
+  ]
+ }
+}

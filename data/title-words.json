@@ -1396,6 +1396,248 @@
      "普鲁塔克·海文斯比"
     ]
    }
+  },
+  "harry-potter-hbo": {
+   "forms": {
+    "en": [
+     "harry potter hbo",
+     "harry potter series",
+     "harry potter show"
+    ],
+    "ru": [
+     "гарри поттер сериал",
+     "гарри поттер hbo",
+     "гарри поттер 1 сезон"
+    ],
+    "uk": [
+     "гаррі поттер серіал",
+     "гаррі поттер hbo",
+     "гаррі поттер 1 сезон"
+    ],
+    "pl": [
+     "harry potter serial",
+     "harry potter hbo",
+     "harry potter sezon 1"
+    ],
+    "de": [
+     "harry potter serie",
+     "harry potter hbo",
+     "harry potter staffel 1"
+    ],
+    "fr": [
+     "harry potter série",
+     "harry potter hbo",
+     "harry potter saison 1"
+    ],
+    "es": [
+     "harry potter serie",
+     "harry potter hbo",
+     "harry potter temporada 1"
+    ],
+    "it": [
+     "harry potter serie",
+     "harry potter hbo",
+     "harry potter stagione 1"
+    ],
+    "pt-BR": [
+     "harry potter série",
+     "harry potter hbo",
+     "harry potter temporada 1"
+    ],
+    "tr": [
+     "harry potter dizisi",
+     "harry potter hbo",
+     "harry potter 1. sezon"
+    ],
+    "ja": [
+     "ハリー・ポッター ドラマ",
+     "ハリー・ポッター hbo",
+     "ハリー・ポッター シーズン1"
+    ],
+    "ko": [
+     "해리 포터 드라마",
+     "해리 포터 hbo",
+     "해리 포터 시즌1"
+    ],
+    "zh-CN": [
+     "哈利波特 剧集",
+     "哈利波特 hbo",
+     "哈利波特 第一季"
+    ]
+   },
+   "extra": {
+    "en": [
+     "harry potter and the philosopher's stone"
+    ],
+    "ru": [
+     "гарри поттер и философский камень"
+    ],
+    "uk": [
+     "гаррі поттер і філософський камінь"
+    ],
+    "pl": [
+     "harry potter i kamień filozoficzny"
+    ],
+    "de": [
+     "harry potter und der stein der weisen"
+    ],
+    "fr": [
+     "harry potter à l'école des sorciers"
+    ],
+    "es": [
+     "harry potter y la piedra filosofal"
+    ],
+    "it": [
+     "harry potter e la pietra filosofale"
+    ],
+    "pt-BR": [
+     "harry potter e a pedra filosofal"
+    ],
+    "tr": [
+     "harry potter ve felsefe taşı"
+    ],
+    "ja": [
+     "ハリー・ポッターと賢者の石"
+    ],
+    "ko": [
+     "해리 포터와 마법사의 돌"
+    ],
+    "zh-CN": [
+     "哈利·波特与魔法石"
+    ]
+   },
+   "names": {
+    "en": [
+     "hermione",
+     "ron weasley",
+     "dumbledore",
+     "snape",
+     "voldemort",
+     "quirrell",
+     "hagrid",
+     "draco malfoy"
+    ],
+    "ru": [
+     "гермиона",
+     "рон уизли",
+     "дамблдор",
+     "снегг",
+     "волан-де-морт",
+     "квиррелл",
+     "хагрид",
+     "драко малфой"
+    ],
+    "uk": [
+     "герміона",
+     "рон візлі",
+     "дамблдор",
+     "снейп",
+     "волдеморт",
+     "квірел",
+     "геґрід",
+     "драко мелфой"
+    ],
+    "pl": [
+     "hermiona",
+     "ron weasley",
+     "dumbledore",
+     "snape",
+     "voldemort",
+     "quirrell",
+     "hagrid",
+     "draco malfoy"
+    ],
+    "de": [
+     "hermine",
+     "ron weasley",
+     "dumbledore",
+     "snape",
+     "voldemort",
+     "quirrell",
+     "hagrid",
+     "draco malfoy"
+    ],
+    "fr": [
+     "hermione",
+     "ron weasley",
+     "dumbledore",
+     "rogue",
+     "voldemort",
+     "quirrell",
+     "hagrid",
+     "drago malefoy"
+    ],
+    "es": [
+     "hermione",
+     "ron weasley",
+     "dumbledore",
+     "snape",
+     "voldemort",
+     "quirrell",
+     "hagrid",
+     "draco malfoy"
+    ],
+    "it": [
+     "hermione",
+     "ron weasley",
+     "silente",
+     "piton",
+     "voldemort",
+     "raptor",
+     "hagrid",
+     "draco malfoy"
+    ],
+    "pt-BR": [
+     "hermione",
+     "rony weasley",
+     "dumbledore",
+     "snape",
+     "voldemort",
+     "quirrell",
+     "hagrid",
+     "draco malfoy"
+    ],
+    "tr": [
+     "hermione",
+     "ron weasley",
+     "dumbledore",
+     "snape",
+     "voldemort",
+     "quirrell",
+     "hagrid",
+     "draco malfoy"
+    ],
+    "ja": [
+     "ハーマイオニー",
+     "ロン・ウィーズリー",
+     "ダンブルドア",
+     "スネイプ",
+     "ヴォルデモート",
+     "クィレル",
+     "ハグリッド",
+     "ドラコ・マルフォイ"
+    ],
+    "ko": [
+     "헤르미온느",
+     "론 위즐리",
+     "덤블도어",
+     "스네이프",
+     "볼드모트",
+     "퀴렐",
+     "해그리드",
+     "드레이코 말포이"
+    ],
+    "zh-CN": [
+     "赫敏",
+     "罗恩·韦斯莱",
+     "邓布利多",
+     "斯内普",
+     "伏地魔",
+     "奇洛",
+     "海格",
+     "德拉科·马尔福"
+    ]
+   }
   }
  }
 }
