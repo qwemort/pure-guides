@@ -1,0 +1,41 @@
+{
+ "en": {
+  "name": "The Institute"
+ },
+ "ru": {
+  "name": "Институт"
+ },
+ "uk": {
+  "name": "Інститут"
+ },
+ "pl": {
+  "name": "Instytut"
+ },
+ "de": {
+  "name": "Das Institut"
+ },
+ "fr": {
+  "name": "L'Institut"
+ },
+ "es": {
+  "name": "El instituto"
+ },
+ "it": {
+  "name": "L'istituto"
+ },
+ "pt-BR": {
+  "name": "O Instituto"
+ },
+ "tr": {
+  "name": "Enstitü"
+ },
+ "ja": {
+  "name": "インスティテュート"
+ },
+ "ko": {
+  "name": "인스티튜트"
+ },
+ "zh-CN": {
+  "name": "研究所"
+ }
+}

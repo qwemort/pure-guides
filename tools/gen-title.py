@@ -40,12 +40,17 @@ def chips(ws): return '<div class="chips">' + ''.join(f'<button class="chip" typ
 
 
 def page(tid, lang, U, langs_here):
-    T, S, u = TD['titles'][tid], S_[lang], U[lang]
+    T, S = TD['titles'][tid], S_[lang]
+    # Общие тексты по типу (game/film/show/anime) из i18n/title.<язык>.json → "gen"; своё у тайтла их перекрывает.
+    kind = T.get('tmpl') or {'movie': 'film'}.get(T.get('kind', 'film'), T.get('kind', 'film'))   # tmpl: набор текстов, если он не совпадает с типом обложки
+    gen = json.loads(json.dumps(S['gen'][kind]).replace('{name}', U[lang]['name'].replace('"', '\\"')))
+    if not T.get('release'): gen = {**gen, **{k[3:]: v for k, v in gen.items() if k.startswith('nd_')}}   # без даты: варианты nd_*
+    u = {**gen, **U[lang]}
     D = W['titles'][tid]
-    d = dt.date.fromisoformat(T['release'])
+    d = dt.date.fromisoformat(T['release']) if T.get('release') else None   # None: сериал/аниме без одной даты
     name = u['name']
-    tok = lambda x: x.replace('{D}', fmt(S, d, True, True)).replace('{D0}', fmt(S, d, True))
-    full = fmt(S, d, False, True)
+    tok = (lambda x: x.replace('{D}', fmt(S, d, True, True)).replace('{D0}', fmt(S, d, True))) if d else (lambda x: x)
+    full = fmt(S, d, False, True) if d else ''
     h1 = S['h1'].format(name=name)
     h1_html = re.sub('([«„《]?)\x00([»”》]?)', lambda m: ('<span class="nowrap">' if len(name) <= 24 else '<span>') + m.group(1) + esc(name) + m.group(2) + '</span>', esc(S['h1'].format(name='\x00')))   # длинные названия (>24) переносим
     cover = re.sub(r'\s?:\s', ':<br>', esc(name), count=1)
@@ -59,7 +64,10 @@ def page(tid, lang, U, langs_here):
         return (f'<div class="t-bar"><span style="left:{pc(a)}%;width:{max(pc(b) - pc(a), 2)}%"></span><i style="left:{pc(mark)}%"></i></div>'
                 f'<div class="t-scale"><span>{fmt(S, lo)}</span><span>{fmt(S, mark)}</span><span>{fmt(S, hi)}</span></div>')
     keep = esc(u.get('keep_val', S['keep_season'] if sea and sea.get('every') else S['keep_val']))
-    if sea and sea.get('every'):
+    if not d:
+        rows = [(S['l_now'], S['nd_now_' + kind] if ('nd_now_' + kind) in S else S['now_val']), (S['l_keep'], keep)]
+        barh = ''
+    elif sea and sea.get('every'):
         n, ev = sea['episodes'], sea['every']
         fin = d + dt.timedelta(days=ev * (n - 1))
         k = 0 if today < d else min(n, (today - d).days // ev + 1)
@@ -75,7 +83,8 @@ def page(tid, lang, U, langs_here):
         r2 = (S['l_now'], S['now_val']) if out else (S['l_from'], f'~{fmt(S, d - dt.timedelta(days=4))} <span class="muted" style="font-weight:400">{S["l_approx"]}</span>')
         rows = [r1, r2, (S['l_keep'], keep)]
         lo, hi = d - dt.timedelta(days=17), d + dt.timedelta(days=28)
-        barh = bar(d - dt.timedelta(days=4), d + dt.timedelta(days=14), lo, hi, min(max(today, lo), hi) if out else d)
+        hi = max(hi, today + dt.timedelta(days=7)) if out else hi
+        barh = '' if out and (today - d).days > 45 else bar(d - dt.timedelta(days=4), d + dt.timedelta(days=14), lo, hi, today if out else d)   # давно вышедшим полоса не нужна
     datecard = '<div class="t-date"><dl>' + ''.join(f'<dt>{a}</dt><dd>{b}</dd>' for a, b in rows) + '</dl>' + barh + '</div>'
 
     def panel(code):
@@ -96,6 +105,7 @@ def page(tid, lang, U, langs_here):
 
     rel = []   # «ещё скоро»: другие тайтлы (на этом языке, если есть) и доп. страницы
     for oid, o in TD['titles'].items():
+        if not o.get('release'): continue
         se = o.get('season') or {}
         end = (dt.date.fromisoformat(o['release']) + dt.timedelta(days=se.get('every', 0) * (se.get('episodes', 1) - 1))).isoformat()
         if oid == tid or end < dt.date.today().isoformat(): continue   # закончившиеся не «скоро» (у сериала по финалу)
@@ -113,8 +123,8 @@ def page(tid, lang, U, langs_here):
     sec_html = ''.join(f'<section id="{x["id"]}"><h2>{esc(x["h"])}</h2>{tok(x["html"])}</section>' for x in secs)
     sec_nav = ''.join(f'<a href="#{x["id"]}">{esc(x["nav"])}</a>' for x in secs)
     desc = tok(u['desc'])
-    ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': h1, 'description': desc, 'datePublished': T.get('published', T['release']),
-           'dateModified': T.get('modified', T.get('published', T['release'])), 'inLanguage': lang, 'image': BASE + 'img/og.png', 'author': {'@type': 'Organization', 'name': 'Pure guides'}, 'mainEntityOfPage': url},
+    ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': h1, 'description': desc, 'datePublished': T.get('published', T.get('release')),
+           'dateModified': T.get('modified', T.get('published', T.get('release'))), 'inLanguage': lang, 'image': BASE + 'img/og.png', 'author': {'@type': 'Organization', 'name': 'Pure guides'}, 'mainEntityOfPage': url},
           {'@context': 'https://schema.org', '@type': 'FAQPage', 'inLanguage': lang, 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in faq]}]
     ldj = ''.join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>\n' for x in ld)
     return f'''<!doctype html>
@@ -139,12 +149,12 @@ def page(tid, lang, U, langs_here):
 <main class="t-wrap">
 <div class="t-head">
  <div>
-  <p class="t-kicker">{u.get('kicker', S['kicker_film']).format(date=full.upper())}</p>
+  <p class="t-kicker">{u.get('kicker', S['kicker_film']).format(date=full.upper()).rstrip(' ·')}</p>
   <h1>{h1_html}</h1>
   <p class="t-lead">{u['lead']}</p>
  </div>
  <aside class="t-side">
-  <div class="cv cv-{T.get('kind', 'film')}"><div class="cv-tag"><i></i>{u.get('cover_tag', S['cover_tag_film']).format(date=full.upper())}</div><div class="cv-h">{cover}</div><div class="cv-line">{esc(u['cover_line'])} <span class="cv-bar">{S['click']}</span></div></div>
+  <div class="cv cv-{T.get('kind', 'film')}"><div class="cv-tag"><i></i>{u.get('cover_tag', S['cover_tag_film']).format(date=full.upper()).rstrip(' ·')}</div><div class="cv-h">{cover}</div><div class="cv-line">{esc(u['cover_line'])} <span class="cv-bar">{S['click']}</span></div></div>
   {datecard}
   </div>
  </aside>

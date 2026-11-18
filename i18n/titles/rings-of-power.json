@@ -1,0 +1,41 @@
+{
+ "en": {
+  "name": "The Rings of Power"
+ },
+ "ru": {
+  "name": "Властелин колец: Кольца власти"
+ },
+ "uk": {
+  "name": "Володар перснів: Персні влади"
+ },
+ "pl": {
+  "name": "Pierścienie Władzy"
+ },
+ "de": {
+  "name": "Die Ringe der Macht"
+ },
+ "fr": {
+  "name": "Les Anneaux de pouvoir"
+ },
+ "es": {
+  "name": "Los anillos de poder"
+ },
+ "it": {
+  "name": "Gli Anelli del Potere"
+ },
+ "pt-BR": {
+  "name": "Os Anéis de Poder"
+ },
+ "tr": {
+  "name": "Güç Yüzükleri"
+ },
+ "ja": {
+  "name": "ロード・オブ・ザ・リング：力の指輪"
+ },
+ "ko": {
+  "name": "반지의 제왕: 힘의 반지"
+ },
+ "zh-CN": {
+  "name": "指环王：力量之戒"
+ }
+}

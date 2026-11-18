@@ -97,5 +97,170 @@
   "venerdì",
   "sabato",
   "domenica"
- ]
+ ],
+ "gen": {
+  "game": {
+   "kicker": "GIOCO · {date}",
+   "cover_tag": "GIOCO · {date}",
+   "keep_val": "Finché non lo finisci",
+   "desc": "Come evitare gli spoiler di {name}: quali parole silenziare su X, Threads e TikTok, una lista pronta che sfoca video e post su YouTube, Reddit e X, e cosa nessun filtro blocca.",
+   "lead": "Ognuno gioca al suo ritmo, quindi il finale è online mentre molti sono a metà. Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+   "why_h": "Perché è difficile evitarli",
+   "why": "<p>Live, video «finale spiegato» e reaction mettono i momenti chiave in miniature e titoli, e vanno avanti per settimane dopo il {D0}.</p><p>Non silenziare solo il nome della serie: nasconderesti notizie, guide e altri giochi. Usa la lista principale qui sotto e la modalità rigida nelle prime settimane.</p>",
+   "nd_why": "<p>Live, video «finale spiegato» e reaction mettono i momenti chiave in miniature e titoli, e vanno avanti per settimane dopo l'uscita.</p><p>Non silenziare solo il nome della serie: nasconderesti notizie, guide e altri giochi. Usa la lista principale qui sotto e la modalità rigida nelle prime settimane.</p>",
+   "unknown": "Momenti della storia che i trailer non hanno mostrato.",
+   "demo": "{name}: il finale spiegato",
+   "cover_line": "Il finale",
+   "faq": [
+    [
+     "Quando esce {name}?",
+     "{D}."
+    ],
+    [
+     "Quali parole silenziare?",
+     "Il titolo del gioco con parole come finale, boss finale, chi muore e spoiler. Silenziare solo il nome della serie nasconde anche notizie e guide."
+    ],
+    [
+     "Per quanto tenere i filtri?",
+     "Finché non finisci la storia. Quasi tutti gli spoiler arrivano nelle prime settimane, ma il finale resta nei titoli dei video per mesi."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quali parole silenziare?",
+     "Il titolo del gioco con parole come finale, boss finale, chi muore e spoiler. Silenziare solo il nome della serie nasconde anche notizie e guide."
+    ],
+    [
+     "Per quanto tenere i filtri?",
+     "Finché non finisci la storia. Quasi tutti gli spoiler arrivano nelle prime settimane, ma il finale resta nei titoli dei video per mesi."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ]
+  },
+  "film": {
+   "desc": "Come evitare gli spoiler di {name}: quali parole silenziare su X, Threads e TikTok, una lista pronta che sfoca video e post su YouTube, Reddit e X, e cosa nessun filtro blocca.",
+   "lead": "Gli spoiler arrivano da anteprime e proiezioni stampa, poi dal primo weekend. Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+   "why_h": "Perché è difficile evitarli",
+   "why": "<p>I dettagli trapelano dalle anteprime qualche giorno prima del {D0}, e video «finale spiegato» e meme arrivano la sera dell'uscita.</p><p>Non silenziare solo il nome della saga: nasconderesti i film precedenti e notizie innocue. Usa la lista principale qui sotto.</p>",
+   "nd_why": "<p>I dettagli trapelano da anteprime e proiezioni stampa, e video «finale spiegato» e meme arrivano la sera dell'uscita.</p><p>Non silenziare solo il nome della saga: nasconderesti i film precedenti e notizie innocue. Usa la lista principale qui sotto.</p>",
+   "unknown": "Cameo e colpi di scena nascosti dai trailer.",
+   "demo": "{name}: il finale spiegato",
+   "cover_line": "Il finale",
+   "faq": [
+    [
+     "Quando esce {name}?",
+     "Al cinema dal {D}. In alcuni paesi dopo."
+    ],
+    [
+     "Quali parole silenziare?",
+     "Il titolo del film con parole come finale, scena post-credit, chi muore e spoiler. Silenziare solo il nome della saga nasconde anche i film precedenti."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quali parole silenziare?",
+     "Il titolo del film con parole come finale, scena post-credit, chi muore e spoiler. Silenziare solo il nome della saga nasconde anche i film precedenti."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ]
+  },
+  "show": {
+   "kicker": "SERIE · {date}",
+   "cover_tag": "SERIE · {date}",
+   "keep_val": "Finché non sei in pari",
+   "desc": "Come evitare gli spoiler di {name}: quali parole silenziare su X, Threads e TikTok, una lista pronta che sfoca video e post su YouTube, Reddit e X, e cosa nessun filtro blocca.",
+   "lead": "Ogni nuovo episodio porta in poche ore reaction, meme e teorie. Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+   "why_h": "Perché è difficile evitarli",
+   "why": "<p>Dal {D0} ogni episodio viene commentato la sera stessa: reaction, riassunti e meme mettono il colpo di scena in miniature e titoli.</p><p>Non silenziare solo il nome della serie: nasconderesti trailer e notizie. Usa la lista principale qui sotto finché non sei in pari.</p>",
+   "nd_why": "<p>Ogni episodio viene commentato la sera stessa: reaction, riassunti e meme mettono il colpo di scena in miniature e titoli.</p><p>Non silenziare solo il nome della serie: nasconderesti trailer e notizie. Usa la lista principale qui sotto finché non sei in pari.</p>",
+   "unknown": "Colpi di scena di episodi non ancora usciti.",
+   "demo": "{name}: l'episodio di cui parlano tutti",
+   "cover_line": "Il colpo di scena",
+   "faq": [
+    [
+     "Quando inizia {name}?",
+     "La nuova stagione inizia il {D}."
+    ],
+    [
+     "Quali parole silenziare?",
+     "Il nome della serie con parole come episodio, finale, chi muore e spoiler. Silenziare solo il nome nasconde anche i trailer."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quali parole silenziare?",
+     "Il nome della serie con parole come episodio, finale, chi muore e spoiler. Silenziare solo il nome nasconde anche i trailer."
+    ],
+    [
+     "Per quanto tenere i filtri?",
+     "Finché non sei in pari. Gli spoiler sono al massimo il primo giorno dopo ogni episodio."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ]
+  },
+  "anime": {
+   "kicker": "ANIME · {date}",
+   "cover_tag": "ANIME · {date}",
+   "keep_val": "Finché non sei in pari",
+   "desc": "Come evitare gli spoiler di {name}: quali parole silenziare su X, Threads e TikTok, una lista pronta che sfoca video e post su YouTube, Reddit e X, e cosa nessun filtro blocca.",
+   "lead": "Chi legge il manga sa già cosa succede, e ogni episodio porta clip e meme. Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+   "why_h": "Perché è difficile evitarli",
+   "why": "<p>Se l'anime adatta un manga, la storia è già online, e i lettori postano tavole e commenti «aspetta di vedere» sotto ogni clip. Dal {D0} ogni episodio aggiunge reaction ed edit.</p><p>Non silenziare solo il titolo: nasconderesti notizie e merch. Usa la lista principale qui sotto.</p>",
+   "nd_why": "<p>Se l'anime adatta un manga, la storia è già online, e i lettori postano tavole e commenti «aspetta di vedere» sotto ogni clip. Ogni episodio aggiunge reaction ed edit.</p><p>Non silenziare solo il titolo: nasconderesti notizie e merch. Usa la lista principale qui sotto.</p>",
+   "unknown": "Tavole del manga postate come immagini.",
+   "demo": "{name}: questo episodio cambia tutto",
+   "cover_line": "Il colpo di scena",
+   "faq": [
+    [
+     "Quando va in onda {name}?",
+     "La nuova stagione inizia il {D}."
+    ],
+    [
+     "Quali parole silenziare?",
+     "Il titolo con parole come spoiler del manga, episodio, chi muore e leak. Anche i numeri dei capitoli del manga sono spoiler."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quali parole silenziare?",
+     "Il titolo con parole come spoiler del manga, episodio, chi muore e leak. Anche i numeri dei capitoli del manga sono spoiler."
+    ],
+    [
+     "Il manga spoilera l'anime?",
+     "Di solito sì. L'anime segue il manga, quindi tavole e discussioni sui capitoli rivelano cosa succederà."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ]
+  }
+ },
+ "nd_now_show": "Dopo ogni episodio",
+ "nd_now_anime": "Dopo ogni episodio"
 }

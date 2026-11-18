@@ -12,6 +12,7 @@ const get = async (q) => { const r = await fetch(`${API}?format=json&origin=*&${
 const today = new Date().toISOString().slice(0, 10); const days = (a, b) => Math.round((new Date(a) - new Date(b)) / 864e5);
 let changed = false; const rep = [];
 for (const [id, t] of Object.entries(J.titles)) {
+  if (!t.release) continue;   // сериалы/аниме без одной даты
   try {
     if (!t.qid) {
       const s = await get({ action: 'wbsearchentities', search: t.name, language: 'en', type: 'item', limit: '10' });

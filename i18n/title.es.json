@@ -97,5 +97,170 @@
   "viernes",
   "sábado",
   "domingo"
- ]
+ ],
+ "gen": {
+  "game": {
+   "kicker": "JUEGO · {date}",
+   "cover_tag": "JUEGO · {date}",
+   "keep_val": "Hasta que lo termines",
+   "desc": "Cómo evitar spoilers de {name}: qué palabras silenciar en X, Threads y TikTok, una lista lista que difumina vídeos y posts en YouTube, Reddit y X, y qué no atrapa ningún filtro.",
+   "lead": "Cada uno juega a su ritmo, así que el final está en internet mientras muchos van por la mitad. Qué silenciar, dónde y qué no detiene ningún ajuste.",
+   "why_h": "Por qué es difícil evitarlos",
+   "why": "<p>Directos, vídeos de «final explicado» y reacciones ponen los grandes momentos en miniaturas y títulos, y siguen durante semanas después del {D0}.</p><p>No silencies solo el nombre de la saga: también ocultas noticias, guías y otros juegos. Usa la lista principal de abajo y el modo estricto las primeras semanas.</p>",
+   "nd_why": "<p>Directos, vídeos de «final explicado» y reacciones ponen los grandes momentos en miniaturas y títulos, y siguen durante semanas después del lanzamiento.</p><p>No silencies solo el nombre de la saga: también ocultas noticias, guías y otros juegos. Usa la lista principal de abajo y el modo estricto las primeras semanas.</p>",
+   "unknown": "Momentos de la historia que los tráileres no mostraron.",
+   "demo": "{name}: el final explicado",
+   "cover_line": "El final",
+   "faq": [
+    [
+     "¿Cuándo sale {name}?",
+     "{D}."
+    ],
+    [
+     "¿Qué palabras silencio?",
+     "El título del juego con palabras como final, jefe final, quién muere y spoilers. Silenciar solo el nombre de la saga también oculta noticias y guías."
+    ],
+    [
+     "¿Cuánto tiempo mantengo los filtros?",
+     "Hasta terminar la historia. La mayoría de spoilers llega en las primeras semanas, pero el final sigue en títulos de vídeos durante meses."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "¿Qué palabras silencio?",
+     "El título del juego con palabras como final, jefe final, quién muere y spoilers. Silenciar solo el nombre de la saga también oculta noticias y guías."
+    ],
+    [
+     "¿Cuánto tiempo mantengo los filtros?",
+     "Hasta terminar la historia. La mayoría de spoilers llega en las primeras semanas, pero el final sigue en títulos de vídeos durante meses."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ]
+  },
+  "film": {
+   "desc": "Cómo evitar spoilers de {name}: qué palabras silenciar en X, Threads y TikTok, una lista lista que difumina vídeos y posts en YouTube, Reddit y X, y qué no atrapa ningún filtro.",
+   "lead": "Los spoilers llegan de preestrenos y pases de prensa, y luego del primer fin de semana. Qué silenciar, dónde y qué no detiene ningún ajuste.",
+   "why_h": "Por qué es difícil evitarlos",
+   "why": "<p>Los detalles se filtran de los preestrenos unos días antes del {D0}, y los vídeos de «final explicado» y los memes llegan la noche del estreno.</p><p>No silencies solo el nombre de la saga: también ocultas películas anteriores y noticias inofensivas. Usa la lista principal de abajo.</p>",
+   "nd_why": "<p>Los detalles se filtran de preestrenos y pases de prensa, y los vídeos de «final explicado» y los memes llegan la noche del estreno.</p><p>No silencies solo el nombre de la saga: también ocultas películas anteriores y noticias inofensivas. Usa la lista principal de abajo.</p>",
+   "unknown": "Cameos y giros que los tráileres ocultaron.",
+   "demo": "{name}: el final explicado",
+   "cover_line": "El final",
+   "faq": [
+    [
+     "¿Cuándo se estrena {name}?",
+     "En cines desde el {D}. En algunos países, más tarde."
+    ],
+    [
+     "¿Qué palabras silencio?",
+     "El título de la película con palabras como final, escena poscréditos, quién muere y spoilers. Silenciar solo el nombre de la saga también oculta las películas anteriores."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "¿Qué palabras silencio?",
+     "El título de la película con palabras como final, escena poscréditos, quién muere y spoilers. Silenciar solo el nombre de la saga también oculta las películas anteriores."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ]
+  },
+  "show": {
+   "kicker": "SERIE · {date}",
+   "cover_tag": "SERIE · {date}",
+   "keep_val": "Hasta ponerte al día",
+   "desc": "Cómo evitar spoilers de {name}: qué palabras silenciar en X, Threads y TikTok, una lista lista que difumina vídeos y posts en YouTube, Reddit y X, y qué no atrapa ningún filtro.",
+   "lead": "Cada episodio nuevo trae en horas reacciones, memes y teorías. Qué silenciar, dónde y qué no detiene ningún ajuste.",
+   "why_h": "Por qué es difícil evitarlos",
+   "why": "<p>Desde el {D0} cada episodio se comenta esa misma noche: reacciones, resúmenes y memes ponen el giro en miniaturas y títulos.</p><p>No silencies solo el nombre de la serie: también ocultas tráileres y noticias. Usa la lista principal de abajo hasta ponerte al día.</p>",
+   "nd_why": "<p>Cada episodio se comenta esa misma noche: reacciones, resúmenes y memes ponen el giro en miniaturas y títulos.</p><p>No silencies solo el nombre de la serie: también ocultas tráileres y noticias. Usa la lista principal de abajo hasta ponerte al día.</p>",
+   "unknown": "Giros de episodios que aún no han salido.",
+   "demo": "{name}: el episodio del que todos hablan",
+   "cover_line": "El giro",
+   "faq": [
+    [
+     "¿Cuándo empieza {name}?",
+     "La nueva temporada empieza el {D}."
+    ],
+    [
+     "¿Qué palabras silencio?",
+     "El nombre de la serie con palabras como episodio, final, quién muere y spoilers. Silenciar solo el nombre también oculta los tráileres."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "¿Qué palabras silencio?",
+     "El nombre de la serie con palabras como episodio, final, quién muere y spoilers. Silenciar solo el nombre también oculta los tráileres."
+    ],
+    [
+     "¿Cuánto tiempo mantengo los filtros?",
+     "Hasta ponerte al día. Los spoilers llegan al máximo el primer día tras cada episodio."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ]
+  },
+  "anime": {
+   "kicker": "ANIME · {date}",
+   "cover_tag": "ANIME · {date}",
+   "keep_val": "Hasta ponerte al día",
+   "desc": "Cómo evitar spoilers de {name}: qué palabras silenciar en X, Threads y TikTok, una lista lista que difumina vídeos y posts en YouTube, Reddit y X, y qué no atrapa ningún filtro.",
+   "lead": "Los lectores del manga ya saben qué pasa, y cada episodio trae clips y memes. Qué silenciar, dónde y qué no detiene ningún ajuste.",
+   "why_h": "Por qué es difícil evitarlos",
+   "why": "<p>Si el anime adapta un manga, la historia ya está en internet, y los lectores suben páginas y comentarios de «espera a ver» bajo cada clip. Desde el {D0} cada episodio suma reacciones y edits.</p><p>No silencies solo el título: también ocultas noticias y merch. Usa la lista principal de abajo.</p>",
+   "nd_why": "<p>Si el anime adapta un manga, la historia ya está en internet, y los lectores suben páginas y comentarios de «espera a ver» bajo cada clip. Cada episodio suma reacciones y edits.</p><p>No silencies solo el título: también ocultas noticias y merch. Usa la lista principal de abajo.</p>",
+   "unknown": "Páginas del manga subidas como imágenes.",
+   "demo": "{name}: este episodio lo cambia todo",
+   "cover_line": "El giro",
+   "faq": [
+    [
+     "¿Cuándo se emite {name}?",
+     "La nueva temporada empieza el {D}."
+    ],
+    [
+     "¿Qué palabras silencio?",
+     "El título con palabras como spoilers del manga, episodio, quién muere y filtraciones. Los números de capítulo del manga también son spoilers."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "¿Qué palabras silencio?",
+     "El título con palabras como spoilers del manga, episodio, quién muere y filtraciones. Los números de capítulo del manga también son spoilers."
+    ],
+    [
+     "¿El manga destripa el anime?",
+     "Normalmente sí. El anime sigue al manga, así que las páginas y los comentarios de capítulos revelan lo que viene."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ]
+  }
+ },
+ "nd_now_show": "Tras cada episodio",
+ "nd_now_anime": "Tras cada episodio"
 }

@@ -97,5 +97,170 @@
   "piątek",
   "sobota",
   "niedziela"
- ]
+ ],
+ "gen": {
+  "game": {
+   "kicker": "GRA · {date}",
+   "cover_tag": "GRA · {date}",
+   "keep_val": "Aż skończysz",
+   "desc": "Jak uniknąć spoilerów {name}: jakie słowa wyciszyć na X, Threads i TikToku, gotowa lista, która rozmywa filmy i posty na YouTube, Reddicie i X, i czego nie złapie żaden filtr.",
+   "lead": "Każdy gra w innym tempie, więc zakończenie jest w sieci, gdy wielu jest dopiero w połowie. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+   "why_h": "Dlaczego trudno ich uniknąć",
+   "why": "<p>Streamy, filmy „zakończenie wyjaśnione” i reakcje wrzucają najważniejsze momenty do miniatur i tytułów, i tak jeszcze tygodnie po {D0}.</p><p>Nie wyciszaj samej nazwy serii: znikną newsy, poradniki i inne gry. Weź podstawową listę poniżej, a tryb ścisły włącz na pierwsze tygodnie.</p>",
+   "nd_why": "<p>Streamy, filmy „zakończenie wyjaśnione” i reakcje wrzucają najważniejsze momenty do miniatur i tytułów, i tak jeszcze tygodnie po premierze.</p><p>Nie wyciszaj samej nazwy serii: znikną newsy, poradniki i inne gry. Weź podstawową listę poniżej, a tryb ścisły włącz na pierwsze tygodnie.</p>",
+   "unknown": "Momenty fabuły, których nie pokazały zwiastuny.",
+   "demo": "{name}: zakończenie wyjaśnione",
+   "cover_line": "Zakończenie",
+   "faq": [
+    [
+     "Kiedy premiera {name}?",
+     "{D}."
+    ],
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł gry razem ze słowami zakończenie, ostatni boss, kto ginie, spoilery. Sama nazwa serii ukryje też newsy i poradniki."
+    ],
+    [
+     "Jak długo trzymać filtry?",
+     "Aż skończysz fabułę. Najwięcej spoilerów jest w pierwszych tygodniach, ale zakończenie trafia do tytułów jeszcze miesiącami."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł gry razem ze słowami zakończenie, ostatni boss, kto ginie, spoilery. Sama nazwa serii ukryje też newsy i poradniki."
+    ],
+    [
+     "Jak długo trzymać filtry?",
+     "Aż skończysz fabułę. Najwięcej spoilerów jest w pierwszych tygodniach, ale zakończenie trafia do tytułów jeszcze miesiącami."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ]
+  },
+  "film": {
+   "desc": "Jak uniknąć spoilerów {name}: jakie słowa wyciszyć na X, Threads i TikToku, gotowa lista, która rozmywa filmy i posty na YouTube, Reddicie i X, i czego nie złapie żaden filtr.",
+   "lead": "Spoilery przychodzą z premier i pokazów prasowych, potem z pierwszego weekendu. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+   "why_h": "Dlaczego trudno ich uniknąć",
+   "why": "<p>Szczegóły wyciekają z premier kilka dni przed {D0}, a filmy „zakończenie wyjaśnione” i memy pojawiają się pierwszego wieczoru.</p><p>Nie wyciszaj samej nazwy serii: znikną starsze filmy i niegroźne newsy. Weź podstawową listę poniżej.</p>",
+   "nd_why": "<p>Szczegóły wyciekają z premier i pokazów prasowych, a filmy „zakończenie wyjaśnione” i memy pojawiają się pierwszego wieczoru.</p><p>Nie wyciszaj samej nazwy serii: znikną starsze filmy i niegroźne newsy. Weź podstawową listę poniżej.</p>",
+   "unknown": "Cameo i zwroty akcji ukryte w zwiastunach.",
+   "demo": "{name}: zakończenie wyjaśnione",
+   "cover_line": "Zakończenie",
+   "faq": [
+    [
+     "Kiedy premiera {name}?",
+     "W kinach od {D}. W niektórych krajach później."
+    ],
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł filmu razem ze słowami zakończenie, scena po napisach, kto ginie, spoilery. Sama nazwa serii ukryje też starsze filmy."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł filmu razem ze słowami zakończenie, scena po napisach, kto ginie, spoilery. Sama nazwa serii ukryje też starsze filmy."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ]
+  },
+  "show": {
+   "kicker": "SERIAL · {date}",
+   "cover_tag": "SERIAL · {date}",
+   "keep_val": "Aż nadrobisz",
+   "desc": "Jak uniknąć spoilerów {name}: jakie słowa wyciszyć na X, Threads i TikToku, gotowa lista, która rozmywa filmy i posty na YouTube, Reddicie i X, i czego nie złapie żaden filtr.",
+   "lead": "Każdy nowy odcinek w kilka godzin obrasta reakcjami, memami i teoriami. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+   "why_h": "Dlaczego trudno ich uniknąć",
+   "why": "<p>Od {D0} każdy odcinek omawia się tego samego wieczoru: reakcje, streszczenia i memy wrzucają zwrot akcji do miniatur i tytułów.</p><p>Nie wyciszaj samej nazwy serialu: znikną zwiastuny i newsy. Weź podstawową listę poniżej i trzymaj ją, aż nadrobisz.</p>",
+   "nd_why": "<p>Każdy odcinek omawia się tego samego wieczoru: reakcje, streszczenia i memy wrzucają zwrot akcji do miniatur i tytułów.</p><p>Nie wyciszaj samej nazwy serialu: znikną zwiastuny i newsy. Weź podstawową listę poniżej i trzymaj ją, aż nadrobisz.</p>",
+   "unknown": "Zwroty akcji w odcinkach, których jeszcze nie ma.",
+   "demo": "{name}: odcinek, o którym wszyscy mówią",
+   "cover_line": "Zwrot akcji",
+   "faq": [
+    [
+     "Kiedy startuje {name}?",
+     "Nowy sezon startuje {D}."
+    ],
+    [
+     "Jakie słowa wyciszyć?",
+     "Nazwę serialu razem ze słowami odcinek, finał, kto ginie, spoilery. Sama nazwa ukryje też zwiastuny."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Jakie słowa wyciszyć?",
+     "Nazwę serialu razem ze słowami odcinek, finał, kto ginie, spoilery. Sama nazwa ukryje też zwiastuny."
+    ],
+    [
+     "Jak długo trzymać filtry?",
+     "Aż nadrobisz. Szczyt spoilerów jest w pierwszej dobie po każdym odcinku."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ]
+  },
+  "anime": {
+   "kicker": "ANIME · {date}",
+   "cover_tag": "ANIME · {date}",
+   "keep_val": "Aż nadrobisz",
+   "desc": "Jak uniknąć spoilerów {name}: jakie słowa wyciszyć na X, Threads i TikToku, gotowa lista, która rozmywa filmy i posty na YouTube, Reddicie i X, i czego nie złapie żaden filtr.",
+   "lead": "Czytelnicy mangi już wiedzą, co będzie, a każdy odcinek przynosi klipy i memy. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+   "why_h": "Dlaczego trudno ich uniknąć",
+   "why": "<p>Jeśli anime powstało na podstawie mangi, fabuła już jest w sieci, a czytelnicy wrzucają strony i piszą „poczekaj, aż zobaczysz” pod każdym klipem. Od {D0} każdy odcinek dokłada reakcje i edity.</p><p>Nie wyciszaj samego tytułu: znikną newsy i gadżety. Weź podstawową listę poniżej.</p>",
+   "nd_why": "<p>Jeśli anime powstało na podstawie mangi, fabuła już jest w sieci, a czytelnicy wrzucają strony i piszą „poczekaj, aż zobaczysz” pod każdym klipem. Każdy odcinek dokłada reakcje i edity.</p><p>Nie wyciszaj samego tytułu: znikną newsy i gadżety. Weź podstawową listę poniżej.</p>",
+   "unknown": "Strony mangi wrzucane jako obrazki.",
+   "demo": "{name}: ten odcinek zmienia wszystko",
+   "cover_line": "Zwrot akcji",
+   "faq": [
+    [
+     "Kiedy emisja {name}?",
+     "Nowy sezon startuje {D}."
+    ],
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł razem ze słowami spoilery z mangi, odcinek, kto ginie, przecieki. Numery rozdziałów mangi to też spoilery."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł razem ze słowami spoilery z mangi, odcinek, kto ginie, przecieki. Numery rozdziałów mangi to też spoilery."
+    ],
+    [
+     "Czy manga spoileruje anime?",
+     "Zwykle tak. Anime idzie za mangą, więc strony i rozmowy o rozdziałach zdradzają, co będzie dalej."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ]
+  }
+ },
+ "nd_now_show": "Po każdym odcinku",
+ "nd_now_anime": "Po każdym odcinku"
 }

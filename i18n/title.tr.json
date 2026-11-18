@@ -97,5 +97,170 @@
   "cuma",
   "cumartesi",
   "pazar"
- ]
+ ],
+ "gen": {
+  "game": {
+   "kicker": "OYUN · {date}",
+   "cover_tag": "OYUN · {date}",
+   "keep_val": "Bitirene kadar",
+   "desc": "{name} spoilerlarından nasıl kaçınılır: X, Threads ve TikTok'ta susturulacak kelimeler, YouTube, Reddit ve X'te videoları ve gönderileri bulanıklaştıran hazır liste ve hiçbir filtrenin yakalayamadığı şeyler.",
+   "lead": "Herkes farklı hızda oynuyor, bu yüzden birçok kişi yarıdayken son internette. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+   "why_h": "Kaçınmak neden zor",
+   "why": "<p>Yayınlar, «son açıklandı» videoları ve tepkiler büyük anları küçük resimlere ve başlıklara taşır, bu da {D0} sonrasında haftalarca sürer.</p><p>Sadece serinin adını susturmayın: haberler, rehberler ve diğer oyunlar da gizlenir. Aşağıdaki temel listeyi kullanın, ilk haftalarda katı modu açın.</p>",
+   "nd_why": "<p>Yayınlar, «son açıklandı» videoları ve tepkiler büyük anları küçük resimlere ve başlıklara taşır, bu da çıkıştan sonra haftalarca sürer.</p><p>Sadece serinin adını susturmayın: haberler, rehberler ve diğer oyunlar da gizlenir. Aşağıdaki temel listeyi kullanın, ilk haftalarda katı modu açın.</p>",
+   "unknown": "Fragmanlarda görünmeyen hikâye anları.",
+   "demo": "{name}: sonu açıklandı",
+   "cover_line": "Son",
+   "faq": [
+    [
+     "{name} ne zaman çıkıyor?",
+     "{D}."
+    ],
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Oyun adını son, son boss, kim ölüyor ve spoiler gibi kelimelerle birlikte. Sadece seri adını susturmak haberleri ve rehberleri de gizler."
+    ],
+    [
+     "Filtreleri ne kadar açık tutmalıyım?",
+     "Hikâyeyi bitirene kadar. Spoilerların çoğu ilk haftalarda gelir ama son aylarca video başlıklarında kalır."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Oyun adını son, son boss, kim ölüyor ve spoiler gibi kelimelerle birlikte. Sadece seri adını susturmak haberleri ve rehberleri de gizler."
+    ],
+    [
+     "Filtreleri ne kadar açık tutmalıyım?",
+     "Hikâyeyi bitirene kadar. Spoilerların çoğu ilk haftalarda gelir ama son aylarca video başlıklarında kalır."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ]
+  },
+  "film": {
+   "desc": "{name} spoilerlarından nasıl kaçınılır: X, Threads ve TikTok'ta susturulacak kelimeler, YouTube, Reddit ve X'te videoları ve gönderileri bulanıklaştıran hazır liste ve hiçbir filtrenin yakalayamadığı şeyler.",
+   "lead": "Spoilerlar galalardan ve basın gösterimlerinden, sonra ilk hafta sonundan gelir. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+   "why_h": "Kaçınmak neden zor",
+   "why": "<p>Ayrıntılar {D0} tarihinden birkaç gün önce galalardan sızar, «son açıklandı» videoları ve mimler vizyon gecesi gelir.</p><p>Sadece serinin adını susturmayın: eski filmler ve zararsız haberler de gizlenir. Aşağıdaki temel listeyi kullanın.</p>",
+   "nd_why": "<p>Ayrıntılar galalardan ve basın gösterimlerinden sızar, «son açıklandı» videoları ve mimler vizyon gecesi gelir.</p><p>Sadece serinin adını susturmayın: eski filmler ve zararsız haberler de gizlenir. Aşağıdaki temel listeyi kullanın.</p>",
+   "unknown": "Fragmanların gizlediği kamera hücreleri ve sürprizler.",
+   "demo": "{name}: sonu açıklandı",
+   "cover_line": "Son",
+   "faq": [
+    [
+     "{name} ne zaman vizyona giriyor?",
+     "{D} itibarıyla sinemalarda. Bazı ülkelerde daha sonra."
+    ],
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Film adını son, jenerik sonrası sahne, kim ölüyor ve spoiler gibi kelimelerle birlikte. Sadece seri adını susturmak eski filmleri de gizler."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Film adını son, jenerik sonrası sahne, kim ölüyor ve spoiler gibi kelimelerle birlikte. Sadece seri adını susturmak eski filmleri de gizler."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ]
+  },
+  "show": {
+   "kicker": "DİZİ · {date}",
+   "cover_tag": "DİZİ · {date}",
+   "keep_val": "Yetişene kadar",
+   "desc": "{name} spoilerlarından nasıl kaçınılır: X, Threads ve TikTok'ta susturulacak kelimeler, YouTube, Reddit ve X'te videoları ve gönderileri bulanıklaştıran hazır liste ve hiçbir filtrenin yakalayamadığı şeyler.",
+   "lead": "Her yeni bölüm birkaç saat içinde tepkiler, mimler ve teorilerle dolar. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+   "why_h": "Kaçınmak neden zor",
+   "why": "<p>{D0} tarihinden itibaren her bölüm aynı gece konuşulur: tepkiler, özetler ve mimler sürprizi küçük resimlere ve başlıklara taşır.</p><p>Sadece dizinin adını susturmayın: fragmanlar ve haberler de gizlenir. Yetişene kadar aşağıdaki temel listeyi kullanın.</p>",
+   "nd_why": "<p>Her bölüm aynı gece konuşulur: tepkiler, özetler ve mimler sürprizi küçük resimlere ve başlıklara taşır.</p><p>Sadece dizinin adını susturmayın: fragmanlar ve haberler de gizlenir. Yetişene kadar aşağıdaki temel listeyi kullanın.</p>",
+   "unknown": "Henüz çıkmamış bölümlerdeki sürprizler.",
+   "demo": "{name}: herkesin konuştuğu bölüm",
+   "cover_line": "Sürpriz",
+   "faq": [
+    [
+     "{name} ne zaman başlıyor?",
+     "Yeni sezon {D} tarihinde başlıyor."
+    ],
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Dizi adını bölüm, final, kim ölüyor ve spoiler gibi kelimelerle birlikte. Sadece adı susturmak fragmanları da gizler."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Dizi adını bölüm, final, kim ölüyor ve spoiler gibi kelimelerle birlikte. Sadece adı susturmak fragmanları da gizler."
+    ],
+    [
+     "Filtreleri ne kadar açık tutmalıyım?",
+     "Yetişene kadar. Spoilerlar her bölümden sonraki ilk gün zirve yapar."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ]
+  },
+  "anime": {
+   "kicker": "ANİME · {date}",
+   "cover_tag": "ANİME · {date}",
+   "keep_val": "Yetişene kadar",
+   "desc": "{name} spoilerlarından nasıl kaçınılır: X, Threads ve TikTok'ta susturulacak kelimeler, YouTube, Reddit ve X'te videoları ve gönderileri bulanıklaştıran hazır liste ve hiçbir filtrenin yakalayamadığı şeyler.",
+   "lead": "Mangayı okuyanlar ne olacağını biliyor, her bölüm de kesitler ve mimler getiriyor. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+   "why_h": "Kaçınmak neden zor",
+   "why": "<p>Anime bir mangadan uyarlandıysa hikâye zaten internette, okuyanlar her kesitin altına sayfalar ve «bekle de gör» yorumları bırakıyor. {D0} tarihinden itibaren her bölüm tepki ve edit ekliyor.</p><p>Sadece adı susturmayın: haberler ve ürünler de gizlenir. Aşağıdaki temel listeyi kullanın.</p>",
+   "nd_why": "<p>Anime bir mangadan uyarlandıysa hikâye zaten internette, okuyanlar her kesitin altına sayfalar ve «bekle de gör» yorumları bırakıyor. Her bölüm tepki ve edit ekliyor.</p><p>Sadece adı susturmayın: haberler ve ürünler de gizlenir. Aşağıdaki temel listeyi kullanın.</p>",
+   "unknown": "Resim olarak paylaşılan manga sayfaları.",
+   "demo": "{name}: bu bölüm her şeyi değiştiriyor",
+   "cover_line": "Sürpriz",
+   "faq": [
+    [
+     "{name} ne zaman yayınlanıyor?",
+     "Yeni sezon {D} tarihinde başlıyor."
+    ],
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Adı manga spoiler, bölüm, kim ölüyor ve sızıntı gibi kelimelerle birlikte. Manga bölüm numaraları da spoilerdır."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Adı manga spoiler, bölüm, kim ölüyor ve sızıntı gibi kelimelerle birlikte. Manga bölüm numaraları da spoilerdır."
+    ],
+    [
+     "Manga animeyi spoilerlar mı?",
+     "Genelde evet. Anime mangayı takip eder, sayfalar ve bölüm konuşmaları sırada ne olduğunu ele verir."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ]
+  }
+ },
+ "nd_now_show": "Her yeni bölümden sonra",
+ "nd_now_anime": "Her yeni bölümden sonra"
 }

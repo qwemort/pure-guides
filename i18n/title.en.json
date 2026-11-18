@@ -97,5 +97,170 @@
   "Friday",
   "Saturday",
   "Sunday"
- ]
+ ],
+ "gen": {
+  "game": {
+   "kicker": "GAME · {date}",
+   "cover_tag": "GAME · {date}",
+   "keep_val": "Until you finish",
+   "desc": "How to avoid {name} spoilers: words to mute on X, Threads and TikTok, a ready list that blurs videos and posts on YouTube, Reddit and X, and what no filter catches.",
+   "lead": "Players finish at different speeds, so the ending is online while many are still halfway. What to mute, where, and what no setting can catch.",
+   "why_h": "Why it is hard to avoid",
+   "why": "<p>Streams, \"ending explained\" videos and reaction clips put the big moments into thumbnails and titles, and they keep coming for weeks after {D0}.</p><p>Do not mute the bare series name: it also hides news, guides and other games. Use the core list below and strict mode for the first weeks.</p>",
+   "nd_why": "<p>Streams, \"ending explained\" videos and reaction clips put the big moments into thumbnails and titles, and they keep coming for weeks after launch.</p><p>Do not mute the bare series name: it also hides news, guides and other games. Use the core list below and strict mode for the first weeks.</p>",
+   "unknown": "Story moments the trailers never showed.",
+   "demo": "{name}: the ending explained",
+   "cover_line": "The ending",
+   "faq": [
+    [
+     "What is the {name} release date?",
+     "{D}."
+    ],
+    [
+     "Which words should I mute?",
+     "The game title with words like ending, final boss, who dies and spoilers. Muting only the series name also hides news and guides."
+    ],
+    [
+     "How long should I keep filters on?",
+     "Until you finish the story. Most spoilers come in the first weeks, but videos keep putting the ending in titles for months."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Which words should I mute?",
+     "The game title with words like ending, final boss, who dies and spoilers. Muting only the series name also hides news and guides."
+    ],
+    [
+     "How long should I keep filters on?",
+     "Until you finish the story. Most spoilers come in the first weeks, but videos keep putting the ending in titles for months."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ]
+  },
+  "film": {
+   "desc": "How to avoid {name} spoilers: words to mute on X, Threads and TikTok, a ready list that blurs videos and posts on YouTube, Reddit and X, and what no filter catches.",
+   "lead": "Spoilers arrive from premieres and press screenings, then from opening weekend. What to mute, where, and what no setting can catch.",
+   "why_h": "Why it is hard to avoid",
+   "why": "<p>Details leak from premieres a few days before {D0}, and \"ending explained\" videos and memes follow on opening night.</p><p>Do not mute the bare franchise name: it also hides older films and harmless news. Use the core list below.</p>",
+   "nd_why": "<p>Details leak from premieres and press screenings, and \"ending explained\" videos and memes follow on opening night.</p><p>Do not mute the bare franchise name: it also hides older films and harmless news. Use the core list below.</p>",
+   "unknown": "Cameos and twists the trailers kept hidden.",
+   "demo": "{name}: the ending explained",
+   "cover_line": "The ending",
+   "faq": [
+    [
+     "When does {name} come out?",
+     "In cinemas from {D}. Some countries get it later."
+    ],
+    [
+     "Which words should I mute?",
+     "The film title with words like ending, post credits, who dies and spoilers. Muting only the franchise name also hides older films."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Which words should I mute?",
+     "The film title with words like ending, post credits, who dies and spoilers. Muting only the franchise name also hides older films."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ]
+  },
+  "show": {
+   "kicker": "SERIES · {date}",
+   "cover_tag": "SERIES · {date}",
+   "keep_val": "Until you catch up",
+   "desc": "How to avoid {name} spoilers: words to mute on X, Threads and TikTok, a ready list that blurs videos and posts on YouTube, Reddit and X, and what no filter catches.",
+   "lead": "Every new episode brings reaction videos, memes and theory threads within hours. What to mute, where, and what no setting can catch.",
+   "why_h": "Why it is hard to avoid",
+   "why": "<p>From {D0} each episode is discussed the same night: reaction videos, recaps and memes put the twist into thumbnails and post titles.</p><p>Do not mute the bare show name: it also hides trailers and news. Use the core list below and keep it on until you catch up.</p>",
+   "nd_why": "<p>Each episode is discussed the same night: reaction videos, recaps and memes put the twist into thumbnails and post titles.</p><p>Do not mute the bare show name: it also hides trailers and news. Use the core list below and keep it on until you catch up.</p>",
+   "unknown": "Twists in episodes that are not out yet.",
+   "demo": "{name}: the episode everyone is talking about",
+   "cover_line": "The twist",
+   "faq": [
+    [
+     "When does {name} start?",
+     "The new season starts on {D}."
+    ],
+    [
+     "Which words should I mute?",
+     "The show name with words like episode, finale, who dies and spoilers. Muting only the name also hides trailers."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Which words should I mute?",
+     "The show name with words like episode, finale, who dies and spoilers. Muting only the name also hides trailers."
+    ],
+    [
+     "How long should I keep filters on?",
+     "Until you catch up. Spoilers peak in the first day after each episode."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ]
+  },
+  "anime": {
+   "kicker": "ANIME · {date}",
+   "cover_tag": "ANIME · {date}",
+   "keep_val": "Until you catch up",
+   "desc": "How to avoid {name} spoilers: words to mute on X, Threads and TikTok, a ready list that blurs videos and posts on YouTube, Reddit and X, and what no filter catches.",
+   "lead": "Manga readers already know what happens, and every episode brings clips and memes. What to mute, where, and what no setting can catch.",
+   "why_h": "Why it is hard to avoid",
+   "why": "<p>If the anime adapts a manga, the story is already online, and readers post panels and \"wait until you see\" comments under every clip. From {D0} each episode adds reaction videos and edits.</p><p>Do not mute the bare title: it also hides news and merch. Use the core list below.</p>",
+   "nd_why": "<p>If the anime adapts a manga, the story is already online, and readers post panels and \"wait until you see\" comments under every clip. Each episode adds reaction videos and edits.</p><p>Do not mute the bare title: it also hides news and merch. Use the core list below.</p>",
+   "unknown": "Manga panels posted as images.",
+   "demo": "{name}: this episode changes everything",
+   "cover_line": "The twist",
+   "faq": [
+    [
+     "When does {name} air?",
+     "The new season starts on {D}."
+    ],
+    [
+     "Which words should I mute?",
+     "The title with words like manga spoilers, episode, who dies and leaks. Manga chapter numbers are spoilers too."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Which words should I mute?",
+     "The title with words like manga spoilers, episode, who dies and leaks. Manga chapter numbers are spoilers too."
+    ],
+    [
+     "Is the manga a spoiler for the anime?",
+     "Usually yes. Anime follows the manga, so panels and chapter talk reveal what is coming."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ]
+  }
+ },
+ "nd_now_show": "Every new episode",
+ "nd_now_anime": "Every new episode"
 }

@@ -97,5 +97,170 @@
   "vendredi",
   "samedi",
   "dimanche"
- ]
+ ],
+ "gen": {
+  "game": {
+   "kicker": "JEU · {date}",
+   "cover_tag": "JEU · {date}",
+   "keep_val": "Jusqu'à la fin du jeu",
+   "desc": "Éviter les spoilers de {name} : les mots à masquer sur X, Threads et TikTok, une liste prête qui floute vidéos et posts sur YouTube, Reddit et X, et ce qu'aucun filtre n'attrape.",
+   "lead": "Chacun avance à son rythme, donc la fin est en ligne alors que beaucoup sont à mi-chemin. Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+   "why_h": "Pourquoi c'est difficile à éviter",
+   "why": "<p>Streams, vidéos « fin expliquée » et réactions mettent les grands moments dans les miniatures et les titres, et ça dure des semaines après le {D0}.</p><p>Ne masquez pas simplement le nom de la série : cela cache aussi l'actu, les guides et les autres jeux. Prenez la liste principale ci-dessous et le mode strict les premières semaines.</p>",
+   "nd_why": "<p>Streams, vidéos « fin expliquée » et réactions mettent les grands moments dans les miniatures et les titres, et ça dure des semaines après la sortie.</p><p>Ne masquez pas simplement le nom de la série : cela cache aussi l'actu, les guides et les autres jeux. Prenez la liste principale ci-dessous et le mode strict les premières semaines.</p>",
+   "unknown": "Les moments de l'histoire qu'aucune bande-annonce n'a montrés.",
+   "demo": "{name} : la fin expliquée",
+   "cover_line": "La fin",
+   "faq": [
+    [
+     "Quand sort {name} ?",
+     "{D}."
+    ],
+    [
+     "Quels mots masquer ?",
+     "Le titre du jeu avec des mots comme fin, boss final, qui meurt et spoilers. Masquer seulement le nom de la série cache aussi l'actu et les guides."
+    ],
+    [
+     "Combien de temps garder les filtres ?",
+     "Jusqu'à la fin de l'histoire. La plupart des spoilers arrivent les premières semaines, mais la fin reste dans les titres de vidéos pendant des mois."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quels mots masquer ?",
+     "Le titre du jeu avec des mots comme fin, boss final, qui meurt et spoilers. Masquer seulement le nom de la série cache aussi l'actu et les guides."
+    ],
+    [
+     "Combien de temps garder les filtres ?",
+     "Jusqu'à la fin de l'histoire. La plupart des spoilers arrivent les premières semaines, mais la fin reste dans les titres de vidéos pendant des mois."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ]
+  },
+  "film": {
+   "desc": "Éviter les spoilers de {name} : les mots à masquer sur X, Threads et TikTok, une liste prête qui floute vidéos et posts sur YouTube, Reddit et X, et ce qu'aucun filtre n'attrape.",
+   "lead": "Les spoilers viennent des avant-premières et projections presse, puis du premier week-end. Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+   "why_h": "Pourquoi c'est difficile à éviter",
+   "why": "<p>Des détails fuitent des avant-premières quelques jours avant le {D0}, puis les vidéos « fin expliquée » et les mèmes arrivent le soir de la sortie.</p><p>Ne masquez pas simplement le nom de la saga : cela cache aussi les anciens films et l'actu inoffensive. Prenez la liste principale ci-dessous.</p>",
+   "nd_why": "<p>Des détails fuitent des avant-premières et projections presse, puis les vidéos « fin expliquée » et les mèmes arrivent le soir de la sortie.</p><p>Ne masquez pas simplement le nom de la saga : cela cache aussi les anciens films et l'actu inoffensive. Prenez la liste principale ci-dessous.</p>",
+   "unknown": "Caméos et rebondissements cachés par les bandes-annonces.",
+   "demo": "{name} : la fin expliquée",
+   "cover_line": "La fin",
+   "faq": [
+    [
+     "Quand sort {name} ?",
+     "Au cinéma à partir du {D}. Certains pays plus tard."
+    ],
+    [
+     "Quels mots masquer ?",
+     "Le titre du film avec des mots comme fin, scène post-générique, qui meurt et spoilers. Masquer seulement le nom de la saga cache aussi les anciens films."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quels mots masquer ?",
+     "Le titre du film avec des mots comme fin, scène post-générique, qui meurt et spoilers. Masquer seulement le nom de la saga cache aussi les anciens films."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ]
+  },
+  "show": {
+   "kicker": "SÉRIE · {date}",
+   "cover_tag": "SÉRIE · {date}",
+   "keep_val": "Jusqu'à ce que vous rattrapiez",
+   "desc": "Éviter les spoilers de {name} : les mots à masquer sur X, Threads et TikTok, une liste prête qui floute vidéos et posts sur YouTube, Reddit et X, et ce qu'aucun filtre n'attrape.",
+   "lead": "Chaque nouvel épisode amène en quelques heures réactions, mèmes et théories. Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+   "why_h": "Pourquoi c'est difficile à éviter",
+   "why": "<p>À partir du {D0}, chaque épisode est commenté le soir même : réactions, résumés et mèmes mettent le rebondissement dans les miniatures et les titres.</p><p>Ne masquez pas simplement le nom de la série : cela cache aussi les bandes-annonces et l'actu. Gardez la liste principale jusqu'à ce que vous rattrapiez.</p>",
+   "nd_why": "<p>Chaque épisode est commenté le soir même : réactions, résumés et mèmes mettent le rebondissement dans les miniatures et les titres.</p><p>Ne masquez pas simplement le nom de la série : cela cache aussi les bandes-annonces et l'actu. Gardez la liste principale jusqu'à ce que vous rattrapiez.</p>",
+   "unknown": "Les rebondissements des épisodes pas encore sortis.",
+   "demo": "{name} : l'épisode dont tout le monde parle",
+   "cover_line": "Le rebondissement",
+   "faq": [
+    [
+     "Quand commence {name} ?",
+     "La nouvelle saison commence le {D}."
+    ],
+    [
+     "Quels mots masquer ?",
+     "Le nom de la série avec des mots comme épisode, final, qui meurt et spoilers. Masquer seulement le nom cache aussi les bandes-annonces."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quels mots masquer ?",
+     "Le nom de la série avec des mots comme épisode, final, qui meurt et spoilers. Masquer seulement le nom cache aussi les bandes-annonces."
+    ],
+    [
+     "Combien de temps garder les filtres ?",
+     "Jusqu'à ce que vous rattrapiez. Les spoilers culminent le premier jour après chaque épisode."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ]
+  },
+  "anime": {
+   "kicker": "ANIME · {date}",
+   "cover_tag": "ANIME · {date}",
+   "keep_val": "Jusqu'à ce que vous rattrapiez",
+   "desc": "Éviter les spoilers de {name} : les mots à masquer sur X, Threads et TikTok, une liste prête qui floute vidéos et posts sur YouTube, Reddit et X, et ce qu'aucun filtre n'attrape.",
+   "lead": "Les lecteurs du manga savent déjà ce qui arrive, et chaque épisode amène extraits et mèmes. Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+   "why_h": "Pourquoi c'est difficile à éviter",
+   "why": "<p>Si l'anime adapte un manga, l'histoire est déjà en ligne, et les lecteurs postent des planches et des « attendez de voir » sous chaque extrait. À partir du {D0}, chaque épisode ajoute réactions et edits.</p><p>Ne masquez pas simplement le titre : cela cache aussi l'actu et les produits dérivés. Prenez la liste principale ci-dessous.</p>",
+   "nd_why": "<p>Si l'anime adapte un manga, l'histoire est déjà en ligne, et les lecteurs postent des planches et des « attendez de voir » sous chaque extrait. Chaque épisode ajoute réactions et edits.</p><p>Ne masquez pas simplement le titre : cela cache aussi l'actu et les produits dérivés. Prenez la liste principale ci-dessous.</p>",
+   "unknown": "Planches du manga postées en images.",
+   "demo": "{name} : cet épisode change tout",
+   "cover_line": "Le rebondissement",
+   "faq": [
+    [
+     "Quand est diffusé {name} ?",
+     "La nouvelle saison commence le {D}."
+    ],
+    [
+     "Quels mots masquer ?",
+     "Le titre avec des mots comme spoilers du manga, épisode, qui meurt et fuites. Les numéros de chapitres du manga sont aussi des spoilers."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Quels mots masquer ?",
+     "Le titre avec des mots comme spoilers du manga, épisode, qui meurt et fuites. Les numéros de chapitres du manga sont aussi des spoilers."
+    ],
+    [
+     "Le manga spoile-t-il l'anime ?",
+     "En général oui. L'anime suit le manga, donc les planches et les discussions de chapitres révèlent la suite."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ]
+  }
+ },
+ "nd_now_show": "Après chaque épisode",
+ "nd_now_anime": "Après chaque épisode"
 }

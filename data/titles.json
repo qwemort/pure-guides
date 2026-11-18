@@ -54,7 +54,8 @@
    "page": "avoid-apothecary-diaries-movie-spoilers",
    "kind": "anime",
    "published": "2026-11-17",
-   "modified": "2026-11-18"
+   "modified": "2026-11-18",
+   "tmpl": "film"
   },
   "hunger-games-reaping": {
    "name": "The Hunger Games: Sunrise on the Reaping",
@@ -109,6 +110,516 @@
    "kind": "film",
    "published": "2026-11-18",
    "modified": "2026-11-18"
+  },
+  "wolverine": {
+   "name": "Marvel's Wolverine",
+   "release": "2026-09-15",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-marvels-wolverine-spoilers",
+   "kind": "game",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "re-requiem": {
+   "name": "Resident Evil Requiem",
+   "release": "2026-02-27",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-resident-evil-requiem-spoilers",
+   "kind": "game",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "gears-eday": {
+   "name": "Gears of War: E-Day",
+   "release": "2026-10-06",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-gears-of-war-e-day-spoilers",
+   "kind": "game",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "ghost-yotei": {
+   "name": "Ghost of Yōtei",
+   "release": "2025-10-02",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-ghost-of-yotei-spoilers",
+   "kind": "game",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "metaphor-refantazio": {
+   "name": "Metaphor: ReFantazio",
+   "release": "2024-10-11",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-metaphor-refantazio-spoilers",
+   "kind": "game",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "xenoblade-3": {
+   "name": "Xenoblade Chronicles 3",
+   "release": "2022-07-29",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-xenoblade-chronicles-3-spoilers",
+   "kind": "game",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "zelda-oot-remake": {
+   "name": "Zelda: Ocarina of Time (remake)",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-zelda-ocarina-of-time-remake-spoilers",
+   "kind": "game",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "spider-man-bnd": {
+   "name": "Spider-Man: Brand New Day",
+   "release": "2026-07-31",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-spider-man-brand-new-day-spoilers",
+   "kind": "film",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "rings-of-power": {
+   "name": "The Rings of Power",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-rings-of-power-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "percy-jackson": {
+   "name": "Percy Jackson and the Olympians",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-percy-jackson-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "yellowjackets": {
+   "name": "Yellowjackets",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-yellowjackets-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "house-dragon": {
+   "name": "House of the Dragon",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-house-of-the-dragon-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "last-of-us": {
+   "name": "The Last of Us",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-the-last-of-us-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "black-doves": {
+   "name": "Black Doves",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-black-doves-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "the-boys": {
+   "name": "The Boys",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-the-boys-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "severance": {
+   "name": "Severance",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-severance-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "only-murders": {
+   "name": "Only Murders in the Building",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-only-murders-in-the-building-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "bad-monkey": {
+   "name": "Bad Monkey",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-bad-monkey-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "hunting-wives": {
+   "name": "The Hunting Wives",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-the-hunting-wives-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "dune-prophecy": {
+   "name": "Dune: Prophecy",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-dune-prophecy-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "pride-prejudice-netflix": {
+   "name": "Pride and Prejudice (Netflix)",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-pride-and-prejudice-netflix-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "the-chosen": {
+   "name": "The Chosen",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-the-chosen-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "the-institute": {
+   "name": "The Institute",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-the-institute-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "gilded-age": {
+   "name": "The Gilded Age",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-the-gilded-age-spoilers",
+   "kind": "show",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "one-piece": {
+   "name": "One Piece",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-one-piece-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "jjk": {
+   "name": "Jujutsu Kaisen",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-jujutsu-kaisen-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "chainsaw-man": {
+   "name": "Chainsaw Man",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-chainsaw-man-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "frieren": {
+   "name": "Frieren",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-frieren-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "solo-leveling": {
+   "name": "Solo Leveling",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-solo-leveling-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "demon-slayer": {
+   "name": "Demon Slayer",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-demon-slayer-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "edgerunners-2": {
+   "name": "Cyberpunk: Edgerunners 2",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-cyberpunk-edgerunners-2-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "jojo-sbr": {
+   "name": "JoJo: Steel Ball Run",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-jojo-steel-ball-run-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "black-clover": {
+   "name": "Black Clover",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-black-clover-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "sakamoto-days": {
+   "name": "Sakamoto Days",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-sakamoto-days-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "one-punch-man": {
+   "name": "One-Punch Man",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-one-punch-man-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "dragon-ball": {
+   "name": "Dragon Ball",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-dragon-ball-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "tokyo-revengers": {
+   "name": "Tokyo Revengers",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-tokyo-revengers-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "golden-kamuy": {
+   "name": "Golden Kamuy",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-golden-kamuy-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "boruto": {
+   "name": "Boruto: Two Blue Vortex",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-boruto-two-blue-vortex-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "kaiju-8": {
+   "name": "Kaiju No. 8",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-kaiju-no-8-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "attack-on-titan": {
+   "name": "Attack on Titan",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-attack-on-titan-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "shangri-la-frontier": {
+   "name": "Shangri-La Frontier",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-shangri-la-frontier-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "mashle": {
+   "name": "Mashle",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-mashle-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "sekiro-no-defeat": {
+   "name": "Sekiro: No Defeat",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-sekiro-no-defeat-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "gundam-seed-freedom-zero": {
+   "name": "Gundam SEED Freedom Zero",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-gundam-seed-freedom-zero-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "detective-conan": {
+   "name": "Detective Conan",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-detective-conan-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "exiled-heavy-knight": {
+   "name": "The Exiled Heavy Knight Knows How to Game the System",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-exiled-heavy-knight-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "overgeared": {
+   "name": "Overgeared",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-overgeared-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "reincarnated-sword-2": {
+   "name": "Reincarnated as a Sword",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-reincarnated-as-a-sword-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "blue-box": {
+   "name": "Blue Box",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-blue-box-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
+  },
+  "firefly-wedding": {
+   "name": "Firefly Wedding",
+   "release": null,
+   "qid": null,
+   "checked": null,
+   "page": "avoid-firefly-wedding-spoilers",
+   "kind": "anime",
+   "published": "2026-11-19",
+   "modified": "2026-11-19"
   }
  }
 }

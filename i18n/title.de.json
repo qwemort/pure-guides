@@ -97,5 +97,170 @@
   "freitags",
   "samstags",
   "sonntags"
- ]
+ ],
+ "gen": {
+  "game": {
+   "kicker": "SPIEL · {date}",
+   "cover_tag": "SPIEL · {date}",
+   "keep_val": "Bis du durch bist",
+   "desc": "So vermeidest du Spoiler zu {name}: welche Wörter du auf X, Threads und TikTok stummschaltest, eine fertige Liste, die Videos und Posts auf YouTube, Reddit und X verwischt, und was kein Filter erwischt.",
+   "lead": "Alle spielen unterschiedlich schnell, also steht das Ende im Netz, während viele noch mittendrin sind. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+   "why_h": "Warum man schwer ausweicht",
+   "why": "<p>Streams, „Ende erklärt“-Videos und Reaktionen packen die großen Momente in Vorschaubilder und Titel, und das noch Wochen nach dem {D0}.</p><p>Schalte nicht einfach den Reihennamen stumm: Das blendet News, Guides und andere Spiele aus. Nimm die Kernliste unten und den strengen Modus für die ersten Wochen.</p>",
+   "nd_why": "<p>Streams, „Ende erklärt“-Videos und Reaktionen packen die großen Momente in Vorschaubilder und Titel, und das noch Wochen nach dem Start.</p><p>Schalte nicht einfach den Reihennamen stumm: Das blendet News, Guides und andere Spiele aus. Nimm die Kernliste unten und den strengen Modus für die ersten Wochen.</p>",
+   "unknown": "Story-Momente, die kein Trailer gezeigt hat.",
+   "demo": "{name}: das Ende erklärt",
+   "cover_line": "Das Ende",
+   "faq": [
+    [
+     "Wann erscheint {name}?",
+     "{D}."
+    ],
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Spieltitel mit Wörtern wie Ende, Endboss, wer stirbt und Spoiler. Nur der Reihenname blendet auch News und Guides aus."
+    ],
+    [
+     "Wie lange sollte ich Filter anlassen?",
+     "Bis du die Story durch hast. Die meisten Spoiler kommen in den ersten Wochen, aber das Ende landet noch monatelang in Videotiteln."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Spieltitel mit Wörtern wie Ende, Endboss, wer stirbt und Spoiler. Nur der Reihenname blendet auch News und Guides aus."
+    ],
+    [
+     "Wie lange sollte ich Filter anlassen?",
+     "Bis du die Story durch hast. Die meisten Spoiler kommen in den ersten Wochen, aber das Ende landet noch monatelang in Videotiteln."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ]
+  },
+  "film": {
+   "desc": "So vermeidest du Spoiler zu {name}: welche Wörter du auf X, Threads und TikTok stummschaltest, eine fertige Liste, die Videos und Posts auf YouTube, Reddit und X verwischt, und was kein Filter erwischt.",
+   "lead": "Spoiler kommen von Premieren und Pressevorführungen, dann vom Startwochenende. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+   "why_h": "Warum man schwer ausweicht",
+   "why": "<p>Details sickern ein paar Tage vor dem {D0} von Premieren durch, „Ende erklärt“-Videos und Memes folgen am Startabend.</p><p>Schalte nicht einfach den Reihennamen stumm: Das blendet ältere Filme und harmlose News aus. Nimm die Kernliste unten.</p>",
+   "nd_why": "<p>Details sickern von Premieren und Pressevorführungen durch, „Ende erklärt“-Videos und Memes folgen am Startabend.</p><p>Schalte nicht einfach den Reihennamen stumm: Das blendet ältere Filme und harmlose News aus. Nimm die Kernliste unten.</p>",
+   "unknown": "Cameos und Wendungen, die die Trailer verschwiegen.",
+   "demo": "{name}: das Ende erklärt",
+   "cover_line": "Das Ende",
+   "faq": [
+    [
+     "Wann kommt {name} ins Kino?",
+     "Ab dem {D}. In manchen Ländern später."
+    ],
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Filmtitel mit Wörtern wie Ende, Post-Credit, wer stirbt und Spoiler. Nur der Reihenname blendet auch ältere Filme aus."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Filmtitel mit Wörtern wie Ende, Post-Credit, wer stirbt und Spoiler. Nur der Reihenname blendet auch ältere Filme aus."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ]
+  },
+  "show": {
+   "kicker": "SERIE · {date}",
+   "cover_tag": "SERIE · {date}",
+   "keep_val": "Bis du aufgeholt hast",
+   "desc": "So vermeidest du Spoiler zu {name}: welche Wörter du auf X, Threads und TikTok stummschaltest, eine fertige Liste, die Videos und Posts auf YouTube, Reddit und X verwischt, und was kein Filter erwischt.",
+   "lead": "Jede neue Folge bringt binnen Stunden Reaktionen, Memes und Theorien. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+   "why_h": "Warum man schwer ausweicht",
+   "why": "<p>Ab dem {D0} wird jede Folge noch am selben Abend besprochen: Reaktionen, Zusammenfassungen und Memes packen die Wendung in Vorschaubilder und Titel.</p><p>Schalte nicht einfach den Seriennamen stumm: Das blendet Trailer und News aus. Nimm die Kernliste unten, bis du aufgeholt hast.</p>",
+   "nd_why": "<p>Jede Folge wird noch am selben Abend besprochen: Reaktionen, Zusammenfassungen und Memes packen die Wendung in Vorschaubilder und Titel.</p><p>Schalte nicht einfach den Seriennamen stumm: Das blendet Trailer und News aus. Nimm die Kernliste unten, bis du aufgeholt hast.</p>",
+   "unknown": "Wendungen in Folgen, die noch nicht draußen sind.",
+   "demo": "{name}: die Folge, über die alle reden",
+   "cover_line": "Die Wendung",
+   "faq": [
+    [
+     "Wann startet {name}?",
+     "Die neue Staffel startet am {D}."
+    ],
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Seriennamen mit Wörtern wie Folge, Finale, wer stirbt und Spoiler. Nur der Name blendet auch Trailer aus."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Seriennamen mit Wörtern wie Folge, Finale, wer stirbt und Spoiler. Nur der Name blendet auch Trailer aus."
+    ],
+    [
+     "Wie lange sollte ich Filter anlassen?",
+     "Bis du aufgeholt hast. Die Spoiler sind am ersten Tag nach jeder Folge am schlimmsten."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ]
+  },
+  "anime": {
+   "kicker": "ANIME · {date}",
+   "cover_tag": "ANIME · {date}",
+   "keep_val": "Bis du aufgeholt hast",
+   "desc": "So vermeidest du Spoiler zu {name}: welche Wörter du auf X, Threads und TikTok stummschaltest, eine fertige Liste, die Videos und Posts auf YouTube, Reddit und X verwischt, und was kein Filter erwischt.",
+   "lead": "Manga-Leser wissen schon, was passiert, und jede Folge bringt Clips und Memes. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+   "why_h": "Warum man schwer ausweicht",
+   "why": "<p>Basiert der Anime auf einem Manga, steht die Handlung schon im Netz, und Leser posten Seiten und „wartet nur ab“-Kommentare unter jedem Clip. Ab dem {D0} bringt jede Folge Reaktionen und Edits.</p><p>Schalte nicht einfach den Titel stumm: Das blendet News und Merch aus. Nimm die Kernliste unten.</p>",
+   "nd_why": "<p>Basiert der Anime auf einem Manga, steht die Handlung schon im Netz, und Leser posten Seiten und „wartet nur ab“-Kommentare unter jedem Clip. Jede Folge bringt Reaktionen und Edits.</p><p>Schalte nicht einfach den Titel stumm: Das blendet News und Merch aus. Nimm die Kernliste unten.</p>",
+   "unknown": "Manga-Seiten, als Bilder gepostet.",
+   "demo": "{name}: diese Folge ändert alles",
+   "cover_line": "Die Wendung",
+   "faq": [
+    [
+     "Wann läuft {name}?",
+     "Die neue Staffel startet am {D}."
+    ],
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Titel mit Wörtern wie Manga-Spoiler, Folge, wer stirbt und Leaks. Manga-Kapitelnummern sind auch Spoiler."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ],
+   "nd_faq": [
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Titel mit Wörtern wie Manga-Spoiler, Folge, wer stirbt und Leaks. Manga-Kapitelnummern sind auch Spoiler."
+    ],
+    [
+     "Spoilert der Manga den Anime?",
+     "Meistens ja. Der Anime folgt dem Manga, also verraten Seiten und Kapitelgespräche, was kommt."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ]
+  }
+ },
+ "nd_now_show": "Nach jeder Folge",
+ "nd_now_anime": "Nach jeder Folge"
 }
