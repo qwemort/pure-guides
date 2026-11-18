@@ -15,7 +15,7 @@ BASE = 'https://qwemort.github.io/pure-guides/'
 LANGS = {'en': 'English', 'de': 'Deutsch', 'es': 'Español', 'fr': 'Français', 'it': 'Italiano', 'ja': '日本語', 'ko': '한국어', 'pl': 'Polski',
          'pt-BR': 'Português', 'ru': 'Русский', 'tr': 'Türkçe', 'uk': 'Українська', 'zh-CN': '简体中文'}
 GROUPS = {
-    'guide': {'en': 'avoid-gta-6-spoilers.html', 'static': {'uk': 'yak-unyknuty-spoileriv-gta-6.html', 'pl': 'jak-uniknac-spoilerow-gta-6.html'}},
+    # 'guide' (гайд GTA 6) с 18.11.2026 собирает tools/gen-title.py, тайтл gta6
     'block-gta6': {'en': 'block/gta6.html', 'static': {}},
     'demo': {'en': 'demo/index.html', 'static': {}},
 }

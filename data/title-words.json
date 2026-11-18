@@ -187,6 +187,248 @@
   ]
  },
  "titles": {
+  "gta6": {
+   "forms": {
+    "en": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "de": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "es": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "fr": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "it": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "pt-BR": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "tr": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "pl": [
+     "gta 6",
+     "gta vi",
+     "gta6"
+    ],
+    "ru": [
+     "гта 6",
+     "gta 6",
+     "gta vi"
+    ],
+    "uk": [
+     "гта 6",
+     "gta 6",
+     "gta vi"
+    ],
+    "ja": [
+     "gta6",
+     "gta 6",
+     "グラセフ6"
+    ],
+    "ko": [
+     "gta 6",
+     "gta6",
+     "gta vi"
+    ],
+    "zh-CN": [
+     "gta6",
+     "gta 6",
+     "侠盗猎车手6"
+    ]
+   },
+   "extra": {
+    "en": [
+     "grand theft auto vi"
+    ],
+    "de": [
+     "grand theft auto vi"
+    ],
+    "es": [
+     "grand theft auto vi"
+    ],
+    "fr": [
+     "grand theft auto vi"
+    ],
+    "it": [
+     "grand theft auto vi"
+    ],
+    "pt-BR": [
+     "grand theft auto vi"
+    ],
+    "tr": [
+     "grand theft auto vi"
+    ],
+    "pl": [
+     "grand theft auto vi"
+    ],
+    "ru": [
+     "gta6"
+    ],
+    "uk": [
+     "gta6"
+    ],
+    "ja": [
+     "gta vi"
+    ],
+    "ko": [
+     "그랜드 테프트 오토 6"
+    ],
+    "zh-CN": [
+     "gta vi"
+    ]
+   },
+   "names": {
+    "en": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "de": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "es": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "fr": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "it": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "pt-BR": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "tr": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "pl": [
+     "jason duval",
+     "lucia caminos",
+     "jason",
+     "lucia",
+     "vice city",
+     "leonida",
+     "boobie ike",
+     "raul bautista"
+    ],
+    "ru": [
+     "джейсон дюваль",
+     "лусия каминос",
+     "джейсон",
+     "лусия",
+     "вайс-сити",
+     "леонида",
+     "бубби айк",
+     "рауль баутиста"
+    ],
+    "uk": [
+     "джейсон дюваль",
+     "лусія камінос",
+     "джейсон",
+     "лусія",
+     "вайс-сіті",
+     "леоніда",
+     "буббі айк",
+     "рауль баутіста"
+    ],
+    "ja": [
+     "ジェイソン・デュバル",
+     "ルシア・カミノス",
+     "ジェイソン",
+     "ルシア",
+     "バイスシティ",
+     "レオニダ",
+     "ブービー・アイク",
+     "ラウル・バウティスタ"
+    ],
+    "ko": [
+     "제이슨 듀발",
+     "루시아 카미노스",
+     "제이슨",
+     "루시아",
+     "바이스 시티",
+     "레오니다",
+     "부비 아이크",
+     "라울 바우티스타"
+    ],
+    "zh-CN": [
+     "杰森·杜瓦尔",
+     "露西娅·卡米诺斯",
+     "杰森",
+     "露西娅",
+     "罪恶都市",
+     "莱昂尼达",
+     "布比·艾克",
+     "劳尔·包蒂斯塔"
+    ]
+   }
+  },
   "dune-3": {
    "forms": {
     "en": [

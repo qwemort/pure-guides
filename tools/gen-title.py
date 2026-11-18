@@ -24,6 +24,10 @@ S_ = {l: json.loads((R / f'i18n/title.{l}.json').read_text(encoding='utf-8')) fo
 def fname(page, lang): return f'{page}.html' if lang == 'en' else f'{page}.{lang.lower()}.html'
 
 
+def tpath(T, lang):  # свой адрес у языка (старые адреса, уже в выдаче), иначе <page>.<язык>.html
+    return T.get('paths', {}).get(lang) or fname(T['page'], lang)
+
+
 def fmt(S, d, long=False, year=False):
     m = (S['months'] if long else S['months_s'])[d.month - 1]
     return S['date_l' if year else 'date_s'].format(d=d.day, m=m, y=d.year)
@@ -62,16 +66,20 @@ def page(tid, lang, U, langs_here):
 
     rel = []   # «ещё скоро»: другие тайтлы (на этом языке, если есть) и доп. страницы
     for oid, o in TD['titles'].items():
-        if oid == tid: continue
+        if oid == tid or o['release'] < dt.date.today().isoformat(): continue   # вышедшие не «скоро»
         on = json.loads((R / f'i18n/titles/{oid}.json').read_text(encoding='utf-8'))
         ol = lang if lang in on else 'en'
-        rel.append((fname(o['page'], ol), on[ol]['name'], fmt(S, dt.date.fromisoformat(o['release']))))
+        rel.append((tpath(o, ol), on[ol]['name'], fmt(S, dt.date.fromisoformat(o['release']))))
     for o in TD.get('extra', {}).values():
         rel.append((o['page'] + '.html', o['name'], fmt(S, dt.date.fromisoformat(o['release'])) + (', ' + o['note'] if o.get('note') else '')))
     rel_html = ''.join(f'<a href="{h}">{esc(n)} · {esc(x)}</a>' for h, n, x in rel)
 
-    url = BASE + fname(T['page'], lang)
-    alts = ''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE + fname(T["page"], l)}">\n' for l in langs_here) + f'<link rel="alternate" hreflang="x-default" href="{BASE + fname(T["page"], "en")}">'
+    url = BASE + tpath(T, lang)
+    alts = ''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE + tpath(T, l)}">\n' for l in langs_here) + f'<link rel="alternate" hreflang="x-default" href="{BASE + tpath(T, "en")}">'
+    ttl = u.get('title', h1)
+    secs = u.get('sections', [])
+    sec_html = ''.join(f'<section id="{x["id"]}"><h2>{esc(x["h"])}</h2>{tok(x["html"])}</section>' for x in secs)
+    sec_nav = ''.join(f'<a href="#{x["id"]}">{esc(x["nav"])}</a>' for x in secs)
     desc = tok(u['desc'])
     ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': h1, 'description': desc, 'datePublished': T.get('published', T['release']),
            'dateModified': T.get('modified', T.get('published', T['release'])), 'inLanguage': lang, 'image': BASE + 'img/og.png', 'author': {'@type': 'Organization', 'name': 'Pure guides'}, 'mainEntityOfPage': url},
@@ -82,13 +90,13 @@ def page(tid, lang, U, langs_here):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(h1)}</title>
+<title>{esc(ttl)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
 {alts}
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Pure guides">
-<meta property="og:title" content="{esc(h1)}">
+<meta property="og:title" content="{esc(ttl)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
 <meta property="og:image" content="{BASE}img/og.png">
@@ -104,18 +112,18 @@ def page(tid, lang, U, langs_here):
   <p class="t-lead">{u['lead']}</p>
  </div>
  <aside class="t-side">
-  <div class="cv cv-{T.get('kind', 'film')}"><div class="cv-tag"><i></i>{S['cover_tag_film'].format(date=full.upper())}</div><div class="cv-h">{cover}</div><div class="cv-line">{esc(u['cover_line'])} <span class="cv-bar">{S['click']}</span></div></div>
+  <div class="cv cv-{T.get('kind', 'film')}"><div class="cv-tag"><i></i>{u.get('cover_tag', S['cover_tag_film']).format(date=full.upper())}</div><div class="cv-h">{cover}</div><div class="cv-line">{esc(u['cover_line'])} <span class="cv-bar">{S['click']}</span></div></div>
   <div class="t-date"><dl>
    <dt>{S['l_release']}</dt><dd>{full}</dd>
    <dt>{S['l_from']}</dt><dd>~{fmt(S, d - dt.timedelta(days=4))} <span class="muted" style="font-weight:400">{S['l_approx']}</span></dd>
-   <dt>{S['l_keep']}</dt><dd>{S['keep_val']}</dd></dl>
+   <dt>{S['l_keep']}</dt><dd>{esc(u.get('keep_val', S['keep_val']))}</dd></dl>
    <div class="t-bar"><span style="left:{round(13 / span * 100)}%;width:{round(18 / span * 100)}%"></span><i style="left:{round(17 / span * 100)}%"></i></div>
    <div class="t-scale"><span>{fmt(S, t0)}</span><span>{fmt(S, d)}</span><span>{fmt(S, t1)}</span></div>
   </div>
  </aside>
 </div>
 <div class="t-body">
- <nav class="t-toc" aria-label="{esc(S['on_this_page'].capitalize())}"><p>{S['on_this_page']}</p><a href="#why">{S['nav_why']}</a><a href="#words">{S['nav_words']}</a><a href="#where">{S['nav_where']}</a><a href="#miss">{S['nav_miss']}</a><a href="#faq">{S['nav_faq']}</a></nav>
+ <nav class="t-toc" aria-label="{esc(S['on_this_page'].capitalize())}"><p>{S['on_this_page']}</p><a href="#why">{S['nav_why']}</a><a href="#words">{S['nav_words']}</a><a href="#where">{S['nav_where']}</a>{sec_nav}<a href="#miss">{S['nav_miss']}</a><a href="#faq">{S['nav_faq']}</a></nav>
  <div class="t-main">
   <section id="why"><h2>{esc(u['why_h'])}</h2>{tok(u['why'])}</section>
   <section id="words"><h2>{S['words_h']}</h2><p>{S['words_intro']}</p>
@@ -130,6 +138,7 @@ def page(tid, lang, U, langs_here):
     <div class="no"><b data-no="{esc(S['no_mute'])}">Reddit</b>{S['plat_reddit']}</div>
     <div class="no"><b data-no="{esc(S['no_mute'])}">Discord</b>{S['plat_discord']}</div>
    </div></section>
+  {sec_html}
   <section id="miss"><h2>{S['miss_h']}</h2>
    <div class="t-miss">
     <div><b>{S['miss1_b']}</b>{S['miss1']}</div>
@@ -159,7 +168,7 @@ for tid, T in TD['titles'].items():
     U = json.loads((R / f'i18n/titles/{tid}.json').read_text(encoding='utf-8'))
     here = [l for l in LANGS if l in U]
     for l in here:
-        f = fname(T['page'], l)
+        f = tpath(T, l)
         (R / f).write_text(page(tid, l, U, here), encoding='utf-8'); n += 1
         loc = BASE + f
         if f'<loc>{loc}</loc>' not in sm:
@@ -173,6 +182,7 @@ STUB = '''<!doctype html>
 </head><body><p>This page has moved: <a href="../{page}">{name}</a>.</p></body></html>
 '''
 for tid, T in TD['titles'].items():
+    if T.get('keep_old'): continue   # у тайтла свои живые страницы block/ (например GTA 6), не перенаправляем
     pg = fname(T['page'], 'en'); nm = json.loads((R / f'i18n/titles/{tid}.json').read_text(encoding='utf-8'))['en']['name']
     for d in ('block', 'mute-list'):
         f = R / d / f'{tid}.html'

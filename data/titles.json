@@ -1,6 +1,31 @@
 {
  "_note": "Даты релизов. Обновляет бот tools/check-title-dates.mjs (Actions, раз в неделю). qid = запись в Wikidata (бот находит сам и запоминает).",
  "titles": {
+  "gta6": {
+   "name": "GTA 6",
+   "release": "2026-11-19",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-gta-6-spoilers",
+   "kind": "game",
+   "published": "2026-11-04",
+   "modified": "2026-11-18",
+   "keep_old": true,
+   "paths": {
+    "de": "gta-6-spoiler-vermeiden.html",
+    "es": "evitar-spoilers-gta-6.html",
+    "fr": "eviter-spoilers-gta-6.html",
+    "it": "evitare-spoiler-gta-6.html",
+    "ja": "gta-6-netabare-kaihi.html",
+    "ko": "gta-6-spoiler-pihagi.html",
+    "pt-BR": "como-evitar-spoilers-gta-6.html",
+    "ru": "kak-izbezhat-spojlerov-gta-6.html",
+    "tr": "gta-6-spoilerlarindan-kacinma.html",
+    "zh-CN": "gta-6-fang-jutou.html",
+    "uk": "yak-unyknuty-spoileriv-gta-6.html",
+    "pl": "jak-uniknac-spoilerow-gta-6.html"
+   }
+  },
   "dune-3": {
    "name": "Dune: Part Three",
    "release": "2026-12-18",
