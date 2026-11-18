@@ -1,3 +1,4 @@
+document.addEventListener('click',function(e){var b=e.target.closest('.chip,.copyall');if(!b)return;var t=b.classList.contains('chip')?b.textContent:Array.from(b.parentNode.querySelectorAll('.chip')).map(function(x){return x.textContent}).join('\n');var o=b.textContent;var done=function(){b.textContent=document.documentElement.getAttribute('data-copied')||'Copied';setTimeout(function(){b.textContent=o},1200)};if(navigator.clipboard)navigator.clipboard.writeText(t).then(done,function(){});});
 (function(){
 var bar=document.querySelector('.t-langbar');if(!bar)return;
 var btn=bar.querySelector('.t-lbtn'),menu=bar.querySelector('.t-lmenu'),cur=bar.querySelector('.t-lcur');
@@ -5,6 +6,7 @@ var items=Array.prototype.slice.call(menu.querySelectorAll('button'));
 var codes=items.map(function(b){return b.getAttribute('data-lang')});
 function pick(){
   try{var s=localStorage.getItem('pg-words-lang');if(s&&codes.indexOf(s)>-1)return s}catch(e){}
+  var pl=document.documentElement.getAttribute('lang');if(pl&&codes.indexOf(pl)>-1)return pl;
   var l=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']);
   for(var i=0;i<l.length;i++){
     var x=String(l[i]),lo=x.toLowerCase(),p=lo.split('-')[0];

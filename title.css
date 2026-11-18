@@ -1,4 +1,4 @@
-/* Шаблон страницы тайтла (черновик). Токены из style.css, своих цветов нет. */
+/* Страница тайтла (tools/gen-title.py). Токены из style.css. */
 .t-wrap{max-width:1180px;margin:0 auto;padding:32px 24px 64px}
 .t-head{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:48px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--line)}
 .t-kicker{font:600 13px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);margin:0 0 12px}
@@ -32,7 +32,7 @@
 .t-plat div{border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:15px;line-height:1.5}
 .t-plat b{display:block;font-size:16px;margin-bottom:4px}
 .t-plat .no{background:var(--code);border-color:transparent}
-.t-plat .no b::after{content:"no word mute";margin-left:8px;font:600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.t-plat .no b::after{content:attr(data-no);margin-left:8px;font:600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
 .t-miss{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
 .t-miss div{border-top:3px solid var(--accent);padding-top:10px;font-size:15px;line-height:1.5}
 .t-miss b{display:block;font-size:16px}
@@ -62,3 +62,33 @@
   .t-plat,.t-miss{grid-template-columns:1fr 1fr}
 }
 @media (max-width:480px){.t-plat,.t-miss{grid-template-columns:1fr}.t-wrap{padding:24px 16px 48px}}
+/* Обложка тайтла (утверждена 18.11): название, строка с плашкой, тип и дата, фон по типу */
+.t-side{display:grid;gap:16px}
+.cv{border-radius:14px;padding:20px 22px;aspect-ratio:1200/630;display:flex;flex-direction:column;color:#2A2D32;overflow:hidden}
+.cv-film{background:#ECE3D2}.cv-anime{background:#EFDDE2}.cv-game{background:#DCE5EC}
+.cv-tag{font:600 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;color:#666B66;display:flex;gap:8px;align-items:center}
+.cv-tag i{width:7px;height:7px;border-radius:2px;background:#2A2D32}
+.cv-h{font:700 30px/1.0 Archivo,"Arial Narrow",sans-serif;margin-top:auto}
+.cv-line{font:700 16px/1.2 Archivo,"Arial Narrow",sans-serif;margin-top:10px;display:flex;align-items:center;gap:8px}
+.cv-bar{background:#3A3E45;color:#F4F5F3;border-radius:6px;padding:5px 10px;font:600 11px/1 system-ui,sans-serif;flex:1;max-width:150px}
+.nowrap{white-space:nowrap}
+.chip{font:14px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif}
+.t-plat{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.t-group .chips{align-content:flex-start;align-items:flex-start}
+/* Переключатель языка списка слов */
+.t-langbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0 0}
+.t-lsel{position:relative}
+.t-lbtn{font:600 15px/1 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:10px 38px 10px 16px;cursor:pointer;position:relative}
+.t-lbtn::after{content:"";position:absolute;right:15px;top:50%;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-70%) rotate(45deg)}
+.t-lbtn[aria-expanded=true]::after{transform:translateY(-30%) rotate(225deg)}
+.t-lbtn:hover{border-color:var(--ink)}
+.t-lbtn:focus-visible,.t-lmenu button:focus-visible{outline:3px solid var(--signal);outline-offset:2px}
+.t-lmenu{position:absolute;z-index:20;top:calc(100% + 8px);left:0;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:8px;display:grid;grid-template-columns:repeat(3,minmax(110px,1fr));gap:4px;width:min(420px,calc(100vw - 40px));box-shadow:0 12px 32px rgba(0,0,0,.14)}
+.t-lmenu[hidden]{display:none}
+.t-lmenu button{font:15px/1.2 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:none;border:0;border-radius:8px;padding:10px 12px;text-align:left;cursor:pointer}
+.t-lmenu button:hover{background:var(--bg)}
+.t-lmenu button[aria-current=true]{background:var(--signal);font-weight:700}
+.t-lnote{font-size:14px}
+.t-lang[hidden]{display:none}
+@media(max-width:560px){.t-lmenu{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.t-head .nowrap{white-space:normal}}

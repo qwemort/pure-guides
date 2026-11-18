@@ -47,7 +47,7 @@
  "ext_p": "Pure Spoiler Blocker hat eine fertige Liste für {name}. Er verwischt passende Videos, Beiträge und Kommentare auf YouTube, Reddit und X und lässt Trailer und News stehen.",
  "cta": "Zu Chrome hinzufügen, kostenlos",
  "ext_small": "Auch <a>für Firefox</a>. Prüfung in deinem Browser, ohne Konto. Liest nur Text, nur Desktop-Browser. Ich baue es.",
- "also_h": "AUCH IM DEZEMBER",
+ "also_h": "AUCH BALD",
  "months": [
   "Januar",
   "Februar",
@@ -77,5 +77,6 @@
   "Dez."
  ],
  "date_s": "{d}. {m}",
- "date_l": "{d}. {m} {y}"
+ "date_l": "{d}. {m} {y}",
+ "no_mute": "kein Wortfilter"
 }

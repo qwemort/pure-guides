@@ -47,7 +47,7 @@
  "ext_p": "Pure Spoiler Blocker has a ready list for {name}. It blurs matching videos, posts and comments on YouTube, Reddit and X, and keeps trailers and news.",
  "cta": "Add to Chrome, free",
  "ext_small": "Also <a>for Firefox</a>. Checked in your browser, no account. Reads text only, desktop browsers only. I build it.",
- "also_h": "ALSO IN DECEMBER",
+ "also_h": "ALSO SOON",
  "months": [
   "January",
   "February",
@@ -77,5 +77,6 @@
   "Dec"
  ],
  "date_s": "{m} {d}",
- "date_l": "{m} {d}, {y}"
+ "date_l": "{m} {d}, {y}",
+ "no_mute": "no word mute"
 }

@@ -5,13 +5,27 @@
    "name": "Dune: Part Three",
    "release": "2026-12-18",
    "qid": "Q124714245",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "page": "avoid-dune-part-three-spoilers",
+   "kind": "film",
+   "published": "2026-11-17"
   },
   "avengers-doomsday": {
    "name": "Avengers: Doomsday",
    "release": "2026-12-18",
    "qid": "Q113244839",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "page": "avoid-avengers-doomsday-spoilers",
+   "kind": "film",
+   "published": "2026-11-17"
+  }
+ },
+ "extra": {
+  "apothecary": {
+   "name": "The Apothecary Diaries movie",
+   "release": "2026-12-11",
+   "page": "avoid-apothecary-diaries-movie-spoilers",
+   "note": "Japan"
   }
  }
 }

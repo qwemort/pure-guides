@@ -21,10 +21,10 @@ jobs:
         run: node tools/check-title-dates.mjs
       - name: Rebuild pages
         if: steps.chk.outputs.changed == 'true'
-        run: python3 tools/gen-title.py
+        run: python3 tools/gen-title.py && python3 tools/build.py --no-generate --no-check
       - name: Commit
         run: |
           git config user.name "title-dates bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A data/titles.json design/title
+          git add -A data/titles.json sitemap.xml sitemap-pages.xml '*.html'
           git diff --cached --quiet || { git commit -m "Даты релизов: автосверка с Wikidata"; git pull --rebase -X theirs -q origin main; git push; }

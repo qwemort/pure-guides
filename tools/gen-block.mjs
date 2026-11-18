@@ -9,6 +9,8 @@ if (!SRC || !fs.existsSync(SRC)) { console.error('usage: node tools/gen-block.mj
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'block');
 const FACTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/facts.json'), 'utf8'));
+// тайтлы со своей страницей (tools/gen-title.py): с главной ведём на неё, а не на block/
+const TPAGE = Object.fromEntries(Object.entries(JSON.parse(fs.readFileSync(path.join(ROOT, 'data/titles.json'), 'utf8')).titles).map(([k, v]) => [k, v.page + '.html']));
 const BASE = 'https://qwemort.github.io/pure-guides/';
 const FF = FACTS.links.firefox + '?utm_source=pureguides&amp;utm_medium=block-';
 const STORE = FACTS.links.chrome + '?utm_source=pureguides&amp;utm_medium=block-';
@@ -157,7 +159,7 @@ fs.writeFileSync(sm, s);
 // Главная: чипы тайтлов (между маркерами) и число списков (между <!--n--> и <!--/n-->) обновляются сами.
 const home = path.join(ROOT, 'index.html');
 if (fs.existsSync(home)) {
-  const chips = groups.map(([k, t]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<details class="tgroup tg-${k}"${k === 'game' ? ' open' : ''}><summary><h3 class="titles-h"><span class="cover">${t}</span><span class="tcount">${it.length} lists</span></h3><span class="tchev" aria-hidden="true"></span></summary>\n<ul class="titles">${it.map((p) => `<li><a href="block/${p.id}.html">${esc(p.label)}</a></li>`).join('')}</ul></details>` : ''; }).join('\n');
+  const chips = groups.map(([k, t]) => { const it = LIB.filter((p) => p.kind === k); return it.length ? `<details class="tgroup tg-${k}"${k === 'game' ? ' open' : ''}><summary><h3 class="titles-h"><span class="cover">${t}</span><span class="tcount">${it.length} lists</span></h3><span class="tchev" aria-hidden="true"></span></summary>\n<ul class="titles">${it.map((p) => `<li><a href="${TPAGE[p.id] || `block/${p.id}.html`}">${esc(p.label)}</a></li>`).join('')}</ul></details>` : ''; }).join('\n');
   let h = fs.readFileSync(home, 'utf8');
   h = h.replace(/<!-- titles:start -->[\s\S]*?<!-- titles:end -->/, `<!-- titles:start -->\n${chips}\n<!-- titles:end -->`);
   h = h.replace(/<!--n-->[\s\S]*?<!--\/n-->/g, `<!--n-->${LIB.length}<!--/n-->`);

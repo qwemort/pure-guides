@@ -47,7 +47,7 @@
  "ext_p": "Pure Spoiler Blocker a une liste prête pour {name}. Il floute les vidéos, publications et commentaires concernés sur YouTube, Reddit et X, et garde les bandes-annonces et les actus.",
  "cta": "Ajouter à Chrome, gratuit",
  "ext_small": "Aussi <a>pour Firefox</a>. Vérification dans ton navigateur, sans compte. Lit uniquement le texte, navigateurs de bureau seulement. C'est moi qui le fais.",
- "also_h": "AUSSI EN DÉCEMBRE",
+ "also_h": "BIENTÔT AUSSI",
  "months": [
   "janvier",
   "février",
@@ -77,5 +77,6 @@
   "déc."
  ],
  "date_s": "{d} {m}",
- "date_l": "{d} {m} {y}"
+ "date_l": "{d} {m} {y}",
+ "no_mute": "pas de filtre de mots"
 }

@@ -47,7 +47,7 @@
  "ext_p": "Pure Spoiler Blocker 为《{name}》准备了现成的列表。它会模糊 YouTube、Reddit 和 X 上匹配的视频、帖子和评论,同时保留预告片和新闻。",
  "cta": "添加到 Chrome(免费)",
  "ext_small": "也有<a>Firefox 版</a>。在你的浏览器里完成检查,无需账号。只读取文字,仅支持电脑浏览器。这是我做的。",
- "also_h": "12月还有",
+ "also_h": "即将上映",
  "months": [
   "1月",
   "2月",
@@ -77,5 +77,6 @@
   "12月"
  ],
  "date_s": "{m}{d}日",
- "date_l": "{y}年{m}{d}日"
+ "date_l": "{y}年{m}{d}日",
+ "no_mute": "不能屏蔽词语"
 }

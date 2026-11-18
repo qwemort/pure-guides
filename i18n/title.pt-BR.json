@@ -47,7 +47,7 @@
  "ext_p": "O Pure Spoiler Blocker tem uma lista pronta para {name}. Ele desfoca vídeos, posts e comentários correspondentes no YouTube, Reddit e X, e mantém trailers e notícias.",
  "cta": "Adicionar ao Chrome, grátis",
  "ext_small": "Também <a>para Firefox</a>. Verificação no seu navegador, sem conta. Lê só texto, só em navegadores de computador. Eu que faço.",
- "also_h": "TAMBÉM EM DEZEMBRO",
+ "also_h": "EM BREVE TAMBÉM",
  "months": [
   "janeiro",
   "fevereiro",
@@ -77,5 +77,6 @@
   "dez"
  ],
  "date_s": "{d} de {m}",
- "date_l": "{d} de {m} de {y}"
+ "date_l": "{d} de {m} de {y}",
+ "no_mute": "sem filtro de palavras"
 }

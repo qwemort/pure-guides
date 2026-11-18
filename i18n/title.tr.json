@@ -47,7 +47,7 @@
  "ext_p": "Pure Spoiler Blocker'ın {name} için hazır bir listesi var. YouTube, Reddit ve X'te eşleşen videoları, gönderileri ve yorumları bulanıklaştırır, fragmanları ve haberleri bırakır.",
  "cta": "Chrome'a ekle, ücretsiz",
  "ext_small": "<a>Firefox için</a> de var. Kontrol tarayıcında yapılır, hesap yok. Yalnızca metni okur, yalnızca masaüstü tarayıcılarda. Ben yapıyorum.",
- "also_h": "ARALIKTA DA",
+ "also_h": "YAKINDA",
  "months": [
   "Ocak",
   "Şubat",
@@ -77,5 +77,6 @@
   "Ara"
  ],
  "date_s": "{d} {m}",
- "date_l": "{d} {m} {y}"
+ "date_l": "{d} {m} {y}",
+ "no_mute": "kelime filtresi yok"
 }

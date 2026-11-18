@@ -47,7 +47,7 @@
  "ext_p": "Pure Spoiler Blocker tiene una lista lista para {name}. Difumina los vídeos, publicaciones y comentarios que coinciden en YouTube, Reddit y X, y deja los tráileres y las noticias.",
  "cta": "Añadir a Chrome, gratis",
  "ext_small": "También <a>para Firefox</a>. Se comprueba en tu navegador, sin cuenta. Solo lee texto, solo en navegadores de escritorio. Lo hago yo.",
- "also_h": "TAMBIÉN EN DICIEMBRE",
+ "also_h": "TAMBIÉN PRONTO",
  "months": [
   "enero",
   "febrero",
@@ -77,5 +77,6 @@
   "dic"
  ],
  "date_s": "{d} de {m}",
- "date_l": "{d} de {m} de {y}"
+ "date_l": "{d} de {m} de {y}",
+ "no_mute": "sin silenciar palabras"
 }

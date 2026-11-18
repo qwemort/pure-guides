@@ -201,6 +201,8 @@ def step_lang():
         top, foot = ((ROOT / 'templates' / n).read_text(encoding='utf-8').strip('\n') for n in ('header.html', 'footer.html'))
         s = re.sub(r'(<body[^>]*>\n?)', lambda m: m.group(1) + tag_anchors(render(top, '../', L, './')) + '\n', s, count=1)
         s = s.replace('@@FOOT@@', tag_anchors(render(foot, '../', L, './')) + '\n')
+        for tv in json.loads((ROOT / 'data/titles.json').read_text(encoding='utf-8'))['titles'].values():   # тайтлы со своей страницей: ссылка на версию на этом языке
+            if (ROOT / f'{tv["page"]}.{lang.lower()}.html').exists(): s = s.replace(f'href="../{tv["page"]}.html"', f'href="../{tv["page"]}.{lang.lower()}.html"')
         s = decorate(s, lang, L, 1)
         d = ROOT / LDIR(lang); d.mkdir(exist_ok=True)
         (d / 'index.html').write_text(s, encoding='utf-8')
