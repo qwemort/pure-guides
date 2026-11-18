@@ -1638,6 +1638,732 @@
      "德拉科·马尔福"
     ]
    }
+  },
+  "blade-runner-2099": {
+   "forms": {
+    "en": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "ru": [
+     "бегущий по лезвию 2099",
+     "бегущий по лезвию сериал",
+     "blade runner 2099"
+    ],
+    "uk": [
+     "той хто біжить по лезу 2099",
+     "той хто біжить по лезу серіал",
+     "blade runner 2099"
+    ],
+    "pl": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "de": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "fr": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "es": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "it": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "pt-BR": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "tr": [
+     "blade runner 2099",
+     "blade runner series",
+     "blade runner prime video"
+    ],
+    "ja": [
+     "ブレードランナー 2099",
+     "ブレードランナー ドラマ",
+     "blade runner 2099"
+    ],
+    "ko": [
+     "블레이드 러너 2099",
+     "블레이드 러너 드라마",
+     "blade runner 2099"
+    ],
+    "zh-CN": [
+     "银翼杀手2099",
+     "银翼杀手 剧集",
+     "blade runner 2099"
+    ]
+   },
+   "extra": {
+    "en": [
+     "br2099"
+    ],
+    "ru": [
+     "br2099"
+    ],
+    "uk": [
+     "br2099"
+    ],
+    "pl": [
+     "br2099"
+    ],
+    "de": [
+     "br2099"
+    ],
+    "fr": [
+     "br2099"
+    ],
+    "es": [
+     "br2099"
+    ],
+    "it": [
+     "br2099"
+    ],
+    "pt-BR": [
+     "br2099"
+    ],
+    "tr": [
+     "br2099"
+    ],
+    "ja": [
+     "br2099"
+    ],
+    "ko": [
+     "br2099"
+    ],
+    "zh-CN": [
+     "br2099"
+    ]
+   },
+   "names": {
+    "en": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "ru": [
+     "декард",
+     "офицер кей",
+     "джой",
+     "ниандер уоллес",
+     "тайрелл",
+     "рейчел",
+     "олвен",
+     "кора"
+    ],
+    "uk": [
+     "декард",
+     "офіцер кей",
+     "джой",
+     "ніандер воллес",
+     "тайрелл",
+     "рейчел",
+     "олвен",
+     "кора"
+    ],
+    "pl": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "de": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "fr": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "es": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "it": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "pt-BR": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "tr": [
+     "deckard",
+     "officer k",
+     "joi",
+     "niander wallace",
+     "tyrell",
+     "rachael",
+     "olwen",
+     "cora"
+    ],
+    "ja": [
+     "デッカード",
+     "K捜査官",
+     "ジョイ",
+     "ニアンダー・ウォレス",
+     "タイレル",
+     "レイチェル",
+     "オルウェン",
+     "コーラ"
+    ],
+    "ko": [
+     "데커드",
+     "K 요원",
+     "조이",
+     "니앤더 월레스",
+     "타이렐",
+     "레이첼",
+     "올웬",
+     "코라"
+    ],
+    "zh-CN": [
+     "德卡德",
+     "K警官",
+     "乔伊",
+     "尼安德·华莱士",
+     "泰瑞尔",
+     "瑞秋",
+     "奥尔温",
+     "科拉"
+    ]
+   }
+  },
+  "professor-layton-nws": {
+   "forms": {
+    "en": [
+     "professor layton new world of steam",
+     "layton new world of steam",
+     "new world of steam"
+    ],
+    "ru": [
+     "профессор лейтон новый паровой мир",
+     "layton new world of steam",
+     "new world of steam"
+    ],
+    "uk": [
+     "професор лейтон новий паровий світ",
+     "layton new world of steam",
+     "new world of steam"
+    ],
+    "pl": [
+     "professor layton new world of steam",
+     "layton new world of steam",
+     "new world of steam"
+    ],
+    "de": [
+     "professor layton neue welt des dampfes",
+     "layton neue welt des dampfes",
+     "neue welt des dampfes"
+    ],
+    "fr": [
+     "professeur layton nouveau monde à vapeur",
+     "layton nouveau monde à vapeur",
+     "nouveau monde à vapeur"
+    ],
+    "es": [
+     "profesor layton nuevo mundo a vapor",
+     "layton nuevo mundo a vapor",
+     "nuevo mundo a vapor"
+    ],
+    "it": [
+     "professor layton nuovo mondo a vapore",
+     "layton nuovo mondo a vapore",
+     "nuovo mondo a vapore"
+    ],
+    "pt-BR": [
+     "professor layton new world of steam",
+     "layton new world of steam",
+     "new world of steam"
+    ],
+    "tr": [
+     "professor layton new world of steam",
+     "layton new world of steam",
+     "new world of steam"
+    ],
+    "ja": [
+     "レイトン教授と蒸気の新世界",
+     "蒸気の新世界",
+     "レイトン 新作"
+    ],
+    "ko": [
+     "레이튼 교수와 증기의 신세계",
+     "증기의 신세계",
+     "레이튼 신작"
+    ],
+    "zh-CN": [
+     "雷顿教授与蒸汽新世界",
+     "蒸汽新世界",
+     "雷顿 新作"
+    ]
+   },
+   "extra": {
+    "en": [
+     "steam bison"
+    ],
+    "ru": [
+     "стим бизон"
+    ],
+    "uk": [
+     "стім бізон"
+    ],
+    "pl": [
+     "steam bison"
+    ],
+    "de": [
+     "steam bison"
+    ],
+    "fr": [
+     "steam bison"
+    ],
+    "es": [
+     "steam bison"
+    ],
+    "it": [
+     "steam bison"
+    ],
+    "pt-BR": [
+     "steam bison"
+    ],
+    "tr": [
+     "steam bison"
+    ],
+    "ja": [
+     "スチームバイソン"
+    ],
+    "ko": [
+     "스팀 바이슨"
+    ],
+    "zh-CN": [
+     "蒸汽野牛城"
+    ]
+   },
+   "names": {
+    "en": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "ru": [
+     "люк трайтон",
+     "эршел лейтон",
+     "люк",
+     "флора рейнхолд",
+     "эмми алтава",
+     "дон паоло",
+     "деколь",
+     "катриэль"
+    ],
+    "uk": [
+     "люк трайтон",
+     "ершел лейтон",
+     "люк",
+     "флора рейнгольд",
+     "еммі алтава",
+     "дон паоло",
+     "деколь",
+     "катріель"
+    ],
+    "pl": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "de": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "fr": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "es": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "it": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "pt-BR": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "tr": [
+     "luke triton",
+     "hershel layton",
+     "luke",
+     "flora reinhold",
+     "emmy altava",
+     "don paolo",
+     "descole",
+     "katrielle"
+    ],
+    "ja": [
+     "ルーク・トライトン",
+     "エルシャール・レイトン",
+     "ルーク",
+     "フローラ",
+     "レミ・アルタワ",
+     "ドン・ポール",
+     "デスコール",
+     "カトリー"
+    ],
+    "ko": [
+     "루크 트라이튼",
+     "에르실 레이튼",
+     "루크",
+     "플로라",
+     "레미 알타와",
+     "돈 폴",
+     "데스콜",
+     "카트리"
+    ],
+    "zh-CN": [
+     "卢克·特莱顿",
+     "艾尔夏尔·雷顿",
+     "卢克",
+     "芙洛拉",
+     "蕾米·阿尔塔娃",
+     "唐·保罗",
+     "德斯科尔",
+     "卡特莉"
+    ]
+   }
+  },
+  "godzilla-minus-zero": {
+   "forms": {
+    "en": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "ru": [
+     "годзилла минус ноль",
+     "godzilla minus zero",
+     "годзилла -0.0"
+    ],
+    "uk": [
+     "ґодзілла мінус нуль",
+     "godzilla minus zero",
+     "годзілла мінус нуль"
+    ],
+    "pl": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "de": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "fr": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "es": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "it": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "pt-BR": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "tr": [
+     "godzilla minus zero",
+     "godzilla -0.0",
+     "godzilla minus one sequel"
+    ],
+    "ja": [
+     "ゴジラ-0.0",
+     "ゴジラ マイナスゼロ",
+     "godzilla minus zero"
+    ],
+    "ko": [
+     "고질라 마이너스 제로",
+     "고질라 -0.0",
+     "godzilla minus zero"
+    ],
+    "zh-CN": [
+     "哥斯拉-0.0",
+     "哥斯拉 负零",
+     "godzilla minus zero"
+    ]
+   },
+   "extra": {
+    "en": [
+     "gojira -0.0"
+    ],
+    "ru": [
+     "gojira -0.0"
+    ],
+    "uk": [
+     "gojira -0.0"
+    ],
+    "pl": [
+     "gojira -0.0"
+    ],
+    "de": [
+     "gojira -0.0"
+    ],
+    "fr": [
+     "gojira -0.0"
+    ],
+    "es": [
+     "gojira -0.0"
+    ],
+    "it": [
+     "gojira -0.0"
+    ],
+    "pt-BR": [
+     "gojira -0.0"
+    ],
+    "tr": [
+     "gojira -0.0"
+    ],
+    "ja": [
+     "gojira -0.0"
+    ],
+    "ko": [
+     "gojira -0.0"
+    ],
+    "zh-CN": [
+     "gojira -0.0"
+    ]
+   },
+   "names": {
+    "en": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "ru": [
+     "коити сикисима",
+     "сикисима",
+     "норико",
+     "акико",
+     "кэндзи нода",
+     "мидзусима",
+     "акицу",
+     "синдэн"
+    ],
+    "uk": [
+     "коїті сікісіма",
+     "сікісіма",
+     "норіко",
+     "акіко",
+     "кендзі нода",
+     "мідзусіма",
+     "акіцу",
+     "сінден"
+    ],
+    "pl": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "de": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "fr": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "es": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "it": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "pt-BR": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "tr": [
+     "koichi shikishima",
+     "shikishima",
+     "noriko",
+     "akiko",
+     "kenji noda",
+     "mizushima",
+     "akitsu",
+     "shinden"
+    ],
+    "ja": [
+     "敷島浩一",
+     "敷島",
+     "典子",
+     "明子",
+     "野田健治",
+     "水島",
+     "秋津",
+     "震電"
+    ],
+    "ko": [
+     "시키시마 코이치",
+     "시키시마",
+     "노리코",
+     "아키코",
+     "노다 켄지",
+     "미즈시마",
+     "아키츠",
+     "신덴"
+    ],
+    "zh-CN": [
+     "敷岛浩一",
+     "敷岛",
+     "典子",
+     "明子",
+     "野田健治",
+     "水岛",
+     "秋津",
+     "震电"
+    ]
+   }
   }
  }
 }

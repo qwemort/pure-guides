@@ -1,0 +1,405 @@
+{
+ "en": {
+  "name": "Professor Layton and the New World of Steam",
+  "kicker": "GAME · SWITCH, PS5, PC · {date}",
+  "cover_tag": "GAME · {date}",
+  "keep_val": "A few weeks",
+  "desc": "Professor Layton and the New World of Steam is out {D}. A Layton story is one big mystery, and one leaked answer ruins it. Words to mute on X, Threads and TikTok, and what no filter catches.",
+  "lead": "A Layton game is a mystery with a final reveal. One video title with the answer, and the whole story is gone. What to mute, where, and what no setting can catch.",
+  "why_h": "The ending is the whole point",
+  "why": "<p>In most games a spoiler ruins a scene. In Layton it ruins the reason to play: every chapter builds to who is behind it and why. Puzzle walkthroughs are safe to search, but videos about the final chapter put the answer in the title.</p><p>Copies can reach some players a few days before {D0}. Do not mute plain \"Layton\": it also hides puzzle help and news about the series.</p>",
+  "unknown": "Story twists the trailers kept hidden.",
+  "demo": "Professor Layton New World of Steam: the final reveal",
+  "cover_line": "The final reveal",
+  "faq": [
+   [
+    "When does the new Professor Layton game come out?",
+    "On {D}, for Nintendo Switch, Switch 2, PS5 and PC."
+   ],
+   [
+    "Are puzzle solutions spoilers?",
+    "Usually not for the story. Search the puzzle number, not the chapter name, and avoid videos about the last chapters."
+   ],
+   [
+    "Which words should I mute?",
+    "The game title with words like ending, final chapter, culprit, true identity and spoilers. Muting only \"Layton\" also hides puzzle help."
+   ],
+   [
+    "Can I mute words on YouTube?",
+    "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+   ]
+  ]
+ },
+ "ru": {
+  "name": "Professor Layton and the New World of Steam",
+  "kicker": "ИГРА · SWITCH, PS5, PC · {date}",
+  "cover_tag": "ИГРА · {date}",
+  "keep_val": "Несколько недель",
+  "desc": "Professor Layton and the New World of Steam выходит {D}. История Лейтона это одна большая загадка, и один слитый ответ её губит. Какие слова скрыть в X, Threads и TikTok и что не ловит ни один фильтр.",
+  "lead": "Игра про Лейтона это детектив с финальной разгадкой. Один заголовок видео с ответом, и вся история пропала. Что скрыть, где именно и чего не поймает ни одна настройка.",
+  "why_h": "Вся суть в концовке",
+  "why": "<p>В большинстве игр спойлер портит сцену. В Лейтоне он портит смысл играть: каждая глава ведёт к тому, кто за всем стоит и зачем. Решения головоломок искать безопасно, а вот в роликах о последней главе ответ стоит прямо в заголовке.</p><p>Копии могут попасть к части игроков за несколько дней до {D0}. Не скрывайте просто «Лейтон»: пропадёт и помощь с головоломками, и новости серии.</p>",
+  "unknown": "Повороты сюжета, которые трейлеры скрыли.",
+  "demo": "Professor Layton New World of Steam: финальная разгадка",
+  "cover_line": "Финальная разгадка",
+  "faq": [
+   [
+    "Когда выходит новый «Профессор Лейтон»?",
+    "{D}, на Nintendo Switch, Switch 2, PS5 и PC."
+   ],
+   [
+    "Решения головоломок это спойлеры?",
+    "Для сюжета обычно нет. Ищите по номеру головоломки, а не по названию главы, и обходите ролики о последних главах."
+   ],
+   [
+    "Какие слова скрыть?",
+    "Название игры вместе со словами концовка, последняя глава, виновник, кто он на самом деле, спойлеры. Если скрыть только «Лейтон», пропадёт и помощь с головоломками."
+   ],
+   [
+    "Можно ли скрыть слова на YouTube?",
+    "Нет, фильтра по словам на YouTube нет. В браузере на компьютере это может сделать расширение: оно размывает подходящие ролики и комментарии."
+   ]
+  ]
+ },
+ "uk": {
+  "name": "Professor Layton and the New World of Steam",
+  "kicker": "ГРА · SWITCH, PS5, PC · {date}",
+  "cover_tag": "ГРА · {date}",
+  "keep_val": "Кілька тижнів",
+  "desc": "Professor Layton and the New World of Steam виходить {D}. Історія Лейтона це одна велика загадка, і одна злита відповідь її руйнує. Які слова приховати в X, Threads і TikTok і чого не ловить жоден фільтр.",
+  "lead": "Гра про Лейтона це детектив із фінальною розгадкою. Один заголовок відео з відповіддю, і вся історія зникла. Що приховати, де саме і чого не впіймає жодне налаштування.",
+  "why_h": "Уся суть у фіналі",
+  "why": "<p>У більшості ігор спойлер псує сцену. У Лейтоні він псує сенс грати: кожен розділ веде до того, хто за всім стоїть і навіщо. Розв'язки головоломок шукати безпечно, а от у роликах про останній розділ відповідь стоїть просто в заголовку.</p><p>Копії можуть потрапити до частини гравців за кілька днів до {D0}. Не приховуйте просто «Лейтон»: зникне і допомога з головоломками, і новини серії.</p>",
+  "unknown": "Повороти сюжету, які трейлери приховали.",
+  "demo": "Professor Layton New World of Steam: фінальна розгадка",
+  "cover_line": "Фінальна розгадка",
+  "faq": [
+   [
+    "Коли виходить новий «Професор Лейтон»?",
+    "{D}, на Nintendo Switch, Switch 2, PS5 і PC."
+   ],
+   [
+    "Розв'язки головоломок це спойлери?",
+    "Для сюжету зазвичай ні. Шукайте за номером головоломки, а не за назвою розділу, й оминайте ролики про останні розділи."
+   ],
+   [
+    "Які слова приховати?",
+    "Назву гри разом зі словами фінал, останній розділ, винуватець, хто він насправді, спойлери. Якщо приховати лише «Лейтон», зникне і допомога з головоломками."
+   ],
+   [
+    "Чи можна приховати слова на YouTube?",
+    "Ні, фільтра за словами на YouTube немає. У браузері на комп'ютері це може зробити розширення: воно розмиває відповідні ролики й коментарі."
+   ]
+  ]
+ },
+ "pl": {
+  "name": "Professor Layton and the New World of Steam",
+  "kicker": "GRA · SWITCH, PS5, PC · {date}",
+  "cover_tag": "GRA · {date}",
+  "keep_val": "Kilka tygodni",
+  "desc": "Professor Layton and the New World of Steam wychodzi {D}. Historia Laytona to jedna wielka zagadka, a jedna zdradzona odpowiedź ją psuje. Jakie słowa wyciszyć na X, Threads i TikToku i czego nie złapie żaden filtr.",
+  "lead": "Gra o Laytonie to kryminał z finałowym rozwiązaniem. Jeden tytuł filmu z odpowiedzią i cała historia przepada. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+  "why_h": "Cały sens jest w zakończeniu",
+  "why": "<p>W większości gier spoiler psuje scenę. W Laytonie psuje powód, żeby grać: każdy rozdział prowadzi do tego, kto za tym stoi i dlaczego. Rozwiązania łamigłówek można bezpiecznie szukać, ale filmy o ostatnim rozdziale mają odpowiedź w tytule.</p><p>Kopie mogą trafić do części graczy kilka dni przed {D0}. Nie wyciszaj samego „Layton”: zniknie też pomoc z łamigłówkami i newsy o serii.</p>",
+  "unknown": "Zwroty akcji, które zwiastuny ukryły.",
+  "demo": "Professor Layton New World of Steam: finałowe rozwiązanie",
+  "cover_line": "Finałowe rozwiązanie",
+  "faq": [
+   [
+    "Kiedy wychodzi nowy Professor Layton?",
+    "{D}, na Nintendo Switch, Switch 2, PS5 i PC."
+   ],
+   [
+    "Czy rozwiązania łamigłówek to spoilery?",
+    "Zwykle nie dla fabuły. Szukaj po numerze łamigłówki, nie po nazwie rozdziału, i omijaj filmy o ostatnich rozdziałach."
+   ],
+   [
+    "Jakie słowa wyciszyć?",
+    "Tytuł gry razem ze słowami zakończenie, ostatni rozdział, sprawca, prawdziwa tożsamość, spoilery. Samo „Layton” ukryje też pomoc z łamigłówkami."
+   ],
+   [
+    "Czy da się wyciszyć słowa na YouTube?",
+    "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+   ]
+  ]
+ },
+ "de": {
+  "name": "Professor Layton und die Neue Welt des Dampfes",
+  "kicker": "SPIEL · SWITCH, PS5, PC · {date}",
+  "cover_tag": "SPIEL · {date}",
+  "keep_val": "Ein paar Wochen",
+  "desc": "Professor Layton und die Neue Welt des Dampfes erscheint am {D}. Eine Layton-Geschichte ist ein großes Rätsel, und eine verratene Lösung ruiniert es. Welche Wörter du stummschaltest und was kein Filter erwischt.",
+  "lead": "Ein Layton-Spiel ist ein Krimi mit großer Auflösung. Ein Videotitel mit der Antwort, und die Geschichte ist weg. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+  "why_h": "Das Ende ist der ganze Sinn",
+  "why": "<p>In den meisten Spielen verdirbt ein Spoiler eine Szene. Bei Layton verdirbt er den Grund zu spielen: Jedes Kapitel führt darauf hin, wer dahintersteckt und warum. Rätsellösungen kannst du gefahrlos suchen, Videos zum letzten Kapitel haben die Antwort aber im Titel.</p><p>Exemplare können manche Spieler ein paar Tage vor dem {D0} erreichen. Schalte nicht einfach „Layton“ stumm: Das blendet auch Rätselhilfe und News zur Reihe aus.</p>",
+  "unknown": "Wendungen, die die Trailer verschwiegen haben.",
+  "demo": "Professor Layton Neue Welt des Dampfes: die große Auflösung",
+  "cover_line": "Die Auflösung",
+  "faq": [
+   [
+    "Wann erscheint das neue Professor-Layton-Spiel?",
+    "Am {D} für Nintendo Switch, Switch 2, PS5 und PC."
+   ],
+   [
+    "Sind Rätsellösungen Spoiler?",
+    "Für die Story meist nicht. Such nach der Rätselnummer, nicht nach dem Kapitelnamen, und meide Videos zu den letzten Kapiteln."
+   ],
+   [
+    "Welche Wörter sollte ich stummschalten?",
+    "Den Spieltitel mit Wörtern wie Ende, letztes Kapitel, Täter, wahre Identität und Spoiler. Nur „Layton“ blendet auch Rätselhilfe aus."
+   ],
+   [
+    "Kann ich auf YouTube Wörter stummschalten?",
+    "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+   ]
+  ]
+ },
+ "fr": {
+  "name": "Professeur Layton et le Nouveau Monde à vapeur",
+  "kicker": "JEU · SWITCH, PS5, PC · {date}",
+  "cover_tag": "JEU · {date}",
+  "keep_val": "Quelques semaines",
+  "desc": "Professeur Layton et le Nouveau Monde à vapeur sort le {D}. Une histoire de Layton est un grand mystère, et une seule réponse dévoilée le gâche. Les mots à masquer et ce qu'aucun filtre n'attrape.",
+  "lead": "Un jeu Layton est une enquête avec une révélation finale. Un titre de vidéo avec la réponse, et toute l'histoire s'envole. Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+  "why_h": "La fin, c'est tout l'intérêt",
+  "why": "<p>Dans la plupart des jeux, un spoiler gâche une scène. Chez Layton, il gâche la raison de jouer : chaque chapitre mène à qui est derrière tout ça et pourquoi. Chercher la solution d'une énigme ne risque rien, mais les vidéos sur le dernier chapitre ont la réponse dans le titre.</p><p>Des copies peuvent arriver chez certains joueurs quelques jours avant le {D0}. Ne masquez pas simplement « Layton » : cela cache aussi l'aide aux énigmes et l'actu de la série.</p>",
+  "unknown": "Les rebondissements que les bandes-annonces ont cachés.",
+  "demo": "Professeur Layton Nouveau Monde à vapeur : la révélation finale",
+  "cover_line": "La révélation",
+  "faq": [
+   [
+    "Quand sort le nouveau Professeur Layton ?",
+    "Le {D}, sur Nintendo Switch, Switch 2, PS5 et PC."
+   ],
+   [
+    "Les solutions des énigmes sont-elles des spoilers ?",
+    "Pas pour l'histoire en général. Cherchez par numéro d'énigme, pas par nom de chapitre, et évitez les vidéos sur les derniers chapitres."
+   ],
+   [
+    "Quels mots masquer ?",
+    "Le titre du jeu avec des mots comme fin, dernier chapitre, coupable, vraie identité et spoilers. Masquer seulement « Layton » cache aussi l'aide aux énigmes."
+   ],
+   [
+    "Peut-on masquer des mots sur YouTube ?",
+    "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+   ]
+  ]
+ },
+ "es": {
+  "name": "El profesor Layton y el Nuevo Mundo a vapor",
+  "kicker": "JUEGO · SWITCH, PS5, PC · {date}",
+  "cover_tag": "JUEGO · {date}",
+  "keep_val": "Unas semanas",
+  "desc": "El profesor Layton y el Nuevo Mundo a vapor sale el {D}. Una historia de Layton es un gran misterio y una respuesta filtrada la arruina. Qué palabras silenciar y qué no atrapa ningún filtro.",
+  "lead": "Un juego de Layton es un misterio con una revelación final. Un título de vídeo con la respuesta y toda la historia se pierde. Qué silenciar, dónde y qué no detiene ningún ajuste.",
+  "why_h": "El final es lo importante",
+  "why": "<p>En la mayoría de juegos un spoiler arruina una escena. En Layton arruina el motivo para jugar: cada capítulo lleva a quién está detrás y por qué. Buscar la solución de un puzle es seguro, pero los vídeos del último capítulo llevan la respuesta en el título.</p><p>Las copias pueden llegar a algunos jugadores unos días antes del {D0}. No silencies solo «Layton»: también ocultas la ayuda con puzles y las noticias de la saga.</p>",
+  "unknown": "Giros que los tráileres mantuvieron ocultos.",
+  "demo": "Profesor Layton Nuevo Mundo a vapor: la revelación final",
+  "cover_line": "La revelación",
+  "faq": [
+   [
+    "¿Cuándo sale el nuevo Profesor Layton?",
+    "El {D}, en Nintendo Switch, Switch 2, PS5 y PC."
+   ],
+   [
+    "¿Las soluciones de los puzles son spoilers?",
+    "Para la historia, normalmente no. Busca por número de puzle, no por nombre de capítulo, y evita los vídeos de los últimos capítulos."
+   ],
+   [
+    "¿Qué palabras silencio?",
+    "El título del juego con palabras como final, último capítulo, culpable, verdadera identidad y spoilers. Silenciar solo «Layton» también oculta la ayuda con puzles."
+   ],
+   [
+    "¿Puedo silenciar palabras en YouTube?",
+    "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+   ]
+  ]
+ },
+ "it": {
+  "name": "Professor Layton e il Nuovo Mondo a vapore",
+  "kicker": "GIOCO · SWITCH, PS5, PC · {date}",
+  "cover_tag": "GIOCO · {date}",
+  "keep_val": "Qualche settimana",
+  "desc": "Professor Layton e il Nuovo Mondo a vapore esce il {D}. Una storia di Layton è un grande mistero e una risposta svelata la rovina. Quali parole silenziare e cosa nessun filtro blocca.",
+  "lead": "Un gioco di Layton è un giallo con una rivelazione finale. Un titolo di video con la risposta e tutta la storia è andata. Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+  "why_h": "Il finale è tutto",
+  "why": "<p>Nella maggior parte dei giochi uno spoiler rovina una scena. In Layton rovina il motivo per giocare: ogni capitolo porta a chi c'è dietro e perché. Cercare la soluzione di un enigma è sicuro, ma i video sull'ultimo capitolo hanno la risposta nel titolo.</p><p>Le copie possono arrivare ad alcuni giocatori qualche giorno prima del {D0}. Non silenziare solo «Layton»: nasconderesti anche l'aiuto con gli enigmi e le notizie sulla serie.</p>",
+  "unknown": "Colpi di scena che i trailer hanno tenuto nascosti.",
+  "demo": "Professor Layton Nuovo Mondo a vapore: la rivelazione finale",
+  "cover_line": "La rivelazione",
+  "faq": [
+   [
+    "Quando esce il nuovo Professor Layton?",
+    "Il {D}, su Nintendo Switch, Switch 2, PS5 e PC."
+   ],
+   [
+    "Le soluzioni degli enigmi sono spoiler?",
+    "Per la storia di solito no. Cerca per numero di enigma, non per nome del capitolo, ed evita i video sugli ultimi capitoli."
+   ],
+   [
+    "Quali parole silenziare?",
+    "Il titolo del gioco con parole come finale, ultimo capitolo, colpevole, vera identità e spoiler. Silenziare solo «Layton» nasconde anche l'aiuto con gli enigmi."
+   ],
+   [
+    "Posso silenziare parole su YouTube?",
+    "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+   ]
+  ]
+ },
+ "pt-BR": {
+  "name": "Professor Layton and the New World of Steam",
+  "kicker": "JOGO · SWITCH, PS5, PC · {date}",
+  "cover_tag": "JOGO · {date}",
+  "keep_val": "Algumas semanas",
+  "desc": "Professor Layton and the New World of Steam sai em {D}. Uma história do Layton é um grande mistério, e uma resposta vazada estraga tudo. Que palavras silenciar no X, Threads e TikTok e o que nenhum filtro pega.",
+  "lead": "Um jogo do Layton é um mistério com uma revelação final. Um título de vídeo com a resposta e a história inteira se perde. O que silenciar, onde e o que nenhuma configuração segura.",
+  "why_h": "O final é o que importa",
+  "why": "<p>Na maioria dos jogos um spoiler estraga uma cena. No Layton ele estraga o motivo de jogar: cada capítulo leva a quem está por trás e por quê. Procurar a solução de um enigma é seguro, mas vídeos do último capítulo trazem a resposta no título.</p><p>Cópias podem chegar a alguns jogadores dias antes de {D0}. Não silencie só «Layton»: isso esconde a ajuda com enigmas e as notícias da série.</p>",
+  "unknown": "Reviravoltas que os trailers esconderam.",
+  "demo": "Professor Layton New World of Steam: a revelação final",
+  "cover_line": "A revelação",
+  "faq": [
+   [
+    "Quando sai o novo Professor Layton?",
+    "Em {D}, para Nintendo Switch, Switch 2, PS5 e PC."
+   ],
+   [
+    "Soluções de enigmas são spoiler?",
+    "Para a história, normalmente não. Procure pelo número do enigma, não pelo nome do capítulo, e evite vídeos dos últimos capítulos."
+   ],
+   [
+    "Quais palavras silenciar?",
+    "O título do jogo com palavras como final, último capítulo, culpado, verdadeira identidade e spoiler. Silenciar só «Layton» esconde também a ajuda com enigmas."
+   ],
+   [
+    "Dá para silenciar palavras no YouTube?",
+    "Não, o YouTube não tem filtro de palavras. No navegador do computador, uma extensão pode desfocar vídeos e comentários que batem."
+   ]
+  ]
+ },
+ "tr": {
+  "name": "Professor Layton and the New World of Steam",
+  "kicker": "OYUN · SWITCH, PS5, PC · {date}",
+  "cover_tag": "OYUN · {date}",
+  "keep_val": "Birkaç hafta",
+  "desc": "Professor Layton and the New World of Steam {D} tarihinde çıkıyor. Bir Layton hikâyesi büyük bir gizemdir ve sızan tek bir cevap onu mahveder. Hangi kelimeleri susturmalı, hangi şeyi hiçbir filtre yakalamaz.",
+  "lead": "Bir Layton oyunu, sonunda çözülen bir gizemdir. Cevabı içeren tek bir video başlığı ve bütün hikâye gider. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+  "why_h": "Bütün mesele sonda",
+  "why": "<p>Çoğu oyunda spoiler bir sahneyi bozar. Layton'da oynama sebebini bozar: her bölüm, arkasında kimin olduğuna ve nedenine götürür. Bulmaca çözümü aramak güvenli, ama son bölümle ilgili videolar cevabı başlığa yazar.</p><p>Kopyalar bazı oyunculara {D0} tarihinden birkaç gün önce ulaşabilir. Sadece «Layton»ı susturmayın: bulmaca yardımı ve seri haberleri de gizlenir.</p>",
+  "unknown": "Fragmanların gizlediği sürprizler.",
+  "demo": "Professor Layton New World of Steam: son çözüm",
+  "cover_line": "Son çözüm",
+  "faq": [
+   [
+    "Yeni Professor Layton ne zaman çıkıyor?",
+    "{D} tarihinde Nintendo Switch, Switch 2, PS5 ve PC için."
+   ],
+   [
+    "Bulmaca çözümleri spoiler mı?",
+    "Hikâye açısından genelde değil. Bölüm adıyla değil bulmaca numarasıyla arayın ve son bölümlerle ilgili videolardan uzak durun."
+   ],
+   [
+    "Hangi kelimeleri susturmalıyım?",
+    "Oyun adını son, son bölüm, suçlu, gerçek kimlik ve spoiler gibi kelimelerle birlikte. Sadece «Layton»ı susturmak bulmaca yardımını da gizler."
+   ],
+   [
+    "YouTube'da kelime susturabilir miyim?",
+    "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+   ]
+  ]
+ },
+ "ja": {
+  "name": "レイトン教授と蒸気の新世界",
+  "kicker": "ゲーム · SWITCH / PS5 / PC · {date}",
+  "cover_tag": "ゲーム · {date}",
+  "keep_val": "数週間",
+  "desc": "『レイトン教授と蒸気の新世界』は{D}発売。レイトンの物語はひとつの大きな謎で、答えがひとつ漏れるだけで台無しです。X、Threads、TikTok でミュートするワードと、どのフィルターでも防げないもの。",
+  "lead": "レイトンは最後に真相が明かされるミステリーです。答えの入った動画タイトルひとつで物語が終わります。何を、どこでミュートするか、そして設定では防げないもの。",
+  "why_h": "結末こそがすべて",
+  "why": "<p>多くのゲームではネタバレは1シーンを台無しにするだけですが、レイトンでは遊ぶ理由そのものを奪います。どの章も「誰が、なぜ」に向かって進みます。ナゾの解き方を調べるのは安全ですが、最終章の動画はタイトルに答えが書かれています。</p><p>{D0}の数日前に一部のプレイヤーに届くこともあります。「レイトン」だけをミュートしないでください。ナゾのヒントやシリーズのニュースまで消えます。</p>",
+  "unknown": "トレーラーが隠していたどんでん返し。",
+  "demo": "レイトン教授と蒸気の新世界 最後の真相",
+  "cover_line": "最後の真相",
+  "faq": [
+   [
+    "『レイトン教授と蒸気の新世界』の発売日は？",
+    "{D}、Nintendo Switch、Switch 2、PS5、PC で発売です。"
+   ],
+   [
+    "ナゾの答えはネタバレ？",
+    "物語のネタバレには普通なりません。章の名前ではなくナゾの番号で調べ、最終章の動画は避けましょう。"
+   ],
+   [
+    "どのワードをミュートすべき？",
+    "ゲームのタイトルに、結末、最終章、犯人、正体、ネタバレ、などを組み合わせます。「レイトン」だけだとナゾのヒントも消えます。"
+   ],
+   [
+    "YouTube でワードをミュートできる？",
+    "いいえ、YouTube にはワードフィルターがありません。PC のブラウザなら拡張機能で該当する動画やコメントをぼかせます。"
+   ]
+  ]
+ },
+ "ko": {
+  "name": "레이튼 교수와 증기의 신세계",
+  "kicker": "게임 · SWITCH, PS5, PC · {date}",
+  "cover_tag": "게임 · {date}",
+  "keep_val": "몇 주",
+  "desc": "레이튼 교수와 증기의 신세계는 {D} 출시됩니다. 레이튼 이야기는 하나의 큰 수수께끼라 답 하나만 새도 망가집니다. X, Threads, TikTok에서 뮤트할 단어와 어떤 필터도 못 잡는 것.",
+  "lead": "레이튼 게임은 마지막에 진상이 밝혀지는 미스터리입니다. 답이 담긴 영상 제목 하나면 이야기 전체가 끝납니다. 무엇을, 어디서 뮤트할지, 그리고 설정으로 못 막는 것.",
+  "why_h": "결말이 전부다",
+  "why": "<p>대부분의 게임에서 스포일러는 한 장면을 망치지만, 레이튼에서는 플레이할 이유를 망칩니다. 모든 챕터가 누가, 왜 그랬는지로 향합니다. 수수께끼 풀이를 찾는 건 안전하지만, 마지막 챕터 영상은 제목에 답이 있습니다.</p><p>{D0} 며칠 전에 일부 플레이어에게 도착할 수 있습니다. \"레이튼\"만 뮤트하지 마세요. 수수께끼 도움과 시리즈 뉴스도 사라집니다.</p>",
+  "unknown": "트레일러가 숨긴 반전.",
+  "demo": "레이튼 교수와 증기의 신세계 마지막 진상",
+  "cover_line": "마지막 진상",
+  "faq": [
+   [
+    "새 레이튼 교수 게임은 언제 나오나요?",
+    "{D}, Nintendo Switch, Switch 2, PS5, PC로 출시됩니다."
+   ],
+   [
+    "수수께끼 풀이도 스포일러인가요?",
+    "보통 스토리 스포일러는 아닙니다. 챕터 이름이 아니라 수수께끼 번호로 찾고, 마지막 챕터 영상은 피하세요."
+   ],
+   [
+    "어떤 단어를 뮤트해야 하나요?",
+    "게임 제목에 결말, 마지막 챕터, 범인, 정체, 스포일러 같은 단어를 더하세요. \"레이튼\"만 뮤트하면 수수께끼 도움도 사라집니다."
+   ],
+   [
+    "YouTube에서 단어를 뮤트할 수 있나요?",
+    "아니요, YouTube에는 단어 필터가 없습니다. PC 브라우저에서는 확장 프로그램이 해당 영상과 댓글을 흐리게 할 수 있습니다."
+   ]
+  ]
+ },
+ "zh-CN": {
+  "name": "雷顿教授与蒸汽新世界",
+  "kicker": "游戏 · SWITCH、PS5、PC · {date}",
+  "cover_tag": "游戏 · {date}",
+  "keep_val": "几周",
+  "desc": "《雷顿教授与蒸汽新世界》{D}发售。雷顿的故事就是一个大谜题，泄露一个答案就全毁了。X、Threads 和 TikTok 上该屏蔽哪些词，以及任何过滤都挡不住的东西。",
+  "lead": "雷顿是在最后揭开真相的推理游戏。一个带答案的视频标题，整个故事就没了。该屏蔽什么、在哪里屏蔽，以及设置挡不住的东西。",
+  "why_h": "结局就是一切",
+  "why": "<p>大多数游戏里剧透只毁掉一个场景，在雷顿里它毁掉的是玩下去的理由：每一章都指向幕后是谁、为什么。搜谜题解法是安全的，但关于最后一章的视频会把答案写在标题里。</p><p>部分玩家可能在{D0}前几天就拿到游戏。不要只屏蔽“雷顿”：谜题提示和系列新闻也会被挡掉。</p>",
+  "unknown": "预告片隐藏的反转。",
+  "demo": "雷顿教授与蒸汽新世界 最终真相",
+  "cover_line": "最终真相",
+  "faq": [
+   [
+    "新的雷顿教授什么时候发售？",
+    "{D}，登陆 Nintendo Switch、Switch 2、PS5 和 PC。"
+   ],
+   [
+    "谜题答案算剧透吗？",
+    "一般不算剧情剧透。按谜题编号搜索，不要按章节名搜索，并避开最后几章的视频。"
+   ],
+   [
+    "应该屏蔽哪些词？",
+    "游戏名，加上结局、最终章、真凶、真实身份、剧透等词。只屏蔽“雷顿”也会挡掉谜题提示。"
+   ],
+   [
+    "YouTube 能屏蔽关键词吗？",
+    "不能，YouTube 没有关键词过滤。在电脑浏览器里，扩展可以模糊匹配的视频和评论。"
+   ]
+  ]
+ }
+}

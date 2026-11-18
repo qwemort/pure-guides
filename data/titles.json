@@ -75,6 +75,36 @@
    "kind": "show",
    "published": "2026-11-18",
    "modified": "2026-11-18"
+  },
+  "blade-runner-2099": {
+   "name": "Blade Runner 2099",
+   "release": "2026-11-25",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-blade-runner-2099-spoilers",
+   "kind": "show",
+   "published": "2026-11-18",
+   "modified": "2026-11-18"
+  },
+  "professor-layton-nws": {
+   "name": "Professor Layton and the New World of Steam",
+   "release": "2026-12-10",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-professor-layton-new-world-of-steam-spoilers",
+   "kind": "game",
+   "published": "2026-11-18",
+   "modified": "2026-11-18"
+  },
+  "godzilla-minus-zero": {
+   "name": "Godzilla Minus Zero",
+   "release": "2026-11-06",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-godzilla-minus-zero-spoilers",
+   "kind": "film",
+   "published": "2026-11-18",
+   "modified": "2026-11-18"
   }
  }
 }

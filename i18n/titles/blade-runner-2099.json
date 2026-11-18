@@ -1,0 +1,405 @@
+{
+ "en": {
+  "name": "Blade Runner 2099",
+  "kicker": "SERIES · PRIME VIDEO · {date}",
+  "cover_tag": "SERIES · {date}",
+  "keep_val": "2-3 weeks",
+  "desc": "Blade Runner 2099 drops all eight episodes on Prime Video {D}. People binge it in one night, so the finale gets spoiled by morning. Words to mute and what no filter catches.",
+  "lead": "All eight episodes arrive at once. By the next morning the ending is in thumbnails, memes and \"explained\" videos. What to mute, where, and what no setting can catch.",
+  "why_h": "The whole season lands in one night",
+  "why": "<p>With a weekly show you have a week between spoilers. Here fans finish the season the same night, and \"ending explained\" videos and theory threads follow within hours of {D0}.</p><p>The series continues Blade Runner 2049, so spoilers often name characters from the films. Do not mute plain \"Blade Runner\": it also hides the films and unrelated news.</p>",
+  "unknown": "Which film characters return cannot be known in advance.",
+  "demo": "Blade Runner 2099 finale explained",
+  "cover_line": "The finale",
+  "faq": [
+   [
+    "When does Blade Runner 2099 come out?",
+    "All eight episodes arrive on Prime Video on {D}."
+   ],
+   [
+    "How long should I avoid spoilers?",
+    "Two or three weeks. Most people watch the whole season in the first days, so spoilers peak right away."
+   ],
+   [
+    "Which words should I mute?",
+    "The series name with words like finale, ending, spoilers and who dies. Muting only \"Blade Runner\" also hides the films."
+   ],
+   [
+    "Can I mute words on YouTube?",
+    "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+   ]
+  ]
+ },
+ "ru": {
+  "name": "Бегущий по лезвию 2099",
+  "kicker": "СЕРИАЛ · PRIME VIDEO · {date}",
+  "cover_tag": "СЕРИАЛ · {date}",
+  "keep_val": "2-3 недели",
+  "desc": "«Бегущий по лезвию 2099» выходит на Prime Video {D} сразу всеми восемью сериями. Его смотрят за ночь, так что к утру финал уже проспойлерен. Какие слова скрыть и что не ловит ни один фильтр.",
+  "lead": "Все восемь серий выходят разом. К следующему утру концовка уже в превью, мемах и роликах «финал объяснён». Что скрыть, где именно и чего не поймает ни одна настройка.",
+  "why_h": "Весь сезон за одну ночь",
+  "why": "<p>У сериала с еженедельными сериями между спойлерами есть неделя. Здесь фанаты досматривают сезон в ту же ночь, а ролики «финал объяснён» и теории появляются через несколько часов после {D0}.</p><p>Сериал продолжает «Бегущего по лезвию 2049», поэтому в спойлерах часто называют героев фильмов. Не скрывайте просто «Бегущий по лезвию»: пропадут и фильмы, и посторонние новости.</p>",
+  "unknown": "Какие герои фильмов вернутся, заранее не узнать.",
+  "demo": "Бегущий по лезвию 2099: финал объяснён",
+  "cover_line": "Финал",
+  "faq": [
+   [
+    "Когда выходит «Бегущий по лезвию 2099»?",
+    "Все восемь серий выходят на Prime Video {D}."
+   ],
+   [
+    "Сколько избегать спойлеров?",
+    "Две-три недели. Большинство смотрит весь сезон в первые дни, поэтому пик спойлеров сразу."
+   ],
+   [
+    "Какие слова скрыть?",
+    "Название сериала вместе со словами финал, концовка, спойлеры, кто умрёт. Если скрыть только «Бегущий по лезвию», пропадут и фильмы."
+   ],
+   [
+    "Можно ли скрыть слова на YouTube?",
+    "Нет, фильтра по словам на YouTube нет. В браузере на компьютере это может сделать расширение: оно размывает подходящие ролики и комментарии."
+   ]
+  ]
+ },
+ "uk": {
+  "name": "Той, хто біжить по лезу 2099",
+  "kicker": "СЕРІАЛ · PRIME VIDEO · {date}",
+  "cover_tag": "СЕРІАЛ · {date}",
+  "keep_val": "2-3 тижні",
+  "desc": "«Той, хто біжить по лезу 2099» виходить на Prime Video {D} одразу всіма вісьмома серіями. Його дивляться за ніч, тож до ранку фінал уже проспойлерено. Які слова приховати і чого не ловить жоден фільтр.",
+  "lead": "Усі вісім серій виходять разом. До наступного ранку фінал уже в прев'ю, мемах і роликах «фінал пояснено». Що приховати, де саме і чого не впіймає жодне налаштування.",
+  "why_h": "Увесь сезон за одну ніч",
+  "why": "<p>У серіалу з щотижневими серіями між спойлерами є тиждень. Тут фанати додивляються сезон тієї ж ночі, а ролики «фінал пояснено» й теорії з'являються за кілька годин після {D0}.</p><p>Серіал продовжує фільм 2049 року, тому в спойлерах часто називають героїв фільмів. Не приховуйте просто «Blade Runner»: зникнуть і фільми, і сторонні новини.</p>",
+  "unknown": "Які герої фільмів повернуться, наперед не дізнатися.",
+  "demo": "Той, хто біжить по лезу 2099: фінал пояснено",
+  "cover_line": "Фінал",
+  "faq": [
+   [
+    "Коли виходить «Той, хто біжить по лезу 2099»?",
+    "Усі вісім серій виходять на Prime Video {D}."
+   ],
+   [
+    "Скільки уникати спойлерів?",
+    "Два-три тижні. Більшість дивиться весь сезон у перші дні, тому пік спойлерів одразу."
+   ],
+   [
+    "Які слова приховати?",
+    "Назву серіалу разом зі словами фінал, спойлери, хто помре. Якщо приховати лише «Blade Runner», зникнуть і фільми."
+   ],
+   [
+    "Чи можна приховати слова на YouTube?",
+    "Ні, фільтра за словами на YouTube немає. У браузері на комп'ютері це може зробити розширення: воно розмиває відповідні ролики й коментарі."
+   ]
+  ]
+ },
+ "pl": {
+  "name": "Blade Runner 2099",
+  "kicker": "SERIAL · PRIME VIDEO · {date}",
+  "cover_tag": "SERIAL · {date}",
+  "keep_val": "2-3 tygodnie",
+  "desc": "Blade Runner 2099 wychodzi na Prime Video {D}, od razu wszystkie osiem odcinków. Ludzie oglądają go w jedną noc, więc rano finał jest już zaspoilerowany. Jakie słowa wyciszyć i czego nie złapie żaden filtr.",
+  "lead": "Wszystkie osiem odcinków wychodzi naraz. Następnego ranka zakończenie jest już w miniaturach, memach i filmach „finał wyjaśniony”. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+  "why_h": "Cały sezon w jedną noc",
+  "why": "<p>Przy serialu tygodniowym między spoilerami jest tydzień. Tu fani kończą sezon tej samej nocy, a filmy „finał wyjaśniony” i teorie pojawiają się kilka godzin po {D0}.</p><p>Serial kontynuuje Blade Runnera 2049, więc spoilery często wymieniają postacie z filmów. Nie wyciszaj samego „Blade Runner”: znikną też filmy i niezwiązane newsy.</p>",
+  "unknown": "Których bohaterów filmów zobaczymy, nie da się wiedzieć wcześniej.",
+  "demo": "Blade Runner 2099: finał wyjaśniony",
+  "cover_line": "Finał",
+  "faq": [
+   [
+    "Kiedy premiera Blade Runner 2099?",
+    "Wszystkie osiem odcinków pojawi się na Prime Video {D}."
+   ],
+   [
+    "Jak długo unikać spoilerów?",
+    "Dwa, trzy tygodnie. Większość ogląda cały sezon w pierwszych dniach, więc szczyt spoilerów jest od razu."
+   ],
+   [
+    "Jakie słowa wyciszyć?",
+    "Nazwę serialu razem ze słowami finał, zakończenie, spoilery, kto ginie. Samo „Blade Runner” ukryje też filmy."
+   ],
+   [
+    "Czy da się wyciszyć słowa na YouTube?",
+    "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+   ]
+  ]
+ },
+ "de": {
+  "name": "Blade Runner 2099",
+  "kicker": "SERIE · PRIME VIDEO · {date}",
+  "cover_tag": "SERIE · {date}",
+  "keep_val": "2-3 Wochen",
+  "desc": "Blade Runner 2099 erscheint am {D} mit allen acht Folgen bei Prime Video. Viele schauen alles in einer Nacht, das Finale ist morgens gespoilert. Welche Wörter du stummschaltest und was kein Filter erwischt.",
+  "lead": "Alle acht Folgen kommen auf einmal. Am nächsten Morgen steht das Ende in Vorschaubildern, Memes und „Ende erklärt“-Videos. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+  "why_h": "Die ganze Staffel in einer Nacht",
+  "why": "<p>Bei wöchentlichen Serien liegt eine Woche zwischen den Spoilern. Hier schauen Fans die Staffel in derselben Nacht, und „Ende erklärt“-Videos und Theorien folgen Stunden nach dem {D0}.</p><p>Die Serie setzt Blade Runner 2049 fort, Spoiler nennen also oft Figuren aus den Filmen. Schalte nicht einfach „Blade Runner“ stumm: Das blendet auch die Filme und fremde News aus.</p>",
+  "unknown": "Welche Filmfiguren zurückkehren, lässt sich vorher nicht wissen.",
+  "demo": "Blade Runner 2099: das Finale erklärt",
+  "cover_line": "Das Finale",
+  "faq": [
+   [
+    "Wann erscheint Blade Runner 2099?",
+    "Alle acht Folgen erscheinen am {D} bei Prime Video."
+   ],
+   [
+    "Wie lange sollte ich Spoiler meiden?",
+    "Zwei bis drei Wochen. Die meisten schauen die ganze Staffel in den ersten Tagen, die Spoiler kommen sofort."
+   ],
+   [
+    "Welche Wörter sollte ich stummschalten?",
+    "Den Seriennamen mit Wörtern wie Finale, Ende, Spoiler und wer stirbt. Nur „Blade Runner“ blendet auch die Filme aus."
+   ],
+   [
+    "Kann ich auf YouTube Wörter stummschalten?",
+    "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+   ]
+  ]
+ },
+ "fr": {
+  "name": "Blade Runner 2099",
+  "kicker": "SÉRIE · PRIME VIDEO · {date}",
+  "cover_tag": "SÉRIE · {date}",
+  "keep_val": "2 à 3 semaines",
+  "desc": "Blade Runner 2099 sort le {D} sur Prime Video avec ses huit épisodes d'un coup. Beaucoup le finissent en une nuit, la fin est spoilée au matin. Les mots à masquer et ce qu'aucun filtre n'attrape.",
+  "lead": "Les huit épisodes arrivent ensemble. Le lendemain matin, la fin est dans les miniatures, les mèmes et les vidéos « fin expliquée ». Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+  "why_h": "Toute la saison en une nuit",
+  "why": "<p>Avec une série hebdomadaire, on a une semaine entre deux spoilers. Ici les fans finissent la saison la nuit même, et les vidéos « fin expliquée » et théories suivent quelques heures après le {D0}.</p><p>La série prolonge Blade Runner 2049, donc les spoilers citent souvent des personnages des films. Ne masquez pas simplement « Blade Runner » : cela cache aussi les films et l'actu sans rapport.</p>",
+  "unknown": "Quels personnages des films reviennent, impossible de le savoir avant.",
+  "demo": "Blade Runner 2099 : le final expliqué",
+  "cover_line": "Le final",
+  "faq": [
+   [
+    "Quand sort Blade Runner 2099 ?",
+    "Les huit épisodes arrivent sur Prime Video le {D}."
+   ],
+   [
+    "Combien de temps éviter les spoilers ?",
+    "Deux à trois semaines. La plupart regardent toute la saison les premiers jours, les spoilers arrivent tout de suite."
+   ],
+   [
+    "Quels mots masquer ?",
+    "Le nom de la série avec des mots comme final, fin, spoilers et qui meurt. Masquer seulement « Blade Runner » cache aussi les films."
+   ],
+   [
+    "Peut-on masquer des mots sur YouTube ?",
+    "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+   ]
+  ]
+ },
+ "es": {
+  "name": "Blade Runner 2099",
+  "kicker": "SERIE · PRIME VIDEO · {date}",
+  "cover_tag": "SERIE · {date}",
+  "keep_val": "2-3 semanas",
+  "desc": "Blade Runner 2099 llega a Prime Video el {D} con sus ocho episodios a la vez. Mucha gente la ve en una noche, así que el final está destripado por la mañana. Qué palabras silenciar y qué no atrapa ningún filtro.",
+  "lead": "Los ocho episodios llegan juntos. A la mañana siguiente el final ya está en miniaturas, memes y vídeos de «final explicado». Qué silenciar, dónde y qué no detiene ningún ajuste.",
+  "why_h": "Toda la temporada en una noche",
+  "why": "<p>Con una serie semanal hay una semana entre spoilers. Aquí los fans terminan la temporada esa misma noche, y los vídeos de «final explicado» y las teorías llegan horas después del {D0}.</p><p>La serie continúa Blade Runner 2049, así que los spoilers suelen nombrar personajes de las películas. No silencies solo «Blade Runner»: también ocultas las películas y noticias sin relación.</p>",
+  "unknown": "Qué personajes de las películas vuelven no se puede saber antes.",
+  "demo": "Blade Runner 2099: el final explicado",
+  "cover_line": "El final",
+  "faq": [
+   [
+    "¿Cuándo se estrena Blade Runner 2099?",
+    "Los ocho episodios llegan a Prime Video el {D}."
+   ],
+   [
+    "¿Cuánto tiempo evito spoilers?",
+    "Dos o tres semanas. La mayoría ve toda la temporada en los primeros días, así que los spoilers llegan enseguida."
+   ],
+   [
+    "¿Qué palabras silencio?",
+    "El nombre de la serie con palabras como final, spoilers y quién muere. Silenciar solo «Blade Runner» también oculta las películas."
+   ],
+   [
+    "¿Puedo silenciar palabras en YouTube?",
+    "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+   ]
+  ]
+ },
+ "it": {
+  "name": "Blade Runner 2099",
+  "kicker": "SERIE · PRIME VIDEO · {date}",
+  "cover_tag": "SERIE · {date}",
+  "keep_val": "2-3 settimane",
+  "desc": "Blade Runner 2099 esce su Prime Video il {D} con tutti e otto gli episodi insieme. Molti la finiscono in una notte, quindi al mattino il finale è già spoilerato. Quali parole silenziare e cosa nessun filtro blocca.",
+  "lead": "Gli otto episodi arrivano tutti insieme. La mattina dopo il finale è già in miniature, meme e video «finale spiegato». Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+  "why_h": "Tutta la stagione in una notte",
+  "why": "<p>Con una serie settimanale c'è una settimana tra uno spoiler e l'altro. Qui i fan finiscono la stagione la notte stessa, e video «finale spiegato» e teorie arrivano poche ore dopo il {D0}.</p><p>La serie continua Blade Runner 2049, quindi gli spoiler nominano spesso personaggi dei film. Non silenziare solo «Blade Runner»: nasconderesti anche i film e notizie che non c'entrano.</p>",
+  "unknown": "Quali personaggi dei film torneranno non si può sapere prima.",
+  "demo": "Blade Runner 2099: il finale spiegato",
+  "cover_line": "Il finale",
+  "faq": [
+   [
+    "Quando esce Blade Runner 2099?",
+    "Tutti e otto gli episodi arrivano su Prime Video il {D}."
+   ],
+   [
+    "Per quanto devo evitare gli spoiler?",
+    "Due o tre settimane. Quasi tutti guardano la stagione nei primi giorni, quindi gli spoiler arrivano subito."
+   ],
+   [
+    "Quali parole silenziare?",
+    "Il nome della serie con parole come finale, spoiler e chi muore. Silenziare solo «Blade Runner» nasconde anche i film."
+   ],
+   [
+    "Posso silenziare parole su YouTube?",
+    "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+   ]
+  ]
+ },
+ "pt-BR": {
+  "name": "Blade Runner 2099",
+  "kicker": "SÉRIE · PRIME VIDEO · {date}",
+  "cover_tag": "SÉRIE · {date}",
+  "keep_val": "2-3 semanas",
+  "desc": "Blade Runner 2099 chega ao Prime Video em {D} com os oito episódios de uma vez. Muita gente maratona numa noite, então o final leva spoiler até de manhã. Que palavras silenciar e o que nenhum filtro pega.",
+  "lead": "Os oito episódios chegam juntos. Na manhã seguinte o final já está em miniaturas, memes e vídeos de «final explicado». O que silenciar, onde e o que nenhuma configuração segura.",
+  "why_h": "A temporada inteira numa noite",
+  "why": "<p>Numa série semanal há uma semana entre os spoilers. Aqui os fãs terminam a temporada na mesma noite, e os vídeos de «final explicado» e as teorias chegam poucas horas depois de {D0}.</p><p>A série continua Blade Runner 2049, então os spoilers costumam citar personagens dos filmes. Não silencie só «Blade Runner»: isso esconde os filmes e notícias sem relação.</p>",
+  "unknown": "Quais personagens dos filmes voltam não dá para saber antes.",
+  "demo": "Blade Runner 2099: o final explicado",
+  "cover_line": "O final",
+  "faq": [
+   [
+    "Quando estreia Blade Runner 2099?",
+    "Os oito episódios chegam ao Prime Video em {D}."
+   ],
+   [
+    "Por quanto tempo evitar spoilers?",
+    "Duas ou três semanas. A maioria assiste à temporada toda nos primeiros dias, então os spoilers vêm na hora."
+   ],
+   [
+    "Quais palavras silenciar?",
+    "O nome da série com palavras como final, spoiler e quem morre. Silenciar só «Blade Runner» esconde também os filmes."
+   ],
+   [
+    "Dá para silenciar palavras no YouTube?",
+    "Não, o YouTube não tem filtro de palavras. No navegador do computador, uma extensão pode desfocar vídeos e comentários que batem."
+   ]
+  ]
+ },
+ "tr": {
+  "name": "Blade Runner 2099",
+  "kicker": "DİZİ · PRIME VIDEO · {date}",
+  "cover_tag": "DİZİ · {date}",
+  "keep_val": "2-3 hafta",
+  "desc": "Blade Runner 2099 {D} tarihinde sekiz bölümün tamamıyla Prime Video'da. Çoğu kişi bir gecede bitiriyor, final sabaha spoilerlanmış oluyor. Hangi kelimeleri susturmalı, hangi şeyi hiçbir filtre yakalamaz.",
+  "lead": "Sekiz bölüm aynı anda geliyor. Ertesi sabah son, küçük resimlerde, mimlerde ve «final açıklandı» videolarında. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+  "why_h": "Bütün sezon tek gecede",
+  "why": "<p>Haftalık dizilerde iki spoiler arasında bir hafta olur. Burada hayranlar sezonu aynı gece bitirir, «final açıklandı» videoları ve teoriler {D0} tarihinden birkaç saat sonra gelir.</p><p>Dizi Blade Runner 2049'un devamı, bu yüzden spoilerlarda sık sık filmlerdeki karakterler geçer. Sadece «Blade Runner»ı susturmayın: filmler ve ilgisiz haberler de gizlenir.</p>",
+  "unknown": "Filmlerden hangi karakterlerin döneceği önceden bilinemez.",
+  "demo": "Blade Runner 2099: final açıklandı",
+  "cover_line": "Final",
+  "faq": [
+   [
+    "Blade Runner 2099 ne zaman çıkıyor?",
+    "Sekiz bölümün tamamı {D} tarihinde Prime Video'da."
+   ],
+   [
+    "Spoilerlardan ne kadar kaçınmalıyım?",
+    "İki üç hafta. Çoğu kişi sezonu ilk günlerde izliyor, spoilerlar hemen geliyor."
+   ],
+   [
+    "Hangi kelimeleri susturmalıyım?",
+    "Dizinin adını final, son, spoiler ve kim ölüyor gibi kelimelerle birlikte. Sadece «Blade Runner»ı susturmak filmleri de gizler."
+   ],
+   [
+    "YouTube'da kelime susturabilir miyim?",
+    "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+   ]
+  ]
+ },
+ "ja": {
+  "name": "ブレードランナー 2099",
+  "kicker": "ドラマ · PRIME VIDEO · {date}",
+  "cover_tag": "ドラマ · {date}",
+  "keep_val": "2〜3週間",
+  "desc": "『ブレードランナー 2099』は{D}に Prime Video で全8話一挙配信。一晩で見る人が多く、翌朝には最終回がネタバレされています。ミュートするワードと、どのフィルターでも防げないもの。",
+  "lead": "全8話が一度に配信されます。翌朝には結末がサムネイル、ミーム、「最終回解説」動画に出ています。何を、どこでミュートするか、そして設定では防げないもの。",
+  "why_h": "シーズン全体が一晩で",
+  "why": "<p>毎週配信のドラマならネタバレの間に1週間あります。この作品はファンがその夜のうちに見終わり、「最終回解説」動画や考察が{D0}の数時間後には出てきます。</p><p>『ブレードランナー 2049』の続編なので、ネタバレには映画のキャラクター名がよく出ます。「ブレードランナー」だけをミュートしないでください。映画や関係ないニュースまで消えます。</p>",
+  "unknown": "映画のどのキャラクターが戻るかは事前に分かりません。",
+  "demo": "ブレードランナー 2099 最終回解説",
+  "cover_line": "最終回",
+  "faq": [
+   [
+    "『ブレードランナー 2099』の配信日は？",
+    "全8話が{D}に Prime Video で配信されます。"
+   ],
+   [
+    "どれくらいネタバレを避ければいい？",
+    "2〜3週間です。ほとんどの人が最初の数日で全話見るので、ネタバレはすぐにピークになります。"
+   ],
+   [
+    "どのワードをミュートすべき？",
+    "ドラマのタイトルに、最終回、結末、ネタバレ、誰が死ぬ、などを組み合わせます。「ブレードランナー」だけだと映画も消えます。"
+   ],
+   [
+    "YouTube でワードをミュートできる？",
+    "いいえ、YouTube にはワードフィルターがありません。PC のブラウザなら拡張機能で該当する動画やコメントをぼかせます。"
+   ]
+  ]
+ },
+ "ko": {
+  "name": "블레이드 러너 2099",
+  "kicker": "드라마 · PRIME VIDEO · {date}",
+  "cover_tag": "드라마 · {date}",
+  "keep_val": "2~3주",
+  "desc": "블레이드 러너 2099는 {D} Prime Video에서 8화 전체가 한 번에 공개됩니다. 하룻밤에 몰아보는 사람이 많아 아침이면 최종화가 스포됩니다. 뮤트할 단어와 어떤 필터도 못 잡는 것.",
+  "lead": "8화가 한꺼번에 나옵니다. 다음 날 아침이면 결말이 썸네일, 밈, \"최종화 해석\" 영상에 올라옵니다. 무엇을, 어디서 뮤트할지, 그리고 설정으로 못 막는 것.",
+  "why_h": "시즌 전체가 하룻밤에",
+  "why": "<p>매주 공개되는 드라마는 스포일러 사이에 일주일이 있습니다. 이 작품은 팬들이 그날 밤에 다 보고, \"최종화 해석\" 영상과 이론이 {D0} 몇 시간 뒤에 올라옵니다.</p><p>블레이드 러너 2049의 후속작이라 스포일러에 영화 속 캐릭터 이름이 자주 나옵니다. \"블레이드 러너\"만 뮤트하지 마세요. 영화와 상관없는 뉴스까지 사라집니다.</p>",
+  "unknown": "영화의 어떤 캐릭터가 돌아올지는 미리 알 수 없습니다.",
+  "demo": "블레이드 러너 2099 최종화 해석",
+  "cover_line": "최종화",
+  "faq": [
+   [
+    "블레이드 러너 2099는 언제 공개되나요?",
+    "8화 전체가 {D} Prime Video에 공개됩니다."
+   ],
+   [
+    "스포일러를 얼마나 피해야 하나요?",
+    "2~3주입니다. 대부분 처음 며칠 안에 시즌을 다 보기 때문에 스포일러가 바로 쏟아집니다."
+   ],
+   [
+    "어떤 단어를 뮤트해야 하나요?",
+    "드라마 제목에 최종화, 결말, 스포일러, 누가 죽는지 같은 단어를 더하세요. \"블레이드 러너\"만 뮤트하면 영화도 사라집니다."
+   ],
+   [
+    "YouTube에서 단어를 뮤트할 수 있나요?",
+    "아니요, YouTube에는 단어 필터가 없습니다. PC 브라우저에서는 확장 프로그램이 해당 영상과 댓글을 흐리게 할 수 있습니다."
+   ]
+  ]
+ },
+ "zh-CN": {
+  "name": "银翼杀手 2099",
+  "kicker": "剧集 · PRIME VIDEO · {date}",
+  "cover_tag": "剧集 · {date}",
+  "keep_val": "2-3 周",
+  "desc": "《银翼杀手 2099》{D}在 Prime Video 一次性上线全部八集。很多人一晚刷完，第二天早上结局就被剧透了。该屏蔽哪些词，以及任何过滤都挡不住的东西。",
+  "lead": "八集同时上线。第二天早上，结局已经出现在缩略图、梗图和“结局解析”视频里。该屏蔽什么、在哪里屏蔽，以及设置挡不住的东西。",
+  "why_h": "一整季一晚看完",
+  "why": "<p>每周更新的剧，两次剧透之间隔着一周。这部剧粉丝当晚就能看完，“结局解析”视频和理论会在{D0}后几小时内出现。</p><p>这部剧接续《银翼杀手 2049》，剧透里经常出现电影角色的名字。不要只屏蔽“银翼杀手”：电影和无关新闻也会被挡掉。</p>",
+  "unknown": "电影里哪些角色会回归，事先无法知道。",
+  "demo": "银翼杀手 2099 结局解析",
+  "cover_line": "结局",
+  "faq": [
+   [
+    "《银翼杀手 2099》什么时候上线？",
+    "全部八集{D}在 Prime Video 上线。"
+   ],
+   [
+    "要躲剧透多久？",
+    "两三周。大多数人在头几天就看完整季，所以剧透马上到来。"
+   ],
+   [
+    "应该屏蔽哪些词？",
+    "剧名，加上大结局、结局、剧透、谁死了等词。只屏蔽“银翼杀手”也会挡掉电影。"
+   ],
+   [
+    "YouTube 能屏蔽关键词吗？",
+    "不能，YouTube 没有关键词过滤。在电脑浏览器里，扩展可以模糊匹配的视频和评论。"
+   ]
+  ]
+ }
+}
