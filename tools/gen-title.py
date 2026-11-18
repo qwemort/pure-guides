@@ -45,7 +45,7 @@ def page(tid, lang, U, langs_here):
     full = fmt(S, d, False, True)
     t0, t1, span = d - dt.timedelta(days=17), d + dt.timedelta(days=28), 45
     h1 = S['h1'].format(name=name)
-    h1_html = re.sub('([«„《]?)\x00([»”》]?)', lambda m: '<span class="nowrap">' + m.group(1) + esc(name) + m.group(2) + '</span>', esc(S['h1'].format(name='\x00')))
+    h1_html = re.sub('([«„《]?)\x00([»”》]?)', lambda m: ('<span class="nowrap">' if len(name) <= 24 else '<span>') + m.group(1) + esc(name) + m.group(2) + '</span>', esc(S['h1'].format(name='\x00')))   # длинные названия (>24) переносим
     cover = re.sub(r'\s?:\s', ':<br>', esc(name), count=1)
 
     def panel(code):

@@ -55,6 +55,16 @@
    "kind": "anime",
    "published": "2026-11-17",
    "modified": "2026-11-18"
+  },
+  "hunger-games-reaping": {
+   "name": "The Hunger Games: Sunrise on the Reaping",
+   "release": "2026-11-20",
+   "qid": null,
+   "checked": null,
+   "page": "avoid-hunger-games-sunrise-on-the-reaping-spoilers",
+   "kind": "film",
+   "published": "2026-11-18",
+   "modified": "2026-11-18"
   }
  }
 }

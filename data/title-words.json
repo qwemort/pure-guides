@@ -1154,6 +1154,248 @@
      "阿多"
     ]
    }
+  },
+  "hunger-games-reaping": {
+   "forms": {
+    "en": [
+     "sunrise on the reaping",
+     "hunger games sunrise on the reaping",
+     "hunger games 2026"
+    ],
+    "ru": [
+     "рассвет жатвы",
+     "голодные игры рассвет жатвы",
+     "голодные игры 2026"
+    ],
+    "uk": [
+     "світанок перед жнивами",
+     "голодні ігри світанок перед жнивами",
+     "голодні ігри 2026"
+    ],
+    "pl": [
+     "wschód słońca w dniu dożynek",
+     "igrzyska śmierci wschód słońca",
+     "igrzyska śmierci 2026"
+    ],
+    "de": [
+     "sunrise on the reaping",
+     "tribute von panem sunrise on the reaping",
+     "tribute von panem 2026"
+    ],
+    "fr": [
+     "lever de soleil sur la moisson",
+     "hunger games lever de soleil",
+     "hunger games 2026"
+    ],
+    "es": [
+     "amanecer en la cosecha",
+     "juegos del hambre amanecer en la cosecha",
+     "juegos del hambre 2026"
+    ],
+    "it": [
+     "l'alba sulla mietitura",
+     "hunger games alba sulla mietitura",
+     "hunger games 2026"
+    ],
+    "pt-BR": [
+     "amanhecer na colheita",
+     "jogos vorazes amanhecer na colheita",
+     "jogos vorazes 2026"
+    ],
+    "tr": [
+     "hasatta gündoğumu",
+     "açlık oyunları hasatta gündoğumu",
+     "açlık oyunları 2026"
+    ],
+    "ja": [
+     "サンライズ・オン・ザ・リーピング",
+     "ハンガー・ゲーム サンライズ",
+     "ハンガー・ゲーム 2026"
+    ],
+    "ko": [
+     "선라이즈 온 더 리핑",
+     "헝거게임 선라이즈 온 더 리핑",
+     "헝거게임 2026"
+    ],
+    "zh-CN": [
+     "黎明收割",
+     "饥饿游戏 黎明收割",
+     "饥饿游戏 2026"
+    ]
+   },
+   "extra": {
+    "en": [
+     "second quarter quell"
+    ],
+    "ru": [
+     "sunrise on the reaping"
+    ],
+    "uk": [
+     "sunrise on the reaping"
+    ],
+    "pl": [
+     "sunrise on the reaping"
+    ],
+    "de": [
+     "hunger games 2026"
+    ],
+    "fr": [
+     "sunrise on the reaping"
+    ],
+    "es": [
+     "sunrise on the reaping"
+    ],
+    "it": [
+     "sunrise on the reaping"
+    ],
+    "pt-BR": [
+     "sunrise on the reaping"
+    ],
+    "tr": [
+     "sunrise on the reaping"
+    ],
+    "ja": [
+     "sunrise on the reaping"
+    ],
+    "ko": [
+     "sunrise on the reaping"
+    ],
+    "zh-CN": [
+     "sunrise on the reaping"
+    ]
+   },
+   "names": {
+    "en": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "ru": [
+     "хеймитч",
+     "хеймитч эбернети",
+     "мейсили доннер",
+     "ленор дав",
+     "луэлла маккой",
+     "уайетт кэллоу",
+     "бити",
+     "плутарх хевенсби"
+    ],
+    "uk": [
+     "хеймітч",
+     "хеймітч абернеті",
+     "мейсілі доннер",
+     "ленор дав",
+     "луелла маккой",
+     "вайатт келлоу",
+     "біті",
+     "плутарх гевенсбі"
+    ],
+    "pl": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "de": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "fr": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "es": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "it": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "pt-BR": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "tr": [
+     "haymitch",
+     "haymitch abernathy",
+     "maysilee donner",
+     "lenore dove",
+     "louella mccoy",
+     "wyatt callow",
+     "beetee",
+     "plutarch heavensbee"
+    ],
+    "ja": [
+     "ヘイミッチ",
+     "ヘイミッチ・アバナシー",
+     "メイスリー・ドナー",
+     "レノア・ダヴ",
+     "ルエラ・マッコイ",
+     "ワイアット・キャロウ",
+     "ビーティー",
+     "プルターク・ヘブンズビー"
+    ],
+    "ko": [
+     "헤이미치",
+     "헤이미치 애버내시",
+     "메이실리 도너",
+     "레노어 도브",
+     "루엘라 맥코이",
+     "와이엇 캘로우",
+     "비티",
+     "플루타르크 헤븐스비"
+    ],
+    "zh-CN": [
+     "黑密契",
+     "黑密契·阿伯纳西",
+     "梅丝丽·唐纳",
+     "莱诺尔·达芙",
+     "露埃拉·麦考伊",
+     "怀亚特·卡洛",
+     "比特",
+     "普鲁塔克·海文斯比"
+    ]
+   }
   }
  }
 }
