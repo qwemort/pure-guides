@@ -1,7 +1,7 @@
 Spoilers · practical guide
 
-# How to avoid GTA 6 spoilers: words to mute, YouTube, Reddit
-Updated 10 November 2026 · English · [Українська](yak-unyknuty-spoileriv-gta-6.html) · [Polski](jak-uniknac-spoilerow-gta-6.html)
+# How to avoid GTA 6 spoilers on YouTube, Reddit and X (PC too)
+Updated 18 November 2026 · English · [Українська](yak-unyknuty-spoileriv-gta-6.html) · [Polski](jak-uniknac-spoilerow-gta-6.html)
 
 Grand Theft Auto VI comes out on November 19, 2026 on PlayStation 5 and Xbox Series X|S. No PC version has been announced. Almost every guide tells you to mute words on X, and that helps, but most spoilers arrive through YouTube thumbnails, Reddit titles and comments, where there is nothing to mute. This page covers both: the words, and what to do where words cannot be muted.
 
@@ -39,17 +39,16 @@ The full [copy-ready GTA 6 mute list](gta-6-mute-list.html) has more words, plus
 
 - TikTok. Settings and privacy, Content preferences, Filter keywords. It works on captions and hashtags, so a clip with no text can still get through.
 
-## YouTube: there is no word filter
+## How to avoid GTA 6 spoilers on YouTube
 
-YouTube has no keyword mute. What it does give you:
+YouTube has no keyword mute, so the plan is to starve the recommendations and stay away from the places where spoilers sit: thumbnails, Shorts, comments and search suggestions. Do these in this order, it takes about five minutes.
 
-- In the three-dot menu on a video, Not interested and Don't recommend channel reduce similar videos.
-
-- Turn off autoplay, and do not scroll Shorts while the game is fresh. A Short can show the ending before you see its title.
-
-- Skip the comments on any video about the game, including trailers.
-
-- Remove GTA videos from your watch history, so the recommendations calm down.
+1. Clear and pause your watch history. Open History in the left menu, choose Clear all watch history, then Pause watch history. With history off and empty, YouTube stops filling the home page with recommendations, and that is where most launch-week spoilers show up.
+2. Turn off autoplay. The switch is under the video player. One autoplayed "reaction" video is enough to see the ending.
+3. Stay out of Shorts for the first weeks. A Short shows the frame before you read the title. If one slips through, use Don't recommend this channel from its menu, not only Not interested.
+4. Do not type "GTA 6" into the search box. Suggestions fill in titles like "ending explained" before you press Enter. Open the channel you want directly instead.
+5. Skip the comments on any video about the game, trailers and old news included. Pinned and top comments are where people post spoilers on purpose.
+6. Check your subscriptions. Turn off the bell for channels that will stream or review the game, so their notifications do not show a thumbnail.
 
 If you want YouTube filtered by words anyway: this is what I built Pure Spoiler Blocker for. It is a free extension that blurs videos, Shorts, comments and search suggestions that look like GTA 6 spoilers, and leaves trailers and news alone. The GTA 6 list is on from the first minute. [Add it to Chrome](https://chromewebstore.google.com/detail/aloilpojkoblacapdlknacjiljgjibng?utm_source=pureguides&utm_medium=avoid-gta6) or [Firefox](https://addons.mozilla.org/firefox/addon/pure-spoiler-shield/?utm_source=pureguides&utm_medium=avoid-gta6), or [try the demo](demo/) first. It works in desktop browsers, not in phone apps.
 
@@ -88,6 +87,10 @@ I make it, so weigh this accordingly. Pure Spoiler Blocker checks the text of ti
 Not affiliated with Rockstar Games or Take-Two Interactive. If you prefer another tool, check the same things: which sites it can read, whether it works locally, and whether it needs an account.
 
 ## Questions
+
+### How do I avoid GTA 6 spoilers on YouTube?
+
+Clear and pause your watch history so the home page stops showing recommendations, turn off autoplay, stay out of Shorts and comments, and do not type the game name into the search box. YouTube has no word filter, so to blur videos and comments by word you need a browser extension.
 
 ### Can you mute words on YouTube?
 
