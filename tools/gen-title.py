@@ -74,7 +74,7 @@ def page(tid, lang, U, langs_here):
     alts = ''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE + fname(T["page"], l)}">\n' for l in langs_here) + f'<link rel="alternate" hreflang="x-default" href="{BASE + fname(T["page"], "en")}">'
     desc = tok(u['desc'])
     ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': h1, 'description': desc, 'datePublished': T.get('published', T['release']),
-           'dateModified': dt.date.today().isoformat(), 'inLanguage': lang, 'image': BASE + 'img/og.png', 'author': {'@type': 'Organization', 'name': 'Pure guides'}, 'mainEntityOfPage': url},
+           'dateModified': T.get('modified', T.get('published', T['release'])), 'inLanguage': lang, 'image': BASE + 'img/og.png', 'author': {'@type': 'Organization', 'name': 'Pure guides'}, 'mainEntityOfPage': url},
           {'@context': 'https://schema.org', '@type': 'FAQPage', 'inLanguage': lang, 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in faq]}]
     ldj = ''.join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>\n' for x in ld)
     return f'''<!doctype html>
@@ -99,7 +99,7 @@ def page(tid, lang, U, langs_here):
 <main class="t-wrap">
 <div class="t-head">
  <div>
-  <p class="t-kicker">{S['kicker_film'].format(date=full.upper())}</p>
+  <p class="t-kicker">{u.get('kicker', S['kicker_film']).format(date=full.upper())}</p>
   <h1>{h1_html}</h1>
   <p class="t-lead">{u['lead']}</p>
  </div>
@@ -164,5 +164,27 @@ for tid, T in TD['titles'].items():
         loc = BASE + f
         if f'<loc>{loc}</loc>' not in sm:
             sm = sm.replace('</urlset>', f'<url><loc>{loc}</loc><lastmod>{dt.date.today().isoformat()}</lastmod></url>\n</urlset>')
+# старые адреса тайтла (block/, mute-list/) перенаправляем на страницу тайтла и убираем из sitemap
+STUB = '''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>{name}: moved</title>
+<link rel="canonical" href="{url}">
+<meta http-equiv="refresh" content="0; url=../{page}">
+<script>location.replace('../{page}'+location.hash)</script>
+</head><body><p>This page has moved: <a href="../{page}">{name}</a>.</p></body></html>
+'''
+for tid, T in TD['titles'].items():
+    pg = fname(T['page'], 'en'); nm = json.loads((R / f'i18n/titles/{tid}.json').read_text(encoding='utf-8'))['en']['name']
+    for d in ('block', 'mute-list'):
+        f = R / d / f'{tid}.html'
+        if f.exists() or d == 'block':
+            f.write_text(STUB.format(name=esc(nm), url=BASE + pg, page=pg), encoding='utf-8')
+        sm = re.sub(rf'<url><loc>{re.escape(BASE + d + "/" + tid + ".html")}</loc>[^\n]*</url>\n?', '', sm)
+        idx = R / d / 'index.html'
+        if idx.exists():
+            t = idx.read_text(encoding='utf-8'); t2 = t.replace(f'href="{tid}.html"', f'href="../{pg}"')
+            if t2 != t: idx.write_text(t2, encoding='utf-8')
+home = R / 'index.html'; h = home.read_text(encoding='utf-8'); h2 = h
+for tid, T in TD['titles'].items(): h2 = h2.replace(f'href="block/{tid}.html"', f'href="{fname(T["page"], "en")}"')
+if h2 != h: home.write_text(h2, encoding='utf-8')
 sm_p.write_text(sm, encoding='utf-8')
 print(f'gen-title: {n} pages')

@@ -670,6 +670,248 @@
      "雷霆特攻队"
     ]
    }
+  },
+  "apothecary": {
+   "forms": {
+    "en": [
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto movie",
+     "apothecary diaries film"
+    ],
+    "uk": [
+     "монолог фармацевта фільм",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto movie"
+    ],
+    "ru": [
+     "монолог фармацевта фильм",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto movie"
+    ],
+    "pl": [
+     "apothecary diaries film",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto movie"
+    ],
+    "de": [
+     "tagebücher der apothekerin film",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto film"
+    ],
+    "fr": [
+     "carnets de l'apothicaire film",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto film"
+    ],
+    "es": [
+     "diarios de la boticaria película",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto película"
+    ],
+    "it": [
+     "diari della speziale film",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto film"
+    ],
+    "pt-BR": [
+     "diários da boticária filme",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto filme"
+    ],
+    "tr": [
+     "apothecary diaries filmi",
+     "apothecary diaries movie",
+     "kusuriya no hitorigoto film"
+    ],
+    "ja": [
+     "薬屋のひとりごと 映画",
+     "劇場版 薬屋のひとりごと",
+     "薬屋 映画"
+    ],
+    "ko": [
+     "약사의 혼잣말 극장판",
+     "약사의 혼잣말 영화",
+     "약사 극장판"
+    ],
+    "zh-CN": [
+     "药屋少女的呢喃 剧场版",
+     "药屋少女 电影",
+     "药屋 剧场版"
+    ]
+   },
+   "extra": {
+    "en": [
+     "apothecary diaries"
+    ],
+    "uk": [
+     "монолог фармацевта"
+    ],
+    "ru": [
+     "монолог фармацевта"
+    ],
+    "pl": [
+     "apothecary diaries"
+    ],
+    "de": [
+     "tagebücher der apothekerin"
+    ],
+    "fr": [
+     "carnets de l'apothicaire"
+    ],
+    "es": [
+     "diarios de la boticaria"
+    ],
+    "it": [
+     "diari della speziale"
+    ],
+    "pt-BR": [
+     "diários da boticária"
+    ],
+    "tr": [
+     "kusuriya no hitorigoto"
+    ],
+    "ja": [
+     "薬屋のひとりごと"
+    ],
+    "ko": [
+     "약사의 혼잣말"
+    ],
+    "zh-CN": [
+     "药屋少女的呢喃"
+    ]
+   },
+   "names": {
+    "en": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "uk": [
+     "маомао",
+     "женьші",
+     "гаошунь",
+     "лакан",
+     "ґьокуйо",
+     "ліхаку",
+     "суйрей",
+     "адо"
+    ],
+    "ru": [
+     "маомао",
+     "жэньши",
+     "гаошунь",
+     "лакан",
+     "гёкуё",
+     "рихаку",
+     "суйрэй",
+     "адо"
+    ],
+    "pl": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "de": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "fr": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "es": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "it": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "pt-BR": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "tr": [
+     "maomao",
+     "jinshi",
+     "gaoshun",
+     "lakan",
+     "gyokuyou",
+     "lihaku",
+     "suirei",
+     "ah-duo"
+    ],
+    "ja": [
+     "猫猫",
+     "壬氏",
+     "高順",
+     "羅漢",
+     "玉葉妃",
+     "李白",
+     "翠苓",
+     "阿多"
+    ],
+    "ko": [
+     "마오마오",
+     "진시",
+     "가오슌",
+     "라칸",
+     "교쿠요",
+     "리하쿠",
+     "스이레이",
+     "아도"
+    ],
+    "zh-CN": [
+     "猫猫",
+     "壬氏",
+     "高顺",
+     "罗汉",
+     "玉叶妃",
+     "李白",
+     "翠苓",
+     "阿多"
+    ]
+   }
   }
  }
 }

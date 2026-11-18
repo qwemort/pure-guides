@@ -41,4 +41,4 @@
 - Стили и скрипт: `title.css`, `title.js` в корне.
 - Главная (и её 12 языков) ведёт на страницу тайтла, если она есть (`gen-block.mjs` и `build.py` берут адрес из `data/titles.json`).
 - Actions `title-dates` (пн 05:41 UTC): сверка дат с Wikidata, при изменении `gen-title.py` + `build.py` и коммит.
-- Сейчас: Dune: Part Three и Avengers: Doomsday, по 13 языков. Старые `block/` и `mute-list/` для них пока живут, редиректов нет.
+- Сейчас: Dune: Part Three, Avengers: Doomsday, The Apothecary Diaries movie, по 13 языков. Старые `block/<id>` и `mute-list/<id>` для них перенаправляют на страницу тайтла (gen-title.py пишет заглушки при каждой сборке, убирает их из sitemap, правит ссылки в списках и на главной). gen-title.py вызывается из build.py.
