@@ -78,5 +78,24 @@
  ],
  "date_s": "{d}. {m}",
  "date_l": "{d}. {m} {y}",
- "no_mute": "kein Wortfilter"
+ "no_mute": "kein Wortfilter",
+ "l_out": "Erschienen",
+ "l_now": "Spoiler",
+ "now_val": "Jetzt überall",
+ "l_premiere": "Premiere",
+ "l_eps": "Folgen",
+ "eps_val": "{n}, immer {day}",
+ "eps_all": "{n}, alle auf einmal",
+ "l_finale": "Finale",
+ "keep_season": "Bis du aufgeholt hast",
+ "airing": "Folge {k} von {n} ist draußen",
+ "weekdays": [
+  "montags",
+  "dienstags",
+  "mittwochs",
+  "donnerstags",
+  "freitags",
+  "samstags",
+  "sonntags"
+ ]
 }

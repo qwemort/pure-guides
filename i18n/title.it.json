@@ -78,5 +78,24 @@
  ],
  "date_s": "{d} {m}",
  "date_l": "{d} {m} {y}",
- "no_mute": "niente filtro parole"
+ "no_mute": "niente filtro parole",
+ "l_out": "Uscito",
+ "l_now": "Spoiler",
+ "now_val": "Ormai ovunque",
+ "l_premiere": "Prima",
+ "l_eps": "Episodi",
+ "eps_val": "{n}, ogni {day}",
+ "eps_all": "{n}, tutti insieme",
+ "l_finale": "Finale",
+ "keep_season": "Finché non sei in pari",
+ "airing": "Uscito l'episodio {k} di {n}",
+ "weekdays": [
+  "lunedì",
+  "martedì",
+  "mercoledì",
+  "giovedì",
+  "venerdì",
+  "sabato",
+  "domenica"
+ ]
 }

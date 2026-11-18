@@ -78,5 +78,24 @@
  ],
  "date_s": "{d} {m}",
  "date_l": "{d} {m} {y}",
- "no_mute": "bez wyciszania słów"
+ "no_mute": "bez wyciszania słów",
+ "l_out": "Wyszedł",
+ "l_now": "Spoilery",
+ "now_val": "Już wszędzie",
+ "l_premiere": "Premiera",
+ "l_eps": "Odcinki",
+ "eps_val": "{n}, co tydzień: {day}",
+ "eps_all": "{n}, wszystkie naraz",
+ "l_finale": "Finał",
+ "keep_season": "Aż nadrobisz",
+ "airing": "Wyszedł odcinek {k} z {n}",
+ "weekdays": [
+  "poniedziałek",
+  "wtorek",
+  "środa",
+  "czwartek",
+  "piątek",
+  "sobota",
+  "niedziela"
+ ]
 }

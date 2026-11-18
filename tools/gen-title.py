@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """Страницы тайтлов: одна страница на тайтл, 13 языков.
+  Режимы карточки дат (сами по дате сборки): «скоро» → «вышло» (Spoilers: everywhere now).
+  Сериал: в data/titles.json поле "season": {"episodes": 8, "every": 7} — премьера, «каждую пятницу», финал,
+  «вышла серия k из n»; "every": 0 — все серии сразу. Проверка на другую дату: TITLE_TODAY=2027-01-03.
   python3 tools/gen-title.py        собрать все тайтлы из data/titles.json
 Пишет <page>.html (английская) и <page>.<язык>.html, добавляет их в sitemap.xml.
 Данные:
@@ -8,7 +11,7 @@
   i18n/title.<язык>.json      общие тексты страницы (переводятся один раз)
   i18n/titles/<тайтл>.json    свои тексты тайтла по языкам; нет языка — нет страницы на этом языке
 Шапку, подвал, блок для телефонов, ссылки на магазины и счётчик ставит потом build.py."""
-import datetime as dt, html, json, pathlib, re
+import os, datetime as dt, html, json, pathlib, re
 
 R = pathlib.Path(__file__).resolve().parent.parent
 BASE = 'https://qwemort.github.io/pure-guides/'
@@ -43,10 +46,37 @@ def page(tid, lang, U, langs_here):
     name = u['name']
     tok = lambda x: x.replace('{D}', fmt(S, d, True, True)).replace('{D0}', fmt(S, d, True))
     full = fmt(S, d, False, True)
-    t0, t1, span = d - dt.timedelta(days=17), d + dt.timedelta(days=28), 45
     h1 = S['h1'].format(name=name)
     h1_html = re.sub('([«„《]?)\x00([»”》]?)', lambda m: ('<span class="nowrap">' if len(name) <= 24 else '<span>') + m.group(1) + esc(name) + m.group(2) + '</span>', esc(S['h1'].format(name='\x00')))   # длинные названия (>24) переносим
     cover = re.sub(r'\s?:\s', ':<br>', esc(name), count=1)
+
+    # Карточка дат: три режима. Состояние считается в день сборки (сайт собирается каждый день),
+    # так что страница сама переходит «скоро» → «вышло» → (у сериала) «идёт, серия k из n».
+    today = dt.date.fromisoformat(os.environ['TITLE_TODAY']) if os.environ.get('TITLE_TODAY') else dt.date.today()   # TITLE_TODAY — для проверки
+    sea = T.get('season')                      # {"episodes": 8, "every": 7} (every 0 = все серии сразу)
+    def bar(a, b, lo, hi, mark):               # полоса lo..hi, закрашено a..b, засечка mark
+        sp = max((hi - lo).days, 1); pc = lambda x: round(min(max((x - lo).days, 0), sp) / sp * 100)
+        return (f'<div class="t-bar"><span style="left:{pc(a)}%;width:{max(pc(b) - pc(a), 2)}%"></span><i style="left:{pc(mark)}%"></i></div>'
+                f'<div class="t-scale"><span>{fmt(S, lo)}</span><span>{fmt(S, mark)}</span><span>{fmt(S, hi)}</span></div>')
+    keep = esc(u.get('keep_val', S['keep_season'] if sea and sea.get('every') else S['keep_val']))
+    if sea and sea.get('every'):
+        n, ev = sea['episodes'], sea['every']
+        fin = d + dt.timedelta(days=ev * (n - 1))
+        k = 0 if today < d else min(n, (today - d).days // ev + 1)
+        rows = [(S['l_premiere'], full), (S['l_eps'], S['eps_val'].format(n=n, day=S['weekdays'][d.weekday()])),
+                (S['l_finale'], fmt(S, fin, False, True)), (S['l_keep'], keep)]
+        if 0 < k: rows.insert(0, (S['l_now'], S['airing'].format(k=k, n=n)))
+        lo, hi = d - dt.timedelta(days=7), fin + dt.timedelta(days=14)
+        barh = bar(d, fin, lo, hi, min(max(today, lo), hi) if k else d)
+    else:
+        out = today >= d
+        r1 = (S['l_out'] if out else S['l_release'], full)
+        if sea: r1 = (r1[0], full + ' · ' + S['eps_all'].format(n=sea['episodes']))
+        r2 = (S['l_now'], S['now_val']) if out else (S['l_from'], f'~{fmt(S, d - dt.timedelta(days=4))} <span class="muted" style="font-weight:400">{S["l_approx"]}</span>')
+        rows = [r1, r2, (S['l_keep'], keep)]
+        lo, hi = d - dt.timedelta(days=17), d + dt.timedelta(days=28)
+        barh = bar(d - dt.timedelta(days=4), d + dt.timedelta(days=14), lo, hi, min(max(today, lo), hi) if out else d)
+    datecard = '<div class="t-date"><dl>' + ''.join(f'<dt>{a}</dt><dd>{b}</dd>' for a, b in rows) + '</dl>' + barh + '</div>'
 
     def panel(code):
         core = [f'{f} {w}' for f in D['forms'][code] for w in W['vocab'][code]]
@@ -66,7 +96,9 @@ def page(tid, lang, U, langs_here):
 
     rel = []   # «ещё скоро»: другие тайтлы (на этом языке, если есть) и доп. страницы
     for oid, o in TD['titles'].items():
-        if oid == tid or o['release'] < dt.date.today().isoformat(): continue   # вышедшие не «скоро»
+        se = o.get('season') or {}
+        end = (dt.date.fromisoformat(o['release']) + dt.timedelta(days=se.get('every', 0) * (se.get('episodes', 1) - 1))).isoformat()
+        if oid == tid or end < dt.date.today().isoformat(): continue   # закончившиеся не «скоро» (у сериала по финалу)
         on = json.loads((R / f'i18n/titles/{oid}.json').read_text(encoding='utf-8'))
         ol = lang if lang in on else 'en'
         rel.append((tpath(o, ol), on[ol]['name'], fmt(S, dt.date.fromisoformat(o['release']))))
@@ -113,12 +145,7 @@ def page(tid, lang, U, langs_here):
  </div>
  <aside class="t-side">
   <div class="cv cv-{T.get('kind', 'film')}"><div class="cv-tag"><i></i>{u.get('cover_tag', S['cover_tag_film']).format(date=full.upper())}</div><div class="cv-h">{cover}</div><div class="cv-line">{esc(u['cover_line'])} <span class="cv-bar">{S['click']}</span></div></div>
-  <div class="t-date"><dl>
-   <dt>{S['l_release']}</dt><dd>{full}</dd>
-   <dt>{S['l_from']}</dt><dd>~{fmt(S, d - dt.timedelta(days=4))} <span class="muted" style="font-weight:400">{S['l_approx']}</span></dd>
-   <dt>{S['l_keep']}</dt><dd>{esc(u.get('keep_val', S['keep_val']))}</dd></dl>
-   <div class="t-bar"><span style="left:{round(13 / span * 100)}%;width:{round(18 / span * 100)}%"></span><i style="left:{round(17 / span * 100)}%"></i></div>
-   <div class="t-scale"><span>{fmt(S, t0)}</span><span>{fmt(S, d)}</span><span>{fmt(S, t1)}</span></div>
+  {datecard}
   </div>
  </aside>
 </div>

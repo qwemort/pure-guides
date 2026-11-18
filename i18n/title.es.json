@@ -78,5 +78,24 @@
  ],
  "date_s": "{d} de {m}",
  "date_l": "{d} de {m} de {y}",
- "no_mute": "sin silenciar palabras"
+ "no_mute": "sin silenciar palabras",
+ "l_out": "Estrenada",
+ "l_now": "Spoilers",
+ "now_val": "Ya en todas partes",
+ "l_premiere": "Estreno",
+ "l_eps": "Episodios",
+ "eps_val": "{n}, cada {day}",
+ "eps_all": "{n}, todos a la vez",
+ "l_finale": "Final",
+ "keep_season": "Hasta ponerte al día",
+ "airing": "Ya salió el episodio {k} de {n}",
+ "weekdays": [
+  "lunes",
+  "martes",
+  "miércoles",
+  "jueves",
+  "viernes",
+  "sábado",
+  "domingo"
+ ]
 }

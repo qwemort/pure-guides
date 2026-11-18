@@ -78,5 +78,24 @@
  ],
  "date_s": "{d} {m}",
  "date_l": "{d} {m} {y}",
- "no_mute": "pas de filtre de mots"
+ "no_mute": "pas de filtre de mots",
+ "l_out": "Sorti le",
+ "l_now": "Spoilers",
+ "now_val": "Partout",
+ "l_premiere": "Première",
+ "l_eps": "Épisodes",
+ "eps_val": "{n}, chaque {day}",
+ "eps_all": "{n}, tous d'un coup",
+ "l_finale": "Final",
+ "keep_season": "Jusqu'à ce que vous rattrapiez",
+ "airing": "Épisode {k} sur {n} disponible",
+ "weekdays": [
+  "lundi",
+  "mardi",
+  "mercredi",
+  "jeudi",
+  "vendredi",
+  "samedi",
+  "dimanche"
+ ]
 }

@@ -78,5 +78,24 @@
  ],
  "date_s": "{m} {d}",
  "date_l": "{m} {d}, {y}",
- "no_mute": "no word mute"
+ "no_mute": "no word mute",
+ "l_out": "Out since",
+ "l_now": "Spoilers",
+ "now_val": "Everywhere now",
+ "l_premiere": "Premiere",
+ "l_eps": "Episodes",
+ "eps_val": "{n}, every {day}",
+ "eps_all": "{n}, all at once",
+ "l_finale": "Finale",
+ "keep_season": "Until you catch up",
+ "airing": "Episode {k} of {n} is out",
+ "weekdays": [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday"
+ ]
 }

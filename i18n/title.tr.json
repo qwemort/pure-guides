@@ -78,5 +78,24 @@
  ],
  "date_s": "{d} {m}",
  "date_l": "{d} {m} {y}",
- "no_mute": "kelime filtresi yok"
+ "no_mute": "kelime filtresi yok",
+ "l_out": "Çıktı",
+ "l_now": "Spoilerlar",
+ "now_val": "Artık her yerde",
+ "l_premiere": "Prömiyer",
+ "l_eps": "Bölümler",
+ "eps_val": "{n}, her {day}",
+ "eps_all": "{n}, hepsi birden",
+ "l_finale": "Final",
+ "keep_season": "Yetişene kadar",
+ "airing": "{n} bölümden {k}. bölüm çıktı",
+ "weekdays": [
+  "pazartesi",
+  "salı",
+  "çarşamba",
+  "perşembe",
+  "cuma",
+  "cumartesi",
+  "pazar"
+ ]
 }

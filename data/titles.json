@@ -84,7 +84,11 @@
    "page": "avoid-blade-runner-2099-spoilers",
    "kind": "show",
    "published": "2026-11-18",
-   "modified": "2026-11-18"
+   "modified": "2026-11-18",
+   "season": {
+    "episodes": 8,
+    "every": 0
+   }
   },
   "professor-layton-nws": {
    "name": "Professor Layton and the New World of Steam",
