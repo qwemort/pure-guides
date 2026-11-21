@@ -29,7 +29,7 @@
  "wikidata": "Q55522899",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Jujutsu Kaisen"
+   "name": "Jujutsu Kaisen",
+   "desc": "The Jujutsu Kaisen manga is finished, so the whole ending is online while the anime catches up. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Gege Akutami's manga ended in 2024, so the full story is online while the anime is still adapting it.",
+   "why_h": "The ending is already out there",
+   "why": "<p>Anime-only viewers are the ones at risk: manga readers already know every death and the final chapter, and they talk about it under anime clips, in \"manga vs anime\" videos and in reaction compilations.</p><p>The worst places are YouTube thumbnails and TikTok edits that use manga panels. Mute the title with words like manga, ending and chapter, and stay away from fan edits until you catch up.</p>"
   },
   "ru": {
-   "name": "Магическая битва"
+   "name": "Магическая битва",
+   "desc": "Манга «Магическая битва» закончилась, поэтому вся концовка есть в сети, пока аниме догоняет. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Гэгэ Акутами закончилась в 2024 году, вся история уже в сети, а аниме ещё её экранизирует.",
+   "why_h": "Концовка уже в открытом доступе",
+   "why": "<p>Рискуют те, кто смотрит только аниме: читатели манги уже знают каждую смерть и последнюю главу и обсуждают их под клипами из аниме, в роликах «манга против аниме» и в нарезках реакций.</p><p>Хуже всего превью на YouTube и эдиты в TikTok с кадрами из манги. Мьють название вместе со словами «манга», «концовка» и «глава» и не открывай фанатские эдиты, пока не догонишь.</p>"
   },
   "uk": {
    "name": "Магічна битва"
   },
   "pl": {
-   "name": "Jujutsu Kaisen"
+   "name": "Jujutsu Kaisen",
+   "desc": "Manga Jujutsu Kaisen się skończyła, więc całe zakończenie jest w sieci, a anime dopiero je goni. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Gege Akutamiego skończyła się w 2024 roku, cała historia jest w sieci, a anime wciąż ją adaptuje.",
+   "why_h": "Zakończenie jest już w sieci",
+   "why": "<p>Ryzykują ci, którzy oglądają tylko anime: czytelnicy mangi znają każdą śmierć i ostatni rozdział i piszą o nich pod klipami z anime, w filmikach „manga kontra anime” i w składankach reakcji.</p><p>Najgorsze są miniaturki na YouTube i edity na TikToku z kadrami z mangi. Wycisz tytuł razem ze słowami manga, zakończenie i rozdział i omijaj fanowskie edity, dopóki nie nadrobisz.</p>"
   },
   "de": {
    "name": "Jujutsu Kaisen"
@@ -242,7 +254,11 @@
    "name": "Jujutsu Kaisen"
   },
   "pt-BR": {
-   "name": "Jujutsu Kaisen"
+   "name": "Jujutsu Kaisen",
+   "desc": "O mangá de Jujutsu Kaisen terminou, então o final inteiro está na internet enquanto o anime alcança. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Gege Akutami terminou em 2024, a história completa está na internet e o anime ainda está adaptando.",
+   "why_h": "O final já está por aí",
+   "why": "<p>Quem corre risco é quem só vê o anime: os leitores do mangá já sabem cada morte e o último capítulo e comentam isso em clipes do anime, em vídeos de \"mangá vs anime\" e em compilações de reação.</p><p>Os piores lugares são as miniaturas do YouTube e os edits do TikTok com páginas do mangá. Silencie o título com palavras como mangá, final e capítulo, e fuja dos edits de fã até se atualizar.</p>"
   },
   "tr": {
    "name": "Jujutsu Kaisen"
@@ -304,5 +320,10 @@
   "page": "avoid-jujutsu-kaisen-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

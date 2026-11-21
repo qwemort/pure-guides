@@ -29,7 +29,7 @@
  "wikidata": "Q48796994",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Boys"
+   "name": "The Boys",
+   "desc": "The Boys releases episodes weekly and its shock scenes go viral fast. Words to mute on X, TikTok, Threads and Instagram between episodes.",
+   "lead": "New episodes come out weekly, and the show's shock scenes are made to go viral, so they spread the same night.",
+   "why_h": "Weekly episodes, instant clips",
+   "why": "<p>With weekly releases you are at risk for the whole season, not just one weekend. The most shocking moments are clipped and posted within hours, and even the cast and official accounts post reaction content.</p><p>The comics by Garth Ennis and Darick Robertson are a weak guide, because the show changes a lot. Mute the title with character names from the trailers and words like episode, ending and who dies, and keep the filter on until the finale.</p>"
   },
   "ru": {
-   "name": "Пацаны"
+   "name": "Пацаны",
+   "desc": "«Пацаны» выходят по серии в неделю, а шоковые сцены мгновенно разлетаются. Слова для мьюта в X, TikTok, Threads и Instagram между сериями.",
+   "lead": "Новые серии выходят раз в неделю, а шоковые сцены сериала сделаны, чтобы стать вирусными, и разлетаются в ту же ночь.",
+   "why_h": "Серия в неделю, клипы сразу",
+   "why": "<p>При еженедельном выходе ты в зоне риска весь сезон, а не одни выходные. Самые шокирующие моменты нарезают и выкладывают за пару часов, и даже актёры и официальные аккаунты постят реакции.</p><p>Комиксы Гарта Энниса и Дарика Робертсона плохая подсказка: сериал многое меняет. Мьють название вместе с именами героев из трейлеров и словами «серия», «концовка» и «кто умрёт» и держи фильтр до финала.</p>"
   },
   "uk": {
    "name": "Хлопаки"
   },
   "pl": {
-   "name": "The Boys"
+   "name": "The Boys",
+   "desc": "The Boys wychodzi po odcinku tygodniowo, a szokujące sceny błyskawicznie stają się viralami. Słowa do wyciszenia na X, TikToku, Threads i Instagramie między odcinkami.",
+   "lead": "Nowe odcinki wychodzą co tydzień, a szokujące sceny serialu są robione pod virale, więc roznoszą się tej samej nocy.",
+   "why_h": "Odcinek co tydzień, klipy od razu",
+   "why": "<p>Przy cotygodniowych premierach ryzyko trwa cały sezon, a nie jeden weekend. Najbardziej szokujące momenty są cięte i wrzucane w kilka godzin, a reakcje wrzucają nawet aktorzy i oficjalne konta.</p><p>Komiksy Gartha Ennisa i Daricka Robertsona to słaba wskazówka, bo serial dużo zmienia. Wycisz tytuł razem z imionami postaci ze zwiastunów i słowami odcinek, zakończenie i kto zginie, i trzymaj filtr do finału.</p>"
   },
   "de": {
    "name": "The Boys"
@@ -242,7 +254,11 @@
    "name": "The Boys"
   },
   "pt-BR": {
-   "name": "The Boys"
+   "name": "The Boys",
+   "desc": "The Boys lança um episódio por semana e as cenas chocantes viralizam rápido. Palavras para silenciar no X, TikTok, Threads e Instagram entre os episódios.",
+   "lead": "Os episódios novos saem toda semana, e as cenas chocantes da série são feitas para viralizar, então se espalham na mesma noite.",
+   "why_h": "Episódio semanal, clipe imediato",
+   "why": "<p>Com lançamento semanal, o risco dura a temporada inteira, não só um fim de semana. Os momentos mais chocantes são cortados e postados em poucas horas, e até o elenco e as contas oficiais postam reações.</p><p>Os quadrinhos de Garth Ennis e Darick Robertson são um guia fraco, porque a série muda muita coisa. Silencie o título com nomes de personagens dos trailers e palavras como episódio, final e quem morre, e mantenha o filtro até o fim da temporada.</p>"
   },
   "tr": {
    "name": "The Boys"
@@ -304,5 +320,10 @@
   "page": "avoid-the-boys-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

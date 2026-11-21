@@ -29,7 +29,7 @@
  "wikidata": "Q586025",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Attack on Titan"
+   "name": "Attack on Titan",
+   "desc": "Attack on Titan ended years ago and its ending is still argued about everywhere. Words to mute on X, TikTok, Threads and Instagram if you are just starting.",
+   "lead": "Both the manga and the anime are finished, and the ending is still one of the most argued about in anime, so it pops up everywhere.",
+   "why_h": "An old ending that never went away",
+   "why": "<p>If you are starting the show now, you are years behind everyone else. Reveals about the walls, the titans and the main character's choices are in memes, tier lists and \"best anime endings\" videos that have nothing to do with the show itself.</p><p>Mute the title together with its Japanese name, Shingeki no Kyojin, and words like ending and final season. Expect spoilers in general anime content too, not only in posts about this show.</p>"
   },
   "ru": {
-   "name": "Атака титанов"
+   "name": "Атака титанов",
+   "desc": "«Атака титанов» давно закончилась, а её концовку до сих пор обсуждают везде. Слова для мьюта в X, TikTok, Threads и Instagram, если только начинаешь.",
+   "lead": "И манга, и аниме закончены, а концовка до сих пор одна из самых спорных в аниме, поэтому всплывает везде.",
+   "why_h": "Старая концовка, которая никуда не делась",
+   "why": "<p>Если начинаешь смотреть сейчас, ты на годы позади всех. Раскрытия про стены, титанов и выбор главного героя есть в мемах, тир-листах и роликах «лучшие концовки аниме», которые вообще не про этот сериал.</p><p>Мьють название вместе с японским Shingeki no Kyojin и словами «концовка» и «финальный сезон». Жди спойлеров и в общем аниме-контенте, а не только в постах про этот сериал.</p>"
   },
   "uk": {
    "name": "Атака титанів"
   },
   "pl": {
-   "name": "Attack on Titan"
+   "name": "Attack on Titan",
+   "desc": "Atak Tytanów skończył się lata temu, a o zakończeniu nadal wszędzie się kłócą. Słowa do wyciszenia na X, TikToku, Threads i Instagramie, jeśli dopiero zaczynasz.",
+   "lead": "Manga i anime są skończone, a zakończenie to wciąż jedno z najbardziej spornych w anime, więc wyskakuje wszędzie.",
+   "why_h": "Stare zakończenie, które nie znika",
+   "why": "<p>Jeśli zaczynasz teraz, jesteś lata za wszystkimi. Odkrycia o murach, tytanach i wyborach głównego bohatera są w memach, tier listach i filmikach „najlepsze zakończenia anime”, które w ogóle nie dotyczą tej serii.</p><p>Wycisz tytuł razem z japońską nazwą Shingeki no Kyojin i słowami zakończenie i ostatni sezon. Spoilerów spodziewaj się też w ogólnych treściach o anime, nie tylko w postach o tej serii.</p>"
   },
   "de": {
    "name": "Attack on Titan"
@@ -242,7 +254,11 @@
    "name": "Attack on Titan"
   },
   "pt-BR": {
-   "name": "Attack on Titan"
+   "name": "Attack on Titan",
+   "desc": "Attack on Titan acabou há anos e o final ainda é discutido em todo lugar. Palavras para silenciar no X, TikTok, Threads e Instagram se você está começando.",
+   "lead": "O mangá e o anime já terminaram, e o final ainda é um dos mais discutidos do anime, então ele aparece em todo lugar.",
+   "why_h": "Um final antigo que nunca sumiu",
+   "why": "<p>Se você está começando agora, está anos atrás de todo mundo. As revelações sobre as muralhas, os titãs e as escolhas do protagonista aparecem em memes, tier lists e vídeos de \"melhores finais de anime\" que nem são sobre a série.</p><p>Silencie o título junto com o nome japonês, Shingeki no Kyojin, e palavras como final e temporada final. Espere spoiler também em conteúdo geral de anime, não só em posts sobre a série.</p>"
   },
   "tr": {
    "name": "Attack on Titan"
@@ -304,5 +320,10 @@
   "page": "avoid-attack-on-titan-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

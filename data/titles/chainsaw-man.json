@@ -29,7 +29,7 @@
  "wikidata": "Q104211858",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Chainsaw Man"
+   "name": "Chainsaw Man",
+   "desc": "Chainsaw Man spoilers come from the manga, which is far ahead of the anime, and from weekly chapter talk. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Tatsuki Fujimoto's manga is far ahead of the anime, and its twists are built to shock, which makes them spread fast.",
+   "why_h": "Shock twists travel as memes",
+   "why": "<p>The story is famous for sudden deaths and turns, and fans post panels of them as reaction images. A single meme can spoil a whole arc before you reach it in the anime.</p><p>New chapters come out online, and readers discuss them on X and Reddit the same day. Mute the title with words like manga, chapter and Part 2, and avoid fan edits until you catch up.</p>"
   },
   "ru": {
-   "name": "Человек-бензопила"
+   "name": "Человек-бензопила",
+   "desc": "Спойлеры «Человека-бензопилы» идут из манги, которая далеко впереди аниме, и из обсуждений новых глав. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Тацуки Фудзимото сильно впереди аниме, а её повороты сделаны, чтобы шокировать, поэтому разлетаются быстро.",
+   "why_h": "Шоковые повороты разлетаются мемами",
+   "why": "<p>История знаменита внезапными смертями и поворотами, и фанаты постят эти кадры как картинки-реакции. Один мем может заспойлерить целую арку раньше, чем ты дойдёшь до неё в аниме.</p><p>Новые главы выходят онлайн, и читатели обсуждают их в X и на Reddit в тот же день. Мьють название вместе со словами «манга», «глава» и «часть 2» и обходи эдиты, пока не догонишь.</p>"
   },
   "uk": {
    "name": "Людина-бензопила"
   },
   "pl": {
-   "name": "Chainsaw Man"
+   "name": "Chainsaw Man",
+   "desc": "Spoilery Chainsaw Mana płyną z mangi, która jest daleko przed anime, i z rozmów o nowych rozdziałach. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Tatsukiego Fujimoto jest daleko przed anime, a jej zwroty mają szokować, więc szybko się roznoszą.",
+   "why_h": "Szokujące zwroty krążą jako memy",
+   "why": "<p>Historia słynie z nagłych śmierci i zwrotów, a fani wrzucają te kadry jako obrazki-reakcje. Jeden mem potrafi zaspoilerować cały arc, zanim dojdziesz do niego w anime.</p><p>Nowe rozdziały wychodzą online, a czytelnicy omawiają je na X i Reddicie tego samego dnia. Wycisz tytuł razem ze słowami manga, rozdział i part 2 i omijaj edity, dopóki nie nadrobisz.</p>"
   },
   "de": {
    "name": "Chainsaw Man"
@@ -242,7 +254,11 @@
    "name": "Chainsaw Man"
   },
   "pt-BR": {
-   "name": "Chainsaw Man"
+   "name": "Chainsaw Man",
+   "desc": "Os spoilers de Chainsaw Man vêm do mangá, que está muito à frente do anime, e das conversas sobre capítulos novos. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Tatsuki Fujimoto está muito à frente do anime, e as reviravoltas são feitas para chocar, por isso se espalham rápido.",
+   "why_h": "Reviravoltas chocantes viram meme",
+   "why": "<p>A história é famosa por mortes e viradas repentinas, e os fãs postam esses quadros como imagens de reação. Um meme pode estragar um arco inteiro antes de você chegar nele no anime.</p><p>Os capítulos novos saem online, e os leitores comentam no X e no Reddit no mesmo dia. Silencie o título com palavras como mangá, capítulo e parte 2, e evite edits até se atualizar.</p>"
   },
   "tr": {
    "name": "Chainsaw Man"
@@ -304,5 +320,10 @@
   "page": "avoid-chainsaw-man-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

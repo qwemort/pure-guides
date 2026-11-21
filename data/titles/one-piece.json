@@ -29,7 +29,7 @@
  "wikidata": "Q710324",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "One Piece"
+   "name": "One Piece",
+   "desc": "One Piece spoilers leak days before each chapter and the manga is far ahead of the anime. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The manga is years ahead of the anime, and each new chapter leaks a few days before it comes out.",
+   "why_h": "Two sources of spoilers at once",
+   "why": "<p>Eiichiro Oda's manga comes out weekly, and text and image leaks of the next chapter usually spread on X and Reddit a few days before the official release. If you read the manga, those leaks are the danger.</p><p>If you only watch the anime, everything in the manga is a spoiler. Big reveals turn into memes and thumbnails within hours. Mute the title together with words like chapter, leaks and manga.</p>"
   },
   "ru": {
-   "name": "Ван-Пис"
+   "name": "Ван-Пис",
+   "desc": "Спойлеры One Piece сливаются за несколько дней до каждой главы, а манга далеко впереди аниме. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга на годы впереди аниме, а каждая новая глава сливается за несколько дней до выхода.",
+   "why_h": "Два источника спойлеров сразу",
+   "why": "<p>Манга Эйитиро Оды выходит каждую неделю, и текстовые и картиночные сливы следующей главы обычно разлетаются по X и Reddit за несколько дней до официального выхода. Если читаешь мангу, опасны именно сливы.</p><p>Если смотришь только аниме, спойлер для тебя всё, что уже есть в манге. Большие повороты за пару часов становятся мемами и превью. Мьють название вместе со словами «глава», «слив» и «манга»."
   },
   "uk": {
    "name": "Ван-Піс"
   },
   "pl": {
-   "name": "One Piece"
+   "name": "One Piece",
+   "desc": "Spoilery One Piece wyciekają kilka dni przed każdym rozdziałem, a manga jest daleko przed anime. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga jest lata przed anime, a każdy nowy rozdział wycieka kilka dni przed premierą.",
+   "why_h": "Dwa źródła spoilerów naraz",
+   "why": "<p>Manga Eiichiro Ody wychodzi co tydzień, a przecieki tekstowe i obrazkowe kolejnego rozdziału zwykle krążą po X i Reddicie kilka dni przed oficjalną premierą. Jeśli czytasz mangę, groźne są właśnie przecieki.</p><p>Jeśli oglądasz tylko anime, spoilerem jest wszystko, co już jest w mandze. Duże zwroty w kilka godzin stają się memami i miniaturkami. Wycisz tytuł razem ze słowami rozdział, przeciek i manga.</p>"
   },
   "de": {
    "name": "One Piece"
@@ -242,7 +254,11 @@
    "name": "One Piece"
   },
   "pt-BR": {
-   "name": "One Piece"
+   "name": "One Piece",
+   "desc": "Os spoilers de One Piece vazam dias antes de cada capítulo e o mangá está muito à frente do anime. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá está anos à frente do anime, e cada capítulo novo vaza alguns dias antes de sair.",
+   "why_h": "Duas fontes de spoiler ao mesmo tempo",
+   "why": "<p>O mangá de Eiichiro Oda sai toda semana, e vazamentos em texto e imagem do próximo capítulo costumam circular no X e no Reddit alguns dias antes do lançamento oficial. Se você lê o mangá, o perigo são os vazamentos.</p><p>Se você só assiste ao anime, tudo o que já está no mangá é spoiler. As grandes revelações viram meme e miniatura em poucas horas. Silencie o título junto com palavras como capítulo, vazamento e mangá.</p>"
   },
   "tr": {
    "name": "One Piece"
@@ -304,5 +320,10 @@
   "page": "avoid-one-piece-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

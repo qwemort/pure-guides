@@ -40,6 +40,8 @@ def old_urls(tid, T):
 
 
 def main():
+    if (R / 'data/titles').exists() and '--force' not in sys.argv:
+        sys.exit('data/titles/ уже главный источник (21.11 туда добавлены свои тексты). Перезапуск сотрёт их. Только с --force.')
     titles = load('data/titles.json')['titles']
     words = load('data/title-words.json')
     games = load('data/games.json')

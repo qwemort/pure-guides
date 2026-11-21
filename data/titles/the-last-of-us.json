@@ -29,7 +29,7 @@
  "wikidata": "Q87131973",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Last of Us"
+   "name": "The Last of Us",
+   "desc": "The Last of Us show follows the Naughty Dog games, so game spoilers are show spoilers. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The HBO show adapts the Naughty Dog games, and their story has been public since the games came out, so game talk spoils the show.",
+   "why_h": "The games already told the story",
+   "why": "<p>Players know the big turns of both games, including the ones that split the fan base, and they bring them up under every trailer and casting announcement. Arguments about the second game alone are full of the biggest spoiler in the series.</p><p>Mute the title together with words like Part II, game and ending. Be careful with gaming news and \"best story games\" lists too, they often show key scenes in the thumbnail.</p>"
   },
   "ru": {
-   "name": "Одни из нас"
+   "name": "Одни из нас",
+   "desc": "Сериал «Одни из нас» следует играм Naughty Dog, так что спойлеры игр это спойлеры сериала. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал HBO экранизирует игры Naughty Dog, а их сюжет известен с выхода игр, поэтому разговоры об играх спойлерят сериал.",
+   "why_h": "Игры уже рассказали историю",
+   "why": "<p>Игроки знают главные повороты обеих игр, включая те, что раскололи фанатов, и вспоминают их под каждым трейлером и новостью о кастинге. В одних только спорах о второй игре полно главного спойлера серии.</p><p>Мьють название вместе со словами «Part II», «игра» и «концовка». Осторожно и с игровыми новостями и подборками «лучшие сюжетные игры»: ключевые сцены часто прямо на превью.</p>"
   },
   "uk": {
    "name": "Одні з нас"
   },
   "pl": {
-   "name": "The Last of Us"
+   "name": "The Last of Us",
+   "desc": "Serial The Last of Us idzie za grami Naughty Dog, więc spoilery z gier to spoilery serialu. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial HBO adaptuje gry Naughty Dog, a ich fabuła jest znana od premiery gier, więc rozmowy o grach spoilerują serial.",
+   "why_h": "Gry już opowiedziały historię",
+   "why": "<p>Gracze znają główne zwroty obu gier, także te, które podzieliły fanów, i przypominają je pod każdym zwiastunem i newsem o obsadzie. Same kłótnie o drugą grę są pełne największego spoilera serii.</p><p>Wycisz tytuł razem ze słowami Part II, gra i zakończenie. Uważaj też na newsy o grach i zestawienia „najlepsze gry fabularne”, bo kluczowe sceny często są na miniaturce.</p>"
   },
   "de": {
    "name": "The Last of Us"
@@ -242,7 +254,11 @@
    "name": "The Last of Us"
   },
   "pt-BR": {
-   "name": "The Last of Us"
+   "name": "The Last of Us",
+   "desc": "A série The Last of Us segue os jogos da Naughty Dog, então spoiler do jogo é spoiler da série. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série da HBO adapta os jogos da Naughty Dog, e a história deles é pública desde o lançamento, então falar dos jogos estraga a série.",
+   "why_h": "Os jogos já contaram a história",
+   "why": "<p>Os jogadores conhecem as grandes viradas dos dois jogos, inclusive as que dividiram os fãs, e falam delas em todo trailer e notícia de elenco. Só as brigas sobre o segundo jogo já estão cheias do maior spoiler da série.</p><p>Silencie o título junto com palavras como Part II, jogo e final. Cuidado também com notícias de games e listas de \"melhores jogos de história\", que muitas vezes mostram cenas-chave na miniatura.</p>"
   },
   "tr": {
    "name": "The Last of Us"
@@ -304,5 +320,10 @@
   "page": "avoid-the-last-of-us-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

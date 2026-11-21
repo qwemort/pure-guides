@@ -29,7 +29,7 @@
  "wikidata": "Q112898063",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Solo Leveling"
+   "name": "Solo Leveling",
+   "desc": "Solo Leveling is based on a finished web novel and webtoon, so the whole story is online. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The anime adapts a Korean web novel and webtoon that are both finished, so the entire story is already online.",
+   "why_h": "The whole story is one search away",
+   "why": "<p>Webtoon readers know every power-up and the final enemy, and webtoon panels are some of the most shared images in anime communities. That makes thumbnails and edits the main risk, not long posts.</p><p>Mute the title together with words like webtoon, manhwa and ending, and also the Korean title, Na Honjaman Level Up, which readers use in discussions.</p>"
   },
   "ru": {
-   "name": "Поднятие уровня в одиночку"
+   "name": "Поднятие уровня в одиночку",
+   "desc": "«Поднятие уровня в одиночку» основано на законченной веб-новелле и вебтуне, поэтому вся история в сети. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Аниме экранизирует корейскую веб-новеллу и вебтун, и оба уже закончены, так что вся история давно в сети.",
+   "why_h": "Вся история в одном поиске",
+   "why": "<p>Читатели вебтуна знают каждое усиление героя и последнего врага, а кадры из вебтуна одни из самых популярных картинок в аниме-сообществах. Поэтому главный риск не длинные посты, а превью и эдиты.</p><p>Мьють название вместе со словами «вебтун», «манхва» и «концовка», а заодно корейское название Na Honjaman Level Up, которым пользуются в обсуждениях.</p>"
   },
   "uk": {
    "name": "Підняття рівня наодинці"
   },
   "pl": {
-   "name": "Solo Leveling"
+   "name": "Solo Leveling",
+   "desc": "Solo Leveling opiera się na zakończonej web powieści i webtoonie, więc cała historia jest w sieci. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Anime adaptuje koreańską web powieść i webtoon, które są już zakończone, więc cała historia jest w sieci.",
+   "why_h": "Cała historia na jedno wyszukiwanie",
+   "why": "<p>Czytelnicy webtoona znają każde wzmocnienie bohatera i ostatniego wroga, a kadry z webtoona to jedne z najczęściej udostępnianych obrazków w społecznościach anime. Dlatego największe ryzyko to miniaturki i edity, a nie długie posty.</p><p>Wycisz tytuł razem ze słowami webtoon, manhwa i zakończenie, a do tego koreański tytuł Na Honjaman Level Up, którego używają czytelnicy.</p>"
   },
   "de": {
    "name": "Solo Leveling"
@@ -242,7 +254,11 @@
    "name": "Solo Leveling"
   },
   "pt-BR": {
-   "name": "Solo Leveling"
+   "name": "Solo Leveling",
+   "desc": "Solo Leveling é baseado numa web novel e num webtoon já terminados, então a história inteira está na internet. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O anime adapta uma web novel e um webtoon coreanos que já terminaram, então a história inteira está na internet.",
+   "why_h": "A história toda a uma busca de distância",
+   "why": "<p>Quem leu o webtoon conhece cada evolução do protagonista e o inimigo final, e os quadros do webtoon estão entre as imagens mais compartilhadas nas comunidades de anime. Por isso o maior risco são miniaturas e edits, não posts longos.</p><p>Silencie o título junto com palavras como webtoon, manhwa e final, e também o nome coreano, Na Honjaman Level Up, que os leitores usam nas conversas.</p>"
   },
   "tr": {
    "name": "Solo Leveling"
@@ -304,5 +320,10 @@
   "page": "avoid-solo-leveling-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

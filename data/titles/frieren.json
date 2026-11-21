@@ -29,7 +29,7 @@
  "wikidata": "Q98642652",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Frieren"
+   "name": "Frieren",
+   "desc": "Frieren spoilers come from the manga, which is ahead of the anime. Calm story, but key reveals still spread. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The manga by Kanehito Yamada and Tsukasa Abe is ahead of the anime, so every new season has readers who already know what happens.",
+   "why_h": "A quiet story with real reveals",
+   "why": "<p>Frieren is slow and calm, which makes people feel safe reading comments. But the manga has fights, returns of old characters and answers about the past that change how you see the first season.</p><p>Spoilers come mostly from manga panels shared as art and from \"manga readers\" comments under anime clips. Mute the title with words like manga and chapter while a new season is airing.</p>"
   },
   "ru": {
-   "name": "Провожающая в последний путь Фрирен"
+   "name": "Провожающая в последний путь Фрирен",
+   "desc": "Спойлеры «Фрирен» идут из манги, которая впереди аниме. История спокойная, но ключевые повороты всё равно разлетаются. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Канэхито Ямады и Цукасы Абэ впереди аниме, поэтому к каждому новому сезону есть читатели, которые уже знают, что будет.",
+   "why_h": "Тихая история с настоящими поворотами",
+   "why": "<p>«Фрирен» медленная и спокойная, и из-за этого люди без опаски читают комментарии. Но в манге есть битвы, возвращения старых героев и ответы о прошлом, которые меняют взгляд на первый сезон.</p><p>Спойлеры приходят в основном через страницы манги, которые выкладывают как арт, и через комментарии «читателей манги» под клипами из аниме. Мьють название вместе со словами «манга» и «глава», пока идёт новый сезон.</p>"
   },
   "uk": {
    "name": "Фрірен, що проводжає в останню путь"
   },
   "pl": {
-   "name": "Frieren"
+   "name": "Frieren",
+   "desc": "Spoilery Frieren płyną z mangi, która jest przed anime. Spokojna historia, ale kluczowe odkrycia i tak się roznoszą. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Kanehito Yamady i Tsukasy Abe jest przed anime, więc przy każdym nowym sezonie są czytelnicy, którzy już wiedzą, co się stanie.",
+   "why_h": "Cicha historia z prawdziwymi zwrotami",
+   "why": "<p>Frieren jest powolna i spokojna, więc ludzie bez obaw czytają komentarze. Ale w mandze są walki, powroty dawnych postaci i odpowiedzi o przeszłości, które zmieniają odbiór pierwszego sezonu.</p><p>Spoilery przychodzą głównie przez strony mangi wrzucane jako art i komentarze „czytelników mangi” pod klipami z anime. Wycisz tytuł razem ze słowami manga i rozdział, dopóki leci nowy sezon.</p>"
   },
   "de": {
    "name": "Frieren"
@@ -242,7 +254,11 @@
    "name": "Frieren"
   },
   "pt-BR": {
-   "name": "Frieren"
+   "name": "Frieren",
+   "desc": "Os spoilers de Frieren vêm do mangá, que está à frente do anime. História calma, mas as revelações importantes se espalham. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Kanehito Yamada e Tsukasa Abe está à frente do anime, então em cada temporada nova tem leitor que já sabe o que acontece.",
+   "why_h": "Uma história calma com revelações de verdade",
+   "why": "<p>Frieren é lenta e tranquila, e por isso as pessoas leem comentários sem medo. Mas o mangá tem lutas, volta de personagens antigos e respostas sobre o passado que mudam o jeito de ver a primeira temporada.</p><p>Os spoilers vêm principalmente de páginas do mangá postadas como arte e de comentários de \"quem leu o mangá\" em clipes do anime. Silencie o título com palavras como mangá e capítulo enquanto a temporada nova estiver passando.</p>"
   },
   "tr": {
    "name": "Frieren"
@@ -304,5 +320,10 @@
   "page": "avoid-frieren-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

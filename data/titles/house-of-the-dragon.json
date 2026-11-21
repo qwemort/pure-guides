@@ -29,7 +29,7 @@
  "wikidata": "Q72930269",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "House of the Dragon"
+   "name": "House of the Dragon",
+   "desc": "House of the Dragon is based on George R.R. Martin's Fire & Blood, so book readers already know the war. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The show adapts Fire & Blood, a book written as a history, so readers already know who dies and how the war ends.",
+   "why_h": "The book is a list of what happens",
+   "why": "<p>Fire & Blood reads like a chronicle, so the fate of almost every character is in it, and fans quote it freely under trailers and episode clips. \"Book readers know\" comments are the main source of spoilers between seasons.</p><p>During a season, episodes air weekly and big deaths trend the same night. Mute the title with words like Fire & Blood, episode and who dies, plus the names of the main dragons, which are often in spoiler headlines.</p>"
   },
   "ru": {
-   "name": "Дом дракона"
+   "name": "Дом дракона",
+   "desc": "«Дом дракона» основан на «Пламени и крови» Джорджа Мартина, так что читатели уже знают, чем кончится война. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал экранизирует «Пламя и кровь», книгу в форме хроники, поэтому читатели уже знают, кто умрёт и чем закончится война.",
+   "why_h": "Книга это список того, что случится",
+   "why": "<p>«Пламя и кровь» написана как летопись, так что судьба почти каждого героя там есть, и фанаты спокойно цитируют её под трейлерами и клипами серий. Комментарии «читатели знают» главный источник спойлеров между сезонами.</p><p>Во время сезона серии выходят раз в неделю, и громкие смерти попадают в тренды в ту же ночь. Мьють название вместе со словами «Пламя и кровь», «серия» и «кто умрёт», а также имена главных драконов, они часто стоят в спойлерных заголовках.</p>"
   },
   "uk": {
    "name": "Дім дракона"
   },
   "pl": {
-   "name": "Ród smoka"
+   "name": "Ród smoka",
+   "desc": "Ród smoka opiera się na Ogniu i krwi George'a R.R. Martina, więc czytelnicy znają przebieg wojny. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial adaptuje Ogień i krew, książkę napisaną jak kronika, więc czytelnicy już wiedzą, kto zginie i jak skończy się wojna.",
+   "why_h": "Książka to lista tego, co się wydarzy",
+   "why": "<p>Ogień i krew czyta się jak kronikę, więc jest w niej los prawie każdej postaci, a fani swobodnie cytują ją pod zwiastunami i klipami z odcinków. Komentarze „czytelnicy wiedzą” to główne źródło spoilerów między sezonami.</p><p>W trakcie sezonu odcinki wychodzą co tydzień, a głośne śmierci trafiają do trendów tej samej nocy. Wycisz tytuł razem ze słowami Ogień i krew, odcinek i kto zginie, a także imiona głównych smoków, które często są w spoilerowych nagłówkach.</p>"
   },
   "de": {
    "name": "House of the Dragon"
@@ -242,7 +254,11 @@
    "name": "House of the Dragon"
   },
   "pt-BR": {
-   "name": "A Casa do Dragão"
+   "name": "A Casa do Dragão",
+   "desc": "A Casa do Dragão é baseada em Fogo & Sangue, de George R.R. Martin, então quem leu já sabe como a guerra termina. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série adapta Fogo & Sangue, um livro escrito como crônica, então os leitores já sabem quem morre e como a guerra acaba.",
+   "why_h": "O livro é uma lista do que vai acontecer",
+   "why": "<p>Fogo & Sangue é escrito como uma crônica, então o destino de quase todo personagem está lá, e os fãs citam o livro à vontade em trailers e clipes de episódios. Comentários de \"quem leu sabe\" são a principal fonte de spoiler entre as temporadas.</p><p>Durante a temporada os episódios saem toda semana, e as grandes mortes viram assunto na mesma noite. Silencie o título com palavras como Fogo & Sangue, episódio e quem morre, além dos nomes dos dragões principais, que aparecem muito em manchetes com spoiler.</p>"
   },
   "tr": {
    "name": "Ejderha Hanedanı"
@@ -304,5 +320,10 @@
   "page": "avoid-house-of-the-dragon-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

@@ -28,7 +28,7 @@
  "wikidata": null,
  "checked": null,
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -217,16 +217,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Demon Slayer"
+   "name": "Demon Slayer",
+   "desc": "The Demon Slayer manga ended in 2020 and the anime is adapting the final arc in films. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The manga finished in 2020, and the anime is now adapting the final arc as a series of films.",
+   "why_h": "The final arc is years old",
+   "why": "<p>Everything the films will show has been in the manga since 2020, so who survives the final battle is common knowledge among fans. Every new film release brings a wave of \"manga readers know\" comments and reaction videos.</p><p>Spoilers come from fan art and edits as much as from text, so word filters only cover part of it. Mute the title with words like manga, final arc and ending, and keep it on until you have seen the films.</p>"
   },
   "ru": {
-   "name": "Клинок, рассекающий демонов"
+   "name": "Клинок, рассекающий демонов",
+   "desc": "Манга «Клинок, рассекающий демонов» закончилась в 2020 году, а финальную арку аниме экранизирует фильмами. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга закончилась в 2020 году, а финальную арку аниме теперь выпускает серией фильмов.",
+   "why_h": "Финальной арке уже несколько лет",
+   "why": "<p>Всё, что покажут фильмы, есть в манге с 2020 года, так что кто переживёт финальную битву, фанаты знают давно. С выходом каждого фильма приходит волна комментариев «читатели манги знают» и роликов с реакциями.</p><p>Спойлеры идут через фан-арт и эдиты не меньше, чем через текст, поэтому фильтр слов ловит только часть. Мьють название вместе со словами «манга», «финальная арка» и «концовка» и держи, пока не посмотришь фильмы.</p>"
   },
   "uk": {
    "name": "Клинок, що знищує демонів"
   },
   "pl": {
-   "name": "Demon Slayer"
+   "name": "Demon Slayer",
+   "desc": "Manga Demon Slayer skończyła się w 2020 roku, a anime adaptuje ostatni arc w filmach. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga skończyła się w 2020 roku, a anime adaptuje teraz ostatni arc jako serię filmów.",
+   "why_h": "Ostatni arc ma już kilka lat",
+   "why": "<p>Wszystko, co pokażą filmy, jest w mandze od 2020 roku, więc fani dawno wiedzą, kto przeżyje ostatnią bitwę. Każdy nowy film przynosi falę komentarzy „czytelnicy mangi wiedzą” i filmików z reakcjami.</p><p>Spoilery przychodzą przez fanarty i edity tak samo jak przez tekst, więc filtr słów łapie tylko część. Wycisz tytuł razem ze słowami manga, ostatni arc i zakończenie i trzymaj, dopóki nie obejrzysz filmów.</p>"
   },
   "de": {
    "name": "Demon Slayer"
@@ -241,7 +253,11 @@
    "name": "Demon Slayer"
   },
   "pt-BR": {
-   "name": "Demon Slayer"
+   "name": "Demon Slayer",
+   "desc": "O mangá de Demon Slayer terminou em 2020 e o anime está adaptando o arco final em filmes. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá terminou em 2020, e o anime agora adapta o arco final numa série de filmes.",
+   "why_h": "O arco final já tem anos",
+   "why": "<p>Tudo o que os filmes vão mostrar está no mangá desde 2020, então quem sobrevive à batalha final é algo que os fãs sabem há tempos. Cada filme novo traz uma onda de comentários \"quem leu o mangá sabe\" e vídeos de reação.</p><p>Os spoilers vêm tanto de fanart e edits quanto de texto, então o filtro de palavras pega só uma parte. Silencie o título com palavras como mangá, arco final e final, e mantenha até ver os filmes.</p>"
   },
   "tr": {
    "name": "Demon Slayer"
@@ -303,5 +319,10 @@
   "page": "avoid-demon-slayer-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }
