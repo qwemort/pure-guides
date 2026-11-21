@@ -3,7 +3,7 @@ name: notify-runs
 # любой сбой — сразу; еженедельные задачи — «готово». Тексты индекса и отчёта шлют сами workflow.
 on:
   workflow_run:
-    workflows: [spoiler-index, spoiler-danger, weekly-report, threads-stats, store-rank, mutelists, demo-media]
+    workflows: [spoiler-index, spoiler-danger, weekly-report, threads-stats, store-rank, mutelists, demo-media, news]
     types: [completed]
 permissions:
   contents: read
@@ -30,7 +30,7 @@ jobs:
             node tools/notify.mjs "$(bash tools/notify-failure.sh)"
           else
             case "$NAME" in
-              mutelists) node tools/notify.mjs "$(printf '✅ pure-guides: %s готово\n%s' "$NAME" "$URL")" ;;
+              mutelists|news) node tools/notify.mjs "$(printf '✅ pure-guides: %s готово\n%s' "$NAME" "$URL")" ;;
               *) echo "успех $NAME, без уведомления" ;;
             esac
           fi
