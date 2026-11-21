@@ -1,6 +1,6 @@
 name: ms-build
 # Новый сайт mutespoilers.com: собирает dist/ из data/titles/ (шаг 2 переезда).
-# Пока домена нет — только сборка и архив с результатом. Выкладка на Cloudflare Pages — шаг 8.
+# Сборка + выкладка на Cloudflare Pages (job deploy, включается ключом Cloudflare в секретах).
 on:
   push:
     branches: [main]
@@ -20,3 +20,45 @@ jobs:
         run: python3 site/check.py | tee -a "$GITHUB_STEP_SUMMARY"; exit ${PIPESTATUS[0]}
       - uses: actions/upload-artifact@v4
         with: { name: mutespoilers-dist, path: dist, retention-days: 7 }
+  deploy:
+    # Шаг 8: выкладка на Cloudflare Pages (mutespoilers.pages.dev, закрыт от Google заголовком из _headers).
+    # Включается сама, когда в секретах репо есть CLOUDFLARE_API_TOKEN и CLOUDFLARE_ACCOUNT_ID.
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency: { group: ms-deploy, cancel-in-progress: false }
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      PROJECT: mutespoilers
+    steps:
+      - name: Есть ли ключ Cloudflare
+        id: gate
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"
+          else echo "Ключа Cloudflare нет — выкладку пропускаю." | tee -a "$GITHUB_STEP_SUMMARY"; fi
+      - if: steps.gate.outputs.ok == '1'
+        uses: actions/checkout@v5
+      - if: steps.gate.outputs.ok == '1'
+        uses: actions/download-artifact@v4
+        with: { name: mutespoilers-dist, path: dist }
+      - name: Проект Pages (создать, если нет)
+        if: steps.gate.outputs.ok == '1'
+        run: npx -y wrangler@4 pages project create "$PROJECT" --production-branch main || echo "проект уже есть"
+      - name: Секреты формы /request/ (из секретов репо)
+        if: steps.gate.outputs.ok == '1'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TURNSTILE_SECRET: ${{ secrets.TURNSTILE_SECRET }}
+        run: |
+          for k in TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID TURNSTILE_SECRET; do
+            v="${!k}"; [ -z "$v" ] && { echo "$k: нет в секретах, пропуск"; continue; }
+            printf '%s' "$v" | npx -y wrangler@4 pages secret put "$k" --project-name "$PROJECT" >/dev/null && echo "$k: ок"
+          done
+      - name: Выкладка
+        if: steps.gate.outputs.ok == '1'
+        run: |
+          npx -y wrangler@4 pages deploy dist --project-name "$PROJECT" --branch main --commit-hash "$GITHUB_SHA" | tee out.txt
+          echo "Выложено: https://$PROJECT.pages.dev" >> "$GITHUB_STEP_SUMMARY"
