@@ -6,7 +6,7 @@
 import re, sys, json, html, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = 'https://qwemort.github.io/pure-guides/'
-SKIP = ('design', 'media', 'img', 'devto', 'queue', 'data', 'fonts', 'i18n', 'tools', 'node_modules', '.git')
+SKIP = ('dist', 'site', 'design', 'media', 'img', 'devto', 'queue', 'data', 'fonts', 'i18n', 'tools', 'node_modules', '.git')
 NOT_SHIELD = {'modheader-alternative.html', 'json-formatter.html', 'cors-credentials-wildcard.html'}  # там Pro = PureHeaders, это правда
 err, warn = [], []
 E = lambda p, m: err.append(f'✗ {p}: {m}')
