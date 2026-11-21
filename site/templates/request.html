@@ -1,0 +1,27 @@
+{% extends "page.html" %}
+{% block extra %}
+<form class="ms-form" method="post" action="/api/request" data-ok="{{ R.ok }}" data-err="{{ R.err }}">
+ <input type="hidden" name="lang" value="{{ lang_attr }}">
+ <fieldset><legend>{{ R.kind }}</legend>
+  <label><input type="radio" name="kind" value="add" checked> {{ R.k1 }}</label>
+  <label><input type="radio" name="kind" value="date"> {{ R.k2 }}</label>
+  <label><input type="radio" name="kind" value="spoiler"> {{ R.k3 }}</label>
+ </fieldset>
+ <label for="f-title">{{ R.name }}</label>
+ <input id="f-title" name="title" required maxlength="120" autocomplete="off">
+ <label for="f-msg">{{ R.msg }}</label>
+ <textarea id="f-msg" name="message" maxlength="1000" rows="4"></textarea>
+ <input class="ms-hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+ {% if turnstile_key %}<div class="cf-turnstile" data-sitekey="{{ turnstile_key }}"></div>{% endif %}
+ <button class="ms-btn" type="submit">{{ R.send }}</button>
+ <p class="ms-form-status" role="status"></p>
+ <p class="muted">{{ R.note }}</p>
+</form>
+{% if turnstile_key %}<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>{% endif %}
+<script>
+(function(){var f=document.querySelector('.ms-form'),st=f.querySelector('.ms-form-status'),q=location.search;
+if(q.indexOf('ok=1')>-1)st.textContent=f.getAttribute('data-ok');if(q.indexOf('err=1')>-1)st.textContent=f.getAttribute('data-err');
+f.addEventListener('submit',function(e){if(!window.fetch)return;e.preventDefault();var b=f.querySelector('button');b.disabled=true;
+fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}).then(function(r){st.textContent=f.getAttribute(r.ok?'data-ok':'data-err');if(r.ok)f.reset()}).catch(function(){st.textContent=f.getAttribute('data-err')}).then(function(){b.disabled=false})})})();
+</script>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block main %}
+<nav class="ms-crumbs" aria-label="breadcrumb"><a href="{{ home_href }}">{{ home_label }}</a>{% if parent %} <span aria-hidden="true">/</span> <a href="{{ parent.href }}">{{ parent.label }}</a>{% endif %} <span aria-hidden="true">/</span> <span aria-current="page">{{ h1 }}</span></nav>
+<div class="ms-page">
+<article class="ms-page-main">
+ <h1>{{ h1 }}</h1>
+ <p class="t-lead">{{ lead }}</p>
+ {% if steps %}<h2>{{ steps_h }}</h2><ol class="ms-steps">{% for s in steps %}<li>{{ s }}</li>{% endfor %}</ol>{% endif %}
+ {% if notes %}<h2>{{ notes_h }}</h2><ul class="ms-notes">{% for s in notes %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+ {% for b in blocks %}<section><h2>{{ b[0] }}</h2><p>{{ b[1] }}</p></section>{% endfor %}
+ {% if buttons %}<p class="ms-actions">{% for b in buttons %}<a class="{{ b.cls }}" href="{{ b.href }}">{{ b.label }}</a>{% endfor %}</p>{% endif %}
+ {% if small %}<p class="muted">{{ small }}</p>{% endif %}
+ {% block extra %}{% endblock %}
+</article>
+<aside class="ms-page-side">
+ {% if side_links %}<nav class="t-rel ms-rel" aria-label="{{ side_h }}"><p class="t-kicker">{{ side_h }}</p>{% for l in side_links %}<a href="{{ l.href }}">{{ l.label }}</a>{% endfor %}</nav>{% endif %}
+ {% if side_note %}<div class="ms-side-note"><p>{{ side_note }}</p>{% if side_btn %}<a class="ms-btn" href="{{ side_btn.href }}">{{ side_btn.label }}</a>{% endif %}</div>{% endif %}
+</aside>
+</div>
+{% endblock %}

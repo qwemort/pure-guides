@@ -31,6 +31,7 @@
 </main>
 <footer class="foot">
   <div class="wrap">
+    {% if foot %}<div class="ms-fgrid">{% for col in foot %}<div><p class="fh">{{ col.h }}</p><ul>{% for l in col.links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul></div>{% endfor %}</div>{% endif %}
     <nav class="ms-langs" aria-label="Language">{% for l in footer_langs %}<a href="{{ l.href }}" hreflang="{{ l.code }}" lang="{{ l.code }}"{% if l.code == lang_attr %} aria-current="page"{% endif %}>{{ l.label }}</a>{% endfor %}</nav>
   </div>
 </footer>

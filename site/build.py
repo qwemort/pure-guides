@@ -21,6 +21,9 @@ C = json.loads((SITE / 'config.json').read_text(encoding='utf-8'))
 BASE = C['base']
 LABELS = {x['code']: x['label'] for x in json.loads((R / 'data/title-words.json').read_text(encoding='utf-8'))['langs']}
 HUBS = json.loads((R / 'i18n/ms-hubs.json').read_text(encoding='utf-8'))['strings']
+GUIDES = json.loads((SITE / 'content/guides.json').read_text(encoding='utf-8'))
+PAGES = json.loads((SITE / 'content/pages.json').read_text(encoding='utf-8'))
+FACTS = json.loads((R / 'data/facts.json').read_text(encoding='utf-8'))
 VOCAB = json.loads((R / 'data/vocab.json').read_text(encoding='utf-8'))['vocab']
 env = Environment(loader=FileSystemLoader(SITE / 'templates'), autoescape=True, undefined=StrictUndefined,
                   trim_blocks=True, lstrip_blocks=True)
@@ -49,6 +52,69 @@ def write(path, html):
     f.write_text(html, encoding='utf-8')
 
 
+def footer(hl):
+    F, Hs, P = PAGES['footer'][hl], HUBS[hl], prefix(hl)
+    return [
+        {'h': F['cat'], 'links': [{'href': f'{P}/{m}/', 'label': Hs[m + '_h']} for m in C['media']]
+         + [{'href': f'{P}/upcoming/', 'label': F['upcoming']}, {'href': f'{P}/out-now/', 'label': F['outnow']}, {'href': f'{P}/calendar/', 'label': Hs['cal_nav']}]},
+        {'h': F['tools'], 'links': [{'href': f'{P}/guides/{k}/', 'label': GUIDES['guides'][k]['name']} for k in GUIDES['guides']]
+         + [{'href': f'{P}/guides/', 'label': F['guides']}, {'href': f'{P}/extension/', 'label': F['ext']}]},
+        {'h': F['proj'], 'links': [{'href': f'{P}/about/', 'label': F['about']}, {'href': f'{P}/methodology/', 'label': F['method']},
+                                   {'href': f'{P}/privacy/', 'label': F['privacy']}, {'href': f'{P}/request/', 'label': F['request']}]},
+    ]
+
+
+def service_pages(titles, sitemap):
+    """Шаг 6: 6 гайдов соцсетей + хаб гайдов, /extension/, /about/, /methodology/, /privacy/, /request/."""
+    import datetime as dt
+    today = dt.date.today()
+    email = FACTS['email']
+    CHR = FACTS['links']['chrome'] + '?utm_source=mutespoilers&utm_medium=extension'
+    FFX = FACTS['links']['firefox'] + '?utm_source=mutespoilers&utm_medium=extension'
+    for lang in C['wave0']:
+        P, U, Hs = prefix(lang), GUIDES['ui'][lang], HUBS[lang]
+        home_label = C['home'].get(lang, 'Home')
+        def emit(slug, tpl, h1, title, desc, parent=None, **kw):
+            path = lambda l, slug=slug: f'{prefix(l)}/{slug}/'
+            ctx = {**common(lang, C['wave0'], path), 'main_class': 'ms-pg', 'home_label': home_label}
+            ctx.update(kw)
+            html = env.get_template(tpl).render(**ctx, title=title, description=desc, canonical=BASE + path(lang), h1=h1, parent=parent)
+            write(path(lang), html); sitemap.setdefault(lang, []).append((BASE + path(lang), None))
+        # ближайшие тайтлы для блока «готовые списки»
+        live = [t for t in titles if lang in title_langs(t)]
+        def near(t):
+            d = t['release'].get('date')
+            return abs((dt.date.fromisoformat(d) - today).days) if d else 9999
+        lists = [{'href': f"{P}/{t['media']}/{t['slug']}/", 'label': t['names'].get(lang) or t['names']['en']} for t in sorted(live, key=near)[:6]]
+        glinks = [{'href': f'{P}/guides/{k}/', 'label': g['name']} for k, g in GUIDES['guides'].items()]
+        side_btn = {'href': f'{P}/extension/', 'label': U['ext_btn']}
+        for k, g in GUIDES['guides'].items():
+            G = g[lang]
+            emit(f'guides/{k}', 'page.html', G['h1'], G['h1'], G['lead'], parent={'href': f'{P}/guides/', 'label': U['hub_h']},
+                 lead=G['lead'], steps=G['steps'], steps_h=U['steps'], notes=G['notes'], notes_h=U['notes'], blocks=[],
+                 side_h=U['lists'], side_links=lists, side_note=U['ext'], side_btn=side_btn, buttons=[], small='')
+        emit('guides', 'page.html', U['hub_h'], U['hub_h'], U['hub_p'], lead=U['hub_p'], steps=[], notes=[], blocks=[],
+             buttons=[{'cls': 'ms-ghost', 'href': l['href'], 'label': l['label']} for l in glinks], small='',
+             side_h=U['lists'], side_links=lists, side_note=U['ext'], side_btn=side_btn)
+        E = PAGES['extension'][lang]
+        emit('extension', 'page.html', E['h1'], E['title'], E['lead'], lead=E['lead'], steps=[], notes=[], blocks=E['blocks'],
+             buttons=[{'cls': 'ms-btn', 'href': CHR, 'label': E['chrome']}, {'cls': 'ms-ghost', 'href': FFX, 'label': E['firefox']},
+                      {'cls': 'ms-ghost', 'href': FACTS['links']['source'], 'label': E['source']}],
+             small=E['phone'], side_h=U['all_guides'], side_links=glinks, side_note='', side_btn=None,
+             jsonld=json.dumps({'@context': 'https://schema.org', '@type': 'SoftwareApplication', 'name': 'Pure Spoiler Blocker',
+                                'applicationCategory': 'BrowserApplication', 'operatingSystem': 'Chrome, Firefox',
+                                'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}, 'url': BASE + f'{P}/extension/'}, ensure_ascii=False))
+        for slug in ('about', 'methodology', 'privacy'):
+            X = PAGES[slug][lang]
+            emit(slug, 'page.html', X['h1'], X['title'], X['lead'], lead=X['lead'], steps=[], notes=[],
+                 blocks=[(h, t.replace('{email}', email)) for h, t in X['blocks']], buttons=[], small='',
+                 side_h=PAGES['footer'][lang]['proj'], side_links=[l for l in footer(lang)[2]['links'] if not l['href'].endswith(f'/{slug}/')], side_note='', side_btn=None)
+        Rq = {k: (v.replace('{email}', email) if isinstance(v, str) else v) for k, v in PAGES['request'][lang].items()}
+        emit('request', 'request.html', Rq['h1'], Rq['title'], Rq['lead'], lead=Rq['lead'], steps=[], notes=[], blocks=[], buttons=[], small='',
+             R=Rq, turnstile_key=C.get('turnstile_sitekey', ''), side_h=PAGES['footer'][lang]['proj'],
+             side_links=[l for l in footer(lang)[2]['links'] if not l['href'].endswith('/request/')], side_note='', side_btn=None)
+
+
 def common(lang, page_langs, path_of):
     hl = hub_lang(lang)
     return dict(
@@ -59,6 +125,7 @@ def common(lang, page_langs, path_of):
         footer_langs=[{'code': l, 'label': LABELS.get(l, l), 'href': path_of(l)} for l in page_langs],
         hreflang=[{'code': l, 'href': BASE + path_of(l)} for l in page_langs] if len(page_langs) > 1 else [],
         x_default=BASE + path_of('en'),
+        foot=footer(hl), lang_hub=hl,
         copied=S(lang).get('copied', 'Copied'), og_image=BASE + '/img/og.png', nav_label='Sections', main_class='', jsonld='',
     )
 
@@ -188,7 +255,7 @@ def main():
         for lang in langs:
             s, hl = S(lang), hub_lang(lang)
             name = t['names'].get(lang) or t['names']['en']
-            main_html, info = titlepage.render_main(t, lang, s, titles, lambda o, l: f"{prefix(l)}/{o['media']}/{o['slug']}/")
+            main_html, info = titlepage.render_main(t, lang, s, titles, lambda o, l: f"{prefix(l if l in title_langs(o) else 'en')}/{o['media']}/{o['slug']}/")
             crumbs = {'home': prefix(hl) + '/', 'home_label': C['home'].get(hl, 'Home'),
                       'media': f"{prefix(hl)}/{t['media']}/", 'media_label': C['media'][t['media']].get(hl, C['media'][t['media']]['en'])}
             ctx = common(lang, langs, path_of); ctx['main_class'] = 't-wrap ms-title'
@@ -201,6 +268,7 @@ def main():
             count += 1
 
     hubs(titles, sitemap)
+    service_pages(titles, sitemap)
 
     # sitemap: индекс + файл на язык
     for lang, urls in sitemap.items():
