@@ -22,11 +22,14 @@
   "date": "2026-12-18",
   "status": "confirmed",
   "source": "https://www.wikidata.org/wiki/Q113244839",
-  "platforms": null
+  "platforms": null,
+  "wikidata_date": "2026-12-17",
+  "first_anywhere": "2026-12-17",
+  "note": "date = релиз в США; first_anywhere = самый ранний показ в мире (Wikidata), с него начинается окно спойлеров"
  },
  "season": null,
  "wikidata": "Q113244839",
- "checked": "2026-11-17",
+ "checked": "2026-11-21",
  "published": "2026-11-17",
  "modified": "2026-11-18",
  "words": {

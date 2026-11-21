@@ -22,11 +22,13 @@
   "date": "2026-11-19",
   "status": "confirmed",
   "source": "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/",
-  "platforms": "PS5, Xbox Series X|S"
+  "platforms": "PS5, Xbox Series X|S",
+  "wikidata_date": "2026-05-26",
+  "note": "в Wikidata старая дата до переноса (26.05.2026); верная 19.11.2026 (PS5/Xbox), ПК без даты"
  },
  "season": null,
- "wikidata": null,
- "checked": null,
+ "wikidata": "Q23648408",
+ "checked": "2026-11-21",
  "published": "2026-11-04",
  "modified": "2026-11-18",
  "words": {

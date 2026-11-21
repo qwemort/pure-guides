@@ -20,13 +20,14 @@
  },
  "release": {
   "date": "2026-02-27",
-  "status": "unverified",
-  "source": null,
-  "platforms": null
+  "status": "confirmed",
+  "source": "https://www.wikidata.org/wiki/Q124983920",
+  "platforms": null,
+  "wikidata_date": "2026-02-27"
  },
  "season": null,
- "wikidata": null,
- "checked": null,
+ "wikidata": "Q124983920",
+ "checked": "2026-11-21",
  "published": "2026-11-19",
  "modified": "2026-11-19",
  "words": {

@@ -21,12 +21,15 @@
  "release": {
   "date": "2026-11-20",
   "status": "confirmed",
-  "source": "https://www.tomsguide.com/entertainment/movies/sunrise-on-the-reaping-movie",
-  "platforms": "in cinemas"
+  "source": "https://www.wikidata.org/wiki/Q126390739",
+  "platforms": "in cinemas",
+  "wikidata_date": "2026-10-28",
+  "first_anywhere": "2026-10-28",
+  "note": "date = релиз в США; first_anywhere = самый ранний показ в мире (Wikidata), с него начинается окно спойлеров"
  },
  "season": null,
- "wikidata": null,
- "checked": null,
+ "wikidata": "Q126390739",
+ "checked": "2026-11-21",
  "published": "2026-11-18",
  "modified": "2026-11-18",
  "words": {
