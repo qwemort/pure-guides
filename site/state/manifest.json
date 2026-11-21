@@ -1,0 +1,1313 @@
+{
+"_note": "Отпечаток прошлой сборки для R09/R15. Обновляет site/check.py --write.",
+"pages": {
+"/about/": {
+"h": "e8ad4e5e94cfaccd",
+"m": null
+},
+"/anime/apothecary-diaries-movie/": {
+"h": "ef9c5613f9429b9e",
+"m": "2026-11-18"
+},
+"/anime/attack-on-titan/": {
+"h": "4a336af72ca17362",
+"m": "2026-11-19"
+},
+"/anime/black-clover/": {
+"h": "bb059e21fb5bd589",
+"m": "2026-11-19"
+},
+"/anime/blue-box/": {
+"h": "f073d1f518d4a43e",
+"m": "2026-11-19"
+},
+"/anime/boruto-two-blue-vortex/": {
+"h": "eb6f756790b6188e",
+"m": "2026-11-19"
+},
+"/anime/chainsaw-man/": {
+"h": "4cf4e466325a920e",
+"m": "2026-11-19"
+},
+"/anime/cyberpunk-edgerunners-2/": {
+"h": "ac6f1714650e3277",
+"m": "2026-11-19"
+},
+"/anime/demon-slayer/": {
+"h": "76329f55a768b9b5",
+"m": "2026-11-19"
+},
+"/anime/detective-conan/": {
+"h": "ca396ca30aeee9af",
+"m": "2026-11-19"
+},
+"/anime/dragon-ball/": {
+"h": "6675be3dbdc63df8",
+"m": "2026-11-19"
+},
+"/anime/exiled-heavy-knight/": {
+"h": "af699983771d62a0",
+"m": "2026-11-19"
+},
+"/anime/firefly-wedding/": {
+"h": "767f0b56a66c1f1c",
+"m": "2026-11-19"
+},
+"/anime/frieren/": {
+"h": "417e0cb6cc129022",
+"m": "2026-11-19"
+},
+"/anime/golden-kamuy/": {
+"h": "8c883bf8a180878f",
+"m": "2026-11-19"
+},
+"/anime/gundam-seed-freedom-zero/": {
+"h": "ee9103c849966161",
+"m": "2026-11-19"
+},
+"/anime/": {
+"h": "62934f9d03381b94",
+"m": null
+},
+"/anime/jojo-steel-ball-run/": {
+"h": "534b6930de360346",
+"m": "2026-11-19"
+},
+"/anime/jujutsu-kaisen/": {
+"h": "108508da3933cdeb",
+"m": "2026-11-19"
+},
+"/anime/kaiju-no-8/": {
+"h": "eab150b54dee47e2",
+"m": "2026-11-19"
+},
+"/anime/mashle/": {
+"h": "c1849a09f588b442",
+"m": "2026-11-19"
+},
+"/anime/one-piece/": {
+"h": "551d759cb1d0c8da",
+"m": "2026-11-19"
+},
+"/anime/one-punch-man/": {
+"h": "90c74e12cb53c103",
+"m": "2026-11-19"
+},
+"/anime/overgeared/": {
+"h": "c3eee9db54a47886",
+"m": "2026-11-19"
+},
+"/anime/reincarnated-as-a-sword/": {
+"h": "9b325e6e83f16e4d",
+"m": "2026-11-19"
+},
+"/anime/sakamoto-days/": {
+"h": "5381f9f63406e4bb",
+"m": "2026-11-19"
+},
+"/anime/sekiro-no-defeat/": {
+"h": "222fb83159248987",
+"m": "2026-11-19"
+},
+"/anime/shangri-la-frontier/": {
+"h": "98410375aa7a9594",
+"m": "2026-11-19"
+},
+"/anime/solo-leveling/": {
+"h": "5b2f110c27c7564d",
+"m": "2026-11-19"
+},
+"/anime/tokyo-revengers/": {
+"h": "ebe71420ace5f71c",
+"m": "2026-11-19"
+},
+"/calendar/": {
+"h": "e6ce5f9745d2f2fb",
+"m": null
+},
+"/de/games/gta-6/": {
+"h": "56b825aee8a6a05a",
+"m": "2026-11-18"
+},
+"/es/games/gta-6/": {
+"h": "a7d2b12525d58a61",
+"m": "2026-11-18"
+},
+"/extension/": {
+"h": "3079f6a04c4fb949",
+"m": null
+},
+"/fr/games/gta-6/": {
+"h": "0d2c8056f62d928b",
+"m": "2026-11-18"
+},
+"/games/gears-of-war-e-day/": {
+"h": "c2b44a5de2f509ad",
+"m": "2026-11-19"
+},
+"/games/ghost-of-yotei/": {
+"h": "891217702ae9de1b",
+"m": "2026-11-19"
+},
+"/games/gta-6/": {
+"h": "0a8946238262a959",
+"m": "2026-11-18"
+},
+"/games/": {
+"h": "bc6d974f79804edc",
+"m": null
+},
+"/games/marvels-wolverine/": {
+"h": "a66e8067576730a1",
+"m": "2026-11-19"
+},
+"/games/metaphor-refantazio/": {
+"h": "bfaa225936be9532",
+"m": "2026-11-19"
+},
+"/games/professor-layton-new-world-of-steam/": {
+"h": "e40215e8a9f95ebc",
+"m": "2026-11-18"
+},
+"/games/resident-evil-requiem/": {
+"h": "f159d746707d8256",
+"m": "2026-11-19"
+},
+"/games/xenoblade-chronicles-3/": {
+"h": "9cbd9b5476687b6b",
+"m": "2026-11-19"
+},
+"/games/zelda-ocarina-of-time-remake/": {
+"h": "e04db4fb7ce2f309",
+"m": "2026-11-19"
+},
+"/guides/bluesky/": {
+"h": "6cf4e27c1e0db15e",
+"m": null
+},
+"/guides/": {
+"h": "af2c5117736f0ef7",
+"m": null
+},
+"/guides/instagram/": {
+"h": "f95814a496972692",
+"m": null
+},
+"/guides/threads/": {
+"h": "9ca041fd19dd93b1",
+"m": null
+},
+"/guides/tiktok/": {
+"h": "8e65ad7030b1e6d1",
+"m": null
+},
+"/guides/x/": {
+"h": "eda8c0cc1a073161",
+"m": null
+},
+"/guides/youtube/": {
+"h": "25e5cbfe8a86020e",
+"m": null
+},
+"/": {
+"h": "4005a1766106b381",
+"m": null
+},
+"/it/games/gta-6/": {
+"h": "f5c899907fc29169",
+"m": "2026-11-18"
+},
+"/ja/games/gta-6/": {
+"h": "7ba6f46a6dfbfd2b",
+"m": "2026-11-18"
+},
+"/methodology/": {
+"h": "55096136c1b5618e",
+"m": null
+},
+"/movies/avengers-doomsday/": {
+"h": "1a1b451185d7eb0e",
+"m": "2026-11-18"
+},
+"/movies/dune-part-three/": {
+"h": "f123b0ed947d6745",
+"m": "2026-11-18"
+},
+"/movies/godzilla-minus-zero/": {
+"h": "5dff34078e598313",
+"m": "2026-11-18"
+},
+"/movies/hunger-games-sunrise-on-the-reaping/": {
+"h": "a0b505969f863df0",
+"m": "2026-11-18"
+},
+"/movies/": {
+"h": "013c28031ba8efc4",
+"m": null
+},
+"/movies/spider-man-brand-new-day/": {
+"h": "021d1c8f0e78df1e",
+"m": "2026-11-19"
+},
+"/out-now/": {
+"h": "f8659c747ac9a552",
+"m": null
+},
+"/pl/about/": {
+"h": "519569aeb61a1c6f",
+"m": null
+},
+"/pl/anime/apothecary-diaries-movie/": {
+"h": "8eb6d33460cb92d2",
+"m": "2026-11-18"
+},
+"/pl/anime/attack-on-titan/": {
+"h": "843ce580892d9ccc",
+"m": "2026-11-19"
+},
+"/pl/anime/black-clover/": {
+"h": "5b3fd8b81c566ae3",
+"m": "2026-11-19"
+},
+"/pl/anime/blue-box/": {
+"h": "123a804c4a1bf0a1",
+"m": "2026-11-19"
+},
+"/pl/anime/boruto-two-blue-vortex/": {
+"h": "4ced62e45a906d5c",
+"m": "2026-11-19"
+},
+"/pl/anime/chainsaw-man/": {
+"h": "568fbad2d9a3d221",
+"m": "2026-11-19"
+},
+"/pl/anime/cyberpunk-edgerunners-2/": {
+"h": "818039b77cb5c760",
+"m": "2026-11-19"
+},
+"/pl/anime/demon-slayer/": {
+"h": "daad6ed45f146861",
+"m": "2026-11-19"
+},
+"/pl/anime/detective-conan/": {
+"h": "b5c1157adc652bae",
+"m": "2026-11-19"
+},
+"/pl/anime/dragon-ball/": {
+"h": "4e77ea9f17f851eb",
+"m": "2026-11-19"
+},
+"/pl/anime/exiled-heavy-knight/": {
+"h": "f7bef7a376459c62",
+"m": "2026-11-19"
+},
+"/pl/anime/firefly-wedding/": {
+"h": "7e38c86a7a2639ef",
+"m": "2026-11-19"
+},
+"/pl/anime/frieren/": {
+"h": "dcc7276927364df0",
+"m": "2026-11-19"
+},
+"/pl/anime/golden-kamuy/": {
+"h": "5b91a7b488662c1a",
+"m": "2026-11-19"
+},
+"/pl/anime/gundam-seed-freedom-zero/": {
+"h": "858c73bfdf303180",
+"m": "2026-11-19"
+},
+"/pl/anime/": {
+"h": "36e791a83e6bbd99",
+"m": null
+},
+"/pl/anime/jojo-steel-ball-run/": {
+"h": "37c1fb2724856b79",
+"m": "2026-11-19"
+},
+"/pl/anime/jujutsu-kaisen/": {
+"h": "b3f885251d4448ec",
+"m": "2026-11-19"
+},
+"/pl/anime/kaiju-no-8/": {
+"h": "8ddcbfdc0749dfdc",
+"m": "2026-11-19"
+},
+"/pl/anime/mashle/": {
+"h": "c1fc773daa46efee",
+"m": "2026-11-19"
+},
+"/pl/anime/one-piece/": {
+"h": "4a6dbc06c52517be",
+"m": "2026-11-19"
+},
+"/pl/anime/one-punch-man/": {
+"h": "9fabd4afe23c6283",
+"m": "2026-11-19"
+},
+"/pl/anime/overgeared/": {
+"h": "f3b1eb2a7b17d993",
+"m": "2026-11-19"
+},
+"/pl/anime/reincarnated-as-a-sword/": {
+"h": "76085305d7459f86",
+"m": "2026-11-19"
+},
+"/pl/anime/sakamoto-days/": {
+"h": "1bcb2d813ee89de6",
+"m": "2026-11-19"
+},
+"/pl/anime/sekiro-no-defeat/": {
+"h": "63372169412548ad",
+"m": "2026-11-19"
+},
+"/pl/anime/shangri-la-frontier/": {
+"h": "efea7f11b1f26732",
+"m": "2026-11-19"
+},
+"/pl/anime/solo-leveling/": {
+"h": "6496e348bbc81925",
+"m": "2026-11-19"
+},
+"/pl/anime/tokyo-revengers/": {
+"h": "2e50e7d6f4b5bbce",
+"m": "2026-11-19"
+},
+"/pl/calendar/": {
+"h": "9eb129d44faf9e1d",
+"m": null
+},
+"/pl/extension/": {
+"h": "9b9234c33933120d",
+"m": null
+},
+"/pl/games/gears-of-war-e-day/": {
+"h": "dd98e3e40c4201aa",
+"m": "2026-11-19"
+},
+"/pl/games/ghost-of-yotei/": {
+"h": "d9a120797e9ab8d1",
+"m": "2026-11-19"
+},
+"/pl/games/gta-6/": {
+"h": "3da7ccbcee3dc250",
+"m": "2026-11-18"
+},
+"/pl/games/": {
+"h": "9e7292d270306212",
+"m": null
+},
+"/pl/games/marvels-wolverine/": {
+"h": "7f53b12c43216980",
+"m": "2026-11-19"
+},
+"/pl/games/metaphor-refantazio/": {
+"h": "00ee9ff8c88df5f3",
+"m": "2026-11-19"
+},
+"/pl/games/professor-layton-new-world-of-steam/": {
+"h": "20e670f5512ed252",
+"m": "2026-11-18"
+},
+"/pl/games/resident-evil-requiem/": {
+"h": "07964115e31ce75e",
+"m": "2026-11-19"
+},
+"/pl/games/xenoblade-chronicles-3/": {
+"h": "ab85ac935bafd9aa",
+"m": "2026-11-19"
+},
+"/pl/games/zelda-ocarina-of-time-remake/": {
+"h": "88617018a5d06294",
+"m": "2026-11-19"
+},
+"/pl/guides/bluesky/": {
+"h": "b225ecb36b42dd3c",
+"m": null
+},
+"/pl/guides/": {
+"h": "6681ba46e68043c7",
+"m": null
+},
+"/pl/guides/instagram/": {
+"h": "d3b1de28dadaf046",
+"m": null
+},
+"/pl/guides/threads/": {
+"h": "20cdc5cd59ef4f31",
+"m": null
+},
+"/pl/guides/tiktok/": {
+"h": "9d9a6a105503842f",
+"m": null
+},
+"/pl/guides/x/": {
+"h": "04646e2fd06921a5",
+"m": null
+},
+"/pl/guides/youtube/": {
+"h": "b817ee09305bf52b",
+"m": null
+},
+"/pl/": {
+"h": "d026dfe1ce407343",
+"m": null
+},
+"/pl/methodology/": {
+"h": "b3c7b8a5d53b57ca",
+"m": null
+},
+"/pl/movies/avengers-doomsday/": {
+"h": "c4249ffb5aa7a9d1",
+"m": "2026-11-18"
+},
+"/pl/movies/dune-part-three/": {
+"h": "a80d18381cc6952e",
+"m": "2026-11-18"
+},
+"/pl/movies/godzilla-minus-zero/": {
+"h": "1e2b4f7c5324dd0c",
+"m": "2026-11-18"
+},
+"/pl/movies/hunger-games-sunrise-on-the-reaping/": {
+"h": "1bfe306d382db0e0",
+"m": "2026-11-18"
+},
+"/pl/movies/": {
+"h": "8ff1158786fdceb8",
+"m": null
+},
+"/pl/movies/spider-man-brand-new-day/": {
+"h": "29fb5bb8baa72fe1",
+"m": "2026-11-19"
+},
+"/pl/out-now/": {
+"h": "e43651dc4ab5b4e7",
+"m": null
+},
+"/pl/privacy/": {
+"h": "7c4bcff21efbdea6",
+"m": null
+},
+"/pl/request/": {
+"h": "314f4006f9a31c13",
+"m": null
+},
+"/pl/tv/bad-monkey/": {
+"h": "0def6a7df7580cc4",
+"m": "2026-11-19"
+},
+"/pl/tv/black-doves/": {
+"h": "60fd4bbb4a5a1198",
+"m": "2026-11-19"
+},
+"/pl/tv/blade-runner-2099/": {
+"h": "f07ef6927d422309",
+"m": "2026-11-18"
+},
+"/pl/tv/dune-prophecy/": {
+"h": "3fa4a36fe51784dc",
+"m": "2026-11-19"
+},
+"/pl/tv/harry-potter-hbo-series/": {
+"h": "d091fc73efb32366",
+"m": "2026-11-18"
+},
+"/pl/tv/house-of-the-dragon/": {
+"h": "906d96d990f0ec0a",
+"m": "2026-11-19"
+},
+"/pl/tv/": {
+"h": "012f2dc4d1092b9f",
+"m": null
+},
+"/pl/tv/only-murders-in-the-building/": {
+"h": "593d47b6221ce609",
+"m": "2026-11-19"
+},
+"/pl/tv/percy-jackson/": {
+"h": "d97eef4032504cf0",
+"m": "2026-11-19"
+},
+"/pl/tv/pride-and-prejudice-netflix/": {
+"h": "3cfffd2e8285dd74",
+"m": "2026-11-19"
+},
+"/pl/tv/rings-of-power/": {
+"h": "28a6c4fb58a19ca3",
+"m": "2026-11-19"
+},
+"/pl/tv/severance/": {
+"h": "ce5eadecc72c3851",
+"m": "2026-11-19"
+},
+"/pl/tv/the-boys/": {
+"h": "decdf5c6f2609f80",
+"m": "2026-11-19"
+},
+"/pl/tv/the-chosen/": {
+"h": "e4df427d9670a786",
+"m": "2026-11-19"
+},
+"/pl/tv/the-gilded-age/": {
+"h": "625c2e5c0f3fa17b",
+"m": "2026-11-19"
+},
+"/pl/tv/the-hunting-wives/": {
+"h": "e6e1aa5623ad57bf",
+"m": "2026-11-19"
+},
+"/pl/tv/the-institute/": {
+"h": "777d9622a55cb2f1",
+"m": "2026-11-19"
+},
+"/pl/tv/the-last-of-us/": {
+"h": "84f9224caab3201b",
+"m": "2026-11-19"
+},
+"/pl/tv/yellowjackets/": {
+"h": "9ca6f803bd6f11cb",
+"m": "2026-11-19"
+},
+"/pl/upcoming/": {
+"h": "50d182a823fb4ee6",
+"m": null
+},
+"/privacy/": {
+"h": "214beda5ed811926",
+"m": null
+},
+"/pt-br/about/": {
+"h": "cab135a0e0432eb7",
+"m": null
+},
+"/pt-br/anime/apothecary-diaries-movie/": {
+"h": "0c8b65218460e53f",
+"m": "2026-11-18"
+},
+"/pt-br/anime/attack-on-titan/": {
+"h": "817f0bf6224a7303",
+"m": "2026-11-19"
+},
+"/pt-br/anime/black-clover/": {
+"h": "4f270a9c714587ba",
+"m": "2026-11-19"
+},
+"/pt-br/anime/blue-box/": {
+"h": "d50c251b6b0d1ae3",
+"m": "2026-11-19"
+},
+"/pt-br/anime/boruto-two-blue-vortex/": {
+"h": "e15526729c5ac395",
+"m": "2026-11-19"
+},
+"/pt-br/anime/chainsaw-man/": {
+"h": "91cdfafa626b8983",
+"m": "2026-11-19"
+},
+"/pt-br/anime/cyberpunk-edgerunners-2/": {
+"h": "1ec360d6bcc7937b",
+"m": "2026-11-19"
+},
+"/pt-br/anime/demon-slayer/": {
+"h": "3439f0fd974d9316",
+"m": "2026-11-19"
+},
+"/pt-br/anime/detective-conan/": {
+"h": "aebc28530ee4bb21",
+"m": "2026-11-19"
+},
+"/pt-br/anime/dragon-ball/": {
+"h": "3a41d0fc86c6fea3",
+"m": "2026-11-19"
+},
+"/pt-br/anime/exiled-heavy-knight/": {
+"h": "fd310fb971afba5e",
+"m": "2026-11-19"
+},
+"/pt-br/anime/firefly-wedding/": {
+"h": "64d1b0f035fc7d45",
+"m": "2026-11-19"
+},
+"/pt-br/anime/frieren/": {
+"h": "afa4aabb2fed33b1",
+"m": "2026-11-19"
+},
+"/pt-br/anime/golden-kamuy/": {
+"h": "2e437b826ae42e42",
+"m": "2026-11-19"
+},
+"/pt-br/anime/gundam-seed-freedom-zero/": {
+"h": "4183ab48d22af1bc",
+"m": "2026-11-19"
+},
+"/pt-br/anime/": {
+"h": "22f2bab28326c3ad",
+"m": null
+},
+"/pt-br/anime/jojo-steel-ball-run/": {
+"h": "5576843064a70e6f",
+"m": "2026-11-19"
+},
+"/pt-br/anime/jujutsu-kaisen/": {
+"h": "2283a9df897d8d1f",
+"m": "2026-11-19"
+},
+"/pt-br/anime/kaiju-no-8/": {
+"h": "dbda7f64ea9a8df0",
+"m": "2026-11-19"
+},
+"/pt-br/anime/mashle/": {
+"h": "1b2595d6d951ad65",
+"m": "2026-11-19"
+},
+"/pt-br/anime/one-piece/": {
+"h": "871c068984a2e799",
+"m": "2026-11-19"
+},
+"/pt-br/anime/one-punch-man/": {
+"h": "353f60e9b0d4eb29",
+"m": "2026-11-19"
+},
+"/pt-br/anime/overgeared/": {
+"h": "8955ebbc5986ec7c",
+"m": "2026-11-19"
+},
+"/pt-br/anime/reincarnated-as-a-sword/": {
+"h": "6b135b2c37e0a273",
+"m": "2026-11-19"
+},
+"/pt-br/anime/sakamoto-days/": {
+"h": "d6ffd0d7acfc6f07",
+"m": "2026-11-19"
+},
+"/pt-br/anime/sekiro-no-defeat/": {
+"h": "ae8ce5a48552adac",
+"m": "2026-11-19"
+},
+"/pt-br/anime/shangri-la-frontier/": {
+"h": "e6f1a493fc5364ef",
+"m": "2026-11-19"
+},
+"/pt-br/anime/solo-leveling/": {
+"h": "b066345842483288",
+"m": "2026-11-19"
+},
+"/pt-br/anime/tokyo-revengers/": {
+"h": "a6ced4449c5ae4b9",
+"m": "2026-11-19"
+},
+"/pt-br/calendar/": {
+"h": "0f05088c3e0d71b4",
+"m": null
+},
+"/pt-br/extension/": {
+"h": "8df12f016e77b04e",
+"m": null
+},
+"/pt-br/games/gears-of-war-e-day/": {
+"h": "6dc7b17b8fb254df",
+"m": "2026-11-19"
+},
+"/pt-br/games/ghost-of-yotei/": {
+"h": "c777fc8c1dcb2dd9",
+"m": "2026-11-19"
+},
+"/pt-br/games/gta-6/": {
+"h": "622dc5893f66f647",
+"m": "2026-11-18"
+},
+"/pt-br/games/": {
+"h": "c086bc0aca920822",
+"m": null
+},
+"/pt-br/games/marvels-wolverine/": {
+"h": "b06033433567b01d",
+"m": "2026-11-19"
+},
+"/pt-br/games/metaphor-refantazio/": {
+"h": "6230f6179021fdcf",
+"m": "2026-11-19"
+},
+"/pt-br/games/professor-layton-new-world-of-steam/": {
+"h": "0b46e756ed76ae01",
+"m": "2026-11-18"
+},
+"/pt-br/games/resident-evil-requiem/": {
+"h": "08a73d96d5b1894b",
+"m": "2026-11-19"
+},
+"/pt-br/games/xenoblade-chronicles-3/": {
+"h": "d1712012cb47e8f9",
+"m": "2026-11-19"
+},
+"/pt-br/games/zelda-ocarina-of-time-remake/": {
+"h": "fabb0a70c2bba46a",
+"m": "2026-11-19"
+},
+"/pt-br/guides/bluesky/": {
+"h": "8c128e01fa9481e9",
+"m": null
+},
+"/pt-br/guides/": {
+"h": "bf36fce7e3ffb2f4",
+"m": null
+},
+"/pt-br/guides/instagram/": {
+"h": "83d459e790a94c86",
+"m": null
+},
+"/pt-br/guides/threads/": {
+"h": "afdd7ab4b71e39bf",
+"m": null
+},
+"/pt-br/guides/tiktok/": {
+"h": "b5461ebcd791b482",
+"m": null
+},
+"/pt-br/guides/x/": {
+"h": "c3d52b7ef885551a",
+"m": null
+},
+"/pt-br/guides/youtube/": {
+"h": "4731b69d1eaf50a5",
+"m": null
+},
+"/pt-br/": {
+"h": "1eefeb6a509ac73c",
+"m": null
+},
+"/pt-br/methodology/": {
+"h": "35f152d11e0b2d88",
+"m": null
+},
+"/pt-br/movies/avengers-doomsday/": {
+"h": "ab74eb72acb4fbd5",
+"m": "2026-11-18"
+},
+"/pt-br/movies/dune-part-three/": {
+"h": "bdbbd4317209f8ab",
+"m": "2026-11-18"
+},
+"/pt-br/movies/godzilla-minus-zero/": {
+"h": "f69c565a2665a17f",
+"m": "2026-11-18"
+},
+"/pt-br/movies/hunger-games-sunrise-on-the-reaping/": {
+"h": "39dc75044cededab",
+"m": "2026-11-18"
+},
+"/pt-br/movies/": {
+"h": "540dcfd3f2f5bbf5",
+"m": null
+},
+"/pt-br/movies/spider-man-brand-new-day/": {
+"h": "16dcaeef18404c07",
+"m": "2026-11-19"
+},
+"/pt-br/out-now/": {
+"h": "71571f06ab724cf7",
+"m": null
+},
+"/pt-br/privacy/": {
+"h": "bb16a66708eae686",
+"m": null
+},
+"/pt-br/request/": {
+"h": "d88dc0019ac0d935",
+"m": null
+},
+"/pt-br/tv/bad-monkey/": {
+"h": "1770ea692ad7ab95",
+"m": "2026-11-19"
+},
+"/pt-br/tv/black-doves/": {
+"h": "3a41506d4fdd5dfd",
+"m": "2026-11-19"
+},
+"/pt-br/tv/blade-runner-2099/": {
+"h": "177df609b2a595a7",
+"m": "2026-11-18"
+},
+"/pt-br/tv/dune-prophecy/": {
+"h": "c0bc624397a0b865",
+"m": "2026-11-19"
+},
+"/pt-br/tv/harry-potter-hbo-series/": {
+"h": "6d346fd555e1aa7c",
+"m": "2026-11-18"
+},
+"/pt-br/tv/house-of-the-dragon/": {
+"h": "4cb329355ac8990e",
+"m": "2026-11-19"
+},
+"/pt-br/tv/": {
+"h": "ef9cc5fb2b13494a",
+"m": null
+},
+"/pt-br/tv/only-murders-in-the-building/": {
+"h": "16db29a72ba40595",
+"m": "2026-11-19"
+},
+"/pt-br/tv/percy-jackson/": {
+"h": "f0598029465b6586",
+"m": "2026-11-19"
+},
+"/pt-br/tv/pride-and-prejudice-netflix/": {
+"h": "124f96514167502a",
+"m": "2026-11-19"
+},
+"/pt-br/tv/rings-of-power/": {
+"h": "b4c39601df50749d",
+"m": "2026-11-19"
+},
+"/pt-br/tv/severance/": {
+"h": "136ec695d5277be8",
+"m": "2026-11-19"
+},
+"/pt-br/tv/the-boys/": {
+"h": "38aaecd295b06989",
+"m": "2026-11-19"
+},
+"/pt-br/tv/the-chosen/": {
+"h": "a8561b619fb9de65",
+"m": "2026-11-19"
+},
+"/pt-br/tv/the-gilded-age/": {
+"h": "f483c4070ff92de6",
+"m": "2026-11-19"
+},
+"/pt-br/tv/the-hunting-wives/": {
+"h": "ebf5924408a7c514",
+"m": "2026-11-19"
+},
+"/pt-br/tv/the-institute/": {
+"h": "b5edbade6e1843fd",
+"m": "2026-11-19"
+},
+"/pt-br/tv/the-last-of-us/": {
+"h": "b84156c889143c3d",
+"m": "2026-11-19"
+},
+"/pt-br/tv/yellowjackets/": {
+"h": "c8b8472fb4d71e9d",
+"m": "2026-11-19"
+},
+"/pt-br/upcoming/": {
+"h": "4767e34a4c61a02f",
+"m": null
+},
+"/request/": {
+"h": "e969d25c83de69c5",
+"m": null
+},
+"/ru/about/": {
+"h": "7030e6193e05339a",
+"m": null
+},
+"/ru/anime/apothecary-diaries-movie/": {
+"h": "31ba13478512b60c",
+"m": "2026-11-18"
+},
+"/ru/anime/attack-on-titan/": {
+"h": "c113f053012c956b",
+"m": "2026-11-19"
+},
+"/ru/anime/black-clover/": {
+"h": "3e422778f822ca33",
+"m": "2026-11-19"
+},
+"/ru/anime/blue-box/": {
+"h": "7d23cb260c30e7af",
+"m": "2026-11-19"
+},
+"/ru/anime/boruto-two-blue-vortex/": {
+"h": "2fa74055343f822a",
+"m": "2026-11-19"
+},
+"/ru/anime/chainsaw-man/": {
+"h": "913adf1117621144",
+"m": "2026-11-19"
+},
+"/ru/anime/cyberpunk-edgerunners-2/": {
+"h": "c21e29fcd374dcf5",
+"m": "2026-11-19"
+},
+"/ru/anime/demon-slayer/": {
+"h": "49e6a6c59551c28c",
+"m": "2026-11-19"
+},
+"/ru/anime/detective-conan/": {
+"h": "2343eeed90a4bedc",
+"m": "2026-11-19"
+},
+"/ru/anime/dragon-ball/": {
+"h": "d57aae590ef0de92",
+"m": "2026-11-19"
+},
+"/ru/anime/exiled-heavy-knight/": {
+"h": "a038bdf16b8aaccb",
+"m": "2026-11-19"
+},
+"/ru/anime/firefly-wedding/": {
+"h": "6b7280944cb61b20",
+"m": "2026-11-19"
+},
+"/ru/anime/frieren/": {
+"h": "f55d1685a3fc38ca",
+"m": "2026-11-19"
+},
+"/ru/anime/golden-kamuy/": {
+"h": "50b1bbc30763bfb1",
+"m": "2026-11-19"
+},
+"/ru/anime/gundam-seed-freedom-zero/": {
+"h": "f881b7e81b49c754",
+"m": "2026-11-19"
+},
+"/ru/anime/": {
+"h": "1eecfa208af3bb73",
+"m": null
+},
+"/ru/anime/jojo-steel-ball-run/": {
+"h": "ebf7a55b8ba2e5a6",
+"m": "2026-11-19"
+},
+"/ru/anime/jujutsu-kaisen/": {
+"h": "c25dc94568a1aede",
+"m": "2026-11-19"
+},
+"/ru/anime/kaiju-no-8/": {
+"h": "6001e6d23c471c46",
+"m": "2026-11-19"
+},
+"/ru/anime/mashle/": {
+"h": "c5c7992477f02797",
+"m": "2026-11-19"
+},
+"/ru/anime/one-piece/": {
+"h": "76117d0847bb5c96",
+"m": "2026-11-19"
+},
+"/ru/anime/one-punch-man/": {
+"h": "8220adc219fbe9a4",
+"m": "2026-11-19"
+},
+"/ru/anime/overgeared/": {
+"h": "d2c936f323b2ebdd",
+"m": "2026-11-19"
+},
+"/ru/anime/reincarnated-as-a-sword/": {
+"h": "5dc9e69d7e1e3bf1",
+"m": "2026-11-19"
+},
+"/ru/anime/sakamoto-days/": {
+"h": "6348cd79e1c158b7",
+"m": "2026-11-19"
+},
+"/ru/anime/sekiro-no-defeat/": {
+"h": "2f8c3795cae735e3",
+"m": "2026-11-19"
+},
+"/ru/anime/shangri-la-frontier/": {
+"h": "d103a46819ae3dd6",
+"m": "2026-11-19"
+},
+"/ru/anime/solo-leveling/": {
+"h": "c01a1888b288db0b",
+"m": "2026-11-19"
+},
+"/ru/anime/tokyo-revengers/": {
+"h": "c35418fce3f9ac92",
+"m": "2026-11-19"
+},
+"/ru/calendar/": {
+"h": "df451d808467cec7",
+"m": null
+},
+"/ru/extension/": {
+"h": "f6191eede0c7c2ef",
+"m": null
+},
+"/ru/games/gears-of-war-e-day/": {
+"h": "7b783bbd227b931b",
+"m": "2026-11-19"
+},
+"/ru/games/ghost-of-yotei/": {
+"h": "afff0550a8a7dbb2",
+"m": "2026-11-19"
+},
+"/ru/games/gta-6/": {
+"h": "6fc026aac0b27ed5",
+"m": "2026-11-18"
+},
+"/ru/games/": {
+"h": "9e7b4d73b83a8458",
+"m": null
+},
+"/ru/games/marvels-wolverine/": {
+"h": "298339c5df717a3e",
+"m": "2026-11-19"
+},
+"/ru/games/metaphor-refantazio/": {
+"h": "b8a9edf1721bb9a5",
+"m": "2026-11-19"
+},
+"/ru/games/professor-layton-new-world-of-steam/": {
+"h": "abc032768423becc",
+"m": "2026-11-18"
+},
+"/ru/games/resident-evil-requiem/": {
+"h": "689a74222d74c859",
+"m": "2026-11-19"
+},
+"/ru/games/xenoblade-chronicles-3/": {
+"h": "2920e231a6364d8c",
+"m": "2026-11-19"
+},
+"/ru/games/zelda-ocarina-of-time-remake/": {
+"h": "08d9189440a2ffce",
+"m": "2026-11-19"
+},
+"/ru/guides/bluesky/": {
+"h": "bfa99c7664780659",
+"m": null
+},
+"/ru/guides/": {
+"h": "1ef8736df909841f",
+"m": null
+},
+"/ru/guides/instagram/": {
+"h": "2899ff27354ba232",
+"m": null
+},
+"/ru/guides/threads/": {
+"h": "60e4bf52ab7fd142",
+"m": null
+},
+"/ru/guides/tiktok/": {
+"h": "f8f9d25fc55095d5",
+"m": null
+},
+"/ru/guides/x/": {
+"h": "6b23572ed406cfec",
+"m": null
+},
+"/ru/guides/youtube/": {
+"h": "81ef068f8a5be532",
+"m": null
+},
+"/ru/": {
+"h": "002552f53b2b639b",
+"m": null
+},
+"/ru/methodology/": {
+"h": "27547863405f7de8",
+"m": null
+},
+"/ru/movies/avengers-doomsday/": {
+"h": "f421814bd32df454",
+"m": "2026-11-18"
+},
+"/ru/movies/dune-part-three/": {
+"h": "7865733b4a0a8fe6",
+"m": "2026-11-18"
+},
+"/ru/movies/godzilla-minus-zero/": {
+"h": "a6a63578daad0344",
+"m": "2026-11-18"
+},
+"/ru/movies/hunger-games-sunrise-on-the-reaping/": {
+"h": "94b513ee88970a8c",
+"m": "2026-11-18"
+},
+"/ru/movies/": {
+"h": "d6d7e08209f31b9c",
+"m": null
+},
+"/ru/movies/spider-man-brand-new-day/": {
+"h": "2458f6c4699b0ac4",
+"m": "2026-11-19"
+},
+"/ru/out-now/": {
+"h": "d068965fc832d832",
+"m": null
+},
+"/ru/privacy/": {
+"h": "94c2a1e0757d0211",
+"m": null
+},
+"/ru/request/": {
+"h": "91a5ec13a68a3656",
+"m": null
+},
+"/ru/tv/bad-monkey/": {
+"h": "00bfd719833186ee",
+"m": "2026-11-19"
+},
+"/ru/tv/black-doves/": {
+"h": "927a57e5893055a8",
+"m": "2026-11-19"
+},
+"/ru/tv/blade-runner-2099/": {
+"h": "ee66c8b1705eb90a",
+"m": "2026-11-18"
+},
+"/ru/tv/dune-prophecy/": {
+"h": "ac05361eb4b43b1c",
+"m": "2026-11-19"
+},
+"/ru/tv/harry-potter-hbo-series/": {
+"h": "b17f81e0d7dc1980",
+"m": "2026-11-18"
+},
+"/ru/tv/house-of-the-dragon/": {
+"h": "c2a20ec993b3bba4",
+"m": "2026-11-19"
+},
+"/ru/tv/": {
+"h": "7c984ce814abd84b",
+"m": null
+},
+"/ru/tv/only-murders-in-the-building/": {
+"h": "5d1ed9c65b3b19eb",
+"m": "2026-11-19"
+},
+"/ru/tv/percy-jackson/": {
+"h": "6d018a3a5afa882c",
+"m": "2026-11-19"
+},
+"/ru/tv/pride-and-prejudice-netflix/": {
+"h": "7f2dd796fadf4faa",
+"m": "2026-11-19"
+},
+"/ru/tv/rings-of-power/": {
+"h": "d6cac07414421b6b",
+"m": "2026-11-19"
+},
+"/ru/tv/severance/": {
+"h": "e774a0654e2b71a1",
+"m": "2026-11-19"
+},
+"/ru/tv/the-boys/": {
+"h": "a0ef5afeccd330ef",
+"m": "2026-11-19"
+},
+"/ru/tv/the-chosen/": {
+"h": "d0a2eebca4c46bbe",
+"m": "2026-11-19"
+},
+"/ru/tv/the-gilded-age/": {
+"h": "ee7097e213249a5a",
+"m": "2026-11-19"
+},
+"/ru/tv/the-hunting-wives/": {
+"h": "e322b4316ad6b40e",
+"m": "2026-11-19"
+},
+"/ru/tv/the-institute/": {
+"h": "1bfceca46e2e9ddc",
+"m": "2026-11-19"
+},
+"/ru/tv/the-last-of-us/": {
+"h": "0c41e0391df2e558",
+"m": "2026-11-19"
+},
+"/ru/tv/yellowjackets/": {
+"h": "1423fc82e01107be",
+"m": "2026-11-19"
+},
+"/ru/upcoming/": {
+"h": "8c2a2957e66a912c",
+"m": null
+},
+"/tr/games/gta-6/": {
+"h": "5da25a776a68031a",
+"m": "2026-11-18"
+},
+"/tv/bad-monkey/": {
+"h": "8487de21ddf65874",
+"m": "2026-11-19"
+},
+"/tv/black-doves/": {
+"h": "70551b8c3e227a9d",
+"m": "2026-11-19"
+},
+"/tv/blade-runner-2099/": {
+"h": "dd9bd9395951377c",
+"m": "2026-11-18"
+},
+"/tv/dune-prophecy/": {
+"h": "9c0c8383b7c5e75e",
+"m": "2026-11-19"
+},
+"/tv/harry-potter-hbo-series/": {
+"h": "2ed782a6441a9c07",
+"m": "2026-11-18"
+},
+"/tv/house-of-the-dragon/": {
+"h": "24035449e175930f",
+"m": "2026-11-19"
+},
+"/tv/": {
+"h": "880183659dd117fa",
+"m": null
+},
+"/tv/only-murders-in-the-building/": {
+"h": "85de435637a3322b",
+"m": "2026-11-19"
+},
+"/tv/percy-jackson/": {
+"h": "1dc9c81afd96ee26",
+"m": "2026-11-19"
+},
+"/tv/pride-and-prejudice-netflix/": {
+"h": "49f18b33e4a52d89",
+"m": "2026-11-19"
+},
+"/tv/rings-of-power/": {
+"h": "94b91eb168be95b4",
+"m": "2026-11-19"
+},
+"/tv/severance/": {
+"h": "71d120ee1b9bc10d",
+"m": "2026-11-19"
+},
+"/tv/the-boys/": {
+"h": "1c0da903e0002e9b",
+"m": "2026-11-19"
+},
+"/tv/the-chosen/": {
+"h": "2750025c850030f1",
+"m": "2026-11-19"
+},
+"/tv/the-gilded-age/": {
+"h": "95223f8867ae2766",
+"m": "2026-11-19"
+},
+"/tv/the-hunting-wives/": {
+"h": "96a1012b21be5258",
+"m": "2026-11-19"
+},
+"/tv/the-institute/": {
+"h": "6f3bc74ed6d6589f",
+"m": "2026-11-19"
+},
+"/tv/the-last-of-us/": {
+"h": "d882e8d2da88f82b",
+"m": "2026-11-19"
+},
+"/tv/yellowjackets/": {
+"h": "0fb853fb428c1485",
+"m": "2026-11-19"
+},
+"/uk/games/gta-6/": {
+"h": "b2a97b3972ef1812",
+"m": "2026-11-18"
+},
+"/upcoming/": {
+"h": "26b1a661f072cfab",
+"m": null
+}
+}
+}

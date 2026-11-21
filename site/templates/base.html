@@ -6,6 +6,8 @@
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ canonical }}">
+{% if noindex %}<meta name="robots" content="noindex,follow">
+{% endif %}
 {% for h in hreflang %}<link rel="alternate" hreflang="{{ h.code }}" href="{{ h.href }}">
 {% endfor %}{% if hreflang %}<link rel="alternate" hreflang="x-default" href="{{ x_default }}">
 {% endif %}<meta property="og:type" content="article">

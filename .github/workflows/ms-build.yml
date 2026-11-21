@@ -4,7 +4,7 @@ name: ms-build
 on:
   push:
     branches: [main]
-    paths: ['site/**', 'data/titles/**', 'data/vocab.json', 'i18n/title.*.json', '.github/workflows/ms-build.yml']
+    paths: ['site/**', 'functions/**', 'data/titles/**', 'data/vocab.json', 'i18n/title.*.json', '.github/workflows/ms-build.yml']
   workflow_dispatch: {}
 permissions:
   contents: read
@@ -16,5 +16,7 @@ jobs:
       - uses: actions/checkout@v5
       - run: pip install -q jinja2
       - run: python3 site/build.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Робот-контролёр (R-правила, блокирует при ошибках)
+        run: python3 site/check.py | tee -a "$GITHUB_STEP_SUMMARY"; exit ${PIPESTATUS[0]}
       - uses: actions/upload-artifact@v4
         with: { name: mutespoilers-dist, path: dist, retention-days: 7 }

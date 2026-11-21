@@ -126,8 +126,14 @@ def common(lang, page_langs, path_of):
         hreflang=[{'code': l, 'href': BASE + path_of(l)} for l in page_langs] if len(page_langs) > 1 else [],
         x_default=BASE + path_of('en'),
         foot=footer(hl), lang_hub=hl,
+        noindex=False,
         copied=S(lang).get('copied', 'Copied'), og_image=BASE + '/img/og.png', nav_label='Sections', main_class='', jsonld='',
     )
+
+
+def thin(t):
+    """Своего текста нет (только общий шаблон по типу): Google такие страницы считает слабыми. Решение 21.11: noindex, follow."""
+    return not t['texts'].get('en', {}).get('lead')
 
 
 def title_langs(t):
@@ -259,12 +265,14 @@ def main():
             crumbs = {'home': prefix(hl) + '/', 'home_label': C['home'].get(hl, 'Home'),
                       'media': f"{prefix(hl)}/{t['media']}/", 'media_label': C['media'][t['media']].get(hl, C['media'][t['media']]['en'])}
             ctx = common(lang, langs, path_of); ctx['main_class'] = 't-wrap ms-title'
+            ctx['noindex'] = thin(t)   # R04: только шаблонный текст -> страница живёт для людей, но не в индексе
             ctx['jsonld'] = titlepage.jsonld(t, lang, info, BASE + path_of(lang),
                                              [(crumbs['home_label'], crumbs['home']), (crumbs['media_label'], crumbs['media']), (name, path_of(lang))], BASE)
             html = env.get_template('title.html').render(**ctx, title=info['title'], description=info['desc'], canonical=BASE + path_of(lang),
                                                          name=name, main_html=main_html, crumbs=crumbs)
             write(path_of(lang), html)
-            sitemap.setdefault(lang, []).append((BASE + path_of(lang), t.get('modified') or t.get('published')))
+            if not thin(t):
+                sitemap.setdefault(lang, []).append((BASE + path_of(lang), t.get('modified') or t.get('published')))
             count += 1
 
     hubs(titles, sitemap)
@@ -283,8 +291,10 @@ def main():
     # черновой адрес *.pages.dev закрыт от Google ТОЛЬКО заголовком (в HTML noindex нет)
     (DIST / '_headers').write_text('https://:project.pages.dev/*\n  X-Robots-Tag: noindex\n\n'
                                    'https://:version.:project.pages.dev/*\n  X-Robots-Tag: noindex\n', encoding='utf-8')
-    # 301 со старых адресов — шаг 7 (карта из data/titles/*.json -> old_urls)
-    (DIST / '_redirects').write_text('# карта 301 со старых адресов появится на шаге 7\n', encoding='utf-8')
+    # 301 со всех старых адресов github.io (шаг 7)
+    import redirects
+    n301 = redirects.write(DIST, redirects.build(titles, title_langs, prefix, C['wave0']))
+    print('правил 301:', n301)
     total = sum(len(v) for v in sitemap.values())
     print(f'страниц тайтлов: {count}; всего адресов в sitemap: {total}; языки: ' +
           ', '.join(f'{l} {len(v)}' for l, v in sitemap.items()))
