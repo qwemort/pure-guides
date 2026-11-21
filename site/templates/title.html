@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block main %}
+<nav aria-label="breadcrumb"><a href="{{ crumbs.home }}">{{ crumbs.home_label }}</a> › <a href="{{ crumbs.media }}">{{ crumbs.media_label }}</a> › <span>{{ name }}</span></nav>
+<h1>{{ h1 }}</h1>
+{% if lead %}<p class="bluf">{{ lead }}</p>{% endif %}
+<section id="release-timeline"><h2>{{ S.l_release }}</h2>
+<p>{{ release_text }}</p></section>
+<section id="mute-words"><h2>{{ S.words_h }}</h2>
+<h3>{{ S.strict_h }}</h3><ul>{% for w in words.basic %}<li>{{ w }}</li>{% endfor %}</ul>
+{% if words.balanced %}<h3>{{ S.names_h }}</h3><ul>{% for w in words.balanced %}<li>{{ w }}</li>{% endfor %}</ul>{% endif %}
+<h3>{{ S.core_h }}</h3><ul>{% for w in words.max %}<li>{{ w }}</li>{% endfor %}</ul>
+</section>
+{% if why %}<section id="why"><h2>{{ why_h }}</h2>{{ why | safe }}</section>{% endif %}
+<p class="checked">{{ checked_line }}</p>
+{% endblock %}

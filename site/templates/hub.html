@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block main %}
+<h1>{{ h1 }}</h1>
+<ul>{% for t in items %}<li><a href="{{ t.href }}">{{ t.name }}</a></li>{% endfor %}</ul>
+{% endblock %}

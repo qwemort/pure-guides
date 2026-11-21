@@ -1,0 +1,15 @@
+{
+ "_note": "Настройки нового сайта mutespoilers.com (шаг 2). Языки по решению Волны 0 (docs/ARCHITECTURE_AND_ROADMAP.md, п.3).",
+ "base": "https://mutespoilers.com",
+ "wave0": ["en", "pt-BR", "pl", "ru"],
+ "gta_only": ["fr", "it", "es", "tr", "de", "uk", "ja"],
+ "gta_slug": "gta-6",
+ "media": {
+  "games":  {"en": "Games", "ru": "Игры", "pl": "Gry", "pt-BR": "Jogos"},
+  "movies": {"en": "Movies", "ru": "Фильмы", "pl": "Filmy", "pt-BR": "Filmes"},
+  "tv":     {"en": "TV shows", "ru": "Сериалы", "pl": "Seriale", "pt-BR": "Séries"},
+  "anime":  {"en": "Anime", "ru": "Аниме", "pl": "Anime", "pt-BR": "Animes"}
+ },
+ "home": {"en": "Home", "ru": "Главная", "pl": "Strona główna", "pt-BR": "Início"},
+ "bots": ["Googlebot", "Bingbot", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "ClaudeBot", "Claude-SearchBot"]
+}

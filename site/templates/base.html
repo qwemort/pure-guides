@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ lang_attr }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ canonical }}">
+{% for h in hreflang %}<link rel="alternate" hreflang="{{ h.code }}" href="{{ h.href }}">
+{% endfor %}{% if hreflang %}<link rel="alternate" hreflang="x-default" href="{{ x_default }}">
+{% endif %}</head>
+<body>
+<header><a href="{{ home_href }}">mutespoilers</a>
+<nav>{% for m in media_nav %}<a href="{{ m.href }}">{{ m.label }}</a> {% endfor %}</nav></header>
+<main>
+{% block main %}{% endblock %}
+</main>
+<footer><nav>{% for l in footer_langs %}<a href="{{ l.href }}" hreflang="{{ l.code }}">{{ l.label }}</a> {% endfor %}</nav></footer>
+</body>
+</html>

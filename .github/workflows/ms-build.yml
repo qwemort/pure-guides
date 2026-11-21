@@ -1,0 +1,20 @@
+name: ms-build
+# Новый сайт mutespoilers.com: собирает dist/ из data/titles/ (шаг 2 переезда).
+# Пока домена нет — только сборка и архив с результатом. Выкладка на Cloudflare Pages — шаг 8.
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'data/titles/**', 'data/vocab.json', 'i18n/title.*.json', '.github/workflows/ms-build.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - run: pip install -q jinja2
+      - run: python3 site/build.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with: { name: mutespoilers-dist, path: dist, retention-days: 7 }
