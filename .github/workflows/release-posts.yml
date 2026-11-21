@@ -29,6 +29,7 @@ jobs:
       - name: Weekly summary
         if: github.event.schedule == '13 8 * * 1' || github.event.inputs.week == 'true'
         run: |
+          mkdir -p out
           node tools/release-posts.mjs --week
           [ -s out/release-week.txt ] && node tools/notify.mjs "$(cat out/release-week.txt)" || true
       - name: Post for today
@@ -42,6 +43,7 @@ jobs:
           ARGS=""
           [ -n "$DATE" ] && ARGS="--date $DATE"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
+          mkdir -p out
           node tools/release-posts.mjs $ARGS | tee out/release-log.txt
           { echo '```'; cat out/release-log.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           [ -f out/release-fail.txt ] && node tools/notify.mjs "$(cat out/release-fail.txt)" || true
