@@ -41,7 +41,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -55,7 +54,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -69,7 +67,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -83,7 +80,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -97,7 +93,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -139,7 +134,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -153,7 +147,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -181,7 +174,6 @@
    "balanced": [
     "helen webb",
     "sam young",
-    "reed",
     "wallace webb"
    ]
   },
@@ -215,7 +207,7 @@
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Black Doves",

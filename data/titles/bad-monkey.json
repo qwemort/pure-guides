@@ -40,9 +40,9 @@
    ],
    "balanced": [
     "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "rosa campesino",
+    "eve stripling",
+    "neville stafford"
    ]
   },
   "de": {
@@ -53,10 +53,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "andrew yancy"
    ]
   },
   "es": {
@@ -67,10 +64,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "andrew yancy"
    ]
   },
   "fr": {
@@ -81,10 +75,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "andrew yancy"
    ]
   },
   "it": {
@@ -95,10 +86,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "andrew yancy"
    ]
   },
   "ja": {
@@ -109,10 +97,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "アンドリュー・ヤンシー",
-    "ロサ",
-    "ネヴィル",
-    "イヴ"
+    "アンドリュー・ヤンシー"
    ]
   },
   "ko": {
@@ -123,10 +108,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "앤드루 얀시",
-    "로사",
-    "네빌",
-    "이브"
+    "앤드루 얀시"
    ]
   },
   "pl": {
@@ -137,10 +119,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "andrew yancy"
    ]
   },
   "pt-BR": {
@@ -151,10 +130,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "andrew yancy"
    ]
   },
   "ru": {
@@ -165,10 +141,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "эндрю янси",
-    "роза",
-    "невилл",
-    "ив"
+    "эндрю янси"
    ]
   },
   "tr": {
@@ -179,10 +152,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "andrew yancy",
-    "rosa",
-    "neville",
-    "eve"
+    "andrew yancy"
    ]
   },
   "uk": {
@@ -193,10 +163,7 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "ендрю янсі",
-    "роза",
-    "невілл",
-    "ів"
+    "ендрю янсі"
    ]
   },
   "zh-CN": {
@@ -207,15 +174,12 @@
     "bad monkey finale"
    ],
    "balanced": [
-    "安德鲁·扬西",
-    "罗莎",
-    "内维尔",
-    "伊芙"
+    "安德鲁·扬西"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Bad Monkey",
