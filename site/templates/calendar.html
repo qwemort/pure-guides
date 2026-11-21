@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<nav class="ms-crumbs" aria-label="breadcrumb"><a href="{{ home_href }}">{{ home_label }}</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ h1 }}</span></nav>
+<div class="ms-hub-head">
+ <h1>{{ h1 }}</h1>
+ <p class="t-lead">{{ intro }}</p>
+ <p class="ms-hub-links">{% for l in side_links %}<a href="{{ l.href }}">{{ l.label }}</a>{% endfor %}</p>
+</div>
+{% for m in months %}
+<section class="ms-cal"><h2 class="ms-hub-h2">{{ m.label }}</h2>
+<ol class="ms-cal-list">
+{% for r in m.rows %}<li><span class="ms-cal-d"><span class="ms-st{{ ' ok' if r.confirmed else '' }}">{{ r.date }}</span></span><a href="{{ r.href }}">{{ r.name }}</a><span class="ms-cal-k">{{ r.media }}</span>{% if not r.confirmed %}<span class="ms-cal-k muted">{{ unconf }}</span>{% endif %}</li>
+{% endfor %}</ol></section>
+{% else %}<p class="muted">{{ none }}</p>
+{% endfor %}
+{% endblock %}

@@ -20,6 +20,7 @@ DIST = R / 'dist'
 C = json.loads((SITE / 'config.json').read_text(encoding='utf-8'))
 BASE = C['base']
 LABELS = {x['code']: x['label'] for x in json.loads((R / 'data/title-words.json').read_text(encoding='utf-8'))['langs']}
+HUBS = json.loads((R / 'i18n/ms-hubs.json').read_text(encoding='utf-8'))['strings']
 VOCAB = json.loads((R / 'data/vocab.json').read_text(encoding='utf-8'))['vocab']
 env = Environment(loader=FileSystemLoader(SITE / 'templates'), autoescape=True, undefined=StrictUndefined,
                   trim_blocks=True, lstrip_blocks=True)
@@ -53,7 +54,8 @@ def common(lang, page_langs, path_of):
     return dict(
         lang_attr=lang,
         home_href=prefix(hl) + '/',
-        media_nav=[{'href': f'{prefix(hl)}/{m}/', 'label': C['media'][m].get(hl, C['media'][m]['en'])} for m in C['media']],
+        media_nav=[{'href': f'{prefix(hl)}/{m}/', 'label': C['media'][m].get(hl, C['media'][m]['en'])} for m in C['media']]
+                  + [{'href': f'{prefix(hl)}/calendar/', 'label': HUBS[hl]['cal_nav']}],
         footer_langs=[{'code': l, 'label': LABELS.get(l, l), 'href': path_of(l)} for l in page_langs],
         hreflang=[{'code': l, 'href': BASE + path_of(l)} for l in page_langs] if len(page_langs) > 1 else [],
         x_default=BASE + path_of('en'),
@@ -75,6 +77,53 @@ def release_text(t, lang, s):
         return '—'
     mark = '' if r.get('status') == 'confirmed' else ' (?)'
     return r['date'] + mark   # человеческий формат даты и таблица окон — шаг 3
+
+
+def hubs(titles, sitemap):
+    """Шаг 4: медиа-хабы, «Скоро выйдет», «Уже вышло», календарь. Только языки Волны 0."""
+    import datetime as dt
+    today = dt.date.today()
+    for lang in C['wave0']:
+        s, Hs = S(lang), HUBS[lang]
+        live = [t for t in titles if lang in title_langs(t)]
+        def card(t):
+            d = t['release'].get('date')
+            first = t['release'].get('first_anywhere')
+            dd = dt.date.fromisoformat(min(d, first) if (d and first) else d) if d else None
+            tag = titlepage.fmt(s, dd, False, True).upper() if dd else Hs['ongoing']
+            return {'href': f"{prefix(lang)}/{t['media']}/{t['slug']}/", 'name': t['names'].get(lang) or t['names']['en'],
+                    'kind': t['legacy'].get('kind', 'film'), 'tag': tag, 'confirmed': t['release'].get('status') == 'confirmed', 'd': dd}
+        cards = [card(t) for t in live]
+        up = sorted((c for c in cards if c['d'] and c['d'] >= today), key=lambda c: c['d'])
+        out = sorted((c for c in cards if c['d'] and today - dt.timedelta(days=30) <= c['d'] < today), key=lambda c: c['d'], reverse=True)
+        links = lambda: [{'href': f'{prefix(lang)}/upcoming/', 'label': Hs['see_up']}, {'href': f'{prefix(lang)}/out-now/', 'label': Hs['see_out']},
+                         {'href': f'{prefix(lang)}/calendar/', 'label': Hs['cal_nav']}]
+        base_ctx = lambda path: {**common(lang, C['wave0'], path), 'main_class': 'ms-hub', 'click': s['click'], 'none': Hs['none'],
+                                 'home_label': C['home'].get(lang, 'Home')}
+        def page(slug, h1, intro, groups, tpl='hub.html', **kw):
+            path = lambda l, slug=slug: f'{prefix(l)}/{slug}/'
+            html = env.get_template(tpl).render(**base_ctx(path), title=f'{h1} · mutespoilers', description=intro, canonical=BASE + path(lang),
+                                                h1=h1, intro=intro, groups=groups, side_links=links(), **kw)
+            write(path(lang), html); sitemap.setdefault(lang, []).append((BASE + path(lang), None))
+        for m in C['media']:
+            mine = [c for c, t in zip(cards, live) if t['media'] == m]
+            soon = sorted((c for c in mine if c['d'] and c['d'] >= today), key=lambda c: c['d'])
+            rest = sorted((c for c in mine if c not in soon), key=lambda c: (c['d'] is None, -(c['d'].toordinal() if c['d'] else 0), c['name'].lower()))
+            groups = ([{'h': Hs['see_up'], 'cards': soon}] if soon else []) + [{'h': Hs[m + '_h'] if soon else '', 'cards': rest}]
+            page(m, Hs[m + '_h'], Hs[m + '_p'], groups)
+        page('upcoming', Hs['up_h'], Hs['up_p'], [{'h': '', 'cards': up}])
+        page('out-now', Hs['out_h'], Hs['out_p'], [{'h': '', 'cards': out}])
+        # календарь: по месяцам, от «спойлеры с» (первый показ в мире раньше США)
+        months = {}
+        for c, t in zip(cards, live):
+            if c['d'] and c['d'] >= today - dt.timedelta(days=7):
+                months.setdefault((c['d'].year, c['d'].month), []).append({**c, 'date': titlepage.fmt(s, c['d']), 'media': HUBS[lang][t['media'] + '_h']})
+        ml = [{'label': f"{s['months'][m - 1]} {y}", 'rows': sorted(r, key=lambda x: x['d'])} for (y, m), r in sorted(months.items())]
+        page('calendar', Hs['cal_h'], Hs['cal_p'], [], tpl='calendar.html', months=ml, unconf=Hs['unconf'])
+        home = lambda l: f'{prefix(l)}/'
+        write(home(lang), env.get_template('hub.html').render(**base_ctx(home), title='mutespoilers', description=Hs['up_p'], canonical=BASE + home(lang),
+                                                              h1='mutespoilers', intro=Hs['up_p'], groups=[{'h': '', 'cards': up}], side_links=links()))
+        sitemap.setdefault(lang, []).append((BASE + home(lang), None))
 
 
 def main():
@@ -110,21 +159,7 @@ def main():
             sitemap.setdefault(lang, []).append((BASE + path_of(lang), t.get('modified') or t.get('published')))
             count += 1
 
-    # хабы и главная (простые, настоящие — шаги 4–5)
-    for lang in C['wave0']:
-        for m in C['media']:
-            items = sorted(({'href': f"{prefix(lang)}/{m}/{t['slug']}/", 'name': t['names'].get(lang) or t['names']['en']}
-                            for t in titles if t['media'] == m and lang in title_langs(t)), key=lambda x: x['name'].lower())
-            hp = lambda l, m=m: f'{prefix(l)}/{m}/'
-            label = C['media'][m].get(lang, C['media'][m]['en'])
-            write(hp(lang), env.get_template('hub.html').render(**common(lang, C['wave0'], hp), title=label, description=label,
-                                                                canonical=BASE + hp(lang), h1=label, items=items))
-            sitemap.setdefault(lang, []).append((BASE + hp(lang), None))
-        home = lambda l: f'{prefix(l)}/'
-        items = [{'href': f'{prefix(lang)}/{m}/', 'name': C['media'][m].get(lang, C['media'][m]['en'])} for m in C['media']]
-        write(home(lang), env.get_template('hub.html').render(**common(lang, C['wave0'], home), title='mutespoilers', description='mutespoilers',
-                                                              canonical=BASE + home(lang), h1='mutespoilers', items=items))
-        sitemap.setdefault(lang, []).append((BASE + home(lang), None))
+    hubs(titles, sitemap)
 
     # sitemap: индекс + файл на язык
     for lang, urls in sitemap.items():

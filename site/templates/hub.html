@@ -1,5 +1,17 @@
 {% extends "base.html" %}
 {% block main %}
-<h1>{{ h1 }}</h1>
-<ul>{% for t in items %}<li><a href="{{ t.href }}">{{ t.name }}</a></li>{% endfor %}</ul>
+<nav class="ms-crumbs" aria-label="breadcrumb"><a href="{{ home_href }}">{{ home_label }}</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ h1 }}</span></nav>
+<div class="ms-hub-head">
+ <h1>{{ h1 }}</h1>
+ <p class="t-lead">{{ intro }}</p>
+ {% if side_links %}<p class="ms-hub-links">{% for l in side_links %}<a href="{{ l.href }}">{{ l.label }}</a>{% endfor %}</p>{% endif %}
+</div>
+{% for g in groups %}
+{% if g.h %}<h2 class="ms-hub-h2">{{ g.h }}</h2>{% endif %}
+{% if g.cards %}
+<ul class="ms-covers">
+{% for t in g.cards %}<li><a class="cv cv-{{ t.kind }} ms-card" href="{{ t.href }}"><span class="cv-tag"><i class="{{ 'ok' if t.confirmed else '' }}"></i>{{ t.tag }}</span><span class="cv-h">{{ t.name }}</span><span class="cv-line"><span class="cv-bar">{{ click }}</span></span></a></li>
+{% endfor %}</ul>
+{% else %}<p class="muted">{{ none }}</p>{% endif %}
+{% endfor %}
 {% endblock %}

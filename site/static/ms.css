@@ -69,3 +69,35 @@ main.ms-title{max-width:1320px;padding:24px 32px 64px}
 .ms-tabs [role=tab]:focus-visible,.ms-reset:focus-visible,.ms-share:focus-visible,.ms-mail:focus-visible{outline:3px solid var(--text);outline-offset:3px}
 .top .wrap,.foot .wrap{max-width:1320px;padding-left:32px;padding-right:32px}
 @media (max-width:820px){.top .wrap,.foot .wrap{padding-left:16px;padding-right:16px}}
+/* хабы и календарь (шаг 4): обложки тайтлов в утверждённом виде 18.11 */
+main.ms-hub{max-width:1320px;padding:24px 32px 64px}
+.ms-hub .ms-crumbs{padding:0 0 12px}
+.ms-hub-head{max-width:62ch;margin-bottom:32px}
+.ms-hub-head h1{margin:0 0 12px;font:700 48px/1.06 Archivo,"Arial Narrow",sans-serif}
+.ms-hub-links{display:flex;flex-wrap:wrap;gap:8px 20px;margin:16px 0 0;font-weight:600}
+.ms-hub-h2{font-size:24px;margin:40px 0 16px}
+.ms-covers{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.ms-card{text-decoration:none;color:#2A2D32;transition:transform .15s}
+.ms-card:hover .cv-bar{background:#2A2D32}
+.ms-card .cv-h{font-size:26px;overflow-wrap:anywhere}
+.ms-card .cv-tag i.ok{background:var(--signal)}
+.ms-card:focus-visible{outline:3px solid var(--text);outline-offset:3px}
+.ms-cal-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.ms-cal-list li{display:grid;grid-template-columns:140px minmax(0,1fr) auto auto;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--line)}
+.ms-cal-list a{font-weight:700;text-decoration:none}
+.ms-cal-list a:hover{text-decoration:underline}
+.ms-cal-k{font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.ms-card{transition:none}}
+@media (max-width:820px){
+  main.ms-hub{padding:16px 16px 48px}
+  .ms-hub-head h1{font-size:34px}
+  .ms-covers{grid-template-columns:1fr 1fr;gap:12px}
+  .ms-card{padding:14px 14px}
+  .ms-card .cv-h{font-size:19px}
+  .ms-card .cv-bar{max-width:100%}
+  .ms-cal-list li{grid-template-columns:96px minmax(0,1fr);gap:4px 12px}
+  .ms-cal-k{grid-column:2}
+}
+@media (max-width:420px){.ms-covers{grid-template-columns:1fr}}
+.ms-hub .ms-crumbs,.ms-title .ms-crumbs{margin:0;max-width:none}
+@media (max-width:820px){.ms-card{aspect-ratio:auto;min-height:128px;gap:8px}.ms-card .cv-h{margin-top:12px}}
