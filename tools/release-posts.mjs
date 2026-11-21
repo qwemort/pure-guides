@@ -93,7 +93,7 @@ function check(s) {
   for (const w of ban) if (w.length > 2 && low.includes(w)) return `запрещённое слово «${w}» (возможный спойлер)`;
   if (/друзі|погнали|не просто/.test(low)) return 'штамп ИИ';
   if (needExplain && !/(сховат|ховают|ховає|не бач|не показ|не видно|розмива|зника)/.test(low)) return 'не сказано, что человек получает';
-  if (!/(спойлер|зіпсу|кінцівк)/.test(low)) return 'нет боли (спойлеры/испортили)';
+  if (!/(спойлер|зіпсу|кінцівк|фінал|поворот|сюрприз|нема сенсу|немає сенсу|не цікаво)/.test(low)) return 'нет боли (спойлеры/испортили)';
   if (/список слів|тайтл|пресет|мьют-лист/.test(low)) return 'технические слова';
   if (/(сайт|розширен)/.test(low) && !/(мьют|замьют|сховат|не бач|не показ|не видно|розмива|блюр|копіює|встав)/.test(low)) return 'сайт или расширение упомянуты без объяснения';
   return '';
@@ -106,7 +106,7 @@ for (let i = 0; i < 4 && !text; i++) {
   const s = clean(raw);
   why = check(s); if (!why) text = s; else console.log(`попытка ${i + 1}: ${why}\n  ${s.replace(/\n/g, ' / ')}`);
 }
-if (!text) { fs.writeFileSync(path.join(ROOT, 'out', 'release-fail.txt'), `⚠️ Пост перед релизом «${name}» на ${TODAY} не собрался: ${why}`); console.log('не получилось, пропуск'); process.exit(0); }
+if (!text) { if (!DRY) fs.writeFileSync(path.join(ROOT, 'out', 'release-fail.txt'), `⚠️ Пост перед релизом «${name}» на ${TODAY} не собрался: ${why}`); console.log('не получилось, пропуск'); process.exit(0); }
 if (n === 4 || n === 2) text += '\n' + CFG.link.replace('{slug}', t.slug).replace('{media}', t.media);
 if (text.length > CFG.max_len) { console.log('слишком длинно, пропуск'); process.exit(0); }
 console.log(`${TODAY} · ${t.slug} · за ${n} дн.\n---\n${text}\n---`);
