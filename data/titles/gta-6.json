@@ -277,9 +277,9 @@
    "kicker": "GAME · PS5 AND XBOX SERIES · {date}",
    "cover_tag": "GAME · {date}",
    "keep_val": "PC: months",
-   "lead": "Out on PS5 and Xbox Series X|S, with no PC date yet. Most spoilers will come through YouTube thumbnails and Reddit titles, where nothing can be muted. Here is what works.",
+   "lead": "Out on PS5 and Xbox Series X|S, with no PC date yet. Most spoilers come through YouTube thumbnails and Reddit titles, where nothing can be muted. Here is what works.",
    "why_h": "Why GTA 6 is hard to avoid",
-   "why": "<p>Review copies are already with the press, and big games reach some players a few days early, so story details can appear before {D0}. Then the whole internet plays at once: streams, \"ending explained\" videos and memes for weeks.</p><p>Muting plain \"GTA\" also hides trailers, news and every other GTA game. Use the core list below and keep strict mode for launch week.</p>",
+   "why": "<p>The game came out on {D0}. After a launch like this the whole internet plays at once: streams, full playthroughs, \"ending explained\" videos and memes for weeks. Review copies also reach the press before launch, so some story details could circulate even earlier.</p><p>Muting plain \"GTA\" also hides trailers, news and every other GTA game. Use the core list below and keep strict mode for the first weeks after launch.</p>",
    "unknown": "Characters and missions the trailers never showed.",
    "demo": "GTA 6 ending explained: the final mission",
    "cover_line": "The ending",
@@ -304,7 +304,7 @@
     ],
     [
      "When do GTA 6 spoilers start?",
-     "Before launch day. Review copies are already with the press and big games usually reach some players a few days early, so story details can appear before {D}."
+     "Already. The game came out on {D}, and review copies reach the press and some players early, so story details could appear even before that."
     ],
     [
      "How long do I need to avoid spoilers if I play on PC?",
@@ -327,9 +327,9 @@
    "kicker": "ИГРА · PS5 И XBOX SERIES · {date}",
    "cover_tag": "ИГРА · {date}",
    "keep_val": "ПК: месяцы",
-   "lead": "Выходит на PS5 и Xbox Series X|S, даты для ПК пока нет. Больше всего спойлеров придёт через превью на YouTube и заголовки на Reddit, где слова скрыть нельзя. Вот что работает.",
+   "lead": "Вышла на PS5 и Xbox Series X|S, даты для ПК пока нет. Больше всего спойлеров идёт через превью на YouTube и заголовки на Reddit, где слова скрыть нельзя. Вот что работает.",
    "why_h": "Почему от спойлеров GTA 6 трудно уйти",
-   "why": "<p>Копии для обзоров уже у прессы, а большие игры часто попадают к части игроков на несколько дней раньше, так что сюжет может всплыть ещё до {D0}. Потом играет весь интернет сразу: стримы, ролики «концовка объяснена» и мемы неделями.</p><p>Если скрыть просто «GTA», пропадут и трейлеры, и новости, и все остальные игры серии. Возьмите основной список ниже, а строгий режим оставьте на неделю выхода.</p>",
+   "why": "<p>Игра вышла {D0}. После такого релиза весь интернет играет одновременно: стримы, полные прохождения, ролики «концовка объяснена» и мемы неделями. Копии для обзоров ещё до выхода попадают к прессе, так что часть сюжета могла разойтись и раньше.</p><p>Если скрыть просто «GTA», пропадут и трейлеры, и новости, и все остальные игры серии. Возьмите основной список ниже, а строгий режим оставьте на первые недели после выхода.</p>",
    "unknown": "Персонажи и миссии, которых не было в трейлерах.",
    "demo": "Концовка GTA 6 объяснена: финальная миссия",
    "cover_line": "Концовка",
@@ -354,7 +354,7 @@
     ],
     [
      "Когда начнутся спойлеры GTA 6?",
-     "До дня выхода. Копии для обзоров уже у прессы, а большие игры обычно попадают к части игроков на несколько дней раньше, поэтому сюжет может появиться до {D}."
+     "Уже начались. Игра вышла {D}, а копии для обзоров и часть игроков получают игру заранее, поэтому детали сюжета могли появиться ещё раньше."
     ],
     [
      "Сколько избегать спойлеров, если играю на ПК?",
@@ -427,9 +427,9 @@
    "kicker": "GRA · PS5 I XBOX SERIES · {date}",
    "cover_tag": "GRA · {date}",
    "keep_val": "PC: miesiące",
-   "lead": "Wychodzi na PS5 i Xbox Series X|S, daty na PC jeszcze nie ma. Najwięcej spoilerów przyjdzie przez miniatury na YouTube i tytuły na Reddicie, gdzie słów nie da się wyciszyć. Oto co działa.",
+   "lead": "Wyszła na PS5 i Xbox Series X|S, daty na PC jeszcze nie ma. Najwięcej spoilerów idzie przez miniatury na YouTube i tytuły na Reddicie, gdzie słów nie da się wyciszyć. Oto co działa.",
    "why_h": "Dlaczego trudno uniknąć spoilerów GTA 6",
-   "why": "<p>Kopie recenzenckie są już u dziennikarzy, a duże gry często trafiają do części graczy kilka dni wcześniej, więc fabuła może wypłynąć przed {D0}. Potem gra cały internet naraz: streamy, filmy „zakończenie wyjaśnione” i memy przez tygodnie.</p><p>Wyciszenie samego „GTA” ukryje też zwiastuny, newsy i każdą inną grę z serii. Weź podstawową listę poniżej, a tryb ścisły zostaw na tydzień premiery.</p>",
+   "why": "<p>Gra wyszła {D0}. Po takiej premierze cały internet gra naraz: streamy, pełne przejścia, filmy „zakończenie wyjaśnione” i memy przez tygodnie. Kopie recenzenckie trafiają do dziennikarzy jeszcze przed premierą, więc część fabuły mogła krążyć jeszcze wcześniej.</p><p>Wyciszenie samego „GTA” ukryje też zwiastuny, newsy i każdą inną grę z serii. Weź podstawową listę poniżej, a tryb ścisły zostaw na pierwsze tygodnie po premierze.</p>",
    "unknown": "Postacie i misje, których nie pokazały zwiastuny.",
    "demo": "Zakończenie GTA 6 wyjaśnione: ostatnia misja",
    "cover_line": "Zakończenie",
@@ -454,7 +454,7 @@
     ],
     [
      "Kiedy zaczną się spoilery GTA 6?",
-     "Przed premierą. Kopie recenzenckie są już u dziennikarzy, a duże gry zwykle trafiają do części graczy kilka dni wcześniej, więc fabuła może się pojawić przed {D}."
+     "Już się zaczęły. Gra wyszła {D}, a kopie recenzenckie i część graczy dostają ją wcześniej, więc szczegóły fabuły mogły pojawić się jeszcze przed premierą."
     ],
     [
      "Jak długo unikać spoilerów, jeśli gram na PC?",
