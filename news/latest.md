@@ -1,118 +1,126 @@
-# Новости для Claude — 2026-11-13
+# Новости для Claude — 2026-11-21
 
-Собрано из открытых RSS за последние 5 дней (tools/news-digest.py, раз в 4 дня). Не постится никуда.
+Собрано из открытых RSS за последние 8 дней (tools/news-digest.py, раз в 4 дня). Не постится никуда.
 Как использовать: найти инфоповоды для Антона (утечки GTA, ПК-версия, финалы, переносы), предложить тексты в чате, обновить страницы pure-guides, если факт изменился.
 
-## GTA 6 / Rockstar (31)
-- **12.11 · PC Gamer** — [South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'](https://www.pcgamer.com/games/grand-theft-auto/south-korean-game-rating-board-almost-blocked-gta-6s-release-fearing-its-out-of-context-genital-nudity-would-disrupt-social-order/) _(GTA, утечка/спойлер/дата)_
-  GTA 6 required a total of three ratings reviews by South Korea's GCRB—and Cyberleek might have had something to do with it.
-- **10.11 · GameSpot** — [GTA 6: What Will Review Scores Be? You Can Win A $500 Gift Card For Getting It Right](https://www.gamespot.com/articles/gta-6-what-will-review-scores-be-you-can-win-a-500-gift-card-for-getting-it-right/) _(GTA, утечка/спойлер/дата)_
-  Rockstar's long-awaited open-world action game Grand Theft Auto 6 finally releases on November 19, and among the many things people are excited to find out is how the game will score with reviewers. Nintendo's The Legen…
-- **09.11 · Eurogamer** — [GTA 6 reportedly has 55 Achievements/Trophies, more than both GTA 5 and Red Dead Redemption 2 had at launch](https://www.eurogamer.net/gta-6-achievements-trophies-55) _(GTA, утечка/спойлер/дата)_
-  GTA 6 is due to release on the 19th November on PS5, and Xbox Series X/S, and ahead of the highly-anticipated launch of Rockstar's latest sandbox adventure, people just can't get enough information about the game. To th…
-- **10.11 · Rock Paper Shotgun** — [Ahead of GTA 6 and as concerns over genAI PC ports grow, Take-Two's CEO says they're revving up their "technical defences" and "legal activites" over piracy](https://www.rockpapershotgun.com/ahead-of-gta-6-and-as-concerns-over-genai-pc-ports-grow-take-twos-ceo-says-theyre-revving-up-their-technical-defences-and-legal-activites-over-piracy) _(GTA, утечка/спойлер/дата)_
-  It's a bit of a time for AI and games at the moment, 'ey? A bad time, obviously, as it's infecting everything from game development , to the modding community , to native PC ports of a remake of a very popular game that…
-- **10.11 · Rock Paper Shotgun** — [In a reveal that might worry eventual PC players glancing at their GPUs, GTA 6 will target 30fps on all consoles](https://www.rockpapershotgun.com/in-a-reveal-that-might-worry-eventual-pc-players-glancing-at-their-gpus-gta-6-will-target-30fps-on-all-consoles) _(GTA, утечка/спойлер/дата)_
-  In a press release coinciding with Grand Theft Auto VI becoming available for pre-load ahead of its November 19th release date, Rockstar has confirmed that the game "has been fully developed from the ground up to provid…
-- **12.11 · VGC** — [GTA 6 map seemingly leaks at Selfridges merch drop](https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/) _(GTA, утечка/спойлер/дата)_
-  An apparent GTA 6 map is being shared around online, having been spotted at Selfridges in the UK
-- **12.11 · GamesRadar** — [Physical GTA 6 map leaks, and I need to know if it's teasing another UFO Easter egg](https://www.gamesradar.com/games/grand-theft-auto/physical-gta-6-map-leaks-and-i-need-to-know-if-its-teasing-another-ufo-easter-egg/) _(GTA, утечка/спойлер/дата)_
-  Another map leak is teasing locations across Leonida
-- **12.11 · GamesRadar** — [GTA 6 was almost refused classification in South Korea due to the sheer amount of genitals shown](https://www.gamesradar.com/games/grand-theft-auto/gta-6-was-almost-refused-classification-in-south-korea-due-to-the-sheer-amount-of-genitals-shown/) _(GTA, утечка/спойлер/дата)_
-  Also, the naked Jason seen in leaks seemingly isn't part of the final game
-- **12.11 · PC Gamer** — [Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches'](https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/) _(GTA)_
-  Must be nice.
-- **13.11 · GameSpot** — [The Xbox 25th Anniversary Console Restock Sold Out Before You Could Finish Reading This Headline](https://www.gamespot.com/articles/the-xbox-25th-anniversary-console-restock-sold-out-before-you-could-finish-reading-this-headline/) _(GTA)_
-  After quickly selling out earlier this year, Microsoft dropped a limited number of its 25th Anniversary Xbox Series X consoles for sale this week-- aaaaannnd they're already gone . Easily the best-looking Xbox Series X …
-- **12.11 · GameSpot** — [Games Will Have A Physical Footprint Forever, Take-Two Boss Says, But It’ll Be “Very Small”](https://www.gamespot.com/articles/games-will-have-a-physical-footprint-forever-take-two-boss-says-but-itll-be-very-small/) _(GTA)_
-  It's no secret that the market for physical video games is drying up, but don't expect physical media for gaming to go away entirely anytime soon, or ever, according to Take-Two's Strauss Zelnick. He told The Game Busin…
-- **12.11 · GameSpot** — [GTA 6’s Jason Can Live His Best Life By Drinking A Beer And Eating A Donut Simultaneously](https://www.gamespot.com/articles/gta-6s-jason-can-live-his-best-life-by-drinking-a-beer-and-eating-a-donut-simultaneously/) _(GTA)_
-  Rockstar's Grand Theft Auto 6 looks like it will have an impressive attention to detail, and that includes how one of the main characters, Jason, can drink a beer and eat a donut at the same time. Now that's living. Roc…
-- **10.11 · GameSpot** — [GTA 6 Backflips Look Good Now, But There Could Be More To The Story](https://www.gamespot.com/articles/gta-6-backflips-look-good-now-but-there-could-be-more-to-the-story/) _(GTA)_
-  A new Grand Theft Auto 6 trailer debuted today, November 10, and the video showed off a race car driver doing a backflip. The animation looks smoooth . That's notable because the Extended Look trailer that debuted back …
-- **10.11 · GameSpot** — [Amid Higher Gas And Grocery Prices, GTA 6 Is A “Bargain” At $80, Take-Two CEO Says](https://www.gamespot.com/articles/amid-higher-gas-and-grocery-prices-gta-6-is-a-bargain-at-80-take-two-ceo-says/) _(GTA)_
-  It's no secret that life is expensive. Gas and grocery prices are up, in particular, and against that backdrop, Take-Two CEO Strauss Zelnick believes GTA 6 at $80 is a "bargain" due to how many hours people can play it.…
-- **13.11 · Eurogamer** — [Will GTA 6 break the internet? UK broadband operator braces for impact, saying "GTA 6 has been on our radar for a long time"](https://www.eurogamer.net/gta-6-internet-uk-broadband-ofcom-openreach) _(GTA)_
-  As Grand Theft Auto 6 breaks pre-order records on the PlayStation and Xbox stores , and looks poised to break many more sales records once it launches next week, questions of whether it will also break the internet aris…
-- **12.11 · Eurogamer** — [Will a Grand Theft Auto game ever be set outside of America? Rockstar offers a small glimmer of hope](https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar) _(GTA)_
-  The Grand Theft Auto games have always been synonymous with America; Americana is baked into the crime series' very being. Across its history, there's only ever been one GTA game set outside America: the London-based ex…
-- **11.11 · Eurogamer** — [GTA 6 might be censored in Japan, if the game's smaller install size and lack of "strong sexual content" warning is anything to go by](https://www.eurogamer.net/gta-6-censored-japan-smaller-install-size) _(GTA)_
-  GTA 6 is finally coming out worldwide next week, putting an end to a 13-year wait and at least one popular meme format, but the highly-anticipated game might look a bit different in Japan. Read more
-- **10.11 · Eurogamer** — [Grand Theft Auto 6 becomes the most pre-ordered game in PlayStation Store history](https://www.eurogamer.net/gta-6-most-preordered-game-playstation-store-history) _(GTA)_
-  UPDATE 11TH NOVEMBER: Grand Theft Auto 6 has also become the most pre-ordered game "of all time" on the Xbox Store, Microsoft has announced. And on that platform, again, the advice is to pre-load because of "unprecedent…
-- **10.11 · Eurogamer** — [Rockstar details Grand Theft Auto 6 PS5 Pro enhancements, but it'll still only run at 30FPS](https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit) _(GTA)_
-  As Grand Theft Auto 6 preloads go live, developer Rockstar has detailed the enhancements coming to the PS5 Pro version of the game, confirming these won't include framerates above the 30 FPS its targeting for consoles. …
-- **10.11 · Eurogamer** — [Rockstar kills any hopes of streaming GTA 6 from Xbox to PC, but you can stream it to your old Xbox One if you like](https://www.eurogamer.net/gta-6-xbox-cloud-streaming-pc-xbox-one) _(GTA)_
-  Rockstar Games has today clarified a few remaining details about Grand Theft Auto 6's framerate target and visual settings on PlayStation 5, PS5 Pro and Xbox Series X/S . And as part of the same announcement , the devel…
-- **09.11 · Eurogamer** — [As investors ask about GTA 6 and AI, Take-Two CEO once again puts faith in dev creativity, states making hit games "remains the purview of human beings"](https://www.eurogamer.net/gta-6-ai-strauss-zelnick-earnings-call-purview) _(GTA)_
-  Today, as part of Take-Two Interactive Software's Q2 2027 earnings call, Strauss Zelnick fielded questions from investors after presenting the financial results of the company. One caller was concerned about AI - specif…
-- **09.11 · Eurogamer** — [GTA 6 pre-orders are tracking "well above expectations" and the game will "set a new baseline" for Take-Two, says CEO Strauss Zelnick](https://www.eurogamer.net/gta-6-preorders-tracking-take-two-earnings-call) _(GTA)_
-  Today, as part of Take-Two Interactive Software's Q2 2027 earnings call, Strauss Zelnick noted that pre-orders for Grand Theft Auto 6 are tracking "far above expectations", and is certain that soon "numbers will speak f…
-- **09.11 · Eurogamer** — [Rockstar's doing a GTA 6 launch 'festival' in Miami featuring a lot of presumably expensive musical stars](https://www.eurogamer.net/rockstar-gta-6-miami-music-festival) _(GTA)_
-  The next-level glamour of Grand Theft Auto 6 's arrival continues with word that Rockstar is hosting a star-studded launch 'festival' for the game in Miami - the game's setting-by-a-different-name. Read more
-- **09.11 · Eurogamer** — [London department store Selfridges launches sizeable GTA 6 takeover, featuring a varsity jacket that costs an eye-watering £2,500](https://www.eurogamer.net/selfridges-gta-6-collab-takeover) _(GTA)_
-  Expensive British department store Selfridges has launched a sizeable Grand Theft Auto 6 takeover, completely making-over its Oxford Street London Corner Shop store and offering a considerable line of clothing, which in…
-- **10.11 · Rock Paper Shotgun** — ["A fight for all workers": SAG-AFTRA throw weight behind emerging Rockstar union ahead of its GTA 6 release week vote](https://www.rockpapershotgun.com/a-fight-for-all-workers-sag-aftra-throw-weight-behind-emerging-rockstar-union-ahead-of-its-gta-6-release-week-vote) _(GTA)_
-  In what has come to feel like the dawn of the final day before Grand Theft Auto VI 's release, one thing that Rockstar really don't want people to be aware of is the ongoing legal dispute between the Rockstar Games Work…
+## GTA 6 / Rockstar (173)
+- **19.11 · GameSpot** — [GTA 6 Cast List Includes Potentially Huge Spoiler, So Be Warned](https://www.gamespot.com/articles/gta-6-cast-list-includes-potentially-huge-spoiler-so-be-warned/) _(GTA, GTA VI, утечка/спойлер/дата)_
+  It's Grand Theft Auto VI day around the world--the game is really good , as it turns out. While players are out exploring the massive in-game map or checking their in-game phones as much as they check their real-life on…
+- **20.11 · PC Gamer** — [A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click](https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click/) _(GTA, утечка/спойлер/дата)_
+  There are other PC games to play, you know.
+- **19.11 · PC Gamer** — [Cyberleek drops what they claim is a near-complete GTA 6 Xbox build online](https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/) _(GTA, утечка/спойлер/дата)_
+  The leaked file is apparently around 200 GB.
+- **19.11 · PC Gamer** — [Cheats in GTA 6 are weirdly restrictive, and I'm counting the minutes until the PC version fixes them](https://www.pcgamer.com/games/grand-theft-auto/im-counting-the-minutes-until-the-pc-version-fixes-the-weirdly-restrictive-cheats-in-gta-6/) _(GTA, утечка/спойлер/дата)_
+  Unlocking a cheats menu takes dozens of hours, and even then there are still heavy restrictions.
+- **20.11 · GameSpot** — [GTA 6 Players Captivated By Mandy Apparently Include A Former Nintendo President](https://www.gamespot.com/articles/gta-6-players-captivated-by-mandy-apparently-include-a-former-nintendo-president/) _(GTA, утечка/спойлер/дата)_
+  A character named Mandy has the attention of many Grand Theft Auto 6 players--and that appears to include Reggie Fils-Aimé, the man who used to run Nintendo of America. Per GamesRadar , former Nintendo marketing and pub…
+- **20.11 · GameSpot** — [GTA 6 Has Dexter References, And Now Dexter Himself Has Reacted](https://www.gamespot.com/articles/gta-6-has-dexter-references-and-now-dexter-himself-has-reacted/) _(GTA, утечка/спойлер/дата)_
+  Actor Michael C. Hall has reacted to how GTA 6 features references to his Miami-set TV show Dexter, in which he famously played the serial killer Dexter. Appearing on the Barstool Movies show, Hall said he was "informed…
+- **20.11 · GameSpot** — [GTA 6 Sets Even More Records](https://www.gamespot.com/articles/gta-6-sets-even-more-records/) _(GTA, утечка/спойлер/дата)_
+  Rockstar's Grand Theft Auto 6 has finally arrived, and, to the surprise of no one, it's putting up some big numbers that speak to the pent-up demand. GTA 6 sold more than 30 million copies and hit almost $4 billion on d…
+- **20.11 · GameSpot** — [GTA 6’s Astonishing $4 Billion Day One Includes 32.5 Million Copies Sold](https://www.gamespot.com/articles/gta-6-hit-32-5-million-copies-sold-and-almost-4-billion-on-day-one/) _(GTA, утечка/спойлер/дата)_
+  GTA 6 is an enormous hit--it's the biggest gaming release ever. Take-Two just announced that GTA 6 reach 32.5 million copies sold before release , with revenue reaching $3.79 billion through the end of the first day on …
+- **20.11 · GameSpot** — [GTA 6 Is Crashing On Some PS5s With CE-108255-1 Error Code](https://www.gamespot.com/articles/gta-6-is-crashing-on-some-ps5s-with-ce-108255-1-error-code/) _(GTA, утечка/спойлер/дата)_
+  After years of waiting, GTA fans can finally play GTA 6 , but some players are encountering a dreaded error code that makes the game crash or otherwise fail. Users are reporting receiving the CE-108255-1 error code, whi…
+- **20.11 · GameSpot** — [GTA 6 Doesn’t Have Any Doja Cat Music, And She Didn’t Censor Her Message To Rockstar](https://www.gamespot.com/articles/gta-6-doesnt-have-any-doja-cat-music-and-she-didnt-censor-her-message-to-rockstar/) _(GTA, утечка/спойлер/дата)_
+  Rockstar's Grand Theft Auto 6 is out now, and the game features a lot of music from famous real-world artists. But Doja Cat is not among them. She's not happy about that, either. Doja Cat said online that she is "so f**…
+- **20.11 · GameSpot** — [GTA 7? Please, Let GTA 6 Cook First, Take-Two CEO Says](https://www.gamespot.com/articles/gta-7-please-let-gta-6-cook-first-take-two-ceo-says/) _(GTA, утечка/спойлер/дата)_
+  Rockstar Games just launched Grand Theft Auto 6 on November 19 to rave reviews and huge sales . Everyone wants to know what's coming next, and surely there will eventually be another GTA game, but not soon. Appearing on…
+- **20.11 · GameSpot** — [GTA 6 Is A British Success Story, Prime Minister Says, But He Won’t Play It](https://www.gamespot.com/articles/gta-6-is-a-british-success-story-prime-minister-says-but-he-wont-play-it/) _(GTA, утечка/спойлер/дата)_
+  The Prime Minister of the UK, Andy Burnham, has labeled Rockstar Games a "British success story" amid GTA 6 's rave reviews and huge sales milestones . A spokesperson for his office told The Independent , "Rockstar Game…
+- **20.11 · GameSpot** — [Hacker Threatens To Leak Free Version Of GTA 6 In Crypto Grift](https://www.gamespot.com/articles/a-playable-gta-6-build-could-leak-but-theres-a-15-million-catch/) _(GTA, утечка/спойлер/дата)_
+  Somehow, Cyberleek, the notorious hacker behind multiple Grand Theft Auto 6 leaks, has returned. This time, the infamous leaker is threatening to release the executable file for a working build of the Xbox version of th…
+- **19.11 · GameSpot** — [GTA 6 Dog Who Saves You Is Seemingly Based On A Very Cool Real-Life Dog](https://www.gamespot.com/articles/gta-6-dog-who-saves-you-is-seemingly-based-on-a-very-cool-real-life-dog/) _(GTA, утечка/спойлер/дата)_
+  One of the first cool things that people discovered in Grand Theft Auto 6 is that if you swim out into the ocean too far, you'll find a dog riding a jetski who coaxes you back to shore. As it turns out, the dog looks to…
+- **19.11 · GameSpot** — [You Can Play Grand Theft Auto 6 At 60fps Using This Absurdly Complicated Method](https://www.gamespot.com/articles/you-can-play-grand-theft-auto-6-at-60fps-using-this-absurdly-complicated-method/) _(GTA, утечка/спойлер/дата)_
+  Grand Theft Auto VI is finally out for consoles, and it's every bit the visual showcase of the generation that it was promising to be since its reveal. You'll struggle to find a better-looking game on the current genera…
+- **19.11 · GameSpot** — [GTA 6 Has A Surprise Cameo From Someone You Probably Didn’t Expect](https://www.gamespot.com/articles/gta-6-has-a-surprise-cameo-from-someone-you-probably-didnt-expect/) _(GTA, утечка/спойлер/дата)_
+  Grand Theft Auto 6 has plenty of famous faces and voices behind its many, many characters. From Bobby Moynihan as your verbose bestie to Weird Al Yankovic as a radio host, there's plenty of star power here--and you can …
+- **19.11 · GameSpot** — [GTA 6’s Stars Release A Very Nice Statement As Game Goes Live](https://www.gamespot.com/articles/gta-6s-stars-release-a-very-nice-statement-as-game-goes-live/) _(GTA, утечка/спойлер/дата)_
+  Rockstar's Grand Theft Auto 6 is finally here, and along with that, the actors playing the main characters Jason (Dylan Rourke) and Lucia (Manni L. Perez) have released a heartfelt joint statement. "Years witnessing the…
+- **18.11 · GameSpot** — [The GTA 6 Map Is Truly, Truly Massive (Of Course)](https://www.gamespot.com/articles/the-gta-6-map-is-truly-truly-massive-of-course/) _(GTA, утечка/спойлер/дата)_
+  Grand Theft Auto 6 has finally arrived, and Rockstar Games has released the game's official map . It is absolutely gigantic. Even though we knew the GTA 6 map would be big--it has more playable space than GT4, GTA 5, an…
+- **19.11 · GameSpot** — [GTA 6’s Digital Release Has GameStop CEO Defending Physical Games, For Obvious Reasons](https://www.gamespot.com/articles/gta-6-digital-release-has-gamestop-ceo-defending-physical-games-for-obvious-reasons/) _(GTA, утечка/спойлер/дата)_
+  The GTA 6 launch looks set to break several records, as the digital-only game appears on track to be a major critical and commercial hit . Right on cue, GameStop CEO Ryan Cohen has criticized publishers that forgo a tra…
+- **19.11 · GameSpot** — [Despite The Pricing Hellscape, Console Sales Grew In October](https://www.gamespot.com/articles/despite-the-pricing-hellscape-console-sales-grew-in-october/) _(GTA, утечка/спойлер/дата)_
+  Video game consoles are more expensive than ever , but sales are growing regardless, at least in the US. Circana has released its report for US video game industry sales in October, confirming that PS5 unit sales increa…
+- **19.11 · GameSpot** — [GTA 6’s Mandy Could Be Hiding A Killer Secret](https://www.gamespot.com/articles/gta-6s-mandy-could-be-hiding-a-killer-secret/) _(GTA, утечка/спойлер/дата)_
+  One of the first characters you meet in the opening chapter of Rockstar's GTA 6 is Mandy, and people online are thirsting hard for her. However, fans have also discovered evidence that they believe points to Mandy being…
+- **19.11 · GameSpot** — [GTA 6 Is Finally Here, So Come Watch Us Make Terrible Decisions In Vice City](https://www.gamespot.com/articles/gta-6-is-finally-here-so-come-watch-us-make-terrible-decisions-in-vice-city/) _(GTA, утечка/спойлер/дата)_
+  In just a few short hours, the years-long wait for Grand Theft Auto 6 will finally be over. Maybe you're planning to hop on later today to start playing; maybe you've got a long weekend planned for the game. And maybe y…
+- **21.11 · Eurogamer** — [GTA 6 has a 99 Metascore from critics, but players are review bombing it](https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score) _(GTA, утечка/спойлер/дата)_
+  Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score. Read more
+- **20.11 · Eurogamer** — [It took me less than an hour to find my first incredibly minor Rockstar easter egg in GTA 6 - but it has some big implications for Leonida](https://www.eurogamer.net/gta-6-early-game-connection-rockstar-gta-5) _(GTA, утечка/спойлер/дата)_
+  Are you wondering how connected the worlds of GTA 5 and GTA 6 are? Well, I've got some news for you. Keep on reading below if you'd like some very minor spoilers for the early game of GTA 6, spoilers for GTA 5, as well …
+- **20.11 · Eurogamer** — [I completed GTA 6's indie game darling pastiche, Tenebrae Lux, and all I got was this lousy sense of accomplishment](https://www.eurogamer.net/tenebrae-lux-gta-6-now-playing) _(GTA, утечка/спойлер/дата)_
+  "We are but Promethean wanderers on the fringes of oblivion, clinging to a semblance of light amidst the vast abyss of our own ignorance. Voyaging uncharted waters may appear foolish to some, yet folly and heroism can o…
 
-## Тайтлы из списков Shield и спойлеры (24)
-- **10.11 · GameSpot** — [Sony Cancels Live-Service PS5 Game Fairgames, But No Layoffs](https://www.gamespot.com/articles/sony-cancels-live-service-ps5-game-fairgames-but-no-layoffs/) _(The Last of Us, утечка/спойлер/дата)_
-  Sony has canceled the upcoming live-service shooter Fairgame$, but there will be no job cuts connected to the game's closure. This is according to a report from Bloomberg today. The game was in the works at Haven Studio…
-- **11.11 · PC Gamer** — [Crimson Desert wins 'PC Game of the Year' at the 2026 Golden Joystick Awards](https://www.pcgamer.com/games/crimson-desert-wins-pc-game-of-the-year-at-the-2026-golden-joystick-awards/) _(Resident Evil Requiem)_
-  Resident Evil Requiem and Meccha Chameleon were the night's other big winners.
-- **12.11 · GameSpot** — [Intergalactic: The Heretic Prophet Has Some Unexpected Anime Influences](https://www.gamespot.com/articles/intergalactic-the-heretic-prophet-has-some-unexpected-anime-influences/) _(The Last of Us)_
-  After years of post-apocalyptic survival stories and archaeological adventures, Intergalactic: The Heretic Prophet looks like a fresh opportunity for Naughty Dog to showcase a new sci-fi universe. Visually, the game dra…
-- **12.11 · GameSpot** — [Intergalactic: The Heretic Prophet Is Entering Its Final Stage Of Development, With More To Come In 2027](https://www.gamespot.com/articles/intergalactic-the-heretic-prophet-is-entering-its-final-stage-of-development-with-more-to-come-in-2027/) _(The Last of Us)_
-  Intergalactic: The Heretic Prophet developer Naughty Dog has been largely radio silent about its upcoming sci-fi game since it was first revealed in 2024, but it looks like 2027 will bring a lot more information. Speaki…
-- **13.11 · GamesRadar** — [Deadpool star Ryan Reynolds had a perfectly on-brand response to the news of his Avengers: Doomsday writing credit](https://www.gamesradar.com/entertainment/marvel-movies/deadpool-star-ryan-reynolds-had-a-perfectly-on-brand-response-to-the-news-hes-got-a-writing-credit-on-avengers-doomsday/) _(Avengers: Doomsday)_
-  Marvel fans think a Deadpool cameo could be on the cards after Ryan Reynolds responds to his Avengers: Doomsday writing credit in the most cryptic way
-- **13.11 · GamesRadar** — [Spider-Man: Brand New Day's extended edition arrives in theaters before Avengers: Doomsday](https://www.gamesradar.com/entertainment/marvel-movies/spider-man-brand-new-days-extended-edition-arrives-in-theaters-before-avengers-doomsday-with-7-minutes-of-extra-scenes/) _(Spider-Man: Brand New Day)_
-  Get ready for more Spidey in cinemas
-- **13.11 · GamesRadar** — [Robert Downey Jr. posts cryptic Avengers: Doomsday teaser: "Time will tell; Doom won't"](https://www.gamesradar.com/entertainment/marvel-movies/robert-downey-jr-posts-cryptic-avengers-doomsday-teaser-time-will-tell-doom-wont/) _(Avengers: Doomsday)_
-  A final trailer is coming
-- **12.11 · GamesRadar** — [Kevin Feige says Doctor Doom isn't a variant of Tony Stark](https://www.gamesradar.com/entertainment/marvel-movies/kevin-feige-confirms-doctor-doom-isnt-a-variant-of-tony-stark-which-makes-that-endgame-encore-post-credits-scene-even-more-confusing/) _(Avengers: Doomsday)_
-  Avengers: Doomsday hits theaters in a little over one month
-- **12.11 · GamesRadar** — [Ryan Reynolds and Hugh Jackman are credited as writers on Avengers: Doomsday](https://www.gamesradar.com/entertainment/marvel-movies/are-deadpool-and-wolverine-in-avengers-doomsday-new-wga-listing-reveals-ryan-reynolds-and-hugh-jackman-have-writing-credits/) _(Avengers: Doomsday)_
-  Avengers: Doomsday hits theaters in a little over one month
-- **12.11 · GamesRadar** — [Resident Evil Requiem actor after Golden Joystick Awards win: "Capcom, you cannot fail!"](https://www.gamesradar.com/games/resident-evil/quote-of-the-day-by-resident-evil-requiem-actor-after-golden-joystick-awards-win-capcom-you-cannot-fail/) _(Resident Evil Requiem)_
-  The studio hoovered up awards all night
-- **12.11 · Anime News Network** — [Professor Layton and The New World of Steam Game Reveals English Dub, Cast](https://www.animenewsnetwork.com/news/2026-11-12/professor-layton-and-the-new-world-of-steam-game-reveals-english-dub-cast/.243767) _(Professor Layton and The New World of Steam)_
-  Christopher Robin Miller, Lani Minella return as Professor Layton, Luke, respectively
-- **12.11 · Anime News Network** — [Resident Evil Requiem Wins Golden Joystick Awards' Ultimate Game of the Year, Console Game of the Year](https://www.animenewsnetwork.com/news/2026-11-12/resident-evil-requiem-wins-golden-joystick-awards-ultimate-game-of-the-year-console-game-of-the-year/.243739) _(Resident Evil Requiem)_
-  Onimusha: Way of the Sword , Pragmata , Capcom also take home awards
-- **11.11 · Anime News Network** — [Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8](https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685) _(Godzilla Minus Zero)_
-  Live-action Nanji, Hoshi no Gotoku film drops to #3
-- **11.11 · Anime News Network** — [Gundam Seed Freedom Zero Prequel Anime Film Gets Novel](https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714) _(Gundam Seed Freedom Zero)_
-  Gundam Seed FREEDOM film writer Liu Goto pens new novel slated for January 19 release
-- **11.11 · Anime News Network** — [Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime](https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730) _(Shangri-La Frontier)_
-  Anime Frontier to host premiere screening on December 6 alongside Shangri-La Frontier , Fate Rewinder
-- **11.11 · Anime News Network** — [Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut](https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719) _(Mashle)_
-  Sōma Saitō, Ryōta Suzuki join cast
-- **10.11 · Anime News Network** — [Dragon Quest RPG Mobile Game's Trailer Reveals 2027 Launch, Closed Beta Test in December](https://www.animenewsnetwork.com/news/2026-11-10/dragon-quest-rpg-mobile-game-trailer-reveals-2027-launch-closed-beta-test-in-december/.243690) _(the Chosen)_
-  Dragon Quest RPG: The Cursed Tree and the Chosen Isle game features turn-based battles, dungeons
-- **10.11 · Anime News Network** — [Japanese Animation TV Ranking, October 26-November 1](https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621) _(The Apothecary Diaries)_
-  The Apothecary Diaries up to 4.1% rating from 3.5% last week
-- **09.11 · Anime News Network** — [Black Clover Season 2 ‒ Episode 176](https://www.animenewsnetwork.com/review/black-clover-season-2/episode-176/.243618) _(Black Clover)_
-  This might be the loudest episode of Black Clover's season thus far.
-- **09.11 · Anime News Network** — [The Apothecary Diaries Season 3 ‒ Episode 54](https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-54/.243626) _(The Apothecary Diaries)_
-  We’ve learned one thing for sure: if you meet someone named Maomao, keep a close eye on your fish.
-- **09.11 · Anime News Network** — [Live-Action Golden Kamuy: Karafuto Pursuit Arc Series Unveils More Cast](https://www.animenewsnetwork.com/news/2026-11-08/live-action-golden-kamuy-karafuto-pursuit-arc-series-unveils-more-cast/.243635) _(Golden Kamuy)_
-  Ayana Shiramoto, Hiroto Ōshita join cast
-- **09.11 · Anime News Network** — [Interview: ONE OR EIGHT - First Manila Concert and “EN-GÏNE” Album](https://www.animenewsnetwork.com/advertorial/2026-11-08/interview-one-or-eight-first-manila-concert-and-en-gine-album/.243467) _(Black Clover)_
-  The group behind the Black Clover ED Yellow Brick Road and the viral sensation Tokyo Drift talks about their music, band dynamics and performing.
-- **09.11 · Anime News Network** — [Godzilla Minus Zero Earns Record $32 Million in N. American Opening Weekend](https://www.animenewsnetwork.com/news/2026-11-08/godzilla-minus-zero-earns-record-32-million-in-n-american-opening-weekend/.243628) _(Godzilla Minus Zero)_
-  Highest-ever U.S. opening for live-action foreign film adds to global total of US$63 million
-- **12.11 · TVLine** — [The Rings Of Power's Letters Between The Elves And Men Look Different In J.R.R. Tolkien's Lore](https://www.tvline.com/2315255/the-rings-of-power-letters-between-elves-men-different-jrr-tolkien-lore/) _(The Rings Of Power)_
-  The Rings of Power Season 3 features a letter from Númenor, but a similar exchange unfolds quite differently in Tolkien's original Middle-earth writings.
+## Тайтлы из списков Shield и спойлеры (28)
+- **20.11 · GamesRadar** — [Lego Dragon Ball: Shenron & Goku #11390 review - "Just about right in all the ways that matter"](https://www.gamesradar.com/toys-collectibles/lego-dragon-ball-shenron-and-goku-11390-review/) _(Dragon Ball, утечка/спойлер/дата)_
+  As the first in the range, Lego Dragon Ball: Shenron & Goku had a tricky task... but pulls it off effortlessly. Here's what we thought of the set.
+- **20.11 · GamesRadar** — [The Rings of Power season 3 finale trailer teases the moment we have waited years to see](https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-power-season-3-finale-trailer-teases-the-moment-we-and-sauron-have-waited-years-to-see/) _(The Rings of Power, утечка/спойлер/дата)_
+  It's time to forge The One Ring
+- **20.11 · Anime News Network** — [Overgeared Volumes 4-6 K-Comic Review](https://www.animenewsnetwork.com/review/overgeared/volumes-4-6/.243215) _(Overgeared, утечка/спойлер/дата)_
+  Every time I finish a volume of Overgeared , I think the same thing: Grid's a jerk, but… . It's hard to say whether this is a feature or a bug.
+- **17.11 · Anime News Network** — [Attack on Titan 3 Brings the Video Game Series to Its Brutal, Bloody Conclusion](https://www.animenewsnetwork.com/feature/2026-11-17/attack-on-titan-3-brings-the-video-game-series-to-its-brutal-bloody-conclusion/.243886) _(Attack on Titan, утечка/спойлер/дата)_
+  The good news is that, based on the opening chapters of this preview PC build I was able to sink my giant boxcutter blades into, the eight-year wait was worth it.
+- **19.11 · GameSpot** — [More Mass Layoffs At Ubisoft Underway, Affecting Two Of Its Biggest Studios](https://www.gamespot.com/articles/more-mass-layoffs-at-ubisoft-underway-affecting-two-of-its-biggest-studios/) _(severance)_
+  Ubisoft has enacted another round of mass layoffs, affecting 166 additional jobs as the French gaming giant continues its cost-cutting program. The job cuts are happening at two of Ubisoft's biggest development hubs in …
+- **19.11 · Eurogamer** — [Call of Duty: Modern Warfare 4 was October's biggest game in the US, but it wasn't enough to crack 2026's best-selling top 10](https://www.eurogamer.net/call-of-duty-modern-warfare-4-october-top-seller) _(Gears of War: E-Day)_
+  Despite its somewhat muted critical reception, Call of Duty: Modern Warfare 4 has predictably topped the US video game charts in October. The Infinity Ward -developed shooter was October's best-selling game in the US ac…
+- **15.11 · Eurogamer** — [Blade Runner 2099 bosses hint at a possible "triple-A" Blade Runner game in the future - just don't expect it any time soon](https://www.eurogamer.net/blade-runner-2099-triple-a-talks) _(Blade Runner 2099)_
+  Blade Runner 2099 - an upcoming TV miniseries coming to Amazon Prime Video, acting as a sequel to Blade Runner (1982) and Blade Runner 2049 (2017) - might be getting a video game. And a 'triple-A' video game, at that. A…
+- **17.11 · Rock Paper Shotgun** — [Embracer begin yet another round of layoffs at Crystal Dynamics, while they're still midway through development on two Tomb Raider games](https://www.rockpapershotgun.com/embracer-begin-yet-another-round-of-layoffs-at-crystal-dynamics-while-theyre-still-midway-through-development-on-two-tomb-raider-games) _(severance)_
+  Update 18/11: Crystal Dynamics have provided the following statement to RPS, confirming it cut eight staff members: "Crystal Dynamics made a difficult, but necessary business decision to reduce our current studio staff …
+- **21.11 · Polygon** — [5 Years Later, 'Yellowjackets' Officially Solves One of Its Last Huge Mysteries](https://www.polygon.com/yellowjackets-season-4-plane-crash-location/) _(Yellowjackets)_
+  The location where the Yellowjackets crash-landed has been a hot topic of discussion for years. 'Yellowjackets' season 4 has the answers.
+- **21.11 · GamesRadar** — [Blade Runner 2099 showrunner turned to Ridley Scott to answer canon questions: "I needed the Bible for our show"](https://www.gamesradar.com/entertainment/sci-fi-shows/blade-runner-2099-showrunner-turned-to-ridley-scott-to-answer-canon-questions-i-needed-the-bible-for-our-show-and-that-was-ridley/) _(Blade Runner 2099)_
+  Ridley Scott is the closest thing to Blade Runner's loremaster
+- **20.11 · GamesRadar** — [Jennifer Lawrence and Josh Hutcherson returning as Katniss and Peeta in Sunrise on the Reaping made the cast "giddy"](https://www.gamesradar.com/entertainment/action-movies/jennifer-lawrence-and-josh-hutcherson-returning-as-katniss-and-peeta-in-the-hunger-games-sunrise-on-the-reaping-made-the-cast-giddy/) _(The Hunger Games: Sunrise on the Reaping)_
+  Exclusive: Francis Lawrence and the cast of The Hunger Games: Sunrise on the Reaping talk bringing back Jennifer Lawrence and Josh Hutcherson
+- **20.11 · GamesRadar** — [Avengers: Doomsday sounds like the darkest Marvel movie yet, which is why it needs a pinch of Deadpool & Wolverine](https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-sounds-like-the-darkest-marvel-movie-yet-which-is-why-it-needs-a-pinch-of-deadpool-and-wolverine/) _(Avengers: Doomsday)_
+  On the road to Avengers: Doomsday, Deadpool & Wolverine demonstrates how to add some light to the backdrop of universes being destroyed
+- **21.11 · Anime News Network** — [Japanese Animation TV Ranking, November 9-15](https://www.animenewsnetwork.com/news/2026-11-21/japanese-animation-tv-ranking-november-9-15/.244015) _(The Apothecary Diaries)_
+  The Apothecary Diaries season 3 earns 4.0% rating
+- **20.11 · Anime News Network** — [North American Anime, Manga Releases, November 15-21](https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879) _(Jujutsu Kaisen)_
+  Jujutsu Kaisen: Hidden Inventory / Premature Death – The Movie anime; BECK, Heroes, Love is Money manga ship
+- **20.11 · Anime News Network** — [Reincarnated as a Sword Season 2 ‒ Episode 8](https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-8/.243973) _(Reincarnated as a Sword)_
+  In the name of efficiency, I'm fine with this being a way to get Teacher, Fran, and the others into prison so that they can then get broken out of prison by new characters.
+- **20.11 · Anime News Network** — [Planning the Cosmic Era with Mobile Suit Gundam Seed FREEDOM ZERO Producer Kaori Shida](https://www.animenewsnetwork.com/convention/2026/all-the-news-and-reviews-from-new-york-comic-con/planning-the-cosmic-era-with-mobile-suit-gundam-seed-freedom-zero-producer-kaori-shida/.243502) _(Gundam Seed FREEDOM ZERO)_
+  Shida shares insights into what to expect from the upcoming film and how it fits into the broader Gundam Seed universe.
+- **19.11 · Anime News Network** — [Rakuen Tsuihō -Expelled from Paradise- Kokoro no Resonance Film Opens at #5 in Japan](https://www.animenewsnetwork.com/news/2026-11-19/rakuen-tsuiho-expelled-from-paradise-kokoro-no-resonance-film-opens-at-no.5-in-japan/.243961) _(Godzilla Minus Zero)_
+  Godzilla Minus Zero stays at #1, becomes highest-earning live-action IMAX film in Japan
+- **18.11 · Anime News Network** — [Frieren Joins Mahjong Soul Game for Limited-Time Crossover](https://www.animenewsnetwork.com/interest/2026-11-17/frieren-joins-mahjong-soul-game-for-limited-time-crossover/.243854) _(Frieren)_
+  Frieren is taking another several years to learn the popular tile-based game
+- **18.11 · Anime News Network** — [Sakamoto Days Season 2's Trailer Unveils More Cast, Opening Song, January 18 Debut](https://www.animenewsnetwork.com/news/2026-11-17/sakamoto-days-season-2-trailer-unveils-more-cast-opening-song-january-18-debut/.243925) _(Sakamoto Days)_
+  Kenyū Horiuchi, Kishō Taniyama join cast with Creepy Nuts performing opening song
+- **17.11 · Anime News Network** — [Black Clover Season 2 ‒ Episode 177](https://www.animenewsnetwork.com/review/black-clover-season-2/episode-177/.243822) _(Black Clover)_
+  Yuno might be a prince, but Noelle’s a downright slay queen. Good for her!
+- **17.11 · Anime News Network** — [Overgeared ‒ Episode 8](https://www.animenewsnetwork.com/review/overgeared/episode-8/.243842) _(Overgeared)_
+  With how much Grid hates playing with others, it should be pretty funny to see how he handles being forced into a group
+- **17.11 · Anime News Network** — [The Game Awards 2026 Reveals Nominees](https://www.animenewsnetwork.com/news/2026-11-17/the-game-awards-2026-reveals-nominees/.243915) _(Resident Evil Requiem)_
+  The Legend of Zelda: Ocarina of Time , Resident Evil Requiem , more games earn nominations
+- **17.11 · Anime News Network** — [Firefly Wedding ‒ Episodes 5-6](https://www.animenewsnetwork.com/review/firefly-wedding/episodes-5-6/.243894) _(Firefly Wedding)_
+  If the characters were transplanted into modern-day, Satoko would be the new girl and Shinpei the handsome, untouchable popular boy.
+- **17.11 · Anime News Network** — [Gundam Seed Freedom Zero & Fool Night Stand Back-to-Back in Crossover Art](https://www.animenewsnetwork.com/interest/2026-11-16/gundam-seed-freedom-zero-and-fool-night-stand-back-to-back-in-crossover-art/.243892) _(Gundam Seed Freedom Zero)_
+  Two “seeds” come together before their respective releases
+- **16.11 · Anime News Network** — [Godzilla Minus Zero Earns US$8 Million in 73% Drop at U.S. Box Office, Passes US$100 Million Worldwide](https://www.animenewsnetwork.com/news/2026-11-16/godzilla-minus-zero-earns-usd8-million-in-73-percent-drop-at-u.s-box-office-passes-usd100-million-/.243859) _(Godzilla Minus Zero)_
+  Live-action Street Fighter ranks at #16 in U.S.
+- **16.11 · Anime News Network** — [Blue Box Season 2 ‒ Episode 6](https://www.animenewsnetwork.com/review/blue-box-season-2/episode-6/.243837) _(Blue Box)_
+  Taiki and Chinatsu have hugged each other, everybody, and on Christmas Eve, no less. We can only pray that these crazy kids were smart enough to use contraceptives.
+- **21.11 · TVLine** — [The Rings Of Power Season 3: Who Is Landroval, The Prince Of Eagles?](https://www.tvline.com/2318884/the-rings-of-power-season-3-landroval-prince-of-eagles-explained/) _(The Rings Of Power)_
+  Yes, it happened again: An eagle turned up to save the day in The Rings of Power. But just who is Landroval, and what's his role in the history of Middle-earth?
+- **20.11 · TVLine** — [Percy Jackson EPs Break Down Percy And Annabeth's First Dance, Explain How Season 3 Honors The Duo's 'Connection'](https://www.tvline.com/2323892/percy-jackson-season-3-percy-annabeth-first-dance-song-explained/) _(Percy Jackson and the Olympians)_
+  The team behind Percy Jackson and the Olympians discusses that big premiere moment for Percy and Annabeth - one of their few scenes together in Season 3.
 
 ## Источники
-- PC Gamer: ок, подходящих 3
-- GameSpot: ок, подходящих 9
-- Eurogamer: ок, подходящих 11
-- Rock Paper Shotgun: ок, подходящих 4
-- VGC: ок, подходящих 1
-- Polygon: ок, подходящих 0
-- Kotaku: ок, подходящих 1
-- GamesRadar: ок, подходящих 12
-- Anime News Network: ок, подходящих 13
-- TVLine: ок, подходящих 1
+- PC Gamer: ок, подходящих 33
+- GameSpot: ок, подходящих 23
+- Eurogamer: ок, подходящих 53
+- Rock Paper Shotgun: ок, подходящих 14
+- VGC: ок, подходящих 10
+- Polygon: ок, подходящих 4
+- Kotaku: ок, подходящих 15
+- GamesRadar: ок, подходящих 31
+- Anime News Network: ок, подходящих 16
+- TVLine: ок, подходящих 2
