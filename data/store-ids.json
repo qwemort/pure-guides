@@ -1,0 +1,89 @@
+{
+ "_note": "Публичные ID в магазинах для tools/store-stats.py. Только то, что и так видно в магазинах. Источник правды — registry.json в приватном репо; новый ID/статус — обновить здесь.",
+ "targets": [
+  {
+   "name": "PureJSON",
+   "store": "edge",
+   "id": "jgaejimgiijadilkfklimmmgacjabijd",
+   "competitor": false
+  },
+  {
+   "name": "PureJSON",
+   "store": "firefox",
+   "id": "json-viewer-formatter-purejson",
+   "competitor": false
+  },
+  {
+   "name": "PureSession",
+   "store": "edge",
+   "id": "ojfadjpeagojacihpdnbepiljnadeiio",
+   "competitor": false
+  },
+  {
+   "name": "PureSession",
+   "store": "firefox",
+   "id": "puresession-tab-manager",
+   "competitor": false
+  },
+  {
+   "name": "PureHeaders",
+   "store": "chrome",
+   "id": "flplhcopkoiihcapihkljhjaminhpink",
+   "competitor": false
+  },
+  {
+   "name": "PureHeaders",
+   "store": "edge",
+   "id": "ilodajgedphnnmafkapjcldjbjbkcmfj",
+   "competitor": false
+  },
+  {
+   "name": "PureHeaders",
+   "store": "firefox",
+   "id": "pureheaders-modify-headers",
+   "competitor": false
+  },
+  {
+   "name": "PureMock",
+   "store": "edge",
+   "id": "abdckmklfnkmimofdnbfdahnepfedjbc",
+   "competitor": false
+  },
+  {
+   "name": "PureMock",
+   "store": "firefox",
+   "id": "mock-api-responses-puremock",
+   "competitor": false
+  },
+  {
+   "name": "Pure Spoiler Shield",
+   "store": "chrome",
+   "id": "aloilpojkoblacapdlknacjiljgjibng",
+   "competitor": false
+  },
+  {
+   "name": "Pure Spoiler Shield",
+   "store": "firefox",
+   "id": "pure-spoiler-shield",
+   "competitor": false
+  },
+  {
+   "name": "GTA 6 Spoiler Blocker",
+   "store": "chrome",
+   "id": "jeiicdjopelafmfokikmaimcfhdgamem",
+   "competitor": true
+  },
+  {
+   "name": "SpoilerCub",
+   "store": "chrome",
+   "id": "nljhkjgljaihdfgohaippbpigjoicied",
+   "competitor": true
+  },
+  {
+   "name": "Spoiler Blur",
+   "store": "chrome",
+   "id": "bbaepddipmhfmcfcippikcklcmaiiboa",
+   "competitor": true
+  }
+ ]
+}

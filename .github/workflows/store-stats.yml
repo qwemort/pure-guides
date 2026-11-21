@@ -1,0 +1,30 @@
+name: store-stats
+# Раз в день: публичные цифры магазинов (пользователи, оценки, версия) -> data/store-stats.csv.
+# Перенесено из приватного pure-extensions 21.11.2026: в публичном репо минуты Actions бесплатные.
+# Только публичные данные со страниц магазинов. Изменения -> Telegram Антону (не issue: репо публичный).
+on:
+  schedule:
+    - cron: '41 5 * * *'   # 05:41 UTC
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: store-stats, cancel-in-progress: false }
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: python3 tools/store-stats.py
+      - name: Telegram on changes
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: '[ -s out/store-alerts.txt ] && node tools/notify.mjs "$(cat out/store-alerts.txt)" || true'
+      - name: Commit
+        run: |
+          git config user.name "store-stats bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/store-stats.csv
+          git diff --cached --quiet || { git commit -qm "store stats: $(date -u +%F)"; git pull --rebase -q origin "$GITHUB_REF_NAME"; git push origin "HEAD:$GITHUB_REF_NAME"; }
