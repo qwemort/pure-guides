@@ -22,11 +22,12 @@
   "date": null,
   "status": "unverified",
   "source": null,
-  "platforms": null
+  "platforms": null,
+  "wikidata_date": "1996-01-08"
  },
  "season": null,
- "wikidata": null,
- "checked": null,
+ "wikidata": "Q5363072",
+ "checked": "2026-11-21",
  "published": "2026-11-19",
  "modified": "2026-11-19",
  "words": {

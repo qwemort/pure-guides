@@ -22,11 +22,12 @@
   "date": "2026-11-20",
   "status": "confirmed",
   "source": "https://www.tomsguide.com/entertainment/movies/sunrise-on-the-reaping-movie",
-  "platforms": "in cinemas"
+  "platforms": "in cinemas",
+  "wikidata_date": "2026-10-28"
  },
  "season": null,
- "wikidata": null,
- "checked": null,
+ "wikidata": "Q126390739",
+ "checked": "2026-11-21",
  "published": "2026-11-18",
  "modified": "2026-11-18",
  "words": {
