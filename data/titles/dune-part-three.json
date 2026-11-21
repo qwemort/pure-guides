@@ -41,7 +41,6 @@
    "balanced": [
     "paul atreides",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremen",
@@ -59,7 +58,6 @@
    "balanced": [
     "paul atreides",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremen",
@@ -77,7 +75,6 @@
    "balanced": [
     "paul atreides",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremen",
@@ -95,7 +92,6 @@
    "balanced": [
     "paul atréides",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremen",
@@ -113,7 +109,6 @@
    "balanced": [
     "paul atreides",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremen",
@@ -167,7 +162,6 @@
    "balanced": [
     "paul atryda",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremeni",
@@ -185,7 +179,6 @@
    "balanced": [
     "paul atreides",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremen",
@@ -221,7 +214,6 @@
    "balanced": [
     "paul atreides",
     "muad dib",
-    "leto ii",
     "alia",
     "chani",
     "fremen",
@@ -267,7 +259,7 @@
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Dune: Part Three",

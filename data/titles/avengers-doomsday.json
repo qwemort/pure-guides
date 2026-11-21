@@ -45,7 +45,6 @@
     "thor",
     "loki",
     "captain america",
-    "steve rogers",
     "fantastic four",
     "x-men",
     "thunderbolts"
@@ -63,7 +62,6 @@
     "thor",
     "loki",
     "captain america",
-    "steve rogers",
     "die fantastischen vier",
     "x-men",
     "thunderbolts"
@@ -81,7 +79,6 @@
     "thor",
     "loki",
     "capitán américa",
-    "steve rogers",
     "los cuatro fantásticos",
     "x-men",
     "thunderbolts"
@@ -99,7 +96,6 @@
     "thor",
     "loki",
     "captain america",
-    "steve rogers",
     "les 4 fantastiques",
     "x-men",
     "thunderbolts"
@@ -117,7 +113,6 @@
     "thor",
     "loki",
     "captain america",
-    "steve rogers",
     "i fantastici quattro",
     "x-men",
     "thunderbolts"
@@ -171,7 +166,6 @@
     "thor",
     "loki",
     "kapitan ameryka",
-    "steve rogers",
     "fantastyczna czwórka",
     "x-men",
     "thunderbolts"
@@ -189,7 +183,6 @@
     "thor",
     "loki",
     "capitão américa",
-    "steve rogers",
     "quarteto fantástico",
     "x-men",
     "thunderbolts"
@@ -225,7 +218,6 @@
     "thor",
     "loki",
     "kaptan amerika",
-    "steve rogers",
     "fantastik dörtlü",
     "x-men",
     "thunderbolts"
@@ -269,7 +261,7 @@
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Avengers: Doomsday",

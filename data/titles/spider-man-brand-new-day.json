@@ -42,7 +42,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -56,7 +55,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -70,7 +68,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -84,7 +81,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -98,7 +94,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -112,7 +107,6 @@
    ],
    "balanced": [
     "ピーター・パーカー",
-    "MJ",
     "ネッド・リーズ",
     "パニッシャー"
    ]
@@ -126,7 +120,6 @@
    ],
    "balanced": [
     "피터 파커",
-    "MJ",
     "네드 리즈",
     "퍼니셔"
    ]
@@ -140,7 +133,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -154,7 +146,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -182,7 +173,6 @@
    ],
    "balanced": [
     "peter parker",
-    "mj",
     "ned leeds",
     "punisher"
    ]
@@ -210,14 +200,13 @@
    ],
    "balanced": [
     "彼得·帕克",
-    "MJ",
     "内德·利兹",
     "惩罚者"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Spider-Man: Brand New Day",
