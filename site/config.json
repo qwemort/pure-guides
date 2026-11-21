@@ -58,6 +58,6 @@
   "ClaudeBot",
   "Claude-SearchBot"
  ],
- "turnstile_sitekey": "",
- "_turnstile": "ключ сайта Turnstile — вписать на шаге 8 (Антон создаёт в Cloudflare)"
+ "turnstile_sitekey": "0x4AAAAAAGL1b_Ebmsp2za9b",
+ "_turnstile": "ключ сайта Turnstile (открытый), вписан 21.11; секретный ключ — в секрете TURNSTILE_SECRET"
 }
