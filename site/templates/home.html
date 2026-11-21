@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="ms-hero">
+<div class="ms-hero-main">
+ <h1>{{ T.h1 }}</h1>
+ <p class="t-lead">{{ T.tag }}</p>
+ <div class="ms-search" data-none="{{ T.none }}" data-req="{{ T.req }}" data-req-href="{{ req_href }}">
+  <label class="ms-vh" for="q">{{ T.label }}</label>
+  <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="{{ T.ph }}" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+  <ul id="q-list" role="listbox" hidden></ul>
+  <script type="application/json" id="q-data">{{ index | safe }}</script>
+ </div>
+ <p class="ms-chips">{% for c in chips %}<a href="{{ c.href }}">{{ c.name }}</a>{% endfor %}</p>
+</div>
+<aside class="ms-next" aria-labelledby="next-h">
+ <div class="ms-sec-head"><h2 id="next-h">{{ T.cal_h }}</h2>
+  <div class="ms-ftabs" role="group">{% for f in filters %}<button type="button" data-f="{{ f.k }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ f.label }}</button>{% endfor %}</div></div>
+ <ol class="ms-cal-list">
+ {% for r in cal %}<li data-m="{{ r.f }}"><span class="ms-cal-d"><span class="ms-st{{ ' ok' if r.confirmed else '' }}">{{ r.date }}</span></span><a href="{{ r.href }}">{{ r.name }}</a><span class="ms-cal-k">{{ r.media }}</span></li>
+ {% endfor %}</ol>
+ <p><a href="{{ cal_href }}">{{ T.cal_all }}</a></p>
+</aside>
+
+</section>
+
+<section class="ms-radar" aria-labelledby="radar-h">
+ <div class="ms-sec-head"><h2 id="radar-h">{{ T.radar_h }}</h2><p class="muted">{{ T.radar_p }}</p></div>
+ <ul class="ms-radar-grid">
+ {% for r in radar %}<li><a class="cv cv-{{ r.kind }} ms-rcard" href="{{ r.href }}">
+  <span class="cv-tag"><i class="{{ 'ok' if r.confirmed else '' }}"></i>{{ r.media }} · {{ r.trigger }}</span>
+  <span class="cv-h">{{ r.name }}</span>
+  <span class="ms-rfacts"><span>{{ r.window }}</span><span>{{ r.words }}</span></span>
+ </a></li>
+ {% endfor %}</ul>
+</section>
+
+<section class="ms-strip">
+ <p class="ms-strip-m"><span>{{ T.strip_m }}</span>{% for g in guides %}<a href="{{ g.href }}">{{ g.label }}</a>{% endfor %}</p>
+ <p class="ms-strip-d"><span>{{ T.strip_d }}</span><a class="ms-btn" href="{{ ext_href }}">{{ T.strip_btn }}</a><a href="{{ guides_href }}">{{ T.strip_phone }}</a></p>
+</section>
+
+<section class="ms-cat" aria-labelledby="cat-h">
+ <div class="ms-sec-head"><h2 id="cat-h">{{ T.cat_h }}</h2></div>
+ <ul class="ms-cat-grid">{% for m in media %}<li><a class="ms-tile tg-{{ m.k }}" href="{{ m.href }}"><span class="ms-tlabel">{{ m.label }}</span><span class="ms-tcount">{{ m.count }}</span></a></li>{% endfor %}</ul>
+ <p class="ms-pulse muted">{{ pulse }}</p>
+</section>
+{% endblock %}
+
+{% block scripts %}<script src="/ms-home.js" defer></script>{% endblock %}

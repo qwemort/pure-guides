@@ -120,10 +120,51 @@ def hubs(titles, sitemap):
                 months.setdefault((c['d'].year, c['d'].month), []).append({**c, 'date': titlepage.fmt(s, c['d']), 'media': HUBS[lang][t['media'] + '_h']})
         ml = [{'label': f"{s['months'][m - 1]} {y}", 'rows': sorted(r, key=lambda x: x['d'])} for (y, m), r in sorted(months.items())]
         page('calendar', Hs['cal_h'], Hs['cal_p'], [], tpl='calendar.html', months=ml, unconf=Hs['unconf'])
-        home = lambda l: f'{prefix(l)}/'
-        write(home(lang), env.get_template('hub.html').render(**base_ctx(home), title='mutespoilers', description=Hs['up_p'], canonical=BASE + home(lang),
-                                                              h1='mutespoilers', intro=Hs['up_p'], groups=[{'h': '', 'cards': up}], side_links=links()))
-        sitemap.setdefault(lang, []).append((BASE + home(lang), None))
+        home_page(lang, s, Hs, live, cards, today, titles)
+        sitemap.setdefault(lang, []).append((BASE + prefix(lang) + '/', None))
+
+
+def home_page(lang, s, Hs, live, cards, today, titles):
+    """Шаг 5: главная. Фиксированный бюджет: 6 карточек радара, ≤8 строк календаря, 4 плитки, ~45 ссылок."""
+    import datetime as dt
+    T, P = Hs['home'], prefix(lang)
+    vocab_n = len(VOCAB.get(lang, VOCAB['en']))
+    def words_n(t):
+        w = t['words'][lang]; f = w.get('basic', [])
+        return min(len(f), 3) * vocab_n + len(f) + len(w.get('balanced', []))
+    def win(c):
+        d = c['d']
+        if d is None: return ''
+        if d <= today: return T['frm'].format(d=titlepage.fmt(s, d - dt.timedelta(days=4)))
+        return T['frm'].format(d=titlepage.fmt(s, d - dt.timedelta(days=4)))
+    pairs = [(c, t) for c, t in zip(cards, live) if c['d'] and -21 <= (c['d'] - today).days <= 45]
+    pairs.sort(key=lambda p: abs((p[0]['d'] - today).days))
+    radar = []
+    for c, t in pairs[:6]:
+        n = (c['d'] - today).days
+        trig = T['out'] if n < 0 else (T['today'] if n == 0 else T['in_d'].format(n=n))
+        radar.append({**c, 'media': Hs[t['media'] + '_h'], 'trigger': trig, 'window': win(c), 'words': T['words'].format(n=words_n(t))})
+    radar.sort(key=lambda r: r['d'])
+    fmap = {'games': 'g', 'movies': 'mt', 'tv': 'mt', 'anime': 'an'}
+    cal = sorted(({**c, 'date': titlepage.fmt(s, c['d']), 'media': Hs[t['media'] + '_h'], 'f': fmap[t['media']]}
+                  for c, t in zip(cards, live) if c['d'] and 0 <= (c['d'] - today).days <= 30), key=lambda r: r['d'])[:8]
+    index = []
+    for c, t in zip(cards, live):
+        al = set(t['names'].values()) | {t['slug'].replace('-', ' ')}
+        for w in t['words'].values(): al |= set(w.get('basic', []))
+        index.append({'n': c['name'], 'a': sorted(al), 'u': c['href'], 'm': Hs[t['media'] + '_h'], 'd': titlepage.fmt(s, c['d'], False, True) if c['d'] else ''})
+    chips = [{'href': r['href'], 'name': r['name']} for r in sorted(radar, key=lambda r: len(r['name'])) if len(r['name']) <= 22][:5]
+    media = [{'k': m, 'href': f'{P}/{m}/', 'label': Hs[m + '_h'], 'count': sum(1 for t in live if t['media'] == m)} for m in C['media']]
+    conf = sum(1 for t in live if t['release'].get('status') == 'confirmed')
+    pulse = T['pulse'].format(n=len(live), c=conf, d=titlepage.fmt(s, today, False, True))
+    guides = [{'href': f'{P}/guides/{k}/', 'label': v} for k, v in (('x', 'X'), ('tiktok', 'TikTok'), ('instagram', 'Instagram'), ('threads', 'Threads'), ('bluesky', 'Bluesky'), ('youtube', 'YouTube'))]
+    home = lambda l: f'{prefix(l)}/'
+    ctx = {**common(lang, C['wave0'], home), 'main_class': 'ms-home'}
+    html = env.get_template('home.html').render(**ctx, title=T['title'], description=T['desc'], canonical=BASE + home(lang), T=T,
+        index=json.dumps(index, ensure_ascii=False).replace('</', '<\\/'), chips=chips, radar=radar, cal=cal, media=media, pulse=pulse, guides=guides,
+        filters=[{'k': 'all', 'label': T['all']}, {'k': 'g', 'label': T['g']}, {'k': 'mt', 'label': T['mt']}, {'k': 'an', 'label': T['an']}],
+        req_href=f'{P}/request/', ext_href=f'{P}/extension/', guides_href=f'{P}/guides/', cal_href=f'{P}/calendar/')
+    write(home(lang), html)
 
 
 def main():
