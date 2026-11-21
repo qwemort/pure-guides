@@ -22,7 +22,7 @@ jobs:
         with: { name: mutespoilers-dist, path: dist, retention-days: 7 }
   deploy:
     # Шаг 8: выкладка на Cloudflare Pages (mutespoilers.pages.dev, закрыт от Google заголовком из _headers).
-    # Включается сама, когда в секретах репо есть CLOUDFLARE_API_TOKEN и CLOUDFLARE_ACCOUNT_ID.
+    # Включается сама, когда в секретах репо есть CLOUDFLARE_API_TOKEN.
     needs: build
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
@@ -30,13 +30,13 @@ jobs:
     concurrency: { group: ms-deploy, cancel-in-progress: false }
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_ACCOUNT_ID: 46c19d640541b2912a55b2acacf1a94e   # номер аккаунта не секретный
       PROJECT: mutespoilers
     steps:
       - name: Есть ли ключ Cloudflare
         id: gate
         run: |
-          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"
           else echo "Ключа Cloudflare нет — выкладку пропускаю." | tee -a "$GITHUB_STEP_SUMMARY"; fi
       - if: steps.gate.outputs.ok == '1'
         uses: actions/checkout@v5
