@@ -11,6 +11,8 @@ import json, shutil, sys
 from pathlib import Path
 from xml.sax.saxutils import escape
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import titlepage
 
 R = Path(__file__).resolve().parent.parent
 SITE = R / 'site'
@@ -55,6 +57,7 @@ def common(lang, page_langs, path_of):
         footer_langs=[{'code': l, 'label': LABELS.get(l, l), 'href': path_of(l)} for l in page_langs],
         hreflang=[{'code': l, 'href': BASE + path_of(l)} for l in page_langs] if len(page_langs) > 1 else [],
         x_default=BASE + path_of('en'),
+        copied=S(lang).get('copied', 'Copied'), og_image=BASE + '/img/og.png', nav_label='Sections', main_class='', jsonld='',
     )
 
 
@@ -77,6 +80,13 @@ def release_text(t, lang, s):
 def main():
     if DIST.exists():
         shutil.rmtree(DIST)
+    DIST.mkdir()
+    for f in ('style.css', 'title.css', 'title.js'):          # утверждённый вид A: общие файлы старого сайта
+        shutil.copy(R / f, DIST / f)
+    for f in (SITE / 'static').iterdir():
+        shutil.copy(f, DIST / f.name)
+    shutil.copytree(R / 'fonts', DIST / 'fonts', ignore=shutil.ignore_patterns('*.txt'))
+    (DIST / 'img').mkdir(); shutil.copy(R / 'img/og.png', DIST / 'img/og.png')
     titles = [json.loads(p.read_text(encoding='utf-8')) for p in sorted((R / 'data/titles').glob('*.json'))]
     sitemap = {}          # lang -> [(loc, lastmod)]
     count = 0
@@ -86,20 +96,16 @@ def main():
             print('пропуск (нет EN):', t['slug']); continue
         path_of = lambda l, t=t: f"{prefix(l)}/{t['media']}/{t['slug']}/"
         for lang in langs:
-            s, tx, hl = S(lang), t['texts'][lang], hub_lang(lang)
+            s, hl = S(lang), hub_lang(lang)
             name = t['names'].get(lang) or t['names']['en']
-            w = t['words'][lang]
-            html = env.get_template('title.html').render(
-                **common(lang, langs, path_of),
-                title=s['h1'].format(name=name), description=tx.get('desc', ''), canonical=BASE + path_of(lang),
-                h1=s['h1'].format(name=name), name=name, lead=tx.get('lead', ''), S=s,
-                why_h=tx.get('why_h', ''), why=tx.get('why', ''),
-                words={'basic': w.get('basic', []), 'balanced': w.get('balanced', []), 'max': VOCAB.get(lang, VOCAB['en'])},
-                release_text=release_text(t, lang, s),
-                checked_line=f"{t.get('checked') or t.get('modified') or ''}",
-                crumbs={'home': prefix(hl) + '/', 'home_label': C['home'].get(hl, 'Home'),
-                        'media': f"{prefix(hl)}/{t['media']}/", 'media_label': C['media'][t['media']].get(hl, C['media'][t['media']]['en'])},
-            )
+            main_html, info = titlepage.render_main(t, lang, s, titles, lambda o, l: f"{prefix(l)}/{o['media']}/{o['slug']}/")
+            crumbs = {'home': prefix(hl) + '/', 'home_label': C['home'].get(hl, 'Home'),
+                      'media': f"{prefix(hl)}/{t['media']}/", 'media_label': C['media'][t['media']].get(hl, C['media'][t['media']]['en'])}
+            ctx = common(lang, langs, path_of); ctx['main_class'] = 't-wrap ms-title'
+            ctx['jsonld'] = titlepage.jsonld(t, lang, info, BASE + path_of(lang),
+                                             [(crumbs['home_label'], crumbs['home']), (crumbs['media_label'], crumbs['media']), (name, path_of(lang))], BASE)
+            html = env.get_template('title.html').render(**ctx, title=info['title'], description=info['desc'], canonical=BASE + path_of(lang),
+                                                         name=name, main_html=main_html, crumbs=crumbs)
             write(path_of(lang), html)
             sitemap.setdefault(lang, []).append((BASE + path_of(lang), t.get('modified') or t.get('published')))
             count += 1
