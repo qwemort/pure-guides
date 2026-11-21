@@ -17,13 +17,15 @@ const post = JSON.parse(fs.readFileSync(pi > 0 ? path.resolve(process.argv[pi + 
 const me = await call(`${G}/me?fields=id,username&access_token=${encodeURIComponent(T)}`);
 if (process.argv.includes('--publish')) {
   // картинка должна уже открываться по публичной ссылке (GitHub Pages)
-  for (let i = 0; i < 20; i++) { const r = await fetch(post.image, { method: 'HEAD' }); if (r.ok) break; await new Promise((s) => setTimeout(s, 15000)); }
-  const q = new URLSearchParams({ media_type: 'IMAGE', image_url: post.image, text: post.threads, access_token: T });
+  if (post.image) for (let i = 0; i < 20; i++) { const r = await fetch(post.image, { method: 'HEAD' }); if (r.ok) break; await new Promise((s) => setTimeout(s, 15000)); }
+  const q = post.image ? new URLSearchParams({ media_type: 'IMAGE', image_url: post.image, text: post.threads, access_token: T })
+    : new URLSearchParams({ media_type: 'TEXT', text: post.threads, access_token: T });   // пост без картинки (автопосты перед релизами)
   const c = await call(`${G}/${me.id}/threads?${q}`, 'POST');
   await new Promise((s) => setTimeout(s, 35000));
   const p = await call(`${G}/${me.id}/threads_publish?${new URLSearchParams({ creation_id: c.id, access_token: T })}`, 'POST');
   console.log(`опубликовано в Threads @${me.username}: ${p.id}`);
-  fs.writeFileSync(path.join(ROOT, 'out', 'threads-result.txt'), `опубликовано @${me.username}, id ${p.id}`);
+  let link = ''; try { link = (await call(`${G}/${p.id}?fields=permalink&access_token=${encodeURIComponent(T)}`)).permalink || ''; } catch {}
+  fs.writeFileSync(path.join(ROOT, 'out', 'threads-result.txt'), `опубликовано @${me.username}, id ${p.id}${link ? ' ' + link : ''}`);
 } else {
   console.log(`токен рабочий, аккаунт @${me.username}`);
   fs.writeFileSync(path.join(ROOT, 'out', 'threads-result.txt'), `токен рабочий (@${me.username}), автопостинг выключен — это черновик`);

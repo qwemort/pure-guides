@@ -3,7 +3,7 @@ name: notify-runs
 # любой сбой — сразу; еженедельные задачи — «готово». Тексты индекса и отчёта шлют сами workflow.
 on:
   workflow_run:
-    workflows: [spoiler-index, spoiler-danger, weekly-report, threads-stats, store-rank, mutelists, demo-media, news]
+    workflows: [spoiler-index, spoiler-danger, weekly-report, threads-stats, store-rank, mutelists, demo-media, news, release-posts]
     types: [completed]
 permissions:
   contents: read

@@ -1,0 +1,55 @@
+name: release-posts
+# Полный автомат (решение Антона 21.11.2026): за 4, 3, 2 и 1 день до релиза тайтла (data/titles, дата confirmed)
+# пишет пост голосом Антона (GitHub Models / Gemini) в queue/<дата>.json; публикует scheduled-post (~04:20 UTC).
+# По понедельникам — сводка в Telegram: что вышло за неделю, посмотреть в Threads.
+on:
+  schedule:
+    - cron: '47 2 * * *'   # каждый день, до scheduled-post
+    - cron: '13 8 * * 1'   # понедельник: сводка за неделю
+  workflow_dispatch:
+    inputs:
+      date: { description: 'Дата ГГГГ-ММ-ДД (пусто = сегодня)', default: '' }
+      dry: { description: 'Только показать текст, не класть в очередь (true/false)', default: 'true' }
+      week: { description: 'Прислать недельную сводку (true/false)', default: 'false' }
+permissions:
+  contents: write
+  models: read
+concurrency: { group: release-posts, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Weekly summary
+        if: github.event.schedule == '13 8 * * 1' || github.event.inputs.week == 'true'
+        run: |
+          node tools/release-posts.mjs --week
+          [ -s out/release-week.txt ] && node tools/notify.mjs "$(cat out/release-week.txt)" || true
+      - name: Post for today
+        if: github.event.schedule == '47 2 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.week != 'true')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DATE: ${{ github.event.inputs.date }}
+          DRY: ${{ github.event.inputs.dry || 'false' }}
+        run: |
+          ARGS=""
+          [ -n "$DATE" ] && ARGS="--date $DATE"
+          [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
+          node tools/release-posts.mjs $ARGS | tee out/release-log.txt
+          { echo '```'; cat out/release-log.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          [ -f out/release-fail.txt ] && node tools/notify.mjs "$(cat out/release-fail.txt)" || true
+          [ "$DRY" = "true" ] && exit 0
+          git config user.name "release-posts bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add queue
+          git diff --cached --quiet && exit 0
+          git commit -qm "release post: $(date -u +%F)"
+          git pull --rebase -q origin main
+          git push
