@@ -1,0 +1,307 @@
+{
+ "id": "percy-jackson",
+ "slug": "percy-jackson",
+ "media": "tv",
+ "url": "/tv/percy-jackson/",
+ "names": {
+  "en": "Percy Jackson and the Olympians",
+  "ru": "Перси Джексон и олимпийцы",
+  "uk": "Персі Джексон і олімпійці",
+  "pl": "Percy Jackson i bogowie olimpijscy",
+  "de": "Percy Jackson: Die Serie",
+  "fr": "Percy Jackson et les Olympiens",
+  "es": "Percy Jackson y los dioses del Olimpo",
+  "it": "Percy Jackson e gli dei dell'Olimpo",
+  "pt-BR": "Percy Jackson e os Olimpianos",
+  "tr": "Percy Jackson ve Olimposlular",
+  "ja": "パーシー・ジャクソンとオリンポスの神々",
+  "ko": "퍼시 잭슨과 올림포스의 신들",
+  "zh-CN": "波西·杰克逊与奥林匹斯众神"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson season 2",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "de": {
+   "basic": [
+    "percy jackson: die serie",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "es": {
+   "basic": [
+    "percy jackson y los dioses del olimpo",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "percy jackson et les olympiens",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "it": {
+   "basic": [
+    "percy jackson e gli dei dell'olimpo",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "パーシー・ジャクソンとオリンポスの神々",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "アナベス",
+    "グローバー",
+    "ルーク・カステラン",
+    "タレイア"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "퍼시 잭슨과 올림포스의 신들",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "애나베스",
+    "그로버",
+    "루크 카스텔란",
+    "탈리아"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "percy jackson i bogowie olimpijscy",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "percy jackson e os olimpianos",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "перси джексон и олимпийцы",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "аннабет",
+    "гровер",
+    "люк кастеллан",
+    "талия"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "percy jackson ve olimposlular",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "annabeth",
+    "grover",
+    "luke castellan",
+    "thalia"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "персі джексон і олімпійці",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "аннабет",
+    "ґровер",
+    "люк кастеллан",
+    "талія"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "波西·杰克逊与奥林匹斯众神",
+    "percy jackson series",
+    "percy jackson and the olympians",
+    "percy jackson disney+"
+   ],
+   "balanced": [
+    "安娜贝丝",
+    "格洛弗",
+    "卢克·卡斯特兰",
+    "塔莉亚"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Percy Jackson and the Olympians"
+  },
+  "ru": {
+   "name": "Перси Джексон и олимпийцы"
+  },
+  "uk": {
+   "name": "Персі Джексон і олімпійці"
+  },
+  "pl": {
+   "name": "Percy Jackson i bogowie olimpijscy"
+  },
+  "de": {
+   "name": "Percy Jackson: Die Serie"
+  },
+  "fr": {
+   "name": "Percy Jackson et les Olympiens"
+  },
+  "es": {
+   "name": "Percy Jackson y los dioses del Olimpo"
+  },
+  "it": {
+   "name": "Percy Jackson e gli dei dell'Olimpo"
+  },
+  "pt-BR": {
+   "name": "Percy Jackson e os Olimpianos"
+  },
+  "tr": {
+   "name": "Percy Jackson ve Olimposlular"
+  },
+  "ja": {
+   "name": "パーシー・ジャクソンとオリンポスの神々"
+  },
+  "ko": {
+   "name": "퍼시 잭슨과 올림포스의 신들"
+  },
+  "zh-CN": {
+   "name": "波西·杰克逊与奥林匹斯众神"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-percy-jackson-spoilers.html",
+   "block/percy-jackson.html",
+   "mute-list/percy-jackson.html"
+  ],
+  "de": [
+   "avoid-percy-jackson-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-percy-jackson-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-percy-jackson-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-percy-jackson-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-percy-jackson-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-percy-jackson-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-percy-jackson-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-percy-jackson-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-percy-jackson-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-percy-jackson-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-percy-jackson-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-percy-jackson-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-percy-jackson-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

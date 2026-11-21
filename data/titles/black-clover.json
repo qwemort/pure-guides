@@ -1,0 +1,307 @@
+{
+ "id": "black-clover",
+ "slug": "black-clover",
+ "media": "anime",
+ "url": "/anime/black-clover/",
+ "names": {
+  "en": "Black Clover",
+  "ru": "Чёрный клевер",
+  "uk": "Чорна конюшина",
+  "pl": "Black Clover",
+  "de": "Black Clover",
+  "fr": "Black Clover",
+  "es": "Black Clover",
+  "it": "Black Clover",
+  "pt-BR": "Black Clover",
+  "tr": "Black Clover",
+  "ja": "ブラッククローバー",
+  "ko": "블랙 클로버",
+  "zh-CN": "黑色五叶草"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "de": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "es": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "it": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ブラッククローバー",
+    "black clover",
+    "black clover anime",
+    "black bulls"
+   ],
+   "balanced": [
+    "アスタ",
+    "ユノ",
+    "ヤミ",
+    "ルシウス・ゾグラティス"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "블랙 클로버",
+    "black clover",
+    "black clover anime",
+    "black bulls"
+   ],
+   "balanced": [
+    "아스타",
+    "유노",
+    "야미",
+    "루시우스 조그라티스"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "чёрный клевер",
+    "black clover",
+    "black clover anime",
+    "black bulls"
+   ],
+   "balanced": [
+    "аста",
+    "юно",
+    "ями",
+    "люциус зогратис"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "black clover",
+    "black clover anime",
+    "black clover season 5",
+    "black bulls"
+   ],
+   "balanced": [
+    "asta",
+    "yuno",
+    "yami",
+    "lucius zogratis"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "чорна конюшина",
+    "black clover",
+    "black clover anime",
+    "black bulls"
+   ],
+   "balanced": [
+    "аста",
+    "юно",
+    "ямі",
+    "люціус зоґратіс"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "黑色五叶草",
+    "black clover",
+    "black clover anime",
+    "black bulls"
+   ],
+   "balanced": [
+    "亚斯塔",
+    "尤诺",
+    "夜见",
+    "路西乌斯·佐格拉提斯"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Black Clover"
+  },
+  "ru": {
+   "name": "Чёрный клевер"
+  },
+  "uk": {
+   "name": "Чорна конюшина"
+  },
+  "pl": {
+   "name": "Black Clover"
+  },
+  "de": {
+   "name": "Black Clover"
+  },
+  "fr": {
+   "name": "Black Clover"
+  },
+  "es": {
+   "name": "Black Clover"
+  },
+  "it": {
+   "name": "Black Clover"
+  },
+  "pt-BR": {
+   "name": "Black Clover"
+  },
+  "tr": {
+   "name": "Black Clover"
+  },
+  "ja": {
+   "name": "ブラッククローバー"
+  },
+  "ko": {
+   "name": "블랙 클로버"
+  },
+  "zh-CN": {
+   "name": "黑色五叶草"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-black-clover-spoilers.html",
+   "block/black-clover.html",
+   "mute-list/black-clover.html"
+  ],
+  "de": [
+   "avoid-black-clover-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-black-clover-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-black-clover-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-black-clover-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-black-clover-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-black-clover-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-black-clover-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-black-clover-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-black-clover-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-black-clover-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-black-clover-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-black-clover-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-black-clover-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

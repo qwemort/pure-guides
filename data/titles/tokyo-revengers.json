@@ -1,0 +1,307 @@
+{
+ "id": "tokyo-revengers",
+ "slug": "tokyo-revengers",
+ "media": "anime",
+ "url": "/anime/tokyo-revengers/",
+ "names": {
+  "en": "Tokyo Revengers",
+  "ru": "Токийские мстители",
+  "uk": "Токійські месники",
+  "pl": "Tokyo Revengers",
+  "de": "Tokyo Revengers",
+  "fr": "Tokyo Revengers",
+  "es": "Tokyo Revengers",
+  "it": "Tokyo Revengers",
+  "pt-BR": "Tokyo Revengers",
+  "tr": "Tokyo Revengers",
+  "ja": "東京リベンジャーズ",
+  "ko": "도쿄 리벤저스",
+  "zh-CN": "东京复仇者"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "de": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "es": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "it": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "東京リベンジャーズ",
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "toman"
+   ],
+   "balanced": [
+    "武道",
+    "マイキー",
+    "ドラケン",
+    "日向"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "도쿄 리벤저스",
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "toman"
+   ],
+   "balanced": [
+    "타케미치",
+    "마이키",
+    "드라켄",
+    "히나타"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "токийские мстители",
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "toman"
+   ],
+   "balanced": [
+    "такемичи",
+    "майки",
+    "дракен",
+    "хината"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "tokyo revengers season 4",
+    "toman"
+   ],
+   "balanced": [
+    "takemichi",
+    "mikey",
+    "draken",
+    "hinata"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "токійські месники",
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "toman"
+   ],
+   "balanced": [
+    "такемічі",
+    "майкі",
+    "дракен",
+    "хіната"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "东京复仇者",
+    "tokyo revengers",
+    "tokyo revengers anime",
+    "toman"
+   ],
+   "balanced": [
+    "武道",
+    "万次郎",
+    "龙宫寺坚",
+    "日向"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Tokyo Revengers"
+  },
+  "ru": {
+   "name": "Токийские мстители"
+  },
+  "uk": {
+   "name": "Токійські месники"
+  },
+  "pl": {
+   "name": "Tokyo Revengers"
+  },
+  "de": {
+   "name": "Tokyo Revengers"
+  },
+  "fr": {
+   "name": "Tokyo Revengers"
+  },
+  "es": {
+   "name": "Tokyo Revengers"
+  },
+  "it": {
+   "name": "Tokyo Revengers"
+  },
+  "pt-BR": {
+   "name": "Tokyo Revengers"
+  },
+  "tr": {
+   "name": "Tokyo Revengers"
+  },
+  "ja": {
+   "name": "東京リベンジャーズ"
+  },
+  "ko": {
+   "name": "도쿄 리벤저스"
+  },
+  "zh-CN": {
+   "name": "东京复仇者"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-tokyo-revengers-spoilers.html",
+   "block/tokyo-revengers.html",
+   "mute-list/tokyo-revengers.html"
+  ],
+  "de": [
+   "avoid-tokyo-revengers-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-tokyo-revengers-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-tokyo-revengers-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-tokyo-revengers-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-tokyo-revengers-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-tokyo-revengers-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-tokyo-revengers-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-tokyo-revengers-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-tokyo-revengers-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-tokyo-revengers-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-tokyo-revengers-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-tokyo-revengers-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-tokyo-revengers-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

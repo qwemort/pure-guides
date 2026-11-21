@@ -1,0 +1,307 @@
+{
+ "id": "the-chosen",
+ "slug": "the-chosen",
+ "media": "tv",
+ "url": "/tv/the-chosen/",
+ "names": {
+  "en": "The Chosen",
+  "ru": "Избранные",
+  "uk": "Обрані",
+  "pl": "The Chosen",
+  "de": "The Chosen",
+  "fr": "The Chosen",
+  "es": "The Chosen",
+  "it": "The Chosen",
+  "pt-BR": "The Chosen: Os Escolhidos",
+  "tr": "The Chosen",
+  "ja": "ザ・チョーズン",
+  "ko": "더 초즌",
+  "zh-CN": "拣选"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "the chosen",
+    "the chosen season 6",
+    "the chosen series",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "de": {
+   "basic": [
+    "the chosen",
+    "the chosen season 6",
+    "the chosen series",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "es": {
+   "basic": [
+    "the chosen",
+    "the chosen season 6",
+    "the chosen series",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "the chosen",
+    "the chosen season 6",
+    "the chosen series",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "it": {
+   "basic": [
+    "the chosen",
+    "the chosen season 6",
+    "the chosen series",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ザ・チョーズン",
+    "the chosen",
+    "the chosen season 6",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "ジョナサン・ルーミー",
+    "ユダ",
+    "シモン・ペトロ",
+    "マグダラのマリア"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "더 초즌",
+    "the chosen",
+    "the chosen season 6",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "조너선 루미",
+    "유다",
+    "시몬 베드로",
+    "막달라 마리아"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "the chosen",
+    "the chosen season 6",
+    "the chosen series",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "the chosen: os escolhidos",
+    "the chosen",
+    "the chosen season 6",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "избранные",
+    "the chosen",
+    "the chosen season 6",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "джонатан руми",
+    "иуда",
+    "симон пётр",
+    "мария магдалина"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "the chosen",
+    "the chosen season 6",
+    "the chosen series",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "jonathan roumie",
+    "judas",
+    "simon peter",
+    "mary magdalene"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "обрані",
+    "the chosen",
+    "the chosen season 6",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "джонатан румі",
+    "юда",
+    "симон петро",
+    "марія магдалина"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "拣选",
+    "the chosen",
+    "the chosen season 6",
+    "the chosen last supper"
+   ],
+   "balanced": [
+    "乔纳森·鲁米",
+    "犹大",
+    "西门彼得",
+    "抹大拉的马利亚"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "The Chosen"
+  },
+  "ru": {
+   "name": "Избранные"
+  },
+  "uk": {
+   "name": "Обрані"
+  },
+  "pl": {
+   "name": "The Chosen"
+  },
+  "de": {
+   "name": "The Chosen"
+  },
+  "fr": {
+   "name": "The Chosen"
+  },
+  "es": {
+   "name": "The Chosen"
+  },
+  "it": {
+   "name": "The Chosen"
+  },
+  "pt-BR": {
+   "name": "The Chosen: Os Escolhidos"
+  },
+  "tr": {
+   "name": "The Chosen"
+  },
+  "ja": {
+   "name": "ザ・チョーズン"
+  },
+  "ko": {
+   "name": "더 초즌"
+  },
+  "zh-CN": {
+   "name": "拣选"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-the-chosen-spoilers.html",
+   "block/the-chosen.html",
+   "mute-list/the-chosen.html"
+  ],
+  "de": [
+   "avoid-the-chosen-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-the-chosen-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-the-chosen-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-the-chosen-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-the-chosen-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-the-chosen-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-the-chosen-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-the-chosen-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-the-chosen-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-the-chosen-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-the-chosen-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-the-chosen-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-the-chosen-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

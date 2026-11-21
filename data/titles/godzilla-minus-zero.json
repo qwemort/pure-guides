@@ -1,0 +1,710 @@
+{
+ "id": "godzilla-minus-zero",
+ "slug": "godzilla-minus-zero",
+ "media": "movies",
+ "url": "/movies/godzilla-minus-zero/",
+ "names": {
+  "en": "Godzilla Minus Zero",
+  "ru": "Годзилла: Минус ноль",
+  "uk": "Ґодзілла: Мінус нуль",
+  "pl": "Godzilla Minus Zero",
+  "de": "Godzilla Minus Zero",
+  "fr": "Godzilla Minus Zero",
+  "es": "Godzilla Minus Zero",
+  "it": "Godzilla Minus Zero",
+  "pt-BR": "Godzilla Minus Zero",
+  "tr": "Godzilla Minus Zero",
+  "ja": "ゴジラ-0.0",
+  "ko": "고질라 마이너스 제로",
+  "zh-CN": "哥斯拉-0.0"
+ },
+ "release": {
+  "date": "2026-11-06",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-18",
+ "modified": "2026-11-18",
+ "words": {
+  "en": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "de": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "es": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "it": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ゴジラ-0.0",
+    "ゴジラ マイナスゼロ",
+    "godzilla minus zero",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "敷島浩一",
+    "敷島",
+    "典子",
+    "明子",
+    "野田健治",
+    "水島",
+    "秋津",
+    "震電"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "고질라 마이너스 제로",
+    "고질라 -0.0",
+    "godzilla minus zero",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "시키시마 코이치",
+    "시키시마",
+    "노리코",
+    "아키코",
+    "노다 켄지",
+    "미즈시마",
+    "아키츠",
+    "신덴"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "годзилла минус ноль",
+    "godzilla minus zero",
+    "годзилла -0.0",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "коити сикисима",
+    "сикисима",
+    "норико",
+    "акико",
+    "кэндзи нода",
+    "мидзусима",
+    "акицу",
+    "синдэн"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "godzilla minus zero",
+    "godzilla -0.0",
+    "godzilla minus one sequel",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "koichi shikishima",
+    "shikishima",
+    "noriko",
+    "akiko",
+    "kenji noda",
+    "mizushima",
+    "akitsu",
+    "shinden"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "ґодзілла мінус нуль",
+    "godzilla minus zero",
+    "годзілла мінус нуль",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "коїті сікісіма",
+    "сікісіма",
+    "норіко",
+    "акіко",
+    "кендзі нода",
+    "мідзусіма",
+    "акіцу",
+    "сінден"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "哥斯拉-0.0",
+    "哥斯拉 负零",
+    "godzilla minus zero",
+    "gojira -0.0"
+   ],
+   "balanced": [
+    "敷岛浩一",
+    "敷岛",
+    "典子",
+    "明子",
+    "野田健治",
+    "水岛",
+    "秋津",
+    "震电"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "FILM · JAPAN NOV 3 · NORTH AMERICA {date}",
+   "keep_val": "Until it opens near you",
+   "desc": "Godzilla Minus Zero opened in Japan on Nov 3 and in North America {D}. Many countries get it later, so the story is already online. Words to mute and what no filter catches.",
+   "lead": "It is out in Japan and North America, but many countries are still waiting for a date. That gap is where spoilers live. What to mute, where, and what no setting can catch.",
+   "why_h": "Out in some countries, not in yours",
+   "why": "<p>Japan got it on November 3 and North America on {D0}, while other countries get it weeks or months later. So \"ending explained\" videos, reaction clips and box office news are already everywhere, and the film may not have reached your cinemas yet.</p><p>Keep your filters on until you have seen it. Do not mute plain \"Godzilla\": it also hides Minus One, the MonsterVerse films and news.</p>",
+   "unknown": "Monsters and cameos the trailers kept hidden.",
+   "demo": "Godzilla Minus Zero: the ending explained",
+   "cover_line": "The ending",
+   "faq": [
+    [
+     "When does Godzilla Minus Zero come out?",
+     "It opened in Japan on November 3, 2026 and in North America on {D}. Other countries follow later."
+    ],
+    [
+     "Is it a sequel to Godzilla Minus One?",
+     "Yes, by the same director, Takashi Yamazaki. Spoilers often mention characters from Minus One, so be careful with names."
+    ],
+    [
+     "Which words should I mute?",
+     "The film title with words like ending, post credits, who dies and spoilers. Muting only \"Godzilla\" also hides the other films."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ]
+  },
+  "ru": {
+   "name": "Годзилла: Минус ноль",
+   "kicker": "ФИЛЬМ · ЯПОНИЯ 3 НОЯБРЯ · США {date}",
+   "keep_val": "Пока не выйдет у вас",
+   "desc": "«Годзилла: Минус ноль» вышла в Японии 3 ноября и в Северной Америке {D}. Во многих странах позже, так что сюжет уже в сети. Какие слова скрыть и что не ловит ни один фильтр.",
+   "lead": "Фильм уже идёт в Японии и Северной Америке, а во многих странах даты ещё ждут. В этом разрыве и живут спойлеры. Что скрыть, где именно и чего не поймает ни одна настройка.",
+   "why_h": "Где-то уже вышел, а у вас ещё нет",
+   "why": "<p>В Японии фильм вышел 3 ноября, в Северной Америке {D0}, а в других странах выйдет через недели или месяцы. Поэтому ролики «концовка объяснена», реакции и новости о сборах уже везде, хотя до ваших кинотеатров фильм мог ещё не дойти.</p><p>Держите фильтры, пока не посмотрите. Не скрывайте просто «Годзилла»: пропадут и «Минус один», и фильмы MonsterVerse, и новости.</p>",
+   "unknown": "Монстры и камео, которые скрыли трейлеры.",
+   "demo": "Годзилла: Минус ноль, концовка объяснена",
+   "cover_line": "Концовка",
+   "faq": [
+    [
+     "Когда выходит «Годзилла: Минус ноль»?",
+     "В Японии 3 ноября 2026 года, в Северной Америке {D}. В других странах позже."
+    ],
+    [
+     "Это продолжение «Годзиллы: Минус один»?",
+     "Да, от того же режиссёра, Такаси Ямадзаки. В спойлерах часто называют героев «Минус один», так что осторожнее с именами."
+    ],
+    [
+     "Какие слова скрыть?",
+     "Название фильма вместе со словами концовка, сцена после титров, кто умрёт, спойлеры. Если скрыть только «Годзилла», пропадут и другие фильмы."
+    ],
+    [
+     "Можно ли скрыть слова на YouTube?",
+     "Нет, фильтра по словам на YouTube нет. В браузере на компьютере это может сделать расширение: оно размывает подходящие ролики и комментарии."
+    ]
+   ]
+  },
+  "uk": {
+   "name": "Ґодзілла: Мінус нуль",
+   "kicker": "ФІЛЬМ · ЯПОНІЯ 3 ЛИСТОПАДА · США {date}",
+   "keep_val": "Поки не вийде у вас",
+   "desc": "«Ґодзілла: Мінус нуль» вийшла в Японії 3 листопада і в Північній Америці {D}. У багатьох країнах пізніше, тож сюжет уже в мережі. Які слова приховати і чого не ловить жоден фільтр.",
+   "lead": "Фільм уже йде в Японії та Північній Америці, а в багатьох країнах дати ще чекають. У цьому розриві й живуть спойлери. Що приховати, де саме і чого не впіймає жодне налаштування.",
+   "why_h": "Десь уже вийшов, а у вас ще ні",
+   "why": "<p>У Японії фільм вийшов 3 листопада, у Північній Америці {D0}, а в інших країнах вийде за тижні чи місяці. Тому ролики «фінал пояснено», реакції й новини про збори вже скрізь, хоча до ваших кінотеатрів фільм міг ще не дійти.</p><p>Тримайте фільтри, доки не подивитеся. Не приховуйте просто «Ґодзілла»: зникнуть і «Мінус один», і фільми MonsterVerse, і новини.</p>",
+   "unknown": "Монстри й камео, які приховали трейлери.",
+   "demo": "Ґодзілла: Мінус нуль, фінал пояснено",
+   "cover_line": "Фінал",
+   "faq": [
+    [
+     "Коли виходить «Ґодзілла: Мінус нуль»?",
+     "У Японії 3 листопада 2026 року, у Північній Америці {D}. В інших країнах пізніше."
+    ],
+    [
+     "Це продовження «Ґодзілли: Мінус один»?",
+     "Так, від того ж режисера, Такаші Ямадзакі. У спойлерах часто називають героїв «Мінус один», тож обережно з іменами."
+    ],
+    [
+     "Які слова приховати?",
+     "Назву фільму разом зі словами фінал, сцена після титрів, хто помре, спойлери. Якщо приховати лише «Ґодзілла», зникнуть і інші фільми."
+    ],
+    [
+     "Чи можна приховати слова на YouTube?",
+     "Ні, фільтра за словами на YouTube немає. У браузері на комп'ютері це може зробити розширення: воно розмиває відповідні ролики й коментарі."
+    ]
+   ]
+  },
+  "pl": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "FILM · JAPONIA 3 LISTOPADA · USA {date}",
+   "keep_val": "Aż wejdzie u ciebie",
+   "desc": "Godzilla Minus Zero weszła do kin w Japonii 3 listopada, a w Ameryce Północnej {D}. Wiele krajów dostanie ją później, więc fabuła już krąży w sieci. Jakie słowa wyciszyć i czego nie złapie żaden filtr.",
+   "lead": "Film jest już w Japonii i Ameryce Północnej, a wiele krajów wciąż czeka na datę. W tej luce żyją spoilery. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+   "why_h": "Gdzieś już jest, u ciebie jeszcze nie",
+   "why": "<p>Japonia dostała film 3 listopada, Ameryka Północna {D0}, a inne kraje dostaną go za tygodnie lub miesiące. Dlatego filmy „zakończenie wyjaśnione”, reakcje i newsy o box office są już wszędzie, choć do twojego kina film mógł jeszcze nie dotrzeć.</p><p>Trzymaj filtry, dopóki nie obejrzysz. Nie wyciszaj samej „Godzilli”: zniknie też Minus One, filmy MonsterVerse i newsy.</p>",
+   "unknown": "Potwory i cameo, które ukryły zwiastuny.",
+   "demo": "Godzilla Minus Zero: zakończenie wyjaśnione",
+   "cover_line": "Zakończenie",
+   "faq": [
+    [
+     "Kiedy premiera Godzilla Minus Zero?",
+     "W Japonii 3 listopada 2026, w Ameryce Północnej {D}. Inne kraje później."
+    ],
+    [
+     "Czy to kontynuacja Godzilla Minus One?",
+     "Tak, tego samego reżysera, Takashiego Yamazakiego. Spoilery często wymieniają postacie z Minus One, więc uważaj na imiona."
+    ],
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł filmu razem ze słowami zakończenie, scena po napisach, kto ginie, spoilery. Sama „Godzilla” ukryje też inne filmy."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ]
+  },
+  "de": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "FILM · JAPAN 3. NOV · USA {date}",
+   "keep_val": "Bis er bei dir läuft",
+   "desc": "Godzilla Minus Zero lief am 3. November in Japan und am {D} in Nordamerika an. Viele Länder folgen später, die Handlung steht also schon im Netz. Welche Wörter du stummschaltest und was kein Filter erwischt.",
+   "lead": "Der Film läuft schon in Japan und Nordamerika, viele Länder warten noch auf einen Termin. In dieser Lücke leben die Spoiler. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+   "why_h": "Anderswo schon draußen, bei dir noch nicht",
+   "why": "<p>Japan bekam ihn am 3. November, Nordamerika am {D0}, andere Länder erst Wochen oder Monate später. Deshalb sind „Ende erklärt“-Videos, Reaktionen und Einspielnews schon überall, obwohl der Film in deinem Kino vielleicht noch gar nicht läuft.</p><p>Lass die Filter an, bis du ihn gesehen hast. Schalte nicht einfach „Godzilla“ stumm: Das blendet auch Minus One, die MonsterVerse-Filme und News aus.</p>",
+   "unknown": "Monster und Cameos, die die Trailer verschwiegen haben.",
+   "demo": "Godzilla Minus Zero: das Ende erklärt",
+   "cover_line": "Das Ende",
+   "faq": [
+    [
+     "Wann kommt Godzilla Minus Zero?",
+     "In Japan am 3. November 2026, in Nordamerika am {D}. Andere Länder folgen später."
+    ],
+    [
+     "Ist es eine Fortsetzung von Godzilla Minus One?",
+     "Ja, vom selben Regisseur, Takashi Yamazaki. Spoiler nennen oft Figuren aus Minus One, sei also bei Namen vorsichtig."
+    ],
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Filmtitel mit Wörtern wie Ende, Post-Credit, wer stirbt und Spoiler. Nur „Godzilla“ blendet auch die anderen Filme aus."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ]
+  },
+  "fr": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "FILM · JAPON 3 NOV. · ÉTATS-UNIS {date}",
+   "keep_val": "Jusqu'à sa sortie chez vous",
+   "desc": "Godzilla Minus Zero est sorti au Japon le 3 novembre et en Amérique du Nord le {D}. Beaucoup de pays l'auront plus tard, l'histoire est donc déjà en ligne. Les mots à masquer et ce qu'aucun filtre n'attrape.",
+   "lead": "Le film est sorti au Japon et en Amérique du Nord, mais beaucoup de pays attendent encore une date. C'est dans cet écart que vivent les spoilers. Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+   "why_h": "Sorti ailleurs, pas encore chez vous",
+   "why": "<p>Le Japon l'a eu le 3 novembre, l'Amérique du Nord le {D0}, et d'autres pays l'auront des semaines ou des mois plus tard. Les vidéos « fin expliquée », les réactions et les chiffres du box-office sont donc déjà partout, même si le film n'est pas encore dans votre cinéma.</p><p>Gardez vos filtres jusqu'à ce que vous l'ayez vu. Ne masquez pas simplement « Godzilla » : cela cache aussi Minus One, les films du MonsterVerse et l'actu.</p>",
+   "unknown": "Monstres et caméos cachés par les bandes-annonces.",
+   "demo": "Godzilla Minus Zero : la fin expliquée",
+   "cover_line": "La fin",
+   "faq": [
+    [
+     "Quand sort Godzilla Minus Zero ?",
+     "Au Japon le 3 novembre 2026, en Amérique du Nord le {D}. Les autres pays suivent plus tard."
+    ],
+    [
+     "Est-ce la suite de Godzilla Minus One ?",
+     "Oui, du même réalisateur, Takashi Yamazaki. Les spoilers citent souvent des personnages de Minus One, attention aux noms."
+    ],
+    [
+     "Quels mots masquer ?",
+     "Le titre du film avec des mots comme fin, scène post-générique, qui meurt et spoilers. Masquer seulement « Godzilla » cache aussi les autres films."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ]
+  },
+  "es": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "PELÍCULA · JAPÓN 3 NOV · EE. UU. {date}",
+   "keep_val": "Hasta que llegue a tu país",
+   "desc": "Godzilla Minus Zero se estrenó en Japón el 3 de noviembre y en Norteamérica el {D}. Muchos países la reciben más tarde, así que la historia ya está en internet. Qué palabras silenciar y qué no atrapa ningún filtro.",
+   "lead": "Ya está en cines de Japón y Norteamérica, pero muchos países siguen esperando fecha. En ese hueco viven los spoilers. Qué silenciar, dónde y qué no detiene ningún ajuste.",
+   "why_h": "Ya salió en otros países, en el tuyo no",
+   "why": "<p>Japón la tuvo el 3 de noviembre, Norteamérica el {D0}, y otros países la tendrán semanas o meses después. Por eso los vídeos de «final explicado», las reacciones y las noticias de taquilla ya están por todas partes, aunque la película quizá no haya llegado a tu cine.</p><p>Mantén los filtros hasta verla. No silencies solo «Godzilla»: también ocultas Minus One, las películas del MonsterVerse y noticias.</p>",
+   "unknown": "Monstruos y cameos que los tráileres ocultaron.",
+   "demo": "Godzilla Minus Zero: el final explicado",
+   "cover_line": "El final",
+   "faq": [
+    [
+     "¿Cuándo se estrena Godzilla Minus Zero?",
+     "En Japón el 3 de noviembre de 2026 y en Norteamérica el {D}. Otros países, más tarde."
+    ],
+    [
+     "¿Es secuela de Godzilla Minus One?",
+     "Sí, del mismo director, Takashi Yamazaki. Los spoilers suelen nombrar personajes de Minus One, así que cuidado con los nombres."
+    ],
+    [
+     "¿Qué palabras silencio?",
+     "El título de la película con palabras como final, escena poscréditos, quién muere y spoilers. Silenciar solo «Godzilla» también oculta las otras películas."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ]
+  },
+  "it": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "FILM · GIAPPONE 3 NOV · USA {date}",
+   "keep_val": "Finché non esce da te",
+   "desc": "Godzilla Minus Zero è uscito in Giappone il 3 novembre e in Nord America il {D}. Molti paesi lo avranno dopo, quindi la trama è già online. Quali parole silenziare e cosa nessun filtro blocca.",
+   "lead": "Il film è già uscito in Giappone e Nord America, ma molti paesi aspettano ancora una data. In quella distanza vivono gli spoiler. Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+   "why_h": "Uscito altrove, da te non ancora",
+   "why": "<p>Il Giappone l'ha avuto il 3 novembre, il Nord America il {D0}, altri paesi lo avranno settimane o mesi dopo. Per questo video «finale spiegato», reaction e notizie sugli incassi sono già ovunque, anche se il film non è ancora arrivato nel tuo cinema.</p><p>Tieni i filtri finché non l'hai visto. Non silenziare solo «Godzilla»: nasconderesti anche Minus One, i film del MonsterVerse e le notizie.</p>",
+   "unknown": "Mostri e cameo che i trailer hanno nascosto.",
+   "demo": "Godzilla Minus Zero: il finale spiegato",
+   "cover_line": "Il finale",
+   "faq": [
+    [
+     "Quando esce Godzilla Minus Zero?",
+     "In Giappone il 3 novembre 2026, in Nord America il {D}. Gli altri paesi dopo."
+    ],
+    [
+     "È il seguito di Godzilla Minus One?",
+     "Sì, dello stesso regista, Takashi Yamazaki. Gli spoiler nominano spesso personaggi di Minus One, quindi attenzione ai nomi."
+    ],
+    [
+     "Quali parole silenziare?",
+     "Il titolo del film con parole come finale, scena post-credit, chi muore e spoiler. Silenziare solo «Godzilla» nasconde anche gli altri film."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ]
+  },
+  "pt-BR": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "FILME · JAPÃO 3 NOV · EUA {date}",
+   "keep_val": "Até estrear aí",
+   "desc": "Godzilla Minus Zero estreou no Japão em 3 de novembro e na América do Norte em {D}. Muitos países recebem depois, então a história já está na internet. Que palavras silenciar e o que nenhum filtro pega.",
+   "lead": "O filme já está nos cinemas do Japão e da América do Norte, mas muitos países ainda esperam a data. É nesse intervalo que vivem os spoilers. O que silenciar, onde e o que nenhuma configuração segura.",
+   "why_h": "Já saiu lá fora, aqui ainda não",
+   "why": "<p>O Japão recebeu em 3 de novembro, a América do Norte em {D0}, e outros países vão receber semanas ou meses depois. Por isso vídeos de «final explicado», reacts e notícias de bilheteria já estão em todo lugar, mesmo que o filme ainda não tenha chegado ao seu cinema.</p><p>Mantenha os filtros até assistir. Não silencie só «Godzilla»: isso esconde Minus One, os filmes do MonsterVerse e notícias.</p>",
+   "unknown": "Monstros e participações que os trailers esconderam.",
+   "demo": "Godzilla Minus Zero: o final explicado",
+   "cover_line": "O final",
+   "faq": [
+    [
+     "Quando estreia Godzilla Minus Zero?",
+     "No Japão em 3 de novembro de 2026 e na América do Norte em {D}. Outros países depois."
+    ],
+    [
+     "É continuação de Godzilla Minus One?",
+     "Sim, do mesmo diretor, Takashi Yamazaki. Spoilers costumam citar personagens de Minus One, então cuidado com nomes."
+    ],
+    [
+     "Quais palavras silenciar?",
+     "O título do filme com palavras como final, cena pós-créditos, quem morre e spoiler. Silenciar só «Godzilla» esconde também os outros filmes."
+    ],
+    [
+     "Dá para silenciar palavras no YouTube?",
+     "Não, o YouTube não tem filtro de palavras. No navegador do computador, uma extensão pode desfocar vídeos e comentários que batem."
+    ]
+   ]
+  },
+  "tr": {
+   "name": "Godzilla Minus Zero",
+   "kicker": "FİLM · JAPONYA 3 KASIM · ABD {date}",
+   "keep_val": "Sizde vizyona girene kadar",
+   "desc": "Godzilla Minus Zero Japonya'da 3 Kasım'da, Kuzey Amerika'da {D} tarihinde vizyona girdi. Birçok ülkeye daha sonra gelecek, yani hikâye zaten internette. Hangi kelimeleri susturmalı, hangi şeyi hiçbir filtre yakalamaz.",
+   "lead": "Film Japonya ve Kuzey Amerika'da gösterimde, ama birçok ülke hâlâ tarih bekliyor. Spoilerlar bu arada yaşıyor. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+   "why_h": "Başka yerde çıktı, sizde henüz değil",
+   "why": "<p>Japonya 3 Kasım'da, Kuzey Amerika {D0} tarihinde izledi, diğer ülkeler haftalar ya da aylar sonra izleyecek. Bu yüzden «son açıklandı» videoları, tepkiler ve gişe haberleri her yerde, film sizin sinemanıza henüz gelmemiş olsa bile.</p><p>İzleyene kadar filtreleri açık tutun. Sadece «Godzilla»yı susturmayın: Minus One, MonsterVerse filmleri ve haberler de gizlenir.</p>",
+   "unknown": "Fragmanların gizlediği canavarlar ve kamera hücreleri.",
+   "demo": "Godzilla Minus Zero: sonu açıklandı",
+   "cover_line": "Son",
+   "faq": [
+    [
+     "Godzilla Minus Zero ne zaman çıkıyor?",
+     "Japonya'da 3 Kasım 2026'da, Kuzey Amerika'da {D} tarihinde. Diğer ülkeler daha sonra."
+    ],
+    [
+     "Godzilla Minus One'ın devamı mı?",
+     "Evet, aynı yönetmen Takashi Yamazaki'den. Spoilerlarda sık sık Minus One karakterleri geçiyor, isimlere dikkat."
+    ],
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Film adını son, jenerik sonrası sahne, kim ölüyor ve spoiler gibi kelimelerle birlikte. Sadece «Godzilla»yı susturmak diğer filmleri de gizler."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ]
+  },
+  "ja": {
+   "name": "ゴジラ-0.0",
+   "kicker": "映画 · 日本 11月3日 · 北米 {date}",
+   "keep_val": "お住まいの国で公開されるまで",
+   "desc": "『ゴジラ-0.0』は11月3日に日本で、{D}に北米で公開。ほかの国は後からなので、物語はもうネットに出ています。ミュートするワードと、どのフィルターでも防げないもの。",
+   "lead": "日本と北米ではもう公開中ですが、まだ公開日を待っている国も多くあります。その時間差にネタバレが生まれます。何を、どこでミュートするか、そして設定では防げないもの。",
+   "why_h": "よその国では公開済み、自分の国はまだ",
+   "why": "<p>日本は11月3日、北米は{D0}に公開され、ほかの国は数週間から数か月後です。そのため「結末解説」動画やリアクション、興行収入のニュースはもうあちこちにあり、映画はまだ近くの映画館に来ていないかもしれません。</p><p>見るまではフィルターを外さないでください。「ゴジラ」だけをミュートすると、『ゴジラ-1.0』やモンスターバースの映画、ニュースまで消えます。</p>",
+   "unknown": "トレーラーが隠していた怪獣やカメオ。",
+   "demo": "ゴジラ-0.0 結末解説",
+   "cover_line": "結末",
+   "faq": [
+    [
+     "『ゴジラ-0.0』の公開日は？",
+     "日本は2026年11月3日、北米は{D}です。ほかの国は後から公開されます。"
+    ],
+    [
+     "『ゴジラ-1.0』の続編？",
+     "はい、同じ山崎貴監督の作品です。ネタバレには『ゴジラ-1.0』の登場人物の名前がよく出るので、名前に注意してください。"
+    ],
+    [
+     "どのワードをミュートすべき？",
+     "映画のタイトルに、結末、エンドロール後、誰が死ぬ、ネタバレ、などを組み合わせます。「ゴジラ」だけだとほかの映画も消えます。"
+    ],
+    [
+     "YouTube でワードをミュートできる？",
+     "いいえ、YouTube にはワードフィルターがありません。PC のブラウザなら拡張機能で該当する動画やコメントをぼかせます。"
+    ]
+   ]
+  },
+  "ko": {
+   "name": "고질라 마이너스 제로",
+   "kicker": "영화 · 일본 11월 3일 · 북미 {date}",
+   "keep_val": "내가 사는 곳에서 개봉할 때까지",
+   "desc": "고질라 마이너스 제로는 11월 3일 일본, {D} 북미에서 개봉했습니다. 다른 나라는 나중이라 줄거리가 이미 인터넷에 있습니다. 뮤트할 단어와 어떤 필터도 못 잡는 것.",
+   "lead": "일본과 북미에서는 이미 상영 중이지만 아직 개봉일을 기다리는 나라가 많습니다. 그 시간차에 스포일러가 생깁니다. 무엇을, 어디서 뮤트할지, 그리고 설정으로 못 막는 것.",
+   "why_h": "다른 나라는 개봉, 우리나라는 아직",
+   "why": "<p>일본은 11월 3일, 북미는 {D0}에 개봉했고 다른 나라는 몇 주에서 몇 달 뒤입니다. 그래서 \"결말 해석\" 영상, 리액션, 흥행 뉴스가 이미 곳곳에 있고, 영화는 아직 내 근처 극장에 오지 않았을 수 있습니다.</p><p>볼 때까지 필터를 켜 두세요. \"고질라\"만 뮤트하면 고질라 마이너스 원, 몬스터버스 영화, 뉴스까지 사라집니다.</p>",
+   "unknown": "트레일러가 숨긴 괴수와 카메오.",
+   "demo": "고질라 마이너스 제로 결말 해석",
+   "cover_line": "결말",
+   "faq": [
+    [
+     "고질라 마이너스 제로는 언제 개봉하나요?",
+     "일본은 2026년 11월 3일, 북미는 {D}입니다. 다른 나라는 나중에 개봉합니다."
+    ],
+    [
+     "고질라 마이너스 원의 속편인가요?",
+     "네, 같은 야마자키 타카시 감독의 작품입니다. 스포일러에 마이너스 원 등장인물 이름이 자주 나오니 이름을 조심하세요."
+    ],
+    [
+     "어떤 단어를 뮤트해야 하나요?",
+     "영화 제목에 결말, 쿠키 영상, 누가 죽는지, 스포일러 같은 단어를 더하세요. \"고질라\"만 뮤트하면 다른 영화도 사라집니다."
+    ],
+    [
+     "YouTube에서 단어를 뮤트할 수 있나요?",
+     "아니요, YouTube에는 단어 필터가 없습니다. PC 브라우저에서는 확장 프로그램이 해당 영상과 댓글을 흐리게 할 수 있습니다."
+    ]
+   ]
+  },
+  "zh-CN": {
+   "name": "哥斯拉-0.0",
+   "kicker": "电影 · 日本 11 月 3 日 · 北美 {date}",
+   "keep_val": "直到在你所在地上映",
+   "desc": "《哥斯拉-0.0》11 月 3 日在日本、{D}在北美上映。很多国家要晚些上映，所以剧情已经在网上了。该屏蔽哪些词，以及任何过滤都挡不住的东西。",
+   "lead": "电影已经在日本和北美上映，但很多国家还在等档期。剧透就藏在这段时间差里。该屏蔽什么、在哪里屏蔽，以及设置挡不住的东西。",
+   "why_h": "别处已上映，你这里还没有",
+   "why": "<p>日本 11 月 3 日上映，北美{D0}上映，其他国家要晚几周甚至几个月。所以“结局解析”视频、反应视频和票房新闻已经到处都是，而电影可能还没到你附近的影院。</p><p>看完之前别关过滤。不要只屏蔽“哥斯拉”：《哥斯拉-1.0》、怪兽宇宙电影和新闻也会被挡掉。</p>",
+   "unknown": "预告片隐藏的怪兽和客串。",
+   "demo": "哥斯拉-0.0 结局解析",
+   "cover_line": "结局",
+   "faq": [
+    [
+     "《哥斯拉-0.0》什么时候上映？",
+     "日本 2026 年 11 月 3 日，北美{D}。其他国家之后上映。"
+    ],
+    [
+     "这是《哥斯拉-1.0》的续集吗？",
+     "是的，导演同样是山崎贵。剧透里常出现《哥斯拉-1.0》角色的名字，注意人名。"
+    ],
+    [
+     "应该屏蔽哪些词？",
+     "电影片名，加上结局、彩蛋、谁死了、剧透等词。只屏蔽“哥斯拉”也会挡掉其他电影。"
+    ],
+    [
+     "YouTube 能屏蔽关键词吗？",
+     "不能，YouTube 没有关键词过滤。在电脑浏览器里，扩展可以模糊匹配的视频和评论。"
+    ]
+   ]
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-godzilla-minus-zero-spoilers.html",
+   "block/godzilla-minus-zero.html",
+   "mute-list/godzilla-minus-zero.html"
+  ],
+  "de": [
+   "avoid-godzilla-minus-zero-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-godzilla-minus-zero-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-godzilla-minus-zero-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-godzilla-minus-zero-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-godzilla-minus-zero-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-godzilla-minus-zero-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-godzilla-minus-zero-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-godzilla-minus-zero-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-godzilla-minus-zero-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-godzilla-minus-zero-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-godzilla-minus-zero-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-godzilla-minus-zero-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-godzilla-minus-zero-spoilers",
+  "kind": "film"
+ },
+ "changelog": []
+}

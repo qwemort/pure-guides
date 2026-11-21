@@ -1,0 +1,983 @@
+{
+ "id": "gta6",
+ "slug": "gta-6",
+ "media": "games",
+ "url": "/games/gta-6/",
+ "names": {
+  "en": "GTA 6",
+  "ru": "GTA 6",
+  "uk": "GTA 6",
+  "pl": "GTA 6",
+  "de": "GTA 6",
+  "fr": "GTA 6",
+  "es": "GTA 6",
+  "it": "GTA 6",
+  "pt-BR": "GTA 6",
+  "tr": "GTA 6",
+  "ja": "GTA 6",
+  "ko": "GTA 6",
+  "zh-CN": "GTA 6"
+ },
+ "release": {
+  "date": "2026-11-19",
+  "status": "confirmed",
+  "source": "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/",
+  "platforms": "PS5, Xbox Series X|S"
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-04",
+ "modified": "2026-11-18",
+ "words": {
+  "en": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "de": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "es": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "it": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "gta6",
+    "gta 6",
+    "グラセフ6",
+    "gta vi"
+   ],
+   "balanced": [
+    "ジェイソン・デュバル",
+    "ルシア・カミノス",
+    "ジェイソン",
+    "ルシア",
+    "バイスシティ",
+    "レオニダ",
+    "ブービー・アイク",
+    "ラウル・バウティスタ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "gta 6",
+    "gta6",
+    "gta vi",
+    "그랜드 테프트 오토 6"
+   ],
+   "balanced": [
+    "제이슨 듀발",
+    "루시아 카미노스",
+    "제이슨",
+    "루시아",
+    "바이스 시티",
+    "레오니다",
+    "부비 아이크",
+    "라울 바우티스타"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "гта 6",
+    "gta 6",
+    "gta vi",
+    "gta6"
+   ],
+   "balanced": [
+    "джейсон дюваль",
+    "лусия каминос",
+    "джейсон",
+    "лусия",
+    "вайс-сити",
+    "леонида",
+    "бубби айк",
+    "рауль баутиста"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "gta 6",
+    "gta vi",
+    "gta6",
+    "grand theft auto vi"
+   ],
+   "balanced": [
+    "jason duval",
+    "lucia caminos",
+    "jason",
+    "lucia",
+    "vice city",
+    "leonida",
+    "boobie ike",
+    "raul bautista"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "гта 6",
+    "gta 6",
+    "gta vi",
+    "gta6"
+   ],
+   "balanced": [
+    "джейсон дюваль",
+    "лусія камінос",
+    "джейсон",
+    "лусія",
+    "вайс-сіті",
+    "леоніда",
+    "буббі айк",
+    "рауль баутіста"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "gta6",
+    "gta 6",
+    "侠盗猎车手6",
+    "gta vi"
+   ],
+   "balanced": [
+    "杰森·杜瓦尔",
+    "露西娅·卡米诺斯",
+    "杰森",
+    "露西娅",
+    "罪恶都市",
+    "莱昂尼达",
+    "布比·艾克",
+    "劳尔·包蒂斯塔"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "GTA 6",
+   "title": "How to avoid GTA 6 spoilers on YouTube, Reddit and X (PC too)",
+   "desc": "YouTube can't mute words and Reddit titles give away endings. A 5-minute launch-week checklist, PC players included, plus a free blocker that blurs spoilers.",
+   "kicker": "GAME · PS5 AND XBOX SERIES · {date}",
+   "cover_tag": "GAME · {date}",
+   "keep_val": "PC: months",
+   "lead": "Out on PS5 and Xbox Series X|S, with no PC date yet. Most spoilers will come through YouTube thumbnails and Reddit titles, where nothing can be muted. Here is what works.",
+   "why_h": "Why GTA 6 is hard to avoid",
+   "why": "<p>Review copies are already with the press, and big games reach some players a few days early, so story details can appear before {D0}. Then the whole internet plays at once: streams, \"ending explained\" videos and memes for weeks.</p><p>Muting plain \"GTA\" also hides trailers, news and every other GTA game. Use the core list below and keep strict mode for launch week.</p>",
+   "unknown": "Characters and missions the trailers never showed.",
+   "demo": "GTA 6 ending explained: the final mission",
+   "cover_line": "The ending",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube, step by step",
+     "h": "How to avoid GTA 6 spoilers on YouTube",
+     "html": "<p>YouTube has no word filter, so starve the recommendations and stay away from thumbnails, Shorts, comments and search suggestions. About five minutes:</p><ol><li><strong>Clear and pause your watch history.</strong> History in the left menu, <em>Clear all watch history</em>, then <em>Pause watch history</em>. With history off and empty, the home page stops showing recommendations, and that is where most launch-week spoilers show up.</li><li><strong>Turn off autoplay.</strong> The switch is under the player. One autoplayed reaction video is enough to see the ending.</li><li><strong>Stay out of Shorts for the first weeks.</strong> A Short shows the frame before you read the title. If one slips through, use <em>Don't recommend channel</em>, not only <em>Not interested</em>.</li><li><strong>Do not type \"GTA 6\" into search.</strong> Suggestions fill in \"ending explained\" before you press Enter. Open the channel you want directly.</li><li><strong>Skip the comments</strong> under any video about the game, trailers and old news included. Top comments are where people spoil on purpose.</li><li><strong>Turn off the bell</strong> for channels that will stream or review the game, so notifications do not show a thumbnail.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Playing on PC",
+     "h": "If you play on PC",
+     "html": "<p>No PC release date has been announced. Plan for months, not days: use filters you can leave on, not a week offline. Set the core list once, keep YouTube history paused, and add names to the list only after the trailers you have seen.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "How do I avoid GTA 6 spoilers on YouTube?",
+     "Clear and pause your watch history so the home page stops showing recommendations, turn off autoplay, stay out of Shorts and comments, and do not type the game name into search. YouTube has no word filter, so to blur videos and comments by word you need a browser extension."
+    ],
+    [
+     "When do GTA 6 spoilers start?",
+     "Before launch day. Review copies are already with the press and big games usually reach some players a few days early, so story details can appear before {D}."
+    ],
+    [
+     "How long do I need to avoid spoilers if I play on PC?",
+     "There is no PC release date yet, so plan for months, not days. Use filters you can leave on rather than staying offline."
+    ],
+    [
+     "Which words should I mute for GTA 6?",
+     "The game name in both spellings (GTA 6 and GTA VI) together with story words such as ending, leak, twist and who dies. Muting only the name also hides harmless news."
+    ],
+    [
+     "Is there a GTA 6 spoiler blocker extension?",
+     "Yes, several. Pure Spoiler Blocker is a free one for Chrome and Firefox that blurs spoiler videos, posts and comments on YouTube, Reddit and X and checks the text locally."
+    ]
+   ]
+  },
+  "ru": {
+   "name": "GTA 6",
+   "title": "Как избежать спойлеров GTA 6 на YouTube, Reddit и X (и на ПК)",
+   "desc": "На YouTube нельзя скрыть слова, а заголовки Reddit выдают концовку. Чек-лист на 5 минут к выходу игры, для игроков на ПК тоже, и бесплатный блокер спойлеров.",
+   "kicker": "ИГРА · PS5 И XBOX SERIES · {date}",
+   "cover_tag": "ИГРА · {date}",
+   "keep_val": "ПК: месяцы",
+   "lead": "Выходит на PS5 и Xbox Series X|S, даты для ПК пока нет. Больше всего спойлеров придёт через превью на YouTube и заголовки на Reddit, где слова скрыть нельзя. Вот что работает.",
+   "why_h": "Почему от спойлеров GTA 6 трудно уйти",
+   "why": "<p>Копии для обзоров уже у прессы, а большие игры часто попадают к части игроков на несколько дней раньше, так что сюжет может всплыть ещё до {D0}. Потом играет весь интернет сразу: стримы, ролики «концовка объяснена» и мемы неделями.</p><p>Если скрыть просто «GTA», пропадут и трейлеры, и новости, и все остальные игры серии. Возьмите основной список ниже, а строгий режим оставьте на неделю выхода.</p>",
+   "unknown": "Персонажи и миссии, которых не было в трейлерах.",
+   "demo": "Концовка GTA 6 объяснена: финальная миссия",
+   "cover_line": "Концовка",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube по шагам",
+     "h": "Как избежать спойлеров GTA 6 на YouTube",
+     "html": "<p>На YouTube нет фильтра по словам, поэтому оставьте рекомендации без пищи и держитесь подальше от превью, Shorts, комментариев и подсказок поиска. Минут пять:</p><ol><li><strong>Очистите и отключите историю просмотра.</strong> «История» в левом меню, <em>Очистить историю просмотра</em>, затем <em>Не сохранять историю просмотра</em>. Когда история пуста и выключена, главная перестаёт показывать рекомендации, а именно там в неделю выхода больше всего спойлеров.</li><li><strong>Выключите автовоспроизведение.</strong> Переключатель под плеером. Одного автоматически запущенного ролика-реакции хватит, чтобы увидеть концовку.</li><li><strong>Не листайте Shorts первые недели.</strong> В Shorts кадр видно раньше заголовка. Если ролик проскочил, жмите <em>Не рекомендовать видео с этого канала</em>, а не только <em>Не интересует</em>.</li><li><strong>Не вводите «GTA 6» в поиск.</strong> Подсказки допишут «концовка объяснена» раньше, чем вы нажмёте Enter. Открывайте нужный канал напрямую.</li><li><strong>Не открывайте комментарии</strong> под любыми роликами об игре, включая трейлеры и старые новости. В топ-комментариях спойлерят нарочно.</li><li><strong>Выключите колокольчик</strong> у каналов, которые будут стримить или обозревать игру, чтобы уведомления не показывали превью.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Если играете на ПК",
+     "h": "Если вы играете на ПК",
+     "html": "<p>Дату выхода на ПК не объявили. Рассчитывайте на месяцы, а не дни: нужны фильтры, которые можно не выключать, а не неделя без интернета. Настройте основной список один раз, держите историю YouTube выключенной и добавляйте имена в список только из трейлеров, которые уже видели.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "Как избежать спойлеров GTA 6 на YouTube?",
+     "Очистите и отключите историю просмотра, чтобы главная перестала показывать рекомендации, выключите автовоспроизведение, не открывайте Shorts и комментарии и не вводите название игры в поиск. Фильтра по словам на YouTube нет, поэтому размывать ролики и комментарии по словам может только расширение для браузера."
+    ],
+    [
+     "Когда начнутся спойлеры GTA 6?",
+     "До дня выхода. Копии для обзоров уже у прессы, а большие игры обычно попадают к части игроков на несколько дней раньше, поэтому сюжет может появиться до {D}."
+    ],
+    [
+     "Сколько избегать спойлеров, если играю на ПК?",
+     "Даты для ПК пока нет, так что рассчитывайте на месяцы, а не дни. Используйте фильтры, которые можно оставить включёнными, а не уходите из сети."
+    ],
+    [
+     "Какие слова скрыть для GTA 6?",
+     "Название игры в обоих написаниях (GTA 6 и GTA VI) вместе со словами о сюжете: концовка, слив, твист, кто умрёт. Если скрыть только название, пропадут и безобидные новости."
+    ],
+    [
+     "Есть ли расширение, которое блокирует спойлеры GTA 6?",
+     "Да, несколько. Pure Spoiler Blocker бесплатное, для Chrome и Firefox: размывает ролики, посты и комментарии со спойлерами на YouTube, Reddit и X и проверяет текст на устройстве."
+    ]
+   ]
+  },
+  "uk": {
+   "name": "GTA 6",
+   "title": "Як уникнути спойлерів GTA 6 на YouTube, Reddit і X (і на ПК)",
+   "desc": "На YouTube не можна приховати слова, а заголовки Reddit видають фінал. Чекліст на 5 хвилин до виходу гри, для гравців на ПК теж, і безкоштовний блокер спойлерів.",
+   "kicker": "ГРА · PS5 І XBOX SERIES · {date}",
+   "cover_tag": "ГРА · {date}",
+   "keep_val": "ПК: місяці",
+   "lead": "Виходить на PS5 і Xbox Series X|S, дати для ПК поки немає. Найбільше спойлерів прийде через прев'ю на YouTube і заголовки на Reddit, де слова приховати не можна. Ось що працює.",
+   "why_h": "Чому від спойлерів GTA 6 важко сховатися",
+   "why": "<p>Копії для оглядів уже в преси, а великі ігри часто потрапляють до частини гравців на кілька днів раніше, тож сюжет може спливти ще до {D0}. Потім грає весь інтернет одразу: стріми, ролики «пояснення фіналу» і меми тижнями.</p><p>Якщо приховати просто «GTA», зникнуть і трейлери, і новини, і всі інші ігри серії. Візьміть основний список нижче, а суворий режим залиште на тиждень виходу.</p>",
+   "unknown": "Персонажі та місії, яких не було в трейлерах.",
+   "demo": "Фінал GTA 6 пояснено: остання місія",
+   "cover_line": "Фінал",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube по кроках",
+     "h": "Як уникнути спойлерів GTA 6 на YouTube",
+     "html": "<p>На YouTube немає фільтра за словами, тому залиште рекомендації без поживи і тримайтеся подалі від прев'ю, Shorts, коментарів і підказок пошуку. Хвилин п'ять:</p><ol><li><strong>Очистіть і призупиніть історію переглядів.</strong> «Історія» в лівому меню, <em>Очистити всю історію переглядів</em>, потім <em>Призупинити історію переглядів</em>. Коли історія порожня й вимкнена, головна перестає показувати рекомендації, а саме там у тиждень виходу найбільше спойлерів.</li><li><strong>Вимкніть автовідтворення.</strong> Перемикач під плеєром. Одного автоматично запущеного ролика-реакції досить, щоб побачити фінал.</li><li><strong>Не гортайте Shorts перші тижні.</strong> У Shorts кадр видно раніше за заголовок. Якщо ролик проскочив, тисніть <em>Не рекомендувати канал</em>, а не лише <em>Не цікавить</em>.</li><li><strong>Не вводьте «GTA 6» у пошук.</strong> Підказки допишуть «пояснення фіналу» раніше, ніж ви натиснете Enter. Відкривайте потрібний канал напряму.</li><li><strong>Не відкривайте коментарі</strong> під будь-якими роликами про гру, включно з трейлерами і старими новинами. У топ-коментарях спойлерять навмисно.</li><li><strong>Вимкніть дзвіночок</strong> у каналів, які стрімитимуть або оглядатимуть гру, щоб сповіщення не показували прев'ю.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Якщо граєте на ПК",
+     "h": "Якщо ви граєте на ПК",
+     "html": "<p>Дату виходу на ПК не оголосили. Розраховуйте на місяці, а не дні: потрібні фільтри, які можна не вимикати, а не тиждень без інтернету. Налаштуйте основний список один раз, тримайте історію YouTube вимкненою і додавайте імена до списку лише з трейлерів, які вже бачили.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "Як уникнути спойлерів GTA 6 на YouTube?",
+     "Очистіть і призупиніть історію переглядів, щоб головна перестала показувати рекомендації, вимкніть автовідтворення, не відкривайте Shorts і коментарі та не вводьте назву гри в пошук. Фільтра за словами на YouTube немає, тож розмивати ролики й коментарі за словами може лише розширення для браузера."
+    ],
+    [
+     "Коли почнуться спойлери GTA 6?",
+     "До дня виходу. Копії для оглядів уже в преси, а великі ігри зазвичай потрапляють до частини гравців на кілька днів раніше, тому сюжет може з'явитися до {D}."
+    ],
+    [
+     "Скільки уникати спойлерів, якщо граю на ПК?",
+     "Дати для ПК поки немає, тож розраховуйте на місяці, а не дні. Використовуйте фільтри, які можна залишити ввімкненими, а не йдіть з мережі."
+    ],
+    [
+     "Які слова приховати для GTA 6?",
+     "Назву гри в обох написаннях (GTA 6 і GTA VI) разом зі словами про сюжет: фінал, злив, твіст, хто помре. Якщо приховати лише назву, зникнуть і безпечні новини."
+    ],
+    [
+     "Чи є розширення, яке блокує спойлери GTA 6?",
+     "Так, кілька. Pure Spoiler Blocker безкоштовне, для Chrome і Firefox: розмиває ролики, пости й коментарі зі спойлерами на YouTube, Reddit і X та перевіряє текст на пристрої."
+    ]
+   ]
+  },
+  "pl": {
+   "name": "GTA 6",
+   "title": "Jak uniknąć spoilerów GTA 6 na YouTube, Reddicie i X (także na PC)",
+   "desc": "YouTube nie wycisza słów, a tytuły na Reddicie zdradzają zakończenie. 5-minutowa lista na premierę, także dla graczy PC, i darmowy bloker, który rozmywa spoilery.",
+   "kicker": "GRA · PS5 I XBOX SERIES · {date}",
+   "cover_tag": "GRA · {date}",
+   "keep_val": "PC: miesiące",
+   "lead": "Wychodzi na PS5 i Xbox Series X|S, daty na PC jeszcze nie ma. Najwięcej spoilerów przyjdzie przez miniatury na YouTube i tytuły na Reddicie, gdzie słów nie da się wyciszyć. Oto co działa.",
+   "why_h": "Dlaczego trudno uniknąć spoilerów GTA 6",
+   "why": "<p>Kopie recenzenckie są już u dziennikarzy, a duże gry często trafiają do części graczy kilka dni wcześniej, więc fabuła może wypłynąć przed {D0}. Potem gra cały internet naraz: streamy, filmy „zakończenie wyjaśnione” i memy przez tygodnie.</p><p>Wyciszenie samego „GTA” ukryje też zwiastuny, newsy i każdą inną grę z serii. Weź podstawową listę poniżej, a tryb ścisły zostaw na tydzień premiery.</p>",
+   "unknown": "Postacie i misje, których nie pokazały zwiastuny.",
+   "demo": "Zakończenie GTA 6 wyjaśnione: ostatnia misja",
+   "cover_line": "Zakończenie",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube krok po kroku",
+     "h": "Jak uniknąć spoilerów GTA 6 na YouTube",
+     "html": "<p>YouTube nie ma filtra słów, więc zagłódź rekomendacje i trzymaj się z dala od miniatur, Shorts, komentarzy i podpowiedzi wyszukiwania. Około pięciu minut:</p><ol><li><strong>Wyczyść i wstrzymaj historię oglądania.</strong> Historia w lewym menu, <em>Wyczyść całą historię oglądania</em>, potem <em>Wstrzymaj historię oglądania</em>. Gdy historia jest pusta i wyłączona, strona główna przestaje pokazywać rekomendacje, a tam w tygodniu premiery jest najwięcej spoilerów.</li><li><strong>Wyłącz autoodtwarzanie.</strong> Przełącznik jest pod odtwarzaczem. Jeden automatycznie włączony film z reakcją wystarczy, by zobaczyć zakończenie.</li><li><strong>Omijaj Shorts przez pierwsze tygodnie.</strong> W Shorts kadr widać przed tytułem. Jeśli coś się prześlizgnie, wybierz <em>Nie polecaj kanału</em>, a nie tylko <em>Nie interesuje mnie to</em>.</li><li><strong>Nie wpisuj „GTA 6” w wyszukiwarkę.</strong> Podpowiedzi dopiszą „zakończenie wyjaśnione”, zanim naciśniesz Enter. Otwieraj wybrany kanał bezpośrednio.</li><li><strong>Nie czytaj komentarzy</strong> pod żadnym filmem o grze, także pod zwiastunami i starymi newsami. W najlepszych komentarzach ludzie spoilerują celowo.</li><li><strong>Wyłącz dzwonek</strong> przy kanałach, które będą streamować albo recenzować grę, żeby powiadomienia nie pokazywały miniatur.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Gram na PC",
+     "h": "Jeśli grasz na PC",
+     "html": "<p>Daty premiery na PC nie ogłoszono. Licz się z miesiącami, nie dniami: potrzebujesz filtrów, które możesz zostawić włączone, a nie tygodnia offline. Ustaw podstawową listę raz, trzymaj historię YouTube wstrzymaną i dodawaj imiona tylko z tych zwiastunów, które już widziałeś.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "Jak uniknąć spoilerów GTA 6 na YouTube?",
+     "Wyczyść i wstrzymaj historię oglądania, żeby strona główna przestała pokazywać rekomendacje, wyłącz autoodtwarzanie, omijaj Shorts i komentarze i nie wpisuj nazwy gry w wyszukiwarkę. YouTube nie ma filtra słów, więc żeby rozmywać filmy i komentarze po słowach, potrzebne jest rozszerzenie do przeglądarki."
+    ],
+    [
+     "Kiedy zaczną się spoilery GTA 6?",
+     "Przed premierą. Kopie recenzenckie są już u dziennikarzy, a duże gry zwykle trafiają do części graczy kilka dni wcześniej, więc fabuła może się pojawić przed {D}."
+    ],
+    [
+     "Jak długo unikać spoilerów, jeśli gram na PC?",
+     "Daty na PC jeszcze nie ma, więc licz się z miesiącami, nie dniami. Używaj filtrów, które możesz zostawić włączone, zamiast znikać z sieci."
+    ],
+    [
+     "Jakie słowa wyciszyć dla GTA 6?",
+     "Nazwę gry w obu zapisach (GTA 6 i GTA VI) razem ze słowami o fabule: zakończenie, wyciek, zwrot akcji, kto ginie. Wyciszenie samej nazwy ukryje też niegroźne newsy."
+    ],
+    [
+     "Czy jest rozszerzenie blokujące spoilery GTA 6?",
+     "Tak, kilka. Pure Spoiler Blocker jest darmowe, dla Chrome i Firefoksa: rozmywa filmy, posty i komentarze ze spoilerami na YouTube, Reddicie i X i sprawdza tekst lokalnie."
+    ]
+   ]
+  },
+  "de": {
+   "name": "GTA 6",
+   "title": "GTA 6 ohne Spoiler: YouTube, Reddit und X (auch für PC)",
+   "desc": "YouTube kann keine Wörter stummschalten, Reddit-Titel verraten das Ende. Eine 5-Minuten-Checkliste zum Release, auch für PC-Spieler, plus ein kostenloser Spoiler-Blocker.",
+   "kicker": "SPIEL · PS5 UND XBOX SERIES · {date}",
+   "cover_tag": "SPIEL · {date}",
+   "keep_val": "PC: Monate",
+   "lead": "Erscheint für PS5 und Xbox Series X|S, ein PC-Termin fehlt noch. Die meisten Spoiler kommen über YouTube-Vorschaubilder und Reddit-Titel, wo man nichts stummschalten kann. Das hilft.",
+   "why_h": "Warum man GTA-6-Spoilern schwer entkommt",
+   "why": "<p>Testmuster liegen schon bei der Presse, und große Spiele erreichen manche Spieler ein paar Tage früher, also kann die Story schon vor dem {D0} auftauchen. Danach spielt das ganze Internet gleichzeitig: Streams, „Ende erklärt“-Videos und Memes über Wochen.</p><p>Wer nur „GTA“ stummschaltet, verliert auch Trailer, News und alle anderen GTA-Spiele. Nimm die Kernliste unten und heb den strengen Modus für die Release-Woche auf.</p>",
+   "unknown": "Figuren und Missionen, die kein Trailer gezeigt hat.",
+   "demo": "GTA 6 Ende erklärt: die letzte Mission",
+   "cover_line": "Das Ende",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube Schritt für Schritt",
+     "h": "GTA-6-Spoiler auf YouTube vermeiden",
+     "html": "<p>YouTube hat keinen Wortfilter, also lass die Empfehlungen verhungern und meide Vorschaubilder, Shorts, Kommentare und Suchvorschläge. Etwa fünf Minuten:</p><ol><li><strong>Wiedergabeverlauf löschen und pausieren.</strong> Verlauf im linken Menü, <em>Gesamten Wiedergabeverlauf löschen</em>, dann <em>Wiedergabeverlauf pausieren</em>. Ist der Verlauf leer und aus, zeigt die Startseite keine Empfehlungen mehr, und genau dort tauchen in der Release-Woche die meisten Spoiler auf.</li><li><strong>Autoplay ausschalten.</strong> Der Schalter ist unter dem Player. Ein automatisch gestartetes Reaktionsvideo reicht, um das Ende zu sehen.</li><li><strong>Shorts in den ersten Wochen meiden.</strong> Bei Shorts siehst du das Bild vor dem Titel. Rutscht einer durch, nimm <em>Kanal nicht empfehlen</em>, nicht nur <em>Kein Interesse</em>.</li><li><strong>„GTA 6“ nicht in die Suche tippen.</strong> Die Vorschläge ergänzen „Ende erklärt“, bevor du Enter drückst. Öffne den gewünschten Kanal direkt.</li><li><strong>Kommentare überspringen</strong> unter jedem Video zum Spiel, auch unter Trailern und alten News. In den Top-Kommentaren wird absichtlich gespoilert.</li><li><strong>Glocke ausschalten</strong> bei Kanälen, die das Spiel streamen oder testen, damit Benachrichtigungen keine Vorschaubilder zeigen.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Auf dem PC",
+     "h": "Wenn du auf dem PC spielst",
+     "html": "<p>Ein PC-Termin ist nicht angekündigt. Rechne mit Monaten, nicht Tagen: Du brauchst Filter, die an bleiben können, keine Woche offline. Richte die Kernliste einmal ein, lass den YouTube-Verlauf pausiert und füge Namen nur aus Trailern hinzu, die du schon gesehen hast.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "Wie vermeide ich GTA-6-Spoiler auf YouTube?",
+     "Wiedergabeverlauf löschen und pausieren, damit die Startseite keine Empfehlungen mehr zeigt, Autoplay aus, Shorts und Kommentare meiden und den Spielnamen nicht in die Suche tippen. YouTube hat keinen Wortfilter, um Videos und Kommentare nach Wörtern zu verwischen, brauchst du eine Browser-Erweiterung."
+    ],
+    [
+     "Wann beginnen GTA-6-Spoiler?",
+     "Vor dem Release. Testmuster liegen schon bei der Presse und große Spiele erreichen meist einige Spieler ein paar Tage früher, daher kann die Story vor dem {D} auftauchen."
+    ],
+    [
+     "Wie lange muss ich Spoiler meiden, wenn ich auf dem PC spiele?",
+     "Es gibt noch keinen PC-Termin, also rechne mit Monaten, nicht Tagen. Nutze Filter, die du anlassen kannst, statt offline zu gehen."
+    ],
+    [
+     "Welche Wörter sollte ich für GTA 6 stummschalten?",
+     "Den Spielnamen in beiden Schreibweisen (GTA 6 und GTA VI) zusammen mit Story-Wörtern wie Ende, Leak, Twist und wer stirbt. Nur den Namen stummzuschalten blendet auch harmlose News aus."
+    ],
+    [
+     "Gibt es eine Erweiterung, die GTA-6-Spoiler blockiert?",
+     "Ja, mehrere. Pure Spoiler Blocker ist kostenlos für Chrome und Firefox, verwischt Spoiler-Videos, Posts und Kommentare auf YouTube, Reddit und X und prüft den Text lokal."
+    ]
+   ]
+  },
+  "fr": {
+   "name": "GTA 6",
+   "title": "Éviter les spoilers de GTA 6 sur YouTube, Reddit et X (PC aussi)",
+   "desc": "YouTube ne masque pas les mots et les titres Reddit révèlent la fin. Une checklist de 5 minutes pour la sortie, joueurs PC compris, et un bloqueur gratuit qui floute les spoilers.",
+   "kicker": "JEU · PS5 ET XBOX SERIES · {date}",
+   "cover_tag": "JEU · {date}",
+   "keep_val": "PC : des mois",
+   "lead": "Sort sur PS5 et Xbox Series X|S, sans date PC pour l'instant. La plupart des spoilers passeront par les miniatures YouTube et les titres Reddit, où rien ne se masque. Voici ce qui marche.",
+   "why_h": "Pourquoi les spoilers de GTA 6 sont difficiles à éviter",
+   "why": "<p>Les copies presse sont déjà chez les journalistes, et les gros jeux arrivent souvent chez certains joueurs quelques jours plus tôt, donc l'histoire peut fuiter avant le {D0}. Ensuite tout internet joue en même temps : streams, vidéos « fin expliquée » et mèmes pendant des semaines.</p><p>Masquer simplement « GTA » cache aussi les bandes-annonces, l'actu et tous les autres GTA. Prenez la liste principale ci-dessous et gardez le mode strict pour la semaine de sortie.</p>",
+   "unknown": "Personnages et missions qu'aucune bande-annonce n'a montrés.",
+   "demo": "Fin de GTA 6 expliquée : la dernière mission",
+   "cover_line": "La fin",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube étape par étape",
+     "h": "Éviter les spoilers de GTA 6 sur YouTube",
+     "html": "<p>YouTube n'a pas de filtre de mots : affamez les recommandations et tenez-vous loin des miniatures, des Shorts, des commentaires et des suggestions de recherche. Cinq minutes environ :</p><ol><li><strong>Effacez et suspendez l'historique.</strong> Historique dans le menu de gauche, <em>Effacer tout l'historique des vidéos regardées</em>, puis <em>Suspendre l'historique des vidéos regardées</em>. Historique vide et coupé, la page d'accueil n'affiche plus de recommandations, et c'est là que tombent la plupart des spoilers de la semaine de sortie.</li><li><strong>Coupez la lecture automatique.</strong> L'interrupteur est sous le lecteur. Une vidéo de réaction lancée toute seule suffit pour voir la fin.</li><li><strong>Évitez les Shorts les premières semaines.</strong> Dans un Short, l'image passe avant le titre. Si l'un d'eux passe, choisissez <em>Ne pas recommander la chaîne</em>, pas seulement <em>Pas intéressé</em>.</li><li><strong>Ne tapez pas « GTA 6 » dans la recherche.</strong> Les suggestions ajoutent « fin expliquée » avant que vous appuyiez sur Entrée. Ouvrez directement la chaîne voulue.</li><li><strong>Ne lisez pas les commentaires</strong> sous les vidéos sur le jeu, bandes-annonces et vieilles actus comprises. Les commentaires les plus en vue spoilent exprès.</li><li><strong>Coupez la cloche</strong> des chaînes qui vont streamer ou tester le jeu, pour que les notifications ne montrent pas de miniature.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Sur PC",
+     "h": "Si vous jouez sur PC",
+     "html": "<p>Aucune date PC n'a été annoncée. Comptez en mois, pas en jours : il faut des filtres qu'on laisse actifs, pas une semaine hors ligne. Réglez la liste principale une fois, laissez l'historique YouTube suspendu et n'ajoutez des noms qu'à partir des bandes-annonces déjà vues.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "Comment éviter les spoilers de GTA 6 sur YouTube ?",
+     "Effacez et suspendez l'historique pour que la page d'accueil n'affiche plus de recommandations, coupez la lecture automatique, évitez les Shorts et les commentaires et ne tapez pas le nom du jeu dans la recherche. YouTube n'a pas de filtre de mots : pour flouter vidéos et commentaires par mots, il faut une extension de navigateur."
+    ],
+    [
+     "Quand commencent les spoilers de GTA 6 ?",
+     "Avant la sortie. Les copies presse sont déjà chez les journalistes et les gros jeux arrivent souvent chez certains joueurs quelques jours plus tôt, donc l'histoire peut apparaître avant le {D}."
+    ],
+    [
+     "Combien de temps éviter les spoilers si je joue sur PC ?",
+     "Il n'y a pas encore de date PC, comptez en mois, pas en jours. Utilisez des filtres qu'on peut laisser actifs plutôt que de vous couper d'internet."
+    ],
+    [
+     "Quels mots masquer pour GTA 6 ?",
+     "Le nom du jeu dans les deux graphies (GTA 6 et GTA VI) avec des mots d'histoire comme fin, fuite, twist et qui meurt. Masquer seulement le nom cache aussi l'actu inoffensive."
+    ],
+    [
+     "Existe-t-il une extension qui bloque les spoilers de GTA 6 ?",
+     "Oui, plusieurs. Pure Spoiler Blocker est gratuite pour Chrome et Firefox : elle floute vidéos, posts et commentaires spoilers sur YouTube, Reddit et X et vérifie le texte en local."
+    ]
+   ]
+  },
+  "es": {
+   "name": "GTA 6",
+   "title": "Cómo evitar spoilers de GTA 6 en YouTube, Reddit y X (también en PC)",
+   "desc": "YouTube no silencia palabras y los títulos de Reddit revelan el final. Una lista de 5 minutos para el lanzamiento, también para PC, y un bloqueador gratis que difumina spoilers.",
+   "kicker": "JUEGO · PS5 Y XBOX SERIES · {date}",
+   "cover_tag": "JUEGO · {date}",
+   "keep_val": "PC: meses",
+   "lead": "Sale en PS5 y Xbox Series X|S, todavía sin fecha para PC. La mayoría de spoilers llegarán por miniaturas de YouTube y títulos de Reddit, donde no se puede silenciar nada. Esto funciona.",
+   "why_h": "Por qué es difícil esquivar los spoilers de GTA 6",
+   "why": "<p>La prensa ya tiene copias para reseñas y los grandes juegos llegan a algunos jugadores unos días antes, así que la historia puede salir antes del {D0}. Luego juega todo internet a la vez: directos, vídeos de «final explicado» y memes durante semanas.</p><p>Silenciar solo «GTA» también oculta tráileres, noticias y cualquier otro GTA. Usa la lista principal de abajo y deja el modo estricto para la semana del lanzamiento.</p>",
+   "unknown": "Personajes y misiones que ningún tráiler mostró.",
+   "demo": "Final de GTA 6 explicado: la última misión",
+   "cover_line": "El final",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube paso a paso",
+     "h": "Cómo evitar spoilers de GTA 6 en YouTube",
+     "html": "<p>YouTube no tiene filtro de palabras, así que deja sin comida a las recomendaciones y aléjate de miniaturas, Shorts, comentarios y sugerencias de búsqueda. Unos cinco minutos:</p><ol><li><strong>Borra y pausa el historial.</strong> Historial en el menú izquierdo, <em>Borrar todo el historial de reproducciones</em> y luego <em>Pausar el historial de reproducciones</em>. Con el historial vacío y apagado, la página principal deja de mostrar recomendaciones, y ahí aparecen la mayoría de spoilers de la semana del lanzamiento.</li><li><strong>Desactiva la reproducción automática.</strong> El interruptor está bajo el reproductor. Basta un vídeo de reacción que arranque solo para ver el final.</li><li><strong>Evita los Shorts las primeras semanas.</strong> En un Short ves la imagen antes que el título. Si se cuela uno, usa <em>No recomendar este canal</em>, no solo <em>No me interesa</em>.</li><li><strong>No escribas «GTA 6» en el buscador.</strong> Las sugerencias completan «final explicado» antes de pulsar Enter. Abre el canal que quieras directamente.</li><li><strong>No leas los comentarios</strong> de ningún vídeo del juego, incluidos tráileres y noticias viejas. En los comentarios destacados se hace spoiler a propósito.</li><li><strong>Apaga la campana</strong> de los canales que vayan a hacer directos o reseñas del juego, para que las notificaciones no muestren miniaturas.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Si juegas en PC",
+     "h": "Si juegas en PC",
+     "html": "<p>No hay fecha anunciada para PC. Cuenta con meses, no días: necesitas filtros que puedas dejar activados, no una semana sin internet. Configura la lista principal una vez, mantén pausado el historial de YouTube y añade nombres solo de los tráileres que ya viste.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "¿Cómo evito spoilers de GTA 6 en YouTube?",
+     "Borra y pausa el historial para que la página principal deje de mostrar recomendaciones, desactiva la reproducción automática, evita los Shorts y los comentarios y no escribas el nombre del juego en el buscador. YouTube no tiene filtro de palabras, así que para difuminar vídeos y comentarios por palabras necesitas una extensión del navegador."
+    ],
+    [
+     "¿Cuándo empiezan los spoilers de GTA 6?",
+     "Antes del lanzamiento. La prensa ya tiene copias y los grandes juegos suelen llegar a algunos jugadores unos días antes, así que la historia puede aparecer antes del {D}."
+    ],
+    [
+     "¿Cuánto tiempo evito spoilers si juego en PC?",
+     "Todavía no hay fecha para PC, así que cuenta con meses, no días. Usa filtros que puedas dejar activados en lugar de desconectarte."
+    ],
+    [
+     "¿Qué palabras silencio para GTA 6?",
+     "El nombre del juego en sus dos grafías (GTA 6 y GTA VI) junto con palabras de la historia como final, filtración, giro y quién muere. Silenciar solo el nombre también oculta noticias inofensivas."
+    ],
+    [
+     "¿Hay alguna extensión que bloquee spoilers de GTA 6?",
+     "Sí, varias. Pure Spoiler Blocker es gratis para Chrome y Firefox: difumina vídeos, posts y comentarios con spoilers en YouTube, Reddit y X y revisa el texto en local."
+    ]
+   ]
+  },
+  "it": {
+   "name": "GTA 6",
+   "title": "Come evitare gli spoiler di GTA 6 su YouTube, Reddit e X (anche su PC)",
+   "desc": "YouTube non silenzia le parole e i titoli su Reddit svelano il finale. Una checklist di 5 minuti per l'uscita, anche per chi gioca su PC, e un blocco spoiler gratuito.",
+   "kicker": "GIOCO · PS5 E XBOX SERIES · {date}",
+   "cover_tag": "GIOCO · {date}",
+   "keep_val": "PC: mesi",
+   "lead": "Esce su PS5 e Xbox Series X|S, ancora senza data per PC. Quasi tutti gli spoiler arriveranno da miniature di YouTube e titoli su Reddit, dove non si può silenziare nulla. Ecco cosa funziona.",
+   "why_h": "Perché è difficile evitare gli spoiler di GTA 6",
+   "why": "<p>Le copie per le recensioni sono già alla stampa e i grandi giochi arrivano spesso ad alcuni giocatori qualche giorno prima, quindi la trama può uscire prima del {D0}. Poi gioca tutto internet insieme: live, video «finale spiegato» e meme per settimane.</p><p>Silenziare solo «GTA» nasconde anche trailer, notizie e ogni altro GTA. Usa la lista principale qui sotto e tieni la modalità rigida per la settimana di uscita.</p>",
+   "unknown": "Personaggi e missioni che nessun trailer ha mostrato.",
+   "demo": "Finale di GTA 6 spiegato: l'ultima missione",
+   "cover_line": "Il finale",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube passo per passo",
+     "h": "Come evitare gli spoiler di GTA 6 su YouTube",
+     "html": "<p>YouTube non ha un filtro per parole: lascia a digiuno i consigli e stai lontano da miniature, Shorts, commenti e suggerimenti di ricerca. Circa cinque minuti:</p><ol><li><strong>Cancella e metti in pausa la cronologia.</strong> Cronologia nel menu a sinistra, <em>Cancella tutta la cronologia visualizzazioni</em>, poi <em>Metti in pausa la cronologia delle visualizzazioni</em>. Con la cronologia vuota e spenta, la home smette di mostrare consigli, ed è lì che arrivano quasi tutti gli spoiler della settimana di uscita.</li><li><strong>Disattiva la riproduzione automatica.</strong> L'interruttore è sotto il player. Basta un video reaction partito da solo per vedere il finale.</li><li><strong>Evita gli Shorts nelle prime settimane.</strong> Negli Shorts vedi l'immagine prima del titolo. Se ne passa uno, usa <em>Non consigliare il canale</em>, non solo <em>Non mi interessa</em>.</li><li><strong>Non scrivere «GTA 6» nella ricerca.</strong> I suggerimenti aggiungono «finale spiegato» prima che premi Invio. Apri direttamente il canale che vuoi.</li><li><strong>Salta i commenti</strong> sotto qualsiasi video sul gioco, compresi trailer e vecchie notizie. Nei commenti in evidenza c'è chi fa spoiler apposta.</li><li><strong>Spegni la campanella</strong> dei canali che faranno live o recensioni del gioco, così le notifiche non mostrano miniature.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Se giochi su PC",
+     "h": "Se giochi su PC",
+     "html": "<p>Nessuna data per PC è stata annunciata. Conta in mesi, non giorni: servono filtri da lasciare attivi, non una settimana offline. Imposta la lista principale una volta, tieni in pausa la cronologia di YouTube e aggiungi nomi solo dai trailer che hai già visto.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "Come evito gli spoiler di GTA 6 su YouTube?",
+     "Cancella e metti in pausa la cronologia così la home smette di mostrare consigli, disattiva la riproduzione automatica, evita Shorts e commenti e non scrivere il nome del gioco nella ricerca. YouTube non ha un filtro per parole, quindi per sfocare video e commenti per parola serve un'estensione del browser."
+    ],
+    [
+     "Quando iniziano gli spoiler di GTA 6?",
+     "Prima dell'uscita. Le copie per le recensioni sono già alla stampa e i grandi giochi arrivano di solito ad alcuni giocatori qualche giorno prima, quindi la trama può comparire prima del {D}."
+    ],
+    [
+     "Per quanto devo evitare spoiler se gioco su PC?",
+     "Non c'è ancora una data per PC, quindi conta in mesi, non giorni. Usa filtri da lasciare attivi invece di sparire da internet."
+    ],
+    [
+     "Quali parole silenziare per GTA 6?",
+     "Il nome del gioco in entrambe le grafie (GTA 6 e GTA VI) insieme a parole di trama come finale, leak, colpo di scena e chi muore. Silenziare solo il nome nasconde anche notizie innocue."
+    ],
+    [
+     "Esiste un'estensione che blocca gli spoiler di GTA 6?",
+     "Sì, più di una. Pure Spoiler Blocker è gratuita per Chrome e Firefox: sfoca video, post e commenti con spoiler su YouTube, Reddit e X e controlla il testo in locale."
+    ]
+   ]
+  },
+  "pt-BR": {
+   "name": "GTA 6",
+   "title": "Como evitar spoilers de GTA 6 no YouTube, Reddit e X (PC também)",
+   "desc": "O YouTube não silencia palavras e títulos no Reddit entregam o final. Um checklist de 5 minutos para o lançamento, inclusive no PC, e um bloqueador grátis que desfoca spoilers.",
+   "kicker": "JOGO · PS5 E XBOX SERIES · {date}",
+   "cover_tag": "JOGO · {date}",
+   "keep_val": "PC: meses",
+   "lead": "Sai para PS5 e Xbox Series X|S, ainda sem data para PC. A maioria dos spoilers vai chegar por miniaturas do YouTube e títulos no Reddit, onde nada pode ser silenciado. Veja o que funciona.",
+   "why_h": "Por que é difícil fugir dos spoilers de GTA 6",
+   "why": "<p>A imprensa já tem cópias para análise e jogos grandes costumam chegar a alguns jogadores dias antes, então a história pode vazar antes de {D0}. Depois a internet inteira joga ao mesmo tempo: lives, vídeos de «final explicado» e memes por semanas.</p><p>Silenciar só «GTA» também esconde trailers, notícias e qualquer outro GTA. Use a lista principal abaixo e deixe o modo rígido para a semana de lançamento.</p>",
+   "unknown": "Personagens e missões que nenhum trailer mostrou.",
+   "demo": "Final de GTA 6 explicado: a última missão",
+   "cover_line": "O final",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube passo a passo",
+     "h": "Como evitar spoilers de GTA 6 no YouTube",
+     "html": "<p>O YouTube não tem filtro de palavras, então deixe as recomendações sem comida e fique longe de miniaturas, Shorts, comentários e sugestões de busca. Uns cinco minutos:</p><ol><li><strong>Limpe e pause o histórico.</strong> Histórico no menu à esquerda, <em>Limpar todo o histórico de exibição</em>, depois <em>Pausar o histórico de exibição</em>. Com o histórico vazio e desligado, a página inicial para de mostrar recomendações, e é lá que aparece a maioria dos spoilers na semana de lançamento.</li><li><strong>Desligue a reprodução automática.</strong> O botão fica abaixo do player. Um vídeo de react que começa sozinho já basta para ver o final.</li><li><strong>Fique longe dos Shorts nas primeiras semanas.</strong> No Short a imagem vem antes do título. Se um passar, use <em>Não recomendar o canal</em>, não só <em>Não tenho interesse</em>.</li><li><strong>Não digite «GTA 6» na busca.</strong> As sugestões completam «final explicado» antes de você apertar Enter. Abra o canal que quer direto.</li><li><strong>Pule os comentários</strong> de qualquer vídeo sobre o jogo, incluindo trailers e notícias antigas. Nos comentários em destaque tem gente que dá spoiler de propósito.</li><li><strong>Desligue o sininho</strong> dos canais que vão fazer live ou análise do jogo, para as notificações não mostrarem miniaturas.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "Se joga no PC",
+     "h": "Se você joga no PC",
+     "html": "<p>Nenhuma data para PC foi anunciada. Pense em meses, não em dias: você precisa de filtros que possam ficar ligados, não de uma semana offline. Configure a lista principal uma vez, deixe o histórico do YouTube pausado e só adicione nomes dos trailers que já viu.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "Como evitar spoilers de GTA 6 no YouTube?",
+     "Limpe e pause o histórico para a página inicial parar de mostrar recomendações, desligue a reprodução automática, fique longe de Shorts e comentários e não digite o nome do jogo na busca. O YouTube não tem filtro de palavras, então para desfocar vídeos e comentários por palavra você precisa de uma extensão de navegador."
+    ],
+    [
+     "Quando começam os spoilers de GTA 6?",
+     "Antes do lançamento. A imprensa já tem cópias e jogos grandes costumam chegar a alguns jogadores dias antes, então a história pode aparecer antes de {D}."
+    ],
+    [
+     "Por quanto tempo evitar spoilers se jogo no PC?",
+     "Ainda não há data para PC, então pense em meses, não em dias. Use filtros que possam ficar ligados em vez de sumir da internet."
+    ],
+    [
+     "Quais palavras silenciar para GTA 6?",
+     "O nome do jogo nas duas grafias (GTA 6 e GTA VI) junto com palavras da história como final, vazamento, reviravolta e quem morre. Silenciar só o nome também esconde notícias inofensivas."
+    ],
+    [
+     "Existe extensão que bloqueia spoilers de GTA 6?",
+     "Sim, várias. A Pure Spoiler Blocker é grátis para Chrome e Firefox: desfoca vídeos, posts e comentários com spoiler no YouTube, Reddit e X e verifica o texto localmente."
+    ]
+   ]
+  },
+  "tr": {
+   "name": "GTA 6",
+   "title": "GTA 6 spoilerlarından YouTube, Reddit ve X'te nasıl kaçınılır (PC dahil)",
+   "desc": "YouTube kelime susturamaz, Reddit başlıkları sonu ele verir. Çıkış haftası için 5 dakikalık kontrol listesi, PC oyuncuları dahil, ve spoilerları bulanıklaştıran ücretsiz bir eklenti.",
+   "kicker": "OYUN · PS5 VE XBOX SERIES · {date}",
+   "cover_tag": "OYUN · {date}",
+   "keep_val": "PC: aylar",
+   "lead": "PS5 ve Xbox Series X|S için çıkıyor, PC tarihi henüz yok. Spoilerların çoğu YouTube küçük resimleri ve Reddit başlıklarından gelecek, oralarda hiçbir şey susturulamıyor. İşe yarayanlar:",
+   "why_h": "GTA 6 spoilerlarından kaçmak neden zor",
+   "why": "<p>İnceleme kopyaları basında ve büyük oyunlar bazı oyunculara birkaç gün önce ulaşır, bu yüzden hikâye {D0} öncesinde ortaya çıkabilir. Sonra bütün internet aynı anda oynar: yayınlar, «son açıklandı» videoları ve haftalarca mimler.</p><p>Sadece «GTA» kelimesini susturmak fragmanları, haberleri ve diğer tüm GTA oyunlarını da gizler. Aşağıdaki temel listeyi kullanın, katı modu çıkış haftasına bırakın.</p>",
+   "unknown": "Fragmanlarda hiç görünmeyen karakterler ve görevler.",
+   "demo": "GTA 6 sonu açıklandı: son görev",
+   "cover_line": "Son",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "Adım adım YouTube",
+     "h": "GTA 6 spoilerlarından YouTube'da nasıl kaçınılır",
+     "html": "<p>YouTube'da kelime filtresi yok, bu yüzden önerileri aç bırakın ve küçük resimlerden, Shorts'tan, yorumlardan ve arama önerilerinden uzak durun. Yaklaşık beş dakika:</p><ol><li><strong>İzleme geçmişini temizleyin ve duraklatın.</strong> Sol menüde Geçmiş, <em>Tüm izleme geçmişini temizle</em>, sonra <em>İzleme geçmişini duraklat</em>. Geçmiş boş ve kapalıyken ana sayfa öneri göstermez, çıkış haftasındaki spoilerların çoğu da orada çıkar.</li><li><strong>Otomatik oynatmayı kapatın.</strong> Düğme oynatıcının altında. Kendiliğinden açılan tek bir tepki videosu sonu görmek için yeter.</li><li><strong>İlk haftalarda Shorts'a girmeyin.</strong> Shorts'ta görüntü başlıktan önce gelir. Biri sızarsa yalnızca <em>İlgilenmiyorum</em> değil, <em>Kanalı önerme</em> seçin.</li><li><strong>Aramaya «GTA 6» yazmayın.</strong> Öneriler siz Enter'a basmadan «son açıklandı» diye tamamlar. İstediğiniz kanalı doğrudan açın.</li><li><strong>Yorumları atlayın:</strong> oyunla ilgili her videoda, fragmanlar ve eski haberler dahil. Üstteki yorumlarda bilerek spoiler veriliyor.</li><li><strong>Zili kapatın:</strong> oyunu yayınlayacak ya da inceleyecek kanallarda, bildirimler küçük resim göstermesin.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "PC'de oynuyorsanız",
+     "h": "PC'de oynuyorsanız",
+     "html": "<p>PC çıkış tarihi açıklanmadı. Günleri değil ayları düşünün: bir hafta internetsiz kalmak yerine açık bırakılabilecek filtreler gerekiyor. Temel listeyi bir kez kurun, YouTube geçmişini duraklatılmış tutun ve isimleri sadece izlediğiniz fragmanlardan ekleyin.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "YouTube'da GTA 6 spoilerlarından nasıl kaçınırım?",
+     "Ana sayfa öneri göstermesin diye izleme geçmişini temizleyip duraklatın, otomatik oynatmayı kapatın, Shorts ve yorumlardan uzak durun, oyunun adını aramaya yazmayın. YouTube'da kelime filtresi yok, videoları ve yorumları kelimeye göre bulanıklaştırmak için tarayıcı eklentisi gerekir."
+    ],
+    [
+     "GTA 6 spoilerları ne zaman başlar?",
+     "Çıkıştan önce. İnceleme kopyaları basında ve büyük oyunlar genelde bazı oyunculara birkaç gün önce ulaşır, bu yüzden hikâye {D} öncesinde çıkabilir."
+    ],
+    [
+     "PC'de oynuyorsam spoilerlardan ne kadar kaçınmalıyım?",
+     "Henüz PC tarihi yok, günleri değil ayları düşünün. İnternetten kopmak yerine açık bırakabileceğiniz filtreler kullanın."
+    ],
+    [
+     "GTA 6 için hangi kelimeleri susturmalıyım?",
+     "Oyunun adını iki yazımıyla (GTA 6 ve GTA VI) son, sızıntı, sürpriz ve kim ölüyor gibi hikâye kelimeleriyle birlikte. Sadece adı susturmak zararsız haberleri de gizler."
+    ],
+    [
+     "GTA 6 spoilerlarını engelleyen bir eklenti var mı?",
+     "Evet, birkaç tane. Pure Spoiler Blocker Chrome ve Firefox için ücretsiz: YouTube, Reddit ve X'te spoilerlı videoları, gönderileri ve yorumları bulanıklaştırır ve metni yerelde kontrol eder."
+    ]
+   ]
+  },
+  "ja": {
+   "name": "GTA 6",
+   "title": "GTA 6 のネタバレを避ける方法：YouTube、Reddit、X（PC版待ちの人も）",
+   "desc": "YouTube はワードをミュートできず、Reddit のタイトルは結末をばらします。発売週の5分チェックリスト（PC勢向けも）と、ネタバレをぼかす無料ブロッカー。",
+   "kicker": "ゲーム · PS5 / XBOX SERIES · {date}",
+   "cover_tag": "ゲーム · {date}",
+   "keep_val": "PC：数か月",
+   "lead": "PS5 と Xbox Series X|S で発売、PC版の日付はまだありません。ネタバレの多くは YouTube のサムネイルと Reddit のタイトルから来ますが、そこではミュートできません。効く対策をまとめました。",
+   "why_h": "GTA 6 のネタバレを避けにくい理由",
+   "why": "<p>レビュー用コピーはすでにメディアに届いていて、大作は一部のプレイヤーに数日早く届くことが多いので、{D0}より前にストーリーが出回る可能性があります。そのあとはネット全体が一斉にプレイします。配信、「結末解説」動画、ミームが何週間も続きます。</p><p>「GTA」だけをミュートすると、トレーラーやニュース、ほかの GTA シリーズまで消えます。下の基本リストを使い、厳しいモードは発売週だけにしましょう。</p>",
+   "unknown": "トレーラーに一度も出ていないキャラクターやミッション。",
+   "demo": "GTA 6 結末解説：最後のミッション",
+   "cover_line": "結末",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube の手順",
+     "h": "YouTube で GTA 6 のネタバレを避ける方法",
+     "html": "<p>YouTube にはワードフィルターがないので、おすすめを育てず、サムネイル、ショート、コメント、検索候補から離れます。5分ほど：</p><ol><li><strong>再生履歴を削除して一時停止する。</strong> 左メニューの履歴から<em>すべての再生履歴を削除</em>、続けて<em>再生履歴を一時停止</em>。履歴が空でオフだとホームにおすすめが出なくなります。発売週のネタバレが一番出るのはそこです。</li><li><strong>自動再生をオフにする。</strong> スイッチはプレーヤーの下です。勝手に始まったリアクション動画ひとつで結末が見えてしまいます。</li><li><strong>最初の数週間はショートを見ない。</strong> ショートはタイトルより先に映像が出ます。紛れ込んだら<em>興味なし</em>だけでなく<em>チャンネルをおすすめに表示しない</em>を選びます。</li><li><strong>検索に「GTA 6」と打たない。</strong> Enter を押す前に候補が「結末 解説」を足してきます。見たいチャンネルを直接開きましょう。</li><li><strong>コメントは読まない。</strong> トレーラーや古いニュースも含め、ゲーム関連の動画すべてで。上位のコメントでわざとネタバレする人がいます。</li><li><strong>通知ベルを切る。</strong> 実況やレビューをしそうなチャンネルでは、通知にサムネイルが出ないようにします。</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "PC で遊ぶ人へ",
+     "h": "PC で遊ぶ場合",
+     "html": "<p>PC版の発売日は発表されていません。数日ではなく数か月と考えてください。1週間ネットを断つより、ずっとオンにしておけるフィルターが必要です。基本リストを一度設定し、YouTube の履歴は止めたままにし、名前は見たトレーラーのものだけ追加しましょう。</p>"
+    }
+   ],
+   "faq": [
+    [
+     "YouTube で GTA 6 のネタバレを避けるには？",
+     "再生履歴を削除して一時停止し、ホームにおすすめが出ないようにします。自動再生をオフにし、ショートとコメントを避け、検索にゲーム名を打たないこと。YouTube にはワードフィルターがないので、ワードで動画やコメントをぼかすにはブラウザ拡張機能が必要です。"
+    ],
+    [
+     "GTA 6 のネタバレはいつ始まる？",
+     "発売日より前です。レビュー用コピーはすでにメディアにあり、大作はふつう一部のプレイヤーに数日早く届くので、{D}より前にストーリーが出ることがあります。"
+    ],
+    [
+     "PC で遊ぶ場合、どれくらいネタバレを避ければいい？",
+     "PC版の日付はまだないので、数日ではなく数か月と考えてください。ネットを断つより、オンのままにできるフィルターを使いましょう。"
+    ],
+    [
+     "GTA 6 でミュートすべきワードは？",
+     "ゲーム名の両方の表記（GTA 6 と GTA VI）に、結末、リーク、どんでん返し、誰が死ぬ、などのストーリー語を組み合わせます。名前だけをミュートすると無害なニュースも消えます。"
+    ],
+    [
+     "GTA 6 のネタバレをブロックする拡張機能はある？",
+     "はい、いくつかあります。Pure Spoiler Blocker は Chrome と Firefox 用の無料拡張機能で、YouTube、Reddit、X のネタバレ動画、投稿、コメントをぼかし、テキストは端末内でチェックします。"
+    ]
+   ]
+  },
+  "ko": {
+   "name": "GTA 6",
+   "title": "YouTube, Reddit, X에서 GTA 6 스포일러 피하는 법 (PC 유저도)",
+   "desc": "YouTube는 단어를 뮤트할 수 없고 Reddit 제목은 결말을 흘립니다. 출시 주간 5분 체크리스트(PC 유저 포함)와 스포일러를 흐리게 하는 무료 차단기.",
+   "kicker": "게임 · PS5 · XBOX SERIES · {date}",
+   "cover_tag": "게임 · {date}",
+   "keep_val": "PC: 몇 달",
+   "lead": "PS5와 Xbox Series X|S로 출시되며 PC 날짜는 아직 없습니다. 스포일러 대부분은 뮤트가 안 되는 YouTube 썸네일과 Reddit 제목으로 들어옵니다. 효과 있는 방법을 정리했습니다.",
+   "why_h": "GTA 6 스포일러를 피하기 어려운 이유",
+   "why": "<p>리뷰용 사본은 이미 언론에 있고, 대작은 일부 플레이어에게 며칠 먼저 도착하는 경우가 많아 {D0} 전에 스토리가 퍼질 수 있습니다. 그다음엔 인터넷 전체가 동시에 플레이합니다. 방송, \"결말 해석\" 영상, 밈이 몇 주씩 이어집니다.</p><p>\"GTA\"만 뮤트하면 트레일러, 뉴스, 다른 GTA 시리즈까지 사라집니다. 아래 기본 목록을 쓰고 엄격 모드는 출시 주간에만 켜 두세요.</p>",
+   "unknown": "트레일러에 한 번도 나오지 않은 캐릭터와 미션.",
+   "demo": "GTA 6 결말 해석: 마지막 미션",
+   "cover_line": "결말",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube 단계별",
+     "h": "YouTube에서 GTA 6 스포일러 피하는 법",
+     "html": "<p>YouTube에는 단어 필터가 없으니 추천을 굶기고 썸네일, Shorts, 댓글, 검색 추천을 멀리하세요. 5분 정도면 됩니다:</p><ol><li><strong>시청 기록을 지우고 일시중지하세요.</strong> 왼쪽 메뉴의 기록에서 <em>시청 기록 모두 지우기</em>, 이어서 <em>시청 기록 일시중지</em>. 기록이 비어 있고 꺼져 있으면 홈에 추천이 뜨지 않습니다. 출시 주간 스포일러가 가장 많이 나오는 곳이 바로 거기입니다.</li><li><strong>자동재생을 끄세요.</strong> 스위치는 플레이어 아래에 있습니다. 저절로 재생된 리액션 영상 하나면 결말을 보게 됩니다.</li><li><strong>첫 몇 주는 Shorts를 보지 마세요.</strong> Shorts는 제목보다 화면이 먼저 보입니다. 하나가 끼어들면 <em>관심 없음</em>만이 아니라 <em>채널 추천 안함</em>을 누르세요.</li><li><strong>검색창에 \"GTA 6\"를 치지 마세요.</strong> Enter를 누르기 전에 추천어가 \"결말 해석\"을 붙여 줍니다. 원하는 채널을 바로 여세요.</li><li><strong>댓글은 건너뛰세요.</strong> 트레일러와 옛날 뉴스를 포함해 게임 관련 모든 영상에서요. 상위 댓글에서 일부러 스포하는 사람이 있습니다.</li><li><strong>알림 종을 끄세요.</strong> 게임을 방송하거나 리뷰할 채널에서요. 알림에 썸네일이 뜨지 않게 됩니다.</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "PC로 할 때",
+     "h": "PC로 플레이한다면",
+     "html": "<p>PC 출시일은 발표되지 않았습니다. 며칠이 아니라 몇 달로 생각하세요. 일주일 인터넷을 끊는 것보다 계속 켜 둘 수 있는 필터가 필요합니다. 기본 목록을 한 번 설정하고 YouTube 기록은 일시중지해 두고, 이름은 이미 본 트레일러에서만 추가하세요.</p>"
+    }
+   ],
+   "faq": [
+    [
+     "YouTube에서 GTA 6 스포일러를 어떻게 피하나요?",
+     "시청 기록을 지우고 일시중지해 홈에 추천이 뜨지 않게 하고, 자동재생을 끄고, Shorts와 댓글을 피하고, 검색창에 게임 이름을 치지 마세요. YouTube에는 단어 필터가 없어서 단어로 영상과 댓글을 흐리게 하려면 브라우저 확장 프로그램이 필요합니다."
+    ],
+    [
+     "GTA 6 스포일러는 언제부터 시작되나요?",
+     "출시일 전부터입니다. 리뷰용 사본이 이미 언론에 있고 대작은 보통 일부 플레이어에게 며칠 먼저 도착하므로 {D} 전에 스토리가 나올 수 있습니다."
+    ],
+    [
+     "PC로 하면 얼마나 오래 스포일러를 피해야 하나요?",
+     "아직 PC 날짜가 없으니 며칠이 아니라 몇 달로 생각하세요. 인터넷을 끊기보다 켜 둘 수 있는 필터를 쓰세요."
+    ],
+    [
+     "GTA 6는 어떤 단어를 뮤트해야 하나요?",
+     "게임 이름의 두 표기(GTA 6, GTA VI)에 결말, 유출, 반전, 누가 죽는지 같은 스토리 단어를 더하세요. 이름만 뮤트하면 무해한 뉴스도 사라집니다."
+    ],
+    [
+     "GTA 6 스포일러를 막는 확장 프로그램이 있나요?",
+     "네, 몇 가지 있습니다. Pure Spoiler Blocker는 Chrome과 Firefox용 무료 확장 프로그램으로 YouTube, Reddit, X의 스포일러 영상, 게시물, 댓글을 흐리게 하고 텍스트는 기기에서 검사합니다."
+    ]
+   ]
+  },
+  "zh-CN": {
+   "name": "GTA 6",
+   "title": "如何在 YouTube、Reddit 和 X 上避开 GTA 6 剧透（PC 玩家也适用）",
+   "desc": "YouTube 不能屏蔽关键词，Reddit 标题会直接剧透结局。一份发售周 5 分钟清单（含 PC 玩家），外加一个免费模糊剧透的扩展。",
+   "kicker": "游戏 · PS5 和 XBOX SERIES · {date}",
+   "cover_tag": "游戏 · {date}",
+   "keep_val": "PC：几个月",
+   "lead": "登陆 PS5 和 Xbox Series X|S，PC 版还没有日期。大多数剧透会来自 YouTube 缩略图和 Reddit 标题，而这两处都无法屏蔽关键词。下面是有效的办法。",
+   "why_h": "为什么 GTA 6 剧透很难躲",
+   "why": "<p>评测版已经在媒体手里，大作也常常提前几天到达部分玩家手中，所以剧情可能在{D0}之前就流出。之后全网同时开玩：直播、“结局解析”视频和梗图会持续好几周。</p><p>只屏蔽“GTA”会连预告、新闻和其他 GTA 作品一起挡掉。使用下面的基础列表，严格模式留到发售周再开。</p>",
+   "unknown": "预告里从未出现过的角色和任务。",
+   "demo": "GTA 6 结局解析：最后一个任务",
+   "cover_line": "结局",
+   "sections": [
+    {
+     "id": "youtube",
+     "nav": "YouTube 分步设置",
+     "h": "如何在 YouTube 上避开 GTA 6 剧透",
+     "html": "<p>YouTube 没有关键词过滤，所以要让推荐“饿着”，并远离缩略图、Shorts、评论和搜索建议。大约五分钟：</p><ol><li><strong>清除并暂停观看记录。</strong> 在左侧菜单打开历史记录，选择<em>清除所有观看记录</em>，再选<em>暂停保存观看记录</em>。记录为空且关闭时，首页不再显示推荐，而发售周的剧透大多出现在那里。</li><li><strong>关闭自动播放。</strong> 开关在播放器下方。一条自动播放的反应视频就足以让你看到结局。</li><li><strong>头几周别刷 Shorts。</strong> Shorts 会先显示画面再显示标题。如果漏进来一条，选<em>不推荐此频道</em>，而不只是<em>不感兴趣</em>。</li><li><strong>不要在搜索框输入“GTA 6”。</strong> 还没按回车，搜索建议就会补上“结局解析”。直接打开你想看的频道。</li><li><strong>跳过评论。</strong> 所有和游戏有关的视频都是，包括预告和旧新闻。热门评论里有人故意剧透。</li><li><strong>关闭小铃铛。</strong> 对会直播或评测这款游戏的频道关闭通知，免得通知里出现缩略图。</li></ol>"
+    },
+    {
+     "id": "pc",
+     "nav": "PC 玩家",
+     "h": "如果你玩 PC 版",
+     "html": "<p>PC 版发售日尚未公布。要按几个月而不是几天来准备：你需要能一直开着的过滤，而不是断网一周。基础列表设置一次即可，让 YouTube 观看记录保持暂停，人名只从你已经看过的预告里添加。</p>"
+    }
+   ],
+   "faq": [
+    [
+     "如何在 YouTube 上避开 GTA 6 剧透？",
+     "清除并暂停观看记录，让首页不再显示推荐；关闭自动播放；避开 Shorts 和评论；不要在搜索框输入游戏名。YouTube 没有关键词过滤，想按关键词模糊视频和评论，需要浏览器扩展。"
+    ],
+    [
+     "GTA 6 剧透什么时候开始？",
+     "在发售日之前。评测版已经在媒体手里，大作通常会提前几天到达部分玩家手中，所以剧情可能在{D}之前出现。"
+    ],
+    [
+     "玩 PC 版要躲剧透多久？",
+     "PC 版还没有日期，所以要按几个月而不是几天来算。用可以一直开着的过滤，而不是断网。"
+    ],
+    [
+     "GTA 6 应该屏蔽哪些词？",
+     "游戏名的两种写法（GTA 6 和 GTA VI），再加上结局、泄露、反转、谁死了等剧情词。只屏蔽名字也会挡掉无害的新闻。"
+    ],
+    [
+     "有没有屏蔽 GTA 6 剧透的扩展？",
+     "有好几个。Pure Spoiler Blocker 是适用于 Chrome 和 Firefox 的免费扩展，会模糊 YouTube、Reddit 和 X 上的剧透视频、帖子和评论，并在本地检查文本。"
+    ]
+   ]
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-gta-6-spoilers.html",
+   "block/gta6.html",
+   "mute-list/gta6.html"
+  ],
+  "de": [
+   "gta-6-spoiler-vermeiden.html",
+   "avoid-gta-6-spoilers.de.html"
+  ],
+  "es": [
+   "evitar-spoilers-gta-6.html",
+   "avoid-gta-6-spoilers.es.html"
+  ],
+  "fr": [
+   "eviter-spoilers-gta-6.html",
+   "avoid-gta-6-spoilers.fr.html"
+  ],
+  "it": [
+   "evitare-spoiler-gta-6.html",
+   "avoid-gta-6-spoilers.it.html"
+  ],
+  "ja": [
+   "gta-6-netabare-kaihi.html",
+   "avoid-gta-6-spoilers.ja.html"
+  ],
+  "ko": [
+   "gta-6-spoiler-pihagi.html",
+   "avoid-gta-6-spoilers.ko.html"
+  ],
+  "pl": [
+   "jak-uniknac-spoilerow-gta-6.html",
+   "avoid-gta-6-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "como-evitar-spoilers-gta-6.html",
+   "avoid-gta-6-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "kak-izbezhat-spojlerov-gta-6.html",
+   "avoid-gta-6-spoilers.ru.html"
+  ],
+  "tr": [
+   "gta-6-spoilerlarindan-kacinma.html",
+   "avoid-gta-6-spoilers.tr.html"
+  ],
+  "uk": [
+   "yak-unyknuty-spoileriv-gta-6.html",
+   "avoid-gta-6-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "gta-6-fang-jutou.html",
+   "avoid-gta-6-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-gta-6-spoilers",
+  "kind": "game",
+  "keep_old": true
+ },
+ "changelog": []
+}

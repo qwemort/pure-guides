@@ -1,0 +1,307 @@
+{
+ "id": "one-piece",
+ "slug": "one-piece",
+ "media": "anime",
+ "url": "/anime/one-piece/",
+ "names": {
+  "en": "One Piece",
+  "ru": "Ван-Пис",
+  "uk": "Ван-Піс",
+  "pl": "One Piece",
+  "de": "One Piece",
+  "fr": "One Piece",
+  "es": "One Piece",
+  "it": "One Piece",
+  "pt-BR": "One Piece",
+  "tr": "One Piece",
+  "ja": "ワンピース",
+  "ko": "원피스",
+  "zh-CN": "海贼王"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "de": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "es": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "it": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ワンピース",
+    "one piece",
+    "one piece anime",
+    "egghead"
+   ],
+   "balanced": [
+    "ルフィ",
+    "ゾロ",
+    "シャンクス",
+    "黒ひげ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "원피스",
+    "one piece",
+    "one piece anime",
+    "egghead"
+   ],
+   "balanced": [
+    "루피",
+    "조로",
+    "샹크스",
+    "검은수염"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "ван-пис",
+    "one piece",
+    "one piece anime",
+    "egghead"
+   ],
+   "balanced": [
+    "луффи",
+    "зоро",
+    "шанкс",
+    "чёрная борода"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "one piece",
+    "one piece anime",
+    "one piece chapter",
+    "egghead"
+   ],
+   "balanced": [
+    "luffy",
+    "zoro",
+    "shanks",
+    "blackbeard"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "ван-піс",
+    "one piece",
+    "one piece anime",
+    "egghead"
+   ],
+   "balanced": [
+    "луффі",
+    "зоро",
+    "шанкс",
+    "чорна борода"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "海贼王",
+    "one piece",
+    "one piece anime",
+    "egghead"
+   ],
+   "balanced": [
+    "路飞",
+    "索隆",
+    "香克斯",
+    "黑胡子"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "One Piece"
+  },
+  "ru": {
+   "name": "Ван-Пис"
+  },
+  "uk": {
+   "name": "Ван-Піс"
+  },
+  "pl": {
+   "name": "One Piece"
+  },
+  "de": {
+   "name": "One Piece"
+  },
+  "fr": {
+   "name": "One Piece"
+  },
+  "es": {
+   "name": "One Piece"
+  },
+  "it": {
+   "name": "One Piece"
+  },
+  "pt-BR": {
+   "name": "One Piece"
+  },
+  "tr": {
+   "name": "One Piece"
+  },
+  "ja": {
+   "name": "ワンピース"
+  },
+  "ko": {
+   "name": "원피스"
+  },
+  "zh-CN": {
+   "name": "海贼王"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-one-piece-spoilers.html",
+   "block/one-piece.html",
+   "mute-list/one-piece.html"
+  ],
+  "de": [
+   "avoid-one-piece-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-one-piece-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-one-piece-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-one-piece-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-one-piece-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-one-piece-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-one-piece-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-one-piece-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-one-piece-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-one-piece-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-one-piece-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-one-piece-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-one-piece-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

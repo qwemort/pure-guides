@@ -1,0 +1,307 @@
+{
+ "id": "detective-conan",
+ "slug": "detective-conan",
+ "media": "anime",
+ "url": "/anime/detective-conan/",
+ "names": {
+  "en": "Detective Conan",
+  "ru": "Детектив Конан",
+  "uk": "Детектив Конан",
+  "pl": "Detective Conan",
+  "de": "Detective Conan",
+  "fr": "Detective Conan",
+  "es": "Detective Conan",
+  "it": "Detective Conan",
+  "pt-BR": "Detective Conan",
+  "tr": "Detective Conan",
+  "ja": "名探偵コナン",
+  "ko": "명탐정 코난",
+  "zh-CN": "名侦探柯南"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "de": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "es": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "it": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "名探偵コナン",
+    "detective conan",
+    "case closed",
+    "conan manga"
+   ],
+   "balanced": [
+    "江戸川コナン",
+    "工藤新一",
+    "灰原哀",
+    "怪盗キッド"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "명탐정 코난",
+    "detective conan",
+    "case closed",
+    "conan manga"
+   ],
+   "balanced": [
+    "에도가와 코난",
+    "쿠도 신이치",
+    "하이바라 아이",
+    "괴도 키드"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "детектив конан",
+    "detective conan",
+    "case closed",
+    "conan manga"
+   ],
+   "balanced": [
+    "конан эдогава",
+    "синъити кудо",
+    "ай хайбара",
+    "кайто кид"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "detective conan",
+    "case closed",
+    "detective conan movie",
+    "conan manga"
+   ],
+   "balanced": [
+    "conan edogawa",
+    "shinichi kudo",
+    "ai haibara",
+    "kaito kid"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "детектив конан",
+    "detective conan",
+    "case closed",
+    "conan manga"
+   ],
+   "balanced": [
+    "конан едоґава",
+    "шінічі кудо",
+    "ай хайбара",
+    "кайто кід"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "名侦探柯南",
+    "detective conan",
+    "case closed",
+    "conan manga"
+   ],
+   "balanced": [
+    "江户川柯南",
+    "工藤新一",
+    "灰原哀",
+    "怪盗基德"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Detective Conan"
+  },
+  "ru": {
+   "name": "Детектив Конан"
+  },
+  "uk": {
+   "name": "Детектив Конан"
+  },
+  "pl": {
+   "name": "Detective Conan"
+  },
+  "de": {
+   "name": "Detective Conan"
+  },
+  "fr": {
+   "name": "Detective Conan"
+  },
+  "es": {
+   "name": "Detective Conan"
+  },
+  "it": {
+   "name": "Detective Conan"
+  },
+  "pt-BR": {
+   "name": "Detective Conan"
+  },
+  "tr": {
+   "name": "Detective Conan"
+  },
+  "ja": {
+   "name": "名探偵コナン"
+  },
+  "ko": {
+   "name": "명탐정 코난"
+  },
+  "zh-CN": {
+   "name": "名侦探柯南"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-detective-conan-spoilers.html",
+   "block/detective-conan.html",
+   "mute-list/detective-conan.html"
+  ],
+  "de": [
+   "avoid-detective-conan-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-detective-conan-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-detective-conan-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-detective-conan-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-detective-conan-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-detective-conan-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-detective-conan-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-detective-conan-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-detective-conan-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-detective-conan-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-detective-conan-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-detective-conan-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-detective-conan-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

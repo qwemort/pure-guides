@@ -1,0 +1,307 @@
+{
+ "id": "xenoblade-3",
+ "slug": "xenoblade-chronicles-3",
+ "media": "games",
+ "url": "/games/xenoblade-chronicles-3/",
+ "names": {
+  "en": "Xenoblade Chronicles 3",
+  "ru": "Xenoblade Chronicles 3",
+  "uk": "Xenoblade Chronicles 3",
+  "pl": "Xenoblade Chronicles 3",
+  "de": "Xenoblade Chronicles 3",
+  "fr": "Xenoblade Chronicles 3",
+  "es": "Xenoblade Chronicles 3",
+  "it": "Xenoblade Chronicles 3",
+  "pt-BR": "Xenoblade Chronicles 3",
+  "tr": "Xenoblade Chronicles 3",
+  "ja": "ゼノブレイド3",
+  "ko": "제노블레이드 크로니클스 3",
+  "zh-CN": "异度神剑3"
+ },
+ "release": {
+  "date": "2022-07-29",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "de": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "es": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "it": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ゼノブレイド3",
+    "ゼノブレ3",
+    "xenoblade 3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "ノア",
+    "ミオ",
+    "メビウス",
+    "オリジン"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "제노블레이드 3",
+    "제노블 3",
+    "xenoblade 3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "노아",
+    "미오",
+    "뫼비우스",
+    "오리진"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "ксеноблейд 3",
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "ноа",
+    "мио",
+    "мёбиус",
+    "ориджин"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "xc3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "noah",
+    "mio",
+    "moebius",
+    "origin"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "ксеноблейд 3",
+    "xenoblade chronicles 3",
+    "xenoblade 3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "ноа",
+    "міо",
+    "мебіус",
+    "оріджин"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "异度神剑3",
+    "异度3",
+    "xenoblade 3",
+    "future redeemed"
+   ],
+   "balanced": [
+    "诺亚",
+    "弥央",
+    "莫比乌斯",
+    "起源"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "ru": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "uk": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "pl": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "de": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "fr": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "es": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "it": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "pt-BR": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "tr": {
+   "name": "Xenoblade Chronicles 3"
+  },
+  "ja": {
+   "name": "ゼノブレイド3"
+  },
+  "ko": {
+   "name": "제노블레이드 크로니클스 3"
+  },
+  "zh-CN": {
+   "name": "异度神剑3"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-xenoblade-chronicles-3-spoilers.html",
+   "block/xenoblade-3.html",
+   "mute-list/xenoblade-3.html"
+  ],
+  "de": [
+   "avoid-xenoblade-chronicles-3-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-xenoblade-chronicles-3-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-xenoblade-chronicles-3-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-xenoblade-chronicles-3-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-xenoblade-chronicles-3-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-xenoblade-chronicles-3-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-xenoblade-chronicles-3-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-xenoblade-chronicles-3-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-xenoblade-chronicles-3-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-xenoblade-chronicles-3-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-xenoblade-chronicles-3-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-xenoblade-chronicles-3-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-xenoblade-chronicles-3-spoilers",
+  "kind": "game"
+ },
+ "changelog": []
+}

@@ -1,0 +1,307 @@
+{
+ "id": "demon-slayer",
+ "slug": "demon-slayer",
+ "media": "anime",
+ "url": "/anime/demon-slayer/",
+ "names": {
+  "en": "Demon Slayer",
+  "ru": "Клинок, рассекающий демонов",
+  "uk": "Клинок, що знищує демонів",
+  "pl": "Demon Slayer",
+  "de": "Demon Slayer",
+  "fr": "Demon Slayer",
+  "es": "Demon Slayer",
+  "it": "Demon Slayer",
+  "pt-BR": "Demon Slayer",
+  "tr": "Demon Slayer",
+  "ja": "鬼滅の刃",
+  "ko": "귀멸의 칼날",
+  "zh-CN": "鬼灭之刃"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "de": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "es": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "it": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "鬼滅の刃",
+    "demon slayer",
+    "kimetsu no yaiba",
+    "infinity castle"
+   ],
+   "balanced": [
+    "炭治郎",
+    "禰豆子",
+    "無惨",
+    "黒死牟"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "귀멸의 칼날",
+    "demon slayer",
+    "kimetsu no yaiba",
+    "infinity castle"
+   ],
+   "balanced": [
+    "탄지로",
+    "네즈코",
+    "무잔",
+    "코쿠시보"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "клинок, рассекающий демонов",
+    "demon slayer",
+    "kimetsu no yaiba",
+    "infinity castle"
+   ],
+   "balanced": [
+    "танджиро",
+    "нэдзуко",
+    "музан",
+    "кокушибо"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "demon slayer",
+    "kimetsu no yaiba",
+    "demon slayer infinity castle",
+    "infinity castle"
+   ],
+   "balanced": [
+    "tanjiro",
+    "nezuko",
+    "muzan",
+    "kokushibo"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "клинок, що знищує демонів",
+    "demon slayer",
+    "kimetsu no yaiba",
+    "infinity castle"
+   ],
+   "balanced": [
+    "танджіро",
+    "незуко",
+    "музан",
+    "кокушібо"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "鬼灭之刃",
+    "demon slayer",
+    "kimetsu no yaiba",
+    "infinity castle"
+   ],
+   "balanced": [
+    "炭治郎",
+    "祢豆子",
+    "无惨",
+    "黑死牟"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Demon Slayer"
+  },
+  "ru": {
+   "name": "Клинок, рассекающий демонов"
+  },
+  "uk": {
+   "name": "Клинок, що знищує демонів"
+  },
+  "pl": {
+   "name": "Demon Slayer"
+  },
+  "de": {
+   "name": "Demon Slayer"
+  },
+  "fr": {
+   "name": "Demon Slayer"
+  },
+  "es": {
+   "name": "Demon Slayer"
+  },
+  "it": {
+   "name": "Demon Slayer"
+  },
+  "pt-BR": {
+   "name": "Demon Slayer"
+  },
+  "tr": {
+   "name": "Demon Slayer"
+  },
+  "ja": {
+   "name": "鬼滅の刃"
+  },
+  "ko": {
+   "name": "귀멸의 칼날"
+  },
+  "zh-CN": {
+   "name": "鬼灭之刃"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-demon-slayer-spoilers.html",
+   "block/demon-slayer.html",
+   "mute-list/demon-slayer.html"
+  ],
+  "de": [
+   "avoid-demon-slayer-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-demon-slayer-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-demon-slayer-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-demon-slayer-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-demon-slayer-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-demon-slayer-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-demon-slayer-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-demon-slayer-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-demon-slayer-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-demon-slayer-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-demon-slayer-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-demon-slayer-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-demon-slayer-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

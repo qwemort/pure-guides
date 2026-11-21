@@ -1,0 +1,307 @@
+{
+ "id": "frieren",
+ "slug": "frieren",
+ "media": "anime",
+ "url": "/anime/frieren/",
+ "names": {
+  "en": "Frieren",
+  "ru": "Провожающая в последний путь Фрирен",
+  "uk": "Фрірен, що проводжає в останню путь",
+  "pl": "Frieren",
+  "de": "Frieren",
+  "fr": "Frieren",
+  "es": "Frieren",
+  "it": "Frieren",
+  "pt-BR": "Frieren",
+  "tr": "Frieren",
+  "ja": "葬送のフリーレン",
+  "ko": "장송의 프리렌",
+  "zh-CN": "葬送的芙莉莲"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "de": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "es": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "it": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "葬送のフリーレン",
+    "frieren",
+    "frieren beyond journeys end",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "ヒンメル",
+    "フェルン",
+    "シュタルク",
+    "ハイター"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "장송의 프리렌",
+    "frieren",
+    "frieren beyond journeys end",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "힘멜",
+    "페른",
+    "슈타르크",
+    "하이터"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "фрирен",
+    "frieren",
+    "frieren beyond journeys end",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "химмель",
+    "ферн",
+    "штарк",
+    "хайтер"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "frieren",
+    "frieren beyond journeys end",
+    "frieren season 2",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "himmel",
+    "fern",
+    "stark",
+    "heiter"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "фрірен",
+    "frieren",
+    "frieren beyond journeys end",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "гіммель",
+    "ферн",
+    "штарк",
+    "гайтер"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "葬送的芙莉莲",
+    "frieren",
+    "frieren beyond journeys end",
+    "sousou no frieren"
+   ],
+   "balanced": [
+    "辛美尔",
+    "菲伦",
+    "修塔尔克",
+    "海塔"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Frieren"
+  },
+  "ru": {
+   "name": "Провожающая в последний путь Фрирен"
+  },
+  "uk": {
+   "name": "Фрірен, що проводжає в останню путь"
+  },
+  "pl": {
+   "name": "Frieren"
+  },
+  "de": {
+   "name": "Frieren"
+  },
+  "fr": {
+   "name": "Frieren"
+  },
+  "es": {
+   "name": "Frieren"
+  },
+  "it": {
+   "name": "Frieren"
+  },
+  "pt-BR": {
+   "name": "Frieren"
+  },
+  "tr": {
+   "name": "Frieren"
+  },
+  "ja": {
+   "name": "葬送のフリーレン"
+  },
+  "ko": {
+   "name": "장송의 프리렌"
+  },
+  "zh-CN": {
+   "name": "葬送的芙莉莲"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-frieren-spoilers.html",
+   "block/frieren.html",
+   "mute-list/frieren.html"
+  ],
+  "de": [
+   "avoid-frieren-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-frieren-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-frieren-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-frieren-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-frieren-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-frieren-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-frieren-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-frieren-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-frieren-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-frieren-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-frieren-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-frieren-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-frieren-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

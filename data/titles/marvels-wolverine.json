@@ -1,0 +1,307 @@
+{
+ "id": "wolverine",
+ "slug": "marvels-wolverine",
+ "media": "games",
+ "url": "/games/marvels-wolverine/",
+ "names": {
+  "en": "Marvel's Wolverine",
+  "ru": "Marvel's Wolverine",
+  "uk": "Marvel's Wolverine",
+  "pl": "Marvel's Wolverine",
+  "de": "Marvel's Wolverine",
+  "fr": "Marvel's Wolverine",
+  "es": "Marvel's Wolverine",
+  "it": "Marvel's Wolverine",
+  "pt-BR": "Marvel's Wolverine",
+  "tr": "Marvel's Wolverine",
+  "ja": "Marvel's Wolverine",
+  "ko": "마블 울버린",
+  "zh-CN": "漫威金刚狼"
+ },
+ "release": {
+  "date": "2026-09-15",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "de": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "es": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "it": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ウルヴァリン ゲーム",
+    "marvel's wolverine",
+    "wolverine ps5",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "ローガン",
+    "ジーン・グレイ",
+    "ミスティーク",
+    "オメガ・レッド"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "마블 울버린",
+    "marvel's wolverine",
+    "울버린 게임",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "로건",
+    "진 그레이",
+    "미스틱",
+    "오메가 레드"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "росомаха игра",
+    "marvel's wolverine",
+    "wolverine ps5",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "логан",
+    "джин грей",
+    "мистик",
+    "омега ред"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "marvel's wolverine",
+    "wolverine ps5",
+    "wolverine game",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "logan",
+    "jean grey",
+    "mystique",
+    "omega red"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "росомаха гра",
+    "marvel's wolverine",
+    "wolverine ps5",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "логан",
+    "джин ґрей",
+    "містик",
+    "омега ред"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "漫威金刚狼",
+    "marvel's wolverine",
+    "金刚狼 游戏",
+    "insomniac wolverine"
+   ],
+   "balanced": [
+    "罗根",
+    "琴·格雷",
+    "魔形女",
+    "红奥米茄"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Marvel's Wolverine"
+  },
+  "ru": {
+   "name": "Marvel's Wolverine"
+  },
+  "uk": {
+   "name": "Marvel's Wolverine"
+  },
+  "pl": {
+   "name": "Marvel's Wolverine"
+  },
+  "de": {
+   "name": "Marvel's Wolverine"
+  },
+  "fr": {
+   "name": "Marvel's Wolverine"
+  },
+  "es": {
+   "name": "Marvel's Wolverine"
+  },
+  "it": {
+   "name": "Marvel's Wolverine"
+  },
+  "pt-BR": {
+   "name": "Marvel's Wolverine"
+  },
+  "tr": {
+   "name": "Marvel's Wolverine"
+  },
+  "ja": {
+   "name": "Marvel's Wolverine"
+  },
+  "ko": {
+   "name": "마블 울버린"
+  },
+  "zh-CN": {
+   "name": "漫威金刚狼"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-marvels-wolverine-spoilers.html",
+   "block/wolverine.html",
+   "mute-list/wolverine.html"
+  ],
+  "de": [
+   "avoid-marvels-wolverine-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-marvels-wolverine-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-marvels-wolverine-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-marvels-wolverine-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-marvels-wolverine-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-marvels-wolverine-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-marvels-wolverine-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-marvels-wolverine-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-marvels-wolverine-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-marvels-wolverine-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-marvels-wolverine-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-marvels-wolverine-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-marvels-wolverine-spoilers",
+  "kind": "game"
+ },
+ "changelog": []
+}

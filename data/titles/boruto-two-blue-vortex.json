@@ -1,0 +1,307 @@
+{
+ "id": "boruto",
+ "slug": "boruto-two-blue-vortex",
+ "media": "anime",
+ "url": "/anime/boruto-two-blue-vortex/",
+ "names": {
+  "en": "Boruto: Two Blue Vortex",
+  "ru": "Боруто: Два синих вихря",
+  "uk": "Боруто: Два сині вихори",
+  "pl": "Boruto: Two Blue Vortex",
+  "de": "Boruto: Two Blue Vortex",
+  "fr": "Boruto: Two Blue Vortex",
+  "es": "Boruto: Two Blue Vortex",
+  "it": "Boruto: Two Blue Vortex",
+  "pt-BR": "Boruto: Two Blue Vortex",
+  "tr": "Boruto: Two Blue Vortex",
+  "ja": "BORUTO TWO BLUE VORTEX",
+  "ko": "보루토 투 블루 볼텍스",
+  "zh-CN": "博人传 蓝色旋涡"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "de": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "es": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "it": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ボルト ツーブルーヴォルテックス",
+    "boruto two blue vortex",
+    "boruto",
+    "boruto manga"
+   ],
+   "balanced": [
+    "うずまきボルト",
+    "カワキ",
+    "サラダ",
+    "エイダ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "보루토 투 블루 볼텍스",
+    "boruto two blue vortex",
+    "boruto",
+    "boruto manga"
+   ],
+   "balanced": [
+    "우즈마키 보루토",
+    "카와키",
+    "사라다",
+    "에이다"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "боруто: два синих вихря",
+    "boruto two blue vortex",
+    "boruto",
+    "boruto manga"
+   ],
+   "balanced": [
+    "боруто узумаки",
+    "каваки",
+    "сарада",
+    "эйда"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "boruto two blue vortex",
+    "boruto",
+    "boruto tbv",
+    "boruto manga"
+   ],
+   "balanced": [
+    "boruto uzumaki",
+    "kawaki",
+    "sarada",
+    "eida"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "боруто: два сині вихори",
+    "boruto two blue vortex",
+    "boruto",
+    "boruto manga"
+   ],
+   "balanced": [
+    "боруто узумакі",
+    "каваки",
+    "сарада",
+    "ейда"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "博人传 蓝色旋涡",
+    "boruto two blue vortex",
+    "boruto",
+    "boruto manga"
+   ],
+   "balanced": [
+    "漩涡博人",
+    "川木",
+    "佐良娜",
+    "爱达"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "ru": {
+   "name": "Боруто: Два синих вихря"
+  },
+  "uk": {
+   "name": "Боруто: Два сині вихори"
+  },
+  "pl": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "de": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "fr": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "es": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "it": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "pt-BR": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "tr": {
+   "name": "Boruto: Two Blue Vortex"
+  },
+  "ja": {
+   "name": "BORUTO TWO BLUE VORTEX"
+  },
+  "ko": {
+   "name": "보루토 투 블루 볼텍스"
+  },
+  "zh-CN": {
+   "name": "博人传 蓝色旋涡"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-boruto-two-blue-vortex-spoilers.html",
+   "block/boruto.html",
+   "mute-list/boruto.html"
+  ],
+  "de": [
+   "avoid-boruto-two-blue-vortex-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-boruto-two-blue-vortex-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-boruto-two-blue-vortex-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-boruto-two-blue-vortex-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-boruto-two-blue-vortex-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-boruto-two-blue-vortex-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-boruto-two-blue-vortex-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-boruto-two-blue-vortex-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-boruto-two-blue-vortex-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-boruto-two-blue-vortex-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-boruto-two-blue-vortex-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-boruto-two-blue-vortex-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-boruto-two-blue-vortex-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

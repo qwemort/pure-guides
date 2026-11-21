@@ -1,0 +1,307 @@
+{
+ "id": "only-murders",
+ "slug": "only-murders-in-the-building",
+ "media": "tv",
+ "url": "/tv/only-murders-in-the-building/",
+ "names": {
+  "en": "Only Murders in the Building",
+  "ru": "Убийства в одном здании",
+  "uk": "Убивства в одній будівлі",
+  "pl": "Zbrodnie po sąsiedzku",
+  "de": "Only Murders in the Building",
+  "fr": "Only Murders in the Building",
+  "es": "Solo asesinatos en el edificio",
+  "it": "Only Murders in the Building",
+  "pt-BR": "Only Murders in the Building",
+  "tr": "Only Murders in the Building",
+  "ja": "マーダーズ・イン・ビルディング",
+  "ko": "마더스 인 빌딩",
+  "zh-CN": "大楼里只有谋杀"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "only murders in the building",
+    "only murders",
+    "omitb",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "de": {
+   "basic": [
+    "only murders in the building",
+    "only murders",
+    "omitb",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "es": {
+   "basic": [
+    "solo asesinatos en el edificio",
+    "only murders in the building",
+    "only murders",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "only murders in the building",
+    "only murders",
+    "omitb",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "it": {
+   "basic": [
+    "only murders in the building",
+    "only murders",
+    "omitb",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "マーダーズ・イン・ビルディング",
+    "only murders in the building",
+    "only murders",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "チャールズ",
+    "オリバー",
+    "メイベル",
+    "ロレッタ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "마더스 인 빌딩",
+    "only murders in the building",
+    "only murders",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "찰스",
+    "올리버",
+    "메이블",
+    "로레타"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "zbrodnie po sąsiedzku",
+    "only murders in the building",
+    "only murders",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "only murders in the building",
+    "only murders",
+    "omitb",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "убийства в одном здании",
+    "only murders in the building",
+    "only murders",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "чарльз",
+    "оливер",
+    "мэйбл",
+    "лоретта"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "only murders in the building",
+    "only murders",
+    "omitb",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "charles",
+    "oliver",
+    "mabel",
+    "loretta"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "убивства в одній будівлі",
+    "only murders in the building",
+    "only murders",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "чарльз",
+    "олівер",
+    "мейбл",
+    "лоретта"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "大楼里只有谋杀",
+    "only murders in the building",
+    "only murders",
+    "only murders season 6"
+   ],
+   "balanced": [
+    "查尔斯",
+    "奥利弗",
+    "梅布尔",
+    "洛蕾塔"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Only Murders in the Building"
+  },
+  "ru": {
+   "name": "Убийства в одном здании"
+  },
+  "uk": {
+   "name": "Убивства в одній будівлі"
+  },
+  "pl": {
+   "name": "Zbrodnie po sąsiedzku"
+  },
+  "de": {
+   "name": "Only Murders in the Building"
+  },
+  "fr": {
+   "name": "Only Murders in the Building"
+  },
+  "es": {
+   "name": "Solo asesinatos en el edificio"
+  },
+  "it": {
+   "name": "Only Murders in the Building"
+  },
+  "pt-BR": {
+   "name": "Only Murders in the Building"
+  },
+  "tr": {
+   "name": "Only Murders in the Building"
+  },
+  "ja": {
+   "name": "マーダーズ・イン・ビルディング"
+  },
+  "ko": {
+   "name": "마더스 인 빌딩"
+  },
+  "zh-CN": {
+   "name": "大楼里只有谋杀"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-only-murders-in-the-building-spoilers.html",
+   "block/only-murders.html",
+   "mute-list/only-murders.html"
+  ],
+  "de": [
+   "avoid-only-murders-in-the-building-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-only-murders-in-the-building-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-only-murders-in-the-building-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-only-murders-in-the-building-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-only-murders-in-the-building-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-only-murders-in-the-building-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-only-murders-in-the-building-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-only-murders-in-the-building-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-only-murders-in-the-building-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-only-murders-in-the-building-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-only-murders-in-the-building-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-only-murders-in-the-building-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-only-murders-in-the-building-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

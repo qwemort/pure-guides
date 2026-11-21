@@ -1,0 +1,307 @@
+{
+ "id": "jjk",
+ "slug": "jujutsu-kaisen",
+ "media": "anime",
+ "url": "/anime/jujutsu-kaisen/",
+ "names": {
+  "en": "Jujutsu Kaisen",
+  "ru": "Магическая битва",
+  "uk": "Магічна битва",
+  "pl": "Jujutsu Kaisen",
+  "de": "Jujutsu Kaisen",
+  "fr": "Jujutsu Kaisen",
+  "es": "Jujutsu Kaisen",
+  "it": "Jujutsu Kaisen",
+  "pt-BR": "Jujutsu Kaisen",
+  "tr": "Jujutsu Kaisen",
+  "ja": "呪術廻戦",
+  "ko": "주술회전",
+  "zh-CN": "咒术回战"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "de": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "es": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "it": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "呪術廻戦",
+    "jujutsu kaisen",
+    "jjk",
+    "culling game"
+   ],
+   "balanced": [
+    "五条悟",
+    "宿儺",
+    "虎杖",
+    "伏黒恵"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "주술회전",
+    "jujutsu kaisen",
+    "jjk",
+    "culling game"
+   ],
+   "balanced": [
+    "고죠",
+    "스쿠나",
+    "이타도리",
+    "메구미"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "магическая битва",
+    "jujutsu kaisen",
+    "jjk",
+    "culling game"
+   ],
+   "balanced": [
+    "годжо",
+    "сукуна",
+    "итадори",
+    "мегуми"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "jujutsu kaisen",
+    "jjk",
+    "jujutsu kaisen season 3",
+    "culling game"
+   ],
+   "balanced": [
+    "gojo",
+    "sukuna",
+    "itadori",
+    "megumi"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "магічна битва",
+    "jujutsu kaisen",
+    "jjk",
+    "culling game"
+   ],
+   "balanced": [
+    "ґоджо",
+    "сукуна",
+    "ітадорі",
+    "меґумі"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "咒术回战",
+    "jujutsu kaisen",
+    "jjk",
+    "culling game"
+   ],
+   "balanced": [
+    "五条悟",
+    "宿傩",
+    "虎杖",
+    "伏黑惠"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Jujutsu Kaisen"
+  },
+  "ru": {
+   "name": "Магическая битва"
+  },
+  "uk": {
+   "name": "Магічна битва"
+  },
+  "pl": {
+   "name": "Jujutsu Kaisen"
+  },
+  "de": {
+   "name": "Jujutsu Kaisen"
+  },
+  "fr": {
+   "name": "Jujutsu Kaisen"
+  },
+  "es": {
+   "name": "Jujutsu Kaisen"
+  },
+  "it": {
+   "name": "Jujutsu Kaisen"
+  },
+  "pt-BR": {
+   "name": "Jujutsu Kaisen"
+  },
+  "tr": {
+   "name": "Jujutsu Kaisen"
+  },
+  "ja": {
+   "name": "呪術廻戦"
+  },
+  "ko": {
+   "name": "주술회전"
+  },
+  "zh-CN": {
+   "name": "咒术回战"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-jujutsu-kaisen-spoilers.html",
+   "block/jjk.html",
+   "mute-list/jjk.html"
+  ],
+  "de": [
+   "avoid-jujutsu-kaisen-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-jujutsu-kaisen-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-jujutsu-kaisen-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-jujutsu-kaisen-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-jujutsu-kaisen-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-jujutsu-kaisen-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-jujutsu-kaisen-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-jujutsu-kaisen-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-jujutsu-kaisen-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-jujutsu-kaisen-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-jujutsu-kaisen-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-jujutsu-kaisen-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-jujutsu-kaisen-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

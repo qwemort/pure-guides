@@ -1,0 +1,307 @@
+{
+ "id": "golden-kamuy",
+ "slug": "golden-kamuy",
+ "media": "anime",
+ "url": "/anime/golden-kamuy/",
+ "names": {
+  "en": "Golden Kamuy",
+  "ru": "Золотое божество",
+  "uk": "Золоте божество",
+  "pl": "Golden Kamuy",
+  "de": "Golden Kamuy",
+  "fr": "Golden Kamuy",
+  "es": "Golden Kamuy",
+  "it": "Golden Kamuy",
+  "pt-BR": "Golden Kamuy",
+  "tr": "Golden Kamuy",
+  "ja": "ゴールデンカムイ",
+  "ko": "골든 카무이",
+  "zh-CN": "黄金神威"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "de": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "es": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "it": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ゴールデンカムイ",
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "杉元",
+    "アシㇼパ",
+    "鶴見",
+    "土方"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "골든 카무이",
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "스기모토",
+    "아시리파",
+    "츠루미",
+    "히지카타"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "золотое божество",
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "сугимото",
+    "асирпа",
+    "цуруми",
+    "хидзиката"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy final season",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "sugimoto",
+    "asirpa",
+    "tsurumi",
+    "hijikata"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "золоте божество",
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "суґімото",
+    "асірпа",
+    "цурумі",
+    "хіджиката"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "黄金神威",
+    "golden kamuy",
+    "golden kamuy anime",
+    "golden kamuy manga"
+   ],
+   "balanced": [
+    "杉元",
+    "阿希莉帕",
+    "鹤见",
+    "土方"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Golden Kamuy"
+  },
+  "ru": {
+   "name": "Золотое божество"
+  },
+  "uk": {
+   "name": "Золоте божество"
+  },
+  "pl": {
+   "name": "Golden Kamuy"
+  },
+  "de": {
+   "name": "Golden Kamuy"
+  },
+  "fr": {
+   "name": "Golden Kamuy"
+  },
+  "es": {
+   "name": "Golden Kamuy"
+  },
+  "it": {
+   "name": "Golden Kamuy"
+  },
+  "pt-BR": {
+   "name": "Golden Kamuy"
+  },
+  "tr": {
+   "name": "Golden Kamuy"
+  },
+  "ja": {
+   "name": "ゴールデンカムイ"
+  },
+  "ko": {
+   "name": "골든 카무이"
+  },
+  "zh-CN": {
+   "name": "黄金神威"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-golden-kamuy-spoilers.html",
+   "block/golden-kamuy.html",
+   "mute-list/golden-kamuy.html"
+  ],
+  "de": [
+   "avoid-golden-kamuy-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-golden-kamuy-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-golden-kamuy-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-golden-kamuy-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-golden-kamuy-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-golden-kamuy-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-golden-kamuy-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-golden-kamuy-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-golden-kamuy-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-golden-kamuy-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-golden-kamuy-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-golden-kamuy-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-golden-kamuy-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

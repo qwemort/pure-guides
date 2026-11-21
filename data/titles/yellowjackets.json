@@ -1,0 +1,307 @@
+{
+ "id": "yellowjackets",
+ "slug": "yellowjackets",
+ "media": "tv",
+ "url": "/tv/yellowjackets/",
+ "names": {
+  "en": "Yellowjackets",
+  "ru": "Шершни",
+  "uk": "Жовті кофтинки",
+  "pl": "Yellowjackets",
+  "de": "Yellowjackets",
+  "fr": "Yellowjackets",
+  "es": "Yellowjackets",
+  "it": "Yellowjackets",
+  "pt-BR": "Yellowjackets",
+  "tr": "Yellowjackets",
+  "ja": "イエロージャケッツ",
+  "ko": "옐로재킷",
+  "zh-CN": "黄色夹克"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "de": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "es": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "it": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "イエロージャケッツ",
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "ショーナ",
+    "ミスティ",
+    "ロッティ",
+    "ナタリー"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "옐로재킷",
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "쇼나",
+    "미스티",
+    "로티",
+    "나탈리"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "шершни",
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "шона",
+    "мисти",
+    "лотти",
+    "натали"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets finale",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "shauna",
+    "misty",
+    "lottie",
+    "natalie"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "жовті кофтинки",
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "шона",
+    "місті",
+    "лотті",
+    "наталі"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "黄色夹克",
+    "yellowjackets",
+    "yellowjackets season 4",
+    "yellowjackets showtime"
+   ],
+   "balanced": [
+    "肖娜",
+    "米斯蒂",
+    "洛蒂",
+    "娜塔莉"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Yellowjackets"
+  },
+  "ru": {
+   "name": "Шершни"
+  },
+  "uk": {
+   "name": "Жовті кофтинки"
+  },
+  "pl": {
+   "name": "Yellowjackets"
+  },
+  "de": {
+   "name": "Yellowjackets"
+  },
+  "fr": {
+   "name": "Yellowjackets"
+  },
+  "es": {
+   "name": "Yellowjackets"
+  },
+  "it": {
+   "name": "Yellowjackets"
+  },
+  "pt-BR": {
+   "name": "Yellowjackets"
+  },
+  "tr": {
+   "name": "Yellowjackets"
+  },
+  "ja": {
+   "name": "イエロージャケッツ"
+  },
+  "ko": {
+   "name": "옐로재킷"
+  },
+  "zh-CN": {
+   "name": "黄色夹克"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-yellowjackets-spoilers.html",
+   "block/yellowjackets.html",
+   "mute-list/yellowjackets.html"
+  ],
+  "de": [
+   "avoid-yellowjackets-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-yellowjackets-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-yellowjackets-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-yellowjackets-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-yellowjackets-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-yellowjackets-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-yellowjackets-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-yellowjackets-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-yellowjackets-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-yellowjackets-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-yellowjackets-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-yellowjackets-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-yellowjackets-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

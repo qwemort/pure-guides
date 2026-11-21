@@ -1,0 +1,307 @@
+{
+ "id": "severance",
+ "slug": "severance",
+ "media": "tv",
+ "url": "/tv/severance/",
+ "names": {
+  "en": "Severance",
+  "ru": "Разделение",
+  "uk": "Розрив",
+  "pl": "Rozdzielenie",
+  "de": "Severance",
+  "fr": "Severance",
+  "es": "Separación",
+  "it": "Scissione",
+  "pt-BR": "Ruptura",
+  "tr": "Severance",
+  "ja": "セヴェランス",
+  "ko": "세브란스: 단절",
+  "zh-CN": "人生切割术"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "severance",
+    "severance season 3",
+    "severance apple tv",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "de": {
+   "basic": [
+    "severance",
+    "severance season 3",
+    "severance apple tv",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "es": {
+   "basic": [
+    "separación",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "severance",
+    "severance season 3",
+    "severance apple tv",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "it": {
+   "basic": [
+    "scissione",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "セヴェランス",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "ルーモン",
+    "ヘリー",
+    "マーク・スカウト",
+    "ヘレナ・イーガン"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "세브란스: 단절",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "루몬",
+    "헬리",
+    "마크 스카우트",
+    "헬레나 이건"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "rozdzielenie",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "ruptura",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "разделение",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "люмон",
+    "хелли",
+    "марк скаут",
+    "хелена иган"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "severance",
+    "severance season 3",
+    "severance apple tv",
+    "severance finale"
+   ],
+   "balanced": [
+    "lumon",
+    "helly r",
+    "mark scout",
+    "helena eagan"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "розрив",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "люмон",
+    "геллі",
+    "марк скаут",
+    "гелена іґан"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "人生切割术",
+    "severance",
+    "severance season 3",
+    "severance finale"
+   ],
+   "balanced": [
+    "卢蒙",
+    "海莉",
+    "马克·斯考特",
+    "海伦娜·伊根"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Severance"
+  },
+  "ru": {
+   "name": "Разделение"
+  },
+  "uk": {
+   "name": "Розрив"
+  },
+  "pl": {
+   "name": "Rozdzielenie"
+  },
+  "de": {
+   "name": "Severance"
+  },
+  "fr": {
+   "name": "Severance"
+  },
+  "es": {
+   "name": "Separación"
+  },
+  "it": {
+   "name": "Scissione"
+  },
+  "pt-BR": {
+   "name": "Ruptura"
+  },
+  "tr": {
+   "name": "Severance"
+  },
+  "ja": {
+   "name": "セヴェランス"
+  },
+  "ko": {
+   "name": "세브란스: 단절"
+  },
+  "zh-CN": {
+   "name": "人生切割术"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-severance-spoilers.html",
+   "block/severance.html",
+   "mute-list/severance.html"
+  ],
+  "de": [
+   "avoid-severance-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-severance-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-severance-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-severance-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-severance-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-severance-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-severance-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-severance-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-severance-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-severance-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-severance-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-severance-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-severance-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

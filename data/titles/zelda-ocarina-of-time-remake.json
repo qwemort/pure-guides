@@ -1,0 +1,307 @@
+{
+ "id": "zelda-oot-remake",
+ "slug": "zelda-ocarina-of-time-remake",
+ "media": "games",
+ "url": "/games/zelda-ocarina-of-time-remake/",
+ "names": {
+  "en": "Zelda: Ocarina of Time (remake)",
+  "ru": "Zelda: Ocarina of Time (ремейк)",
+  "uk": "Zelda: Ocarina of Time (ремейк)",
+  "pl": "Zelda: Ocarina of Time (remake)",
+  "de": "Zelda: Ocarina of Time (remake)",
+  "fr": "Zelda: Ocarina of Time (remake)",
+  "es": "Zelda: Ocarina of Time (remake)",
+  "it": "Zelda: Ocarina of Time (remake)",
+  "pt-BR": "Zelda: Ocarina of Time (remake)",
+  "tr": "Zelda: Ocarina of Time (remake)",
+  "ja": "ゼルダの伝説 時のオカリナ（リメイク）",
+  "ko": "젤다의 전설 시간의 오카리나 (리메이크)",
+  "zh-CN": "塞尔达传说 时之笛（重制）"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "de": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "es": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "it": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "時のオカリナ リメイク",
+    "時オカ リメイク",
+    "ocarina of time remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ガノンドロフ",
+    "シーク",
+    "ナビィ",
+    "賢者"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "시간의 오카리나 리메이크",
+    "시오카 리메이크",
+    "ocarina of time remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "가논돌프",
+    "시크",
+    "나비",
+    "현자"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "окарина времени ремейк",
+    "ocarina of time remake",
+    "oot remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ганондорф",
+    "шейк",
+    "нави",
+    "мудрецы"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "ocarina of time remake",
+    "oot remake",
+    "zelda ocarina remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ganondorf",
+    "sheik",
+    "navi",
+    "sages"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "окарина часу ремейк",
+    "ocarina of time remake",
+    "oot remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "ганондорф",
+    "шейк",
+    "наві",
+    "мудреці"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "时之笛 重制",
+    "时之笛 重制版",
+    "ocarina of time remake",
+    "ocarina switch 2"
+   ],
+   "balanced": [
+    "加侬多夫",
+    "希克",
+    "纳维",
+    "贤者"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "ru": {
+   "name": "Zelda: Ocarina of Time (ремейк)"
+  },
+  "uk": {
+   "name": "Zelda: Ocarina of Time (ремейк)"
+  },
+  "pl": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "de": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "fr": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "es": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "it": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "pt-BR": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "tr": {
+   "name": "Zelda: Ocarina of Time (remake)"
+  },
+  "ja": {
+   "name": "ゼルダの伝説 時のオカリナ（リメイク）"
+  },
+  "ko": {
+   "name": "젤다의 전설 시간의 오카리나 (리메이크)"
+  },
+  "zh-CN": {
+   "name": "塞尔达传说 时之笛（重制）"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.html",
+   "block/zelda-oot-remake.html",
+   "mute-list/zelda-oot-remake.html"
+  ],
+  "de": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-zelda-ocarina-of-time-remake-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-zelda-ocarina-of-time-remake-spoilers",
+  "kind": "game"
+ },
+ "changelog": []
+}

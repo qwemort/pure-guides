@@ -1,0 +1,307 @@
+{
+ "id": "the-institute",
+ "slug": "the-institute",
+ "media": "tv",
+ "url": "/tv/the-institute/",
+ "names": {
+  "en": "The Institute",
+  "ru": "Институт",
+  "uk": "Інститут",
+  "pl": "Instytut",
+  "de": "Das Institut",
+  "fr": "L'Institut",
+  "es": "El instituto",
+  "it": "L'istituto",
+  "pt-BR": "O Instituto",
+  "tr": "Enstitü",
+  "ja": "インスティテュート",
+  "ko": "인스티튜트",
+  "zh-CN": "研究所"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "the institute",
+    "the institute series",
+    "the institute stephen king",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "de": {
+   "basic": [
+    "das institut",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "es": {
+   "basic": [
+    "el instituto",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "l'institut",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "it": {
+   "basic": [
+    "l'istituto",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "インスティテュート",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "ルーク・エリス",
+    "シグスビー",
+    "カリーシャ",
+    "ティム・ジェイミソン"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "인스티튜트",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "루크 엘리스",
+    "시그스비",
+    "칼리샤",
+    "팀 제이미슨"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "instytut",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "o instituto",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "институт",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "люк эллис",
+    "миссис сигсби",
+    "калиша",
+    "тим джеймисон"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "enstitü",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "luke ellis",
+    "mrs sigsby",
+    "kalisha",
+    "tim jamieson"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "інститут",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "люк елліс",
+    "місіс сігсбі",
+    "каліша",
+    "тім джеймісон"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "研究所",
+    "the institute",
+    "the institute series",
+    "the institute mgm+"
+   ],
+   "balanced": [
+    "卢克·埃利斯",
+    "西格斯比",
+    "卡莉莎",
+    "蒂姆·贾米森"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "The Institute"
+  },
+  "ru": {
+   "name": "Институт"
+  },
+  "uk": {
+   "name": "Інститут"
+  },
+  "pl": {
+   "name": "Instytut"
+  },
+  "de": {
+   "name": "Das Institut"
+  },
+  "fr": {
+   "name": "L'Institut"
+  },
+  "es": {
+   "name": "El instituto"
+  },
+  "it": {
+   "name": "L'istituto"
+  },
+  "pt-BR": {
+   "name": "O Instituto"
+  },
+  "tr": {
+   "name": "Enstitü"
+  },
+  "ja": {
+   "name": "インスティテュート"
+  },
+  "ko": {
+   "name": "인스티튜트"
+  },
+  "zh-CN": {
+   "name": "研究所"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-the-institute-spoilers.html",
+   "block/the-institute.html",
+   "mute-list/the-institute.html"
+  ],
+  "de": [
+   "avoid-the-institute-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-the-institute-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-the-institute-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-the-institute-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-the-institute-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-the-institute-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-the-institute-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-the-institute-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-the-institute-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-the-institute-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-the-institute-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-the-institute-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-the-institute-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

@@ -1,0 +1,307 @@
+{
+ "id": "overgeared",
+ "slug": "overgeared",
+ "media": "anime",
+ "url": "/anime/overgeared/",
+ "names": {
+  "en": "Overgeared",
+  "ru": "Сверхэкипированный",
+  "uk": "Надекіпірований",
+  "pl": "Overgeared",
+  "de": "Overgeared",
+  "fr": "Overgeared",
+  "es": "Overgeared",
+  "it": "Overgeared",
+  "pt-BR": "Overgeared",
+  "tr": "Overgeared",
+  "ja": "テムパル",
+  "ko": "템빨",
+  "zh-CN": "神装铁匠"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "de": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "es": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "it": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "テムパル",
+    "overgeared",
+    "overgeared anime",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "グリード",
+    "シン・ヨンウ",
+    "パグマ",
+    "アイリーン"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "템빨",
+    "overgeared",
+    "overgeared anime",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "그리드",
+    "신영우",
+    "파그마",
+    "아이린"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "сверхэкипированный",
+    "overgeared",
+    "overgeared anime",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "грид",
+    "син ёну",
+    "пагма",
+    "ирэн"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "overgeared",
+    "overgeared anime",
+    "overgeared season 2",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "grid",
+    "shin youngwoo",
+    "pagma",
+    "irene"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "надекіпірований",
+    "overgeared",
+    "overgeared anime",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "ґрід",
+    "шін йону",
+    "паґма",
+    "ірен"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "神装铁匠",
+    "overgeared",
+    "overgeared anime",
+    "grid overgeared"
+   ],
+   "balanced": [
+    "格里德",
+    "申英宇",
+    "帕格玛",
+    "艾琳"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Overgeared"
+  },
+  "ru": {
+   "name": "Сверхэкипированный"
+  },
+  "uk": {
+   "name": "Надекіпірований"
+  },
+  "pl": {
+   "name": "Overgeared"
+  },
+  "de": {
+   "name": "Overgeared"
+  },
+  "fr": {
+   "name": "Overgeared"
+  },
+  "es": {
+   "name": "Overgeared"
+  },
+  "it": {
+   "name": "Overgeared"
+  },
+  "pt-BR": {
+   "name": "Overgeared"
+  },
+  "tr": {
+   "name": "Overgeared"
+  },
+  "ja": {
+   "name": "テムパル"
+  },
+  "ko": {
+   "name": "템빨"
+  },
+  "zh-CN": {
+   "name": "神装铁匠"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-overgeared-spoilers.html",
+   "block/overgeared.html",
+   "mute-list/overgeared.html"
+  ],
+  "de": [
+   "avoid-overgeared-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-overgeared-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-overgeared-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-overgeared-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-overgeared-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-overgeared-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-overgeared-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-overgeared-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-overgeared-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-overgeared-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-overgeared-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-overgeared-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-overgeared-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

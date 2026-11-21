@@ -1,0 +1,307 @@
+{
+ "id": "mashle",
+ "slug": "mashle",
+ "media": "anime",
+ "url": "/anime/mashle/",
+ "names": {
+  "en": "Mashle",
+  "ru": "Магия и мускулы",
+  "uk": "Магія і м'язи",
+  "pl": "Mashle",
+  "de": "Mashle",
+  "fr": "Mashle",
+  "es": "Mashle",
+  "it": "Mashle",
+  "pt-BR": "Mashle",
+  "tr": "Mashle",
+  "ja": "マッシュル-MASHLE-",
+  "ko": "마슐",
+  "zh-CN": "物理魔法使马修"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "de": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "es": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "it": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "マッシュル",
+    "mashle",
+    "mashle magic and muscles",
+    "mashle manga"
+   ],
+   "balanced": [
+    "マッシュ・バーンデッド",
+    "ランス・クラウン",
+    "フィン・エイムズ",
+    "イノセント・ゼロ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "마슐",
+    "mashle",
+    "mashle magic and muscles",
+    "mashle manga"
+   ],
+   "balanced": [
+    "마슈 번데드",
+    "랜스 크라운",
+    "핀 에임스",
+    "이노센트 제로"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "магия и мускулы",
+    "mashle",
+    "mashle magic and muscles",
+    "mashle manga"
+   ],
+   "balanced": [
+    "мэш бёрндэд",
+    "лэнс краун",
+    "финн эймс",
+    "инносент зеро"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "mashle",
+    "mashle magic and muscles",
+    "mashle season 3",
+    "mashle manga"
+   ],
+   "balanced": [
+    "mash burnedead",
+    "lance crown",
+    "finn ames",
+    "innocent zero"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "магія і м'язи",
+    "mashle",
+    "mashle magic and muscles",
+    "mashle manga"
+   ],
+   "balanced": [
+    "меш бьорндед",
+    "ленс краун",
+    "фінн еймс",
+    "інносент зеро"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "物理魔法使马修",
+    "mashle",
+    "mashle magic and muscles",
+    "mashle manga"
+   ],
+   "balanced": [
+    "马修·伯恩德",
+    "兰斯·克劳恩",
+    "芬恩·艾姆斯",
+    "无邪的零"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Mashle"
+  },
+  "ru": {
+   "name": "Магия и мускулы"
+  },
+  "uk": {
+   "name": "Магія і м'язи"
+  },
+  "pl": {
+   "name": "Mashle"
+  },
+  "de": {
+   "name": "Mashle"
+  },
+  "fr": {
+   "name": "Mashle"
+  },
+  "es": {
+   "name": "Mashle"
+  },
+  "it": {
+   "name": "Mashle"
+  },
+  "pt-BR": {
+   "name": "Mashle"
+  },
+  "tr": {
+   "name": "Mashle"
+  },
+  "ja": {
+   "name": "マッシュル-MASHLE-"
+  },
+  "ko": {
+   "name": "마슐"
+  },
+  "zh-CN": {
+   "name": "物理魔法使马修"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-mashle-spoilers.html",
+   "block/mashle.html",
+   "mute-list/mashle.html"
+  ],
+  "de": [
+   "avoid-mashle-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-mashle-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-mashle-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-mashle-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-mashle-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-mashle-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-mashle-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-mashle-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-mashle-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-mashle-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-mashle-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-mashle-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-mashle-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

@@ -1,0 +1,307 @@
+{
+ "id": "dragon-ball",
+ "slug": "dragon-ball",
+ "media": "anime",
+ "url": "/anime/dragon-ball/",
+ "names": {
+  "en": "Dragon Ball",
+  "ru": "Драгонболл",
+  "uk": "Драгонбол",
+  "pl": "Dragon Ball",
+  "de": "Dragon Ball",
+  "fr": "Dragon Ball",
+  "es": "Dragon Ball",
+  "it": "Dragon Ball",
+  "pt-BR": "Dragon Ball",
+  "tr": "Dragon Ball",
+  "ja": "ドラゴンボール",
+  "ko": "드래곤볼",
+  "zh-CN": "龙珠"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "de": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "es": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "it": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ドラゴンボール",
+    "dragon ball",
+    "dragon ball super",
+    "dbs"
+   ],
+   "balanced": [
+    "悟空",
+    "ベジータ",
+    "ビルス",
+    "悟飯"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "드래곤볼",
+    "dragon ball",
+    "dragon ball super",
+    "dbs"
+   ],
+   "balanced": [
+    "손오공",
+    "베지터",
+    "비루스",
+    "손오반"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "драгонболл",
+    "dragon ball",
+    "dragon ball super",
+    "dbs"
+   ],
+   "balanced": [
+    "гоку",
+    "вегета",
+    "бирус",
+    "гохан"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "dragon ball",
+    "dragon ball super",
+    "dragon ball daima",
+    "dbs"
+   ],
+   "balanced": [
+    "goku",
+    "vegeta",
+    "beerus",
+    "gohan"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "драгонбол",
+    "dragon ball",
+    "dragon ball super",
+    "dbs"
+   ],
+   "balanced": [
+    "ґоку",
+    "веґета",
+    "бірус",
+    "ґохан"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "龙珠",
+    "dragon ball",
+    "dragon ball super",
+    "dbs"
+   ],
+   "balanced": [
+    "悟空",
+    "贝吉塔",
+    "比鲁斯",
+    "悟饭"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Dragon Ball"
+  },
+  "ru": {
+   "name": "Драгонболл"
+  },
+  "uk": {
+   "name": "Драгонбол"
+  },
+  "pl": {
+   "name": "Dragon Ball"
+  },
+  "de": {
+   "name": "Dragon Ball"
+  },
+  "fr": {
+   "name": "Dragon Ball"
+  },
+  "es": {
+   "name": "Dragon Ball"
+  },
+  "it": {
+   "name": "Dragon Ball"
+  },
+  "pt-BR": {
+   "name": "Dragon Ball"
+  },
+  "tr": {
+   "name": "Dragon Ball"
+  },
+  "ja": {
+   "name": "ドラゴンボール"
+  },
+  "ko": {
+   "name": "드래곤볼"
+  },
+  "zh-CN": {
+   "name": "龙珠"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-dragon-ball-spoilers.html",
+   "block/dragon-ball.html",
+   "mute-list/dragon-ball.html"
+  ],
+  "de": [
+   "avoid-dragon-ball-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-dragon-ball-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-dragon-ball-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-dragon-ball-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-dragon-ball-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-dragon-ball-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-dragon-ball-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-dragon-ball-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-dragon-ball-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-dragon-ball-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-dragon-ball-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-dragon-ball-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-dragon-ball-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

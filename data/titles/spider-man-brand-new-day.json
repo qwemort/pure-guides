@@ -1,0 +1,307 @@
+{
+ "id": "spider-man-bnd",
+ "slug": "spider-man-brand-new-day",
+ "media": "movies",
+ "url": "/movies/spider-man-brand-new-day/",
+ "names": {
+  "en": "Spider-Man: Brand New Day",
+  "ru": "Человек-паук: Совершенно новый день",
+  "uk": "Людина-павук: Новий день",
+  "pl": "Spider-Man: Brand New Day",
+  "de": "Spider-Man: Brand New Day",
+  "fr": "Spider-Man: Brand New Day",
+  "es": "Spider-Man: Brand New Day",
+  "it": "Spider-Man: Brand New Day",
+  "pt-BR": "Spider-Man: Brand New Day",
+  "tr": "Spider-Man: Brand New Day",
+  "ja": "スパイダーマン：ブランド・ニュー・デイ",
+  "ko": "스파이더맨: 브랜드 뉴 데이",
+  "zh-CN": "蜘蛛侠：崭新之日"
+ },
+ "release": {
+  "date": "2026-07-31",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "de": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "es": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "it": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "スパイダーマン：ブランド・ニュー・デイ",
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "ピーター・パーカー",
+    "MJ",
+    "ネッド・リーズ",
+    "パニッシャー"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "스파이더맨: 브랜드 뉴 데이",
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "피터 파커",
+    "MJ",
+    "네드 리즈",
+    "퍼니셔"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "человек-паук: совершенно новый день",
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "питер паркер",
+    "эм-джей",
+    "нед лидс",
+    "каратель"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "spider-man 4",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "peter parker",
+    "mj",
+    "ned leeds",
+    "punisher"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "людина-павук: новий день",
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "пітер паркер",
+    "ем-джей",
+    "нед лідс",
+    "каратель"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "蜘蛛侠：崭新之日",
+    "spider-man brand new day",
+    "spiderman brand new day",
+    "mcu spider-man 4"
+   ],
+   "balanced": [
+    "彼得·帕克",
+    "MJ",
+    "内德·利兹",
+    "惩罚者"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "ru": {
+   "name": "Человек-паук: Совершенно новый день"
+  },
+  "uk": {
+   "name": "Людина-павук: Новий день"
+  },
+  "pl": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "de": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "fr": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "es": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "it": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "pt-BR": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "tr": {
+   "name": "Spider-Man: Brand New Day"
+  },
+  "ja": {
+   "name": "スパイダーマン：ブランド・ニュー・デイ"
+  },
+  "ko": {
+   "name": "스파이더맨: 브랜드 뉴 데이"
+  },
+  "zh-CN": {
+   "name": "蜘蛛侠：崭新之日"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-spider-man-brand-new-day-spoilers.html",
+   "block/spider-man-bnd.html",
+   "mute-list/spider-man-bnd.html"
+  ],
+  "de": [
+   "avoid-spider-man-brand-new-day-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-spider-man-brand-new-day-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-spider-man-brand-new-day-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-spider-man-brand-new-day-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-spider-man-brand-new-day-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-spider-man-brand-new-day-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-spider-man-brand-new-day-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-spider-man-brand-new-day-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-spider-man-brand-new-day-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-spider-man-brand-new-day-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-spider-man-brand-new-day-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-spider-man-brand-new-day-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-spider-man-brand-new-day-spoilers",
+  "kind": "film"
+ },
+ "changelog": []
+}

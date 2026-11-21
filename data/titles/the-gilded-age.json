@@ -1,0 +1,307 @@
+{
+ "id": "gilded-age",
+ "slug": "the-gilded-age",
+ "media": "tv",
+ "url": "/tv/the-gilded-age/",
+ "names": {
+  "en": "The Gilded Age",
+  "ru": "Позолоченный век",
+  "uk": "Позолочений вік",
+  "pl": "Gilded Age. Złoty wiek",
+  "de": "The Gilded Age",
+  "fr": "The Gilded Age",
+  "es": "La edad dorada",
+  "it": "The Gilded Age",
+  "pt-BR": "The Gilded Age",
+  "tr": "Yaldızlı Çağ",
+  "ja": "ギルデッド・エイジ",
+  "ko": "길디드 에이지",
+  "zh-CN": "镀金时代"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "the gilded age",
+    "gilded age",
+    "gilded age season 4",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "de": {
+   "basic": [
+    "the gilded age",
+    "gilded age",
+    "gilded age season 4",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "es": {
+   "basic": [
+    "la edad dorada",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "the gilded age",
+    "gilded age",
+    "gilded age season 4",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "it": {
+   "basic": [
+    "the gilded age",
+    "gilded age",
+    "gilded age season 4",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ギルデッド・エイジ",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "バーサ・ラッセル",
+    "アグネス・ヴァン・ライン",
+    "マリアン・ブルック",
+    "ペギー・スコット"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "길디드 에이지",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "버사 러셀",
+    "아그네스 반 라인",
+    "마리안 브룩",
+    "페기 스콧"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "gilded age. złoty wiek",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "the gilded age",
+    "gilded age",
+    "gilded age season 4",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "позолоченный век",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "берта рассел",
+    "агнес ван райн",
+    "мэриан брук",
+    "пегги скотт"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "yaldızlı çağ",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "bertha russell",
+    "agnes van rhijn",
+    "marian brook",
+    "peggy scott"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "позолочений вік",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "берта рассел",
+    "аґнес ван райн",
+    "меріан брук",
+    "пеггі скотт"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "镀金时代",
+    "the gilded age",
+    "gilded age",
+    "gilded age hbo"
+   ],
+   "balanced": [
+    "伯莎·拉塞尔",
+    "阿格尼丝·范·莱因",
+    "玛丽安·布鲁克",
+    "佩吉·斯科特"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "The Gilded Age"
+  },
+  "ru": {
+   "name": "Позолоченный век"
+  },
+  "uk": {
+   "name": "Позолочений вік"
+  },
+  "pl": {
+   "name": "Gilded Age. Złoty wiek"
+  },
+  "de": {
+   "name": "The Gilded Age"
+  },
+  "fr": {
+   "name": "The Gilded Age"
+  },
+  "es": {
+   "name": "La edad dorada"
+  },
+  "it": {
+   "name": "The Gilded Age"
+  },
+  "pt-BR": {
+   "name": "The Gilded Age"
+  },
+  "tr": {
+   "name": "Yaldızlı Çağ"
+  },
+  "ja": {
+   "name": "ギルデッド・エイジ"
+  },
+  "ko": {
+   "name": "길디드 에이지"
+  },
+  "zh-CN": {
+   "name": "镀金时代"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-the-gilded-age-spoilers.html",
+   "block/gilded-age.html",
+   "mute-list/gilded-age.html"
+  ],
+  "de": [
+   "avoid-the-gilded-age-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-the-gilded-age-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-the-gilded-age-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-the-gilded-age-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-the-gilded-age-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-the-gilded-age-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-the-gilded-age-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-the-gilded-age-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-the-gilded-age-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-the-gilded-age-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-the-gilded-age-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-the-gilded-age-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-the-gilded-age-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

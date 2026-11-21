@@ -1,0 +1,307 @@
+{
+ "id": "ghost-yotei",
+ "slug": "ghost-of-yotei",
+ "media": "games",
+ "url": "/games/ghost-of-yotei/",
+ "names": {
+  "en": "Ghost of Yōtei",
+  "ru": "Ghost of Yōtei",
+  "uk": "Ghost of Yōtei",
+  "pl": "Ghost of Yōtei",
+  "de": "Ghost of Yōtei",
+  "fr": "Ghost of Yōtei",
+  "es": "Ghost of Yōtei",
+  "it": "Ghost of Yōtei",
+  "pt-BR": "Ghost of Yōtei",
+  "tr": "Ghost of Yōtei",
+  "ja": "Ghost of Yōtei",
+  "ko": "고스트 오브 요테이",
+  "zh-CN": "羊蹄山之魂"
+ },
+ "release": {
+  "date": "2025-10-02",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "de": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "es": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "it": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ゴースト・オブ・ヨウテイ",
+    "ghost of yotei",
+    "羊蹄",
+    "yotei six"
+   ],
+   "balanced": [
+    "篤",
+    "羊蹄六人衆",
+    "斎藤",
+    "蝦夷"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "고스트 오브 요테이",
+    "ghost of yotei",
+    "요테이",
+    "yotei six"
+   ],
+   "balanced": [
+    "아츠",
+    "요테이 6인",
+    "사이토",
+    "에조"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "призрак ётэя",
+    "ghost of yotei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "ацу",
+    "шестёрка ётэя",
+    "сайто",
+    "эдзо"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "ghost of yotei",
+    "ghost of yōtei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "atsu",
+    "yotei six",
+    "saito",
+    "ezo"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "привид йотея",
+    "ghost of yotei",
+    "ghost of tsushima 2",
+    "yotei six"
+   ],
+   "balanced": [
+    "ацу",
+    "шістка йотея",
+    "сайто",
+    "едзо"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "羊蹄山之魂",
+    "ghost of yotei",
+    "对马岛之魂2",
+    "yotei six"
+   ],
+   "balanced": [
+    "笃",
+    "羊蹄六人众",
+    "斋藤",
+    "虾夷"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Ghost of Yōtei"
+  },
+  "ru": {
+   "name": "Ghost of Yōtei"
+  },
+  "uk": {
+   "name": "Ghost of Yōtei"
+  },
+  "pl": {
+   "name": "Ghost of Yōtei"
+  },
+  "de": {
+   "name": "Ghost of Yōtei"
+  },
+  "fr": {
+   "name": "Ghost of Yōtei"
+  },
+  "es": {
+   "name": "Ghost of Yōtei"
+  },
+  "it": {
+   "name": "Ghost of Yōtei"
+  },
+  "pt-BR": {
+   "name": "Ghost of Yōtei"
+  },
+  "tr": {
+   "name": "Ghost of Yōtei"
+  },
+  "ja": {
+   "name": "Ghost of Yōtei"
+  },
+  "ko": {
+   "name": "고스트 오브 요테이"
+  },
+  "zh-CN": {
+   "name": "羊蹄山之魂"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-ghost-of-yotei-spoilers.html",
+   "block/ghost-yotei.html",
+   "mute-list/ghost-yotei.html"
+  ],
+  "de": [
+   "avoid-ghost-of-yotei-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-ghost-of-yotei-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-ghost-of-yotei-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-ghost-of-yotei-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-ghost-of-yotei-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-ghost-of-yotei-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-ghost-of-yotei-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-ghost-of-yotei-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-ghost-of-yotei-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-ghost-of-yotei-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-ghost-of-yotei-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-ghost-of-yotei-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-ghost-of-yotei-spoilers",
+  "kind": "game"
+ },
+ "changelog": []
+}

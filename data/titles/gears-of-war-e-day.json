@@ -1,0 +1,307 @@
+{
+ "id": "gears-eday",
+ "slug": "gears-of-war-e-day",
+ "media": "games",
+ "url": "/games/gears-of-war-e-day/",
+ "names": {
+  "en": "Gears of War: E-Day",
+  "ru": "Gears of War: E-Day",
+  "uk": "Gears of War: E-Day",
+  "pl": "Gears of War: E-Day",
+  "de": "Gears of War: E-Day",
+  "fr": "Gears of War: E-Day",
+  "es": "Gears of War: E-Day",
+  "it": "Gears of War: E-Day",
+  "pt-BR": "Gears of War: E-Day",
+  "tr": "Gears of War: E-Day",
+  "ja": "Gears of War: E-Day",
+  "ko": "Gears of War: E-Day",
+  "zh-CN": "Gears of War: E-Day"
+ },
+ "release": {
+  "date": "2026-10-06",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "de": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "es": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "it": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ギアーズ・オブ・ウォー e-day",
+    "gears of war e-day",
+    "gears e-day",
+    "gears 6"
+   ],
+   "balanced": [
+    "マーカス・フェニックス",
+    "ドム・サンチャゴ",
+    "ローカスト",
+    "エマージェンス・デイ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "기어스 오브 워 e-데이",
+    "gears of war e-day",
+    "gears e-day",
+    "gears 6"
+   ],
+   "balanced": [
+    "마커스 피닉스",
+    "돔 산티아고",
+    "로커스트",
+    "이머전스 데이"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "маркус феникс",
+    "дом сантьяго",
+    "саранча",
+    "день появления"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "marcus fenix",
+    "dom santiago",
+    "locust",
+    "emergence day"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "gears of war e-day",
+    "gears e-day",
+    "gears of war e day",
+    "gears 6"
+   ],
+   "balanced": [
+    "маркус фенікс",
+    "дом сантьяго",
+    "сарана",
+    "день появи"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "战争机器 e-day",
+    "gears of war e-day",
+    "gears e-day",
+    "gears 6"
+   ],
+   "balanced": [
+    "马库斯·菲尼克斯",
+    "多姆·桑蒂亚哥",
+    "兽族",
+    "出现日"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Gears of War: E-Day"
+  },
+  "ru": {
+   "name": "Gears of War: E-Day"
+  },
+  "uk": {
+   "name": "Gears of War: E-Day"
+  },
+  "pl": {
+   "name": "Gears of War: E-Day"
+  },
+  "de": {
+   "name": "Gears of War: E-Day"
+  },
+  "fr": {
+   "name": "Gears of War: E-Day"
+  },
+  "es": {
+   "name": "Gears of War: E-Day"
+  },
+  "it": {
+   "name": "Gears of War: E-Day"
+  },
+  "pt-BR": {
+   "name": "Gears of War: E-Day"
+  },
+  "tr": {
+   "name": "Gears of War: E-Day"
+  },
+  "ja": {
+   "name": "Gears of War: E-Day"
+  },
+  "ko": {
+   "name": "Gears of War: E-Day"
+  },
+  "zh-CN": {
+   "name": "Gears of War: E-Day"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-gears-of-war-e-day-spoilers.html",
+   "block/gears-eday.html",
+   "mute-list/gears-eday.html"
+  ],
+  "de": [
+   "avoid-gears-of-war-e-day-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-gears-of-war-e-day-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-gears-of-war-e-day-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-gears-of-war-e-day-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-gears-of-war-e-day-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-gears-of-war-e-day-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-gears-of-war-e-day-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-gears-of-war-e-day-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-gears-of-war-e-day-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-gears-of-war-e-day-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-gears-of-war-e-day-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-gears-of-war-e-day-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-gears-of-war-e-day-spoilers",
+  "kind": "game"
+ },
+ "changelog": []
+}

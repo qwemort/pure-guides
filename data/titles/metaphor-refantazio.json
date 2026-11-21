@@ -1,0 +1,307 @@
+{
+ "id": "metaphor-refantazio",
+ "slug": "metaphor-refantazio",
+ "media": "games",
+ "url": "/games/metaphor-refantazio/",
+ "names": {
+  "en": "Metaphor: ReFantazio",
+  "ru": "Metaphor: ReFantazio",
+  "uk": "Metaphor: ReFantazio",
+  "pl": "Metaphor: ReFantazio",
+  "de": "Metaphor: ReFantazio",
+  "fr": "Metaphor: ReFantazio",
+  "es": "Metaphor: ReFantazio",
+  "it": "Metaphor: ReFantazio",
+  "pt-BR": "Metaphor: ReFantazio",
+  "tr": "Metaphor: ReFantazio",
+  "ja": "メタファー：リファンタジオ",
+  "ko": "메타포: 리판타지오",
+  "zh-CN": "暗喻幻想：ReFantazio"
+ },
+ "release": {
+  "date": "2024-10-11",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "de": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "es": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "it": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "メタファー リファンタジオ",
+    "メタファー",
+    "metaphor refantazio",
+    "euchronia"
+   ],
+   "balanced": [
+    "ルイ・グイアベルン",
+    "ヒルケ",
+    "ストロール",
+    "グリウス"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "메타포 리판타지오",
+    "메타포",
+    "metaphor refantazio",
+    "euchronia"
+   ],
+   "balanced": [
+    "루이 기아베른",
+    "휼켄베르크",
+    "스트롤",
+    "그리우스"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "метафора рефантазио",
+    "metaphor refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "луи гиаберн",
+    "хюлкенберг",
+    "штрол",
+    "гриус"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "metaphor refantazio",
+    "metaphor: refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "louis guiabern",
+    "hulkenberg",
+    "strohl",
+    "grius"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "метафора рефантазіо",
+    "metaphor refantazio",
+    "metaphor atlus",
+    "euchronia"
+   ],
+   "balanced": [
+    "луї гіаберн",
+    "гюлкенберг",
+    "штрол",
+    "гріус"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "暗喻幻想",
+    "refantazio",
+    "metaphor refantazio",
+    "euchronia"
+   ],
+   "balanced": [
+    "路易·吉亚贝伦",
+    "赫尔肯伯格",
+    "斯特罗尔",
+    "格里乌斯"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "ru": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "uk": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "pl": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "de": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "fr": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "es": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "it": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "pt-BR": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "tr": {
+   "name": "Metaphor: ReFantazio"
+  },
+  "ja": {
+   "name": "メタファー：リファンタジオ"
+  },
+  "ko": {
+   "name": "메타포: 리판타지오"
+  },
+  "zh-CN": {
+   "name": "暗喻幻想：ReFantazio"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-metaphor-refantazio-spoilers.html",
+   "block/metaphor-refantazio.html",
+   "mute-list/metaphor-refantazio.html"
+  ],
+  "de": [
+   "avoid-metaphor-refantazio-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-metaphor-refantazio-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-metaphor-refantazio-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-metaphor-refantazio-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-metaphor-refantazio-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-metaphor-refantazio-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-metaphor-refantazio-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-metaphor-refantazio-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-metaphor-refantazio-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-metaphor-refantazio-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-metaphor-refantazio-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-metaphor-refantazio-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-metaphor-refantazio-spoilers",
+  "kind": "game"
+ },
+ "changelog": []
+}

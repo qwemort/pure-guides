@@ -1,0 +1,135 @@
+{
+ "_note": "Общие слова уровня «Максимальный» по языкам (одинаковые для всех тайтлов). Из title-words.json.",
+ "vocab": {
+  "en": [
+   "spoiler",
+   "spoilers",
+   "ending",
+   "ending explained",
+   "post credits",
+   "leak",
+   "twist",
+   "who dies"
+  ],
+  "uk": [
+   "спойлер",
+   "спойлери",
+   "кінцівка",
+   "пояснення кінцівки",
+   "сцена після титрів",
+   "злив",
+   "твіст",
+   "хто помре"
+  ],
+  "ru": [
+   "спойлер",
+   "спойлеры",
+   "концовка",
+   "объяснение концовки",
+   "сцена после титров",
+   "слив",
+   "твист",
+   "кто умрет"
+  ],
+  "pl": [
+   "spoiler",
+   "spoilery",
+   "zakończenie",
+   "wyjaśnienie zakończenia",
+   "scena po napisach",
+   "przeciek",
+   "zwrot akcji",
+   "kto zginie"
+  ],
+  "de": [
+   "spoiler",
+   "spoiler alarm",
+   "ende",
+   "ende erklärt",
+   "post credit szene",
+   "leak",
+   "plot twist",
+   "wer stirbt"
+  ],
+  "fr": [
+   "spoiler",
+   "spoilers",
+   "fin",
+   "fin expliquée",
+   "scène post-générique",
+   "fuite",
+   "retournement de situation",
+   "qui meurt"
+  ],
+  "es": [
+   "spoiler",
+   "spoilers",
+   "final",
+   "final explicado",
+   "escena post créditos",
+   "filtración",
+   "giro argumental",
+   "quién muere"
+  ],
+  "it": [
+   "spoiler",
+   "spoiler alert",
+   "finale",
+   "finale spiegato",
+   "scena post credits",
+   "leak",
+   "colpo di scena",
+   "chi muore"
+  ],
+  "pt-BR": [
+   "spoiler",
+   "spoilers",
+   "final",
+   "final explicado",
+   "cena pós-créditos",
+   "vazamento",
+   "reviravolta",
+   "quem morre"
+  ],
+  "tr": [
+   "spoiler",
+   "spoiler'lar",
+   "sonu",
+   "son açıklaması",
+   "jenerik sonrası sahne",
+   "sızıntı",
+   "sürpriz son",
+   "kim ölüyor"
+  ],
+  "ja": [
+   "ネタバレ",
+   "ネタバレ注意",
+   "結末",
+   "結末 解説",
+   "エンドロール後",
+   "リーク",
+   "どんでん返し",
+   "誰が死ぬ"
+  ],
+  "ko": [
+   "스포",
+   "스포일러",
+   "결말",
+   "결말 해석",
+   "쿠키 영상",
+   "유출",
+   "반전",
+   "누가 죽어"
+  ],
+  "zh-CN": [
+   "剧透",
+   "爆雷",
+   "结局",
+   "结局解析",
+   "彩蛋",
+   "泄露",
+   "反转",
+   "谁会死"
+  ]
+ }
+}

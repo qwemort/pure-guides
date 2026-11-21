@@ -1,0 +1,307 @@
+{
+ "id": "the-boys",
+ "slug": "the-boys",
+ "media": "tv",
+ "url": "/tv/the-boys/",
+ "names": {
+  "en": "The Boys",
+  "ru": "Пацаны",
+  "uk": "Хлопаки",
+  "pl": "The Boys",
+  "de": "The Boys",
+  "fr": "The Boys",
+  "es": "The Boys",
+  "it": "The Boys",
+  "pt-BR": "The Boys",
+  "tr": "The Boys",
+  "ja": "ザ・ボーイズ",
+  "ko": "더 보이즈",
+  "zh-CN": "黑袍纠察队"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "de": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "es": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "it": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ザ・ボーイズ",
+    "the boys",
+    "the boys season 5",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "ホームランダー",
+    "ブッチャー",
+    "ヒューイ",
+    "ソルジャー・ボーイ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "더 보이즈",
+    "the boys",
+    "the boys season 5",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "홈랜더",
+    "부처",
+    "휴이",
+    "솔저 보이"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "пацаны",
+    "the boys",
+    "the boys season 5",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "хоумлендер",
+    "бучер",
+    "хьюи",
+    "солдатик"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "the boys",
+    "the boys season 5",
+    "the boys finale",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "homelander",
+    "butcher",
+    "hughie",
+    "soldier boy"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "хлопаки",
+    "the boys",
+    "the boys season 5",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "хоумлендер",
+    "бучер",
+    "г'юї",
+    "солдат"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "黑袍纠察队",
+    "the boys",
+    "the boys season 5",
+    "the boys prime video"
+   ],
+   "balanced": [
+    "祖国人",
+    "屠夫",
+    "休伊",
+    "士兵男孩"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "The Boys"
+  },
+  "ru": {
+   "name": "Пацаны"
+  },
+  "uk": {
+   "name": "Хлопаки"
+  },
+  "pl": {
+   "name": "The Boys"
+  },
+  "de": {
+   "name": "The Boys"
+  },
+  "fr": {
+   "name": "The Boys"
+  },
+  "es": {
+   "name": "The Boys"
+  },
+  "it": {
+   "name": "The Boys"
+  },
+  "pt-BR": {
+   "name": "The Boys"
+  },
+  "tr": {
+   "name": "The Boys"
+  },
+  "ja": {
+   "name": "ザ・ボーイズ"
+  },
+  "ko": {
+   "name": "더 보이즈"
+  },
+  "zh-CN": {
+   "name": "黑袍纠察队"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-the-boys-spoilers.html",
+   "block/the-boys.html",
+   "mute-list/the-boys.html"
+  ],
+  "de": [
+   "avoid-the-boys-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-the-boys-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-the-boys-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-the-boys-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-the-boys-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-the-boys-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-the-boys-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-the-boys-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-the-boys-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-the-boys-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-the-boys-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-the-boys-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-the-boys-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

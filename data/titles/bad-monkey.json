@@ -1,0 +1,307 @@
+{
+ "id": "bad-monkey",
+ "slug": "bad-monkey",
+ "media": "tv",
+ "url": "/tv/bad-monkey/",
+ "names": {
+  "en": "Bad Monkey",
+  "ru": "Плохая обезьяна",
+  "uk": "Погана мавпа",
+  "pl": "Bad Monkey",
+  "de": "Bad Monkey",
+  "fr": "Bad Monkey",
+  "es": "Bad Monkey",
+  "it": "Bad Monkey",
+  "pt-BR": "Bad Monkey",
+  "tr": "Bad Monkey",
+  "ja": "バッド・モンキー",
+  "ko": "배드 몽키",
+  "zh-CN": "坏猴子"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "de": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "es": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "it": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "バッド・モンキー",
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "アンドリュー・ヤンシー",
+    "ロサ",
+    "ネヴィル",
+    "イヴ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "배드 몽키",
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "앤드루 얀시",
+    "로사",
+    "네빌",
+    "이브"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "плохая обезьяна",
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "эндрю янси",
+    "роза",
+    "невилл",
+    "ив"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey apple tv",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "andrew yancy",
+    "rosa",
+    "neville",
+    "eve"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "погана мавпа",
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "ендрю янсі",
+    "роза",
+    "невілл",
+    "ів"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "坏猴子",
+    "bad monkey",
+    "bad monkey season 2",
+    "bad monkey finale"
+   ],
+   "balanced": [
+    "安德鲁·扬西",
+    "罗莎",
+    "内维尔",
+    "伊芙"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Bad Monkey"
+  },
+  "ru": {
+   "name": "Плохая обезьяна"
+  },
+  "uk": {
+   "name": "Погана мавпа"
+  },
+  "pl": {
+   "name": "Bad Monkey"
+  },
+  "de": {
+   "name": "Bad Monkey"
+  },
+  "fr": {
+   "name": "Bad Monkey"
+  },
+  "es": {
+   "name": "Bad Monkey"
+  },
+  "it": {
+   "name": "Bad Monkey"
+  },
+  "pt-BR": {
+   "name": "Bad Monkey"
+  },
+  "tr": {
+   "name": "Bad Monkey"
+  },
+  "ja": {
+   "name": "バッド・モンキー"
+  },
+  "ko": {
+   "name": "배드 몽키"
+  },
+  "zh-CN": {
+   "name": "坏猴子"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-bad-monkey-spoilers.html",
+   "block/bad-monkey.html",
+   "mute-list/bad-monkey.html"
+  ],
+  "de": [
+   "avoid-bad-monkey-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-bad-monkey-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-bad-monkey-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-bad-monkey-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-bad-monkey-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-bad-monkey-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-bad-monkey-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-bad-monkey-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-bad-monkey-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-bad-monkey-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-bad-monkey-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-bad-monkey-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-bad-monkey-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

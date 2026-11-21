@@ -1,0 +1,307 @@
+{
+ "id": "reincarnated-sword-2",
+ "slug": "reincarnated-as-a-sword",
+ "media": "anime",
+ "url": "/anime/reincarnated-as-a-sword/",
+ "names": {
+  "en": "Reincarnated as a Sword",
+  "ru": "Перерождение в меч",
+  "uk": "Переродження в меч",
+  "pl": "Reincarnated as a Sword",
+  "de": "Reincarnated as a Sword",
+  "fr": "Reincarnated as a Sword",
+  "es": "Reincarnated as a Sword",
+  "it": "Reincarnated as a Sword",
+  "pt-BR": "Reincarnated as a Sword",
+  "tr": "Reincarnated as a Sword",
+  "ja": "転生したら剣でした",
+  "ko": "전생했더니 검이었습니다",
+  "zh-CN": "转生成为魔剑"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "de": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "es": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "it": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "転生したら剣でした",
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tenken"
+   ],
+   "balanced": [
+    "フラン",
+    "師匠",
+    "黒猫族",
+    "アマンダ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "전생했더니 검이었습니다",
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tenken"
+   ],
+   "balanced": [
+    "프란",
+    "스승",
+    "흑묘족",
+    "아만다"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "перерождение в меч",
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tenken"
+   ],
+   "balanced": [
+    "фран",
+    "учитель",
+    "чёрные кошки",
+    "аманда"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tensei shitara ken deshita",
+    "tenken"
+   ],
+   "balanced": [
+    "fran",
+    "teacher",
+    "black cat tribe",
+    "amanda"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "переродження в меч",
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tenken"
+   ],
+   "balanced": [
+    "фран",
+    "учитель",
+    "чорні коти",
+    "аманда"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "转生成为魔剑",
+    "reincarnated as a sword",
+    "reincarnated as a sword season 2",
+    "tenken"
+   ],
+   "balanced": [
+    "芙兰",
+    "师父",
+    "黑猫族",
+    "阿曼达"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Reincarnated as a Sword"
+  },
+  "ru": {
+   "name": "Перерождение в меч"
+  },
+  "uk": {
+   "name": "Переродження в меч"
+  },
+  "pl": {
+   "name": "Reincarnated as a Sword"
+  },
+  "de": {
+   "name": "Reincarnated as a Sword"
+  },
+  "fr": {
+   "name": "Reincarnated as a Sword"
+  },
+  "es": {
+   "name": "Reincarnated as a Sword"
+  },
+  "it": {
+   "name": "Reincarnated as a Sword"
+  },
+  "pt-BR": {
+   "name": "Reincarnated as a Sword"
+  },
+  "tr": {
+   "name": "Reincarnated as a Sword"
+  },
+  "ja": {
+   "name": "転生したら剣でした"
+  },
+  "ko": {
+   "name": "전생했더니 검이었습니다"
+  },
+  "zh-CN": {
+   "name": "转生成为魔剑"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-reincarnated-as-a-sword-spoilers.html",
+   "block/reincarnated-sword-2.html",
+   "mute-list/reincarnated-sword-2.html"
+  ],
+  "de": [
+   "avoid-reincarnated-as-a-sword-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-reincarnated-as-a-sword-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-reincarnated-as-a-sword-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-reincarnated-as-a-sword-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-reincarnated-as-a-sword-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-reincarnated-as-a-sword-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-reincarnated-as-a-sword-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-reincarnated-as-a-sword-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-reincarnated-as-a-sword-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-reincarnated-as-a-sword-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-reincarnated-as-a-sword-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-reincarnated-as-a-sword-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-reincarnated-as-a-sword-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

@@ -1,0 +1,307 @@
+{
+ "id": "rings-of-power",
+ "slug": "rings-of-power",
+ "media": "tv",
+ "url": "/tv/rings-of-power/",
+ "names": {
+  "en": "The Rings of Power",
+  "ru": "Властелин колец: Кольца власти",
+  "uk": "Володар перснів: Персні влади",
+  "pl": "Pierścienie Władzy",
+  "de": "Die Ringe der Macht",
+  "fr": "Les Anneaux de pouvoir",
+  "es": "Los anillos de poder",
+  "it": "Gli Anelli del Potere",
+  "pt-BR": "Os Anéis de Poder",
+  "tr": "Güç Yüzükleri",
+  "ja": "ロード・オブ・ザ・リング：力の指輪",
+  "ko": "반지의 제왕: 힘의 반지",
+  "zh-CN": "指环王：力量之戒"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "rings of power",
+    "the rings of power",
+    "rings of power season 3",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "de": {
+   "basic": [
+    "die ringe der macht",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "es": {
+   "basic": [
+    "los anillos de poder",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "les anneaux de pouvoir",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "it": {
+   "basic": [
+    "gli anelli del potere",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ロード・オブ・ザ・リング：力の指輪",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "アンナタール",
+    "ガラドリエル",
+    "ケレブリンボール",
+    "イシルドゥア"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "반지의 제왕: 힘의 반지",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "안나타르",
+    "갈라드리엘",
+    "켈레브림보르",
+    "이실두르"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "pierścienie władzy",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "os anéis de poder",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "властелин колец: кольца власти",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "аннатар",
+    "галадриэль",
+    "келебримбор",
+    "исильдур"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "güç yüzükleri",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "annatar",
+    "galadriel",
+    "celebrimbor",
+    "isildur"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "володар перснів: персні влади",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "аннатар",
+    "ґаладріель",
+    "келебрімбор",
+    "ісільдур"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "指环王：力量之戒",
+    "rings of power",
+    "the rings of power",
+    "lotr rings of power"
+   ],
+   "balanced": [
+    "安纳塔",
+    "凯兰崔尔",
+    "凯勒布理鹏",
+    "埃西铎"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "The Rings of Power"
+  },
+  "ru": {
+   "name": "Властелин колец: Кольца власти"
+  },
+  "uk": {
+   "name": "Володар перснів: Персні влади"
+  },
+  "pl": {
+   "name": "Pierścienie Władzy"
+  },
+  "de": {
+   "name": "Die Ringe der Macht"
+  },
+  "fr": {
+   "name": "Les Anneaux de pouvoir"
+  },
+  "es": {
+   "name": "Los anillos de poder"
+  },
+  "it": {
+   "name": "Gli Anelli del Potere"
+  },
+  "pt-BR": {
+   "name": "Os Anéis de Poder"
+  },
+  "tr": {
+   "name": "Güç Yüzükleri"
+  },
+  "ja": {
+   "name": "ロード・オブ・ザ・リング：力の指輪"
+  },
+  "ko": {
+   "name": "반지의 제왕: 힘의 반지"
+  },
+  "zh-CN": {
+   "name": "指环王：力量之戒"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-rings-of-power-spoilers.html",
+   "block/rings-of-power.html",
+   "mute-list/rings-of-power.html"
+  ],
+  "de": [
+   "avoid-rings-of-power-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-rings-of-power-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-rings-of-power-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-rings-of-power-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-rings-of-power-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-rings-of-power-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-rings-of-power-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-rings-of-power-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-rings-of-power-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-rings-of-power-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-rings-of-power-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-rings-of-power-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-rings-of-power-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

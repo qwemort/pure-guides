@@ -1,0 +1,307 @@
+{
+ "id": "firefly-wedding",
+ "slug": "firefly-wedding",
+ "media": "anime",
+ "url": "/anime/firefly-wedding/",
+ "names": {
+  "en": "Firefly Wedding",
+  "ru": "Светлячковая свадьба",
+  "uk": "Весілля світлячка",
+  "pl": "Firefly Wedding",
+  "de": "Firefly Wedding",
+  "fr": "Firefly Wedding",
+  "es": "Firefly Wedding",
+  "it": "Firefly Wedding",
+  "pt-BR": "Firefly Wedding",
+  "tr": "Firefly Wedding",
+  "ja": "ホタルの嫁入り",
+  "ko": "반딧불이의 시집가기",
+  "zh-CN": "萤火之嫁"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "de": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "es": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "it": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ホタルの嫁入り",
+    "firefly wedding",
+    "firefly wedding anime",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "桐ヶ谷紗都子",
+    "後藤進平",
+    "小川健太郎",
+    "桐ヶ谷"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "반딧불이의 시집가기",
+    "firefly wedding",
+    "firefly wedding anime",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "키리가야 사토코",
+    "고토 신페이",
+    "오가와 켄타로",
+    "키리가야"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "светлячковая свадьба",
+    "firefly wedding",
+    "firefly wedding anime",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "сатоко киригая",
+    "симпэй гото",
+    "кэнтаро огава",
+    "киригая"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "firefly wedding",
+    "firefly wedding anime",
+    "hotaru no yomeiri",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "satoko kirigaya",
+    "shinpei goto",
+    "kentaro ogawa",
+    "kirigaya"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "весілля світлячка",
+    "firefly wedding",
+    "firefly wedding anime",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "сатоко кіріґая",
+    "шімпей ґото",
+    "кентаро оґава",
+    "кіріґая"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "萤火之嫁",
+    "firefly wedding",
+    "firefly wedding anime",
+    "firefly wedding manga"
+   ],
+   "balanced": [
+    "桐谷纱都子",
+    "后藤进平",
+    "小川健太郎",
+    "桐谷"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Firefly Wedding"
+  },
+  "ru": {
+   "name": "Светлячковая свадьба"
+  },
+  "uk": {
+   "name": "Весілля світлячка"
+  },
+  "pl": {
+   "name": "Firefly Wedding"
+  },
+  "de": {
+   "name": "Firefly Wedding"
+  },
+  "fr": {
+   "name": "Firefly Wedding"
+  },
+  "es": {
+   "name": "Firefly Wedding"
+  },
+  "it": {
+   "name": "Firefly Wedding"
+  },
+  "pt-BR": {
+   "name": "Firefly Wedding"
+  },
+  "tr": {
+   "name": "Firefly Wedding"
+  },
+  "ja": {
+   "name": "ホタルの嫁入り"
+  },
+  "ko": {
+   "name": "반딧불이의 시집가기"
+  },
+  "zh-CN": {
+   "name": "萤火之嫁"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-firefly-wedding-spoilers.html",
+   "block/firefly-wedding.html",
+   "mute-list/firefly-wedding.html"
+  ],
+  "de": [
+   "avoid-firefly-wedding-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-firefly-wedding-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-firefly-wedding-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-firefly-wedding-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-firefly-wedding-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-firefly-wedding-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-firefly-wedding-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-firefly-wedding-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-firefly-wedding-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-firefly-wedding-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-firefly-wedding-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-firefly-wedding-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-firefly-wedding-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

@@ -1,0 +1,307 @@
+{
+ "id": "attack-on-titan",
+ "slug": "attack-on-titan",
+ "media": "anime",
+ "url": "/anime/attack-on-titan/",
+ "names": {
+  "en": "Attack on Titan",
+  "ru": "Атака титанов",
+  "uk": "Атака титанів",
+  "pl": "Attack on Titan",
+  "de": "Attack on Titan",
+  "fr": "Attack on Titan",
+  "es": "Attack on Titan",
+  "it": "Attack on Titan",
+  "pt-BR": "Attack on Titan",
+  "tr": "Attack on Titan",
+  "ja": "進撃の巨人",
+  "ko": "진격의 거인",
+  "zh-CN": "进击的巨人"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "de": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "es": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "it": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "進撃の巨人",
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot final"
+   ],
+   "balanced": [
+    "エレン",
+    "ミカサ",
+    "リヴァイ",
+    "アルミン"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "진격의 거인",
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot final"
+   ],
+   "balanced": [
+    "에렌",
+    "미카사",
+    "리바이",
+    "아르민"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "атака титанов",
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot final"
+   ],
+   "balanced": [
+    "эрен",
+    "микаса",
+    "леви",
+    "армин"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot",
+    "aot final"
+   ],
+   "balanced": [
+    "eren",
+    "mikasa",
+    "levi",
+    "armin"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "атака титанів",
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot final"
+   ],
+   "balanced": [
+    "ерен",
+    "мікаса",
+    "леві",
+    "армін"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "进击的巨人",
+    "attack on titan",
+    "shingeki no kyojin",
+    "aot final"
+   ],
+   "balanced": [
+    "艾伦",
+    "三笠",
+    "利威尔",
+    "阿尔敏"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Attack on Titan"
+  },
+  "ru": {
+   "name": "Атака титанов"
+  },
+  "uk": {
+   "name": "Атака титанів"
+  },
+  "pl": {
+   "name": "Attack on Titan"
+  },
+  "de": {
+   "name": "Attack on Titan"
+  },
+  "fr": {
+   "name": "Attack on Titan"
+  },
+  "es": {
+   "name": "Attack on Titan"
+  },
+  "it": {
+   "name": "Attack on Titan"
+  },
+  "pt-BR": {
+   "name": "Attack on Titan"
+  },
+  "tr": {
+   "name": "Attack on Titan"
+  },
+  "ja": {
+   "name": "進撃の巨人"
+  },
+  "ko": {
+   "name": "진격의 거인"
+  },
+  "zh-CN": {
+   "name": "进击的巨人"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-attack-on-titan-spoilers.html",
+   "block/attack-on-titan.html",
+   "mute-list/attack-on-titan.html"
+  ],
+  "de": [
+   "avoid-attack-on-titan-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-attack-on-titan-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-attack-on-titan-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-attack-on-titan-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-attack-on-titan-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-attack-on-titan-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-attack-on-titan-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-attack-on-titan-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-attack-on-titan-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-attack-on-titan-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-attack-on-titan-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-attack-on-titan-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-attack-on-titan-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

@@ -1,0 +1,307 @@
+{
+ "id": "pride-prejudice-netflix",
+ "slug": "pride-and-prejudice-netflix",
+ "media": "tv",
+ "url": "/tv/pride-and-prejudice-netflix/",
+ "names": {
+  "en": "Pride and Prejudice (Netflix)",
+  "ru": "Гордость и предубеждение (Netflix)",
+  "uk": "Гордість і упередження (Netflix)",
+  "pl": "Duma i uprzedzenie (Netflix)",
+  "de": "Stolz und Vorurteil (Netflix)",
+  "fr": "Orgueil et Préjugés (Netflix)",
+  "es": "Orgullo y prejuicio (Netflix)",
+  "it": "Orgoglio e pregiudizio (Netflix)",
+  "pt-BR": "Orgulho e Preconceito (Netflix)",
+  "tr": "Aşk ve Gurur (Netflix)",
+  "ja": "高慢と偏見（Netflix）",
+  "ko": "오만과 편견 (넷플릭스)",
+  "zh-CN": "傲慢与偏见（Netflix）"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice series",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "de": {
+   "basic": [
+    "stolz und vorurteil (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "es": {
+   "basic": [
+    "orgullo y prejuicio (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "orgueil et préjugés (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "it": {
+   "basic": [
+    "orgoglio e pregiudizio (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "高慢と偏見（netflix）",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "ダーシー",
+    "エリザベス・ベネット",
+    "ウィッカム",
+    "リディア"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "오만과 편견 (넷플릭스)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "다아시",
+    "엘리자베스 베넷",
+    "위컴",
+    "리디아"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "duma i uprzedzenie (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "orgulho e preconceito (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "гордость и предубеждение (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "дарси",
+    "элизабет беннет",
+    "уикхем",
+    "лидия"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "aşk ve gurur (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "netflix darcy",
+    "elizabeth bennet",
+    "wickham",
+    "lydia"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "гордість і упередження (netflix)",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "дарсі",
+    "елізабет беннет",
+    "вікгем",
+    "лідія"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "傲慢与偏见（netflix）",
+    "pride and prejudice netflix",
+    "netflix pride and prejudice",
+    "pride and prejudice 2026"
+   ],
+   "balanced": [
+    "达西",
+    "伊丽莎白·班内特",
+    "威克姆",
+    "莉迪亚"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Pride and Prejudice (Netflix)"
+  },
+  "ru": {
+   "name": "Гордость и предубеждение (Netflix)"
+  },
+  "uk": {
+   "name": "Гордість і упередження (Netflix)"
+  },
+  "pl": {
+   "name": "Duma i uprzedzenie (Netflix)"
+  },
+  "de": {
+   "name": "Stolz und Vorurteil (Netflix)"
+  },
+  "fr": {
+   "name": "Orgueil et Préjugés (Netflix)"
+  },
+  "es": {
+   "name": "Orgullo y prejuicio (Netflix)"
+  },
+  "it": {
+   "name": "Orgoglio e pregiudizio (Netflix)"
+  },
+  "pt-BR": {
+   "name": "Orgulho e Preconceito (Netflix)"
+  },
+  "tr": {
+   "name": "Aşk ve Gurur (Netflix)"
+  },
+  "ja": {
+   "name": "高慢と偏見（Netflix）"
+  },
+  "ko": {
+   "name": "오만과 편견 (넷플릭스)"
+  },
+  "zh-CN": {
+   "name": "傲慢与偏见（Netflix）"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-pride-and-prejudice-netflix-spoilers.html",
+   "block/pride-prejudice-netflix.html",
+   "mute-list/pride-prejudice-netflix.html"
+  ],
+  "de": [
+   "avoid-pride-and-prejudice-netflix-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-pride-and-prejudice-netflix-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-pride-and-prejudice-netflix-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-pride-and-prejudice-netflix-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-pride-and-prejudice-netflix-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-pride-and-prejudice-netflix-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-pride-and-prejudice-netflix-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-pride-and-prejudice-netflix-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-pride-and-prejudice-netflix-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-pride-and-prejudice-netflix-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-pride-and-prejudice-netflix-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-pride-and-prejudice-netflix-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-pride-and-prejudice-netflix-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

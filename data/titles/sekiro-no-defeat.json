@@ -1,0 +1,307 @@
+{
+ "id": "sekiro-no-defeat",
+ "slug": "sekiro-no-defeat",
+ "media": "anime",
+ "url": "/anime/sekiro-no-defeat/",
+ "names": {
+  "en": "Sekiro: No Defeat",
+  "ru": "Sekiro: Без поражений",
+  "uk": "Sekiro: Без поразок",
+  "pl": "Sekiro: No Defeat",
+  "de": "Sekiro: No Defeat",
+  "fr": "Sekiro: No Defeat",
+  "es": "Sekiro: No Defeat",
+  "it": "Sekiro: No Defeat",
+  "pt-BR": "Sekiro: No Defeat",
+  "tr": "Sekiro: No Defeat",
+  "ja": "SEKIRO: NO DEFEAT",
+  "ko": "세키로: 노 디피트",
+  "zh-CN": "只狼：不败"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "de": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "es": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "it": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "隻狼 アニメ",
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "弦一郎",
+    "一心",
+    "梟",
+    "九郎"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "세키로: 노 디피트",
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "겐이치로",
+    "잇신",
+    "올빼미",
+    "쿠로"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "sekiro: без поражений",
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "гэнитиро",
+    "иссин",
+    "филин",
+    "куро"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro: no defeat",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "genichiro",
+    "isshin",
+    "owl",
+    "kuro"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "sekiro: без поразок",
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "ґенічіро",
+    "іссін",
+    "пугач",
+    "куро"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "只狼：不败",
+    "sekiro no defeat",
+    "sekiro anime",
+    "sekiro crunchyroll"
+   ],
+   "balanced": [
+    "弦一郎",
+    "一心",
+    "枭",
+    "九郎"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Sekiro: No Defeat"
+  },
+  "ru": {
+   "name": "Sekiro: Без поражений"
+  },
+  "uk": {
+   "name": "Sekiro: Без поразок"
+  },
+  "pl": {
+   "name": "Sekiro: No Defeat"
+  },
+  "de": {
+   "name": "Sekiro: No Defeat"
+  },
+  "fr": {
+   "name": "Sekiro: No Defeat"
+  },
+  "es": {
+   "name": "Sekiro: No Defeat"
+  },
+  "it": {
+   "name": "Sekiro: No Defeat"
+  },
+  "pt-BR": {
+   "name": "Sekiro: No Defeat"
+  },
+  "tr": {
+   "name": "Sekiro: No Defeat"
+  },
+  "ja": {
+   "name": "SEKIRO: NO DEFEAT"
+  },
+  "ko": {
+   "name": "세키로: 노 디피트"
+  },
+  "zh-CN": {
+   "name": "只狼：不败"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-sekiro-no-defeat-spoilers.html",
+   "block/sekiro-no-defeat.html",
+   "mute-list/sekiro-no-defeat.html"
+  ],
+  "de": [
+   "avoid-sekiro-no-defeat-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-sekiro-no-defeat-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-sekiro-no-defeat-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-sekiro-no-defeat-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-sekiro-no-defeat-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-sekiro-no-defeat-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-sekiro-no-defeat-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-sekiro-no-defeat-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-sekiro-no-defeat-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-sekiro-no-defeat-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-sekiro-no-defeat-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-sekiro-no-defeat-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-sekiro-no-defeat-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

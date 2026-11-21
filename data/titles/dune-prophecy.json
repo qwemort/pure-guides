@@ -1,0 +1,307 @@
+{
+ "id": "dune-prophecy",
+ "slug": "dune-prophecy",
+ "media": "tv",
+ "url": "/tv/dune-prophecy/",
+ "names": {
+  "en": "Dune: Prophecy",
+  "ru": "Дюна: Пророчество",
+  "uk": "Дюна: Пророцтво",
+  "pl": "Diuna: Proroctwo",
+  "de": "Dune: Prophecy",
+  "fr": "Dune : Prophecy",
+  "es": "Dune: La profecía",
+  "it": "Dune: Prophecy",
+  "pt-BR": "Duna: A Profecia",
+  "tr": "Dune: Kehanet",
+  "ja": "DUNE/デューン 預言",
+  "ko": "듄: 프로퍼시",
+  "zh-CN": "沙丘：预言"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "dune prophecy",
+    "dune: prophecy",
+    "dune prophecy season 2",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "de": {
+   "basic": [
+    "dune prophecy",
+    "dune: prophecy",
+    "dune prophecy season 2",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "es": {
+   "basic": [
+    "dune: la profecía",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "dune : prophecy",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "it": {
+   "basic": [
+    "dune prophecy",
+    "dune: prophecy",
+    "dune prophecy season 2",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "dune/デューン 預言",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "ヴァリヤ・ハルコンネン",
+    "トゥーラ",
+    "デズモンド・ハート",
+    "シスターフッド"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "듄: 프로퍼시",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "발리아 하코넨",
+    "툴라",
+    "데즈먼드 하트",
+    "자매회"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "diuna: proroctwo",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "duna: a profecia",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "дюна: пророчество",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "валья харконнен",
+    "тула",
+    "десмонд харт",
+    "сестринство"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "dune: kehanet",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "valya harkonnen",
+    "tula",
+    "desmond hart",
+    "sisterhood"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "дюна: пророцтво",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "валья харконнен",
+    "тула",
+    "десмонд гарт",
+    "сестринство"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "沙丘：预言",
+    "dune prophecy",
+    "dune: prophecy",
+    "bene gesserit series"
+   ],
+   "balanced": [
+    "瓦莉娅·哈克南",
+    "图拉",
+    "德斯蒙德·哈特",
+    "姐妹会"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Dune: Prophecy"
+  },
+  "ru": {
+   "name": "Дюна: Пророчество"
+  },
+  "uk": {
+   "name": "Дюна: Пророцтво"
+  },
+  "pl": {
+   "name": "Diuna: Proroctwo"
+  },
+  "de": {
+   "name": "Dune: Prophecy"
+  },
+  "fr": {
+   "name": "Dune : Prophecy"
+  },
+  "es": {
+   "name": "Dune: La profecía"
+  },
+  "it": {
+   "name": "Dune: Prophecy"
+  },
+  "pt-BR": {
+   "name": "Duna: A Profecia"
+  },
+  "tr": {
+   "name": "Dune: Kehanet"
+  },
+  "ja": {
+   "name": "DUNE/デューン 預言"
+  },
+  "ko": {
+   "name": "듄: 프로퍼시"
+  },
+  "zh-CN": {
+   "name": "沙丘：预言"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-dune-prophecy-spoilers.html",
+   "block/dune-prophecy.html",
+   "mute-list/dune-prophecy.html"
+  ],
+  "de": [
+   "avoid-dune-prophecy-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-dune-prophecy-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-dune-prophecy-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-dune-prophecy-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-dune-prophecy-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-dune-prophecy-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-dune-prophecy-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-dune-prophecy-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-dune-prophecy-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-dune-prophecy-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-dune-prophecy-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-dune-prophecy-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-dune-prophecy-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

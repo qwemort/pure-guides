@@ -1,0 +1,307 @@
+{
+ "id": "house-dragon",
+ "slug": "house-of-the-dragon",
+ "media": "tv",
+ "url": "/tv/house-of-the-dragon/",
+ "names": {
+  "en": "House of the Dragon",
+  "ru": "Дом дракона",
+  "uk": "Дім дракона",
+  "pl": "Ród smoka",
+  "de": "House of the Dragon",
+  "fr": "House of the Dragon",
+  "es": "La casa del dragón",
+  "it": "House of the Dragon",
+  "pt-BR": "A Casa do Dragão",
+  "tr": "Ejderha Hanedanı",
+  "ja": "ハウス・オブ・ザ・ドラゴン",
+  "ko": "하우스 오브 드래곤",
+  "zh-CN": "龙之家族"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "house of the dragon",
+    "hotd",
+    "house of the dragon season 3",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "de": {
+   "basic": [
+    "house of the dragon",
+    "hotd",
+    "house of the dragon season 3",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "es": {
+   "basic": [
+    "la casa del dragón",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "house of the dragon",
+    "hotd",
+    "house of the dragon season 3",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "it": {
+   "basic": [
+    "house of the dragon",
+    "hotd",
+    "house of the dragon season 3",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ハウス・オブ・ザ・ドラゴン",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "レイニラ",
+    "エイモンド",
+    "デイモン",
+    "アリセント"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "하우스 오브 드래곤",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "라에니라",
+    "에이몬드",
+    "데이먼",
+    "알리센트"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "ród smoka",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "a casa do dragão",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "дом дракона",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "рейнира",
+    "эймонд",
+    "деймон",
+    "алисента"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "ejderha hanedanı",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "rhaenyra",
+    "aemond",
+    "daemon",
+    "alicent"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "дім дракона",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "рейніра",
+    "еймонд",
+    "деймон",
+    "алісента"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "龙之家族",
+    "house of the dragon",
+    "hotd",
+    "hotd s3"
+   ],
+   "balanced": [
+    "雷妮拉",
+    "伊蒙德",
+    "戴蒙",
+    "阿莉森特"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "House of the Dragon"
+  },
+  "ru": {
+   "name": "Дом дракона"
+  },
+  "uk": {
+   "name": "Дім дракона"
+  },
+  "pl": {
+   "name": "Ród smoka"
+  },
+  "de": {
+   "name": "House of the Dragon"
+  },
+  "fr": {
+   "name": "House of the Dragon"
+  },
+  "es": {
+   "name": "La casa del dragón"
+  },
+  "it": {
+   "name": "House of the Dragon"
+  },
+  "pt-BR": {
+   "name": "A Casa do Dragão"
+  },
+  "tr": {
+   "name": "Ejderha Hanedanı"
+  },
+  "ja": {
+   "name": "ハウス・オブ・ザ・ドラゴン"
+  },
+  "ko": {
+   "name": "하우스 오브 드래곤"
+  },
+  "zh-CN": {
+   "name": "龙之家族"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-house-of-the-dragon-spoilers.html",
+   "block/house-dragon.html",
+   "mute-list/house-dragon.html"
+  ],
+  "de": [
+   "avoid-house-of-the-dragon-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-house-of-the-dragon-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-house-of-the-dragon-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-house-of-the-dragon-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-house-of-the-dragon-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-house-of-the-dragon-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-house-of-the-dragon-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-house-of-the-dragon-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-house-of-the-dragon-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-house-of-the-dragon-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-house-of-the-dragon-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-house-of-the-dragon-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-house-of-the-dragon-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

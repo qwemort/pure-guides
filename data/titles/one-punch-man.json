@@ -1,0 +1,307 @@
+{
+ "id": "one-punch-man",
+ "slug": "one-punch-man",
+ "media": "anime",
+ "url": "/anime/one-punch-man/",
+ "names": {
+  "en": "One-Punch Man",
+  "ru": "Ванпанчмен",
+  "uk": "Ванпанчмен",
+  "pl": "One-Punch Man",
+  "de": "One-Punch Man",
+  "fr": "One-Punch Man",
+  "es": "One-Punch Man",
+  "it": "One-Punch Man",
+  "pt-BR": "One-Punch Man",
+  "tr": "One-Punch Man",
+  "ja": "ワンパンマン",
+  "ko": "원펀맨",
+  "zh-CN": "一拳超人"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "de": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "es": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "it": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ワンパンマン",
+    "one punch man",
+    "one-punch man",
+    "opm"
+   ],
+   "balanced": [
+    "サイタマ",
+    "ジェノス",
+    "ガロウ",
+    "タツマキ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "원펀맨",
+    "one punch man",
+    "one-punch man",
+    "opm"
+   ],
+   "balanced": [
+    "사이타마",
+    "제노스",
+    "가로우",
+    "타츠마키"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "ванпанчмен",
+    "one punch man",
+    "one-punch man",
+    "opm"
+   ],
+   "balanced": [
+    "сайтама",
+    "генос",
+    "гароу",
+    "тацумаки"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "one punch man",
+    "one-punch man",
+    "one punch man season 3",
+    "opm"
+   ],
+   "balanced": [
+    "saitama",
+    "genos",
+    "garou",
+    "tatsumaki"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "ванпанчмен",
+    "one punch man",
+    "one-punch man",
+    "opm"
+   ],
+   "balanced": [
+    "сайтама",
+    "ґенос",
+    "ґароу",
+    "тацумакі"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "一拳超人",
+    "one punch man",
+    "one-punch man",
+    "opm"
+   ],
+   "balanced": [
+    "埼玉",
+    "杰诺斯",
+    "饿狼",
+    "龙卷"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "One-Punch Man"
+  },
+  "ru": {
+   "name": "Ванпанчмен"
+  },
+  "uk": {
+   "name": "Ванпанчмен"
+  },
+  "pl": {
+   "name": "One-Punch Man"
+  },
+  "de": {
+   "name": "One-Punch Man"
+  },
+  "fr": {
+   "name": "One-Punch Man"
+  },
+  "es": {
+   "name": "One-Punch Man"
+  },
+  "it": {
+   "name": "One-Punch Man"
+  },
+  "pt-BR": {
+   "name": "One-Punch Man"
+  },
+  "tr": {
+   "name": "One-Punch Man"
+  },
+  "ja": {
+   "name": "ワンパンマン"
+  },
+  "ko": {
+   "name": "원펀맨"
+  },
+  "zh-CN": {
+   "name": "一拳超人"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-one-punch-man-spoilers.html",
+   "block/one-punch-man.html",
+   "mute-list/one-punch-man.html"
+  ],
+  "de": [
+   "avoid-one-punch-man-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-one-punch-man-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-one-punch-man-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-one-punch-man-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-one-punch-man-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-one-punch-man-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-one-punch-man-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-one-punch-man-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-one-punch-man-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-one-punch-man-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-one-punch-man-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-one-punch-man-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-one-punch-man-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

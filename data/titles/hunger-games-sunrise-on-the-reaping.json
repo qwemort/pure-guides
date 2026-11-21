@@ -1,0 +1,684 @@
+{
+ "id": "hunger-games-reaping",
+ "slug": "hunger-games-sunrise-on-the-reaping",
+ "media": "movies",
+ "url": "/movies/hunger-games-sunrise-on-the-reaping/",
+ "names": {
+  "en": "The Hunger Games: Sunrise on the Reaping",
+  "ru": "Голодные игры: Рассвет жатвы",
+  "uk": "Голодні ігри: Світанок перед жнивами",
+  "pl": "Igrzyska śmierci: Wschód słońca w dniu dożynek",
+  "de": "Die Tribute von Panem: Sunrise on the Reaping",
+  "fr": "Hunger Games : Lever de soleil sur la moisson",
+  "es": "Los juegos del hambre: Amanecer en la cosecha",
+  "it": "Hunger Games: L'alba sulla mietitura",
+  "pt-BR": "Jogos Vorazes: Amanhecer na Colheita",
+  "tr": "Açlık Oyunları: Hasatta Gündoğumu",
+  "ja": "ハンガー・ゲーム：サンライズ・オン・ザ・リーピング",
+  "ko": "헝거게임: 선라이즈 온 더 리핑",
+  "zh-CN": "饥饿游戏：黎明收割"
+ },
+ "release": {
+  "date": "2026-11-20",
+  "status": "confirmed",
+  "source": "https://www.tomsguide.com/entertainment/movies/sunrise-on-the-reaping-movie",
+  "platforms": "in cinemas"
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-18",
+ "modified": "2026-11-18",
+ "words": {
+  "en": {
+   "basic": [
+    "sunrise on the reaping",
+    "hunger games sunrise on the reaping",
+    "hunger games 2026",
+    "second quarter quell"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "de": {
+   "basic": [
+    "sunrise on the reaping",
+    "tribute von panem sunrise on the reaping",
+    "tribute von panem 2026",
+    "hunger games 2026"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "es": {
+   "basic": [
+    "amanecer en la cosecha",
+    "juegos del hambre amanecer en la cosecha",
+    "juegos del hambre 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "lever de soleil sur la moisson",
+    "hunger games lever de soleil",
+    "hunger games 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "it": {
+   "basic": [
+    "l'alba sulla mietitura",
+    "hunger games alba sulla mietitura",
+    "hunger games 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "サンライズ・オン・ザ・リーピング",
+    "ハンガー・ゲーム サンライズ",
+    "ハンガー・ゲーム 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "ヘイミッチ",
+    "ヘイミッチ・アバナシー",
+    "メイスリー・ドナー",
+    "レノア・ダヴ",
+    "ルエラ・マッコイ",
+    "ワイアット・キャロウ",
+    "ビーティー",
+    "プルターク・ヘブンズビー"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "선라이즈 온 더 리핑",
+    "헝거게임 선라이즈 온 더 리핑",
+    "헝거게임 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "헤이미치",
+    "헤이미치 애버내시",
+    "메이실리 도너",
+    "레노어 도브",
+    "루엘라 맥코이",
+    "와이엇 캘로우",
+    "비티",
+    "플루타르크 헤븐스비"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "wschód słońca w dniu dożynek",
+    "igrzyska śmierci wschód słońca",
+    "igrzyska śmierci 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "amanhecer na colheita",
+    "jogos vorazes amanhecer na colheita",
+    "jogos vorazes 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "рассвет жатвы",
+    "голодные игры рассвет жатвы",
+    "голодные игры 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "хеймитч",
+    "хеймитч эбернети",
+    "мейсили доннер",
+    "ленор дав",
+    "луэлла маккой",
+    "уайетт кэллоу",
+    "бити",
+    "плутарх хевенсби"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "hasatta gündoğumu",
+    "açlık oyunları hasatta gündoğumu",
+    "açlık oyunları 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "haymitch",
+    "haymitch abernathy",
+    "maysilee donner",
+    "lenore dove",
+    "louella mccoy",
+    "wyatt callow",
+    "beetee",
+    "plutarch heavensbee"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "світанок перед жнивами",
+    "голодні ігри світанок перед жнивами",
+    "голодні ігри 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "хеймітч",
+    "хеймітч абернеті",
+    "мейсілі доннер",
+    "ленор дав",
+    "луелла маккой",
+    "вайатт келлоу",
+    "біті",
+    "плутарх гевенсбі"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "黎明收割",
+    "饥饿游戏 黎明收割",
+    "饥饿游戏 2026",
+    "sunrise on the reaping"
+   ],
+   "balanced": [
+    "黑密契",
+    "黑密契·阿伯纳西",
+    "梅丝丽·唐纳",
+    "莱诺尔·达芙",
+    "露埃拉·麦考伊",
+    "怀亚特·卡洛",
+    "比特",
+    "普鲁塔克·海文斯比"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "The Hunger Games: Sunrise on the Reaping",
+   "desc": "Sunrise on the Reaping is in cinemas {D}. The novel came out in 2025, so the story is one search away. Words to mute on X, Threads and TikTok, and what no filter catches.",
+   "lead": "It adapts the 2025 novel about the 50th Hunger Games, so the plot has been online for over a year. What to mute, where, and what no setting can catch.",
+   "why_h": "The book is already out",
+   "why": "<p>Most films get spoiled after the premiere. This one has been spoilable since March 2025: book summaries, reaction videos and fan edits sit under every trailer, and book readers quote the ending in comments without warning.</p><p>Film details then come from premieres and press screenings a few days before {D0}, and \"book vs movie\" breakdowns appear on opening night. Do not mute plain \"Hunger Games\": it also hides the older films and harmless news.</p>",
+   "unknown": "Changes the film makes to the book cannot be predicted.",
+   "demo": "Sunrise on the Reaping: the ending explained",
+   "cover_line": "The ending",
+   "faq": [
+    [
+     "When does Sunrise on the Reaping come out?",
+     "It is in cinemas from {D}. Some countries get it a few days later."
+    ],
+    [
+     "Is it based on a book?",
+     "Yes, on the 2025 novel by Suzanne Collins, so the main story is widely discussed online."
+    ],
+    [
+     "Which words should I mute?",
+     "The film title with words like ending, spoilers, who dies and book vs movie. Muting only \"Hunger Games\" also hides the older films."
+    ],
+    [
+     "Can I mute words on YouTube?",
+     "No. YouTube has no keyword mute. In a desktop browser an extension can blur matching videos and comments."
+    ]
+   ]
+  },
+  "ru": {
+   "name": "Голодные игры: Рассвет жатвы",
+   "desc": "«Голодные игры: Рассвет жатвы» в кино с {D}. Роман вышел в 2025 году, так что сюжет находится за один запрос. Какие слова скрыть в X, Threads и TikTok и что не ловит ни один фильтр.",
+   "lead": "Фильм снят по роману 2025 года о 50-х Голодных играх, так что сюжет в сети уже больше года. Что скрыть, где именно и чего не поймает ни одна настройка.",
+   "why_h": "Книга уже вышла",
+   "why": "<p>Обычно фильм спойлерят после премьеры. Этот можно испортить с марта 2025 года: пересказы книги, ролики-реакции и фанатские нарезки висят под каждым трейлером, а читавшие пишут концовку в комментариях без предупреждения.</p><p>Детали самого фильма приходят с премьер и пресс-показов за несколько дней до {D0}, а разборы «книга против фильма» появляются в первый же вечер. Не скрывайте просто «Голодные игры»: пропадут и старые фильмы, и безобидные новости.</p>",
+   "unknown": "Что фильм изменит по сравнению с книгой, предсказать нельзя.",
+   "demo": "Рассвет жатвы: концовка объяснена",
+   "cover_line": "Концовка",
+   "faq": [
+    [
+     "Когда выходит «Рассвет жатвы»?",
+     "В кино с {D}. В некоторых странах на несколько дней позже."
+    ],
+    [
+     "Фильм снят по книге?",
+     "Да, по роману Сьюзен Коллинз 2025 года, поэтому основной сюжет широко обсуждают в сети."
+    ],
+    [
+     "Какие слова скрыть?",
+     "Название фильма вместе со словами концовка, спойлеры, кто умрёт, книга и фильм. Если скрыть только «Голодные игры», пропадут и старые фильмы."
+    ],
+    [
+     "Можно ли скрыть слова на YouTube?",
+     "Нет, фильтра по словам на YouTube нет. В браузере на компьютере это может сделать расширение: оно размывает подходящие ролики и комментарии."
+    ]
+   ]
+  },
+  "uk": {
+   "name": "Голодні ігри: Світанок перед жнивами",
+   "desc": "«Голодні ігри: Світанок перед жнивами» в кіно з {D}. Роман вийшов у 2025 році, тож сюжет за один запит. Які слова приховати в X, Threads і TikTok і чого не ловить жоден фільтр.",
+   "lead": "Фільм знято за романом 2025 року про 50-ті Голодні ігри, тож сюжет у мережі вже понад рік. Що приховати, де саме і чого не впіймає жодне налаштування.",
+   "why_h": "Книга вже вийшла",
+   "why": "<p>Зазвичай фільм спойлерять після прем'єри. Цей можна зіпсувати з березня 2025 року: переказ книги, ролики-реакції й фанатські нарізки висять під кожним трейлером, а ті, хто читав, пишуть фінал у коментарях без попередження.</p><p>Деталі самого фільму приходять із прем'єр і пресоказів за кілька днів до {D0}, а розбори «книга проти фільму» з'являються першого ж вечора. Не приховуйте просто «Голодні ігри»: зникнуть і старі фільми, і безпечні новини.</p>",
+   "unknown": "Що фільм змінить порівняно з книгою, передбачити не можна.",
+   "demo": "Світанок перед жнивами: фінал пояснено",
+   "cover_line": "Фінал",
+   "faq": [
+    [
+     "Коли виходить «Світанок перед жнивами»?",
+     "У кіно з {D}. У деяких країнах на кілька днів пізніше."
+    ],
+    [
+     "Фільм знято за книгою?",
+     "Так, за романом Сьюзен Коллінз 2025 року, тому основний сюжет широко обговорюють у мережі."
+    ],
+    [
+     "Які слова приховати?",
+     "Назву фільму разом зі словами фінал, спойлери, хто помре, книга і фільм. Якщо приховати лише «Голодні ігри», зникнуть і старі фільми."
+    ],
+    [
+     "Чи можна приховати слова на YouTube?",
+     "Ні, фільтра за словами на YouTube немає. У браузері на комп'ютері це може зробити розширення: воно розмиває відповідні ролики й коментарі."
+    ]
+   ]
+  },
+  "pl": {
+   "name": "Igrzyska śmierci: Wschód słońca w dniu dożynek",
+   "desc": "„Wschód słońca w dniu dożynek” jest w kinach od {D}. Powieść wyszła w 2025 roku, więc fabuła jest o jedno wyszukiwanie. Jakie słowa wyciszyć na X, Threads i TikToku i czego nie złapie żaden filtr.",
+   "lead": "Film jest adaptacją powieści z 2025 roku o 50. Głodowych Igrzyskach, więc fabuła krąży w sieci od ponad roku. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+   "why_h": "Książka już wyszła",
+   "why": "<p>Większość filmów psuje się po premierze. Ten da się zaspoilerować od marca 2025: streszczenia książki, filmy z reakcjami i fanowskie montaże wiszą pod każdym zwiastunem, a czytelnicy cytują zakończenie w komentarzach bez ostrzeżenia.</p><p>Szczegóły samego filmu przychodzą z premier i pokazów prasowych kilka dni przed {D0}, a porównania „książka kontra film” pojawiają się pierwszego wieczoru. Nie wyciszaj samych „Igrzysk śmierci”: znikną też starsze filmy i niegroźne newsy.</p>",
+   "unknown": "Zmian, jakie film wprowadzi względem książki, nie da się przewidzieć.",
+   "demo": "Wschód słońca w dniu dożynek: zakończenie wyjaśnione",
+   "cover_line": "Zakończenie",
+   "faq": [
+    [
+     "Kiedy premiera „Wschodu słońca w dniu dożynek”?",
+     "W kinach od {D}. W niektórych krajach kilka dni później."
+    ],
+    [
+     "Czy film jest na podstawie książki?",
+     "Tak, powieści Suzanne Collins z 2025 roku, więc główna fabuła jest szeroko omawiana w sieci."
+    ],
+    [
+     "Jakie słowa wyciszyć?",
+     "Tytuł filmu razem ze słowami zakończenie, spoilery, kto ginie, książka a film. Samo „Igrzyska śmierci” ukryje też starsze filmy."
+    ],
+    [
+     "Czy da się wyciszyć słowa na YouTube?",
+     "Nie, YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie, które rozmywa pasujące filmy i komentarze."
+    ]
+   ]
+  },
+  "de": {
+   "name": "Die Tribute von Panem: Sunrise on the Reaping",
+   "desc": "Sunrise on the Reaping läuft ab dem {D} im Kino. Der Roman erschien 2025, die Handlung ist also eine Suche entfernt. Welche Wörter du auf X, Threads und TikTok stummschaltest und was kein Filter erwischt.",
+   "lead": "Der Film basiert auf dem Roman von 2025 über die 50. Hungerspiele, die Handlung steht also seit über einem Jahr im Netz. Was du stummschaltest, wo, und was keine Einstellung erwischt.",
+   "why_h": "Das Buch ist schon da",
+   "why": "<p>Die meisten Filme werden nach der Premiere gespoilert. Dieser schon seit März 2025: Buchzusammenfassungen, Reaktionsvideos und Fan-Edits hängen unter jedem Trailer, und Buchleser zitieren das Ende ohne Warnung in den Kommentaren.</p><p>Details zum Film kommen von Premieren und Pressevorführungen ein paar Tage vor dem {D0}, und „Buch gegen Film“-Vergleiche erscheinen am Startabend. Schalte nicht einfach „Panem“ stumm: Das blendet auch die älteren Filme und harmlose News aus.</p>",
+   "unknown": "Was der Film gegenüber dem Buch ändert, lässt sich nicht vorhersagen.",
+   "demo": "Sunrise on the Reaping: das Ende erklärt",
+   "cover_line": "Das Ende",
+   "faq": [
+    [
+     "Wann kommt Sunrise on the Reaping ins Kino?",
+     "Ab dem {D}. In manchen Ländern ein paar Tage später."
+    ],
+    [
+     "Basiert der Film auf einem Buch?",
+     "Ja, auf dem Roman von Suzanne Collins aus dem Jahr 2025, deshalb wird die Handlung online breit diskutiert."
+    ],
+    [
+     "Welche Wörter sollte ich stummschalten?",
+     "Den Filmtitel mit Wörtern wie Ende, Spoiler, wer stirbt und Buch gegen Film. Nur „Tribute von Panem“ blendet auch die älteren Filme aus."
+    ],
+    [
+     "Kann ich auf YouTube Wörter stummschalten?",
+     "Nein, YouTube hat keinen Wortfilter. Im Desktop-Browser kann eine Erweiterung passende Videos und Kommentare verwischen."
+    ]
+   ]
+  },
+  "fr": {
+   "name": "Hunger Games : Lever de soleil sur la moisson",
+   "desc": "Lever de soleil sur la moisson sort au cinéma le {D}. Le roman est paru en 2025, l'histoire est donc à une recherche près. Les mots à masquer sur X, Threads et TikTok, et ce qu'aucun filtre n'attrape.",
+   "lead": "Le film adapte le roman de 2025 sur les 50e Hunger Games, l'intrigue circule donc en ligne depuis plus d'un an. Quoi masquer, où, et ce qu'aucun réglage ne bloque.",
+   "why_h": "Le livre est déjà sorti",
+   "why": "<p>La plupart des films se font spoiler après la première. Celui-ci peut l'être depuis mars 2025 : résumés du livre, vidéos de réaction et montages de fans s'affichent sous chaque bande-annonce, et les lecteurs citent la fin dans les commentaires sans prévenir.</p><p>Les détails du film arrivent ensuite des avant-premières et projections presse quelques jours avant le {D0}, et les comparaisons « livre contre film » sortent le soir même. Ne masquez pas simplement « Hunger Games » : cela cache aussi les anciens films et l'actu inoffensive.</p>",
+   "unknown": "Les changements du film par rapport au livre sont imprévisibles.",
+   "demo": "Lever de soleil sur la moisson : la fin expliquée",
+   "cover_line": "La fin",
+   "faq": [
+    [
+     "Quand sort Lever de soleil sur la moisson ?",
+     "Au cinéma à partir du {D}. Certains pays le reçoivent quelques jours plus tard."
+    ],
+    [
+     "Le film est-il tiré d'un livre ?",
+     "Oui, du roman de Suzanne Collins paru en 2025, donc l'intrigue principale est largement discutée en ligne."
+    ],
+    [
+     "Quels mots masquer ?",
+     "Le titre du film avec des mots comme fin, spoilers, qui meurt et livre contre film. Masquer seulement « Hunger Games » cache aussi les anciens films."
+    ],
+    [
+     "Peut-on masquer des mots sur YouTube ?",
+     "Non, YouTube n'a pas de filtre de mots. Dans un navigateur sur ordinateur, une extension peut flouter les vidéos et commentaires correspondants."
+    ]
+   ]
+  },
+  "es": {
+   "name": "Los juegos del hambre: Amanecer en la cosecha",
+   "desc": "Amanecer en la cosecha llega a los cines el {D}. La novela salió en 2025, así que la historia está a una búsqueda. Qué palabras silenciar en X, Threads y TikTok, y qué no atrapa ningún filtro.",
+   "lead": "Adapta la novela de 2025 sobre los 50.º Juegos del Hambre, así que la trama lleva más de un año en internet. Qué silenciar, dónde y qué no detiene ningún ajuste.",
+   "why_h": "El libro ya salió",
+   "why": "<p>La mayoría de películas se arruinan tras el estreno. Esta se puede arruinar desde marzo de 2025: resúmenes del libro, vídeos de reacción y edits de fans aparecen bajo cada tráiler, y los lectores citan el final en los comentarios sin avisar.</p><p>Los detalles de la película llegan de los preestrenos y pases de prensa unos días antes del {D0}, y las comparaciones «libro contra película» salen la misma noche del estreno. No silencies solo «Juegos del hambre»: también ocultas las películas anteriores y noticias inofensivas.</p>",
+   "unknown": "Los cambios que haga la película respecto al libro no se pueden prever.",
+   "demo": "Amanecer en la cosecha: el final explicado",
+   "cover_line": "El final",
+   "faq": [
+    [
+     "¿Cuándo se estrena Amanecer en la cosecha?",
+     "En cines desde el {D}. En algunos países llega unos días después."
+    ],
+    [
+     "¿Está basada en un libro?",
+     "Sí, en la novela de Suzanne Collins de 2025, así que la trama principal se comenta mucho en internet."
+    ],
+    [
+     "¿Qué palabras silencio?",
+     "El título de la película con palabras como final, spoilers, quién muere y libro vs película. Silenciar solo «Juegos del hambre» también oculta las películas anteriores."
+    ],
+    [
+     "¿Puedo silenciar palabras en YouTube?",
+     "No, YouTube no tiene filtro de palabras. En un navegador de escritorio, una extensión puede difuminar los vídeos y comentarios que coincidan."
+    ]
+   ]
+  },
+  "it": {
+   "name": "Hunger Games: L'alba sulla mietitura",
+   "desc": "L'alba sulla mietitura è al cinema dal {D}. Il romanzo è uscito nel 2025, quindi la trama è a una ricerca di distanza. Quali parole silenziare su X, Threads e TikTok e cosa nessun filtro blocca.",
+   "lead": "Adatta il romanzo del 2025 sui 50° Hunger Games, quindi la trama è online da più di un anno. Cosa silenziare, dove e cosa nessuna impostazione può fermare.",
+   "why_h": "Il libro è già uscito",
+   "why": "<p>Quasi tutti i film vengono spoilerati dopo la prima. Questo si può rovinare da marzo 2025: riassunti del libro, video reaction ed edit dei fan stanno sotto ogni trailer, e chi ha letto il libro cita il finale nei commenti senza avvisare.</p><p>I dettagli del film arrivano poi da anteprime e proiezioni stampa qualche giorno prima del {D0}, e i confronti «libro contro film» escono la sera stessa. Non silenziare solo «Hunger Games»: nasconderesti anche i film precedenti e notizie innocue.</p>",
+   "unknown": "I cambiamenti del film rispetto al libro non si possono prevedere.",
+   "demo": "L'alba sulla mietitura: il finale spiegato",
+   "cover_line": "Il finale",
+   "faq": [
+    [
+     "Quando esce L'alba sulla mietitura?",
+     "Al cinema dal {D}. In alcuni paesi qualche giorno dopo."
+    ],
+    [
+     "È tratto da un libro?",
+     "Sì, dal romanzo di Suzanne Collins del 2025, quindi la trama principale è molto discussa online."
+    ],
+    [
+     "Quali parole silenziare?",
+     "Il titolo del film con parole come finale, spoiler, chi muore e libro contro film. Silenziare solo «Hunger Games» nasconde anche i film precedenti."
+    ],
+    [
+     "Posso silenziare parole su YouTube?",
+     "No, YouTube non ha un filtro per parole. In un browser desktop un'estensione può sfocare i video e i commenti corrispondenti."
+    ]
+   ]
+  },
+  "pt-BR": {
+   "name": "Jogos Vorazes: Amanhecer na Colheita",
+   "desc": "Amanhecer na Colheita chega aos cinemas em {D}. O livro saiu em 2025, então a história está a uma busca de distância. Que palavras silenciar no X, Threads e TikTok e o que nenhum filtro pega.",
+   "lead": "O filme adapta o livro de 2025 sobre os 50º Jogos Vorazes, então a trama está na internet há mais de um ano. O que silenciar, onde e o que nenhuma configuração segura.",
+   "why_h": "O livro já saiu",
+   "why": "<p>A maioria dos filmes leva spoiler depois da estreia. Este pode ser estragado desde março de 2025: resumos do livro, vídeos de react e edits de fãs aparecem embaixo de cada trailer, e quem leu cita o final nos comentários sem avisar.</p><p>Os detalhes do filme chegam de pré-estreias e sessões para a imprensa alguns dias antes de {D0}, e as comparações «livro vs filme» saem na noite da estreia. Não silencie só «Jogos Vorazes»: isso esconde os filmes antigos e notícias inofensivas.</p>",
+   "unknown": "As mudanças que o filme fizer em relação ao livro não dá para prever.",
+   "demo": "Amanhecer na Colheita: o final explicado",
+   "cover_line": "O final",
+   "faq": [
+    [
+     "Quando estreia Amanhecer na Colheita?",
+     "Nos cinemas a partir de {D}. Em alguns países chega alguns dias depois."
+    ],
+    [
+     "O filme é baseado em livro?",
+     "Sim, no livro de Suzanne Collins de 2025, então a história principal é muito comentada na internet."
+    ],
+    [
+     "Quais palavras silenciar?",
+     "O título do filme com palavras como final, spoiler, quem morre e livro vs filme. Silenciar só «Jogos Vorazes» esconde também os filmes antigos."
+    ],
+    [
+     "Dá para silenciar palavras no YouTube?",
+     "Não, o YouTube não tem filtro de palavras. No navegador do computador, uma extensão pode desfocar vídeos e comentários que batem."
+    ]
+   ]
+  },
+  "tr": {
+   "name": "Açlık Oyunları: Hasatta Gündoğumu",
+   "desc": "Hasatta Gündoğumu {D} tarihinde sinemalarda. Roman 2025'te çıktı, yani hikâye bir arama uzaklıkta. X, Threads ve TikTok'ta hangi kelimeleri susturmalı, hangi şeyi hiçbir filtre yakalamaz.",
+   "lead": "Film, 50. Açlık Oyunları'nı anlatan 2025 romanından uyarlandı, yani konu bir yıldan uzun süredir internette. Neyi, nerede susturmalı ve hiçbir ayarın yakalayamadığı şeyler.",
+   "why_h": "Kitap zaten çıktı",
+   "why": "<p>Çoğu film galadan sonra spoilerlanır. Bu film Mart 2025'ten beri spoilerlanabiliyor: kitap özetleri, tepki videoları ve hayran edit'leri her fragmanın altında, kitabı okuyanlar da sonu uyarı vermeden yorumlara yazıyor.</p><p>Filmin ayrıntıları {D0} tarihinden birkaç gün önce galalardan ve basın gösterimlerinden gelir, «kitap mı film mi» karşılaştırmaları da vizyon gecesi çıkar. Sadece «Açlık Oyunları»nı susturmayın: eski filmler ve zararsız haberler de gizlenir.</p>",
+   "unknown": "Filmin kitaba göre yapacağı değişiklikler tahmin edilemez.",
+   "demo": "Hasatta Gündoğumu: sonu açıklandı",
+   "cover_line": "Son",
+   "faq": [
+    [
+     "Hasatta Gündoğumu ne zaman çıkıyor?",
+     "{D} itibarıyla sinemalarda. Bazı ülkelerde birkaç gün sonra."
+    ],
+    [
+     "Film bir kitaba mı dayanıyor?",
+     "Evet, Suzanne Collins'in 2025 romanına, bu yüzden ana hikâye internette çok konuşuluyor."
+    ],
+    [
+     "Hangi kelimeleri susturmalıyım?",
+     "Film adını son, spoiler, kim ölüyor ve kitap mı film mi gibi kelimelerle birlikte. Sadece «Açlık Oyunları»nı susturmak eski filmleri de gizler."
+    ],
+    [
+     "YouTube'da kelime susturabilir miyim?",
+     "Hayır, YouTube'da kelime filtresi yok. Masaüstü tarayıcıda bir eklenti eşleşen videoları ve yorumları bulanıklaştırabilir."
+    ]
+   ]
+  },
+  "ja": {
+   "name": "ハンガー・ゲーム：サンライズ・オン・ザ・リーピング",
+   "desc": "『サンライズ・オン・ザ・リーピング』は{D}公開。原作小説は2025年に出ているので、物語は検索ひとつで出てきます。X、Threads、TikTok でミュートするワードと、どのフィルターでも防げないもの。",
+   "lead": "第50回ハンガー・ゲームを描いた2025年の小説が原作で、あらすじは1年以上ネットに出回っています。何を、どこでミュートするか、そして設定では防げないもの。",
+   "why_h": "原作はもう出ている",
+   "why": "<p>ふつう映画は公開後にネタバレされます。この作品は2025年3月からネタバレできる状態です。原作の要約、リアクション動画、ファン編集がどのトレーラーの下にもあり、読んだ人は警告なしにコメントで結末を書きます。</p><p>映画そのものの情報は{D0}の数日前、プレミアや試写から出てきて、「原作と映画の違い」の解説は公開初日の夜に出ます。「ハンガー・ゲーム」だけをミュートしないでください。過去作や無害なニュースまで消えます。</p>",
+   "unknown": "映画が原作から何を変えるかは予測できません。",
+   "demo": "サンライズ・オン・ザ・リーピング 結末解説",
+   "cover_line": "結末",
+   "faq": [
+    [
+     "『サンライズ・オン・ザ・リーピング』の公開日は？",
+     "{D}から劇場公開です。国によっては数日遅れます。"
+    ],
+    [
+     "原作はある？",
+     "はい、スーザン・コリンズの2025年の小説です。そのため本筋はネットで広く語られています。"
+    ],
+    [
+     "どのワードをミュートすべき？",
+     "映画のタイトルに、結末、ネタバレ、誰が死ぬ、原作との違い、などを組み合わせます。「ハンガー・ゲーム」だけだと過去作も消えます。"
+    ],
+    [
+     "YouTube でワードをミュートできる？",
+     "いいえ、YouTube にはワードフィルターがありません。PC のブラウザなら拡張機能で該当する動画やコメントをぼかせます。"
+    ]
+   ]
+  },
+  "ko": {
+   "name": "헝거게임: 선라이즈 온 더 리핑",
+   "desc": "선라이즈 온 더 리핑은 {D} 개봉합니다. 원작 소설이 2025년에 나와서 줄거리는 검색 한 번이면 나옵니다. X, Threads, TikTok에서 뮤트할 단어와 어떤 필터도 못 잡는 것.",
+   "lead": "제50회 헝거게임을 다룬 2025년 소설이 원작이라 줄거리가 1년 넘게 인터넷에 돌고 있습니다. 무엇을, 어디서 뮤트할지, 그리고 설정으로 못 막는 것.",
+   "why_h": "원작이 이미 나와 있다",
+   "why": "<p>보통 영화는 개봉 후에 스포일러가 퍼집니다. 이 작품은 2025년 3월부터 스포가 가능합니다. 원작 요약, 리액션 영상, 팬 편집 영상이 모든 트레일러 아래에 있고, 읽은 사람들은 경고 없이 댓글에 결말을 씁니다.</p><p>영화 자체의 정보는 {D0} 며칠 전 시사회와 언론 시사에서 나오고, \"원작 vs 영화\" 비교는 개봉 당일 밤에 올라옵니다. \"헝거게임\"만 뮤트하지 마세요. 이전 영화와 무해한 뉴스까지 사라집니다.</p>",
+   "unknown": "영화가 원작에서 무엇을 바꿀지는 예측할 수 없습니다.",
+   "demo": "선라이즈 온 더 리핑 결말 해석",
+   "cover_line": "결말",
+   "faq": [
+    [
+     "선라이즈 온 더 리핑은 언제 개봉하나요?",
+     "{D}부터 극장에서 볼 수 있습니다. 일부 국가는 며칠 늦습니다."
+    ],
+    [
+     "원작이 있나요?",
+     "네, 수잔 콜린스의 2025년 소설입니다. 그래서 주요 줄거리가 인터넷에서 널리 이야기되고 있습니다."
+    ],
+    [
+     "어떤 단어를 뮤트해야 하나요?",
+     "영화 제목에 결말, 스포일러, 누가 죽는지, 원작 vs 영화 같은 단어를 더하세요. \"헝거게임\"만 뮤트하면 이전 영화도 사라집니다."
+    ],
+    [
+     "YouTube에서 단어를 뮤트할 수 있나요?",
+     "아니요, YouTube에는 단어 필터가 없습니다. PC 브라우저에서는 확장 프로그램이 해당 영상과 댓글을 흐리게 할 수 있습니다."
+    ]
+   ]
+  },
+  "zh-CN": {
+   "name": "饥饿游戏：黎明收割",
+   "desc": "《饥饿游戏：黎明收割》{D}上映。原著小说 2025 年就已出版，剧情一搜便知。X、Threads 和 TikTok 上该屏蔽哪些词，以及任何过滤都挡不住的东西。",
+   "lead": "电影改编自 2025 年讲述第 50 届饥饿游戏的小说，剧情在网上已经流传一年多。该屏蔽什么、在哪里屏蔽，以及设置挡不住的东西。",
+   "why_h": "原著早已出版",
+   "why": "<p>大多数电影是在首映后被剧透。这部从 2025 年 3 月起就能被剧透：原著梗概、反应视频和粉丝剪辑挂在每个预告下面，读过书的人会不打招呼就在评论里写出结局。</p><p>电影本身的细节会在{D0}前几天从首映和媒体场流出，“原著对比电影”的解析在上映当晚就会出现。不要只屏蔽“饥饿游戏”：这会连旧电影和无害的新闻一起挡掉。</p>",
+   "unknown": "电影相对原著会做哪些改动，无法预测。",
+   "demo": "黎明收割 结局解析",
+   "cover_line": "结局",
+   "faq": [
+    [
+     "《黎明收割》什么时候上映？",
+     "{D}起在影院上映。部分国家会晚几天。"
+    ],
+    [
+     "电影是根据小说改编的吗？",
+     "是的，改编自苏珊·柯林斯 2025 年的小说，所以主线剧情在网上被广泛讨论。"
+    ],
+    [
+     "应该屏蔽哪些词？",
+     "电影片名，加上结局、剧透、谁死了、原著对比电影等词。只屏蔽“饥饿游戏”也会挡掉旧电影。"
+    ],
+    [
+     "YouTube 能屏蔽关键词吗？",
+     "不能，YouTube 没有关键词过滤。在电脑浏览器里，扩展可以模糊匹配的视频和评论。"
+    ]
+   ]
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.html",
+   "block/hunger-games-reaping.html",
+   "mute-list/hunger-games-reaping.html"
+  ],
+  "de": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-hunger-games-sunrise-on-the-reaping-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-hunger-games-sunrise-on-the-reaping-spoilers",
+  "kind": "film"
+ },
+ "changelog": []
+}

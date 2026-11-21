@@ -1,0 +1,307 @@
+{
+ "id": "kaiju-8",
+ "slug": "kaiju-no-8",
+ "media": "anime",
+ "url": "/anime/kaiju-no-8/",
+ "names": {
+  "en": "Kaiju No. 8",
+  "ru": "Кайдзю номер восемь",
+  "uk": "Кайдзю номер вісім",
+  "pl": "Kaiju No. 8",
+  "de": "Kaiju No. 8",
+  "fr": "Kaiju No. 8",
+  "es": "Kaiju No. 8",
+  "it": "Kaiju No. 8",
+  "pt-BR": "Kaiju No. 8",
+  "tr": "Kaiju No. 8",
+  "ja": "怪獣8号",
+  "ko": "괴수 8호",
+  "zh-CN": "怪兽8号"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "de": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "es": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "it": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "怪獣8号",
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "日比野カフカ",
+    "亜白ミナ",
+    "四ノ宮キコル",
+    "市川レノ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "괴수 8호",
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "히비노 카프카",
+    "아시로 미나",
+    "키코루",
+    "레노"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "кайдзю номер восемь",
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "кафка хибино",
+    "мина асиро",
+    "кикору",
+    "рено"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju no 8 season 2",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "kafka hibino",
+    "mina ashiro",
+    "kikoru",
+    "reno"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "кайдзю номер вісім",
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "кафка хібіно",
+    "міна асіро",
+    "кікору",
+    "рено"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "怪兽8号",
+    "kaiju no 8",
+    "kaiju no. 8",
+    "kaiju 8 manga"
+   ],
+   "balanced": [
+    "日比野卡夫卡",
+    "亚白米娜",
+    "四之宫琪歌露",
+    "市川雷诺"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Kaiju No. 8"
+  },
+  "ru": {
+   "name": "Кайдзю номер восемь"
+  },
+  "uk": {
+   "name": "Кайдзю номер вісім"
+  },
+  "pl": {
+   "name": "Kaiju No. 8"
+  },
+  "de": {
+   "name": "Kaiju No. 8"
+  },
+  "fr": {
+   "name": "Kaiju No. 8"
+  },
+  "es": {
+   "name": "Kaiju No. 8"
+  },
+  "it": {
+   "name": "Kaiju No. 8"
+  },
+  "pt-BR": {
+   "name": "Kaiju No. 8"
+  },
+  "tr": {
+   "name": "Kaiju No. 8"
+  },
+  "ja": {
+   "name": "怪獣8号"
+  },
+  "ko": {
+   "name": "괴수 8호"
+  },
+  "zh-CN": {
+   "name": "怪兽8号"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-kaiju-no-8-spoilers.html",
+   "block/kaiju-8.html",
+   "mute-list/kaiju-8.html"
+  ],
+  "de": [
+   "avoid-kaiju-no-8-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-kaiju-no-8-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-kaiju-no-8-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-kaiju-no-8-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-kaiju-no-8-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-kaiju-no-8-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-kaiju-no-8-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-kaiju-no-8-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-kaiju-no-8-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-kaiju-no-8-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-kaiju-no-8-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-kaiju-no-8-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-kaiju-no-8-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

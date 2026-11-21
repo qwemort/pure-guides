@@ -1,0 +1,307 @@
+{
+ "id": "solo-leveling",
+ "slug": "solo-leveling",
+ "media": "anime",
+ "url": "/anime/solo-leveling/",
+ "names": {
+  "en": "Solo Leveling",
+  "ru": "Поднятие уровня в одиночку",
+  "uk": "Підняття рівня наодинці",
+  "pl": "Solo Leveling",
+  "de": "Solo Leveling",
+  "fr": "Solo Leveling",
+  "es": "Solo Leveling",
+  "it": "Solo Leveling",
+  "pt-BR": "Solo Leveling",
+  "tr": "Solo Leveling",
+  "ja": "俺だけレベルアップな件",
+  "ko": "나 혼자만 레벨업",
+  "zh-CN": "我独自升级"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "de": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "es": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "it": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "俺だけレベルアップな件",
+    "solo leveling",
+    "solo leveling season 3",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "水篠旬",
+    "向坂雫",
+    "イグリット",
+    "ベル"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "나 혼자만 레벨업",
+    "solo leveling",
+    "solo leveling season 3",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "성진우",
+    "차해인",
+    "이그리트",
+    "베르"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "поднятие уровня в одиночку",
+    "solo leveling",
+    "solo leveling season 3",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "сон джин ву",
+    "ча хэ ин",
+    "игрис",
+    "беру"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "solo leveling",
+    "solo leveling season 3",
+    "solo leveling anime",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "sung jinwoo",
+    "cha hae-in",
+    "igris",
+    "beru"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "підняття рівня наодинці",
+    "solo leveling",
+    "solo leveling season 3",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "сон джин ву",
+    "ча хе ін",
+    "іґріс",
+    "беру"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "我独自升级",
+    "solo leveling",
+    "solo leveling season 3",
+    "ore dake level up na ken"
+   ],
+   "balanced": [
+    "程肖宇",
+    "车海印",
+    "伊格里斯",
+    "贝尔"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Solo Leveling"
+  },
+  "ru": {
+   "name": "Поднятие уровня в одиночку"
+  },
+  "uk": {
+   "name": "Підняття рівня наодинці"
+  },
+  "pl": {
+   "name": "Solo Leveling"
+  },
+  "de": {
+   "name": "Solo Leveling"
+  },
+  "fr": {
+   "name": "Solo Leveling"
+  },
+  "es": {
+   "name": "Solo Leveling"
+  },
+  "it": {
+   "name": "Solo Leveling"
+  },
+  "pt-BR": {
+   "name": "Solo Leveling"
+  },
+  "tr": {
+   "name": "Solo Leveling"
+  },
+  "ja": {
+   "name": "俺だけレベルアップな件"
+  },
+  "ko": {
+   "name": "나 혼자만 레벨업"
+  },
+  "zh-CN": {
+   "name": "我独自升级"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-solo-leveling-spoilers.html",
+   "block/solo-leveling.html",
+   "mute-list/solo-leveling.html"
+  ],
+  "de": [
+   "avoid-solo-leveling-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-solo-leveling-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-solo-leveling-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-solo-leveling-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-solo-leveling-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-solo-leveling-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-solo-leveling-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-solo-leveling-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-solo-leveling-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-solo-leveling-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-solo-leveling-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-solo-leveling-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-solo-leveling-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

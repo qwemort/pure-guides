@@ -1,0 +1,307 @@
+{
+ "id": "chainsaw-man",
+ "slug": "chainsaw-man",
+ "media": "anime",
+ "url": "/anime/chainsaw-man/",
+ "names": {
+  "en": "Chainsaw Man",
+  "ru": "Человек-бензопила",
+  "uk": "Людина-бензопила",
+  "pl": "Chainsaw Man",
+  "de": "Chainsaw Man",
+  "fr": "Chainsaw Man",
+  "es": "Chainsaw Man",
+  "it": "Chainsaw Man",
+  "pt-BR": "Chainsaw Man",
+  "tr": "Chainsaw Man",
+  "ja": "チェンソーマン",
+  "ko": "체인소 맨",
+  "zh-CN": "电锯人"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "de": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "es": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "it": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "チェンソーマン",
+    "chainsaw man",
+    "chainsaw man anime",
+    "csm"
+   ],
+   "balanced": [
+    "デンジ",
+    "マキマ",
+    "レゼ",
+    "パワー"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "체인소 맨",
+    "chainsaw man",
+    "chainsaw man anime",
+    "csm"
+   ],
+   "balanced": [
+    "덴지",
+    "마키마",
+    "레제",
+    "파워"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "человек-бензопила",
+    "chainsaw man",
+    "chainsaw man anime",
+    "csm"
+   ],
+   "balanced": [
+    "дэндзи",
+    "макима",
+    "резе",
+    "пауэр"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "chainsaw man",
+    "chainsaw man anime",
+    "chainsaw man reze",
+    "csm"
+   ],
+   "balanced": [
+    "denji",
+    "makima",
+    "reze",
+    "power"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "людина-бензопила",
+    "chainsaw man",
+    "chainsaw man anime",
+    "csm"
+   ],
+   "balanced": [
+    "денджі",
+    "макіма",
+    "резе",
+    "павер"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "电锯人",
+    "chainsaw man",
+    "chainsaw man anime",
+    "csm"
+   ],
+   "balanced": [
+    "电次",
+    "玛奇玛",
+    "蕾塞",
+    "帕瓦"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Chainsaw Man"
+  },
+  "ru": {
+   "name": "Человек-бензопила"
+  },
+  "uk": {
+   "name": "Людина-бензопила"
+  },
+  "pl": {
+   "name": "Chainsaw Man"
+  },
+  "de": {
+   "name": "Chainsaw Man"
+  },
+  "fr": {
+   "name": "Chainsaw Man"
+  },
+  "es": {
+   "name": "Chainsaw Man"
+  },
+  "it": {
+   "name": "Chainsaw Man"
+  },
+  "pt-BR": {
+   "name": "Chainsaw Man"
+  },
+  "tr": {
+   "name": "Chainsaw Man"
+  },
+  "ja": {
+   "name": "チェンソーマン"
+  },
+  "ko": {
+   "name": "체인소 맨"
+  },
+  "zh-CN": {
+   "name": "电锯人"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-chainsaw-man-spoilers.html",
+   "block/chainsaw-man.html",
+   "mute-list/chainsaw-man.html"
+  ],
+  "de": [
+   "avoid-chainsaw-man-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-chainsaw-man-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-chainsaw-man-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-chainsaw-man-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-chainsaw-man-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-chainsaw-man-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-chainsaw-man-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-chainsaw-man-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-chainsaw-man-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-chainsaw-man-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-chainsaw-man-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-chainsaw-man-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-chainsaw-man-spoilers",
+  "kind": "anime"
+ },
+ "changelog": []
+}

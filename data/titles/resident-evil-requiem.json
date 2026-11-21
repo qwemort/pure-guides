@@ -1,0 +1,307 @@
+{
+ "id": "re-requiem",
+ "slug": "resident-evil-requiem",
+ "media": "games",
+ "url": "/games/resident-evil-requiem/",
+ "names": {
+  "en": "Resident Evil Requiem",
+  "ru": "Resident Evil Requiem",
+  "uk": "Resident Evil Requiem",
+  "pl": "Resident Evil Requiem",
+  "de": "Resident Evil Requiem",
+  "fr": "Resident Evil Requiem",
+  "es": "Resident Evil Requiem",
+  "it": "Resident Evil Requiem",
+  "pt-BR": "Resident Evil Requiem",
+  "tr": "Resident Evil Requiem",
+  "ja": "バイオハザード レクイエム",
+  "ko": "바이오하자드 레퀴엠",
+  "zh-CN": "生化危机 安魂曲"
+ },
+ "release": {
+  "date": "2026-02-27",
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "de": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "es": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "it": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "バイオハザード レクイエム",
+    "バイオ9",
+    "resident evil requiem",
+    "re9"
+   ],
+   "balanced": [
+    "グレース・アッシュクロフト",
+    "レオン・ケネディ",
+    "ラクーンシティ",
+    "アンブレラ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "바이오하자드 레퀴엠",
+    "바하 9",
+    "resident evil requiem",
+    "re9"
+   ],
+   "balanced": [
+    "그레이스 애시크로프트",
+    "레온 케네디",
+    "라쿤 시티",
+    "엄브렐라"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "resident evil requiem",
+    "резидент ивел реквием",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "грейс эшкрофт",
+    "леон кеннеди",
+    "раккун-сити",
+    "амбрелла"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "resident evil requiem",
+    "re requiem",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "grace ashcroft",
+    "leon kennedy",
+    "raccoon city",
+    "umbrella"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "resident evil requiem",
+    "резидент івел реквієм",
+    "resident evil 9",
+    "re9"
+   ],
+   "balanced": [
+    "ґрейс ешкрофт",
+    "леон кеннеді",
+    "раккун-сіті",
+    "амбрела"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "生化危机 安魂曲",
+    "生化危机9",
+    "resident evil requiem",
+    "re9"
+   ],
+   "balanced": [
+    "格蕾丝·阿什克罗夫特",
+    "里昂·肯尼迪",
+    "浣熊市",
+    "保护伞公司"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Resident Evil Requiem"
+  },
+  "ru": {
+   "name": "Resident Evil Requiem"
+  },
+  "uk": {
+   "name": "Resident Evil Requiem"
+  },
+  "pl": {
+   "name": "Resident Evil Requiem"
+  },
+  "de": {
+   "name": "Resident Evil Requiem"
+  },
+  "fr": {
+   "name": "Resident Evil Requiem"
+  },
+  "es": {
+   "name": "Resident Evil Requiem"
+  },
+  "it": {
+   "name": "Resident Evil Requiem"
+  },
+  "pt-BR": {
+   "name": "Resident Evil Requiem"
+  },
+  "tr": {
+   "name": "Resident Evil Requiem"
+  },
+  "ja": {
+   "name": "バイオハザード レクイエム"
+  },
+  "ko": {
+   "name": "바이오하자드 레퀴엠"
+  },
+  "zh-CN": {
+   "name": "生化危机 安魂曲"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-resident-evil-requiem-spoilers.html",
+   "block/re-requiem.html",
+   "mute-list/re-requiem.html"
+  ],
+  "de": [
+   "avoid-resident-evil-requiem-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-resident-evil-requiem-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-resident-evil-requiem-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-resident-evil-requiem-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-resident-evil-requiem-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-resident-evil-requiem-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-resident-evil-requiem-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-resident-evil-requiem-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-resident-evil-requiem-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-resident-evil-requiem-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-resident-evil-requiem-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-resident-evil-requiem-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-resident-evil-requiem-spoilers",
+  "kind": "game"
+ },
+ "changelog": []
+}

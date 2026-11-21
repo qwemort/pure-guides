@@ -1,0 +1,307 @@
+{
+ "id": "last-of-us",
+ "slug": "the-last-of-us",
+ "media": "tv",
+ "url": "/tv/the-last-of-us/",
+ "names": {
+  "en": "The Last of Us",
+  "ru": "Одни из нас",
+  "uk": "Одні з нас",
+  "pl": "The Last of Us",
+  "de": "The Last of Us",
+  "fr": "The Last of Us",
+  "es": "The Last of Us",
+  "it": "The Last of Us",
+  "pt-BR": "The Last of Us",
+  "tr": "The Last of Us",
+  "ja": "THE LAST OF US",
+  "ko": "더 라스트 오브 어스",
+  "zh-CN": "最后生还者"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "de": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "es": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "it": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "エリー",
+    "ジョエル",
+    "アビー",
+    "セラファイト"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "더 라스트 오브 어스",
+    "the last of us",
+    "last of us season 3",
+    "tlou"
+   ],
+   "balanced": [
+    "엘리",
+    "조엘",
+    "애비",
+    "세라파이트"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "одни из нас",
+    "the last of us",
+    "last of us season 3",
+    "tlou"
+   ],
+   "balanced": [
+    "элли",
+    "джоэл",
+    "эбби",
+    "серафиты"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "the last of us",
+    "last of us season 3",
+    "the last of us hbo",
+    "tlou"
+   ],
+   "balanced": [
+    "ellie",
+    "joel",
+    "abby",
+    "seraphites"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "одні з нас",
+    "the last of us",
+    "last of us season 3",
+    "tlou"
+   ],
+   "balanced": [
+    "еллі",
+    "джоел",
+    "еббі",
+    "серафіти"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "最后生还者",
+    "the last of us",
+    "last of us season 3",
+    "tlou"
+   ],
+   "balanced": [
+    "艾莉",
+    "乔尔",
+    "艾比",
+    "六芒星教"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "The Last of Us"
+  },
+  "ru": {
+   "name": "Одни из нас"
+  },
+  "uk": {
+   "name": "Одні з нас"
+  },
+  "pl": {
+   "name": "The Last of Us"
+  },
+  "de": {
+   "name": "The Last of Us"
+  },
+  "fr": {
+   "name": "The Last of Us"
+  },
+  "es": {
+   "name": "The Last of Us"
+  },
+  "it": {
+   "name": "The Last of Us"
+  },
+  "pt-BR": {
+   "name": "The Last of Us"
+  },
+  "tr": {
+   "name": "The Last of Us"
+  },
+  "ja": {
+   "name": "THE LAST OF US"
+  },
+  "ko": {
+   "name": "더 라스트 오브 어스"
+  },
+  "zh-CN": {
+   "name": "最后生还者"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-the-last-of-us-spoilers.html",
+   "block/last-of-us.html",
+   "mute-list/last-of-us.html"
+  ],
+  "de": [
+   "avoid-the-last-of-us-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-the-last-of-us-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-the-last-of-us-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-the-last-of-us-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-the-last-of-us-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-the-last-of-us-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-the-last-of-us-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-the-last-of-us-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-the-last-of-us-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-the-last-of-us-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-the-last-of-us-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-the-last-of-us-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-the-last-of-us-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}

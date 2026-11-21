@@ -1,0 +1,307 @@
+{
+ "id": "black-doves",
+ "slug": "black-doves",
+ "media": "tv",
+ "url": "/tv/black-doves/",
+ "names": {
+  "en": "Black Doves",
+  "ru": "Чёрные голуби",
+  "uk": "Чорні голуби",
+  "pl": "Czarne gołębie",
+  "de": "Black Doves",
+  "fr": "Black Doves",
+  "es": "Black Doves",
+  "it": "Black Doves",
+  "pt-BR": "Black Doves",
+  "tr": "Black Doves",
+  "ja": "ブラック・ダヴス",
+  "ko": "블랙 도브스",
+  "zh-CN": "黑鸽"
+ },
+ "release": {
+  "date": null,
+  "status": "unverified",
+  "source": null,
+  "platforms": null
+ },
+ "season": null,
+ "wikidata": null,
+ "checked": null,
+ "published": "2026-11-19",
+ "modified": "2026-11-19",
+ "words": {
+  "en": {
+   "basic": [
+    "black doves",
+    "black doves season 2",
+    "black doves netflix",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "de": {
+   "basic": [
+    "black doves",
+    "black doves season 2",
+    "black doves netflix",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "es": {
+   "basic": [
+    "black doves",
+    "black doves season 2",
+    "black doves netflix",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "fr": {
+   "basic": [
+    "black doves",
+    "black doves season 2",
+    "black doves netflix",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "it": {
+   "basic": [
+    "black doves",
+    "black doves season 2",
+    "black doves netflix",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "ja": {
+   "basic": [
+    "ブラック・ダヴス",
+    "black doves",
+    "black doves season 2",
+    "black doves finale"
+   ],
+   "balanced": [
+    "ヘレン・ウェッブ",
+    "サム・ヤング",
+    "リード",
+    "ウォレス・ウェッブ"
+   ]
+  },
+  "ko": {
+   "basic": [
+    "블랙 도브스",
+    "black doves",
+    "black doves season 2",
+    "black doves finale"
+   ],
+   "balanced": [
+    "헬렌 웹",
+    "샘 영",
+    "리드",
+    "월리스 웹"
+   ]
+  },
+  "pl": {
+   "basic": [
+    "czarne gołębie",
+    "black doves",
+    "black doves season 2",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "pt-BR": {
+   "basic": [
+    "black doves",
+    "black doves season 2",
+    "black doves netflix",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "ru": {
+   "basic": [
+    "чёрные голуби",
+    "black doves",
+    "black doves season 2",
+    "black doves finale"
+   ],
+   "balanced": [
+    "хелен уэбб",
+    "сэм янг",
+    "рид",
+    "уоллес уэбб"
+   ]
+  },
+  "tr": {
+   "basic": [
+    "black doves",
+    "black doves season 2",
+    "black doves netflix",
+    "black doves finale"
+   ],
+   "balanced": [
+    "helen webb",
+    "sam young",
+    "reed",
+    "wallace webb"
+   ]
+  },
+  "uk": {
+   "basic": [
+    "чорні голуби",
+    "black doves",
+    "black doves season 2",
+    "black doves finale"
+   ],
+   "balanced": [
+    "гелен вебб",
+    "сем янг",
+    "рід",
+    "воллес вебб"
+   ]
+  },
+  "zh-CN": {
+   "basic": [
+    "黑鸽",
+    "black doves",
+    "black doves season 2",
+    "black doves finale"
+   ],
+   "balanced": [
+    "海伦·韦伯",
+    "萨姆·扬",
+    "里德",
+    "华莱士·韦伯"
+   ]
+  }
+ },
+ "spoiler_blocklist": [],
+ "spoiler_safe_verified": false,
+ "texts": {
+  "en": {
+   "name": "Black Doves"
+  },
+  "ru": {
+   "name": "Чёрные голуби"
+  },
+  "uk": {
+   "name": "Чорні голуби"
+  },
+  "pl": {
+   "name": "Czarne gołębie"
+  },
+  "de": {
+   "name": "Black Doves"
+  },
+  "fr": {
+   "name": "Black Doves"
+  },
+  "es": {
+   "name": "Black Doves"
+  },
+  "it": {
+   "name": "Black Doves"
+  },
+  "pt-BR": {
+   "name": "Black Doves"
+  },
+  "tr": {
+   "name": "Black Doves"
+  },
+  "ja": {
+   "name": "ブラック・ダヴス"
+  },
+  "ko": {
+   "name": "블랙 도브스"
+  },
+  "zh-CN": {
+   "name": "黑鸽"
+  }
+ },
+ "old_urls": {
+  "en": [
+   "avoid-black-doves-spoilers.html",
+   "block/black-doves.html",
+   "mute-list/black-doves.html"
+  ],
+  "de": [
+   "avoid-black-doves-spoilers.de.html"
+  ],
+  "es": [
+   "avoid-black-doves-spoilers.es.html"
+  ],
+  "fr": [
+   "avoid-black-doves-spoilers.fr.html"
+  ],
+  "it": [
+   "avoid-black-doves-spoilers.it.html"
+  ],
+  "ja": [
+   "avoid-black-doves-spoilers.ja.html"
+  ],
+  "ko": [
+   "avoid-black-doves-spoilers.ko.html"
+  ],
+  "pl": [
+   "avoid-black-doves-spoilers.pl.html"
+  ],
+  "pt-BR": [
+   "avoid-black-doves-spoilers.pt-br.html"
+  ],
+  "ru": [
+   "avoid-black-doves-spoilers.ru.html"
+  ],
+  "tr": [
+   "avoid-black-doves-spoilers.tr.html"
+  ],
+  "uk": [
+   "avoid-black-doves-spoilers.uk.html"
+  ],
+  "zh-CN": [
+   "avoid-black-doves-spoilers.zh-cn.html"
+  ]
+ },
+ "legacy": {
+  "page": "avoid-black-doves-spoilers",
+  "kind": "show"
+ },
+ "changelog": []
+}
