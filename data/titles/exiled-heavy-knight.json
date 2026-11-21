@@ -40,7 +40,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -54,7 +53,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -68,7 +66,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -82,7 +79,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -96,7 +92,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -110,7 +105,6 @@
    ],
    "balanced": [
     "エルマ・エドヴァン",
-    "ルーチェ",
     "マリス",
     "エドヴァン"
    ]
@@ -124,7 +118,6 @@
    ],
    "balanced": [
     "엘마 에드반",
-    "루체",
     "마리스",
     "에드반"
    ]
@@ -138,7 +131,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -152,7 +144,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -166,7 +157,6 @@
    ],
    "balanced": [
     "эльма эдван",
-    "люс",
     "марис",
     "эдван"
    ]
@@ -180,7 +170,6 @@
    ],
    "balanced": [
     "elma edvan",
-    "luce",
     "maris",
     "edvan"
    ]
@@ -194,7 +183,6 @@
    ],
    "balanced": [
     "ельма едван",
-    "люс",
     "маріс",
     "едван"
    ]
@@ -208,14 +196,13 @@
    ],
    "balanced": [
     "艾尔玛·埃德万",
-    "露切",
     "玛莉丝",
     "埃德万"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "The Exiled Heavy Knight Knows How to Game the System",

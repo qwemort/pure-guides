@@ -41,8 +41,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "de": {
@@ -55,8 +54,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "es": {
@@ -69,8 +67,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "fr": {
@@ -83,8 +80,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "it": {
@@ -97,8 +93,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "ja": {
@@ -111,8 +106,7 @@
    "balanced": [
     "デンジ",
     "マキマ",
-    "レゼ",
-    "パワー"
+    "レゼ"
    ]
   },
   "ko": {
@@ -125,8 +119,7 @@
    "balanced": [
     "덴지",
     "마키마",
-    "레제",
-    "파워"
+    "레제"
    ]
   },
   "pl": {
@@ -139,8 +132,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "pt-BR": {
@@ -153,8 +145,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "ru": {
@@ -167,8 +158,7 @@
    "balanced": [
     "дэндзи",
     "макима",
-    "резе",
-    "пауэр"
+    "резе"
    ]
   },
   "tr": {
@@ -181,8 +171,7 @@
    "balanced": [
     "denji",
     "makima",
-    "reze",
-    "power"
+    "reze"
    ]
   },
   "uk": {
@@ -195,8 +184,7 @@
    "balanced": [
     "денджі",
     "макіма",
-    "резе",
-    "павер"
+    "резе"
    ]
   },
   "zh-CN": {
@@ -209,13 +197,12 @@
    "balanced": [
     "电次",
     "玛奇玛",
-    "蕾塞",
-    "帕瓦"
+    "蕾塞"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Chainsaw Man",

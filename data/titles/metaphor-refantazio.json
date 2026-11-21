@@ -40,7 +40,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -54,7 +53,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -68,7 +66,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -82,7 +79,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -96,7 +92,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -110,7 +105,6 @@
    ],
    "balanced": [
     "ルイ・グイアベルン",
-    "ヒルケ",
     "ストロール",
     "グリウス"
    ]
@@ -124,7 +118,6 @@
    ],
    "balanced": [
     "루이 기아베른",
-    "휼켄베르크",
     "스트롤",
     "그리우스"
    ]
@@ -138,7 +131,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -152,7 +144,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -166,7 +157,6 @@
    ],
    "balanced": [
     "луи гиаберн",
-    "хюлкенберг",
     "штрол",
     "гриус"
    ]
@@ -180,7 +170,6 @@
    ],
    "balanced": [
     "louis guiabern",
-    "hulkenberg",
     "strohl",
     "grius"
    ]
@@ -194,7 +183,6 @@
    ],
    "balanced": [
     "луї гіаберн",
-    "гюлкенберг",
     "штрол",
     "гріус"
    ]
@@ -208,14 +196,13 @@
    ],
    "balanced": [
     "路易·吉亚贝伦",
-    "赫尔肯伯格",
     "斯特罗尔",
     "格里乌斯"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Metaphor: ReFantazio",

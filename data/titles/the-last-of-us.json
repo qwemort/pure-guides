@@ -41,8 +41,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "de": {
@@ -55,8 +55,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "es": {
@@ -69,8 +69,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "fr": {
@@ -83,8 +83,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "it": {
@@ -97,8 +97,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "ja": {
@@ -111,7 +111,6 @@
    "balanced": [
     "エリー",
     "ジョエル",
-    "アビー",
     "セラファイト"
    ]
   },
@@ -125,7 +124,6 @@
    "balanced": [
     "엘리",
     "조엘",
-    "애비",
     "세라파이트"
    ]
   },
@@ -139,8 +137,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "pt-BR": {
@@ -153,8 +151,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "ru": {
@@ -167,7 +165,6 @@
    "balanced": [
     "элли",
     "джоэл",
-    "эбби",
     "серафиты"
    ]
   },
@@ -181,8 +178,8 @@
    "balanced": [
     "ellie",
     "joel",
-    "abby",
-    "seraphites"
+    "seraphites",
+    "abby anderson"
    ]
   },
   "uk": {
@@ -195,7 +192,6 @@
    "balanced": [
     "еллі",
     "джоел",
-    "еббі",
     "серафіти"
    ]
   },
@@ -209,13 +205,12 @@
    "balanced": [
     "艾莉",
     "乔尔",
-    "艾比",
     "六芒星教"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "The Last of Us",

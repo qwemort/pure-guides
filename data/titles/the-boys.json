@@ -40,9 +40,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "de": {
@@ -54,9 +54,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "es": {
@@ -68,9 +68,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "fr": {
@@ -82,9 +82,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "it": {
@@ -96,9 +96,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "ja": {
@@ -110,7 +110,6 @@
    ],
    "balanced": [
     "ホームランダー",
-    "ブッチャー",
     "ヒューイ",
     "ソルジャー・ボーイ"
    ]
@@ -124,7 +123,6 @@
    ],
    "balanced": [
     "홈랜더",
-    "부처",
     "휴이",
     "솔저 보이"
    ]
@@ -138,9 +136,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "pt-BR": {
@@ -152,9 +150,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "ru": {
@@ -166,7 +164,6 @@
    ],
    "balanced": [
     "хоумлендер",
-    "бучер",
     "хьюи",
     "солдатик"
    ]
@@ -180,9 +177,9 @@
    ],
    "balanced": [
     "homelander",
-    "butcher",
     "hughie",
-    "soldier boy"
+    "soldier boy",
+    "billy butcher"
    ]
   },
   "uk": {
@@ -194,7 +191,6 @@
    ],
    "balanced": [
     "хоумлендер",
-    "бучер",
     "г'юї",
     "солдат"
    ]
@@ -208,14 +204,13 @@
    ],
    "balanced": [
     "祖国人",
-    "屠夫",
     "休伊",
     "士兵男孩"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "The Boys",

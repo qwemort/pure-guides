@@ -39,10 +39,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "de": {
@@ -53,10 +51,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "es": {
@@ -67,10 +63,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "fr": {
@@ -81,10 +75,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "it": {
@@ -95,10 +87,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "ja": {
@@ -109,10 +99,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "グリード",
     "シン・ヨンウ",
-    "パグマ",
-    "アイリーン"
+    "パグマ"
    ]
   },
   "ko": {
@@ -123,10 +111,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "그리드",
     "신영우",
-    "파그마",
-    "아이린"
+    "파그마"
    ]
   },
   "pl": {
@@ -137,10 +123,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "pt-BR": {
@@ -151,10 +135,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "ru": {
@@ -165,10 +147,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "грид",
     "син ёну",
-    "пагма",
-    "ирэн"
+    "пагма"
    ]
   },
   "tr": {
@@ -179,10 +159,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "grid",
     "shin youngwoo",
-    "pagma",
-    "irene"
+    "pagma"
    ]
   },
   "uk": {
@@ -193,10 +171,8 @@
     "grid overgeared"
    ],
    "balanced": [
-    "ґрід",
     "шін йону",
-    "паґма",
-    "ірен"
+    "паґма"
    ]
   },
   "zh-CN": {
@@ -207,15 +183,13 @@
     "grid overgeared"
    ],
    "balanced": [
-    "格里德",
     "申英宇",
-    "帕格玛",
-    "艾琳"
+    "帕格玛"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Overgeared",

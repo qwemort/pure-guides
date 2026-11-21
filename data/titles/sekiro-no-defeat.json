@@ -40,9 +40,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "de": {
@@ -54,9 +52,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "es": {
@@ -68,9 +64,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "fr": {
@@ -82,9 +76,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "it": {
@@ -96,9 +88,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "ja": {
@@ -110,9 +100,7 @@
    ],
    "balanced": [
     "弦一郎",
-    "一心",
-    "梟",
-    "九郎"
+    "一心"
    ]
   },
   "ko": {
@@ -124,9 +112,7 @@
    ],
    "balanced": [
     "겐이치로",
-    "잇신",
-    "올빼미",
-    "쿠로"
+    "잇신"
    ]
   },
   "pl": {
@@ -138,9 +124,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "pt-BR": {
@@ -152,9 +136,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "ru": {
@@ -166,9 +148,7 @@
    ],
    "balanced": [
     "гэнитиро",
-    "иссин",
-    "филин",
-    "куро"
+    "иссин"
    ]
   },
   "tr": {
@@ -180,9 +160,7 @@
    ],
    "balanced": [
     "genichiro",
-    "isshin",
-    "owl",
-    "kuro"
+    "isshin"
    ]
   },
   "uk": {
@@ -194,9 +172,7 @@
    ],
    "balanced": [
     "ґенічіро",
-    "іссін",
-    "пугач",
-    "куро"
+    "іссін"
    ]
   },
   "zh-CN": {
@@ -208,14 +184,12 @@
    ],
    "balanced": [
     "弦一郎",
-    "一心",
-    "枭",
-    "九郎"
+    "一心"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Sekiro: No Defeat",

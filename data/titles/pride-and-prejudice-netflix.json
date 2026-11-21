@@ -40,8 +40,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "de": {
@@ -54,8 +53,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "es": {
@@ -68,8 +66,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "fr": {
@@ -82,8 +79,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "it": {
@@ -96,8 +92,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "ja": {
@@ -110,8 +105,7 @@
    "balanced": [
     "ダーシー",
     "エリザベス・ベネット",
-    "ウィッカム",
-    "リディア"
+    "ウィッカム"
    ]
   },
   "ko": {
@@ -124,8 +118,7 @@
    "balanced": [
     "다아시",
     "엘리자베스 베넷",
-    "위컴",
-    "리디아"
+    "위컴"
    ]
   },
   "pl": {
@@ -138,8 +131,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "pt-BR": {
@@ -152,8 +144,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "ru": {
@@ -166,8 +157,7 @@
    "balanced": [
     "дарси",
     "элизабет беннет",
-    "уикхем",
-    "лидия"
+    "уикхем"
    ]
   },
   "tr": {
@@ -180,8 +170,7 @@
    "balanced": [
     "netflix darcy",
     "elizabeth bennet",
-    "wickham",
-    "lydia"
+    "wickham"
    ]
   },
   "uk": {
@@ -194,8 +183,7 @@
    "balanced": [
     "дарсі",
     "елізабет беннет",
-    "вікгем",
-    "лідія"
+    "вікгем"
    ]
   },
   "zh-CN": {
@@ -208,13 +196,12 @@
    "balanced": [
     "达西",
     "伊丽莎白·班内特",
-    "威克姆",
-    "莉迪亚"
+    "威克姆"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Pride and Prejudice (Netflix)",

@@ -41,8 +41,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "de": {
@@ -55,8 +54,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "es": {
@@ -69,8 +67,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "fr": {
@@ -83,8 +80,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "it": {
@@ -97,8 +93,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "ja": {
@@ -111,8 +106,7 @@
    "balanced": [
     "桐ヶ谷紗都子",
     "後藤進平",
-    "小川健太郎",
-    "桐ヶ谷"
+    "小川健太郎"
    ]
   },
   "ko": {
@@ -125,8 +119,7 @@
    "balanced": [
     "키리가야 사토코",
     "고토 신페이",
-    "오가와 켄타로",
-    "키리가야"
+    "오가와 켄타로"
    ]
   },
   "pl": {
@@ -139,8 +132,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "pt-BR": {
@@ -153,8 +145,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "ru": {
@@ -167,8 +158,7 @@
    "balanced": [
     "сатоко киригая",
     "симпэй гото",
-    "кэнтаро огава",
-    "киригая"
+    "кэнтаро огава"
    ]
   },
   "tr": {
@@ -181,8 +171,7 @@
    "balanced": [
     "satoko kirigaya",
     "shinpei goto",
-    "kentaro ogawa",
-    "kirigaya"
+    "kentaro ogawa"
    ]
   },
   "uk": {
@@ -195,8 +184,7 @@
    "balanced": [
     "сатоко кіріґая",
     "шімпей ґото",
-    "кентаро оґава",
-    "кіріґая"
+    "кентаро оґава"
    ]
   },
   "zh-CN": {
@@ -209,13 +197,12 @@
    "balanced": [
     "桐谷纱都子",
     "后藤进平",
-    "小川健太郎",
-    "桐谷"
+    "小川健太郎"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Firefly Wedding",

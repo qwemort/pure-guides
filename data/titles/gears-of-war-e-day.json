@@ -41,7 +41,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -55,7 +54,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -69,7 +67,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -83,7 +80,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -97,7 +93,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -111,7 +106,6 @@
    "balanced": [
     "マーカス・フェニックス",
     "ドム・サンチャゴ",
-    "ローカスト",
     "エマージェンス・デイ"
    ]
   },
@@ -125,7 +119,6 @@
    "balanced": [
     "마커스 피닉스",
     "돔 산티아고",
-    "로커스트",
     "이머전스 데이"
    ]
   },
@@ -139,7 +132,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -153,7 +145,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -167,7 +158,6 @@
    "balanced": [
     "маркус феникс",
     "дом сантьяго",
-    "саранча",
     "день появления"
    ]
   },
@@ -181,7 +171,6 @@
    "balanced": [
     "marcus fenix",
     "dom santiago",
-    "locust",
     "emergence day"
    ]
   },
@@ -195,7 +184,6 @@
    "balanced": [
     "маркус фенікс",
     "дом сантьяго",
-    "сарана",
     "день появи"
    ]
   },
@@ -209,13 +197,12 @@
    "balanced": [
     "马库斯·菲尼克斯",
     "多姆·桑蒂亚哥",
-    "兽族",
     "出现日"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Gears of War: E-Day",

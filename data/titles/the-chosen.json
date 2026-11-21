@@ -39,10 +39,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "de": {
@@ -53,10 +50,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "es": {
@@ -67,10 +61,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "fr": {
@@ -81,10 +72,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "it": {
@@ -95,10 +83,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "ja": {
@@ -109,10 +94,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "ジョナサン・ルーミー",
-    "ユダ",
-    "シモン・ペトロ",
-    "マグダラのマリア"
+    "ジョナサン・ルーミー"
    ]
   },
   "ko": {
@@ -123,10 +105,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "조너선 루미",
-    "유다",
-    "시몬 베드로",
-    "막달라 마리아"
+    "조너선 루미"
    ]
   },
   "pl": {
@@ -137,10 +116,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "pt-BR": {
@@ -151,10 +127,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "ru": {
@@ -165,10 +138,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "джонатан руми",
-    "иуда",
-    "симон пётр",
-    "мария магдалина"
+    "джонатан руми"
    ]
   },
   "tr": {
@@ -179,10 +149,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "jonathan roumie",
-    "judas",
-    "simon peter",
-    "mary magdalene"
+    "jonathan roumie"
    ]
   },
   "uk": {
@@ -193,10 +160,7 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "джонатан румі",
-    "юда",
-    "симон петро",
-    "марія магдалина"
+    "джонатан румі"
    ]
   },
   "zh-CN": {
@@ -207,15 +171,12 @@
     "the chosen last supper"
    ],
    "balanced": [
-    "乔纳森·鲁米",
-    "犹大",
-    "西门彼得",
-    "抹大拉的马利亚"
+    "乔纳森·鲁米"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "The Chosen",

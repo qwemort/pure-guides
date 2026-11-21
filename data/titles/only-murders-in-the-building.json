@@ -39,10 +39,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "de": {
@@ -53,10 +53,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "es": {
@@ -67,10 +67,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "fr": {
@@ -81,10 +81,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "it": {
@@ -95,10 +95,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "ja": {
@@ -108,12 +108,7 @@
     "only murders",
     "only murders season 6"
    ],
-   "balanced": [
-    "チャールズ",
-    "オリバー",
-    "メイベル",
-    "ロレッタ"
-   ]
+   "balanced": []
   },
   "ko": {
    "basic": [
@@ -122,12 +117,7 @@
     "only murders",
     "only murders season 6"
    ],
-   "balanced": [
-    "찰스",
-    "올리버",
-    "메이블",
-    "로레타"
-   ]
+   "balanced": []
   },
   "pl": {
    "basic": [
@@ -137,10 +127,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "pt-BR": {
@@ -151,10 +141,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "ru": {
@@ -164,12 +154,7 @@
     "only murders",
     "only murders season 6"
    ],
-   "balanced": [
-    "чарльз",
-    "оливер",
-    "мэйбл",
-    "лоретта"
-   ]
+   "balanced": []
   },
   "tr": {
    "basic": [
@@ -179,10 +164,10 @@
     "only murders season 6"
    ],
    "balanced": [
-    "charles",
-    "oliver",
-    "mabel",
-    "loretta"
+    "charles-haden savage",
+    "oliver putnam",
+    "mabel mora",
+    "loretta durkin"
    ]
   },
   "uk": {
@@ -192,12 +177,7 @@
     "only murders",
     "only murders season 6"
    ],
-   "balanced": [
-    "чарльз",
-    "олівер",
-    "мейбл",
-    "лоретта"
-   ]
+   "balanced": []
   },
   "zh-CN": {
    "basic": [
@@ -206,16 +186,11 @@
     "only murders",
     "only murders season 6"
    ],
-   "balanced": [
-    "查尔斯",
-    "奥利弗",
-    "梅布尔",
-    "洛蕾塔"
-   ]
+   "balanced": []
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Only Murders in the Building",

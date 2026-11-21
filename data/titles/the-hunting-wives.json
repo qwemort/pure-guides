@@ -39,10 +39,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "de": {
@@ -53,10 +52,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "es": {
@@ -67,10 +65,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "fr": {
@@ -81,10 +78,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "it": {
@@ -95,10 +91,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "ja": {
@@ -108,12 +103,7 @@
     "hunting wives",
     "hunting wives netflix"
    ],
-   "balanced": [
-    "ソフィー",
-    "マーゴ",
-    "ジェド",
-    "ワンダ"
-   ]
+   "balanced": []
   },
   "ko": {
    "basic": [
@@ -122,12 +112,7 @@
     "hunting wives",
     "hunting wives netflix"
    ],
-   "balanced": [
-    "소피",
-    "마고",
-    "제드",
-    "완다"
-   ]
+   "balanced": []
   },
   "pl": {
    "basic": [
@@ -137,10 +122,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "pt-BR": {
@@ -151,10 +135,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "ru": {
@@ -164,12 +147,7 @@
     "hunting wives",
     "hunting wives netflix"
    ],
-   "balanced": [
-    "софи",
-    "марго",
-    "джед",
-    "ванда"
-   ]
+   "balanced": []
   },
   "tr": {
    "basic": [
@@ -179,10 +157,9 @@
     "hunting wives netflix"
    ],
    "balanced": [
-    "sophie",
-    "margo",
-    "jed",
-    "wanda"
+    "sophie o'neil",
+    "margo banks",
+    "jed banks"
    ]
   },
   "uk": {
@@ -192,12 +169,7 @@
     "hunting wives",
     "hunting wives netflix"
    ],
-   "balanced": [
-    "софі",
-    "марго",
-    "джед",
-    "ванда"
-   ]
+   "balanced": []
   },
   "zh-CN": {
    "basic": [
@@ -206,16 +178,11 @@
     "hunting wives",
     "hunting wives netflix"
    ],
-   "balanced": [
-    "索菲",
-    "玛戈",
-    "杰德",
-    "旺达"
-   ]
+   "balanced": []
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "The Hunting Wives",

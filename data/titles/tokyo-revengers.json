@@ -40,9 +40,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "de": {
@@ -54,9 +53,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "es": {
@@ -68,9 +66,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "fr": {
@@ -82,9 +79,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "it": {
@@ -96,9 +92,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "ja": {
@@ -110,9 +105,7 @@
    ],
    "balanced": [
     "武道",
-    "マイキー",
-    "ドラケン",
-    "日向"
+    "ドラケン"
    ]
   },
   "ko": {
@@ -124,9 +117,7 @@
    ],
    "balanced": [
     "타케미치",
-    "마이키",
-    "드라켄",
-    "히나타"
+    "드라켄"
    ]
   },
   "pl": {
@@ -138,9 +129,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "pt-BR": {
@@ -152,9 +142,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "ru": {
@@ -166,9 +155,7 @@
    ],
    "balanced": [
     "такемичи",
-    "майки",
-    "дракен",
-    "хината"
+    "дракен"
    ]
   },
   "tr": {
@@ -180,9 +167,8 @@
    ],
    "balanced": [
     "takemichi",
-    "mikey",
     "draken",
-    "hinata"
+    "manjiro sano"
    ]
   },
   "uk": {
@@ -194,9 +180,7 @@
    ],
    "balanced": [
     "такемічі",
-    "майкі",
-    "дракен",
-    "хіната"
+    "дракен"
    ]
   },
   "zh-CN": {
@@ -208,14 +192,12 @@
    ],
    "balanced": [
     "武道",
-    "万次郎",
-    "龙宫寺坚",
-    "日向"
+    "龙宫寺坚"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Tokyo Revengers",

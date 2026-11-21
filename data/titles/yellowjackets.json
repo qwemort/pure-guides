@@ -39,10 +39,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "de": {
@@ -53,10 +53,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "es": {
@@ -67,10 +67,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "fr": {
@@ -81,10 +81,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "it": {
@@ -95,10 +95,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "ja": {
@@ -108,12 +108,7 @@
     "yellowjackets season 4",
     "yellowjackets showtime"
    ],
-   "balanced": [
-    "ショーナ",
-    "ミスティ",
-    "ロッティ",
-    "ナタリー"
-   ]
+   "balanced": []
   },
   "ko": {
    "basic": [
@@ -122,12 +117,7 @@
     "yellowjackets season 4",
     "yellowjackets showtime"
    ],
-   "balanced": [
-    "쇼나",
-    "미스티",
-    "로티",
-    "나탈리"
-   ]
+   "balanced": []
   },
   "pl": {
    "basic": [
@@ -137,10 +127,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "pt-BR": {
@@ -151,10 +141,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "ru": {
@@ -164,12 +154,7 @@
     "yellowjackets season 4",
     "yellowjackets showtime"
    ],
-   "balanced": [
-    "шона",
-    "мисти",
-    "лотти",
-    "натали"
-   ]
+   "balanced": []
   },
   "tr": {
    "basic": [
@@ -179,10 +164,10 @@
     "yellowjackets showtime"
    ],
    "balanced": [
-    "shauna",
-    "misty",
-    "lottie",
-    "natalie"
+    "shauna shipman",
+    "misty quigley",
+    "lottie matthews",
+    "natalie scatorccio"
    ]
   },
   "uk": {
@@ -192,12 +177,7 @@
     "yellowjackets season 4",
     "yellowjackets showtime"
    ],
-   "balanced": [
-    "шона",
-    "місті",
-    "лотті",
-    "наталі"
-   ]
+   "balanced": []
   },
   "zh-CN": {
    "basic": [
@@ -206,16 +186,11 @@
     "yellowjackets season 4",
     "yellowjackets showtime"
    ],
-   "balanced": [
-    "肖娜",
-    "米斯蒂",
-    "洛蒂",
-    "娜塔莉"
-   ]
+   "balanced": []
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Yellowjackets",

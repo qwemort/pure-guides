@@ -41,7 +41,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -55,7 +54,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -69,7 +67,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -83,7 +80,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -97,7 +93,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -111,7 +106,6 @@
    "balanced": [
     "レイニラ",
     "エイモンド",
-    "デイモン",
     "アリセント"
    ]
   },
@@ -125,7 +119,6 @@
    "balanced": [
     "라에니라",
     "에이몬드",
-    "데이먼",
     "알리센트"
    ]
   },
@@ -139,7 +132,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -153,7 +145,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -167,7 +158,6 @@
    "balanced": [
     "рейнира",
     "эймонд",
-    "деймон",
     "алисента"
    ]
   },
@@ -181,7 +171,6 @@
    "balanced": [
     "rhaenyra",
     "aemond",
-    "daemon",
     "alicent"
    ]
   },
@@ -195,7 +184,6 @@
    "balanced": [
     "рейніра",
     "еймонд",
-    "деймон",
     "алісента"
    ]
   },
@@ -209,13 +197,12 @@
    "balanced": [
     "雷妮拉",
     "伊蒙德",
-    "戴蒙",
     "阿莉森特"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "House of the Dragon",

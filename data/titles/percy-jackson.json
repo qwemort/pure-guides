@@ -40,9 +40,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "de": {
@@ -54,9 +53,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "es": {
@@ -68,9 +66,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "fr": {
@@ -82,9 +79,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "it": {
@@ -96,9 +92,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "ja": {
@@ -110,9 +105,7 @@
    ],
    "balanced": [
     "アナベス",
-    "グローバー",
-    "ルーク・カステラン",
-    "タレイア"
+    "ルーク・カステラン"
    ]
   },
   "ko": {
@@ -124,9 +117,7 @@
    ],
    "balanced": [
     "애나베스",
-    "그로버",
-    "루크 카스텔란",
-    "탈리아"
+    "루크 카스텔란"
    ]
   },
   "pl": {
@@ -138,9 +129,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "pt-BR": {
@@ -152,9 +142,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "ru": {
@@ -166,9 +155,7 @@
    ],
    "balanced": [
     "аннабет",
-    "гровер",
-    "люк кастеллан",
-    "талия"
+    "люк кастеллан"
    ]
   },
   "tr": {
@@ -180,9 +167,8 @@
    ],
    "balanced": [
     "annabeth",
-    "grover",
     "luke castellan",
-    "thalia"
+    "grover underwood"
    ]
   },
   "uk": {
@@ -194,9 +180,7 @@
    ],
    "balanced": [
     "аннабет",
-    "ґровер",
-    "люк кастеллан",
-    "талія"
+    "люк кастеллан"
    ]
   },
   "zh-CN": {
@@ -208,14 +192,12 @@
    ],
    "balanced": [
     "安娜贝丝",
-    "格洛弗",
-    "卢克·卡斯特兰",
-    "塔莉亚"
+    "卢克·卡斯特兰"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Percy Jackson and the Olympians",

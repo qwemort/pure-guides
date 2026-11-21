@@ -39,10 +39,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "de": {
@@ -53,10 +52,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "es": {
@@ -67,10 +65,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "fr": {
@@ -81,10 +78,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "it": {
@@ -95,10 +91,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "ja": {
@@ -108,12 +103,7 @@
     "xenoblade 3",
     "future redeemed"
    ],
-   "balanced": [
-    "ノア",
-    "ミオ",
-    "メビウス",
-    "オリジン"
-   ]
+   "balanced": []
   },
   "ko": {
    "basic": [
@@ -122,12 +112,7 @@
     "xenoblade 3",
     "future redeemed"
    ],
-   "balanced": [
-    "노아",
-    "미오",
-    "뫼비우스",
-    "오리진"
-   ]
+   "balanced": []
   },
   "pl": {
    "basic": [
@@ -137,10 +122,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "pt-BR": {
@@ -151,10 +135,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "ru": {
@@ -164,12 +147,7 @@
     "xenoblade 3",
     "future redeemed"
    ],
-   "balanced": [
-    "ноа",
-    "мио",
-    "мёбиус",
-    "ориджин"
-   ]
+   "balanced": []
   },
   "tr": {
    "basic": [
@@ -179,10 +157,9 @@
     "future redeemed"
    ],
    "balanced": [
-    "noah",
-    "mio",
-    "moebius",
-    "origin"
+    "aionios",
+    "keves",
+    "agnus"
    ]
   },
   "uk": {
@@ -192,12 +169,7 @@
     "xenoblade 3",
     "future redeemed"
    ],
-   "balanced": [
-    "ноа",
-    "міо",
-    "мебіус",
-    "оріджин"
-   ]
+   "balanced": []
   },
   "zh-CN": {
    "basic": [
@@ -206,16 +178,11 @@
     "xenoblade 3",
     "future redeemed"
    ],
-   "balanced": [
-    "诺亚",
-    "弥央",
-    "莫比乌斯",
-    "起源"
-   ]
+   "balanced": []
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Xenoblade Chronicles 3",

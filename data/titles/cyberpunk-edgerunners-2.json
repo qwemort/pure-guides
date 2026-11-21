@@ -39,9 +39,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "de": {
@@ -53,9 +51,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "es": {
@@ -67,9 +63,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "fr": {
@@ -81,9 +75,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "it": {
@@ -95,9 +87,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "ja": {
@@ -109,9 +99,7 @@
    ],
    "balanced": [
     "ナイトシティ",
-    "アラサカ",
-    "フィクサー",
-    "ネットランナー"
+    "アラサカ"
    ]
   },
   "ko": {
@@ -123,9 +111,7 @@
    ],
    "balanced": [
     "나이트 시티",
-    "아라사카",
-    "픽서",
-    "넷러너"
+    "아라사카"
    ]
   },
   "pl": {
@@ -137,9 +123,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "pt-BR": {
@@ -151,9 +135,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "ru": {
@@ -165,9 +147,7 @@
    ],
    "balanced": [
     "найт-сити",
-    "арасака",
-    "фиксер",
-    "нетраннер"
+    "арасака"
    ]
   },
   "tr": {
@@ -179,9 +159,7 @@
    ],
    "balanced": [
     "night city",
-    "arasaka",
-    "fixer",
-    "netrunner"
+    "arasaka"
    ]
   },
   "uk": {
@@ -193,9 +171,7 @@
    ],
    "balanced": [
     "найт-сіті",
-    "арасака",
-    "фіксер",
-    "нетраннер"
+    "арасака"
    ]
   },
   "zh-CN": {
@@ -207,14 +183,12 @@
    ],
    "balanced": [
     "夜之城",
-    "荒坂",
-    "中间人",
-    "网络行者"
+    "荒坂"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Cyberpunk: Edgerunners 2",

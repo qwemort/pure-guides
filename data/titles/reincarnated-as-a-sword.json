@@ -39,10 +39,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "de": {
@@ -53,10 +50,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "es": {
@@ -67,10 +61,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "fr": {
@@ -81,10 +72,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "it": {
@@ -95,10 +83,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "ja": {
@@ -109,10 +94,7 @@
     "tenken"
    ],
    "balanced": [
-    "フラン",
-    "師匠",
-    "黒猫族",
-    "アマンダ"
+    "黒猫族"
    ]
   },
   "ko": {
@@ -123,10 +105,7 @@
     "tenken"
    ],
    "balanced": [
-    "프란",
-    "스승",
-    "흑묘족",
-    "아만다"
+    "흑묘족"
    ]
   },
   "pl": {
@@ -137,10 +116,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "pt-BR": {
@@ -151,10 +127,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "ru": {
@@ -165,10 +138,7 @@
     "tenken"
    ],
    "balanced": [
-    "фран",
-    "учитель",
-    "чёрные кошки",
-    "аманда"
+    "чёрные кошки"
    ]
   },
   "tr": {
@@ -179,10 +149,7 @@
     "tenken"
    ],
    "balanced": [
-    "fran",
-    "teacher",
-    "black cat tribe",
-    "amanda"
+    "black cat tribe"
    ]
   },
   "uk": {
@@ -193,10 +160,7 @@
     "tenken"
    ],
    "balanced": [
-    "фран",
-    "учитель",
-    "чорні коти",
-    "аманда"
+    "чорні коти"
    ]
   },
   "zh-CN": {
@@ -207,15 +171,12 @@
     "tenken"
    ],
    "balanced": [
-    "芙兰",
-    "师父",
-    "黑猫族",
-    "阿曼达"
+    "黑猫族"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Reincarnated as a Sword",

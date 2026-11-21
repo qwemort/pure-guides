@@ -40,8 +40,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -54,8 +52,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -68,8 +64,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -82,8 +76,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -96,8 +88,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -110,8 +100,6 @@
    ],
    "balanced": [
     "ヒンメル",
-    "フェルン",
-    "シュタルク",
     "ハイター"
    ]
   },
@@ -124,8 +112,6 @@
    ],
    "balanced": [
     "힘멜",
-    "페른",
-    "슈타르크",
     "하이터"
    ]
   },
@@ -138,8 +124,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -152,8 +136,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -166,8 +148,6 @@
    ],
    "balanced": [
     "химмель",
-    "ферн",
-    "штарк",
     "хайтер"
    ]
   },
@@ -180,8 +160,6 @@
    ],
    "balanced": [
     "himmel",
-    "fern",
-    "stark",
     "heiter"
    ]
   },
@@ -194,8 +172,6 @@
    ],
    "balanced": [
     "гіммель",
-    "ферн",
-    "штарк",
     "гайтер"
    ]
   },
@@ -208,14 +184,12 @@
    ],
    "balanced": [
     "辛美尔",
-    "菲伦",
-    "修塔尔克",
     "海塔"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Frieren",

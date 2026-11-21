@@ -41,8 +41,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "de": {
@@ -55,8 +54,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "es": {
@@ -69,8 +67,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "fr": {
@@ -83,8 +80,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "it": {
@@ -97,8 +93,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "ja": {
@@ -111,8 +106,7 @@
    "balanced": [
     "グレース・アッシュクロフト",
     "レオン・ケネディ",
-    "ラクーンシティ",
-    "アンブレラ"
+    "ラクーンシティ"
    ]
   },
   "ko": {
@@ -125,8 +119,7 @@
    "balanced": [
     "그레이스 애시크로프트",
     "레온 케네디",
-    "라쿤 시티",
-    "엄브렐라"
+    "라쿤 시티"
    ]
   },
   "pl": {
@@ -139,8 +132,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "pt-BR": {
@@ -153,8 +145,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "ru": {
@@ -167,8 +158,7 @@
    "balanced": [
     "грейс эшкрофт",
     "леон кеннеди",
-    "раккун-сити",
-    "амбрелла"
+    "раккун-сити"
    ]
   },
   "tr": {
@@ -181,8 +171,7 @@
    "balanced": [
     "grace ashcroft",
     "leon kennedy",
-    "raccoon city",
-    "umbrella"
+    "raccoon city"
    ]
   },
   "uk": {
@@ -195,8 +184,7 @@
    "balanced": [
     "ґрейс ешкрофт",
     "леон кеннеді",
-    "раккун-сіті",
-    "амбрела"
+    "раккун-сіті"
    ]
   },
   "zh-CN": {
@@ -209,13 +197,12 @@
    "balanced": [
     "格蕾丝·阿什克罗夫特",
     "里昂·肯尼迪",
-    "浣熊市",
-    "保护伞公司"
+    "浣熊市"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Resident Evil Requiem",

@@ -41,7 +41,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -55,7 +54,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -69,7 +67,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -83,7 +80,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -97,7 +93,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -111,7 +106,6 @@
    "balanced": [
     "篤",
     "羊蹄六人衆",
-    "斎藤",
     "蝦夷"
    ]
   },
@@ -125,7 +119,6 @@
    "balanced": [
     "아츠",
     "요테이 6인",
-    "사이토",
     "에조"
    ]
   },
@@ -139,7 +132,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -153,7 +145,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -167,7 +158,6 @@
    "balanced": [
     "ацу",
     "шестёрка ётэя",
-    "сайто",
     "эдзо"
    ]
   },
@@ -181,7 +171,6 @@
    "balanced": [
     "atsu",
     "yotei six",
-    "saito",
     "ezo"
    ]
   },
@@ -195,7 +184,6 @@
    "balanced": [
     "ацу",
     "шістка йотея",
-    "сайто",
     "едзо"
    ]
   },
@@ -209,13 +197,12 @@
    "balanced": [
     "笃",
     "羊蹄六人众",
-    "斋藤",
     "虾夷"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Ghost of Yōtei",

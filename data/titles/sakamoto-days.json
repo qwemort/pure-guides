@@ -40,8 +40,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -54,8 +52,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -68,8 +64,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -82,8 +76,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -96,8 +88,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -110,8 +100,6 @@
    ],
    "balanced": [
     "坂本太郎",
-    "シン",
-    "ルー",
     "南雲"
    ]
   },
@@ -124,8 +112,6 @@
    ],
    "balanced": [
     "사카모토 타로",
-    "신",
-    "루",
     "나구모"
    ]
   },
@@ -138,8 +124,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -152,8 +136,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -166,8 +148,6 @@
    ],
    "balanced": [
     "таро сакамото",
-    "синь",
-    "лу",
     "нагумо"
    ]
   },
@@ -180,8 +160,6 @@
    ],
    "balanced": [
     "taro sakamoto",
-    "shin",
-    "lu",
     "nagumo"
    ]
   },
@@ -194,8 +172,6 @@
    ],
    "balanced": [
     "таро сакамото",
-    "шін",
-    "лу",
     "наґумо"
    ]
   },
@@ -208,14 +184,12 @@
    ],
    "balanced": [
     "坂本太郎",
-    "朝仓信",
-    "陆少糖",
     "南云"
    ]
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Sakamoto Days",
