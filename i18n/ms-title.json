@@ -25,7 +25,8 @@
    "t_date": "When",
    "t_status": "Status",
    "ev_first": "First screening worldwide",
-   "ev_us": "Release in the US"
+   "ev_us": "Release in the US",
+   "more": "More titles"
   },
   "ru": {
    "bluf_soon": "Выход {date}. Спойлеры обычно начинаются на несколько дней раньше, примерно {from}. Фильтры держать: {keep}.",
@@ -51,7 +52,8 @@
    "t_date": "Когда",
    "t_status": "Статус",
    "ev_first": "Первый показ в мире",
-   "ev_us": "Выход в США"
+   "ev_us": "Выход в США",
+   "more": "Ещё тайтлы"
   },
   "uk": {
    "bluf_soon": "Вихід {date}. Спойлери зазвичай з'являються на кілька днів раніше, приблизно {from}. Фільтри тримати: {keep}.",
@@ -77,7 +79,8 @@
    "t_date": "Коли",
    "t_status": "Статус",
    "ev_first": "Перший показ у світі",
-   "ev_us": "Вихід у США"
+   "ev_us": "Вихід у США",
+   "more": "Ще тайтли"
   },
   "pl": {
    "bluf_soon": "Premiera {date}. Spoilery zwykle pojawiają się kilka dni wcześniej, około {from}. Filtry trzymaj: {keep}.",
@@ -103,7 +106,8 @@
    "t_date": "Kiedy",
    "t_status": "Status",
    "ev_first": "Pierwszy pokaz na świecie",
-   "ev_us": "Premiera w USA"
+   "ev_us": "Premiera w USA",
+   "more": "Więcej tytułów"
   },
   "pt-BR": {
    "bluf_soon": "Lançamento em {date}. Os spoilers costumam aparecer alguns dias antes, por volta de {from}. Mantenha os filtros: {keep}.",
@@ -129,7 +133,8 @@
    "t_date": "Quando",
    "t_status": "Status",
    "ev_first": "Primeira exibição no mundo",
-   "ev_us": "Lançamento nos EUA"
+   "ev_us": "Lançamento nos EUA",
+   "more": "Mais títulos"
   },
   "fr": {
    "bluf_soon": "Sortie le {date}. Les spoilers arrivent souvent quelques jours avant, vers le {from}. Gardez les filtres : {keep}.",
@@ -155,7 +160,8 @@
    "t_date": "Quand",
    "t_status": "Statut",
    "ev_first": "Première projection au monde",
-   "ev_us": "Sortie aux États-Unis"
+   "ev_us": "Sortie aux États-Unis",
+   "more": "Autres titres"
   },
   "it": {
    "bluf_soon": "Esce il {date}. Gli spoiler di solito arrivano qualche giorno prima, verso il {from}. Tieni i filtri: {keep}.",
@@ -181,7 +187,8 @@
    "t_date": "Quando",
    "t_status": "Stato",
    "ev_first": "Prima proiezione al mondo",
-   "ev_us": "Uscita negli USA"
+   "ev_us": "Uscita negli USA",
+   "more": "Altri titoli"
   },
   "es": {
    "bluf_soon": "Sale el {date}. Los spoilers suelen llegar unos días antes, hacia el {from}. Mantén los filtros: {keep}.",
@@ -207,7 +214,8 @@
    "t_date": "Cuándo",
    "t_status": "Estado",
    "ev_first": "Primer estreno en el mundo",
-   "ev_us": "Estreno en EE. UU."
+   "ev_us": "Estreno en EE. UU.",
+   "more": "Más títulos"
   },
   "de": {
    "bluf_soon": "Erscheint am {date}. Spoiler tauchen meist ein paar Tage früher auf, etwa ab {from}. Filter an lassen: {keep}.",
@@ -233,7 +241,8 @@
    "t_date": "Wann",
    "t_status": "Status",
    "ev_first": "Erste Vorführung weltweit",
-   "ev_us": "Start in den USA"
+   "ev_us": "Start in den USA",
+   "more": "Weitere Titel"
   },
   "tr": {
    "bluf_soon": "Çıkış {date}. Spoilerlar genelde birkaç gün önce, {from} civarında başlar. Filtreleri açık tut: {keep}.",
@@ -259,7 +268,8 @@
    "t_date": "Ne zaman",
    "t_status": "Durum",
    "ev_first": "Dünyada ilk gösterim",
-   "ev_us": "ABD'de çıkış"
+   "ev_us": "ABD'de çıkış",
+   "more": "Diğer yapımlar"
   },
   "ja": {
    "bluf_soon": "発売日は{date}。ネタバレはたいてい数日前、{from}ごろから出回ります。フィルターの目安：{keep}。",
@@ -285,7 +295,8 @@
    "t_date": "日付",
    "t_status": "状態",
    "ev_first": "世界初上映",
-   "ev_us": "米国での公開"
+   "ev_us": "米国での公開",
+   "more": "ほかの作品"
   }
  }
 }

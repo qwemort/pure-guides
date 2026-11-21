@@ -143,27 +143,20 @@ def render_main(t, lang, S, titles, path_of_title, today=None):
     kicker = u.get('kicker', S['kicker_film']).format(date=full.upper()).rstrip(' ·')
     cover_tag = u.get('cover_tag', S['cover_tag_film']).format(date=full.upper()).rstrip(' ·')
 
-    main = f'''
-<div class="t-head">
- <div>
+    main = f'''<div class="ms-grid">
+<div class="ms-col">
+ <div class="ms-top">
   <p class="t-kicker">{esc(kicker)}</p>
   <h1>{h1_html}</h1>
   <p class="t-lead ms-bluf">{u["lead"]} {esc(bluf_tail)}</p>
   <p class="ms-checked muted">{checked}{src}</p>
-  {where}
  </div>
- <aside class="t-side">
-  <div class="cv cv-{t["legacy"].get("kind", "film")}" aria-hidden="true"><div class="cv-tag"><i></i>{esc(cover_tag)}</div><div class="cv-h">{cover}</div><div class="cv-line">{esc(u["cover_line"])} <span class="cv-bar">{esc(S["click"])}</span></div></div>
-  <div class="t-date" id="release-timeline">{table}{bar}</div>
- </aside>
-</div>
-<div class="t-body">
- <nav class="t-toc" aria-label="{esc(S["on_this_page"].capitalize())}"><p>{esc(S["on_this_page"])}</p><a href="#where">{esc(S["nav_where"])}</a><a href="#mute-words">{esc(S["nav_words"])}</a><a href="#why">{esc(S["nav_why"])}</a>{sec_nav}<a href="#miss">{esc(S["nav_miss"])}</a>{f'<a href="#faq">{esc(S["nav_faq"])}</a>' if faq else ''}</nav>
- <div class="t-main">
-  <section id="mute-words"><h2>{esc(S["words_h"])}</h2><p>{S["words_intro"]}</p>
-   {words}
-   <button type="button" class="ms-share" data-ok="{esc(S["copied"])}">{esc(M["share"])}</button>
-  </section>
+ {where}
+ <section id="mute-words" class="ms-words"><h2>{esc(S["words_h"])}</h2><p>{S["words_intro"]}</p>
+  {words}
+  <button type="button" class="ms-share" data-ok="{esc(S["copied"])}">{esc(M["share"])}</button>
+ </section>
+ <div class="ms-read">
   <section id="why"><h2>{esc(u["why_h"])}</h2>{tok(u["why"])}</section>
   {sec_html}
   <section id="miss"><h2>{esc(S["miss_h"])}</h2>
@@ -174,14 +167,17 @@ def render_main(t, lang, S, titles, path_of_title, today=None):
    </div></section>
   {f'<section id="faq"><h2>{esc(S["faq_h"])}</h2><div class="t-faq">{faq_html}</div></section>' if faq else ''}
  </div>
- <aside class="t-rail">
-  <div class="t-ext"><h3>{esc(S["ext_h"])}</h3>
-   <div class="t-demo">{esc(u["demo"])}<span class="veil">{S["ext_veil"].format(name=esc(name))}</span></div>
-   <p>{S["ext_p"].format(name=esc(name))}</p>
-   <a class="cta" href="{CH}{t["slug"]}">{esc(S["cta"])}</a>
-   <small>{S["ext_small"].replace("<a>", f'<a href="{FF}{t["slug"]}">')}</small></div>
-  <div class="t-rel"><p class="t-kicker">{esc(S["also_h"])}</p>{rel_html}</div>
- </aside>
+</div>
+<aside class="ms-rail">
+ <div class="cv cv-{t["legacy"].get("kind", "film")} ms-cv" aria-hidden="true"><div class="cv-tag"><i></i>{esc(cover_tag)}</div><div class="cv-h">{cover}</div><div class="cv-line">{esc(u["cover_line"])} <span class="cv-bar">{esc(S["click"])}</span></div></div>
+ <div class="t-date ms-dates-card" id="release-timeline">{table}{bar}</div>
+ <div class="t-ext ms-ext"><h3>{esc(S["ext_h"])}</h3>
+  <div class="t-demo">{esc(u["demo"])}<span class="veil">{S["ext_veil"].format(name=esc(name))}</span></div>
+  <p>{S["ext_p"].format(name=esc(name))}</p>
+  <a class="cta" href="{CH}{t["slug"]}">{esc(S["cta"])}</a>
+  <small>{S["ext_small"].replace("<a>", f'<a href="{FF}{t["slug"]}">')}</small></div>
+ <nav class="t-rel ms-rel" aria-label="{esc(M["more"])}"><p class="t-kicker">{esc(M["more"])}</p>{rel_html}</nav>
+</aside>
 </div>'''
     # JSON-LD @graph: крошки + произведение (sameAs Wikidata) + страница. FAQPage только если вопросы свои у тайтла.
     return main, dict(h1=h1, desc=tok(u['desc']), title=u.get('title', h1), faq=faq if 'faq' in t['texts'][lang] else [],

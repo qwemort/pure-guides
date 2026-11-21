@@ -38,9 +38,34 @@
   .t-rail .cta,.t-rail small{display:none}
 }
 @media (min-width:821px){.ms-mail{display:none}}
-main.ms-title{max-width:1180px}
-.ms-title .ms-crumbs{padding:0 0 16px}
-.t-head .ms-where{margin-top:32px}
-.t-head .ms-where h2{font-size:24px;margin:0 0 4px}
-@media (max-width:820px){.t-head,.t-body{grid-template-columns:minmax(0,1fr)}.t-side .cv{display:none}.t-head .ms-where{margin-top:24px}}
+/* Раскладка страницы тайтла: одна колонка чтения + липкая правая колонка (даты, расширение, похожие).
+   Справа нет пустоты при прокрутке, слева нет отдельного оглавления. */
+main.ms-title{max-width:1320px;padding:24px 32px 64px}
+.ms-title .ms-crumbs{padding:0 0 12px;max-width:none}
+.ms-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:48px;align-items:start}
+.ms-col{display:grid;gap:40px;min-width:0}
+.ms-top h1{margin:0 0 16px;font:700 48px/1.06 Archivo,"Arial Narrow",sans-serif;max-width:20ch}
+.ms-top .t-lead{max-width:62ch}
+.ms-where h2,.ms-words h2,.ms-read h2{margin:0 0 4px}
+.ms-read{display:grid;gap:32px;max-width:70ch}
+.ms-read section{margin:0}
+.ms-rail{position:sticky;top:16px;display:grid;gap:16px}
+.ms-rail .cv{min-height:0;height:auto;aspect-ratio:auto;padding:16px 20px}
+.ms-rail .cv .cv-h{font-size:28px;margin-top:24px}
+.ms-rel a{display:block}
+@media (max-width:980px){.ms-grid{grid-template-columns:minmax(0,1fr) 300px;gap:32px}}
+/* телефон: одна колонка, порядок по делу: сводка, соцсети, даты, слова, текст, расширение, похожие */
+@media (max-width:820px){
+  main.ms-title{padding:16px 16px 48px}
+  .ms-grid,.ms-col,.ms-rail{display:contents}
+  .ms-grid{display:flex;flex-direction:column;gap:32px}
+  .ms-top{order:1}.ms-where{order:2}.ms-dates-card{order:3}.ms-words{order:4}.ms-read{order:5}.ms-ext{order:6}.ms-rel{order:7}
+  .ms-cv{display:none}
+  .ms-col>*,.ms-rail>*{min-width:0;max-width:100%}
+  .ms-top h1{font-size:34px}
+  .ms-ext .cta,.ms-ext small{display:none}
+}
+.ms-dates th[scope=row]{width:38%}
 .ms-tabs [role=tab]:focus-visible,.ms-reset:focus-visible,.ms-share:focus-visible,.ms-mail:focus-visible{outline:3px solid var(--text);outline-offset:3px}
+.top .wrap,.foot .wrap{max-width:1320px;padding-left:32px;padding-right:32px}
+@media (max-width:820px){.top .wrap,.foot .wrap{padding-left:16px;padding-right:16px}}
