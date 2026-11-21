@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 DIR = os.path.join(ROOT, 'news')
-DAYS = 5  # чуть больше 4 дней, чтобы между прогонами ничего не потерялось
+DAYS = 8  # раз в неделю, с запасом на сдвиг запуска
 FEEDS = {
     'PC Gamer': 'https://www.pcgamer.com/rss/',
     'GameSpot': 'https://www.gamespot.com/feeds/news/',
