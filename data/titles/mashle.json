@@ -29,7 +29,7 @@
  "wikidata": "Q96106641",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Mashle"
+   "name": "Mashle",
+   "desc": "The Mashle manga ended in 2023, so the final fight is already known. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Hajime Komoto's manga finished in 2023, so readers know how Mash's fight with the strongest wizard ends.",
+   "why_h": "The final fight is old news",
+   "why": "<p>Mashle is a comedy, and its biggest moments live on as memes, including from the final arc the anime has not reached yet. Jokes often carry the spoiler.</p><p>Mute the title with Mash, Innocent Zero and words like manga, ending and final arc.</p>"
   },
   "ru": {
-   "name": "Магия и мускулы"
+   "name": "Магия и мускулы",
+   "desc": "Манга «Магия и мускулы» закончилась в 2023 году, так что финальная битва уже известна. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Хадзимэ Комото закончилась в 2023 году, и читатели знают, чем кончится битва Маша с сильнейшим магом.",
+   "why_h": "Финальная битва давно не новость",
+   "why": "<p>Это комедия, и её главные моменты живут как мемы, в том числе из финальной арки, до которой аниме ещё не дошло. Спойлер часто сидит прямо в шутке.</p><p>Мьють название вместе с «Маш», «Невинный Ноль» и словами «манга», «концовка» и «финальная арка».</p>"
   },
   "uk": {
    "name": "Магія і м'язи"
   },
   "pl": {
-   "name": "Mashle"
+   "name": "Mashle",
+   "desc": "Manga Mashle skończyła się w 2023 roku, więc ostatnia walka jest znana. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Hajime Komoto skończyła się w 2023 roku, więc czytelnicy wiedzą, jak kończy się walka Masha z najsilniejszym magiem.",
+   "why_h": "Ostatnia walka to stare wieści",
+   "why": "<p>Mashle to komedia, a jej najmocniejsze momenty żyją jako memy, także z ostatniego arcu, do którego anime jeszcze nie doszło. Spoiler często siedzi w żarcie.</p><p>Wycisz tytuł razem z Mash, Innocent Zero i słowami manga, zakończenie i ostatni arc.</p>"
   },
   "de": {
    "name": "Mashle"
@@ -242,7 +254,11 @@
    "name": "Mashle"
   },
   "pt-BR": {
-   "name": "Mashle"
+   "name": "Mashle",
+   "desc": "O mangá de Mashle terminou em 2023, então a luta final já é conhecida. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Hajime Komoto terminou em 2023, então os leitores sabem como termina a luta de Mash com o mago mais forte.",
+   "why_h": "A luta final é notícia velha",
+   "why": "<p>Mashle é comédia, e os maiores momentos vivem como meme, inclusive do arco final que o anime ainda não alcançou. O spoiler muitas vezes vem dentro da piada.</p><p>Silencie o título com Mash, Innocent Zero e palavras como mangá, final e arco final.</p>"
   },
   "tr": {
    "name": "Mashle"
@@ -304,5 +320,10 @@
   "page": "avoid-mashle-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

@@ -29,7 +29,7 @@
  "wikidata": "Q106447820",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Blue Box"
+   "name": "Blue Box",
+   "desc": "Blue Box is a weekly Shonen Jump romance, and who ends up with whom is the spoiler. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Kouji Miura's manga runs weekly in Shonen Jump, ahead of the anime, and the romance is the whole story.",
+   "why_h": "In a romance, one panel is enough",
+   "why": "<p>The biggest spoilers here are not fights but confessions and couples. A single shared panel or ship edit can tell you how the story goes.</p><p>Mute the title with the main characters' names and words like confession, chapter and manga.</p>"
   },
   "ru": {
-   "name": "Синяя коробка"
+   "name": "Синяя коробка",
+   "desc": "«Синяя коробка» — еженедельная романтическая манга в Shonen Jump, и спойлер здесь то, кто с кем будет. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Кодзи Миуры выходит каждую неделю в Shonen Jump, впереди аниме, и вся история держится на романтике.",
+   "why_h": "В романтике хватает одной страницы",
+   "why": "<p>Главные спойлеры тут не битвы, а признания и пары. Одна выложенная страница или эдит с парой расскажут, чем всё идёт.</p><p>Мьють название вместе с именами главных героев и словами «признание», «глава» и «манга».</p>"
   },
   "uk": {
    "name": "Синя коробка"
   },
   "pl": {
-   "name": "Blue Box"
+   "name": "Blue Box",
+   "desc": "Blue Box to cotygodniowy romans w Shonen Jump, a spoilerem jest to, kto będzie z kim. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Koujiego Miury wychodzi co tydzień w Shonen Jump, przed anime, a cała historia to romans.",
+   "why_h": "W romansie wystarczy jedna strona",
+   "why": "<p>Największe spoilery to tu nie walki, tylko wyznania i pary. Jedna udostępniona strona albo edit z parą powie, w którą stronę idzie historia.</p><p>Wycisz tytuł razem z imionami głównych bohaterów i słowami wyznanie, rozdział i manga.</p>"
   },
   "de": {
    "name": "Blue Box"
@@ -242,7 +254,11 @@
    "name": "Blue Box"
   },
   "pt-BR": {
-   "name": "Blue Box"
+   "name": "Blue Box",
+   "desc": "Blue Box é um romance semanal da Shonen Jump, e o spoiler é quem fica com quem. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Kouji Miura sai toda semana na Shonen Jump, à frente do anime, e o romance é a história inteira.",
+   "why_h": "Num romance, uma página basta",
+   "why": "<p>Os maiores spoilers aqui não são lutas, e sim declarações e casais. Uma página compartilhada ou um edit de casal já mostra para onde a história vai.</p><p>Silencie o título com os nomes dos protagonistas e palavras como declaração, capítulo e mangá.</p>"
   },
   "tr": {
    "name": "Blue Box"
@@ -304,5 +320,10 @@
   "page": "avoid-blue-box-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

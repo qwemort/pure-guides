@@ -31,7 +31,7 @@
  "wikidata": "Q113244935",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -220,16 +220,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Spider-Man: Brand New Day"
+   "name": "Spider-Man: Brand New Day",
+   "desc": "Spider-Man: Brand New Day came out on {D}. Cameos and post-credit scenes are the spoilers, and streaming brings a second wave. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "With Marvel and Sony films the biggest spoilers are who shows up, and those leak from the first screenings on.",
+   "why_h": "Cameos travel faster than reviews",
+   "why": "<p>The film came out in cinemas on {D}, and cameo and post-credit reveals hit X and TikTok on opening night. Leaked set photos and toy listings can spoil them even earlier.</p><p>When it arrives on digital and streaming, there is a second wave of clips and \"ending explained\" videos. Mute the title with Spider-Man 4, Brand New Day and words like cameo, post credits and ending.</p>"
   },
   "ru": {
-   "name": "Человек-паук: Совершенно новый день"
+   "name": "Человек-паук: Совершенно новый день",
+   "desc": "«Человек-паук: Совершенно новый день» вышел {D}. Спойлеры — камео и сцены после титров, а стриминг принесёт вторую волну. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "В фильмах Marvel и Sony главные спойлеры — кто появится, и они сливаются с первых показов.",
+   "why_h": "Камео летят быстрее рецензий",
+   "why": "<p>Фильм вышел в кино {D}, и раскрытия камео и сцен после титров попали в X и TikTok в ночь премьеры. Слитые фото со съёмок и карточки игрушек могут заспойлерить их ещё раньше.</p><p>Когда фильм выйдет в цифре и на стриминге, придёт вторая волна клипов и роликов «концовка объяснена». Мьють название вместе с «Человек-паук 4», Brand New Day и словами «камео», «после титров» и «концовка».</p>"
   },
   "uk": {
    "name": "Людина-павук: Новий день"
   },
   "pl": {
-   "name": "Spider-Man: Brand New Day"
+   "name": "Spider-Man: Brand New Day",
+   "desc": "Spider-Man: Brand New Day wyszedł {D}. Spoilery to cameo i sceny po napisach, a streaming przyniesie drugą falę. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "W filmach Marvela i Sony największe spoilery to, kto się pojawi, a te wyciekają od pierwszych pokazów.",
+   "why_h": "Cameo lecą szybciej niż recenzje",
+   "why": "<p>Film wszedł do kin {D}, a odkrycia cameo i scen po napisach trafiły na X i TikToka w noc premiery. Wycieki zdjęć z planu i oferty zabawek potrafią zaspoilerować je jeszcze wcześniej.</p><p>Gdy film trafi do sklepów cyfrowych i streamingu, przyjdzie druga fala klipów i filmików „zakończenie wyjaśnione”. Wycisz tytuł razem z Spider-Man 4, Brand New Day i słowami cameo, po napisach i zakończenie.</p>"
   },
   "de": {
    "name": "Spider-Man: Brand New Day"
@@ -244,7 +256,11 @@
    "name": "Spider-Man: Brand New Day"
   },
   "pt-BR": {
-   "name": "Spider-Man: Brand New Day"
+   "name": "Spider-Man: Brand New Day",
+   "desc": "Homem-Aranha: Um Novo Dia saiu em {D}. Os spoilers são participações e cenas pós-créditos, e o streaming traz uma segunda onda. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "Nos filmes da Marvel e da Sony os maiores spoilers são quem aparece, e isso vaza desde as primeiras sessões.",
+   "why_h": "Participações correm mais que as críticas",
+   "why": "<p>O filme chegou aos cinemas em {D}, e as participações e cenas pós-créditos foram parar no X e no TikTok na noite de estreia. Fotos vazadas de gravação e anúncios de brinquedos podem estragar até antes.</p><p>Quando chegar ao digital e ao streaming, vem uma segunda onda de clipes e vídeos de \"final explicado\". Silencie o título com Homem-Aranha 4, Brand New Day e palavras como participação, pós-créditos e final.</p>"
   },
   "tr": {
    "name": "Spider-Man: Brand New Day"
@@ -306,5 +322,10 @@
   "page": "avoid-spider-man-brand-new-day-spoilers",
   "kind": "film"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

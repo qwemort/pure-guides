@@ -29,7 +29,7 @@
  "wikidata": "Q239506",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Dragon Ball"
+   "name": "Dragon Ball",
+   "desc": "Dragon Ball spoilers come from manga chapter leaks and from new forms that trend instantly. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The franchise runs on new transformations and fights, and those leak as images long before most fans see them.",
+   "why_h": "One new form, a thousand thumbnails",
+   "why": "<p>A new transformation or a new villain becomes a thumbnail, a figure leak or a game trailer almost immediately. Manga chapters also leak ahead of release, and anime-only fans are usually behind the manga.</p><p>Mute the title with Dragon Ball Super, the names of new forms you already know about and words like leaks, chapter and new form.</p>"
   },
   "ru": {
-   "name": "Драгонболл"
+   "name": "Драгонболл",
+   "desc": "Спойлеры «Драгонболла» идут из сливов глав манги и новых форм, которые сразу в трендах. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Франшиза живёт новыми превращениями и битвами, и они сливаются картинками задолго до того, как их увидит большинство фанатов.",
+   "why_h": "Одна новая форма, тысяча превью",
+   "why": "<p>Новое превращение или новый злодей почти сразу становятся превью, сливом фигурки или трейлером игры. Главы манги тоже сливаются заранее, а те, кто смотрит только аниме, обычно отстают от манги.</p><p>Мьють название вместе с Dragon Ball Super, именами новых форм, о которых уже знаешь, и словами «слив», «глава» и «новая форма».</p>"
   },
   "uk": {
    "name": "Драгонбол"
   },
   "pl": {
-   "name": "Dragon Ball"
+   "name": "Dragon Ball",
+   "desc": "Spoilery Dragon Ball płyną z przecieków rozdziałów mangi i nowych form, które od razu są w trendach. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Seria żyje nowymi przemianami i walkami, a te wyciekają jako obrazki na długo przed tym, jak zobaczy je większość fanów.",
+   "why_h": "Jedna nowa forma, tysiąc miniaturek",
+   "why": "<p>Nowa przemiana albo nowy złoczyńca niemal od razu stają się miniaturką, przeciekiem figurki albo zwiastunem gry. Rozdziały mangi też wyciekają wcześniej, a fani samego anime zwykle są za mangą.</p><p>Wycisz tytuł razem z Dragon Ball Super, nazwami nowych form, o których już wiesz, i słowami przeciek, rozdział i nowa forma.</p>"
   },
   "de": {
    "name": "Dragon Ball"
@@ -242,7 +254,11 @@
    "name": "Dragon Ball"
   },
   "pt-BR": {
-   "name": "Dragon Ball"
+   "name": "Dragon Ball",
+   "desc": "Os spoilers de Dragon Ball vêm de vazamentos de capítulos do mangá e de novas formas que viram assunto na hora. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A franquia vive de novas transformações e lutas, e elas vazam em imagens muito antes da maioria dos fãs ver.",
+   "why_h": "Uma forma nova, mil miniaturas",
+   "why": "<p>Uma transformação nova ou um vilão novo vira miniatura, vazamento de boneco ou trailer de jogo quase na hora. Os capítulos do mangá também vazam antes, e quem só vê o anime costuma estar atrás do mangá.</p><p>Silencie o título com Dragon Ball Super, os nomes das formas novas que você já conhece e palavras como vazamento, capítulo e nova forma.</p>"
   },
   "tr": {
    "name": "Dragon Ball"
@@ -304,5 +320,10 @@
   "page": "avoid-dragon-ball-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

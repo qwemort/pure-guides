@@ -29,7 +29,7 @@
  "wikidata": "Q100774936",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Boruto: Two Blue Vortex"
+   "name": "Boruto: Two Blue Vortex",
+   "desc": "Boruto: Two Blue Vortex comes out monthly and chapters leak days early. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The manga comes out once a month, and each chapter leaks in text and images a few days before release.",
+   "why_h": "Monthly chapters, early leaks",
+   "why": "<p>Because readers wait a whole month, leaks get huge attention and spread across X and Reddit fast. Anime-only fans are even further behind, since the anime has not covered Two Blue Vortex.</p><p>Mute the title with Boruto, the time-skip name Two Blue Vortex and words like leaks and chapter.</p>"
   },
   "ru": {
-   "name": "Боруто: Два синих вихря"
+   "name": "Боруто: Два синих вихря",
+   "desc": "«Боруто: Два синих вихря» выходит раз в месяц, и главы сливаются за несколько дней. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга выходит раз в месяц, и каждая глава сливается текстом и картинками за несколько дней до выхода.",
+   "why_h": "Главы раз в месяц, сливы раньше",
+   "why": "<p>Читатели ждут целый месяц, поэтому сливы собирают огромное внимание и быстро расходятся по X и Reddit. Тем, кто смотрит только аниме, ещё опаснее: аниме до «Двух синих вихрей» не дошло.</p><p>Мьють название вместе с «Боруто», Two Blue Vortex и словами «слив» и «глава».</p>"
   },
   "uk": {
    "name": "Боруто: Два сині вихори"
   },
   "pl": {
-   "name": "Boruto: Two Blue Vortex"
+   "name": "Boruto: Two Blue Vortex",
+   "desc": "Boruto: Two Blue Vortex wychodzi raz w miesiącu, a rozdziały wyciekają kilka dni wcześniej. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga wychodzi raz w miesiącu, a każdy rozdział wycieka w tekście i obrazkach kilka dni przed premierą.",
+   "why_h": "Rozdział co miesiąc, przecieki wcześniej",
+   "why": "<p>Czytelnicy czekają cały miesiąc, więc przecieki mają ogromną uwagę i szybko rozchodzą się po X i Reddicie. Ci, którzy oglądają tylko anime, są jeszcze dalej, bo anime nie doszło do Two Blue Vortex.</p><p>Wycisz tytuł razem z Boruto, Two Blue Vortex i słowami przeciek i rozdział.</p>"
   },
   "de": {
    "name": "Boruto: Two Blue Vortex"
@@ -242,7 +254,11 @@
    "name": "Boruto: Two Blue Vortex"
   },
   "pt-BR": {
-   "name": "Boruto: Two Blue Vortex"
+   "name": "Boruto: Two Blue Vortex",
+   "desc": "Boruto: Two Blue Vortex sai uma vez por mês e os capítulos vazam dias antes. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá sai uma vez por mês, e cada capítulo vaza em texto e imagem alguns dias antes do lançamento.",
+   "why_h": "Capítulo mensal, vazamento antes",
+   "why": "<p>Como os leitores esperam um mês inteiro, os vazamentos chamam muita atenção e se espalham rápido no X e no Reddit. Quem só vê o anime está ainda mais atrás, porque o anime não chegou em Two Blue Vortex.</p><p>Silencie o título com Boruto, Two Blue Vortex e palavras como vazamento e capítulo.</p>"
   },
   "tr": {
    "name": "Boruto: Two Blue Vortex"
@@ -304,5 +320,10 @@
   "page": "avoid-boruto-two-blue-vortex-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

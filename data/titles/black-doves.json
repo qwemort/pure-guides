@@ -29,7 +29,7 @@
  "wikidata": "Q123153922",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Black Doves"
+   "name": "Black Doves",
+   "desc": "Black Doves is a Netflix spy thriller released all at once, so twists spread the same weekend. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Netflix releases the whole season on one day, so the twists of this spy thriller are everywhere by the first weekend.",
+   "why_h": "Binge release, instant spoilers",
+   "why": "<p>With every episode out at once, fast viewers finish in a day and post about betrayals and deaths while you are still on episode two.</p><p>Mute the title with the main characters' names and words like ending, twist and season.</p>"
   },
   "ru": {
-   "name": "Чёрные голуби"
+   "name": "Чёрные голуби",
+   "desc": "«Чёрные голуби» — шпионский триллер Netflix, который выходит целиком, и повороты разлетаются в первые выходные. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Netflix выкладывает весь сезон в один день, так что повороты этого шпионского триллера везде уже к первым выходным.",
+   "why_h": "Выход целиком, спойлеры сразу",
+   "why": "<p>Когда все серии выходят сразу, быстрые зрители досматривают за день и постят о предательствах и смертях, пока ты ещё на второй серии.</p><p>Мьють название вместе с именами главных героев и словами «концовка», «поворот» и «сезон».</p>"
   },
   "uk": {
    "name": "Чорні голуби"
   },
   "pl": {
-   "name": "Czarne gołębie"
+   "name": "Czarne gołębie",
+   "desc": "Black Doves to szpiegowski thriller Netflixa wydawany w całości, więc zwroty rozchodzą się w pierwszy weekend. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Netflix wypuszcza cały sezon jednego dnia, więc zwroty tego thrillera szpiegowskiego są wszędzie już w pierwszy weekend.",
+   "why_h": "Premiera w całości, spoilery od razu",
+   "why": "<p>Gdy wszystkie odcinki wychodzą naraz, szybcy widzowie kończą w jeden dzień i piszą o zdradach i śmierciach, kiedy ty jesteś na drugim odcinku.</p><p>Wycisz tytuł razem z imionami głównych bohaterów i słowami zakończenie, zwrot i sezon.</p>"
   },
   "de": {
    "name": "Black Doves"
@@ -242,7 +254,11 @@
    "name": "Black Doves"
   },
   "pt-BR": {
-   "name": "Black Doves"
+   "name": "Black Doves",
+   "desc": "Black Doves é um thriller de espionagem da Netflix lançado de uma vez, então as viradas se espalham no primeiro fim de semana. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A Netflix lança a temporada inteira num dia, então as viradas deste thriller de espionagem estão em todo lugar no primeiro fim de semana.",
+   "why_h": "Lançamento inteiro, spoiler imediato",
+   "why": "<p>Com todos os episódios disponíveis, quem assiste rápido termina num dia e posta sobre traições e mortes enquanto você ainda está no episódio dois.</p><p>Silencie o título com os nomes dos protagonistas e palavras como final, reviravolta e temporada.</p>"
   },
   "tr": {
    "name": "Black Doves"
@@ -304,5 +320,10 @@
   "page": "avoid-black-doves-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

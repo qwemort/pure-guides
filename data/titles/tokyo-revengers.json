@@ -29,7 +29,7 @@
  "wikidata": "Q63981675",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Tokyo Revengers"
+   "name": "Tokyo Revengers",
+   "desc": "The Tokyo Revengers manga ended in 2022 and its ending is still debated. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Ken Wakui's manga finished in 2022, and its time-travel ending split fans, so it is still argued about online.",
+   "why_h": "A divisive ending lives on",
+   "why": "<p>Time travel means every arc changes who lives and who dies, and readers know the final timeline. Debates about the ending and Mikey's fate come up under almost any clip.</p><p>Mute the title with Mikey, Takemichi and words like manga, ending and final timeline.</p>"
   },
   "ru": {
-   "name": "Токийские мстители"
+   "name": "Токийские мстители",
+   "desc": "Манга «Токийские мстители» закончилась в 2022 году, а её концовку до сих пор обсуждают. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Кэна Вакуи закончилась в 2022 году, и концовка с путешествиями во времени расколола фанатов, поэтому о ней спорят до сих пор.",
+   "why_h": "Спорная концовка никуда не делась",
+   "why": "<p>Из-за путешествий во времени каждая арка меняет, кто жив, а кто нет, и читатели знают последнюю временную линию. Споры о концовке и судьбе Майки всплывают почти под любым клипом.</p><p>Мьють название вместе с «Майки», «Такэмити» и словами «манга», «концовка» и «финальная линия».</p>"
   },
   "uk": {
    "name": "Токійські месники"
   },
   "pl": {
-   "name": "Tokyo Revengers"
+   "name": "Tokyo Revengers",
+   "desc": "Manga Tokyo Revengers skończyła się w 2022 roku, a o zakończeniu wciąż się dyskutuje. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Kena Wakuiego skończyła się w 2022 roku, a zakończenie z podróżami w czasie podzieliło fanów, więc spory trwają.",
+   "why_h": "Kontrowersyjne zakończenie wciąż żyje",
+   "why": "<p>Przez podróże w czasie każdy arc zmienia, kto żyje, a kto ginie, a czytelnicy znają ostatnią linię czasu. Kłótnie o zakończenie i los Mikeya wracają pod prawie każdym klipem.</p><p>Wycisz tytuł razem z Mikey, Takemichi i słowami manga, zakończenie i ostatnia linia czasu.</p>"
   },
   "de": {
    "name": "Tokyo Revengers"
@@ -242,7 +254,11 @@
    "name": "Tokyo Revengers"
   },
   "pt-BR": {
-   "name": "Tokyo Revengers"
+   "name": "Tokyo Revengers",
+   "desc": "O mangá de Tokyo Revengers terminou em 2022 e o final ainda é discutido. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Ken Wakui terminou em 2022, e o final com viagem no tempo dividiu os fãs, então ainda gera briga na internet.",
+   "why_h": "Um final polêmico que não some",
+   "why": "<p>Com viagem no tempo, cada arco muda quem vive e quem morre, e os leitores conhecem a linha do tempo final. Discussões sobre o final e o destino de Mikey aparecem em quase todo clipe.</p><p>Silencie o título com Mikey, Takemichi e palavras como mangá, final e linha do tempo final.</p>"
   },
   "tr": {
    "name": "Tokyo Revengers"
@@ -304,5 +320,10 @@
   "page": "avoid-tokyo-revengers-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

@@ -29,7 +29,7 @@
  "wikidata": "Q130755995",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Gundam SEED Freedom Zero"
+   "name": "Gundam SEED Freedom Zero",
+   "desc": "Gundam SEED Freedom Zero is a new entry in the Gundam SEED line, and Japan usually sees it first. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "A new entry in the Gundam SEED story, which in Gundam usually means Japan sees it before the rest of the world.",
+   "why_h": "New mobile suits leak through model kits",
+   "why": "<p>Gundam spoilers often come from model kit announcements and toy listings, which show new mobile suits and who pilots them before the story does.</p><p>Japanese premieres and screenings come first. Mute the title with Gundam SEED, Kira and words like gunpla, spoilers and premiere.</p>"
   },
   "ru": {
-   "name": "Гандам SEED Freedom Zero"
+   "name": "Гандам SEED Freedom Zero",
+   "desc": "«Гандам SEED Freedom Zero» — новая часть линейки Gundam SEED, и Япония обычно видит её первой. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Новая часть истории Gundam SEED, а для «Гандама» это обычно значит, что Япония увидит её раньше остального мира.",
+   "why_h": "Новые мобильные доспехи сливают модели",
+   "why": "<p>Спойлеры «Гандама» часто приходят из анонсов моделей и карточек игрушек: там видно новые мобильные доспехи и их пилотов раньше, чем в самой истории.</p><p>Японские премьеры и показы идут первыми. Мьють название вместе с Gundam SEED, «Кира» и словами «ганпла», «спойлеры» и «премьера».</p>"
   },
   "uk": {
    "name": "Гандам SEED Freedom Zero"
   },
   "pl": {
-   "name": "Gundam SEED Freedom Zero"
+   "name": "Gundam SEED Freedom Zero",
+   "desc": "Gundam SEED Freedom Zero to nowa część serii Gundam SEED, a Japonia zwykle widzi ją pierwsza. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Nowa część historii Gundam SEED, a w Gundamie to zwykle znaczy, że Japonia zobaczy ją przed resztą świata.",
+   "why_h": "Nowe mobile suity wyciekają przez modele",
+   "why": "<p>Spoilery Gundama często pochodzą z zapowiedzi modeli i ofert zabawek, które pokazują nowe mobile suity i ich pilotów przed fabułą.</p><p>Japońskie premiery i pokazy są pierwsze. Wycisz tytuł razem z Gundam SEED, Kira i słowami gunpla, spoilery i premiera.</p>"
   },
   "de": {
    "name": "Gundam SEED Freedom Zero"
@@ -242,7 +254,11 @@
    "name": "Gundam SEED Freedom Zero"
   },
   "pt-BR": {
-   "name": "Gundam SEED Freedom Zero"
+   "name": "Gundam SEED Freedom Zero",
+   "desc": "Gundam SEED Freedom Zero é uma nova entrada da linha Gundam SEED, e o Japão costuma ver primeiro. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "Uma nova entrada na história de Gundam SEED, o que em Gundam costuma significar que o Japão vê antes do resto do mundo.",
+   "why_h": "Os novos mobile suits vazam pelos kits",
+   "why": "<p>Os spoilers de Gundam muitas vezes vêm de anúncios de kits e anúncios de brinquedos, que mostram os novos mobile suits e quem pilota antes da história.</p><p>As estreias e sessões no Japão vêm primeiro. Silencie o título com Gundam SEED, Kira e palavras como gunpla, spoilers e estreia.</p>"
   },
   "tr": {
    "name": "Gundam SEED Freedom Zero"
@@ -304,5 +320,10 @@
   "page": "avoid-gundam-seed-freedom-zero-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

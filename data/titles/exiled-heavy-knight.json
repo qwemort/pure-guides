@@ -29,7 +29,7 @@
  "wikidata": "Q128758405",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Exiled Heavy Knight Knows How to Game the System"
+   "name": "The Exiled Heavy Knight Knows How to Game the System",
+   "desc": "The Exiled Heavy Knight adapts a novel series that readers are ahead of. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The anime adapts a Japanese novel series with a manga version, so readers already know where the story goes.",
+   "why_h": "Readers are ahead of the anime",
+   "why": "<p>Stories built like a game, with builds, bosses and hidden routes, are easy to spoil with one screenshot of a later fight or a new ability.</p><p>Mute the title with the main characters' names and words like light novel, manga and spoilers.</p>"
   },
   "ru": {
-   "name": "Изгнанный тяжёлый рыцарь"
+   "name": "Изгнанный тяжёлый рыцарь",
+   "desc": "«Изгнанный тяжёлый рыцарь» экранизирует серию романов, читатели которой впереди. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Аниме экранизирует японскую серию романов, у которой есть и манга, так что читатели уже знают, куда идёт история.",
+   "why_h": "Читатели впереди аниме",
+   "why": "<p>Истории, устроенные как игра, с билдами, боссами и скрытыми путями, легко заспойлерить одним скрином поздней битвы или новой способности.</p><p>Мьють название вместе с именами главных героев и словами «ранобэ», «манга» и «спойлеры».</p>"
   },
   "uk": {
    "name": "Вигнаний важкий лицар"
   },
   "pl": {
-   "name": "The Exiled Heavy Knight Knows How to Game the System"
+   "name": "The Exiled Heavy Knight Knows How to Game the System",
+   "desc": "The Exiled Heavy Knight adaptuje serię powieści, której czytelnicy są dalej. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Anime adaptuje japońską serię powieści, która ma też mangę, więc czytelnicy wiedzą, dokąd zmierza historia.",
+   "why_h": "Czytelnicy są przed anime",
+   "why": "<p>Historie zbudowane jak gra, z buildami, bossami i ukrytymi ścieżkami, łatwo zaspoilerować jednym zrzutem późnej walki albo nowej umiejętności.</p><p>Wycisz tytuł razem z imionami głównych bohaterów i słowami light novel, manga i spoilery.</p>"
   },
   "de": {
    "name": "The Exiled Heavy Knight Knows How to Game the System"
@@ -242,7 +254,11 @@
    "name": "The Exiled Heavy Knight Knows How to Game the System"
   },
   "pt-BR": {
-   "name": "The Exiled Heavy Knight Knows How to Game the System"
+   "name": "The Exiled Heavy Knight Knows How to Game the System",
+   "desc": "The Exiled Heavy Knight adapta uma série de novels em que os leitores estão à frente. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O anime adapta uma série de novels japonesa que também tem mangá, então os leitores já sabem para onde a história vai.",
+   "why_h": "Os leitores estão à frente do anime",
+   "why": "<p>Histórias montadas como jogo, com builds, chefes e rotas escondidas, são fáceis de estragar com um print de uma luta futura ou de uma habilidade nova.</p><p>Silencie o título com os nomes dos protagonistas e palavras como light novel, mangá e spoilers.</p>"
   },
   "tr": {
    "name": "The Exiled Heavy Knight Knows How to Game the System"
@@ -304,5 +320,10 @@
   "page": "avoid-exiled-heavy-knight-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

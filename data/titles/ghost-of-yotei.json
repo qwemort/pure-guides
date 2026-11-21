@@ -29,7 +29,7 @@
  "wikidata": "Q130360297",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Ghost of Yōtei"
+   "name": "Ghost of Yōtei",
+   "desc": "Ghost of Yōtei came out on PS5 in October 2025. Players who start late or wait for PC still run into spoilers. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Sucker Punch's revenge story came out on PS5 in October 2025, so anyone starting now or waiting for another platform is late to the party.",
+   "why_h": "A revenge story where the targets are the spoiler",
+   "why": "<p>Atsu hunts the Yōtei Six one by one, and who they are, how each fight goes and how the story ends are covered in guides and \"ending explained\" videos.</p><p>Photo mode shots and boss clips travel as art. Mute the title with Yotei Six, Atsu and words like ending, boss and final.</p>"
   },
   "ru": {
-   "name": "Ghost of Yōtei"
+   "name": "Ghost of Yōtei",
+   "desc": "Ghost of Yōtei вышла на PS5 в октябре 2025 года. Те, кто начинает поздно или ждёт ПК, всё равно натыкаются на спойлеры. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "История мести от Sucker Punch вышла на PS5 в октябре 2025 года, так что все, кто начинает сейчас или ждёт другую платформу, опоздали.",
+   "why_h": "История мести, где цели и есть спойлер",
+   "why": "<p>Ацу выслеживает Шестёрку Йотэй одного за другим, и кто они, как проходит каждая битва и чем кончается история, разобрано в гайдах и роликах «концовка объяснена».</p><p>Снимки из фоторежима и клипы с боссами разлетаются как арт. Мьють название вместе с Yotei Six, «Ацу» и словами «концовка», «босс» и «финал».</p>"
   },
   "uk": {
    "name": "Ghost of Yōtei"
   },
   "pl": {
-   "name": "Ghost of Yōtei"
+   "name": "Ghost of Yōtei",
+   "desc": "Ghost of Yōtei wyszło na PS5 w październiku 2025 roku. Gracze, którzy zaczynają późno albo czekają na PC, wciąż trafiają na spoilery. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Historia zemsty od Sucker Punch wyszła na PS5 w październiku 2025 roku, więc kto zaczyna teraz albo czeka na inną platformę, jest spóźniony.",
+   "why_h": "Historia zemsty, w której cele są spoilerem",
+   "why": "<p>Atsu poluje na Szóstkę z Yōtei po kolei, a to, kim są, jak przebiega każda walka i jak kończy się historia, jest w poradnikach i filmikach „zakończenie wyjaśnione”.</p><p>Zdjęcia z trybu foto i klipy z bossami krążą jako art. Wycisz tytuł razem z Yotei Six, Atsu i słowami zakończenie, boss i finał.</p>"
   },
   "de": {
    "name": "Ghost of Yōtei"
@@ -242,7 +254,11 @@
    "name": "Ghost of Yōtei"
   },
   "pt-BR": {
-   "name": "Ghost of Yōtei"
+   "name": "Ghost of Yōtei",
+   "desc": "Ghost of Yōtei saiu no PS5 em outubro de 2025. Quem começa tarde ou espera o PC ainda tromba com spoiler. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A história de vingança da Sucker Punch saiu no PS5 em outubro de 2025, então quem começa agora ou espera outra plataforma está atrasado.",
+   "why_h": "Uma história de vingança em que os alvos são o spoiler",
+   "why": "<p>Atsu caça os Seis de Yōtei um por um, e quem eles são, como cada luta acontece e como a história termina está em guias e vídeos de \"final explicado\".</p><p>Fotos do modo foto e clipes de chefes circulam como arte. Silencie o título com Yotei Six, Atsu e palavras como final, chefe e reta final.</p>"
   },
   "tr": {
    "name": "Ghost of Yōtei"
@@ -304,5 +320,10 @@
   "page": "avoid-ghost-of-yotei-spoilers",
   "kind": "game"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

@@ -29,7 +29,7 @@
  "wikidata": "Q19781419",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Golden Kamuy"
+   "name": "Golden Kamuy",
+   "desc": "The Golden Kamuy manga is finished, so the hunt for the gold has a known ending. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Satoru Noda's manga ended in 2022, so who finds the Ainu gold and who survives is already known to readers.",
+   "why_h": "The treasure hunt is over in the manga",
+   "why": "<p>The story has a large cast that keeps shrinking, and readers discuss deaths and betrayals openly. Anime-only and live-action viewers are the ones at risk.</p><p>Mute the title with the main characters' names and words like manga, ending and final chapter.</p>"
   },
   "ru": {
-   "name": "Золотое божество"
+   "name": "Золотое божество",
+   "desc": "Манга «Золотое божество» закончена, так что у охоты за золотом известная концовка. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Сатору Ноды закончилась в 2022 году, и кто найдёт золото айнов и кто выживет, читатели уже знают.",
+   "why_h": "В манге охота за сокровищем окончена",
+   "why": "<p>В истории большой состав героев, который всё время уменьшается, и читатели открыто обсуждают смерти и предательства. Рискуют те, кто смотрит только аниме или фильмы.</p><p>Мьють название вместе с именами главных героев и словами «манга», «концовка» и «последняя глава».</p>"
   },
   "uk": {
    "name": "Золоте божество"
   },
   "pl": {
-   "name": "Golden Kamuy"
+   "name": "Golden Kamuy",
+   "desc": "Manga Golden Kamuy jest skończona, więc polowanie na złoto ma znane zakończenie. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Satoru Nody skończyła się w 2022 roku, więc czytelnicy wiedzą, kto znajdzie złoto Ajnów i kto przeżyje.",
+   "why_h": "W mandze polowanie się skończyło",
+   "why": "<p>Historia ma dużą obsadę, która ciągle się kurczy, a czytelnicy otwarcie omawiają śmierci i zdrady. Ryzykują widzowie samego anime i filmów aktorskich.</p><p>Wycisz tytuł razem z imionami głównych bohaterów i słowami manga, zakończenie i ostatni rozdział.</p>"
   },
   "de": {
    "name": "Golden Kamuy"
@@ -242,7 +254,11 @@
    "name": "Golden Kamuy"
   },
   "pt-BR": {
-   "name": "Golden Kamuy"
+   "name": "Golden Kamuy",
+   "desc": "O mangá de Golden Kamuy terminou, então a caça ao ouro tem um final conhecido. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Satoru Noda terminou em 2022, então quem acha o ouro ainu e quem sobrevive os leitores já sabem.",
+   "why_h": "No mangá a caça ao tesouro acabou",
+   "why": "<p>A história tem um elenco grande que vai diminuindo, e os leitores falam abertamente de mortes e traições. Quem corre risco é quem só vê o anime ou os filmes.</p><p>Silencie o título com os nomes dos protagonistas e palavras como mangá, final e último capítulo.</p>"
   },
   "tr": {
    "name": "Golden Kamuy"
@@ -304,5 +320,10 @@
   "page": "avoid-golden-kamuy-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

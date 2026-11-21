@@ -29,7 +29,7 @@
  "wikidata": "Q59149852",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Rings of Power"
+   "name": "The Rings of Power",
+   "desc": "The Rings of Power draws on Tolkien's appendices, so lore fans know where the Second Age is heading. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The Prime Video series is based on the history of the Second Age from Tolkien's appendices, so lore fans know the big events ahead.",
+   "why_h": "Tolkien wrote the timeline long ago",
+   "why": "<p>The forging of the rings, the fall of kingdoms and who betrays whom are part of the published lore, and lore channels explain them under every trailer. The show also changes things, and \"show vs lore\" posts spoil both.</p><p>Mute the title with Rings of Power, Annatar, Numenor and words like episode, lore and ending.</p>"
   },
   "ru": {
-   "name": "Властелин колец: Кольца власти"
+   "name": "Властелин колец: Кольца власти",
+   "desc": "«Кольца власти» опираются на приложения Толкина, так что знатоки лора знают, куда идёт Вторая эпоха. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал Prime Video основан на истории Второй эпохи из приложений Толкина, так что знатоки лора знают главные события впереди.",
+   "why_h": "Толкин давно написал хронологию",
+   "why": "<p>Ковка колец, падение королевств и кто кого предаст — часть опубликованного лора, и каналы по лору объясняют это под каждым трейлером. Сериал при этом многое меняет, и посты «сериал против лора» спойлерят и то и другое.</p><p>Мьють название вместе с «Кольца власти», «Аннатар», «Нуменор» и словами «серия», «лор» и «концовка».</p>"
   },
   "uk": {
    "name": "Володар перснів: Персні влади"
   },
   "pl": {
-   "name": "Pierścienie Władzy"
+   "name": "Pierścienie Władzy",
+   "desc": "Pierścienie Władzy czerpią z dodatków Tolkiena, więc znawcy lore wiedzą, dokąd zmierza Druga Era. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial Prime Video opiera się na historii Drugiej Ery z dodatków Tolkiena, więc znawcy lore znają wielkie wydarzenia.",
+   "why_h": "Tolkien dawno spisał chronologię",
+   "why": "<p>Wykucie pierścieni, upadki królestw i to, kto kogo zdradzi, są częścią opublikowanego lore, a kanały o lore tłumaczą to pod każdym zwiastunem. Serial przy tym wiele zmienia, a posty „serial kontra lore” spoilerują jedno i drugie.</p><p>Wycisz tytuł razem z Pierścienie Władzy, Annatar, Numenor i słowami odcinek, lore i zakończenie.</p>"
   },
   "de": {
    "name": "Die Ringe der Macht"
@@ -242,7 +254,11 @@
    "name": "Gli Anelli del Potere"
   },
   "pt-BR": {
-   "name": "Os Anéis de Poder"
+   "name": "Os Anéis de Poder",
+   "desc": "Os Anéis de Poder se baseia nos apêndices de Tolkien, então os fãs de lore sabem para onde vai a Segunda Era. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série da Prime Video é baseada na história da Segunda Era dos apêndices de Tolkien, então os fãs de lore conhecem os grandes eventos.",
+   "why_h": "Tolkien escreveu a linha do tempo há muito tempo",
+   "why": "<p>A forja dos anéis, a queda de reinos e quem trai quem fazem parte do lore publicado, e canais de lore explicam isso em todo trailer. A série também muda coisas, e posts de \"série vs lore\" estragam as duas.</p><p>Silencie o título com Anéis de Poder, Annatar, Númenor e palavras como episódio, lore e final.</p>"
   },
   "tr": {
    "name": "Güç Yüzükleri"
@@ -304,5 +320,10 @@
   "page": "avoid-rings-of-power-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

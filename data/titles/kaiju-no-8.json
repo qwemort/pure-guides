@@ -29,7 +29,7 @@
  "wikidata": "Q103888159",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Kaiju No. 8"
+   "name": "Kaiju No. 8",
+   "desc": "The Kaiju No. 8 manga is finished, so the full story is online while the anime adapts it. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Naoya Matsumoto's manga has ended, so the final fights and the truth about the strongest kaiju are already online.",
+   "why_h": "The ending is out, the anime is catching up",
+   "why": "<p>Manga readers know how the Defense Force's war ends, and they post panels of the last battles as art. Anime-only viewers will run into them in recommendations.</p><p>Mute the title with Kafka, Kaiju No. 9 and words like manga, ending and chapter.</p>"
   },
   "ru": {
-   "name": "Кайдзю номер восемь"
+   "name": "Кайдзю номер восемь",
+   "desc": "Манга «Кайдзю номер восемь» закончена, поэтому вся история в сети, пока аниме её экранизирует. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Наои Мацумото закончилась, так что последние битвы и правда о сильнейшем кайдзю уже в сети.",
+   "why_h": "Концовка вышла, аниме догоняет",
+   "why": "<p>Читатели манги знают, чем кончится война Сил обороны, и выкладывают страницы последних битв как арт. Те, кто смотрит только аниме, наткнутся на них в рекомендациях.</p><p>Мьють название вместе с «Кафка», «Кайдзю номер 9» и словами «манга», «концовка» и «глава».</p>"
   },
   "uk": {
    "name": "Кайдзю номер вісім"
   },
   "pl": {
-   "name": "Kaiju No. 8"
+   "name": "Kaiju No. 8",
+   "desc": "Manga Kaiju No. 8 jest skończona, więc cała historia jest w sieci, a anime ją adaptuje. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Naoyi Matsumoto się skończyła, więc ostatnie walki i prawda o najsilniejszym kaiju są już w sieci.",
+   "why_h": "Zakończenie wyszło, anime goni",
+   "why": "<p>Czytelnicy mangi wiedzą, jak kończy się wojna Sił Obrony, i wrzucają strony z ostatnich walk jako art. Widzowie samego anime trafią na nie w polecanych.</p><p>Wycisz tytuł razem z Kafka, Kaiju No. 9 i słowami manga, zakończenie i rozdział.</p>"
   },
   "de": {
    "name": "Kaiju No. 8"
@@ -242,7 +254,11 @@
    "name": "Kaiju No. 8"
   },
   "pt-BR": {
-   "name": "Kaiju No. 8"
+   "name": "Kaiju No. 8",
+   "desc": "O mangá de Kaiju No. 8 terminou, então a história completa está na internet enquanto o anime adapta. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Naoya Matsumoto terminou, então as lutas finais e a verdade sobre o kaiju mais forte já estão na internet.",
+   "why_h": "O final saiu, o anime está alcançando",
+   "why": "<p>Quem leu o mangá sabe como termina a guerra da Força de Defesa e posta páginas das últimas batalhas como arte. Quem só vê o anime vai topar com elas nas recomendações.</p><p>Silencie o título com Kafka, Kaiju No. 9 e palavras como mangá, final e capítulo.</p>"
   },
   "tr": {
    "name": "Kaiju No. 8"
@@ -304,5 +320,10 @@
   "page": "avoid-kaiju-no-8-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

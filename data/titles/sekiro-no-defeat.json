@@ -29,7 +29,7 @@
  "wikidata": "Q135909068",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Sekiro: No Defeat"
+   "name": "Sekiro: No Defeat",
+   "desc": "Sekiro: No Defeat is an anime based on FromSoftware's 2019 game, whose endings are well known. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "An anime based on FromSoftware's 2019 game Sekiro, so players already know the bosses and the multiple endings.",
+   "why_h": "The game's endings are common knowledge",
+   "why": "<p>Sekiro has several endings and famous boss fights, and players have discussed them for years in guides, lore videos and memes. If the anime follows the game, those videos spoil it.</p><p>Mute the title with Sekiro, Isshin, Genichiro and words like ending, boss and lore.</p>"
   },
   "ru": {
-   "name": "Sekiro: Без поражений"
+   "name": "Sekiro: Без поражений",
+   "desc": "«Sekiro: Без поражений» — аниме по игре FromSoftware 2019 года, концовки которой хорошо известны. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Аниме по игре FromSoftware Sekiro 2019 года, так что игроки уже знают боссов и несколько концовок.",
+   "why_h": "Концовки игры давно всем известны",
+   "why": "<p>В Sekiro несколько концовок и знаменитые битвы с боссами, и игроки годами разбирают их в гайдах, роликах по лору и мемах. Если аниме идёт за игрой, эти ролики его спойлерят.</p><p>Мьють название вместе с Sekiro, «Иссин», «Гэнъитиро» и словами «концовка», «босс» и «лор».</p>"
   },
   "uk": {
    "name": "Sekiro: Без поразок"
   },
   "pl": {
-   "name": "Sekiro: No Defeat"
+   "name": "Sekiro: No Defeat",
+   "desc": "Sekiro: No Defeat to anime na podstawie gry FromSoftware z 2019 roku, której zakończenia są dobrze znane. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Anime na podstawie gry Sekiro od FromSoftware z 2019 roku, więc gracze znają bossów i kilka zakończeń.",
+   "why_h": "Zakończenia gry zna każdy",
+   "why": "<p>Sekiro ma kilka zakończeń i słynne walki z bossami, a gracze od lat omawiają je w poradnikach, filmikach o lore i memach. Jeśli anime idzie za grą, te filmiki je spoilerują.</p><p>Wycisz tytuł razem z Sekiro, Isshin, Genichiro i słowami zakończenie, boss i lore.</p>"
   },
   "de": {
    "name": "Sekiro: No Defeat"
@@ -242,7 +254,11 @@
    "name": "Sekiro: No Defeat"
   },
   "pt-BR": {
-   "name": "Sekiro: No Defeat"
+   "name": "Sekiro: No Defeat",
+   "desc": "Sekiro: No Defeat é um anime baseado no jogo de 2019 da FromSoftware, cujos finais são bem conhecidos. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "Um anime baseado em Sekiro, jogo de 2019 da FromSoftware, então os jogadores já conhecem os chefes e os vários finais.",
+   "why_h": "Os finais do jogo são conhecidos",
+   "why": "<p>Sekiro tem vários finais e lutas de chefe famosas, e os jogadores falam delas há anos em guias, vídeos de lore e memes. Se o anime seguir o jogo, esses vídeos estragam a história.</p><p>Silencie o título com Sekiro, Isshin, Genichiro e palavras como final, chefe e lore.</p>"
   },
   "tr": {
    "name": "Sekiro: No Defeat"
@@ -304,5 +320,10 @@
   "page": "avoid-sekiro-no-defeat-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

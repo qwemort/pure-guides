@@ -29,7 +29,7 @@
  "wikidata": "Q125341011",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Gears of War: E-Day"
+   "name": "Gears of War: E-Day",
+   "desc": "Gears of War: E-Day is a prequel about Emergence Day. Campaign spoilers come with early playthroughs and cutscene uploads. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "A prequel set on Emergence Day with a young Marcus Fenix and Dom, so long-time fans already know part of the outcome, but not the details.",
+   "why_h": "Cutscenes go up on day one",
+   "why": "<p>Big campaign games get full playthroughs and \"all cutscenes\" videos on YouTube within a day of release, and early access players post before that. Thumbnails often show the key moment.</p><p>Mute the title with Gears, E-Day, Marcus and Dom and words like ending, campaign and cutscene.</p>"
   },
   "ru": {
-   "name": "Gears of War: E-Day"
+   "name": "Gears of War: E-Day",
+   "desc": "Gears of War: E-Day — приквел о Дне Явления. Спойлеры кампании приходят с ранними прохождениями и загрузками катсцен. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Приквел о Дне Явления с молодыми Маркусом Фениксом и Домом, так что давние фанаты знают часть исхода, но не детали.",
+   "why_h": "Катсцены выкладывают в первый же день",
+   "why": "<p>По большим сюжетным играм в течение суток после выхода на YouTube появляются полные прохождения и ролики «все катсцены», а игроки с ранним доступом постят ещё раньше. На превью часто ключевой момент.</p><p>Мьють название вместе с Gears, E-Day, «Маркус», «Дом» и словами «концовка», «кампания» и «катсцена».</p>"
   },
   "uk": {
    "name": "Gears of War: E-Day"
   },
   "pl": {
-   "name": "Gears of War: E-Day"
+   "name": "Gears of War: E-Day",
+   "desc": "Gears of War: E-Day to prequel o Dniu Wyłonienia. Spoilery kampanii przychodzą z wczesnymi przejściami i wrzutkami przerywników. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Prequel o Dniu Wyłonienia z młodym Marcusem Fenixem i Domem, więc starzy fani znają część wyniku, ale nie szczegóły.",
+   "why_h": "Przerywniki lądują w sieci pierwszego dnia",
+   "why": "<p>Duże gry z kampanią mają pełne przejścia i filmiki „wszystkie przerywniki” na YouTube w ciągu doby od premiery, a gracze z wczesnym dostępem wrzucają jeszcze wcześniej. Miniaturki często pokazują kluczowy moment.</p><p>Wycisz tytuł razem z Gears, E-Day, Marcus i Dom i słowami zakończenie, kampania i przerywnik.</p>"
   },
   "de": {
    "name": "Gears of War: E-Day"
@@ -242,7 +254,11 @@
    "name": "Gears of War: E-Day"
   },
   "pt-BR": {
-   "name": "Gears of War: E-Day"
+   "name": "Gears of War: E-Day",
+   "desc": "Gears of War: E-Day é um prólogo sobre o Dia da Emergência. Os spoilers da campanha vêm com gameplays antecipadas e cutscenes no YouTube. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "Um prólogo no Dia da Emergência com Marcus Fenix e Dom jovens, então quem é fã há tempos sabe parte do desfecho, mas não os detalhes.",
+   "why_h": "As cutscenes sobem no primeiro dia",
+   "why": "<p>Jogos grandes de campanha ganham gameplays completas e vídeos de \"todas as cutscenes\" no YouTube em um dia, e quem tem acesso antecipado posta antes. As miniaturas muitas vezes mostram o momento-chave.</p><p>Silencie o título com Gears, E-Day, Marcus e Dom e palavras como final, campanha e cutscene.</p>"
   },
   "tr": {
    "name": "Gears of War: E-Day"
@@ -304,5 +320,10 @@
   "page": "avoid-gears-of-war-e-day-spoilers",
   "kind": "game"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

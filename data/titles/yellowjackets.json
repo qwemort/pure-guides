@@ -29,7 +29,7 @@
  "wikidata": "Q106830311",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Yellowjackets"
+   "name": "Yellowjackets",
+   "desc": "Yellowjackets airs weekly and its two timelines and mysteries feed theories that spoil reveals. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The series jumps between the 1996 crash and the survivors as adults, and each weekly episode answers a mystery fans have been guessing at.",
+   "why_h": "Who lives in 1996 is the spoiler",
+   "why": "<p>Every death in the wilderness timeline and every reveal about who ate what is discussed the same night. Fan theories and Reddit threads often put answers in their titles.</p><p>Mute the title with the main characters' names and words like episode, finale and who dies.</p>"
   },
   "ru": {
-   "name": "Шершни"
+   "name": "Шершни",
+   "desc": "«Шершни» выходят раз в неделю, а две временные линии и загадки рождают теории, которые спойлерят раскрытия. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал прыгает между крушением 1996 года и выжившими во взрослой жизни, и каждая еженедельная серия отвечает на загадку, которую фанаты угадывали.",
+   "why_h": "Спойлер — кто выживет в 1996-м",
+   "why": "<p>Каждую смерть в линии в лесу и каждое раскрытие обсуждают в ту же ночь. Теории фанатов и треды на Reddit часто выносят ответы в заголовок.</p><p>Мьють название вместе с именами главных героинь и словами «серия», «финал» и «кто умрёт».</p>"
   },
   "uk": {
    "name": "Жовті кофтинки"
   },
   "pl": {
-   "name": "Yellowjackets"
+   "name": "Yellowjackets",
+   "desc": "Yellowjackets wychodzi co tydzień, a dwie linie czasu i zagadki rodzą teorie, które spoilerują odkrycia. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial skacze między katastrofą z 1996 roku a dorosłymi ocalałymi, a każdy cotygodniowy odcinek odpowiada na zagadkę, którą fani zgadywali.",
+   "why_h": "Spoiler to kto przeżyje w 1996",
+   "why": "<p>Każdą śmierć w linii w dziczy i każde odkrycie omawia się tej samej nocy. Teorie fanów i wątki na Reddicie często dają odpowiedzi w tytułach.</p><p>Wycisz tytuł razem z imionami głównych bohaterek i słowami odcinek, finał i kto zginie.</p>"
   },
   "de": {
    "name": "Yellowjackets"
@@ -242,7 +254,11 @@
    "name": "Yellowjackets"
   },
   "pt-BR": {
-   "name": "Yellowjackets"
+   "name": "Yellowjackets",
+   "desc": "Yellowjackets sai toda semana, e as duas linhas do tempo e os mistérios geram teorias que estragam as revelações. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série alterna entre o acidente de 1996 e as sobreviventes adultas, e cada episódio semanal responde a um mistério que os fãs vinham chutando.",
+   "why_h": "Quem vive em 1996 é o spoiler",
+   "why": "<p>Cada morte na linha da floresta e cada revelação são discutidas na mesma noite. Teorias de fãs e tópicos no Reddit muitas vezes colocam a resposta no título.</p><p>Silencie o título com os nomes das protagonistas e palavras como episódio, final e quem morre.</p>"
   },
   "tr": {
    "name": "Yellowjackets"
@@ -304,5 +320,10 @@
   "page": "avoid-yellowjackets-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

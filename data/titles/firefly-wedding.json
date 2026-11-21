@@ -29,7 +29,7 @@
  "wikidata": "Q123858009",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Firefly Wedding"
+   "name": "Firefly Wedding",
+   "desc": "Firefly Wedding adapts a manga, so readers already know the twists of the romance. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The anime adapts a manga that is ahead of the show, and this is a story where the relationship twists are the point.",
+   "why_h": "A dark romance lives on its twists",
+   "why": "<p>Who is really who and what each character wants are the core of the story, and manga readers share the key pages as reactions.</p><p>Mute the title with the main characters' names and words like manga, chapter and ending.</p>"
   },
   "ru": {
-   "name": "Светлячковая свадьба"
+   "name": "Светлячковая свадьба",
+   "desc": "«Светлячковая свадьба» экранизирует мангу, так что читатели уже знают повороты этой романтической истории. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Аниме экранизирует мангу, которая впереди сериала, а в этой истории весь смысл в поворотах отношений.",
+   "why_h": "Мрачная романтика живёт поворотами",
+   "why": "<p>Кто есть кто на самом деле и чего хочет каждый герой — основа истории, и читатели манги выкладывают ключевые страницы как реакции.</p><p>Мьють название вместе с именами главных героев и словами «манга», «глава» и «концовка».</p>"
   },
   "uk": {
    "name": "Весілля світлячка"
   },
   "pl": {
-   "name": "Firefly Wedding"
+   "name": "Firefly Wedding",
+   "desc": "Firefly Wedding adaptuje mangę, więc czytelnicy znają zwroty tego romansu. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Anime adaptuje mangę, która jest przed serialem, a w tej historii chodzi właśnie o zwroty w relacji.",
+   "why_h": "Mroczny romans żyje zwrotami",
+   "why": "<p>Kto jest kim naprawdę i czego chce każda postać to rdzeń historii, a czytelnicy mangi wrzucają kluczowe strony jako reakcje.</p><p>Wycisz tytuł razem z imionami głównych bohaterów i słowami manga, rozdział i zakończenie.</p>"
   },
   "de": {
    "name": "Firefly Wedding"
@@ -242,7 +254,11 @@
    "name": "Firefly Wedding"
   },
   "pt-BR": {
-   "name": "Firefly Wedding"
+   "name": "Firefly Wedding",
+   "desc": "Firefly Wedding adapta um mangá, então os leitores já conhecem as viradas do romance. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O anime adapta um mangá que está à frente da série, e nessa história as viradas do relacionamento são o principal.",
+   "why_h": "Um romance sombrio vive de reviravoltas",
+   "why": "<p>Quem é quem de verdade e o que cada personagem quer são o centro da história, e os leitores do mangá postam as páginas-chave como reação.</p><p>Silencie o título com os nomes dos protagonistas e palavras como mangá, capítulo e final.</p>"
   },
   "tr": {
    "name": "Firefly Wedding"
@@ -304,5 +320,10 @@
   "page": "avoid-firefly-wedding-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

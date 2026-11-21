@@ -28,7 +28,7 @@
  "wikidata": null,
  "checked": null,
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -217,16 +217,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "JoJo: Steel Ball Run"
+   "name": "JoJo: Steel Ball Run",
+   "desc": "JoJo's Steel Ball Run manga ended in 2011, so its famous twists are old news to readers. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Part 7 of Hirohiko Araki's JoJo finished in 2011, and many fans call it the best part, so its twists are quoted everywhere.",
+   "why_h": "A finished part that fans love to quote",
+   "why": "<p>JoJo memes are everywhere, and Steel Ball Run panels are some of the most shared, including the race's ending and the main villain's power. Many spoilers come as jokes, not as discussion.</p><p>Mute the title with SBR, the main characters' names and words like manga, ending and Part 7.</p>"
   },
   "ru": {
-   "name": "ДжоДжо: Стальной шар"
+   "name": "ДжоДжо: Стальной шар",
+   "desc": "Манга JoJo «Стальной шар» закончилась в 2011 году, и её знаменитые повороты для читателей давно не секрет. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Седьмая часть JoJo Хирохико Араки закончилась в 2011 году, и многие фанаты считают её лучшей, поэтому её повороты цитируют везде.",
+   "why_h": "Законченная часть, которую любят цитировать",
+   "why": "<p>Мемы про JoJo повсюду, а страницы из «Стального шара» среди самых популярных, включая финал гонки и силу главного злодея. Многие спойлеры приходят в виде шуток, а не обсуждений.</p><p>Мьють название вместе с SBR, именами главных героев и словами «манга», «концовка» и «7 часть».</p>"
   },
   "uk": {
    "name": "ДжоДжо: Сталева куля"
   },
   "pl": {
-   "name": "JoJo: Steel Ball Run"
+   "name": "JoJo: Steel Ball Run",
+   "desc": "Manga JoJo: Steel Ball Run skończyła się w 2011 roku, więc jej słynne zwroty to dla czytelników nic nowego. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Siódma część JoJo Hirohiko Arakiego skończyła się w 2011 roku i wielu fanów uważa ją za najlepszą, więc jej zwroty są cytowane wszędzie.",
+   "why_h": "Skończona część, którą fani uwielbiają cytować",
+   "why": "<p>Memy o JoJo są wszędzie, a strony ze Steel Ball Run należą do najczęściej udostępnianych, łącznie z końcem wyścigu i mocą głównego złoczyńcy. Wiele spoilerów przychodzi jako żarty, nie dyskusje.</p><p>Wycisz tytuł razem z SBR, imionami głównych bohaterów i słowami manga, zakończenie i part 7.</p>"
   },
   "de": {
    "name": "JoJo: Steel Ball Run"
@@ -241,7 +253,11 @@
    "name": "JoJo: Steel Ball Run"
   },
   "pt-BR": {
-   "name": "JoJo: Steel Ball Run"
+   "name": "JoJo: Steel Ball Run",
+   "desc": "O mangá de JoJo: Steel Ball Run terminou em 2011, então as famosas reviravoltas são notícia velha para os leitores. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A parte 7 de JoJo, de Hirohiko Araki, terminou em 2011 e muitos fãs dizem que é a melhor, então as viradas são citadas em todo lugar.",
+   "why_h": "Uma parte terminada que os fãs adoram citar",
+   "why": "<p>Memes de JoJo estão em todo lugar, e as páginas de Steel Ball Run estão entre as mais compartilhadas, incluindo o fim da corrida e o poder do vilão principal. Muitos spoilers chegam como piada, não como discussão.</p><p>Silencie o título com SBR, os nomes dos protagonistas e palavras como mangá, final e parte 7.</p>"
   },
   "tr": {
    "name": "JoJo: Steel Ball Run"
@@ -303,5 +319,10 @@
   "page": "avoid-jojo-steel-ball-run-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

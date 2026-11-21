@@ -29,7 +29,7 @@
  "wikidata": "Q110864087",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Bad Monkey"
+   "name": "Bad Monkey",
+   "desc": "Bad Monkey adapts Carl Hiaasen's novel, so book readers already know how the mystery ends. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The Apple TV+ series adapts Carl Hiaasen's 2013 novel, so readers already know who is behind the crime that starts it all.",
+   "why_h": "A mystery with a published answer",
+   "why": "<p>The whole show hangs on one question, and the book answers it. Recaps and \"book vs show\" posts often mention the answer in the title.</p><p>Mute the title with the main characters' names and words like killer, ending and book.</p>"
   },
   "ru": {
-   "name": "Плохая обезьяна"
+   "name": "Плохая обезьяна",
+   "desc": "«Плохая обезьяна» экранизирует роман Карла Хайасена, так что читатели знают разгадку. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал Apple TV+ экранизирует роман Карла Хайасена 2013 года, и читатели уже знают, кто стоит за преступлением, с которого всё начинается.",
+   "why_h": "Детектив с опубликованным ответом",
+   "why": "<p>Весь сериал держится на одном вопросе, а книга на него отвечает. Пересказы и посты «книга против сериала» часто выдают ответ прямо в заголовке.</p><p>Мьють название вместе с именами главных героев и словами «убийца», «концовка» и «книга».</p>"
   },
   "uk": {
    "name": "Погана мавпа"
   },
   "pl": {
-   "name": "Bad Monkey"
+   "name": "Bad Monkey",
+   "desc": "Bad Monkey adaptuje powieść Carla Hiaasena, więc czytelnicy znają rozwiązanie zagadki. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial Apple TV+ adaptuje powieść Carla Hiaasena z 2013 roku, więc czytelnicy wiedzą, kto stoi za zbrodnią, od której wszystko się zaczyna.",
+   "why_h": "Zagadka z opublikowaną odpowiedzią",
+   "why": "<p>Cały serial wisi na jednym pytaniu, a książka na nie odpowiada. Streszczenia i posty „książka kontra serial” często zdradzają odpowiedź w tytule.</p><p>Wycisz tytuł razem z imionami głównych bohaterów i słowami zabójca, zakończenie i książka.</p>"
   },
   "de": {
    "name": "Bad Monkey"
@@ -242,7 +254,11 @@
    "name": "Bad Monkey"
   },
   "pt-BR": {
-   "name": "Bad Monkey"
+   "name": "Bad Monkey",
+   "desc": "Bad Monkey adapta o livro de Carl Hiaasen, então quem leu já sabe como o mistério termina. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série da Apple TV+ adapta o livro de 2013 de Carl Hiaasen, então os leitores já sabem quem está por trás do crime que começa tudo.",
+   "why_h": "Um mistério com resposta publicada",
+   "why": "<p>A série inteira depende de uma pergunta, e o livro responde. Resumos e posts de \"livro vs série\" muitas vezes entregam a resposta no título.</p><p>Silencie o título com os nomes dos protagonistas e palavras como assassino, final e livro.</p>"
   },
   "tr": {
    "name": "Bad Monkey"
@@ -304,5 +320,10 @@
   "page": "avoid-bad-monkey-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

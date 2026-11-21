@@ -29,7 +29,7 @@
  "wikidata": "Q119362054",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Metaphor: ReFantazio"
+   "name": "Metaphor: ReFantazio",
+   "desc": "Metaphor: ReFantazio is a long Atlus RPG, so players spend weeks in it while the late-game twists are online. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Atlus' fantasy RPG takes many dozens of hours to finish, so most players are still mid-game when the twists are already online.",
+   "why_h": "A long game gives spoilers time",
+   "why": "<p>The election plot, the true villain and the final dungeon are discussed in guides and videos long before an average player gets there. Searching for a boss strategy often shows story spoilers in the results.</p><p>Mute the title with Metaphor, Louis and words like ending, final dungeon and true villain.</p>"
   },
   "ru": {
-   "name": "Metaphor: ReFantazio"
+   "name": "Metaphor: ReFantazio",
+   "desc": "Metaphor: ReFantazio — длинная RPG от Atlus: игроки неделями в ней, а поздние повороты уже в сети. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Фэнтези-RPG от Atlus проходится многие десятки часов, так что большинство ещё в середине, когда повороты уже в сети.",
+   "why_h": "Длинная игра даёт спойлерам время",
+   "why": "<p>Сюжет с выборами, настоящий злодей и финальное подземелье разобраны в гайдах и роликах задолго до того, как туда дойдёт обычный игрок. Поиск тактики против босса часто выдаёт спойлеры прямо в результатах.</p><p>Мьють название вместе с Metaphor, «Луи» и словами «концовка», «финальное подземелье» и «настоящий злодей».</p>"
   },
   "uk": {
    "name": "Metaphor: ReFantazio"
   },
   "pl": {
-   "name": "Metaphor: ReFantazio"
+   "name": "Metaphor: ReFantazio",
+   "desc": "Metaphor: ReFantazio to długie RPG od Atlusa, więc gracze siedzą w nim tygodniami, a późne zwroty są już w sieci. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Fantasy RPG od Atlusa zajmuje dziesiątki godzin, więc większość graczy jest w połowie, gdy zwroty już krążą w sieci.",
+   "why_h": "Długa gra daje spoilerom czas",
+   "why": "<p>Wątek wyborów, prawdziwy złoczyńca i ostatni loch są omawiane w poradnikach i filmikach na długo, zanim dotrze tam przeciętny gracz. Szukanie taktyki na bossa często pokazuje spoilery w wynikach.</p><p>Wycisz tytuł razem z Metaphor, Louis i słowami zakończenie, ostatni loch i prawdziwy złoczyńca.</p>"
   },
   "de": {
    "name": "Metaphor: ReFantazio"
@@ -242,7 +254,11 @@
    "name": "Metaphor: ReFantazio"
   },
   "pt-BR": {
-   "name": "Metaphor: ReFantazio"
+   "name": "Metaphor: ReFantazio",
+   "desc": "Metaphor: ReFantazio é um RPG longo da Atlus, então os jogadores passam semanas nele enquanto as viradas finais já estão na internet. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O RPG de fantasia da Atlus leva dezenas de horas, então a maioria ainda está no meio quando as viradas já estão na internet.",
+   "why_h": "Um jogo longo dá tempo ao spoiler",
+   "why": "<p>A trama da eleição, o verdadeiro vilão e a masmorra final são discutidos em guias e vídeos muito antes de um jogador comum chegar lá. Buscar estratégia para um chefe muitas vezes mostra spoiler nos resultados.</p><p>Silencie o título com Metaphor, Louis e palavras como final, masmorra final e verdadeiro vilão.</p>"
   },
   "tr": {
    "name": "Metaphor: ReFantazio"
@@ -304,5 +320,10 @@
   "page": "avoid-metaphor-refantazio-spoilers",
   "kind": "game"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

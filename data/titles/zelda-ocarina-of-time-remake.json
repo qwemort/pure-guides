@@ -28,7 +28,7 @@
  "wikidata": null,
  "checked": null,
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -217,16 +217,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Zelda: Ocarina of Time (remake)"
+   "name": "Zelda: Ocarina of Time (remake)",
+   "desc": "The original Ocarina of Time story is well known since 1998, so the spoilers here are what a remake changes. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Ocarina of Time came out in 1998 and its story is common knowledge, so with a remake the real spoilers are the changes.",
+   "why_h": "Old story, new surprises",
+   "why": "<p>Players who never played the original can still be spoiled by classic reveals, like who Sheik is. For veterans, the risk is new dungeons, scenes or endings shown in trailers and early footage.</p><p>Mute the title with Ocarina of Time, OoT remake, Sheik and words like ending, new dungeon and leak.</p>"
   },
   "ru": {
-   "name": "Zelda: Ocarina of Time (ремейк)"
+   "name": "Zelda: Ocarina of Time (ремейк)",
+   "desc": "Сюжет оригинальной Ocarina of Time известен с 1998 года, так что спойлеры тут — что изменит ремейк. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Ocarina of Time вышла в 1998 году, её сюжет всем известен, поэтому в ремейке настоящие спойлеры — изменения.",
+   "why_h": "Старая история, новые сюрпризы",
+   "why": "<p>Тех, кто не играл в оригинал, всё ещё могут заспойлерить классические раскрытия, например кто такой Шейк. Для ветеранов риск — новые подземелья, сцены или концовки в трейлерах и ранних записях.</p><p>Мьють название вместе с Ocarina of Time, OoT remake, «Шейк» и словами «концовка», «новое подземелье» и «слив».</p>"
   },
   "uk": {
    "name": "Zelda: Ocarina of Time (ремейк)"
   },
   "pl": {
-   "name": "Zelda: Ocarina of Time (remake)"
+   "name": "Zelda: Ocarina of Time (remake)",
+   "desc": "Historia oryginalnego Ocarina of Time jest znana od 1998 roku, więc spoilerami są tu zmiany w remake'u. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Ocarina of Time wyszło w 1998 roku i jego historię zna każdy, więc w remake'u prawdziwe spoilery to zmiany.",
+   "why_h": "Stara historia, nowe niespodzianki",
+   "why": "<p>Tych, którzy nie grali w oryginał, wciąż mogą zaspoilerować klasyczne odkrycia, na przykład kim jest Sheik. Dla weteranów ryzyko to nowe lochy, sceny albo zakończenia w zwiastunach i wczesnych materiałach.</p><p>Wycisz tytuł razem z Ocarina of Time, OoT remake, Sheik i słowami zakończenie, nowy loch i przeciek.</p>"
   },
   "de": {
    "name": "Zelda: Ocarina of Time (remake)"
@@ -241,7 +253,11 @@
    "name": "Zelda: Ocarina of Time (remake)"
   },
   "pt-BR": {
-   "name": "Zelda: Ocarina of Time (remake)"
+   "name": "Zelda: Ocarina of Time (remake)",
+   "desc": "A história do Ocarina of Time original é conhecida desde 1998, então os spoilers aqui são o que o remake muda. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "Ocarina of Time saiu em 1998 e a história é bem conhecida, então num remake os verdadeiros spoilers são as mudanças.",
+   "why_h": "História antiga, surpresas novas",
+   "why": "<p>Quem nunca jogou o original ainda pode levar spoiler de revelações clássicas, como quem é Sheik. Para os veteranos, o risco são masmorras, cenas ou finais novos mostrados em trailers e gravações antecipadas.</p><p>Silencie o título com Ocarina of Time, OoT remake, Sheik e palavras como final, nova masmorra e vazamento.</p>"
   },
   "tr": {
    "name": "Zelda: Ocarina of Time (remake)"
@@ -303,5 +319,10 @@
   "page": "avoid-zelda-ocarina-of-time-remake-spoilers",
   "kind": "game"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

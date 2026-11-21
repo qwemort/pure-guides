@@ -29,7 +29,7 @@
  "wikidata": "Q140041688",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Overgeared"
+   "name": "Overgeared",
+   "desc": "Overgeared adapts a very long Korean web novel and webtoon that are far ahead. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The anime adapts a Korean web novel with well over a thousand chapters and a webtoon, so the story is far ahead of the show.",
+   "why_h": "A thousand chapters of head start",
+   "why": "<p>Readers know Grid's whole rise, his later classes and items and the biggest enemies. Webtoon panels are shared as art across anime and manhwa accounts.</p><p>Mute the title with Grid and words like webtoon, manhwa and web novel.</p>"
   },
   "ru": {
-   "name": "Сверхэкипированный"
+   "name": "Сверхэкипированный",
+   "desc": "«Сверхэкипированный» экранизирует очень длинную корейскую веб-новеллу и вебтун, которые далеко впереди. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Аниме экранизирует корейскую веб-новеллу больше чем на тысячу глав и вебтун по ней, так что история сильно впереди сериала.",
+   "why_h": "Тысяча глав форы",
+   "why": "<p>Читатели знают весь путь Грида, его поздние классы и предметы и главных врагов. Страницы вебтуна разлетаются как арт по аниме- и манхва-аккаунтам.</p><p>Мьють название вместе с «Грид» и словами «вебтун», «манхва» и «веб-новелла».</p>"
   },
   "uk": {
    "name": "Надекіпірований"
   },
   "pl": {
-   "name": "Overgeared"
+   "name": "Overgeared",
+   "desc": "Overgeared adaptuje bardzo długą koreańską web powieść i webtoon, które są daleko przed anime. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Anime adaptuje koreańską web powieść liczącą grubo ponad tysiąc rozdziałów i webtoon, więc historia jest daleko przed serialem.",
+   "why_h": "Tysiąc rozdziałów przewagi",
+   "why": "<p>Czytelnicy znają całą drogę Grida, jego późniejsze klasy i przedmioty oraz największych wrogów. Strony webtoona krążą jako art po kontach o anime i manhwie.</p><p>Wycisz tytuł razem z Grid i słowami webtoon, manhwa i web powieść.</p>"
   },
   "de": {
    "name": "Overgeared"
@@ -242,7 +254,11 @@
    "name": "Overgeared"
   },
   "pt-BR": {
-   "name": "Overgeared"
+   "name": "Overgeared",
+   "desc": "Overgeared adapta uma web novel coreana enorme e um webtoon que estão muito à frente. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O anime adapta uma web novel coreana com bem mais de mil capítulos e um webtoon, então a história está muito à frente da série.",
+   "why_h": "Mil capítulos de vantagem",
+   "why": "<p>Os leitores conhecem toda a ascensão de Grid, as classes e itens futuros e os maiores inimigos. Os quadros do webtoon circulam como arte em contas de anime e manhwa.</p><p>Silencie o título com Grid e palavras como webtoon, manhwa e web novel.</p>"
   },
   "tr": {
    "name": "Overgeared"
@@ -304,5 +320,10 @@
   "page": "avoid-overgeared-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

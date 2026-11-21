@@ -29,7 +29,7 @@
  "wikidata": "Q110962162",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Reincarnated as a Sword"
+   "name": "Reincarnated as a Sword",
+   "desc": "Reincarnated as a Sword adapts a light novel and manga that are ahead of the anime. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The anime adapts Yuu Tanaka's light novels and their manga, which are well ahead of the show.",
+   "why_h": "Fran's journey is mapped out in the novels",
+   "why": "<p>Readers know Fran's later evolutions, new skills for the sword and the big fights ahead. Those come up as screenshots of manga pages and novel illustrations.</p><p>Mute the title with Fran, Teacher and words like light novel, manga and evolution.</p>"
   },
   "ru": {
-   "name": "Перерождение в меч"
+   "name": "Перерождение в меч",
+   "desc": "«Перерождение в меч» экранизирует ранобэ и мангу, которые впереди аниме. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Аниме экранизирует ранобэ Юу Танаки и мангу по нему, а они заметно впереди сериала.",
+   "why_h": "Путь Фран уже расписан в романах",
+   "why": "<p>Читатели знают будущие эволюции Фран, новые навыки меча и крупные битвы впереди. Это всплывает скринами страниц манги и иллюстрациями из ранобэ.</p><p>Мьють название вместе с «Фран», «Учитель» и словами «ранобэ», «манга» и «эволюция».</p>"
   },
   "uk": {
    "name": "Переродження в меч"
   },
   "pl": {
-   "name": "Reincarnated as a Sword"
+   "name": "Reincarnated as a Sword",
+   "desc": "Reincarnated as a Sword adaptuje light novel i mangę, które są przed anime. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Anime adaptuje light novel Yuu Tanaki i mangę na jej podstawie, które są wyraźnie przed serialem.",
+   "why_h": "Droga Fran jest rozpisana w powieściach",
+   "why": "<p>Czytelnicy znają późniejsze ewolucje Fran, nowe umiejętności miecza i duże walki. Wychodzą jako zrzuty stron mangi i ilustracje z powieści.</p><p>Wycisz tytuł razem z Fran, Teacher i słowami light novel, manga i ewolucja.</p>"
   },
   "de": {
    "name": "Reincarnated as a Sword"
@@ -242,7 +254,11 @@
    "name": "Reincarnated as a Sword"
   },
   "pt-BR": {
-   "name": "Reincarnated as a Sword"
+   "name": "Reincarnated as a Sword",
+   "desc": "Reincarnated as a Sword adapta uma light novel e um mangá que estão à frente do anime. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O anime adapta as light novels de Yuu Tanaka e o mangá delas, que estão bem à frente da série.",
+   "why_h": "A jornada de Fran já está nas novels",
+   "why": "<p>Os leitores conhecem as evoluções futuras de Fran, as novas habilidades da espada e as grandes lutas. Isso aparece em prints do mangá e ilustrações das novels.</p><p>Silencie o título com Fran, Mestre e palavras como light novel, mangá e evolução.</p>"
   },
   "tr": {
    "name": "Reincarnated as a Sword"
@@ -304,5 +320,10 @@
   "page": "avoid-reincarnated-as-a-sword-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

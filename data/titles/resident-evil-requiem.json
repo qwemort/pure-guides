@@ -29,7 +29,7 @@
  "wikidata": "Q124983920",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Resident Evil Requiem"
+   "name": "Resident Evil Requiem",
+   "desc": "Resident Evil Requiem spoilers come from day-one playthroughs, cutscene uploads and returning character reveals. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Capcom's new Resident Evil follows Grace Ashcroft, and in this series which old faces return and how is the spoiler everyone avoids.",
+   "why_h": "Returning characters are the twist",
+   "why": "<p>Resident Evil fans track every link to earlier games, so cameo and villain reveals spread in thumbnails and titles within hours of release. Full playthroughs appear on day one.</p><p>Mute the title with RE9, Requiem, Grace and words like ending, boss and cameo.</p>"
   },
   "ru": {
-   "name": "Resident Evil Requiem"
+   "name": "Resident Evil Requiem",
+   "desc": "Спойлеры Resident Evil Requiem приходят из прохождений первого дня, загрузок катсцен и раскрытия вернувшихся героев. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Новый Resident Evil от Capcom про Грейс Эшкрофт, а в этой серии главный спойлер — какие старые герои вернутся и как.",
+   "why_h": "Вернувшиеся герои и есть поворот",
+   "why": "<p>Фанаты Resident Evil ловят каждую связь с прошлыми играми, поэтому камео и злодеи разлетаются в превью и заголовках за пару часов после выхода. Полные прохождения появляются в первый же день.</p><p>Мьють название вместе с RE9, Requiem, «Грейс» и словами «концовка», «босс» и «камео».</p>"
   },
   "uk": {
    "name": "Resident Evil Requiem"
   },
   "pl": {
-   "name": "Resident Evil Requiem"
+   "name": "Resident Evil Requiem",
+   "desc": "Spoilery Resident Evil Requiem płyną z przejść z dnia premiery, wrzutek przerywników i odkryć powracających postaci. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Nowy Resident Evil od Capcomu opowiada o Grace Ashcroft, a w tej serii spoilerem jest to, które stare postacie wrócą i jak.",
+   "why_h": "Powracające postacie to zwrot akcji",
+   "why": "<p>Fani Resident Evil śledzą każde powiązanie z wcześniejszymi grami, więc cameo i złoczyńcy roznoszą się w miniaturkach i tytułach w kilka godzin od premiery. Pełne przejścia są w dniu premiery.</p><p>Wycisz tytuł razem z RE9, Requiem, Grace i słowami zakończenie, boss i cameo.</p>"
   },
   "de": {
    "name": "Resident Evil Requiem"
@@ -242,7 +254,11 @@
    "name": "Resident Evil Requiem"
   },
   "pt-BR": {
-   "name": "Resident Evil Requiem"
+   "name": "Resident Evil Requiem",
+   "desc": "Os spoilers de Resident Evil Requiem vêm de gameplays do primeiro dia, cutscenes no YouTube e revelação de personagens que voltam. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O novo Resident Evil da Capcom acompanha Grace Ashcroft, e nesta série o spoiler que todos evitam é quais rostos antigos voltam e como.",
+   "why_h": "Os personagens que voltam são a reviravolta",
+   "why": "<p>Os fãs de Resident Evil seguem cada ligação com os jogos anteriores, então participações e vilões se espalham em miniaturas e títulos poucas horas depois do lançamento. As gameplays completas saem no primeiro dia.</p><p>Silencie o título com RE9, Requiem, Grace e palavras como final, chefe e participação especial.</p>"
   },
   "tr": {
    "name": "Resident Evil Requiem"
@@ -304,5 +320,10 @@
   "page": "avoid-resident-evil-requiem-spoilers",
   "kind": "game"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

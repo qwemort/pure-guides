@@ -29,7 +29,7 @@
  "wikidata": "Q5363072",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Detective Conan"
+   "name": "Detective Conan",
+   "desc": "Detective Conan films come out in Japan months before the rest of the world, and the manga reveals spread fast. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Gosho Aoyama's manga has run since 1994, and the yearly film reaches Japan months before most other countries.",
+   "why_h": "Japan sees it first",
+   "why": "<p>Each spring a new film opens in Japanese cinemas, and international releases come much later. In between, plot points and the identity of new characters spread through fan accounts.</p><p>Reveals about the Black Organization are the most guarded spoilers. Mute the title with Meitantei Conan, Black Organization and words like movie and chapter.</p>"
   },
   "ru": {
-   "name": "Детектив Конан"
+   "name": "Детектив Конан",
+   "desc": "Фильмы «Детектив Конан» выходят в Японии на месяцы раньше остального мира, а раскрытия из манги быстро разлетаются. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Госё Аоямы выходит с 1994 года, а ежегодный фильм попадает в Японию на месяцы раньше, чем в большинство стран.",
+   "why_h": "Япония видит первой",
+   "why": "<p>Каждую весну новый фильм выходит в японских кинотеатрах, а в других странах намного позже. В этот промежуток сюжет и личности новых героев расходятся через фанатские аккаунты.</p><p>Самые охраняемые спойлеры — раскрытия о Чёрной организации. Мьють название вместе с Meitantei Conan, «Чёрная организация» и словами «фильм» и «глава».</p>"
   },
   "uk": {
    "name": "Детектив Конан"
   },
   "pl": {
-   "name": "Detective Conan"
+   "name": "Detective Conan",
+   "desc": "Filmy Detective Conan wychodzą w Japonii miesiące przed resztą świata, a odkrycia z mangi szybko się roznoszą. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Gosho Aoyamy ukazuje się od 1994 roku, a coroczny film trafia do Japonii miesiące przed większością krajów.",
+   "why_h": "Japonia widzi pierwsza",
+   "why": "<p>Każdej wiosny nowy film wchodzi do japońskich kin, a w innych krajach dużo później. W tym czasie fabuła i tożsamość nowych postaci rozchodzą się przez konta fanów.</p><p>Najpilniej strzeżone spoilery to odkrycia o Czarnej Organizacji. Wycisz tytuł razem z Meitantei Conan, Black Organization i słowami film i rozdział.</p>"
   },
   "de": {
    "name": "Detective Conan"
@@ -242,7 +254,11 @@
    "name": "Detective Conan"
   },
   "pt-BR": {
-   "name": "Detective Conan"
+   "name": "Detective Conan",
+   "desc": "Os filmes de Detetive Conan saem no Japão meses antes do resto do mundo, e as revelações do mangá se espalham rápido. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Gosho Aoyama sai desde 1994, e o filme anual chega ao Japão meses antes da maioria dos países.",
+   "why_h": "O Japão vê primeiro",
+   "why": "<p>Toda primavera um filme novo estreia nos cinemas japoneses, e no resto do mundo bem depois. Nesse intervalo, a trama e a identidade de personagens novos circulam por contas de fãs.</p><p>As revelações sobre a Organização Negra são os spoilers mais guardados. Silencie o título com Meitantei Conan, Organização Negra e palavras como filme e capítulo.</p>"
   },
   "tr": {
    "name": "Detective Conan"
@@ -304,5 +320,10 @@
   "page": "avoid-detective-conan-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

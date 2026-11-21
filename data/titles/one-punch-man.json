@@ -29,7 +29,7 @@
  "wikidata": "Q22341674",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "One-Punch Man"
+   "name": "One-Punch Man",
+   "desc": "One-Punch Man has a webcomic and a manga that are both far ahead of the anime. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "ONE's original webcomic and Yusuke Murata's manga remake are both far ahead of the anime, and they do not always match.",
+   "why_h": "Two versions ahead of the show",
+   "why": "<p>Fans compare the webcomic, the manga and the anime all the time, so a simple \"which version is better\" post can spoil the Monster Association arc and beyond.</p><p>Murata's art is shared as wallpapers and edits. Mute the title with Saitama, Garou and words like manga, webcomic and chapter.</p>"
   },
   "ru": {
-   "name": "Ванпанчмен"
+   "name": "Ванпанчмен",
+   "desc": "У «Ванпанчмена» есть веб-комикс и манга, и оба далеко впереди аниме. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Оригинальный веб-комикс ONE и ремейк-манга Юсукэ Мураты оба далеко впереди аниме и не всегда совпадают.",
+   "why_h": "Две версии впереди сериала",
+   "why": "<p>Фанаты постоянно сравнивают веб-комикс, мангу и аниме, так что даже пост «какая версия лучше» может заспойлерить арку Ассоциации монстров и дальше.</p><p>Рисунки Мураты разлетаются как обои и эдиты. Мьють название вместе с «Сайтама», «Гароу» и словами «манга», «веб-комикс» и «глава».</p>"
   },
   "uk": {
    "name": "Ванпанчмен"
   },
   "pl": {
-   "name": "One-Punch Man"
+   "name": "One-Punch Man",
+   "desc": "One-Punch Man ma webkomiks i mangę, które są daleko przed anime. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Oryginalny webkomiks ONE i manga-remake Yusuke Muraty są daleko przed anime i nie zawsze się zgadzają.",
+   "why_h": "Dwie wersje przed serialem",
+   "why": "<p>Fani ciągle porównują webkomiks, mangę i anime, więc nawet post „która wersja lepsza” może zaspoilerować arc Stowarzyszenia Potworów i dalej.</p><p>Rysunki Muraty krążą jako tapety i edity. Wycisz tytuł razem z Saitama, Garou i słowami manga, webkomiks i rozdział.</p>"
   },
   "de": {
    "name": "One-Punch Man"
@@ -242,7 +254,11 @@
    "name": "One-Punch Man"
   },
   "pt-BR": {
-   "name": "One-Punch Man"
+   "name": "One-Punch Man",
+   "desc": "One-Punch Man tem um webcomic e um mangá muito à frente do anime. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O webcomic original de ONE e o mangá remake de Yusuke Murata estão muito à frente do anime, e nem sempre batem.",
+   "why_h": "Duas versões à frente da série",
+   "why": "<p>Os fãs comparam webcomic, mangá e anime o tempo todo, então até um post de \"qual versão é melhor\" pode estragar o arco da Associação dos Monstros e o que vem depois.</p><p>A arte de Murata circula como papel de parede e edit. Silencie o título com Saitama, Garou e palavras como mangá, webcomic e capítulo.</p>"
   },
   "tr": {
    "name": "One-Punch Man"
@@ -304,5 +320,10 @@
   "page": "avoid-one-punch-man-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

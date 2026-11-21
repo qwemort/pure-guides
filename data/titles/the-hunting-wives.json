@@ -29,7 +29,7 @@
  "wikidata": "Q125020382",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Hunting Wives"
+   "name": "The Hunting Wives",
+   "desc": "The Hunting Wives adapts May Cobb's thriller, so readers know the murder twist. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The series adapts May Cobb's 2021 thriller, so readers already know who is behind the death at the center of the story.",
+   "why_h": "A thriller with a known twist",
+   "why": "<p>The book's answer is easy to find, and \"book vs show\" posts compare the endings openly. If the season drops at once, the twist spreads in a weekend.</p><p>Mute the title with the main characters' names and words like killer, ending and book.</p>"
   },
   "ru": {
-   "name": "Жёны-охотницы"
+   "name": "Жёны-охотницы",
+   "desc": "«Жёны-охотницы» экранизируют триллер Мэй Кобб, так что читатели знают поворот с убийством. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал экранизирует триллер Мэй Кобб 2021 года, и читатели уже знают, кто стоит за смертью в центре истории.",
+   "why_h": "Триллер с известным поворотом",
+   "why": "<p>Ответ из книги легко найти, а посты «книга против сериала» открыто сравнивают концовки. Если сезон выходит целиком, поворот разлетается за выходные.</p><p>Мьють название вместе с именами главных героев и словами «убийца», «концовка» и «книга».</p>"
   },
   "uk": {
    "name": "Дружини-мисливиці"
   },
   "pl": {
-   "name": "The Hunting Wives"
+   "name": "The Hunting Wives",
+   "desc": "The Hunting Wives adaptuje thriller May Cobb, więc czytelnicy znają zwrot z morderstwem. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial adaptuje thriller May Cobb z 2021 roku, więc czytelnicy wiedzą, kto stoi za śmiercią w centrum historii.",
+   "why_h": "Thriller ze znanym zwrotem",
+   "why": "<p>Odpowiedź z książki łatwo znaleźć, a posty „książka kontra serial” otwarcie porównują zakończenia. Jeśli sezon wychodzi w całości, zwrot rozchodzi się w weekend.</p><p>Wycisz tytuł razem z imionami głównych bohaterek i słowami zabójca, zakończenie i książka.</p>"
   },
   "de": {
    "name": "The Hunting Wives"
@@ -242,7 +254,11 @@
    "name": "The Hunting Wives"
   },
   "pt-BR": {
-   "name": "The Hunting Wives"
+   "name": "The Hunting Wives",
+   "desc": "The Hunting Wives adapta o thriller de May Cobb, então os leitores conhecem a virada do assassinato. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série adapta o thriller de 2021 de May Cobb, então os leitores já sabem quem está por trás da morte no centro da história.",
+   "why_h": "Um thriller com virada conhecida",
+   "why": "<p>A resposta do livro é fácil de achar, e posts de \"livro vs série\" comparam os finais abertamente. Se a temporada sai de uma vez, a virada se espalha num fim de semana.</p><p>Silencie o título com os nomes das protagonistas e palavras como assassino, final e livro.</p>"
   },
   "tr": {
    "name": "The Hunting Wives"
@@ -304,5 +320,10 @@
   "page": "avoid-the-hunting-wives-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

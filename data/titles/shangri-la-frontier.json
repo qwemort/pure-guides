@@ -29,7 +29,7 @@
  "wikidata": "Q113110865",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Shangri-La Frontier"
+   "name": "Shangri-La Frontier",
+   "desc": "Shangri-La Frontier is based on a long web novel and manga that are ahead of the anime. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The anime adapts a web novel by Katarina and its manga, and both are far ahead of what the show has covered.",
+   "why_h": "The game has more bosses than the anime has shown",
+   "why": "<p>The story is built around unique monsters and the secrets of the game world, and readers know which ones fall and what is behind them. Boss reveals are shared as panels.</p><p>Mute the title with Sunraku and words like manga, web novel and boss.</p>"
   },
   "ru": {
-   "name": "Рубеж Шангри-Ла"
+   "name": "Рубеж Шангри-Ла",
+   "desc": "«Рубеж Шангри-Ла» основан на длинной веб-новелле и манге, которые впереди аниме. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Аниме экранизирует веб-новеллу Катарины и мангу по ней, и обе далеко впереди того, что показал сериал.",
+   "why_h": "В игре больше боссов, чем показало аниме",
+   "why": "<p>История построена вокруг уникальных монстров и секретов игрового мира, и читатели знают, кто из них падёт и что за ними стоит. Раскрытия боссов разлетаются страницами манги.</p><p>Мьють название вместе с «Санраку» и словами «манга», «веб-новелла» и «босс».</p>"
   },
   "uk": {
    "name": "Рубіж Шангрі-Ла"
   },
   "pl": {
-   "name": "Shangri-La Frontier"
+   "name": "Shangri-La Frontier",
+   "desc": "Shangri-La Frontier opiera się na długiej web powieści i mandze, które są przed anime. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Anime adaptuje web powieść Katariny i mangę na jej podstawie, a obie są daleko przed serialem.",
+   "why_h": "Gra ma więcej bossów, niż pokazało anime",
+   "why": "<p>Historia kręci się wokół unikalnych potworów i sekretów świata gry, a czytelnicy wiedzą, które padną i co się za nimi kryje. Odkrycia bossów krążą jako strony mangi.</p><p>Wycisz tytuł razem z Sunraku i słowami manga, web powieść i boss.</p>"
   },
   "de": {
    "name": "Shangri-La Frontier"
@@ -242,7 +254,11 @@
    "name": "Shangri-La Frontier"
   },
   "pt-BR": {
-   "name": "Shangri-La Frontier"
+   "name": "Shangri-La Frontier",
+   "desc": "Shangri-La Frontier é baseado numa web novel longa e num mangá que estão à frente do anime. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O anime adapta uma web novel de Katarina e o mangá dela, e os dois estão muito à frente do que a série mostrou.",
+   "why_h": "O jogo tem mais chefes do que o anime mostrou",
+   "why": "<p>A história gira em torno de monstros únicos e dos segredos do mundo do jogo, e os leitores sabem quais caem e o que existe por trás deles. As revelações de chefes circulam como páginas do mangá.</p><p>Silencie o título com Sunraku e palavras como mangá, web novel e chefe.</p>"
   },
   "tr": {
    "name": "Shangri-La Frontier"
@@ -304,5 +320,10 @@
   "page": "avoid-shangri-la-frontier-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

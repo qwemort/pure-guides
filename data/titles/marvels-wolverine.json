@@ -29,7 +29,7 @@
  "wikidata": "Q108479474",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Marvel's Wolverine"
+   "name": "Marvel's Wolverine",
+   "desc": "Marvel's Wolverine is Insomniac's story game for PlayStation. Spoilers come from early copies, cutscene uploads and villain reveals. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Insomniac's Wolverine game builds on decades of X-Men comics, so villain and cameo reveals are the spoilers fans watch for.",
+   "why_h": "Cameos and villains are the reveal",
+   "why": "<p>With Marvel games the biggest spoilers are which characters show up and who the final villain is. Those leak through early copies, trophy lists and thumbnails within days.</p><p>PC players usually wait longer than console players. Mute the title with Wolverine game, Logan and words like ending, villain and post credits.</p>"
   },
   "ru": {
-   "name": "Marvel's Wolverine"
+   "name": "Marvel's Wolverine",
+   "desc": "Marvel's Wolverine — сюжетная игра Insomniac для PlayStation. Спойлеры приходят из ранних копий, загрузок катсцен и раскрытия злодеев. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Игра Insomniac про Росомаху опирается на десятилетия комиксов про Людей Икс, так что главные спойлеры — злодеи и камео.",
+   "why_h": "Камео и злодеи и есть раскрытие",
+   "why": "<p>В играх Marvel главные спойлеры — какие персонажи появятся и кто финальный злодей. Это сливается через ранние копии, списки трофеев и превью за несколько дней.</p><p>Игроки на ПК обычно ждут дольше консольных. Мьють название вместе с Wolverine game, «Логан» и словами «концовка», «злодей» и «после титров».</p>"
   },
   "uk": {
    "name": "Marvel's Wolverine"
   },
   "pl": {
-   "name": "Marvel's Wolverine"
+   "name": "Marvel's Wolverine",
+   "desc": "Marvel's Wolverine to fabularna gra Insomniac na PlayStation. Spoilery płyną z wczesnych kopii, wrzutek przerywników i odkryć złoczyńców. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Gra Insomniac o Wolverinie opiera się na dekadach komiksów o X-Men, więc spoilerami są złoczyńcy i cameo.",
+   "why_h": "Cameo i złoczyńcy to całe odkrycie",
+   "why": "<p>W grach Marvela największe spoilery to, kto się pojawi i kto jest ostatnim złoczyńcą. Wyciekają przez wczesne kopie, listy trofeów i miniaturki w kilka dni.</p><p>Gracze na PC zwykle czekają dłużej niż konsolowi. Wycisz tytuł razem z Wolverine game, Logan i słowami zakończenie, złoczyńca i po napisach.</p>"
   },
   "de": {
    "name": "Marvel's Wolverine"
@@ -242,7 +254,11 @@
    "name": "Marvel's Wolverine"
   },
   "pt-BR": {
-   "name": "Marvel's Wolverine"
+   "name": "Marvel's Wolverine",
+   "desc": "Marvel's Wolverine é o jogo de história da Insomniac para PlayStation. Os spoilers vêm de cópias antecipadas, cutscenes no YouTube e revelação de vilões. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O jogo do Wolverine da Insomniac se apoia em décadas de quadrinhos dos X-Men, então os spoilers são vilões e participações especiais.",
+   "why_h": "Participações e vilões são a revelação",
+   "why": "<p>Nos jogos da Marvel os maiores spoilers são quais personagens aparecem e quem é o vilão final. Isso vaza por cópias antecipadas, listas de troféus e miniaturas em poucos dias.</p><p>Quem joga no PC costuma esperar mais que no console. Silencie o título com Wolverine game, Logan e palavras como final, vilão e pós-créditos.</p>"
   },
   "tr": {
    "name": "Marvel's Wolverine"
@@ -304,5 +320,10 @@
   "page": "avoid-marvels-wolverine-spoilers",
   "kind": "game"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

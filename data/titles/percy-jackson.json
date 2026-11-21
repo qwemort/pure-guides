@@ -29,7 +29,7 @@
  "wikidata": "Q96749211",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Percy Jackson and the Olympians"
+   "name": "Percy Jackson and the Olympians",
+   "desc": "Percy Jackson and the Olympians follows Rick Riordan's books, so readers know each season's twists. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The Disney+ series adapts Rick Riordan's books, one book per season, so readers already know the betrayals and reveals.",
+   "why_h": "Each season is a book readers know",
+   "why": "<p>Book fans have known the series' biggest betrayal and prophecy for years and mention them freely under trailers and episode clips. Episodes come out weekly, so the risk lasts the whole season.</p><p>Mute the title with the book's name for the current season and words like book, prophecy and ending.</p>"
   },
   "ru": {
-   "name": "Перси Джексон и олимпийцы"
+   "name": "Перси Джексон и олимпийцы",
+   "desc": "«Перси Джексон и олимпийцы» идёт по книгам Рика Риордана, так что читатели знают повороты каждого сезона. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал Disney+ экранизирует книги Рика Риордана, по книге на сезон, так что читатели уже знают предательства и раскрытия.",
+   "why_h": "Каждый сезон — книга, которую читатели знают",
+   "why": "<p>Фанаты книг годами знают главное предательство и пророчество серии и спокойно упоминают их под трейлерами и клипами серий. Серии выходят раз в неделю, так что риск держится весь сезон.</p><p>Мьють название вместе с названием книги текущего сезона и словами «книга», «пророчество» и «концовка».</p>"
   },
   "uk": {
    "name": "Персі Джексон і олімпійці"
   },
   "pl": {
-   "name": "Percy Jackson i bogowie olimpijscy"
+   "name": "Percy Jackson i bogowie olimpijscy",
+   "desc": "Percy Jackson i bogowie olimpijscy idzie za książkami Ricka Riordana, więc czytelnicy znają zwroty każdego sezonu. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial Disney+ adaptuje książki Ricka Riordana, książka na sezon, więc czytelnicy znają zdrady i odkrycia.",
+   "why_h": "Każdy sezon to książka, którą czytelnicy znają",
+   "why": "<p>Fani książek od lat znają największą zdradę i przepowiednię serii i swobodnie wspominają je pod zwiastunami i klipami. Odcinki wychodzą co tydzień, więc ryzyko trwa cały sezon.</p><p>Wycisz tytuł razem z tytułem książki z obecnego sezonu i słowami książka, przepowiednia i zakończenie.</p>"
   },
   "de": {
    "name": "Percy Jackson: Die Serie"
@@ -242,7 +254,11 @@
    "name": "Percy Jackson e gli dei dell'Olimpo"
   },
   "pt-BR": {
-   "name": "Percy Jackson e os Olimpianos"
+   "name": "Percy Jackson e os Olimpianos",
+   "desc": "Percy Jackson e os Olimpianos segue os livros de Rick Riordan, então os leitores conhecem as viradas de cada temporada. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série do Disney+ adapta os livros de Rick Riordan, um livro por temporada, então os leitores já conhecem as traições e revelações.",
+   "why_h": "Cada temporada é um livro que os leitores conhecem",
+   "why": "<p>Os fãs dos livros conhecem há anos a maior traição e a profecia da série e falam disso à vontade em trailers e clipes. Os episódios saem toda semana, então o risco dura a temporada inteira.</p><p>Silencie o título com o nome do livro da temporada atual e palavras como livro, profecia e final.</p>"
   },
   "tr": {
    "name": "Percy Jackson ve Olimposlular"
@@ -304,5 +320,10 @@
   "page": "avoid-percy-jackson-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

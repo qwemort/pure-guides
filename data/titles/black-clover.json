@@ -29,7 +29,7 @@
  "wikidata": "Q20638503",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Black Clover"
+   "name": "Black Clover",
+   "desc": "The Black Clover manga is far ahead of the anime and is in its final arc. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Yuki Tabata's manga is deep into its final arc, years past the point where the anime stopped, so anime-only fans are far behind.",
+   "why_h": "The anime stopped, the manga kept going",
+   "why": "<p>Everything after the anime's last episode is manga-only, and that includes the biggest fights and reveals about the main villains. Readers post panels as fan art, so they show up in feeds without warning.</p><p>Mute the title with words like manga, final arc and chapter, and keep it on until you have caught up or the anime returns.</p>"
   },
   "ru": {
-   "name": "Чёрный клевер"
+   "name": "Чёрный клевер",
+   "desc": "Манга «Чёрный клевер» далеко впереди аниме и идёт к финальной арке. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Юки Табаты глубоко в финальной арке, на годы дальше места, где остановилось аниме.",
+   "why_h": "Аниме остановилось, манга пошла дальше",
+   "why": "<p>Всё после последней серии аниме есть только в манге, включая главные битвы и раскрытия о главных злодеях. Читатели выкладывают страницы как фан-арт, и они попадают в ленту без предупреждения.</p><p>Мьють название вместе со словами «манга», «финальная арка» и «глава» и держи, пока не догонишь или пока не вернётся аниме.</p>"
   },
   "uk": {
    "name": "Чорна конюшина"
   },
   "pl": {
-   "name": "Black Clover"
+   "name": "Black Clover",
+   "desc": "Manga Black Clover jest daleko przed anime i zmierza do ostatniego arcu. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Yukiego Tabaty jest głęboko w ostatnim arcu, lata dalej niż miejsce, gdzie skończyło się anime.",
+   "why_h": "Anime stanęło, manga poszła dalej",
+   "why": "<p>Wszystko po ostatnim odcinku anime jest tylko w mandze, łącznie z największymi walkami i odkryciami o głównych złoczyńcach. Czytelnicy wrzucają strony jako fanarty, więc trafiają do feedu bez ostrzeżenia.</p><p>Wycisz tytuł razem ze słowami manga, ostatni arc i rozdział i trzymaj, dopóki nie nadrobisz albo anime nie wróci.</p>"
   },
   "de": {
    "name": "Black Clover"
@@ -242,7 +254,11 @@
    "name": "Black Clover"
   },
   "pt-BR": {
-   "name": "Black Clover"
+   "name": "Black Clover",
+   "desc": "O mangá de Black Clover está muito à frente do anime e caminha para o arco final. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Yuki Tabata está no arco final, anos depois de onde o anime parou.",
+   "why_h": "O anime parou, o mangá continuou",
+   "why": "<p>Tudo depois do último episódio do anime está só no mangá, inclusive as maiores lutas e as revelações sobre os vilões principais. Os leitores postam páginas como fanart, então elas aparecem no feed sem aviso.</p><p>Silencie o título com palavras como mangá, arco final e capítulo, e mantenha até se atualizar ou o anime voltar.</p>"
   },
   "tr": {
    "name": "Black Clover"
@@ -304,5 +320,10 @@
   "page": "avoid-black-clover-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

@@ -29,7 +29,7 @@
  "wikidata": "Q105087026",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Sakamoto Days"
+   "name": "Sakamoto Days",
+   "desc": "Sakamoto Days runs weekly in Shonen Jump, ahead of the anime, and chapters leak early. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Yuto Suzuki's manga comes out weekly in Shonen Jump and is well ahead of the anime, so new chapters are discussed long before the show gets there.",
+   "why_h": "Weekly chapters, action panels everywhere",
+   "why": "<p>The manga is known for big action pages, and those get shared as art and edits right after a chapter drops, sometimes from leaks before it.</p><p>Fights with the main assassins and character deaths are the main spoilers. Mute the title with Sakamoto, Slur and words like chapter, manga and leaks.</p>"
   },
   "ru": {
-   "name": "Дни Сакамото"
+   "name": "Дни Сакамото",
+   "desc": "«Дни Сакамото» выходят каждую неделю в Shonen Jump, впереди аниме, и главы сливаются заранее. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Манга Юто Судзуки выходит каждую неделю в Shonen Jump и заметно впереди аниме.",
+   "why_h": "Главы каждую неделю, экшен-страницы повсюду",
+   "why": "<p>Манга славится большими экшен-разворотами, и их выкладывают как арт и эдиты сразу после выхода главы, а иногда по сливам ещё до неё.</p><p>Главные спойлеры — битвы с основными убийцами и смерти героев. Мьють название вместе с «Сакамото», «Слёр» и словами «глава», «манга» и «слив».</p>"
   },
   "uk": {
    "name": "Дні Сакамото"
   },
   "pl": {
-   "name": "Sakamoto Days"
+   "name": "Sakamoto Days",
+   "desc": "Sakamoto Days wychodzi co tydzień w Shonen Jump, przed anime, a rozdziały wyciekają wcześniej. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Manga Yuto Suzukiego wychodzi co tydzień w Shonen Jump i jest wyraźnie przed anime.",
+   "why_h": "Rozdział co tydzień, strony z akcją wszędzie",
+   "why": "<p>Manga słynie z dużych stron z akcją, które lądują jako art i edity zaraz po premierze rozdziału, a czasem z przecieków jeszcze przed nią.</p><p>Główne spoilery to walki z najważniejszymi zabójcami i śmierci postaci. Wycisz tytuł razem z Sakamoto, Slur i słowami rozdział, manga i przeciek.</p>"
   },
   "de": {
    "name": "Sakamoto Days"
@@ -242,7 +254,11 @@
    "name": "Sakamoto Days"
   },
   "pt-BR": {
-   "name": "Sakamoto Days"
+   "name": "Sakamoto Days",
+   "desc": "Sakamoto Days sai toda semana na Shonen Jump, à frente do anime, e os capítulos vazam antes. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O mangá de Yuto Suzuki sai toda semana na Shonen Jump e está bem à frente do anime.",
+   "why_h": "Capítulo semanal, páginas de ação em todo lugar",
+   "why": "<p>O mangá é famoso pelas páginas de ação, que são compartilhadas como arte e edit logo depois do capítulo, às vezes por vazamento antes dele.</p><p>Os principais spoilers são as lutas com os assassinos principais e as mortes de personagens. Silencie o título com Sakamoto, Slur e palavras como capítulo, mangá e vazamento.</p>"
   },
   "tr": {
    "name": "Sakamoto Days"
@@ -304,5 +320,10 @@
   "page": "avoid-sakamoto-days-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

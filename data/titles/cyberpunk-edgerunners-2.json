@@ -28,7 +28,7 @@
  "wikidata": null,
  "checked": null,
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -217,16 +217,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Cyberpunk: Edgerunners 2"
+   "name": "Cyberpunk: Edgerunners 2",
+   "desc": "Cyberpunk: Edgerunners 2 is a new Studio Trigger season set in Night City. Spoilers will spread from release day. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "A new Studio Trigger season set in the Cyberpunk 2077 world, so there is no book or manga to spoil it in advance.",
+   "why_h": "No source material, so release day is the danger",
+   "why": "<p>The story is original, so spoilers start when episodes come out. Streaming shows usually drop many episodes at once, and clips of the ending travel within a day.</p><p>The first season's ending is still shared as edits. Mute the title with Edgerunners, Night City and words like ending and episode.</p>"
   },
   "ru": {
-   "name": "Киберпанк: Бегущие по краю 2"
+   "name": "Киберпанк: Бегущие по краю 2",
+   "desc": "«Киберпанк: Бегущие по краю 2» — новый сезон Studio Trigger в Найт-Сити. Спойлеры пойдут с первого дня. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Новый сезон от Studio Trigger в мире Cyberpunk 2077, так что заранее его не заспойлерят ни книга, ни манга.",
+   "why_h": "Первоисточника нет, опасен день выхода",
+   "why": "<p>История оригинальная, значит спойлеры начнутся с выходом серий. Стриминги обычно выкладывают много серий сразу, и клипы с концовкой разлетаются за сутки.</p><p>Концовку первого сезона до сих пор крутят в эдитах. Мьють название вместе с Edgerunners, «Найт-Сити» и словами «концовка» и «серия».</p>"
   },
   "uk": {
    "name": "Кіберпанк: Ті, що біжать по краю 2"
   },
   "pl": {
-   "name": "Cyberpunk: Edgerunners 2"
+   "name": "Cyberpunk: Edgerunners 2",
+   "desc": "Cyberpunk: Edgerunners 2 to nowy sezon Studio Trigger w Night City. Spoilery ruszą od dnia premiery. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Nowy sezon Studio Trigger w świecie Cyberpunk 2077, więc nie zaspoileruje go wcześniej ani książka, ani manga.",
+   "why_h": "Bez pierwowzoru groźny jest dzień premiery",
+   "why": "<p>Historia jest oryginalna, więc spoilery zaczną się wraz z odcinkami. Serwisy streamingowe zwykle wrzucają wiele odcinków naraz, a klipy z zakończeniem krążą w ciągu doby.</p><p>Zakończenie pierwszego sezonu wciąż wraca w editach. Wycisz tytuł razem z Edgerunners, Night City i słowami zakończenie i odcinek.</p>"
   },
   "de": {
    "name": "Cyberpunk: Edgerunners 2"
@@ -241,7 +253,11 @@
    "name": "Cyberpunk: Edgerunners 2"
   },
   "pt-BR": {
-   "name": "Cyberpunk: Edgerunners 2"
+   "name": "Cyberpunk: Edgerunners 2",
+   "desc": "Cyberpunk: Edgerunners 2 é uma nova temporada do Studio Trigger em Night City. Os spoilers vão se espalhar no dia do lançamento. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "Uma nova temporada do Studio Trigger no mundo de Cyberpunk 2077, então não existe livro ou mangá para dar spoiler antes.",
+   "why_h": "Sem material original, o perigo é o lançamento",
+   "why": "<p>A história é original, então os spoilers começam quando os episódios saem. Os streamings costumam lançar vários episódios de uma vez, e clipes do final circulam em um dia.</p><p>O final da primeira temporada ainda roda em edits. Silencie o título com Edgerunners, Night City e palavras como final e episódio.</p>"
   },
   "tr": {
    "name": "Cyberpunk: Edgerunners 2"
@@ -303,5 +319,10 @@
   "page": "avoid-cyberpunk-edgerunners-2-spoilers",
   "kind": "anime"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

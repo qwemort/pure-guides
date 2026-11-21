@@ -29,7 +29,7 @@
  "wikidata": "Q110875814",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Xenoblade Chronicles 3"
+   "name": "Xenoblade Chronicles 3",
+   "desc": "Xenoblade Chronicles 3 is a long RPG whose late twists tie the whole series together. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Monolith Soft's 2022 RPG takes dozens of hours, and its late reveals connect the earlier Xenoblade games, so lore talk spoils it.",
+   "why_h": "Series lore is the spoiler",
+   "why": "<p>The biggest twists are about who the enemy really is and how this world links to Xenoblade 1 and 2. Fans explain those links in lore videos, and the Future Redeemed expansion adds more.</p><p>Mute the title with Xenoblade 3, Noah, Mio and words like ending, lore and Future Redeemed.</p>"
   },
   "ru": {
-   "name": "Xenoblade Chronicles 3"
+   "name": "Xenoblade Chronicles 3",
+   "desc": "Xenoblade Chronicles 3 — длинная RPG, поздние повороты которой связывают всю серию. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "RPG от Monolith Soft 2022 года проходится десятки часов, а поздние раскрытия связывают её с прошлыми Xenoblade, поэтому разговоры о лоре её спойлерят.",
+   "why_h": "Лор серии и есть спойлер",
+   "why": "<p>Главные повороты — кто на самом деле враг и как этот мир связан с Xenoblade 1 и 2. Фанаты разбирают эти связи в роликах по лору, а дополнение Future Redeemed добавляет ещё.</p><p>Мьють название вместе с Xenoblade 3, «Ноа», «Мио» и словами «концовка», «лор» и Future Redeemed.</p>"
   },
   "uk": {
    "name": "Xenoblade Chronicles 3"
   },
   "pl": {
-   "name": "Xenoblade Chronicles 3"
+   "name": "Xenoblade Chronicles 3",
+   "desc": "Xenoblade Chronicles 3 to długie RPG, którego późne zwroty łączą całą serię. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "RPG od Monolith Soft z 2022 roku zajmuje dziesiątki godzin, a późne odkrycia łączą je z wcześniejszymi Xenoblade, więc rozmowy o lore je spoilerują.",
+   "why_h": "Lore serii to spoiler",
+   "why": "<p>Największe zwroty dotyczą tego, kim naprawdę jest wróg i jak ten świat łączy się z Xenoblade 1 i 2. Fani tłumaczą te powiązania w filmikach o lore, a dodatek Future Redeemed dokłada więcej.</p><p>Wycisz tytuł razem z Xenoblade 3, Noah, Mio i słowami zakończenie, lore i Future Redeemed.</p>"
   },
   "de": {
    "name": "Xenoblade Chronicles 3"
@@ -242,7 +254,11 @@
    "name": "Xenoblade Chronicles 3"
   },
   "pt-BR": {
-   "name": "Xenoblade Chronicles 3"
+   "name": "Xenoblade Chronicles 3",
+   "desc": "Xenoblade Chronicles 3 é um RPG longo cujas viradas finais amarram a série toda. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O RPG de 2022 da Monolith Soft leva dezenas de horas, e as revelações finais ligam o jogo aos Xenoblade anteriores, então falar de lore estraga.",
+   "why_h": "O lore da série é o spoiler",
+   "why": "<p>As maiores viradas são sobre quem é o inimigo de verdade e como este mundo se liga a Xenoblade 1 e 2. Os fãs explicam essas ligações em vídeos de lore, e a expansão Future Redeemed acrescenta mais.</p><p>Silencie o título com Xenoblade 3, Noah, Mio e palavras como final, lore e Future Redeemed.</p>"
   },
   "tr": {
    "name": "Xenoblade Chronicles 3"
@@ -304,5 +320,10 @@
   "page": "avoid-xenoblade-chronicles-3-spoilers",
   "kind": "game"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

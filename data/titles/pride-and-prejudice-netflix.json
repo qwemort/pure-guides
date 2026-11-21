@@ -28,7 +28,7 @@
  "wikidata": null,
  "checked": null,
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -217,16 +217,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Pride and Prejudice (Netflix)"
+   "name": "Pride and Prejudice (Netflix)",
+   "desc": "Netflix's Pride and Prejudice adapts a 200-year-old novel, so the spoilers are the changes and the casting choices. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Jane Austen's novel is from 1813 and the main story is well known, so with this Netflix version the surprises are in what it changes.",
+   "why_h": "A famous story, a new version",
+   "why": "<p>If you have never read the book or seen another version, the proposals and Wickham's real story are still spoilers, and they show up in every \"best scene\" clip.</p><p>For fans of the book, the risk is changed scenes and endings posted as comparisons. Mute the title with Pride and Prejudice Netflix, Darcy and words like proposal, ending and scene.</p>"
   },
   "ru": {
-   "name": "Гордость и предубеждение (Netflix)"
+   "name": "Гордость и предубеждение (Netflix)",
+   "desc": "«Гордость и предубеждение» от Netflix экранизирует роман 200-летней давности, так что спойлеры тут — изменения и выбор актёров. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Роман Джейн Остин вышел в 1813 году, сюжет многим известен, поэтому в версии Netflix сюрпризы в том, что она изменит.",
+   "why_h": "Известная история, новая версия",
+   "why": "<p>Если ты не читал книгу и не видел других экранизаций, предложения руки и правда об Уикхэме всё ещё спойлеры, и они есть в каждом клипе «лучшие сцены».</p><p>Для фанатов книги риск — изменённые сцены и концовка в постах-сравнениях. Мьють название вместе с «Гордость и предубеждение Netflix», «Дарси» и словами «предложение», «концовка» и «сцена».</p>"
   },
   "uk": {
    "name": "Гордість і упередження (Netflix)"
   },
   "pl": {
-   "name": "Duma i uprzedzenie (Netflix)"
+   "name": "Duma i uprzedzenie (Netflix)",
+   "desc": "Duma i uprzedzenie od Netflixa adaptuje powieść sprzed 200 lat, więc spoilery to zmiany i obsada. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Powieść Jane Austen jest z 1813 roku, a główną historię zna wielu, więc w wersji Netflixa niespodzianki są w zmianach.",
+   "why_h": "Znana historia, nowa wersja",
+   "why": "<p>Jeśli nie czytałeś książki ani nie widziałeś innej ekranizacji, oświadczyny i prawda o Wickhamie wciąż są spoilerami i są w każdym klipie „najlepsze sceny”.</p><p>Dla fanów książki ryzyko to zmienione sceny i zakończenie w postach-porównaniach. Wycisz tytuł razem z Duma i uprzedzenie Netflix, Darcy i słowami oświadczyny, zakończenie i scena.</p>"
   },
   "de": {
    "name": "Stolz und Vorurteil (Netflix)"
@@ -241,7 +253,11 @@
    "name": "Orgoglio e pregiudizio (Netflix)"
   },
   "pt-BR": {
-   "name": "Orgulho e Preconceito (Netflix)"
+   "name": "Orgulho e Preconceito (Netflix)",
+   "desc": "Orgulho e Preconceito da Netflix adapta um livro de 200 anos, então os spoilers são as mudanças e o elenco. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O livro de Jane Austen é de 1813 e a história principal é bem conhecida, então nesta versão da Netflix as surpresas estão no que ela muda.",
+   "why_h": "Uma história famosa, uma versão nova",
+   "why": "<p>Se você nunca leu o livro nem viu outra adaptação, os pedidos de casamento e a verdade sobre Wickham ainda são spoilers, e aparecem em todo clipe de \"melhores cenas\".</p><p>Para quem ama o livro, o risco são cenas e final alterados em posts de comparação. Silencie o título com Orgulho e Preconceito Netflix, Darcy e palavras como pedido, final e cena.</p>"
   },
   "tr": {
    "name": "Aşk ve Gurur (Netflix)"
@@ -303,5 +319,10 @@
   "page": "avoid-pride-and-prejudice-netflix-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

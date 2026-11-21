@@ -29,7 +29,7 @@
  "wikidata": "Q104007235",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Only Murders in the Building"
+   "name": "Only Murders in the Building",
+   "desc": "Only Murders in the Building reveals each season's killer in the finale, and that name spreads fast. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Every season is a new murder with a weekly episode, and the whole point is who did it, so the finale name is the spoiler.",
+   "why_h": "One name ruins a whole season",
+   "why": "<p>Episodes come out weekly, and fans post theories that are often right. On finale night the killer's name trends and lands in headlines and thumbnails.</p><p>Mute the title with OMITB, the hosts' names and words like killer, finale and who did it.</p>"
   },
   "ru": {
-   "name": "Убийства в одном здании"
+   "name": "Убийства в одном здании",
+   "desc": "В «Убийствах в одном здании» убийцу каждого сезона раскрывают в финале, и это имя быстро разлетается. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Каждый сезон — новое убийство и серия в неделю, а весь смысл в том, кто убийца, поэтому имя из финала и есть спойлер.",
+   "why_h": "Одно имя портит весь сезон",
+   "why": "<p>Серии выходят раз в неделю, и фанаты постят теории, которые часто оказываются верными. В ночь финала имя убийцы в трендах, в заголовках и на превью.</p><p>Мьють название вместе с OMITB, именами ведущих подкаста и словами «убийца», «финал» и «кто убил».</p>"
   },
   "uk": {
    "name": "Убивства в одній будівлі"
   },
   "pl": {
-   "name": "Zbrodnie po sąsiedzku"
+   "name": "Zbrodnie po sąsiedzku",
+   "desc": "W Zbrodniach po sąsiedzku zabójcę każdego sezonu ujawnia finał, a to nazwisko szybko się roznosi. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Każdy sezon to nowe morderstwo i odcinek co tydzień, a cała zabawa to kto zabił, więc nazwisko z finału jest spoilerem.",
+   "why_h": "Jedno nazwisko psuje cały sezon",
+   "why": "<p>Odcinki wychodzą co tydzień, a fani wrzucają teorie, które często są trafne. W noc finału nazwisko zabójcy jest w trendach, nagłówkach i miniaturkach.</p><p>Wycisz tytuł razem z OMITB, imionami trójki podcasterów i słowami zabójca, finał i kto zabił.</p>"
   },
   "de": {
    "name": "Only Murders in the Building"
@@ -242,7 +254,11 @@
    "name": "Only Murders in the Building"
   },
   "pt-BR": {
-   "name": "Only Murders in the Building"
+   "name": "Only Murders in the Building",
+   "desc": "Em Only Murders in the Building o assassino de cada temporada aparece no final, e esse nome se espalha rápido. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "Cada temporada é um novo assassinato com episódio semanal, e a graça é descobrir quem foi, então o nome do final é o spoiler.",
+   "why_h": "Um nome estraga a temporada inteira",
+   "why": "<p>Os episódios saem toda semana e os fãs postam teorias que muitas vezes acertam. Na noite do final o nome do assassino vira assunto, manchete e miniatura.</p><p>Silencie o título com OMITB, os nomes do trio do podcast e palavras como assassino, final e quem matou.</p>"
   },
   "tr": {
    "name": "Only Murders in the Building"
@@ -304,5 +320,10 @@
   "page": "avoid-only-murders-in-the-building-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

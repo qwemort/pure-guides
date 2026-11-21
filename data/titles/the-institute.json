@@ -28,7 +28,7 @@
  "wikidata": null,
  "checked": null,
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -217,16 +217,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Institute"
+   "name": "The Institute",
+   "desc": "The Institute adapts Stephen King's 2019 novel, so readers know how the escape and the ending go. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The series adapts Stephen King's 2019 novel about kids held in a secret facility, so readers know who escapes and how it ends.",
+   "why_h": "A Stephen King book is a big spoiler pool",
+   "why": "<p>King's fans are a huge community, and book discussions, reviews and \"book vs show\" videos cover the ending in detail. Weekly episodes keep the risk alive for the whole season.</p><p>Mute the title with Stephen King The Institute, the main characters' names and words like ending and book.</p>"
   },
   "ru": {
-   "name": "Институт"
+   "name": "Институт",
+   "desc": "«Институт» экранизирует роман Стивена Кинга 2019 года, так что читатели знают, чем кончится побег. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал экранизирует роман Стивена Кинга 2019 года о детях в секретном учреждении, и читатели знают, кто сбежит и чем всё кончится.",
+   "why_h": "Книга Кинга — огромный источник спойлеров",
+   "why": "<p>Фанатов Кинга огромное сообщество, и обсуждения книги, рецензии и ролики «книга против сериала» разбирают концовку подробно. Серии раз в неделю держат риск весь сезон.</p><p>Мьють название вместе с «Стивен Кинг Институт», именами главных героев и словами «концовка» и «книга».</p>"
   },
   "uk": {
    "name": "Інститут"
   },
   "pl": {
-   "name": "Instytut"
+   "name": "Instytut",
+   "desc": "Instytut adaptuje powieść Stephena Kinga z 2019 roku, więc czytelnicy wiedzą, jak kończy się ucieczka. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial adaptuje powieść Stephena Kinga z 2019 roku o dzieciach w tajnym ośrodku, więc czytelnicy wiedzą, kto ucieknie i jak to się skończy.",
+   "why_h": "Książka Kinga to ogromne źródło spoilerów",
+   "why": "<p>Fani Kinga to ogromna społeczność, a dyskusje o książce, recenzje i filmiki „książka kontra serial” szczegółowo omawiają zakończenie. Odcinki co tydzień utrzymują ryzyko przez cały sezon.</p><p>Wycisz tytuł razem z Stephen King Instytut, imionami głównych bohaterów i słowami zakończenie i książka.</p>"
   },
   "de": {
    "name": "Das Institut"
@@ -241,7 +253,11 @@
    "name": "L'istituto"
   },
   "pt-BR": {
-   "name": "O Instituto"
+   "name": "O Instituto",
+   "desc": "O Instituto adapta o livro de 2019 de Stephen King, então os leitores sabem como terminam a fuga e o final. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série adapta o livro de 2019 de Stephen King sobre crianças presas numa instalação secreta, então os leitores sabem quem escapa e como termina.",
+   "why_h": "Um livro do Stephen King é uma mina de spoiler",
+   "why": "<p>Os fãs de King são uma comunidade enorme, e discussões do livro, resenhas e vídeos de \"livro vs série\" falam do final em detalhes. Episódios semanais mantêm o risco a temporada toda.</p><p>Silencie o título com Stephen King O Instituto, os nomes dos protagonistas e palavras como final e livro.</p>"
   },
   "tr": {
    "name": "Enstitü"
@@ -303,5 +319,10 @@
   "page": "avoid-the-institute-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

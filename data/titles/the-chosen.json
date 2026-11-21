@@ -29,7 +29,7 @@
  "wikidata": "Q60787503",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Chosen"
+   "name": "The Chosen",
+   "desc": "The Chosen tells a story many know, but new seasons often reach cinemas before streaming, so scenes spread early. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The series retells the life of Jesus, and new episodes have often come to cinemas before streaming, so scenes circulate before many viewers can watch.",
+   "why_h": "The surprise is in how it is told",
+   "why": "<p>The broad story is known, but fans care about how each scene is shown, especially the most emotional moments. Clips from theatrical releases spread on social media before the episodes stream.</p><p>Mute the title with The Chosen season and words like episode, scene and clip if you want to see it fresh.</p>"
   },
   "ru": {
-   "name": "Избранные"
+   "name": "Избранные",
+   "desc": "«Избранные» рассказывают известную историю, но новые сезоны часто сначала идут в кино, и сцены разлетаются раньше. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал пересказывает жизнь Иисуса, и новые серии не раз выходили в кино раньше стриминга, так что сцены расходятся до того, как многие могут их посмотреть.",
+   "why_h": "Сюрприз в том, как это показано",
+   "why": "<p>Общая история известна, но фанатам важно, как показана каждая сцена, особенно самые эмоциональные моменты. Клипы с кинопоказов разлетаются по соцсетям раньше, чем серии выходят на стриминге.</p><p>Мьють название вместе с «Избранные сезон» и словами «серия», «сцена» и «клип», если хочешь увидеть всё впервые.</p>"
   },
   "uk": {
    "name": "Обрані"
   },
   "pl": {
-   "name": "The Chosen"
+   "name": "The Chosen",
+   "desc": "The Chosen opowiada znaną historię, ale nowe sezony często trafiają do kin przed streamingiem, więc sceny krążą wcześniej. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial opowiada życie Jezusa, a nowe odcinki nieraz trafiały do kin przed streamingiem, więc sceny krążą, zanim wielu może je obejrzeć.",
+   "why_h": "Niespodzianka jest w tym, jak to pokazano",
+   "why": "<p>Ogólna historia jest znana, ale fanom zależy na tym, jak pokazana jest każda scena, zwłaszcza te najbardziej poruszające. Klipy z pokazów kinowych krążą w sieci, zanim odcinki trafią do streamingu.</p><p>Wycisz tytuł razem z The Chosen sezon i słowami odcinek, scena i klip, jeśli chcesz zobaczyć wszystko na świeżo.</p>"
   },
   "de": {
    "name": "The Chosen"
@@ -242,7 +254,11 @@
    "name": "The Chosen"
   },
   "pt-BR": {
-   "name": "The Chosen: Os Escolhidos"
+   "name": "The Chosen: Os Escolhidos",
+   "desc": "The Chosen conta uma história conhecida, mas as temporadas novas muitas vezes chegam ao cinema antes do streaming, e as cenas circulam antes. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série reconta a vida de Jesus, e episódios novos já chegaram aos cinemas antes do streaming, então as cenas circulam antes de muita gente poder assistir.",
+   "why_h": "A surpresa está em como é contado",
+   "why": "<p>A história geral é conhecida, mas os fãs se importam com como cada cena é mostrada, principalmente os momentos mais emocionantes. Clipes das sessões de cinema circulam nas redes antes dos episódios chegarem ao streaming.</p><p>Silencie o título com The Chosen temporada e palavras como episódio, cena e clipe, se quiser ver tudo pela primeira vez.</p>"
   },
   "tr": {
    "name": "The Chosen"
@@ -304,5 +320,10 @@
   "page": "avoid-the-chosen-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

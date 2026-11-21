@@ -29,7 +29,7 @@
  "wikidata": "Q101096725",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Severance"
+   "name": "Severance",
+   "desc": "Severance airs weekly and its mysteries spark theories that spoil the finale. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The Apple TV+ series is built on mysteries about Lumon, released one episode a week, so every answer trends the night it airs.",
+   "why_h": "A mystery show lives on reveals",
+   "why": "<p>Finale twists in this show are the kind people screenshot and quote, and theory videos often guess right and put it in the thumbnail.</p><p>Mute the title with Lumon, the main characters' names and words like finale, episode and theory.</p>"
   },
   "ru": {
-   "name": "Разделение"
+   "name": "Разделение",
+   "desc": "«Разделение» выходит раз в неделю, а его загадки рождают теории, которые спойлерят финал. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал Apple TV+ построен на загадках о «Люмоне» и выходит по серии в неделю, так что каждый ответ в трендах в ночь выхода.",
+   "why_h": "Сериал-загадка живёт раскрытиями",
+   "why": "<p>Повороты финалов здесь такие, что их скриншотят и цитируют, а ролики с теориями часто угадывают и выносят ответ в превью.</p><p>Мьють название вместе с «Люмон», именами главных героев и словами «финал», «серия» и «теория».</p>"
   },
   "uk": {
    "name": "Розрив"
   },
   "pl": {
-   "name": "Rozdzielenie"
+   "name": "Rozdzielenie",
+   "desc": "Rozdzielenie wychodzi co tydzień, a jego zagadki rodzą teorie, które spoilerują finał. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial Apple TV+ jest zbudowany na zagadkach o Lumonie i wychodzi po odcinku tygodniowo, więc każda odpowiedź jest w trendach w noc premiery.",
+   "why_h": "Serial-zagadka żyje odkryciami",
+   "why": "<p>Zwroty z finałów są tu takie, że ludzie je screenują i cytują, a filmiki z teoriami często trafiają i dają odpowiedź na miniaturkę.</p><p>Wycisz tytuł razem z Lumon, imionami głównych bohaterów i słowami finał, odcinek i teoria.</p>"
   },
   "de": {
    "name": "Severance"
@@ -242,7 +254,11 @@
    "name": "Scissione"
   },
   "pt-BR": {
-   "name": "Ruptura"
+   "name": "Ruptura",
+   "desc": "Ruptura sai toda semana e os mistérios geram teorias que estragam o final. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série da Apple TV+ é feita de mistérios sobre a Lumon e sai um episódio por semana, então cada resposta vira assunto na noite em que passa.",
+   "why_h": "Série de mistério vive de revelações",
+   "why": "<p>As viradas dos finais aqui são do tipo que as pessoas printam e citam, e vídeos de teoria muitas vezes acertam e põem a resposta na miniatura.</p><p>Silencie o título com Lumon, os nomes dos protagonistas e palavras como final, episódio e teoria.</p>"
   },
   "tr": {
    "name": "Severance"
@@ -304,5 +320,10 @@
   "page": "avoid-severance-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

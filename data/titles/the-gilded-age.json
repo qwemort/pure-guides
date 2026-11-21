@@ -29,7 +29,7 @@
  "wikidata": "Q48816554",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "The Gilded Age"
+   "name": "The Gilded Age",
+   "desc": "The Gilded Age airs weekly on HBO, and engagements, scandals and exits trend the same night. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "Julian Fellowes' HBO drama airs one episode a week, and its turns are social: weddings, broken engagements and ruined reputations.",
+   "why_h": "Society drama spoils in one headline",
+   "why": "<p>One recap headline like \"who married whom\" is enough to spoil an episode. Cast interviews and fan accounts post right after airing.</p><p>Mute the title with the main families' names and words like episode, finale and engagement.</p>"
   },
   "ru": {
-   "name": "Позолоченный век"
+   "name": "Позолоченный век",
+   "desc": "«Позолоченный век» выходит на HBO раз в неделю, а помолвки, скандалы и уходы героев в трендах в ту же ночь. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Драма Джулиана Феллоуза на HBO выходит по серии в неделю, а её повороты светские: свадьбы, расторгнутые помолвки и разрушенные репутации.",
+   "why_h": "Светская драма спойлерится одним заголовком",
+   "why": "<p>Одного заголовка пересказа вроде «кто на ком женился» хватает, чтобы испортить серию. Интервью актёров и фан-аккаунты постят сразу после эфира.</p><p>Мьють название вместе с фамилиями главных семей и словами «серия», «финал» и «помолвка».</p>"
   },
   "uk": {
    "name": "Позолочений вік"
   },
   "pl": {
-   "name": "Gilded Age. Złoty wiek"
+   "name": "Gilded Age. Złoty wiek",
+   "desc": "Wiek pozłacany wychodzi co tydzień na HBO, a zaręczyny, skandale i odejścia są w trendach tej samej nocy. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Dramat Juliana Fellowesa na HBO wychodzi po odcinku tygodniowo, a jego zwroty są towarzyskie: śluby, zerwane zaręczyny i zniszczone reputacje.",
+   "why_h": "Dramat towarzyski psuje jeden nagłówek",
+   "why": "<p>Jeden nagłówek streszczenia w stylu „kto poślubił kogo” wystarczy, żeby zepsuć odcinek. Wywiady z obsadą i konta fanów wrzucają posty zaraz po emisji.</p><p>Wycisz tytuł razem z nazwiskami głównych rodów i słowami odcinek, finał i zaręczyny.</p>"
   },
   "de": {
    "name": "The Gilded Age"
@@ -242,7 +254,11 @@
    "name": "The Gilded Age"
   },
   "pt-BR": {
-   "name": "The Gilded Age"
+   "name": "The Gilded Age",
+   "desc": "The Gilded Age sai toda semana na HBO, e noivados, escândalos e saídas viram assunto na mesma noite. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "O drama de Julian Fellowes na HBO sai um episódio por semana, e as viradas são sociais: casamentos, noivados desfeitos e reputações arruinadas.",
+   "why_h": "Drama de sociedade se estraga numa manchete",
+   "why": "<p>Uma manchete de resumo como \"quem casou com quem\" basta para estragar um episódio. Entrevistas do elenco e contas de fãs postam logo depois da exibição.</p><p>Silencie o título com os sobrenomes das famílias principais e palavras como episódio, final e noivado.</p>"
   },
   "tr": {
    "name": "Yaldızlı Çağ"
@@ -304,5 +320,10 @@
   "page": "avoid-the-gilded-age-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }

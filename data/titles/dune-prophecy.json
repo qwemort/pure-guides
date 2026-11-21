@@ -29,7 +29,7 @@
  "wikidata": "Q64969653",
  "checked": "2026-11-21",
  "published": "2026-11-19",
- "modified": "2026-11-19",
+ "modified": "2026-11-21",
  "words": {
   "en": {
    "basic": [
@@ -218,16 +218,28 @@
  "spoiler_safe_verified": false,
  "texts": {
   "en": {
-   "name": "Dune: Prophecy"
+   "name": "Dune: Prophecy",
+   "desc": "Dune: Prophecy draws on the Sisterhood of Dune novels and airs weekly. Words to mute on X, TikTok, Threads and Instagram.",
+   "lead": "The HBO series is set thousands of years before Paul Atreides and draws on Brian Herbert and Kevin J. Anderson's Sisterhood of Dune.",
+   "why_h": "Weekly episodes and book lore",
+   "why": "<p>Each episode lands weekly and the big reveals trend the same night. Readers of the prequel novels and Dune lore channels connect the show to events and families you may not want explained yet.</p><p>Do not mute plain \"Dune\", it hides the films too. Mute Dune Prophecy, Sisterhood and words like episode and ending.</p>"
   },
   "ru": {
-   "name": "Дюна: Пророчество"
+   "name": "Дюна: Пророчество",
+   "desc": "«Дюна: Пророчество» опирается на романы о Сестринстве и выходит раз в неделю. Слова для мьюта в X, TikTok, Threads и Instagram.",
+   "lead": "Сериал HBO идёт за тысячи лет до Пола Атрейдеса и опирается на «Сестринство Дюны» Брайана Герберта и Кевина Андерсона.",
+   "why_h": "Серии раз в неделю и книжный лор",
+   "why": "<p>Серии выходят раз в неделю, и главные раскрытия в трендах в ту же ночь. Читатели романов-приквелов и каналы по лору «Дюны» связывают сериал с событиями и семьями, которые ты, может, не хочешь знать заранее.</p><p>Не мьють просто «Дюна», это скроет и фильмы. Мьють «Дюна: Пророчество», «Сестринство» и слова «серия» и «концовка».</p>"
   },
   "uk": {
    "name": "Дюна: Пророцтво"
   },
   "pl": {
-   "name": "Diuna: Proroctwo"
+   "name": "Diuna: Proroctwo",
+   "desc": "Diuna: Proroctwo czerpie z powieści o Siostrzeństwie i wychodzi co tydzień. Słowa do wyciszenia na X, TikToku, Threads i Instagramie.",
+   "lead": "Serial HBO dzieje się tysiące lat przed Paulem Atrydą i czerpie z „Siostrzeństwa Diuny” Briana Herberta i Kevina J. Andersona.",
+   "why_h": "Odcinki co tydzień i książkowe lore",
+   "why": "<p>Odcinki wychodzą co tydzień, a duże odkrycia są w trendach tej samej nocy. Czytelnicy powieści-prequeli i kanały o lore Diuny łączą serial z wydarzeniami i rodami, których możesz nie chcieć poznać wcześniej.</p><p>Nie wyciszaj samego „Diuna”, ukryje też filmy. Wycisz Diuna Proroctwo, Siostrzeństwo i słowa odcinek i zakończenie.</p>"
   },
   "de": {
    "name": "Dune: Prophecy"
@@ -242,7 +254,11 @@
    "name": "Dune: Prophecy"
   },
   "pt-BR": {
-   "name": "Duna: A Profecia"
+   "name": "Duna: A Profecia",
+   "desc": "Duna: A Profecia se baseia nos livros da Irmandade e sai toda semana. Palavras para silenciar no X, TikTok, Threads e Instagram.",
+   "lead": "A série da HBO se passa milhares de anos antes de Paul Atreides e se baseia em Irmandade de Duna, de Brian Herbert e Kevin J. Anderson.",
+   "why_h": "Episódios semanais e lore dos livros",
+   "why": "<p>Os episódios saem toda semana e as grandes revelações viram assunto na mesma noite. Leitores dos livros prelúdio e canais de lore de Duna ligam a série a eventos e famílias que você talvez não queira saber antes.</p><p>Não silencie só \"Duna\", isso esconde os filmes também. Silencie Duna A Profecia, Irmandade e palavras como episódio e final.</p>"
   },
   "tr": {
    "name": "Dune: Kehanet"
@@ -304,5 +320,10 @@
   "page": "avoid-dune-prophecy-spoilers",
   "kind": "show"
  },
- "changelog": []
+ "changelog": [
+  {
+   "date": "2026-11-21",
+   "what": "свой текст (lead, why, desc) на en/ru/pl/pt-BR"
+  }
+ ]
 }
