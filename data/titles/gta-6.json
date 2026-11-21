@@ -377,9 +377,9 @@
    "kicker": "ГРА · PS5 І XBOX SERIES · {date}",
    "cover_tag": "ГРА · {date}",
    "keep_val": "ПК: місяці",
-   "lead": "Виходить на PS5 і Xbox Series X|S, дати для ПК поки немає. Найбільше спойлерів прийде через прев'ю на YouTube і заголовки на Reddit, де слова приховати не можна. Ось що працює.",
+   "lead": "Вийшла на PS5 і Xbox Series X|S, дати для ПК поки немає. Найбільше спойлерів іде через прев'ю на YouTube і заголовки на Reddit, де слова приховати не можна. Ось що працює.",
    "why_h": "Чому від спойлерів GTA 6 важко сховатися",
-   "why": "<p>Копії для оглядів уже в преси, а великі ігри часто потрапляють до частини гравців на кілька днів раніше, тож сюжет може спливти ще до {D0}. Потім грає весь інтернет одразу: стріми, ролики «пояснення фіналу» і меми тижнями.</p><p>Якщо приховати просто «GTA», зникнуть і трейлери, і новини, і всі інші ігри серії. Візьміть основний список нижче, а суворий режим залиште на тиждень виходу.</p>",
+   "why": "<p>Гра вийшла {D0}. Після такого релізу весь інтернет грає одразу: стріми, повні проходження, ролики «пояснення фіналу» і меми тижнями. Копії для оглядів ще до виходу потрапляють до преси, тож частина сюжету могла розійтися й раніше.</p><p>Якщо приховати просто «GTA», зникнуть і трейлери, і новини, і всі інші ігри серії. Візьміть основний список нижче, а суворий режим залиште на перші тижні після виходу.</p>",
    "unknown": "Персонажі та місії, яких не було в трейлерах.",
    "demo": "Фінал GTA 6 пояснено: остання місія",
    "cover_line": "Фінал",
@@ -404,7 +404,7 @@
     ],
     [
      "Коли почнуться спойлери GTA 6?",
-     "До дня виходу. Копії для оглядів уже в преси, а великі ігри зазвичай потрапляють до частини гравців на кілька днів раніше, тому сюжет може з'явитися до {D}."
+     "Вже почалися. Гра вийшла {D}, а копії для оглядів і частина гравців отримують гру заздалегідь, тому деталі сюжету могли з'явитися ще раніше."
     ],
     [
      "Скільки уникати спойлерів, якщо граю на ПК?",
@@ -477,9 +477,9 @@
    "kicker": "SPIEL · PS5 UND XBOX SERIES · {date}",
    "cover_tag": "SPIEL · {date}",
    "keep_val": "PC: Monate",
-   "lead": "Erscheint für PS5 und Xbox Series X|S, ein PC-Termin fehlt noch. Die meisten Spoiler kommen über YouTube-Vorschaubilder und Reddit-Titel, wo man nichts stummschalten kann. Das hilft.",
+   "lead": "Erschienen für PS5 und Xbox Series X|S, ein PC-Termin fehlt noch. Die meisten Spoiler kommen über YouTube-Vorschaubilder und Reddit-Titel, wo man nichts stummschalten kann. Das hilft.",
    "why_h": "Warum man GTA-6-Spoilern schwer entkommt",
-   "why": "<p>Testmuster liegen schon bei der Presse, und große Spiele erreichen manche Spieler ein paar Tage früher, also kann die Story schon vor dem {D0} auftauchen. Danach spielt das ganze Internet gleichzeitig: Streams, „Ende erklärt“-Videos und Memes über Wochen.</p><p>Wer nur „GTA“ stummschaltet, verliert auch Trailer, News und alle anderen GTA-Spiele. Nimm die Kernliste unten und heb den strengen Modus für die Release-Woche auf.</p>",
+   "why": "<p>Das Spiel ist am {D0} erschienen. Nach so einem Release spielt das ganze Internet gleichzeitig: Streams, komplette Durchläufe, „Ende erklärt“-Videos und Memes über Wochen. Testmuster gehen außerdem schon vor dem Release an die Presse, deshalb konnten Story-Details auch früher auftauchen.</p><p>Wer nur „GTA“ stummschaltet, verliert auch Trailer, News und alle anderen GTA-Spiele. Nimm die Kernliste unten und heb den strengen Modus für die ersten Wochen nach dem Release auf.</p>",
    "unknown": "Figuren und Missionen, die kein Trailer gezeigt hat.",
    "demo": "GTA 6 Ende erklärt: die letzte Mission",
    "cover_line": "Das Ende",
@@ -504,7 +504,7 @@
     ],
     [
      "Wann beginnen GTA-6-Spoiler?",
-     "Vor dem Release. Testmuster liegen schon bei der Presse und große Spiele erreichen meist einige Spieler ein paar Tage früher, daher kann die Story vor dem {D} auftauchen."
+     "Schon jetzt. Das Spiel ist am {D} erschienen, und Testmuster erreichen Presse und manche Spieler früher, daher konnte die Story auch schon davor auftauchen."
     ],
     [
      "Wie lange muss ich Spoiler meiden, wenn ich auf dem PC spiele?",
@@ -527,9 +527,9 @@
    "kicker": "JEU · PS5 ET XBOX SERIES · {date}",
    "cover_tag": "JEU · {date}",
    "keep_val": "PC : des mois",
-   "lead": "Sort sur PS5 et Xbox Series X|S, sans date PC pour l'instant. La plupart des spoilers passeront par les miniatures YouTube et les titres Reddit, où rien ne se masque. Voici ce qui marche.",
+   "lead": "Disponible sur PS5 et Xbox Series X|S, sans date PC pour l'instant. La plupart des spoilers passent par les miniatures YouTube et les titres Reddit, où rien ne se masque. Voici ce qui marche.",
    "why_h": "Pourquoi les spoilers de GTA 6 sont difficiles à éviter",
-   "why": "<p>Les copies presse sont déjà chez les journalistes, et les gros jeux arrivent souvent chez certains joueurs quelques jours plus tôt, donc l'histoire peut fuiter avant le {D0}. Ensuite tout internet joue en même temps : streams, vidéos « fin expliquée » et mèmes pendant des semaines.</p><p>Masquer simplement « GTA » cache aussi les bandes-annonces, l'actu et tous les autres GTA. Prenez la liste principale ci-dessous et gardez le mode strict pour la semaine de sortie.</p>",
+   "why": "<p>Le jeu est sorti le {D0}. Après une sortie pareille, tout internet joue en même temps : streams, parties complètes, vidéos « fin expliquée » et mèmes pendant des semaines. Les copies presse arrivent aussi avant la sortie, donc une partie de l'histoire a pu fuiter plus tôt.</p><p>Masquer simplement « GTA » cache aussi les bandes-annonces, l'actu et tous les autres GTA. Prenez la liste principale ci-dessous et gardez le mode strict pour les premières semaines après la sortie.</p>",
    "unknown": "Personnages et missions qu'aucune bande-annonce n'a montrés.",
    "demo": "Fin de GTA 6 expliquée : la dernière mission",
    "cover_line": "La fin",
@@ -554,7 +554,7 @@
     ],
     [
      "Quand commencent les spoilers de GTA 6 ?",
-     "Avant la sortie. Les copies presse sont déjà chez les journalistes et les gros jeux arrivent souvent chez certains joueurs quelques jours plus tôt, donc l'histoire peut apparaître avant le {D}."
+     "C'est déjà le cas. Le jeu est sorti le {D}, et les copies presse arrivent chez les journalistes et certains joueurs plus tôt, donc l'histoire a pu apparaître avant."
     ],
     [
      "Combien de temps éviter les spoilers si je joue sur PC ?",
@@ -577,9 +577,9 @@
    "kicker": "JUEGO · PS5 Y XBOX SERIES · {date}",
    "cover_tag": "JUEGO · {date}",
    "keep_val": "PC: meses",
-   "lead": "Sale en PS5 y Xbox Series X|S, todavía sin fecha para PC. La mayoría de spoilers llegarán por miniaturas de YouTube y títulos de Reddit, donde no se puede silenciar nada. Esto funciona.",
+   "lead": "Ya a la venta en PS5 y Xbox Series X|S, todavía sin fecha para PC. La mayoría de spoilers llegan por miniaturas de YouTube y títulos de Reddit, donde no se puede silenciar nada. Esto funciona.",
    "why_h": "Por qué es difícil esquivar los spoilers de GTA 6",
-   "why": "<p>La prensa ya tiene copias para reseñas y los grandes juegos llegan a algunos jugadores unos días antes, así que la historia puede salir antes del {D0}. Luego juega todo internet a la vez: directos, vídeos de «final explicado» y memes durante semanas.</p><p>Silenciar solo «GTA» también oculta tráileres, noticias y cualquier otro GTA. Usa la lista principal de abajo y deja el modo estricto para la semana del lanzamiento.</p>",
+   "why": "<p>El juego salió el {D0}. Tras un lanzamiento así, todo internet juega a la vez: directos, partidas completas, vídeos de «final explicado» y memes durante semanas. Además, la prensa recibe copias para reseñas antes del lanzamiento, así que parte de la historia pudo circular antes.</p><p>Silenciar solo «GTA» también oculta tráileres, noticias y cualquier otro GTA. Usa la lista principal de abajo y deja el modo estricto para las primeras semanas tras el lanzamiento.</p>",
    "unknown": "Personajes y misiones que ningún tráiler mostró.",
    "demo": "Final de GTA 6 explicado: la última misión",
    "cover_line": "El final",
@@ -604,7 +604,7 @@
     ],
     [
      "¿Cuándo empiezan los spoilers de GTA 6?",
-     "Antes del lanzamiento. La prensa ya tiene copias y los grandes juegos suelen llegar a algunos jugadores unos días antes, así que la historia puede aparecer antes del {D}."
+     "Ya empezaron. El juego salió el {D}, y la prensa y algunos jugadores reciben copias antes, así que la historia pudo aparecer incluso antes."
     ],
     [
      "¿Cuánto tiempo evito spoilers si juego en PC?",
@@ -627,9 +627,9 @@
    "kicker": "GIOCO · PS5 E XBOX SERIES · {date}",
    "cover_tag": "GIOCO · {date}",
    "keep_val": "PC: mesi",
-   "lead": "Esce su PS5 e Xbox Series X|S, ancora senza data per PC. Quasi tutti gli spoiler arriveranno da miniature di YouTube e titoli su Reddit, dove non si può silenziare nulla. Ecco cosa funziona.",
+   "lead": "È uscito su PS5 e Xbox Series X|S, ancora senza data per PC. Quasi tutti gli spoiler arrivano da miniature di YouTube e titoli su Reddit, dove non si può silenziare nulla. Ecco cosa funziona.",
    "why_h": "Perché è difficile evitare gli spoiler di GTA 6",
-   "why": "<p>Le copie per le recensioni sono già alla stampa e i grandi giochi arrivano spesso ad alcuni giocatori qualche giorno prima, quindi la trama può uscire prima del {D0}. Poi gioca tutto internet insieme: live, video «finale spiegato» e meme per settimane.</p><p>Silenziare solo «GTA» nasconde anche trailer, notizie e ogni altro GTA. Usa la lista principale qui sotto e tieni la modalità rigida per la settimana di uscita.</p>",
+   "why": "<p>Il gioco è uscito il {D0}. Dopo un lancio così gioca tutto internet insieme: live, partite complete, video «finale spiegato» e meme per settimane. Le copie per le recensioni arrivano alla stampa prima del lancio, quindi parte della trama può essere circolata prima.</p><p>Silenziare solo «GTA» nasconde anche trailer, notizie e ogni altro GTA. Usa la lista principale qui sotto e tieni la modalità rigida per le prime settimane dopo l'uscita.</p>",
    "unknown": "Personaggi e missioni che nessun trailer ha mostrato.",
    "demo": "Finale di GTA 6 spiegato: l'ultima missione",
    "cover_line": "Il finale",
@@ -654,7 +654,7 @@
     ],
     [
      "Quando iniziano gli spoiler di GTA 6?",
-     "Prima dell'uscita. Le copie per le recensioni sono già alla stampa e i grandi giochi arrivano di solito ad alcuni giocatori qualche giorno prima, quindi la trama può comparire prima del {D}."
+     "Sono già iniziati. Il gioco è uscito il {D} e le copie per le recensioni arrivano prima a stampa e ad alcuni giocatori, quindi la trama può essere comparsa anche prima."
     ],
     [
      "Per quanto devo evitare spoiler se gioco su PC?",
@@ -677,9 +677,9 @@
    "kicker": "JOGO · PS5 E XBOX SERIES · {date}",
    "cover_tag": "JOGO · {date}",
    "keep_val": "PC: meses",
-   "lead": "Sai para PS5 e Xbox Series X|S, ainda sem data para PC. A maioria dos spoilers vai chegar por miniaturas do YouTube e títulos no Reddit, onde nada pode ser silenciado. Veja o que funciona.",
+   "lead": "Já saiu para PS5 e Xbox Series X|S, ainda sem data para PC. A maioria dos spoilers chega por miniaturas do YouTube e títulos no Reddit, onde nada pode ser silenciado. Veja o que funciona.",
    "why_h": "Por que é difícil fugir dos spoilers de GTA 6",
-   "why": "<p>A imprensa já tem cópias para análise e jogos grandes costumam chegar a alguns jogadores dias antes, então a história pode vazar antes de {D0}. Depois a internet inteira joga ao mesmo tempo: lives, vídeos de «final explicado» e memes por semanas.</p><p>Silenciar só «GTA» também esconde trailers, notícias e qualquer outro GTA. Use a lista principal abaixo e deixe o modo rígido para a semana de lançamento.</p>",
+   "why": "<p>O jogo saiu em {D0}. Depois de um lançamento assim, a internet inteira joga ao mesmo tempo: lives, partidas completas, vídeos de «final explicado» e memes por semanas. A imprensa também recebe cópias para análise antes do lançamento, então parte da história pode ter vazado antes.</p><p>Silenciar só «GTA» também esconde trailers, notícias e qualquer outro GTA. Use a lista principal abaixo e deixe o modo rígido para as primeiras semanas após o lançamento.</p>",
    "unknown": "Personagens e missões que nenhum trailer mostrou.",
    "demo": "Final de GTA 6 explicado: a última missão",
    "cover_line": "O final",
@@ -704,7 +704,7 @@
     ],
     [
      "Quando começam os spoilers de GTA 6?",
-     "Antes do lançamento. A imprensa já tem cópias e jogos grandes costumam chegar a alguns jogadores dias antes, então a história pode aparecer antes de {D}."
+     "Já começaram. O jogo saiu em {D}, e a imprensa e alguns jogadores recebem cópias antes, então a história pode ter aparecido até antes disso."
     ],
     [
      "Por quanto tempo evitar spoilers se jogo no PC?",
@@ -727,9 +727,9 @@
    "kicker": "OYUN · PS5 VE XBOX SERIES · {date}",
    "cover_tag": "OYUN · {date}",
    "keep_val": "PC: aylar",
-   "lead": "PS5 ve Xbox Series X|S için çıkıyor, PC tarihi henüz yok. Spoilerların çoğu YouTube küçük resimleri ve Reddit başlıklarından gelecek, oralarda hiçbir şey susturulamıyor. İşe yarayanlar:",
+   "lead": "PS5 ve Xbox Series X|S için çıktı, PC tarihi henüz yok. Spoilerların çoğu YouTube küçük resimleri ve Reddit başlıklarından geliyor, oralarda hiçbir şey susturulamıyor. İşe yarayanlar:",
    "why_h": "GTA 6 spoilerlarından kaçmak neden zor",
-   "why": "<p>İnceleme kopyaları basında ve büyük oyunlar bazı oyunculara birkaç gün önce ulaşır, bu yüzden hikâye {D0} öncesinde ortaya çıkabilir. Sonra bütün internet aynı anda oynar: yayınlar, «son açıklandı» videoları ve haftalarca mimler.</p><p>Sadece «GTA» kelimesini susturmak fragmanları, haberleri ve diğer tüm GTA oyunlarını da gizler. Aşağıdaki temel listeyi kullanın, katı modu çıkış haftasına bırakın.</p>",
+   "why": "<p>Oyun {D0} tarihinde çıktı. Böyle bir çıkıştan sonra bütün internet aynı anda oynar: yayınlar, tam oynanışlar, «son açıklandı» videoları ve haftalarca mimler. İnceleme kopyaları da çıkıştan önce basına ulaşır, bu yüzden hikâyenin bir kısmı daha önce de dolaşmış olabilir.</p><p>Sadece «GTA» kelimesini susturmak fragmanları, haberleri ve diğer tüm GTA oyunlarını da gizler. Aşağıdaki temel listeyi kullanın, katı modu çıkıştan sonraki ilk haftalara bırakın.</p>",
    "unknown": "Fragmanlarda hiç görünmeyen karakterler ve görevler.",
    "demo": "GTA 6 sonu açıklandı: son görev",
    "cover_line": "Son",
@@ -754,7 +754,7 @@
     ],
     [
      "GTA 6 spoilerları ne zaman başlar?",
-     "Çıkıştan önce. İnceleme kopyaları basında ve büyük oyunlar genelde bazı oyunculara birkaç gün önce ulaşır, bu yüzden hikâye {D} öncesinde çıkabilir."
+     "Çoktan başladı. Oyun {D} tarihinde çıktı; inceleme kopyaları basına ve bazı oyunculara önceden ulaştığı için hikâye daha önce de ortaya çıkmış olabilir."
     ],
     [
      "PC'de oynuyorsam spoilerlardan ne kadar kaçınmalıyım?",
@@ -777,9 +777,9 @@
    "kicker": "ゲーム · PS5 / XBOX SERIES · {date}",
    "cover_tag": "ゲーム · {date}",
    "keep_val": "PC：数か月",
-   "lead": "PS5 と Xbox Series X|S で発売、PC版の日付はまだありません。ネタバレの多くは YouTube のサムネイルと Reddit のタイトルから来ますが、そこではミュートできません。効く対策をまとめました。",
+   "lead": "PS5 と Xbox Series X|S で発売済み、PC版の日付はまだありません。ネタバレの多くは YouTube のサムネイルと Reddit のタイトルから来ますが、そこではミュートできません。効く対策をまとめました。",
    "why_h": "GTA 6 のネタバレを避けにくい理由",
-   "why": "<p>レビュー用コピーはすでにメディアに届いていて、大作は一部のプレイヤーに数日早く届くことが多いので、{D0}より前にストーリーが出回る可能性があります。そのあとはネット全体が一斉にプレイします。配信、「結末解説」動画、ミームが何週間も続きます。</p><p>「GTA」だけをミュートすると、トレーラーやニュース、ほかの GTA シリーズまで消えます。下の基本リストを使い、厳しいモードは発売週だけにしましょう。</p>",
+   "why": "<p>ゲームは{D0}に発売されました。これだけの大型タイトルでは、ネット全体が一斉にプレイします。配信、通しプレイ、「結末解説」動画、ミームが何週間も続きます。レビュー用コピーは発売前にメディアへ届くため、ストーリーの一部はそれより前に出回った可能性もあります。</p><p>「GTA」だけをミュートすると、トレーラーやニュース、ほかの GTA シリーズまで消えます。下の基本リストを使い、厳しいモードは発売後の数週間だけにしましょう。</p>",
    "unknown": "トレーラーに一度も出ていないキャラクターやミッション。",
    "demo": "GTA 6 結末解説：最後のミッション",
    "cover_line": "結末",
@@ -804,7 +804,7 @@
     ],
     [
      "GTA 6 のネタバレはいつ始まる？",
-     "発売日より前です。レビュー用コピーはすでにメディアにあり、大作はふつう一部のプレイヤーに数日早く届くので、{D}より前にストーリーが出ることがあります。"
+     "もう始まっています。ゲームは{D}に発売され、レビュー用コピーは発売前にメディアや一部のプレイヤーに届くため、それより前にストーリーが出ることもありました。"
     ],
     [
      "PC で遊ぶ場合、どれくらいネタバレを避ければいい？",
@@ -827,9 +827,9 @@
    "kicker": "게임 · PS5 · XBOX SERIES · {date}",
    "cover_tag": "게임 · {date}",
    "keep_val": "PC: 몇 달",
-   "lead": "PS5와 Xbox Series X|S로 출시되며 PC 날짜는 아직 없습니다. 스포일러 대부분은 뮤트가 안 되는 YouTube 썸네일과 Reddit 제목으로 들어옵니다. 효과 있는 방법을 정리했습니다.",
+   "lead": "PS5와 Xbox Series X|S로 출시되었고 PC 날짜는 아직 없습니다. 스포일러 대부분은 뮤트가 안 되는 YouTube 썸네일과 Reddit 제목으로 들어옵니다. 효과 있는 방법을 정리했습니다.",
    "why_h": "GTA 6 스포일러를 피하기 어려운 이유",
-   "why": "<p>리뷰용 사본은 이미 언론에 있고, 대작은 일부 플레이어에게 며칠 먼저 도착하는 경우가 많아 {D0} 전에 스토리가 퍼질 수 있습니다. 그다음엔 인터넷 전체가 동시에 플레이합니다. 방송, \"결말 해석\" 영상, 밈이 몇 주씩 이어집니다.</p><p>\"GTA\"만 뮤트하면 트레일러, 뉴스, 다른 GTA 시리즈까지 사라집니다. 아래 기본 목록을 쓰고 엄격 모드는 출시 주간에만 켜 두세요.</p>",
+   "why": "<p>게임은 {D0}에 출시되었습니다. 이런 대작은 출시 후 인터넷 전체가 동시에 플레이합니다. 방송, 전체 플레이, \"결말 해석\" 영상, 밈이 몇 주씩 이어집니다. 리뷰용 사본은 출시 전에 언론에 전달되므로 스토리 일부가 그 전에 퍼졌을 수도 있습니다.</p><p>\"GTA\"만 뮤트하면 트레일러, 뉴스, 다른 GTA 시리즈까지 사라집니다. 아래 기본 목록을 쓰고 엄격 모드는 출시 후 몇 주간만 켜 두세요.</p>",
    "unknown": "트레일러에 한 번도 나오지 않은 캐릭터와 미션.",
    "demo": "GTA 6 결말 해석: 마지막 미션",
    "cover_line": "결말",
@@ -854,7 +854,7 @@
     ],
     [
      "GTA 6 스포일러는 언제부터 시작되나요?",
-     "출시일 전부터입니다. 리뷰용 사본이 이미 언론에 있고 대작은 보통 일부 플레이어에게 며칠 먼저 도착하므로 {D} 전에 스토리가 나올 수 있습니다."
+     "이미 시작되었습니다. 게임은 {D}에 출시되었고, 리뷰용 사본은 출시 전에 언론과 일부 플레이어에게 전달되므로 그 전에 스토리가 나올 수도 있었습니다."
     ],
     [
      "PC로 하면 얼마나 오래 스포일러를 피해야 하나요?",
@@ -877,9 +877,9 @@
    "kicker": "游戏 · PS5 和 XBOX SERIES · {date}",
    "cover_tag": "游戏 · {date}",
    "keep_val": "PC：几个月",
-   "lead": "登陆 PS5 和 Xbox Series X|S，PC 版还没有日期。大多数剧透会来自 YouTube 缩略图和 Reddit 标题，而这两处都无法屏蔽关键词。下面是有效的办法。",
+   "lead": "已登陆 PS5 和 Xbox Series X|S，PC 版还没有日期。大多数剧透来自 YouTube 缩略图和 Reddit 标题，而这两处都无法屏蔽关键词。下面是有效的办法。",
    "why_h": "为什么 GTA 6 剧透很难躲",
-   "why": "<p>评测版已经在媒体手里，大作也常常提前几天到达部分玩家手中，所以剧情可能在{D0}之前就流出。之后全网同时开玩：直播、“结局解析”视频和梗图会持续好几周。</p><p>只屏蔽“GTA”会连预告、新闻和其他 GTA 作品一起挡掉。使用下面的基础列表，严格模式留到发售周再开。</p>",
+   "why": "<p>游戏已于{D0}发售。这样的大作发售后，全网同时开玩：直播、通关视频、“结局解析”视频和梗图会持续好几周。评测版在发售前就会到媒体手里，所以部分剧情可能更早就流出了。</p><p>只屏蔽“GTA”会连预告、新闻和其他 GTA 作品一起挡掉。使用下面的基础列表，严格模式留到发售后的头几周再开。</p>",
    "unknown": "预告里从未出现过的角色和任务。",
    "demo": "GTA 6 结局解析：最后一个任务",
    "cover_line": "结局",
@@ -904,7 +904,7 @@
     ],
     [
      "GTA 6 剧透什么时候开始？",
-     "在发售日之前。评测版已经在媒体手里，大作通常会提前几天到达部分玩家手中，所以剧情可能在{D}之前出现。"
+     "已经开始了。游戏已于{D}发售，评测版会提前到媒体和部分玩家手中，所以剧情之前就可能出现。"
     ],
     [
      "玩 PC 版要躲剧透多久？",
