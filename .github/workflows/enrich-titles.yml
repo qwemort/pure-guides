@@ -1,0 +1,24 @@
+name: enrich-titles
+# Шаг 1б переезда: разовая сверка data/titles/ с Wikidata (даты, имена героев на проверку).
+# Пишет в ветку enrich-titles, не в main: результат сначала смотрит человек.
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: node tools/enrich-titles.mjs && cat out/enrich-report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Push branch
+        run: |
+          cp out/enrich-report.md data/titles/_enrich-report.md
+          git config user.name "enrich bot"; git config user.email "actions@users.noreply.github.com"
+          git checkout -B enrich-titles
+          git add data/titles
+          git commit -qm "step 1b: Wikidata check of titles (review before merge)" || exit 0
+          git push -f origin enrich-titles
