@@ -40,13 +40,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "de": {
@@ -58,13 +52,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "es": {
@@ -76,13 +64,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "fr": {
@@ -94,13 +76,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "it": {
@@ -112,13 +88,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "ja": {
@@ -166,13 +136,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "pt-BR": {
@@ -184,13 +148,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "ru": {
@@ -220,13 +178,7 @@
    ],
    "balanced": [
     "luke triton",
-    "hershel layton",
-    "luke",
-    "flora reinhold",
-    "emmy altava",
-    "don paolo",
-    "descole",
-    "katrielle"
+    "hershel layton"
    ]
   },
   "uk": {
@@ -267,7 +219,7 @@
   }
  },
  "spoiler_blocklist": [],
- "spoiler_safe_verified": false,
+ "spoiler_safe_verified": true,
  "texts": {
   "en": {
    "name": "Professor Layton and the New World of Steam",
