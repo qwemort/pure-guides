@@ -114,6 +114,8 @@ def render_main(t, lang, S, titles, path_of_title, today=None):
         ('threads', 'Threads · Instagram', f'<p>{S["plat_threads"]}</p><p class="muted">{esc(M["line_how"])}</p>' + one(line)),
         ('tiktok', 'TikTok', f'<p>{S["plat_tiktok"]}</p><p class="muted">{esc(M["tt_how"])}</p>' + one(', '.join(roots))),
         ('bluesky', 'Bluesky', f'<p>{esc(M["bsky"])}</p><p class="muted">{esc(M["x_how"]).replace("X", "Bluesky")}</p>' + queue(strict + core[:8])),
+        ('mods', 'Discord · Reddit', f'<p>{esc(M["mods"])}</p><p class="muted">{esc(M["mods_how"])}</p>'
+                                    f'<p><a href="/lists/{t["slug"]}/discord.txt">Discord AutoMod</a> · <a href="/lists/{t["slug"]}/reddit-automod.yaml">Reddit AutoModerator</a> · <a href="/lists/{t["slug"]}/ublock.txt">uBlock Origin</a></p>'),
         ('youtube', 'YouTube', f'<p><b data-no="{esc(S["no_mute"])}">YouTube</b> {S["plat_youtube"]}</p><p>{esc(M["yt_more"])}</p>'
                                f'<a class="ms-mail" href="{esc(mail)}">{esc(M["send_pc"])}</a>'),
     ]

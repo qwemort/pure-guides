@@ -26,7 +26,9 @@
    "t_status": "Status",
    "ev_first": "First screening worldwide",
    "ev_us": "Release in the US",
-   "more": "More titles"
+   "more": "More titles",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   },
   "ru": {
    "bluf_soon": "Выход {date}. Спойлеры обычно начинаются на несколько дней раньше, примерно {from}. Фильтры держать: {keep}.",
@@ -53,7 +55,9 @@
    "t_status": "Статус",
    "ev_first": "Первый показ в мире",
    "ev_us": "Выход в США",
-   "more": "Ещё тайтлы"
+   "more": "Ещё тайтлы",
+   "mods": "Ведёшь сервер в Discord или сабреддит? Готовые фильтры для модерации: прячут или помечают спойлеры, а не любое упоминание.",
+   "mods_how": "Discord: Настройки сервера, AutoMod, Блокировка своих слов. Reddit: Mod Tools, AutoModerator. В каждом файле написано, куда вставлять. Списки на английском."
   },
   "uk": {
    "bluf_soon": "Вихід {date}. Спойлери зазвичай з'являються на кілька днів раніше, приблизно {from}. Фільтри тримати: {keep}.",
@@ -80,7 +84,9 @@
    "t_status": "Статус",
    "ev_first": "Перший показ у світі",
    "ev_us": "Вихід у США",
-   "more": "Ще тайтли"
+   "more": "Ще тайтли",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   },
   "pl": {
    "bluf_soon": "Premiera {date}. Spoilery zwykle pojawiają się kilka dni wcześniej, około {from}. Filtry trzymaj: {keep}.",
@@ -107,7 +113,9 @@
    "t_status": "Status",
    "ev_first": "Pierwszy pokaz na świecie",
    "ev_us": "Premiera w USA",
-   "more": "Więcej tytułów"
+   "more": "Więcej tytułów",
+   "mods": "Prowadzisz serwer na Discordzie albo subreddit? Gotowe filtry do moderacji: ukrywają lub oznaczają spoilery, nie każdą wzmiankę.",
+   "mods_how": "Discord: Ustawienia serwera, AutoMod, Blokuj własne słowa. Reddit: Mod Tools, AutoModerator. W każdym pliku jest napisane, gdzie wkleić. Listy po angielsku."
   },
   "pt-BR": {
    "bluf_soon": "Lançamento em {date}. Os spoilers costumam aparecer alguns dias antes, por volta de {from}. Mantenha os filtros: {keep}.",
@@ -134,7 +142,9 @@
    "t_status": "Status",
    "ev_first": "Primeira exibição no mundo",
    "ev_us": "Lançamento nos EUA",
-   "more": "Mais títulos"
+   "more": "Mais títulos",
+   "mods": "Cuida de um servidor no Discord ou de um subreddit? Filtros prontos para a moderação: escondem ou marcam spoilers, não qualquer menção.",
+   "mods_how": "Discord: Configurações do servidor, AutoMod, Bloquear palavras personalizadas. Reddit: Mod Tools, AutoModerator. Cada arquivo diz onde colar. Listas em inglês."
   },
   "fr": {
    "bluf_soon": "Sortie le {date}. Les spoilers arrivent souvent quelques jours avant, vers le {from}. Gardez les filtres : {keep}.",
@@ -161,7 +171,9 @@
    "t_status": "Statut",
    "ev_first": "Première projection au monde",
    "ev_us": "Sortie aux États-Unis",
-   "more": "Autres titres"
+   "more": "Autres titres",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   },
   "it": {
    "bluf_soon": "Esce il {date}. Gli spoiler di solito arrivano qualche giorno prima, verso il {from}. Tieni i filtri: {keep}.",
@@ -188,7 +200,9 @@
    "t_status": "Stato",
    "ev_first": "Prima proiezione al mondo",
    "ev_us": "Uscita negli USA",
-   "more": "Altri titoli"
+   "more": "Altri titoli",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   },
   "es": {
    "bluf_soon": "Sale el {date}. Los spoilers suelen llegar unos días antes, hacia el {from}. Mantén los filtros: {keep}.",
@@ -215,7 +229,9 @@
    "t_status": "Estado",
    "ev_first": "Primer estreno en el mundo",
    "ev_us": "Estreno en EE. UU.",
-   "more": "Más títulos"
+   "more": "Más títulos",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   },
   "de": {
    "bluf_soon": "Erscheint am {date}. Spoiler tauchen meist ein paar Tage früher auf, etwa ab {from}. Filter an lassen: {keep}.",
@@ -242,7 +258,9 @@
    "t_status": "Status",
    "ev_first": "Erste Vorführung weltweit",
    "ev_us": "Start in den USA",
-   "more": "Weitere Titel"
+   "more": "Weitere Titel",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   },
   "tr": {
    "bluf_soon": "Çıkış {date}. Spoilerlar genelde birkaç gün önce, {from} civarında başlar. Filtreleri açık tut: {keep}.",
@@ -269,7 +287,9 @@
    "t_status": "Durum",
    "ev_first": "Dünyada ilk gösterim",
    "ev_us": "ABD'de çıkış",
-   "more": "Diğer yapımlar"
+   "more": "Diğer yapımlar",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   },
   "ja": {
    "bluf_soon": "発売日は{date}。ネタバレはたいてい数日前、{from}ごろから出回ります。フィルターの目安：{keep}。",
@@ -296,7 +316,9 @@
    "t_status": "状態",
    "ev_first": "世界初上映",
    "ev_us": "米国での公開",
-   "more": "ほかの作品"
+   "more": "ほかの作品",
+   "mods": "Run a Discord server or a subreddit? Ready filters for your mod tools: they hide or flag spoilers, not every mention.",
+   "mods_how": "Discord: Server Settings, AutoMod, Block Custom Words. Reddit: Mod Tools, AutoModerator. Each file says where to paste it. Lists are in English."
   }
  }
 }

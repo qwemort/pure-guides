@@ -13,6 +13,7 @@ from xml.sax.saxutils import escape
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import titlepage
+import exports
 
 R = Path(__file__).resolve().parent.parent
 SITE = R / 'site'
@@ -257,6 +258,7 @@ def main():
     shutil.copytree(R / 'fonts', DIST / 'fonts', ignore=shutil.ignore_patterns('*.txt'))
     (DIST / 'img').mkdir(); shutil.copy(R / 'img/og.png', DIST / 'img/og.png')
     titles = [json.loads(p.read_text(encoding='utf-8')) for p in sorted((R / 'data/titles').glob('*.json'))]
+    print(f'списков для модераторов и uBlock: {exports.build(titles, DIST, BASE)}')
     sitemap = {}          # lang -> [(loc, lastmod)]
     count = 0
     for t in titles:
