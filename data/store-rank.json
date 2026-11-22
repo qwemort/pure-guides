@@ -315,32 +315,600 @@
    {
     "q": "spoiler blocker",
     "total": 10,
-    "rank": null
+    "rank": null,
+    "top": [
+     {
+      "id": "eelacikjiplnmdingehjfdjcfegclmkg",
+      "name": ""
+     },
+     {
+      "id": "hmijoeophhplodchameaogmgdcphnode",
+      "name": ""
+     },
+     {
+      "id": "ebadfeeidhnahjigfkafdjbmmdlijhfk",
+      "name": ""
+     },
+     {
+      "id": "nljhkjgljaihdfgohaippbpigjoicied",
+      "name": ""
+     },
+     {
+      "id": "ddngmkncfhfmboieioegpcnkfponhklh",
+      "name": ""
+     },
+     {
+      "id": "gajcifjihldpaegdcnfdcjdjflgkiokc",
+      "name": ""
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": ""
+     },
+     {
+      "id": "jeiicdjopelafmfokikmaimcfhdgamem",
+      "name": ""
+     },
+     {
+      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
+      "name": ""
+     },
+     {
+      "id": "dhoclllpmblppmidhpmbmclajblnfbdb",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "pure spoiler blocker",
+    "total": 2,
+    "rank": 1,
+    "top": [
+     {
+      "id": "aloilpojkoblacapdlknacjiljgjibng",
+      "name": ""
+     },
+     {
+      "id": "aiindbhiomohlkcfaojejndmjadahdja",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "mute spoilers",
+    "total": 6,
+    "rank": null,
+    "top": [
+     {
+      "id": "pmhmkeooaoeiofbbjplolijhddpmaggf",
+      "name": ""
+     },
+     {
+      "id": "leojofleikclfcmofjjelaolllphaopd",
+      "name": ""
+     },
+     {
+      "id": "dkepojnidpmbdihncgnfkoicnaidogpi",
+      "name": ""
+     },
+     {
+      "id": "npmpppkiopdofkkhlfkjbogigbpcefoj",
+      "name": ""
+     },
+     {
+      "id": "mahaapdhmlmbgdpkmhhkfcfljhjbgkfp",
+      "name": ""
+     },
+     {
+      "id": "lakilkmdbkilmnabpjpngohpdihoelai",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "block spoilers",
+    "total": 10,
+    "rank": null,
+    "top": [
+     {
+      "id": "eelacikjiplnmdingehjfdjcfegclmkg",
+      "name": ""
+     },
+     {
+      "id": "hmijoeophhplodchameaogmgdcphnode",
+      "name": ""
+     },
+     {
+      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
+      "name": ""
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": ""
+     },
+     {
+      "id": "dhoclllpmblppmidhpmbmclajblnfbdb",
+      "name": ""
+     },
+     {
+      "id": "nljhkjgljaihdfgohaippbpigjoicied",
+      "name": ""
+     },
+     {
+      "id": "pmhapkbgomfflicbecdbajgmemffeamf",
+      "name": ""
+     },
+     {
+      "id": "ddngmkncfhfmboieioegpcnkfponhklh",
+      "name": ""
+     },
+     {
+      "id": "ebadfeeidhnahjigfkafdjbmmdlijhfk",
+      "name": ""
+     },
+     {
+      "id": "caledcpfdapmmhmflbpjmjnenmjggghp",
+      "name": ""
+     }
+    ]
    },
    {
     "q": "hide spoilers",
     "total": 10,
-    "rank": null
+    "rank": null,
+    "top": [
+     {
+      "id": "eelacikjiplnmdingehjfdjcfegclmkg",
+      "name": ""
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": ""
+     },
+     {
+      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
+      "name": ""
+     },
+     {
+      "id": "bnnpefgmimmcellmjcblicbolelnippd",
+      "name": ""
+     },
+     {
+      "id": "ihdckjmmfpfabbmfhipmjdojmbibopjj",
+      "name": ""
+     },
+     {
+      "id": "nndkfaobnmghofjjeepekdgnodcnnakc",
+      "name": ""
+     },
+     {
+      "id": "enafghmicnjmnebfmcnklceanlbpfolo",
+      "name": ""
+     },
+     {
+      "id": "ddngmkncfhfmboieioegpcnkfponhklh",
+      "name": ""
+     },
+     {
+      "id": "knllbjmieejiihihaecdhamhcfadaadc",
+      "name": ""
+     },
+     {
+      "id": "ofplbhckbbeohimppkfbcfjagcheiaia",
+      "name": ""
+     }
+    ]
    },
    {
-    "q": "spoiler shield",
+    "q": "spoiler filter",
     "total": 10,
-    "rank": null
+    "rank": null,
+    "top": [
+     {
+      "id": "eelacikjiplnmdingehjfdjcfegclmkg",
+      "name": ""
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": ""
+     },
+     {
+      "id": "nljhkjgljaihdfgohaippbpigjoicied",
+      "name": ""
+     },
+     {
+      "id": "lhmdomnnfeikdglpapcleolmaejdgoan",
+      "name": ""
+     },
+     {
+      "id": "ligghpmfhnpcaedbddnjcgebmabembgm",
+      "name": ""
+     },
+     {
+      "id": "ajbibacfgfmalccemahijcnibimcnckm",
+      "name": ""
+     },
+     {
+      "id": "gajcifjihldpaegdcnfdcjdjflgkiokc",
+      "name": ""
+     },
+     {
+      "id": "gbiapdhcgkbpficcccjfmhheakmgdlfb",
+      "name": ""
+     },
+     {
+      "id": "hlfdnnbhmhkfmcimdojpchknmbfeobif",
+      "name": ""
+     },
+     {
+      "id": "ghblpkpgmoelfodoplcdipaopmhfnmbl",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "no spoilers",
+    "total": 10,
+    "rank": null,
+    "top": [
+     {
+      "id": "kfbhhaallccnekmpojknfjblchllocgb",
+      "name": ""
+     },
+     {
+      "id": "gniaabdpaogadlnmdcolpjofhioopgmk",
+      "name": ""
+     },
+     {
+      "id": "eelacikjiplnmdingehjfdjcfegclmkg",
+      "name": ""
+     },
+     {
+      "id": "pdcocbmidjifbikkgfedadbemddmpnek",
+      "name": ""
+     },
+     {
+      "id": "gdgjckmdfpildobojkgicjgfmebeedap",
+      "name": ""
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": ""
+     },
+     {
+      "id": "apaamghhdnbmfbpifaibbokcnclcfbmg",
+      "name": ""
+     },
+     {
+      "id": "hmklilohlfdjlhpmdlidpfklabdopahk",
+      "name": ""
+     },
+     {
+      "id": "lfeppohidgccmmihcmnpmohefpgnlfkl",
+      "name": ""
+     },
+     {
+      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "movie spoiler blocker",
+    "total": 10,
+    "rank": null,
+    "top": [
+     {
+      "id": "nljhkjgljaihdfgohaippbpigjoicied",
+      "name": ""
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": ""
+     },
+     {
+      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
+      "name": ""
+     },
+     {
+      "id": "pkemikdeejamekepmklkoglmeiadmdpo",
+      "name": ""
+     },
+     {
+      "id": "lnakhjgajphdppdjakdmbmjjibljejja",
+      "name": ""
+     },
+     {
+      "id": "ojkdlgahhkhbmcmaglkmljfdkpnmonpa",
+      "name": ""
+     },
+     {
+      "id": "ijpcmaplolkjahpoiogjnkojkpkjpaki",
+      "name": ""
+     },
+     {
+      "id": "hlfdnnbhmhkfmcimdojpchknmbfeobif",
+      "name": ""
+     },
+     {
+      "id": "gbopnmhlbfffhbfgjollddlcnjhbblpi",
+      "name": ""
+     },
+     {
+      "id": "ajbibacfgfmalccemahijcnibimcnckm",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "spoiler blocker youtube",
+    "total": 10,
+    "rank": null,
+    "top": [
+     {
+      "id": "nljhkjgljaihdfgohaippbpigjoicied",
+      "name": ""
+     },
+     {
+      "id": "knllbjmieejiihihaecdhamhcfadaadc",
+      "name": ""
+     },
+     {
+      "id": "djcpdelddgalfpbclakajffmfgbnpabo",
+      "name": ""
+     },
+     {
+      "id": "ghblpkpgmoelfodoplcdipaopmhfnmbl",
+      "name": ""
+     },
+     {
+      "id": "ccfjejodhmecmlmdcacpagkliaephgnn",
+      "name": ""
+     },
+     {
+      "id": "ojkdlgahhkhbmcmaglkmljfdkpnmonpa",
+      "name": ""
+     },
+     {
+      "id": "nidhlmdehkfjbifjmbjohoffjecdcdmm",
+      "name": ""
+     },
+     {
+      "id": "biebcephpodngpmklmpelbpmefpgpeea",
+      "name": ""
+     },
+     {
+      "id": "pofjpdfpoomceenepnablbjpfiomlfhi",
+      "name": ""
+     },
+     {
+      "id": "pdcocbmidjifbikkgfedadbemddmpnek",
+      "name": ""
+     }
+    ]
    },
    {
     "q": "block spoilers youtube",
     "total": 10,
-    "rank": null
+    "rank": null,
+    "top": [
+     {
+      "id": "nljhkjgljaihdfgohaippbpigjoicied",
+      "name": ""
+     },
+     {
+      "id": "knllbjmieejiihihaecdhamhcfadaadc",
+      "name": ""
+     },
+     {
+      "id": "pdcocbmidjifbikkgfedadbemddmpnek",
+      "name": ""
+     },
+     {
+      "id": "ccfjejodhmecmlmdcacpagkliaephgnn",
+      "name": ""
+     },
+     {
+      "id": "pofjpdfpoomceenepnablbjpfiomlfhi",
+      "name": ""
+     },
+     {
+      "id": "ojkdlgahhkhbmcmaglkmljfdkpnmonpa",
+      "name": ""
+     },
+     {
+      "id": "djcpdelddgalfpbclakajffmfgbnpabo",
+      "name": ""
+     },
+     {
+      "id": "enafghmicnjmnebfmcnklceanlbpfolo",
+      "name": ""
+     },
+     {
+      "id": "afgagfcadngabcggmjpgmjonmciccceg",
+      "name": ""
+     },
+     {
+      "id": "bolmmhkapeekgcjopdmnbmnhgaapbpdb",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "hide spoilers youtube",
+    "total": 10,
+    "rank": null,
+    "top": [
+     {
+      "id": "eelacikjiplnmdingehjfdjcfegclmkg",
+      "name": ""
+     },
+     {
+      "id": "knllbjmieejiihihaecdhamhcfadaadc",
+      "name": ""
+     },
+     {
+      "id": "nljhkjgljaihdfgohaippbpigjoicied",
+      "name": ""
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": ""
+     },
+     {
+      "id": "pdcocbmidjifbikkgfedadbemddmpnek",
+      "name": ""
+     },
+     {
+      "id": "egkhkmhcfiekpcagdmgkehmodiniglck",
+      "name": ""
+     },
+     {
+      "id": "lamohgmflgjjahpncbdbinocopikappa",
+      "name": ""
+     },
+     {
+      "id": "enafghmicnjmnebfmcnklceanlbpfolo",
+      "name": ""
+     },
+     {
+      "id": "biebcephpodngpmklmpelbpmefpgpeea",
+      "name": ""
+     },
+     {
+      "id": "hkkpnepgmgeljhoiplhpoibfkjplbnia",
+      "name": ""
+     }
+    ]
+   },
+   {
+    "q": "spoiler blocker reddit",
+    "total": 7,
+    "rank": null,
+    "top": [
+     {
+      "id": "lhmdomnnfeikdglpapcleolmaejdgoan",
+      "name": ""
+     },
+     {
+      "id": "hlfdnnbhmhkfmcimdojpchknmbfeobif",
+      "name": ""
+     },
+     {
+      "id": "lelhddhefkgdnhgkogijjikmabfhicda",
+      "name": ""
+     },
+     {
+      "id": "jeiicdjopelafmfokikmaimcfhdgamem",
+      "name": ""
+     },
+     {
+      "id": "bbaepddipmhfmcfcippikcklcmaiiboa",
+      "name": ""
+     },
+     {
+      "id": "jahgpaonkaapkapkhmfbnkbjiilfolld",
+      "name": ""
+     },
+     {
+      "id": "onmemmccgjmckgpaplicikhjddjbjoka",
+      "name": ""
+     }
+    ]
    },
    {
     "q": "gta 6 spoiler",
     "total": 10,
-    "rank": null
+    "rank": null,
+    "top": [
+     {
+      "id": "jeiicdjopelafmfokikmaimcfhdgamem",
+      "name": ""
+     },
+     {
+      "id": "pheoomkjfohpibedhckmecpgfhhjkell",
+      "name": ""
+     },
+     {
+      "id": "apaamghhdnbmfbpifaibbokcnclcfbmg",
+      "name": ""
+     },
+     {
+      "id": "fjlphfamanblaepnmikmpmkcplnckipm",
+      "name": ""
+     },
+     {
+      "id": "iflkoognlnbcibjdpllippjbjijbmiae",
+      "name": ""
+     },
+     {
+      "id": "fohpidmdglkpdffmdppgphcajpcipbam",
+      "name": ""
+     },
+     {
+      "id": "hjcjdahljbanoldnfoobemonocojfnpd",
+      "name": ""
+     },
+     {
+      "id": "jehngmdfhilcblpnamofobbcmlkfgkic",
+      "name": ""
+     },
+     {
+      "id": "lnakhjgajphdppdjakdmbmjjibljejja",
+      "name": ""
+     },
+     {
+      "id": "caledcpfdapmmhmflbpjmjnenmjggghp",
+      "name": ""
+     }
+    ]
    },
    {
     "q": "gta 6 spoiler blocker",
     "total": 10,
-    "rank": null
+    "rank": null,
+    "top": [
+     {
+      "id": "jeiicdjopelafmfokikmaimcfhdgamem",
+      "name": ""
+     },
+     {
+      "id": "pheoomkjfohpibedhckmecpgfhhjkell",
+      "name": ""
+     },
+     {
+      "id": "apaamghhdnbmfbpifaibbokcnclcfbmg",
+      "name": ""
+     },
+     {
+      "id": "lnakhjgajphdppdjakdmbmjjibljejja",
+      "name": ""
+     },
+     {
+      "id": "hjcjdahljbanoldnfoobemonocojfnpd",
+      "name": ""
+     },
+     {
+      "id": "aiindbhiomohlkcfaojejndmjadahdja",
+      "name": ""
+     },
+     {
+      "id": "fjlphfamanblaepnmikmpmkcplnckipm",
+      "name": ""
+     },
+     {
+      "id": "dlldglkifafkicdfkajaopkjpjnmnlml",
+      "name": ""
+     },
+     {
+      "id": "pcfffnjdebiihgfdodhmhiiedhndpjfe",
+      "name": ""
+     },
+     {
+      "id": "bdoaaoleoaidnfjfhcoehkiakhlfbicb",
+      "name": ""
+     }
+    ]
    }
   ]
  }
