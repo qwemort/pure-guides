@@ -1,0 +1,32 @@
+name: pain-radar
+# Радар боли (Антон 22.11.2026): раз в день Bluesky + Hacker News + отзывы Firefox (наши и конкурентов) → сводка в Telegram.
+# Только чтение: бот никому не пишет и не отвечает. Логика — tools/pain-radar.mjs, память — data/pain-radar.json.
+on:
+  schedule:
+    - cron: '7 7 * * *'   # 08:07 Варшава
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: pain-radar, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+      BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Radar
+        run: |
+          node tools/pain-radar.mjs | tee -a "$GITHUB_STEP_SUMMARY"
+          [ -s out/pain-radar.txt ] && node tools/notify.mjs "$(cat out/pain-radar.txt)" || true
+      - name: Save state
+        run: |
+          git config user.name "pain-radar bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/pain-radar.json
+          git diff --cached --quiet || { git commit -qm "pain-radar: $(date -u +%F)"; git pull --rebase --autostash -q origin main; git push origin HEAD:main; }
