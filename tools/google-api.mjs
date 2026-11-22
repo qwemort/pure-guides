@@ -5,7 +5,10 @@ const b64u = (b) => Buffer.from(b).toString('base64').replace(/=+$/, '').replace
 export async function googleToken(scopes) {
   const raw = process.env.GOOGLE_SA_JSON;
   if (!raw) return '';
-  const sa = JSON.parse(raw);
+  let txt = raw.trim();   // если при копировании потерялись крайние скобки — достраиваем
+  if (!txt.startsWith('{')) txt = '{' + txt;
+  if (!txt.endsWith('}')) txt = txt.replace(/,\s*$/, '') + '}';
+  const sa = JSON.parse(txt);
   const now = Math.floor(Date.now() / 1000);
   const head = b64u(JSON.stringify({ alg: 'RS256', typ: 'JWT' }));
   const body = b64u(JSON.stringify({ iss: sa.client_email, scope: scopes.join(' '), aud: 'https://oauth2.googleapis.com/token', iat: now, exp: now + 3300 }));
