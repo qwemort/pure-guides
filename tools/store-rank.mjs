@@ -15,10 +15,21 @@ for (const q of QUERIES) {
     await pg.goto(`https://chromewebstore.google.com/search/${encodeURIComponent(q)}?hl=en`, { waitUntil: 'networkidle', timeout: 45000 });
     await pg.waitForSelector('a[href*="/detail/"]', { timeout: 20000 });
     for (let i = 0; i < 3; i++) { await pg.mouse.wheel(0, 3000); await pg.waitForTimeout(1200); }
-    const items = await pg.$$eval('a[href*="/detail/"]', (as) => as.map((a) => ({
-      id: ((a.getAttribute('href') || '').match(/\/detail\/(?:[^/]+\/)?([a-p]{32})/) || [])[1],
-      name: ((a.innerText || a.getAttribute('aria-label') || '').split('\n').map((t) => t.trim()).find(Boolean) || '').slice(0, 60),
-    })).filter((x) => x.id));
+    const items = await pg.$$eval('a[href*="/detail/"]', (as) => as.map((a) => {
+      const id = ((a.getAttribute('href') || '').match(/\/detail\/(?:[^/]+\/)?([a-p]{32})/) || [])[1];
+      // карточка = самый верхний предок, где ссылки ведут только на это же расширение
+      let card = a;
+      while (card.parentElement) {
+        const ids = new Set([...card.parentElement.querySelectorAll('a[href*="/detail/"]')].map((x) => ((x.getAttribute('href') || '').match(/([a-p]{32})/) || [])[1]));
+        if (ids.size > 1) break;
+        card = card.parentElement;
+      }
+      const lines = (card.innerText || '').split('\n').map((t) => t.trim()).filter(Boolean);
+      const name = lines.find((t) => t.length > 2 && !/^[\d.,]+$/.test(t) && !/^(featured|extension|users?)$/i.test(t)) || a.getAttribute('aria-label') || '';
+      const users = (lines.find((t) => /users?$/i.test(t)) || '').replace(/\s*users?$/i, '');
+      const rating = (lines.find((t) => /^[0-5]\.\d$/.test(t)) || '');
+      return { id, name: name.slice(0, 60), users, rating };
+    }).filter((x) => x.id));
     const seen = new Map();
     for (const it of items) if (!seen.has(it.id) || (!seen.get(it.id).name && it.name)) seen.set(it.id, it);
     const list = [...seen.values()];
