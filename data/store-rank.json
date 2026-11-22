@@ -733,12 +733,6 @@
       "rating": "5.0"
      },
      {
-      "id": "pkemikdeejamekepmklkoglmeiadmdpo",
-      "name": "Plot Armor – Spoiler Blocker",
-      "users": "",
-      "rating": "0.0"
-     },
-     {
       "id": "lnakhjgajphdppdjakdmbmjjibljejja",
       "name": "Spoiler Blocker for GTA 6",
       "users": "",
@@ -763,14 +757,20 @@
       "rating": "5.0"
      },
      {
+      "id": "pkemikdeejamekepmklkoglmeiadmdpo",
+      "name": "Plot Armor – Spoiler Blocker",
+      "users": "",
+      "rating": "0.0"
+     },
+     {
       "id": "gbopnmhlbfffhbfgjollddlcnjhbblpi",
       "name": "Anti-Spoiler",
       "users": "",
       "rating": "5.0"
      },
      {
-      "id": "ajbibacfgfmalccemahijcnibimcnckm",
-      "name": "GTA VI Spoiler Shield - Custom Keyword Filter",
+      "id": "pndldfaaidcpodabeeiancdglocccino",
+      "name": "Antispoiler",
       "users": "",
       "rating": "0.0"
      }
@@ -818,12 +818,6 @@
       "rating": "5.0"
      },
      {
-      "id": "nidhlmdehkfjbifjmbjohoffjecdcdmm",
-      "name": "YouTube Spoiler Comments Blocker",
-      "users": "",
-      "rating": "0.0"
-     },
-     {
       "id": "biebcephpodngpmklmpelbpmefpgpeea",
       "name": "YouTube Spoiler Blocker",
       "users": "",
@@ -834,6 +828,12 @@
       "name": "YouTube Keyword Blocker - Hide Unwanted Videos from Your Fee",
       "users": "",
       "rating": "3.0"
+     },
+     {
+      "id": "nidhlmdehkfjbifjmbjohoffjecdcdmm",
+      "name": "YouTube Spoiler Comments Blocker",
+      "users": "",
+      "rating": "0.0"
      },
      {
       "id": "pdcocbmidjifbikkgfedadbemddmpnek",
@@ -1086,10 +1086,10 @@
       "rating": "0.0"
      },
      {
-      "id": "caledcpfdapmmhmflbpjmjnenmjggghp",
-      "name": "NoVice - Block GTA 6 Spoilers",
+      "id": "dlldglkifafkicdfkajaopkjpjnmnlml",
+      "name": "GTA 6 Spoiler Blocker",
       "users": "",
-      "rating": "5.0"
+      "rating": "0.0"
      }
     ]
    },
