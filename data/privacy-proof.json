@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-22",
+ "version": "1.4.1",
+ "source_commit": "f50601bd798ec2d73c04e7bfbddb6cf9a6321796",
+ "probe_detected": true,
+ "pages": [
+  "YouTube",
+  "YouTube (главная)",
+  "Reddit",
+  "X",
+  "окно расширения",
+  "приветствие расширения"
+ ],
+ "extension_requests": 4,
+ "requests": [
+  {
+   "from": "background",
+   "url": "https://www.youtube.com/sw.js"
+  },
+  {
+   "from": "background",
+   "url": "https://www.youtube.com/s/desktop/95c3254f/jsbin/serviceworker-notifications.vflset/serviceworker-notifications.js"
+  },
+  {
+   "from": "background",
+   "url": "https://www.youtube.com/sw.js_data"
+  },
+  {
+   "from": "background",
+   "url": "https://www.youtube.com/youtubei/v1/notification_registration/set_registration?prettyPrint=false"
+  }
+ ]
+}
