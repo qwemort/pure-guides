@@ -1,0 +1,30 @@
+name: anime-radar
+# Радар манги для аниме (Антон 22.11.2026): по понедельникам — серии недели + новые главы манги → сводка в Telegram.
+# Только чтение, без ключей (AniList, MangaDex). Логика — tools/anime-radar.mjs.
+on:
+  schedule:
+    - cron: '41 7 * * 1'   # понедельник, 08:41 Варшава
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: anime-radar, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Radar
+        run: |
+          node tools/anime-radar.mjs | tee -a "$GITHUB_STEP_SUMMARY"
+          [ -s out/anime-radar.txt ] && node tools/notify.mjs "$(cat out/anime-radar.txt)" || true
+      - name: Save
+        run: |
+          git config user.name "anime-radar bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/anime-radar.json
+          git diff --cached --quiet || { git commit -qm "anime-radar: $(date -u +%F)"; git pull --rebase --autostash -q origin main; git push origin HEAD:main; }
