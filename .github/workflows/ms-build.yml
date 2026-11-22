@@ -4,7 +4,7 @@ name: ms-build
 on:
   push:
     branches: [main]
-    paths: ['site/**', 'functions/**', 'data/titles/**', 'data/vocab.json', 'i18n/title.*.json', '.github/workflows/ms-build.yml']
+    paths: ['site/**', 'functions/**', 'data/titles/**', 'data/vocab.json', 'data/leaks.json', 'i18n/ms-hubs.json', 'i18n/title.*.json', '.github/workflows/ms-build.yml']
   workflow_dispatch: {}
 permissions:
   contents: read

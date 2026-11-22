@@ -210,14 +210,20 @@ def home_page(lang, s, Hs, live, cards, today, titles):
         if d is None: return ''
         if d <= today: return T['frm'].format(d=titlepage.fmt(s, d - dt.timedelta(days=4)))
         return T['frm'].format(d=titlepage.fmt(s, d - dt.timedelta(days=4)))
-    pairs = [(c, t) for c, t in zip(cards, live) if c['d'] and -21 <= (c['d'] - today).days <= 45]
+    # сливы (tools/leak-watch.mjs → data/leaks.json): тайтл со свежим сливом (≤7 дней) идёт первым с меткой T['leak']
+    lf = R / 'data/leaks.json'
+    leaks = json.loads(lf.read_text(encoding='utf-8')) if lf.exists() else {}
+    hot = {k for k, v in leaks.items() if 0 <= (today - dt.date.fromisoformat(v['date'])).days <= 7}
+    leaked = [(c, t) for c, t in zip(cards, live) if t['slug'] in hot][:3]
+    pairs = [(c, t) for c, t in zip(cards, live) if t['slug'] not in hot and c['d'] and -21 <= (c['d'] - today).days <= 45]
     pairs.sort(key=lambda p: abs((p[0]['d'] - today).days))
     radar = []
-    for c, t in pairs[:6]:
-        n = (c['d'] - today).days
-        trig = T['out'] if n < 0 else (T['today'] if n == 0 else T['in_d'].format(n=n))
-        radar.append({**c, 'media': Hs[t['media'] + '_h'], 'trigger': trig, 'window': win(c), 'words': T['words'].format(n=words_n(t))})
-    radar.sort(key=lambda r: r['d'])
+    for c, t in leaked + pairs[:6 - len(leaked)]:
+        n = (c['d'] - today).days if c['d'] else 0
+        trig = T['leak'] if t['slug'] in hot else (T['out'] if n < 0 else (T['today'] if n == 0 else T['in_d'].format(n=n)))
+        radar.append({**c, 'media': Hs[t['media'] + '_h'], 'trigger': trig, 'window': win(c), 'words': T['words'].format(n=words_n(t)),
+                      'hot': t['slug'] in hot})
+    radar.sort(key=lambda r: (not r['hot'], r['d'] or today))
     fmap = {'games': 'g', 'movies': 'mt', 'tv': 'mt', 'anime': 'an'}
     cal = sorted(({**c, 'date': titlepage.fmt(s, c['d']), 'media': Hs[t['media'] + '_h'], 'f': fmap[t['media']]}
                   for c, t in zip(cards, live) if c['d'] and 0 <= (c['d'] - today).days <= 30), key=lambda r: r['d'])[:8]

@@ -1,0 +1,47 @@
+name: leak-watch
+# Утечка → пост (Антон 22.11.2026). Каждый день после release-posts и до scheduled-post:
+# сливы по тайтлам из открытых RSS → data/leaks.json (сайт: тайтл первым в радаре на 7 дней),
+# пост «боль → решение» в queue/<сегодня>.json (если день не занят постом перед релизом), сообщение Антону в Telegram.
+# Логика — tools/leak-watch.mjs. Сам слив нигде не пересказывается.
+on:
+  schedule:
+    - cron: '31 3 * * *'   # 03:31 UTC: после release-posts (02:47), до scheduled-post (04:20)
+  workflow_dispatch:
+    inputs:
+      dry: { description: 'Только показать (true/false)', default: 'true' }
+permissions:
+  contents: write
+  models: read
+  actions: write
+concurrency: { group: leak-watch, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      DRY: ${{ github.event.inputs.dry || 'false' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Watch
+        run: |
+          ARGS=""; [ "$DRY" = "true" ] && ARGS="--dry"
+          node tools/leak-watch.mjs $ARGS | tee -a "$GITHUB_STEP_SUMMARY"
+          [ "$DRY" = "true" ] && exit 0
+          [ -s out/leak-watch.txt ] && node tools/notify.mjs "$(cat out/leak-watch.txt)" || true
+      - name: Save and rebuild site
+        if: env.DRY != 'true'
+        run: |
+          git config user.name "leak-watch bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/leaks.json queue 2>/dev/null || true
+          git diff --cached --quiet || { git commit -qm "leak-watch: $(date -u +%F)"; git pull --rebase -q origin main; git push origin HEAD:main; }
+          # пуш бота не запускает другие workflow: пересобираем сайт сами, пока метка «сливы» свежая (≤8 дней, чтобы и снять её)
+          if [ -f data/leaks.json ] && node -e "const l=require('./data/leaks.json');process.exit(Object.values(l).some(v=>(Date.now()-Date.parse(v.date))/864e5<=8)?0:1)"; then
+            gh workflow run ms-build.yml --ref main && echo "сайт пересобирается"
+          fi
