@@ -18,7 +18,8 @@ const state = fs.existsSync(STATE) ? JSON.parse(fs.readFileSync(STATE, 'utf8')) 
 const seen = new Set(state.seen);
 const fresh = (id) => !seen.has(id);
 const json = async (u, opt = {}) => { try { const r = await fetch(u, { ...opt, headers: { ...UA, ...(opt.headers || {}) }, signal: AbortSignal.timeout(20000) }); return r.ok ? r.json() : null; } catch { return null; } };
-const clip = (s, n = 160) => String(s || '').replace(/\s+/g, ' ').trim().slice(0, n);
+const unent = (s) => String(s || '').replace(/<[^>]+>/g, ' ').replace(/&#x2F;/g, '/').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+const clip = (s, n = 160) => unent(s).replace(/\s+/g, ' ').trim().slice(0, n);
 
 // названия наших тайтлов — посты про них поднимаем выше
 const TITLES = fs.readdirSync(path.join(ROOT, 'data', 'titles')).filter((f) => f.endsWith('.json'))
@@ -40,7 +41,7 @@ for (const q of BQ) {
   for (const p of j?.posts || []) {
     const id = 'bsky:' + p.uri;
     const text = p.record?.text || '';
-    if (!fresh(id) || /https?:\/\/\S*(pure-guides|mutespoilers)/.test(text) || p.author?.handle === H) continue;
+    if (!fresh(id) || !/spoil|спойл|spojl/i.test(text) || /https?:\/\/\S*(pure-guides|mutespoilers)/.test(text) || p.author?.handle === H) continue;
     const rkey = p.uri.split('/').pop();
     bsky.push({ id, text: clip(text), title: ours(text), url: `https://bsky.app/profile/${p.author.handle}/post/${rkey}`, likes: p.likeCount || 0 });
   }
@@ -56,7 +57,8 @@ for (const q of ['spoiler blocker', 'avoid spoilers', 'spoilers extension', 'spo
     const id = 'hn:' + h.objectID;
     if (!fresh(id)) continue;
     const text = h.title || h.comment_text || h.story_title || '';
-    if (!/spoil/i.test(text)) continue;
+    if (!/(avoid|block|hide|mute|filter|free of|without)\W+(\w+\W+){0,3}spoil|spoil\w*\W+(\w+\W+){0,2}(blocker|filter|extension|free)/i.test(unent(text))) continue;
+    if (hn.some((x) => x.id === id)) continue;
     hn.push({ id, text: clip(text.replace(/<[^>]+>/g, ' ')), url: `https://news.ycombinator.com/item?id=${h.objectID}` });
   }
 }
