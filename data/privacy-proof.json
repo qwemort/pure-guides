@@ -7,27 +7,9 @@
   "YouTube",
   "YouTube (главная)",
   "Reddit",
-  "X",
   "окно расширения",
   "приветствие расширения"
  ],
- "extension_requests": 4,
- "requests": [
-  {
-   "from": "background",
-   "url": "https://www.youtube.com/sw.js"
-  },
-  {
-   "from": "background",
-   "url": "https://www.youtube.com/s/desktop/95c3254f/jsbin/serviceworker-notifications.vflset/serviceworker-notifications.js"
-  },
-  {
-   "from": "background",
-   "url": "https://www.youtube.com/sw.js_data"
-  },
-  {
-   "from": "background",
-   "url": "https://www.youtube.com/youtubei/v1/notification_registration/set_registration?prettyPrint=false"
-  }
- ]
+ "extension_requests": 0,
+ "requests": []
 }
