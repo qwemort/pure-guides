@@ -1,0 +1,32 @@
+name: watchdog
+# Сторож (Антон 22.11.2026): раз в день проверяет все workflow. Упало 2 раза подряд → одно сообщение в Telegram;
+# снова заработало → одно «починилось». Остальное время молчит. Логика — tools/watchdog.mjs, память — data/watchdog.json.
+on:
+  schedule:
+    - cron: '23 9 * * *'   # 10:23 Варшава, после ночных задач
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency: { group: watchdog, cancel-in-progress: false }
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Check
+        run: |
+          node tools/watchdog.mjs | tee -a "$GITHUB_STEP_SUMMARY"
+          [ -s out/watchdog.txt ] && node tools/notify.mjs "$(cat out/watchdog.txt)" || true
+      - name: Save state
+        run: |
+          git config user.name "watchdog bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/watchdog.json
+          git diff --cached --quiet || { git commit -qm "watchdog: $(date -u +%F)"; git pull --rebase -q origin main; git push origin HEAD:main; }
