@@ -1,0 +1,19 @@
+name: yt-api-check
+# Ручная проба запасного замера «Индекса спойлеров» через YouTube Data API: считает и показывает, ничего не пишет.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with: { repository: qwemort/pure-spoiler-shield, path: ext/shield }
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: node tools/spoiler-index-api.mjs --ext ext/shield --n 40 --dry

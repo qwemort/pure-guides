@@ -34,12 +34,19 @@ jobs:
           python3 ext/shield/tools/build.py >/dev/null
       - name: Measure YouTube
         id: m
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           set +e
           node tools/spoiler-index.mjs --ext ext/shield/release/chrome --n 40
           c=$?
           set -e
-          if [ $c -eq 2 ]; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "::warning::YouTube не дал замерить — день пропущен"; exit 0; fi
+          if [ $c -eq 2 ]; then
+            echo "::notice::браузер не пустили — запасной замер через YouTube Data API"
+            node tools/spoiler-index-api.mjs --ext ext/shield --n 40
+            c=$?
+          fi
+          if [ $c -eq 2 ]; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "::warning::YouTube не дал замерить ни браузером, ни через API — день пропущен"; exit 0; fi
           exit $c
       - name: Titles for checking (not committed — they are spoilers)
         if: steps.m.outputs.skip != '1' && inputs.debug == 'true'
