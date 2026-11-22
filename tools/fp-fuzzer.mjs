@@ -36,7 +36,7 @@ console.log(`заголовков: ${list.length}`);
 if (list.length < 100) { console.log('::warning::слишком мало заголовков (ленты недоступны) — неделя пропущена'); process.exit(0); }
 
 // заголовок про игры/кино/аниме — это не ложное срабатывание (его и надо скрывать), такие не считаем
-const ENT = /\b(games?|gaming|gamer|video ?games?|ps5|ps6|playstation|xbox|nintendo|switch 2|steam|pc port|rockstar|trailer|teaser|season|episode|series|show|tv|netflix|hbo|disney|prime video|crunchyroll|anime|manga|movie|film|box office|cinema|marvel|dc|actor|actress|cast|director|spoilers?|remake|dlc|boss|quest|mission|cutscene|ending|finale|gameplay|review|walkthrough|guide)\b|игр|сериал|сезон|серия|фильм|кино|аниме|трейлер|актёр|актер|gr[ay]\b|serial|film|anime|zwiastun|spiel|staffel|folge|jogo|série|filme|гра\b|серіал|фільм/i;
+const ENT = /\b(games?|gaming|gamer|video ?games?|ps5|ps6|playstation|xbox|nintendo|switch 2|steam|pc port|rockstar|trailer|teaser|season|episode|series|show|tv|netflix|hbo|disney|prime video|crunchyroll|anime|manga|movie|film|box office|cinema|marvel|dc|actor|actress|cast|director|spoilers?|remake|dlc|boss|quest|mission|cutscene|ending|finale|gameplay|review|walkthrough|guide|gta|grand theft auto|zelda|pok[eé]mon|elden ring|cyberpunk|witcher|halo|mario|minecraft|fortnite|call of duty|red dead)\b|игр|сериал|сезон|серия|фильм|кино|аниме|трейлер|актёр|актер|gr[ay]\b|serial|film|anime|zwiastun|spiel|staffel|folge|jogo|série|filme|гра\b|серіал|фільм/i;
 const ids = SS.LIBRARY.map((x) => x.id);
 const hits = {};   // id → {mode → [заголовки]}
 for (const h of list) {
