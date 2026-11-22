@@ -85,8 +85,7 @@ def build(titles, dist, base):
             f'type: comment\n'
             f"body (includes, regex): ['{q}']\n"
             f'action: report\n'
-            f'action_reason: "Possible {name} spoiler in a comment"\n'
-            f'---\n', encoding='utf-8')
+            f'action_reason: "Possible {name} spoiler in a comment"\n', encoding='utf-8')
         sel_yt = ['ytd-rich-item-renderer', 'ytd-video-renderer', 'ytd-compact-video-renderer', 'yt-lockup-view-model', 'ytd-reel-item-renderer']
         sel_rd = ['shreddit-post', 'shreddit-comment']
         js = rx.replace('/', r'\/')
