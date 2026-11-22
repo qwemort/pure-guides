@@ -1,0 +1,37 @@
+name: dom-canary
+# Сторож вёрстки (Антон 22.11.2026): раз в день YouTube и Reddit с настоящим расширением — размываются ли карточки.
+# Сообщение Антону только при смене состояния (сломалось / починилось). Логика — tools/dom-canary.mjs.
+on:
+  schedule:
+    - cron: '29 13 * * *'   # 14:29 Варшава
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: dom-canary, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with: { repository: qwemort/pure-spoiler-shield, path: ext/shield }
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Setup
+        run: |
+          npm i --no-save --no-package-lock playwright@1.55.0
+          npx playwright install --with-deps chromium
+          python3 ext/shield/tools/build.py >/dev/null
+      - name: Check
+        run: |
+          node tools/dom-canary.mjs --ext ext/shield/release/chrome | tee -a "$GITHUB_STEP_SUMMARY"
+          [ -s out/dom-canary.txt ] && node tools/notify.mjs "$(cat out/dom-canary.txt)" || true
+      - name: Save state
+        run: |
+          git config user.name "dom-canary bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/dom-canary.json
+          git diff --cached --quiet || { git commit -qm "dom-canary: $(date -u +%F)"; git pull --rebase --autostash -q origin main; git push origin HEAD:main; }
