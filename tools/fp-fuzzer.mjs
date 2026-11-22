@@ -35,9 +35,12 @@ const list = [...heads].filter((h) => h.length > 8);
 console.log(`заголовков: ${list.length}`);
 if (list.length < 100) { console.log('::warning::слишком мало заголовков (ленты недоступны) — неделя пропущена'); process.exit(0); }
 
+// заголовок про игры/кино/аниме — это не ложное срабатывание (его и надо скрывать), такие не считаем
+const ENT = /\b(games?|gaming|gamer|video ?games?|ps5|ps6|playstation|xbox|nintendo|switch 2|steam|pc port|rockstar|trailer|teaser|season|episode|series|show|tv|netflix|hbo|disney|prime video|crunchyroll|anime|manga|movie|film|box office|cinema|marvel|dc|actor|actress|cast|director|spoilers?|remake|dlc|boss|quest|mission|cutscene|ending|finale|gameplay|review|walkthrough|guide)\b|игр|сериал|сезон|серия|фильм|кино|аниме|трейлер|актёр|актер|gr[ay]\b|serial|film|anime|zwiastun|spiel|staffel|folge|jogo|série|filme|гра\b|серіал|фільм/i;
 const ids = SS.LIBRARY.map((x) => x.id);
 const hits = {};   // id → {mode → [заголовки]}
 for (const h of list) {
+  if (ENT.test(h)) continue;
   const n = SS.normalize(h);
   for (const id of ids) {
     const p = SS.preset(id);
@@ -54,7 +57,7 @@ for (const id of keys) {
   lines.push(`• ${label(id)}: ${s.length ? `обычный режим ${s.length}` : ''}${s.length && e.length ? ', ' : ''}${e.length ? `«скрывать всё» ${e.length}` : ''}\n  ${[...s, ...e].slice(0, 2).map((x) => `«${x.slice(0, 90)}»`).join('\n  ')}`);
 }
 const txt = lines.length
-  ? `🧪 Тест ложных срабатываний: из ${list.length} обычных новостей расширение спрятало бы ${keys.reduce((a, k) => a + (hits[k].spoilers || []).length + (hits[k].everything || []).length, 0)} (тайтлов: ${keys.length}). Напиши Claude «глянь ложные срабатывания» — поправит списки в следующей версии.\n\n${lines.slice(0, 15).join('\n')}`
+  ? `🧪 Тест ложных срабатываний: из ${list.filter((h) => !ENT.test(h)).length} обычных новостей (не про игры и кино) расширение спрятало бы ${keys.reduce((a, k) => a + (hits[k].spoilers || []).length + (hits[k].everything || []).length, 0)} (тайтлов: ${keys.length}). Напиши Claude «глянь ложные срабатывания» — поправит списки в следующей версии.\n\n${lines.slice(0, 15).join('\n')}`
   : '';
 fs.writeFileSync(OUT, txt);
 fs.writeFileSync(path.join(ROOT, 'out', 'fp-fuzzer.json'), JSON.stringify({ date: new Date().toISOString().slice(0, 10), headlines: list.length, hits }, null, 1));
