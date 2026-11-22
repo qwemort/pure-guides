@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       dry: { description: 'Только показать (true/false)', default: 'true' }
+      test: { description: 'Проба: slug тайтла (подставить слив, ничего не сохранять)', default: '' }
 permissions:
   contents: write
   models: read
@@ -25,18 +26,19 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       DRY: ${{ github.event.inputs.dry || 'false' }}
+      TEST: ${{ github.event.inputs.test || '' }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: { node-version: '22' }
       - name: Watch
         run: |
-          ARGS=""; [ "$DRY" = "true" ] && ARGS="--dry"
+          ARGS=""; [ "$DRY" = "true" ] && ARGS="--dry"; [ -n "$TEST" ] && ARGS="--test $TEST" && DRY=true
           node tools/leak-watch.mjs $ARGS | tee -a "$GITHUB_STEP_SUMMARY"
           [ "$DRY" = "true" ] && exit 0
           [ -s out/leak-watch.txt ] && node tools/notify.mjs "$(cat out/leak-watch.txt)" || true
       - name: Save and rebuild site
-        if: env.DRY != 'true'
+        if: env.DRY != 'true' && env.TEST == ''
         run: |
           git config user.name "leak-watch bot"; git config user.email "actions@users.noreply.github.com"
           git add data/leaks.json queue 2>/dev/null || true

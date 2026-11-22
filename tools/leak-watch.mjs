@@ -9,7 +9,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CFG = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'release-posts.json'), 'utf8'));
-const DRY = process.argv.includes('--dry');
+const TEST = (process.argv[process.argv.indexOf('--test') + 1] || '');   // --test <slug>: подставить слив вручную, ничего не сохранять
+const DRY = process.argv.includes('--dry') || process.argv.includes('--test');
 const { GITHUB_TOKEN: GH, GEMINI_API_KEY: GK } = process.env;
 const Q = path.join(ROOT, 'queue');
 const LEAKS = path.join(ROOT, 'data', 'leaks.json');
@@ -52,8 +53,9 @@ for (const f of FEEDS) {
     for (const { t, re } of titles) if (re.test(title)) hits.push({ t, src: f.src, url: link, when });
   }
 }
+if (process.argv.includes('--test')) { const x = titles.find((y) => y.t.slug === TEST); if (x) hits.push({ t: x.t, src: 'TEST', url: '', when: now }); }
 const leaks = fs.existsSync(LEAKS) ? JSON.parse(fs.readFileSync(LEAKS, 'utf8')) : {};
-const fresh = hits.filter((h) => !leaks[h.t.slug] || now - Date.parse(leaks[h.t.slug].date) > 14 * 864e5)
+const fresh = hits.filter((h) => h.src === 'TEST' || !leaks[h.t.slug] || now - Date.parse(leaks[h.t.slug].date) > 14 * 864e5)
   .sort((a, b) => b.when - a.when).filter((h, i, a) => a.findIndex((x) => x.t.slug === h.t.slug) === i);
 if (!fresh.length) { console.log(`${TODAY}: новых сливов по тайтлам нет (совпадений всего: ${hits.length})`); process.exit(0); }
 const h = fresh[0];   // один пост в день: самый свежий
@@ -61,7 +63,7 @@ for (const x of fresh) leaks[x.t.slug] = { date: TODAY, src: x.src, url: x.url }
 if (!DRY) fs.writeFileSync(LEAKS, JSON.stringify(leaks, null, 1) + '\n');
 
 // --- пост ---
-const slot = fs.existsSync(path.join(Q, `${TODAY}.json`)) ? '' : TODAY;   // день занят постом перед релизом → без поста (релиз важнее)
+const slot = fs.existsSync(path.join(Q, `${TODAY}.json`)) && !TEST ? '' : TODAY;   // день занят постом перед релизом → без поста (релиз важнее)
 const t = h.t;
 const nameEn = t.names?.en || t.slug;
 const name = t.names?.uk || nameEn;
