@@ -1,0 +1,67 @@
+{
+ "updated": "2026-11-22",
+ "ids": {
+  "apothecary-diaries-movie": 200929,
+  "attack-on-titan": 16498,
+  "black-clover": 97940,
+  "blue-box": 170942,
+  "chainsaw-man": 127230,
+  "cyberpunk-edgerunners-2": 195539,
+  "demon-slayer": 101922,
+  "detective-conan": 235,
+  "dragon-ball": 813,
+  "exiled-heavy-knight": 180136,
+  "firefly-wedding": 205909,
+  "frieren": 154587,
+  "golden-kamuy": 99699,
+  "gundam-seed-freedom-zero": 183692,
+  "jojo-steel-ball-run": 190327,
+  "jujutsu-kaisen": 113415,
+  "kaiju-no-8": 153288,
+  "mashle": 151801,
+  "one-piece": 21,
+  "one-punch-man": 21087,
+  "overgeared": 212888,
+  "reincarnated-as-a-sword": 139587,
+  "sakamoto-days": 177709,
+  "sekiro-no-defeat": 197620,
+  "shangri-la-frontier": 151970,
+  "solo-leveling": 151807,
+  "tokyo-revengers": 120120
+ },
+ "week": [
+  {
+   "slug": "exiled-heavy-knight",
+   "name": "The Exiled Heavy Knight Knows How to Game the System",
+   "anilist": 180136,
+   "status": "RELEASING",
+   "ep": {
+    "n": 22,
+    "at": "2026-11-26T15:26:00.000Z"
+   },
+   "manga": null
+  },
+  {
+   "slug": "firefly-wedding",
+   "name": "Firefly Wedding",
+   "anilist": 205909,
+   "status": "RELEASING",
+   "ep": {
+    "n": 8,
+    "at": "2026-11-27T14:30:00.000Z"
+   },
+   "manga": null
+  },
+  {
+   "slug": "overgeared",
+   "name": "Overgeared",
+   "anilist": 212888,
+   "status": "RELEASING",
+   "ep": {
+    "n": 9,
+    "at": "2026-11-22T14:30:00.000Z"
+   },
+   "manga": null
+  }
+ ]
+}
