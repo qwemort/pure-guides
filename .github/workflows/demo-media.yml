@@ -14,7 +14,7 @@ permissions:
 concurrency: { group: demo-media, cancel-in-progress: false }
 jobs:
   media:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5

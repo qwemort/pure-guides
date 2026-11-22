@@ -17,7 +17,7 @@ permissions:
 concurrency: { group: spoiler-danger, cancel-in-progress: false }
 jobs:
   week:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       INDEXNOW_KEY: 658113910c13cdd1724ac74e4449ac14
