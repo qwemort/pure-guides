@@ -54,7 +54,7 @@ jobs:
           git config user.name "spoiler-index bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/spoiler-index.json spoiler-index
-          git diff --cached --quiet || { git commit -m "spoiler index: $(jq -r .slug out/index-post.json)"; git pull --rebase -q origin main; git push; }
+          git diff --cached --quiet || { git commit -m "spoiler index: $(jq -r .slug out/index-post.json)"; git pull --rebase --autostash -q origin main; git push; }
       - name: Ping search engines (IndexNow)
         if: steps.m.outputs.skip != '1'
         continue-on-error: true
@@ -78,7 +78,7 @@ jobs:
               if grep -q "^опубликовано" out/threads-result.txt 2>/dev/null; then
                 cp out/threads-result.txt "spoiler-index/posted-$TODAY.txt"
                 git add "spoiler-index/posted-$TODAY.txt"
-                git commit -qm "spoiler index: posted $TODAY" && git pull --rebase -q origin main && git push || true
+                git commit -qm "spoiler index: posted $TODAY" && git pull --rebase --autostash -q origin main && git push || true
               fi
             fi
           else node tools/post-threads.mjs --post out/index-post.json; fi
@@ -113,7 +113,7 @@ jobs:
           if grep -q "Bluesky: опубликовано" out/social-result.txt 2>/dev/null; then
             cp out/social-result.txt "spoiler-index/bsky-$TODAY.txt"
             git add "spoiler-index/bsky-$TODAY.txt"
-            git commit -qm "spoiler index: bluesky posted $TODAY" && git pull --rebase -q origin main && git push || true
+            git commit -qm "spoiler index: bluesky posted $TODAY" && git pull --rebase --autostash -q origin main && git push || true
           fi
       - name: Telegram для Антона
         if: steps.m.outputs.skip != '1'
