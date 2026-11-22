@@ -5,7 +5,7 @@ import fs from 'node:fs'; import path from 'node:path';
 import { chromium } from 'playwright';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const ID = 'aloilpojkoblacapdlknacjiljgjibng';
-const QUERIES = ['spoiler blocker', 'hide spoilers', 'spoiler shield', 'block spoilers youtube', 'gta 6 spoiler', 'gta 6 spoiler blocker'];
+const QUERIES = ['spoiler blocker', 'pure spoiler blocker', 'mute spoilers', 'block spoilers', 'hide spoilers', 'spoiler filter', 'no spoilers', 'movie spoiler blocker', 'spoiler blocker youtube', 'block spoilers youtube', 'hide spoilers youtube', 'spoiler blocker reddit', 'gta 6 spoiler', 'gta 6 spoiler blocker'];
 const today = new Date().toISOString().slice(0, 10);
 const b = await chromium.launch(); const ctx = await b.newContext({ locale: 'en-US', viewport: { width: 1280, height: 900 } });
 const res = [];
@@ -15,11 +15,16 @@ for (const q of QUERIES) {
     await pg.goto(`https://chromewebstore.google.com/search/${encodeURIComponent(q)}?hl=en`, { waitUntil: 'networkidle', timeout: 45000 });
     await pg.waitForSelector('a[href*="/detail/"]', { timeout: 20000 });
     for (let i = 0; i < 3; i++) { await pg.mouse.wheel(0, 3000); await pg.waitForTimeout(1200); }
-    const ids = await pg.$$eval('a[href*="/detail/"]', (as) => as.map((a) => (a.getAttribute('href').match(/\/detail\/(?:[^/]+\/)?([a-p]{32})/) || [])[1]).filter(Boolean));
-    const uniq = [...new Set(ids)];
-    if (!uniq.length) throw new Error('пустой список');
-    const pos = uniq.indexOf(ID);
-    res.push({ q, total: uniq.length, rank: pos < 0 ? null : pos + 1 });
+    const items = await pg.$$eval('a[href*="/detail/"]', (as) => as.map((a) => ({
+      id: ((a.getAttribute('href') || '').match(/\/detail\/(?:[^/]+\/)?([a-p]{32})/) || [])[1],
+      name: ((a.innerText || a.getAttribute('aria-label') || '').split('\n').map((t) => t.trim()).find(Boolean) || '').slice(0, 60),
+    })).filter((x) => x.id));
+    const seen = new Map();
+    for (const it of items) if (!seen.has(it.id) || (!seen.get(it.id).name && it.name)) seen.set(it.id, it);
+    const list = [...seen.values()];
+    if (!list.length) throw new Error('пустой список');
+    const pos = list.findIndex((x) => x.id === ID);
+    res.push({ q, total: list.length, rank: pos < 0 ? null : pos + 1, top: list.slice(0, 10) });
   } catch (e) { console.log(`«${q}»: не вышло (${String(e.message).slice(0, 80)})`); }
   await pg.close();
 }
@@ -33,5 +38,7 @@ fs.mkdirSync(path.join(ROOT, 'out'), { recursive: true });
 const prev = out.length > 1 ? out[out.length - 2].results : [];
 let md = `### Позиция в поиске Chrome Web Store, ${today}\n\n| Запрос | Место | Было | Всего в выдаче |\n|---|---|---|---|\n`;
 for (const r of res) { const p = prev.find((x) => x.q === r.q); md += `| ${r.q} | ${r.rank ?? 'не в первых ' + r.total} | ${p ? (p.rank ?? '—') : '—'} | ${r.total} |\n`; }
+md += '\n### Кто в первой пятёрке\n\n';
+for (const r of res) md += `- **${r.q}:** ${(r.top || []).slice(0, 5).map((x, i) => `${i + 1}. ${x.id === ID ? 'МЫ' : (x.name || x.id.slice(0, 8))}`).join('; ')}\n`;
 fs.writeFileSync(path.join(ROOT, 'out', 'store-rank.md'), md);
 console.log(md);

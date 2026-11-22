@@ -10,7 +10,7 @@ concurrency: { group: store-rank, cancel-in-progress: false }
 jobs:
   rank:
     runs-on: ubuntu-24.04
-    timeout-minutes: 12
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
