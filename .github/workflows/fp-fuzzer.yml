@@ -1,0 +1,30 @@
+name: fp-fuzzer
+# Тест на ложные срабатывания (Антон 22.11.2026): раз в неделю обычные новости через настоящий движок расширения.
+# Нашёл обычные новости, которые расширение спрятало бы → одно сообщение в Telegram; полный список — в артефакте запуска.
+on:
+  schedule:
+    - cron: '11 6 * * 3'   # среда, 07:11 Варшава
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency: { group: fp-fuzzer, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with: { repository: qwemort/pure-spoiler-shield, path: ext/shield }
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Fuzz
+        run: |
+          node tools/fp-fuzzer.mjs --ext ext/shield | tee -a "$GITHUB_STEP_SUMMARY"
+          [ -s out/fp-fuzzer.txt ] && node tools/notify.mjs "$(cat out/fp-fuzzer.txt)" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: fp-fuzzer, path: out/fp-fuzzer.json, if-no-files-found: ignore, retention-days: 30 }
