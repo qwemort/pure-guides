@@ -42,7 +42,7 @@ for (const it of items) {
   } catch (e) { console.log(`${it.name} статус: ${e.message}`); }
   // новые отзывы
   try {
-    const r = await gget(`${API}/${name}:fetchReviews?pageSize=50&orderBy=${encodeURIComponent('createTime desc')}`, token);
+    const r = await gget(`${API}/${name}:fetchReviews?pageSize=50&orderBy=${encodeURIComponent('create_time desc')}`, token);
     const fresh = (r.reviews || []).filter((x) => !seen.has(x.name));
     for (const x of fresh) seen.add(x.name);
     if (fresh.length && (state.seenReviews || []).length) {
@@ -89,4 +89,5 @@ fs.writeFileSync(STATE, JSON.stringify(state, null, 1) + '\n');
 let txt = alerts.join('\n');
 if (WEEK && week.length) txt += `${txt ? '\n\n' : ''}📊 Chrome за неделю:\n${week.join('\n')}${gsc ? `\n\n${gsc}` : ''}`;
 fs.writeFileSync(OUT, txt);
-console.log(txt ? 'есть что отправить' : 'тихо');   // цифры в публичный лог не печатаем
+console.log(`отзывы прочитаны: ${seen.size}; метрики: ${Object.keys(state.items).length} расш.; Search Console: ${WEEK ? (gsc.startsWith('🔎 Search Console:') ? 'ошибка' : 'ок') : 'не в этот раз'}`);
+console.log(txt ? 'есть что отправить' : 'тихо');   // сами цифры в публичный лог не печатаем
