@@ -31,7 +31,7 @@ jobs:
             git config user.name "scheduled-post bot"
             git config user.email "actions@users.noreply.github.com"
             git add "queue/posted-$TODAY.txt"
-            git commit -qm "scheduled post: posted $TODAY" && git pull --rebase -q origin main && git push || true
+            git commit -qm "scheduled post: posted $TODAY" && git pull --rebase --autostash -q origin main && git push || true
           fi
       - name: Bluesky (если в посте есть поле en)
         continue-on-error: true
@@ -49,7 +49,7 @@ jobs:
             git config user.name "scheduled-post bot"
             git config user.email "actions@users.noreply.github.com"
             git add "queue/bsky-$TODAY.txt"
-            git commit -qm "scheduled post: bluesky $TODAY" && git pull --rebase -q origin main && git push || true
+            git commit -qm "scheduled post: bluesky $TODAY" && git pull --rebase --autostash -q origin main && git push || true
           fi
       - name: Save refreshed Threads token
         continue-on-error: true

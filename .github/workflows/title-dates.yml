@@ -27,4 +27,4 @@ jobs:
           git config user.name "title-dates bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A data/titles.json sitemap.xml sitemap-pages.xml '*.html' block mute-list
-          git diff --cached --quiet || { git commit -m "Даты релизов: автосверка с Wikidata"; git pull --rebase -X theirs -q origin main; git push; }
+          git diff --cached --quiet || { git commit -m "Даты релизов: автосверка с Wikidata"; git pull --rebase --autostash -X theirs -q origin main; git push; }

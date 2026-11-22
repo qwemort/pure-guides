@@ -27,5 +27,5 @@ jobs:
           git add news
           git diff --cached --quiet && exit 0
           git commit -m "news: $(date -u +%F)"
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push

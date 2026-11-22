@@ -53,5 +53,5 @@ jobs:
           git add queue
           git diff --cached --quiet && exit 0
           git commit -qm "release post: $(date -u +%F)"
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push
