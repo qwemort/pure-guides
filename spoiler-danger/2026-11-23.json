@@ -1,0 +1,131 @@
+{
+ "range": "23 Nov – 29 Nov 2026",
+ "items": [
+  {
+   "kind": "series",
+   "title": "The Lord of the Rings: The Rings of Power",
+   "date": "2026-11-25",
+   "day": "Wednesday",
+   "note": "2 episodes",
+   "mute": "mute-list/rings-of-power.html",
+   "source": "https://www.tvmaze.com/shows/33352/the-lord-of-the-rings-the-rings-of-power"
+  },
+  {
+   "kind": "anime",
+   "title": "The Apothecary Diaries Season 3",
+   "date": "2026-11-27",
+   "day": "Friday",
+   "note": "episode 9",
+   "mute": "mute-list/apothecary.html",
+   "source": "https://anilist.co/anime/195516"
+  },
+  {
+   "kind": "series",
+   "title": "Blade Runner 2099",
+   "date": "2026-11-25",
+   "day": "Wednesday",
+   "note": "season 1, full drop",
+   "mute": "mute-list/blade-runner-2099.html",
+   "source": "https://www.tvmaze.com/shows/60458/blade-runner-2099"
+  },
+  {
+   "kind": "anime",
+   "title": "Black Clover Season 2",
+   "date": "2026-11-28",
+   "day": "Saturday",
+   "note": "episode 9",
+   "mute": "mute-list/black-clover.html",
+   "source": "https://anilist.co/anime/195604"
+  },
+  {
+   "kind": "series",
+   "title": "Yellowjackets",
+   "date": "2026-11-27",
+   "day": "Friday",
+   "note": "season 4, episode 2",
+   "mute": "mute-list/yellowjackets.html",
+   "source": "https://www.tvmaze.com/shows/36672/yellowjackets"
+  },
+  {
+   "kind": "anime",
+   "title": "The Exiled Heavy Knight Knows How to Game the System",
+   "date": "2026-11-26",
+   "day": "Thursday",
+   "note": "episode 22",
+   "mute": "mute-list/exiled-heavy-knight.html",
+   "source": "https://anilist.co/anime/180136"
+  },
+  {
+   "kind": "series",
+   "title": "Percy Jackson and the Olympians",
+   "date": "2026-11-27",
+   "day": "Friday",
+   "note": "2 episodes",
+   "mute": "mute-list/percy-jackson.html",
+   "source": "https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians"
+  },
+  {
+   "kind": "anime",
+   "title": "Overgeared",
+   "date": "2026-11-29",
+   "day": "Sunday",
+   "note": "episode 10",
+   "mute": "mute-list/overgeared.html",
+   "source": "https://anilist.co/anime/212888"
+  },
+  {
+   "kind": "series",
+   "title": "The Institute",
+   "date": "2026-11-29",
+   "day": "Sunday",
+   "note": "season 2, episode 4",
+   "mute": "mute-list/the-institute.html",
+   "source": "https://www.tvmaze.com/shows/77778/the-institute"
+  },
+  {
+   "kind": "anime",
+   "title": "Firefly Wedding",
+   "date": "2026-11-27",
+   "day": "Friday",
+   "note": "episode 8",
+   "mute": "mute-list/firefly-wedding.html",
+   "source": "https://anilist.co/anime/205909"
+  },
+  {
+   "kind": "series",
+   "title": "The Gilded Age",
+   "date": "2026-11-29",
+   "day": "Sunday",
+   "note": "season 4, episode 5",
+   "mute": "mute-list/gilded-age.html",
+   "source": "https://www.tvmaze.com/shows/34685/the-gilded-age"
+  },
+  {
+   "kind": "anime",
+   "title": "Reincarnated as a Sword Season 2",
+   "date": "2026-11-25",
+   "day": "Wednesday",
+   "note": "episode 9",
+   "mute": "mute-list/reincarnated-sword-2.html",
+   "source": "https://anilist.co/anime/159042"
+  },
+  {
+   "kind": "anime",
+   "title": "Even the Student Council Has Its Holes!",
+   "date": "2026-11-28",
+   "day": "Saturday",
+   "note": "episode 9",
+   "mute": null,
+   "source": "https://anilist.co/anime/191656"
+  },
+  {
+   "kind": "anime",
+   "title": "Blue Box Season 2",
+   "date": "2026-11-29",
+   "day": "Sunday",
+   "note": "episode 8",
+   "mute": "mute-list/blue-box.html",
+   "source": "https://anilist.co/anime/189123"
+  }
+ ]
+}

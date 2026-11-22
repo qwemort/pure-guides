@@ -71,6 +71,15 @@
   ],
   "ready": true
  },
+ "Even the Student Council Has Its Holes!": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/191656",
+  "weeks": [
+   "2026-11-16",
+   "2026-11-23"
+  ],
+  "ready": true
+ },
  "VisionQuest": {
   "kind": "series",
   "source": "https://www.tvmaze.com/shows/64950/visionquest",
@@ -92,14 +101,6 @@
   "source": "https://www.tvmaze.com/shows/89844/blue-skies",
   "weeks": [
    "2026-11-09"
-  ],
-  "ready": false
- },
- "Even the Student Council Has Its Holes!": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/191656",
-  "weeks": [
-   "2026-11-16"
   ],
   "ready": false
  }
