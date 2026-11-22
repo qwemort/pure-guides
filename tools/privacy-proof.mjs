@@ -34,7 +34,7 @@ try {
 } catch (e) { console.log(`::warning::браузер с расширением не запустился: ${e.message}`); process.exit(0); }
 
 // 1) фоновый скрипт: всё, что уходит из service worker расширения
-ctx.on('request', (r) => { try { if (r.serviceWorker() && !isExt(r.url())) hits.push({ from: 'background', url: r.url() }); } catch {} });
+ctx.on('request', (r) => { try { const w = r.serviceWorker(); if (w && isExt(w.url()) && !isExt(r.url())) hits.push({ from: 'background', url: r.url() }); } catch {} });   // только СВОЙ фон расширения, не service worker самих сайтов
 
 // 2) страницы: CDP видит стек вызова — запрос, начатый кодом chrome-extension://, это запрос расширения
 async function watch(page, label) {
