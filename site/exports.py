@@ -72,10 +72,10 @@ def build(titles, dist, base):
             f'Paste this into "Keywords":\n\n{", ".join(kw)}\n', encoding='utf-8')
         q = rx.replace("'", "''")
         (d / 'reddit-automod.yaml').write_text(
+            f'---\n'
             f'# {name}: spoiler filter for Reddit AutoModerator\n'
             f'# From {page} (free, updated with each release). Made by Pure Spoiler Blocker.\n'
             f'# Mod Tools > Automations > AutoModerator: paste below your existing rules.\n'
-            f'---\n'
             f'type: submission\n'
             f"title+body (includes, regex): ['{q}']\n"
             f'set_spoiler: true\n'
