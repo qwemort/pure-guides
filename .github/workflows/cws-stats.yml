@@ -1,0 +1,35 @@
+name: cws-stats
+# Статистика Chrome Web Store + Search Console без ручных выгрузок (Антон 22.11.2026). Официальные API, только чтение.
+# Ежедневно: новые отзывы и флаги магазина → Telegram. По понедельникам: сводка за неделю. Цифры в публичный лог не печатаются.
+on:
+  schedule:
+    - cron: '17 8 * * *'   # 09:17 Варшава
+  workflow_dispatch:
+    inputs:
+      week: { description: 'Прислать недельную сводку сейчас (true/false)', default: 'true' }
+permissions:
+  contents: write
+concurrency: { group: cws-stats, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    env:
+      GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+      CWS_PUBLISHER_ID: ${{ secrets.CWS_PUBLISHER_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Stats
+        run: |
+          ARGS=""; [ "${{ github.event.inputs.week }}" = "true" ] && ARGS="--week"
+          node tools/cws-stats.mjs $ARGS
+          [ -s out/cws-stats.txt ] && node tools/notify.mjs "$(cat out/cws-stats.txt)" >/dev/null || true
+      - name: Save
+        run: |
+          git config user.name "cws-stats bot"; git config user.email "actions@users.noreply.github.com"
+          [ -f data/cws-public.json ] && git add data/cws-public.json
+          git diff --cached --quiet || { git commit -qm "cws-stats: $(date -u +%F)"; git pull --rebase --autostash -q origin main; git push origin HEAD:main; }
