@@ -841,13 +841,6 @@
 <url><loc>https://qwemort.github.io/pure-guides/avoid-firefly-wedding-spoilers.ja.html</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/avoid-firefly-wedding-spoilers.ko.html</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/avoid-firefly-wedding-spoilers.zh-cn.html</loc><lastmod>2026-11-23</lastmod></url>
-<!-- mutelists:start -->
-<url><loc>https://qwemort.github.io/pure-guides/mute-list/</loc><lastmod>2026-11-23</lastmod></url>
-<!-- mutelists:end -->
-<!-- block:start -->
-<url><loc>https://qwemort.github.io/pure-guides/block/</loc><lastmod>2026-11-23</lastmod></url>
-<url><loc>https://qwemort.github.io/pure-guides/block/gta6.html</loc><lastmod>2026-11-23</lastmod></url>
-<!-- block:end -->
 <!-- danger:start -->
 <url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-23.html</loc><lastmod>2026-11-23</lastmod></url>
@@ -860,4 +853,11 @@
 <url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/uk/2026-11-09.html</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://qwemort.github.io/pure-guides/spoiler-danger/pl/2026-11-09.html</loc><lastmod>2026-11-23</lastmod></url>
 <!-- danger:end -->
+<!-- mutelists:start -->
+<url><loc>https://qwemort.github.io/pure-guides/mute-list/</loc><lastmod>2026-11-23</lastmod></url>
+<!-- mutelists:end -->
+<!-- block:start -->
+<url><loc>https://qwemort.github.io/pure-guides/block/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://qwemort.github.io/pure-guides/block/gta6.html</loc><lastmod>2026-11-23</lastmod></url>
+<!-- block:end -->
 </urlset>
