@@ -1180,7 +1180,7 @@
       "id": "hmijoeophhplodchameaogmgdcphnode",
       "name": "Spoilerproof: The 1-Click Spoiler Block",
       "users": "",
-      "rating": "4.1"
+      "rating": "3.9"
      },
      {
       "id": "ebadfeeidhnahjigfkafdjbmmdlijhfk",
@@ -1192,7 +1192,7 @@
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
-      "rating": "5.0"
+      "rating": "3.7"
      },
      {
       "id": "ddngmkncfhfmboieioegpcnkfponhklh",
@@ -1216,7 +1216,7 @@
       "id": "jeiicdjopelafmfokikmaimcfhdgamem",
       "name": "GTA 6 Spoiler Blocker",
       "users": "",
-      "rating": "4.8"
+      "rating": "4.0"
      },
      {
       "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
@@ -1303,7 +1303,7 @@
       "id": "hmijoeophhplodchameaogmgdcphnode",
       "name": "Spoilerproof: The 1-Click Spoiler Block",
       "users": "",
-      "rating": "4.1"
+      "rating": "3.9"
      },
      {
       "id": "eelacikjiplnmdingehjfdjcfegclmkg",
@@ -1333,7 +1333,7 @@
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
-      "rating": "5.0"
+      "rating": "3.7"
      },
      {
       "id": "pmhapkbgomfflicbecdbajgmemffeamf",
@@ -1409,12 +1409,6 @@
       "rating": "0.0"
      },
      {
-      "id": "knllbjmieejiihihaecdhamhcfadaadc",
-      "name": "Twitch && Youtube spoiler-free",
-      "users": "",
-      "rating": "4.6"
-     },
-     {
       "id": "ddngmkncfhfmboieioegpcnkfponhklh",
       "name": "Spoiler Blocker",
       "users": "",
@@ -1425,6 +1419,12 @@
       "name": "Anti-Spoiler for YouTube™ – Hide Video Length & Progress Bar",
       "users": "",
       "rating": "5.0"
+     },
+     {
+      "id": "knllbjmieejiihihaecdhamhcfadaadc",
+      "name": "Twitch && Youtube spoiler-free",
+      "users": "",
+      "rating": "4.6"
      }
     ]
    },
@@ -1449,7 +1449,7 @@
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
-      "rating": "5.0"
+      "rating": "3.7"
      },
      {
       "id": "lhmdomnnfeikdglpapcleolmaejdgoan",
@@ -1496,6 +1496,73 @@
     ]
    },
    {
+    "q": "no spoilers",
+    "total": 10,
+    "rank": null,
+    "top": [
+     {
+      "id": "kfbhhaallccnekmpojknfjblchllocgb",
+      "name": "No Spoilers",
+      "users": "",
+      "rating": "4.7"
+     },
+     {
+      "id": "gniaabdpaogadlnmdcolpjofhioopgmk",
+      "name": "No Spoilers",
+      "users": "",
+      "rating": "0.0"
+     },
+     {
+      "id": "eelacikjiplnmdingehjfdjcfegclmkg",
+      "name": "SpoilerProtection",
+      "users": "",
+      "rating": "3.9"
+     },
+     {
+      "id": "pdcocbmidjifbikkgfedadbemddmpnek",
+      "name": "No YouTube Spoilers",
+      "users": "",
+      "rating": "4.3"
+     },
+     {
+      "id": "gdgjckmdfpildobojkgicjgfmebeedap",
+      "name": "No More Spoilers",
+      "users": "",
+      "rating": "0.0"
+     },
+     {
+      "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
+      "name": "ElementHider: Hide Content & Spoilers",
+      "users": "",
+      "rating": "4.4"
+     },
+     {
+      "id": "apaamghhdnbmfbpifaibbokcnclcfbmg",
+      "name": "No Spoilers for GTA 6 - GTA VI Spoiler & Leak Blocker",
+      "users": "",
+      "rating": "5.0"
+     },
+     {
+      "id": "hmklilohlfdjlhpmdlidpfklabdopahk",
+      "name": "No Spoilers",
+      "users": "",
+      "rating": "5.0"
+     },
+     {
+      "id": "lfeppohidgccmmihcmnpmohefpgnlfkl",
+      "name": "NoSpoilers",
+      "users": "",
+      "rating": "5.0"
+     },
+     {
+      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
+      "name": "Hide Spoilers: Block & Blur Spoilers",
+      "users": "",
+      "rating": "5.0"
+     }
+    ]
+   },
+   {
     "q": "movie spoiler blocker",
     "total": 10,
     "rank": null,
@@ -1504,7 +1571,7 @@
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
-      "rating": "5.0"
+      "rating": "3.7"
      },
      {
       "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
@@ -1555,8 +1622,8 @@
       "rating": "5.0"
      },
      {
-      "id": "pndldfaaidcpodabeeiancdglocccino",
-      "name": "Antispoiler",
+      "id": "fplhblicofjhiikjeomknoonhmbkilcb",
+      "name": "Stopoiler",
       "users": "",
       "rating": "0.0"
      }
@@ -1571,7 +1638,7 @@
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
-      "rating": "5.0"
+      "rating": "3.7"
      },
      {
       "id": "knllbjmieejiihihaecdhamhcfadaadc",
@@ -1622,8 +1689,8 @@
       "rating": "4.3"
      },
      {
-      "id": "ojkdlgahhkhbmcmaglkmljfdkpnmonpa",
-      "name": "SpoilerSafe - Spoiler Blocker for YouTube & Twitter",
+      "id": "iimihngiahiakmcefniapkidplbfcjab",
+      "name": "H7 YouTube Spoiler Blocker",
       "users": "",
       "rating": "5.0"
      }
@@ -1638,7 +1705,7 @@
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
-      "rating": "5.0"
+      "rating": "3.7"
      },
      {
       "id": "knllbjmieejiihihaecdhamhcfadaadc",
@@ -1717,7 +1784,7 @@
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
-      "rating": "5.0"
+      "rating": "3.7"
      },
      {
       "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
@@ -1796,7 +1863,7 @@
       "id": "jeiicdjopelafmfokikmaimcfhdgamem",
       "name": "GTA 6 Spoiler Blocker",
       "users": "",
-      "rating": "4.8"
+      "rating": "4.0"
      },
      {
       "id": "bbaepddipmhfmcfcippikcklcmaiiboa",
@@ -1827,7 +1894,7 @@
       "id": "jeiicdjopelafmfokikmaimcfhdgamem",
       "name": "GTA 6 Spoiler Blocker",
       "users": "",
-      "rating": "4.8"
+      "rating": "4.0"
      },
      {
       "id": "pheoomkjfohpibedhckmecpgfhhjkell",
@@ -1845,7 +1912,7 @@
       "id": "fjlphfamanblaepnmikmpmkcplnckipm",
       "name": "GTA6 Flamingo Away Spoilers",
       "users": "",
-      "rating": "4.3"
+      "rating": "4.4"
      },
      {
       "id": "lnakhjgajphdppdjakdmbmjjibljejja",
@@ -1894,7 +1961,7 @@
       "id": "jeiicdjopelafmfokikmaimcfhdgamem",
       "name": "GTA 6 Spoiler Blocker",
       "users": "",
-      "rating": "4.8"
+      "rating": "4.0"
      },
      {
       "id": "pheoomkjfohpibedhckmecpgfhhjkell",
@@ -1936,7 +2003,7 @@
       "id": "fjlphfamanblaepnmikmpmkcplnckipm",
       "name": "GTA6 Flamingo Away Spoilers",
       "users": "",
-      "rating": "4.3"
+      "rating": "4.4"
      },
      {
       "id": "dlldglkifafkicdfkajaopkjpjnmnlml",
