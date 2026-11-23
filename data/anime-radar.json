@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "ids": {
   "apothecary-diaries-movie": 200929,
   "attack-on-titan": 16498,
@@ -58,8 +58,8 @@
    "anilist": 212888,
    "status": "RELEASING",
    "ep": {
-    "n": 9,
-    "at": "2026-11-22T14:30:00.000Z"
+    "n": 10,
+    "at": "2026-11-29T14:30:00.000Z"
    },
    "manga": null
   }
