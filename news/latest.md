@@ -1,17 +1,23 @@
-# Новости для Claude — 2026-11-21
+# Новости для Claude — 2026-11-23
 
-Собрано из открытых RSS за последние 8 дней (tools/news-digest.py, раз в 4 дня). Не постится никуда.
+Собрано из открытых RSS за последние 8 дней (tools/news-digest.py, раз в неделю). Не постится никуда.
 Как использовать: найти инфоповоды для Антона (утечки GTA, ПК-версия, финалы, переносы), предложить тексты в чате, обновить страницы pure-guides, если факт изменился.
 
-## GTA 6 / Rockstar (173)
+## GTA 6 / Rockstar (165)
+- **23.11 · GameSpot** — [GTA 6 Is Approaching An Absurd New Sales Milestone, Report Says](https://www.gamespot.com/articles/gta-6-is-approaching-an-absurd-new-sales-milestone-report-says/) _(GTA, Spider-Man: Brand New Day, утечка/спойлер/дата)_
+  Grand Theft Auto 6 's success continues to come into focus, as a new report from Alinea Analytics says the game sold 44.9 million copies through its first weekend. This would be up from the 32.5 million copies that Rock…
 - **19.11 · GameSpot** — [GTA 6 Cast List Includes Potentially Huge Spoiler, So Be Warned](https://www.gamespot.com/articles/gta-6-cast-list-includes-potentially-huge-spoiler-so-be-warned/) _(GTA, GTA VI, утечка/спойлер/дата)_
   It's Grand Theft Auto VI day around the world--the game is really good , as it turns out. While players are out exploring the massive in-game map or checking their in-game phones as much as they check their real-life on…
-- **20.11 · PC Gamer** — [A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click](https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click/) _(GTA, утечка/спойлер/дата)_
-  There are other PC games to play, you know.
-- **19.11 · PC Gamer** — [Cyberleek drops what they claim is a near-complete GTA 6 Xbox build online](https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/) _(GTA, утечка/спойлер/дата)_
-  The leaked file is apparently around 200 GB.
-- **19.11 · PC Gamer** — [Cheats in GTA 6 are weirdly restrictive, and I'm counting the minutes until the PC version fixes them](https://www.pcgamer.com/games/grand-theft-auto/im-counting-the-minutes-until-the-pc-version-fixes-the-weirdly-restrictive-cheats-in-gta-6/) _(GTA, утечка/спойлер/дата)_
-  Unlocking a cheats menu takes dozens of hours, and even then there are still heavy restrictions.
+- **23.11 · GamesRadar** — [Shang-Chi star Simu Liu says GTA 6's Lucia will appreciate you buying Avengers: Doomsday tickets](https://www.gamesradar.com/entertainment/marvel-movies/shang-chi-star-simu-liu-says-gta-6s-lucia-will-appreciate-you-buying-avengers-doomsday-tickets/) _(GTA, Avengers: Doomsday)_
+  Simi Liu star joins in on the GTA 6 fun, saying Lucia wants you to see Avengers: Doomsday
+- **23.11 · GamesRadar** — [GTA 6 revenue "roughly equal" to Spider-Man: Brand New Day and The Odyssey combined, analyst says](https://www.gamesradar.com/games/grand-theft-auto/gta-6-revenue-already-roughly-equal-to-spider-man-brand-new-day-and-the-odyssey-combined-analyst-says-and-thats-before-the-pc-port-and-gta-online/) _(GTA, Spider-Man: Brand New Day)_
+  It's also eclipsed Taylor Swift's Eras Tour
+- **23.11 · PC Gamer** — [Binding of Isaac DLC adds AI music in GTA 6-parodying update despite not having an AI disclosure, Steam reviews drop to Overwhelmingly Negative, music gets pul…](https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/) _(GTA, утечка/спойлер/дата)_
+  "Woke up to a shit show," Edmund McMillen wrote.
+- **22.11 · PC Gamer** — [GTA 6 The End of the Road: Should you swim for it, or choose no surrender?](https://www.pcgamer.com/games/grand-theft-auto/gta-6-endings-end-of-the-road-swim-for-it-no-surrender/) _(GTA, утечка/спойлер/дата)_
+  A choice (or two!) can lead to drastically different endings.
+- **23.11 · GameSpot** — [GTA 6: Don’t Finish Chapter 2 Before Doing These Things](https://www.gamespot.com/articles/gta-6-dont-finish-chapter-2-before-doing-these-things/) _(GTA, утечка/спойлер/дата)_
+  GTA 6 's first chapter is a lengthy prologue that gets you up to speed on the gameplay, the characters, and the storyline. But once you've cleared the final mission and you start Chapter 2, that's when the game really b…
 - **20.11 · GameSpot** — [GTA 6 Players Captivated By Mandy Apparently Include A Former Nintendo President](https://www.gamespot.com/articles/gta-6-players-captivated-by-mandy-apparently-include-a-former-nintendo-president/) _(GTA, утечка/спойлер/дата)_
   A character named Mandy has the attention of many Grand Theft Auto 6 players--and that appears to include Reggie Fils-Aimé, the man who used to run Nintendo of America. Per GamesRadar , former Nintendo marketing and pub…
 - **20.11 · GameSpot** — [GTA 6 Has Dexter References, And Now Dexter Himself Has Reacted](https://www.gamespot.com/articles/gta-6-has-dexter-references-and-now-dexter-himself-has-reacted/) _(GTA, утечка/спойлер/дата)_
@@ -42,24 +48,14 @@
   Grand Theft Auto 6 has finally arrived, and Rockstar Games has released the game's official map . It is absolutely gigantic. Even though we knew the GTA 6 map would be big--it has more playable space than GT4, GTA 5, an…
 - **19.11 · GameSpot** — [GTA 6’s Digital Release Has GameStop CEO Defending Physical Games, For Obvious Reasons](https://www.gamespot.com/articles/gta-6-digital-release-has-gamestop-ceo-defending-physical-games-for-obvious-reasons/) _(GTA, утечка/спойлер/дата)_
   The GTA 6 launch looks set to break several records, as the digital-only game appears on track to be a major critical and commercial hit . Right on cue, GameStop CEO Ryan Cohen has criticized publishers that forgo a tra…
-- **19.11 · GameSpot** — [Despite The Pricing Hellscape, Console Sales Grew In October](https://www.gamespot.com/articles/despite-the-pricing-hellscape-console-sales-grew-in-october/) _(GTA, утечка/спойлер/дата)_
-  Video game consoles are more expensive than ever , but sales are growing regardless, at least in the US. Circana has released its report for US video game industry sales in October, confirming that PS5 unit sales increa…
-- **19.11 · GameSpot** — [GTA 6’s Mandy Could Be Hiding A Killer Secret](https://www.gamespot.com/articles/gta-6s-mandy-could-be-hiding-a-killer-secret/) _(GTA, утечка/спойлер/дата)_
-  One of the first characters you meet in the opening chapter of Rockstar's GTA 6 is Mandy, and people online are thirsting hard for her. However, fans have also discovered evidence that they believe points to Mandy being…
-- **19.11 · GameSpot** — [GTA 6 Is Finally Here, So Come Watch Us Make Terrible Decisions In Vice City](https://www.gamespot.com/articles/gta-6-is-finally-here-so-come-watch-us-make-terrible-decisions-in-vice-city/) _(GTA, утечка/спойлер/дата)_
-  In just a few short hours, the years-long wait for Grand Theft Auto 6 will finally be over. Maybe you're planning to hop on later today to start playing; maybe you've got a long weekend planned for the game. And maybe y…
-- **21.11 · Eurogamer** — [GTA 6 has a 99 Metascore from critics, but players are review bombing it](https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score) _(GTA, утечка/спойлер/дата)_
-  Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score. Read more
-- **20.11 · Eurogamer** — [It took me less than an hour to find my first incredibly minor Rockstar easter egg in GTA 6 - but it has some big implications for Leonida](https://www.eurogamer.net/gta-6-early-game-connection-rockstar-gta-5) _(GTA, утечка/спойлер/дата)_
-  Are you wondering how connected the worlds of GTA 5 and GTA 6 are? Well, I've got some news for you. Keep on reading below if you'd like some very minor spoilers for the early game of GTA 6, spoilers for GTA 5, as well …
-- **20.11 · Eurogamer** — [I completed GTA 6's indie game darling pastiche, Tenebrae Lux, and all I got was this lousy sense of accomplishment](https://www.eurogamer.net/tenebrae-lux-gta-6-now-playing) _(GTA, утечка/спойлер/дата)_
-  "We are but Promethean wanderers on the fringes of oblivion, clinging to a semblance of light amidst the vast abyss of our own ignorance. Voyaging uncharted waters may appear foolish to some, yet folly and heroism can o…
+- **23.11 · Eurogamer** — [Metacritic's user review problem worsens, as GTA 6's launch prompts review-bombing for completely unrelated games like Soul Calibur and The Ocarina of Time](https://www.eurogamer.net/gta-6-metacritic-review-bomb) _(GTA, утечка/спойлер/дата)_
+  In the wake of Grand Theft Auto 6 's release and the wave of glowing reviews it received, a war is raging in Metacritic's user reviews, with some of the medium's best games of all time caught in the crossfire. Read more
+- **22.11 · Eurogamer** — [GTA 6 player gets 30-day PSN ban for sharing in-game nudist photo with a friend](https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort) _(GTA, утечка/спойлер/дата)_
+  A Grand Theft Auto 6 player says they've been hit with a 30-day PlayStation Network social features ban after sending a friend a photo they took in the game's nudist resort. Read more
+- **22.11 · Eurogamer** — [I've never known a moment like this in video games](https://www.eurogamer.net/gta-6-video-games-biggest-moment) _(GTA, утечка/спойлер/дата)_
+  It was hard not to spend the first hour or so of Grand Theft Auto 6 's launch day in a kind of stun-lock. As far as video games editorial goes - which is not that far, in fairness; prepare for an over-flattering analogy…
 
-## Тайтлы из списков Shield и спойлеры (28)
-- **20.11 · GamesRadar** — [Lego Dragon Ball: Shenron & Goku #11390 review - "Just about right in all the ways that matter"](https://www.gamesradar.com/toys-collectibles/lego-dragon-ball-shenron-and-goku-11390-review/) _(Dragon Ball, утечка/спойлер/дата)_
-  As the first in the range, Lego Dragon Ball: Shenron & Goku had a tricky task... but pulls it off effortlessly. Here's what we thought of the set.
-- **20.11 · GamesRadar** — [The Rings of Power season 3 finale trailer teases the moment we have waited years to see](https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-power-season-3-finale-trailer-teases-the-moment-we-and-sauron-have-waited-years-to-see/) _(The Rings of Power, утечка/спойлер/дата)_
-  It's time to forge The One Ring
+## Тайтлы из списков Shield и спойлеры (31)
 - **20.11 · Anime News Network** — [Overgeared Volumes 4-6 K-Comic Review](https://www.animenewsnetwork.com/review/overgeared/volumes-4-6/.243215) _(Overgeared, утечка/спойлер/дата)_
   Every time I finish a volume of Overgeared , I think the same thing: Grid's a jerk, but… . It's hard to say whether this is a feature or a bug.
 - **17.11 · Anime News Network** — [Attack on Titan 3 Brings the Video Game Series to Its Brutal, Bloody Conclusion](https://www.animenewsnetwork.com/feature/2026-11-17/attack-on-titan-3-brings-the-video-game-series-to-its-brutal-bloody-conclusion/.243886) _(Attack on Titan, утечка/спойлер/дата)_
@@ -72,14 +68,26 @@
   Blade Runner 2099 - an upcoming TV miniseries coming to Amazon Prime Video, acting as a sequel to Blade Runner (1982) and Blade Runner 2049 (2017) - might be getting a video game. And a 'triple-A' video game, at that. A…
 - **17.11 · Rock Paper Shotgun** — [Embracer begin yet another round of layoffs at Crystal Dynamics, while they're still midway through development on two Tomb Raider games](https://www.rockpapershotgun.com/embracer-begin-yet-another-round-of-layoffs-at-crystal-dynamics-while-theyre-still-midway-through-development-on-two-tomb-raider-games) _(severance)_
   Update 18/11: Crystal Dynamics have provided the following statement to RPS, confirming it cut eight staff members: "Crystal Dynamics made a difficult, but necessary business decision to reduce our current studio staff …
-- **21.11 · Polygon** — [5 Years Later, 'Yellowjackets' Officially Solves One of Its Last Huge Mysteries](https://www.polygon.com/yellowjackets-season-4-plane-crash-location/) _(Yellowjackets)_
-  The location where the Yellowjackets crash-landed has been a hot topic of discussion for years. 'Yellowjackets' season 4 has the answers.
+- **23.11 · Kotaku** — [Avengers: Doomsday’s Final Trailer Shows Steve Rogers’ Family Life Upended By The Fantastic Four](https://kotaku.com/avengers-doomsday-final-trailer-x-men-steve-rogers-son-2000759445) _(Avengers: Doomsday)_
+  There's also a fun reference to Cyclops' iconic 'To me, my X-Men' line
+- **23.11 · GamesRadar** — [Steve Rogers returns to action in final Avengers: Doomsday trailer](https://www.gamesradar.com/entertainment/marvel-movies/steve-rogers-returns-to-action-in-final-avengers-doomsday-trailer-that-sees-robert-downey-jr-s-doctor-doom-want-revenge-on-earths-mightiest-heroes/) _(Avengers: Doomsday)_
+  A new look at Avengers: Doomsday has dropped
+- **23.11 · GamesRadar** — [MCU fans think Ms. Marvel star Iman Vellani will return in Avengers: Doomsday](https://www.gamesradar.com/entertainment/marvel-movies/mcu-fans-think-ms-marvel-star-iman-vellani-will-return-in-avengers-doomsday-and-the-evidence-is-hiding-in-plain-sight-in-the-countdown-to-doomsday-podcast/) _(Avengers: Doomsday)_
+  Marvel fans are convinced Iman Vellani has been hiding her own Avengers: Doomsday casting in plain sight
+- **23.11 · GamesRadar** — [Avengers: Doomsday adds one more cast chair reveal – and it's a potential Young Avenger](https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-adds-one-more-cast-chair-reveal-and-its-a-potential-young-avenger/) _(Avengers: Doomsday)_
+  Kate Bishop actor Hailee Steinfeld announced the news on social media
 - **21.11 · GamesRadar** — [Blade Runner 2099 showrunner turned to Ridley Scott to answer canon questions: "I needed the Bible for our show"](https://www.gamesradar.com/entertainment/sci-fi-shows/blade-runner-2099-showrunner-turned-to-ridley-scott-to-answer-canon-questions-i-needed-the-bible-for-our-show-and-that-was-ridley/) _(Blade Runner 2099)_
   Ridley Scott is the closest thing to Blade Runner's loremaster
-- **20.11 · GamesRadar** — [Jennifer Lawrence and Josh Hutcherson returning as Katniss and Peeta in Sunrise on the Reaping made the cast "giddy"](https://www.gamesradar.com/entertainment/action-movies/jennifer-lawrence-and-josh-hutcherson-returning-as-katniss-and-peeta-in-the-hunger-games-sunrise-on-the-reaping-made-the-cast-giddy/) _(The Hunger Games: Sunrise on the Reaping)_
-  Exclusive: Francis Lawrence and the cast of The Hunger Games: Sunrise on the Reaping talk bringing back Jennifer Lawrence and Josh Hutcherson
-- **20.11 · GamesRadar** — [Avengers: Doomsday sounds like the darkest Marvel movie yet, which is why it needs a pinch of Deadpool & Wolverine](https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-sounds-like-the-darkest-marvel-movie-yet-which-is-why-it-needs-a-pinch-of-deadpool-and-wolverine/) _(Avengers: Doomsday)_
-  On the road to Avengers: Doomsday, Deadpool & Wolverine demonstrates how to add some light to the backdrop of universes being destroyed
+- **23.11 · Anime News Network** — [Sakamoto Days Manga Ends](https://www.animenewsnetwork.com/news/2026-11-22/sakamoto-days-manga-ends/.244098) _(Sakamoto Days)_
+  Series debuted in November 2020, with final volume shipping on April 30, 2027
+- **22.11 · Anime News Network** — [Chainsaw Man, Jujutsu Kaisen, More Manga Rank on NYT November Bestseller List](https://www.animenewsnetwork.com/daily-briefs/2026-11-22/chainsaw-man-jujutsu-kaisen-more-manga-rank-on-nyt-november-bestseller-list/.244054) _(Chainsaw Man)_
+  The 22nd volume of Tatsuki Fujimoto's Chainsaw Man manga ranked at #4 on The New York Times' monthly Graphic Books and Manga bestseller list released in...
+- **22.11 · Anime News Network** — [Chainsaw Man Ranks #2 on Bookscan's October Adult Graphic Novel List in U.S.](https://www.animenewsnetwork.com/news/2026-11-22/chainsaw-man-ranks-no.2-on-bookscan-october-adult-graphic-novel-list-in-u.s/.244062) _(Chainsaw Man)_
+  13 manga volumes including Jujutsu Kaisen, The Summer Hikaru Died, The Guy She Was Interested In Wasn't a Guy at All, Dandadan, Phantom Busters, Demon Slayer, One Piece make list
+- **22.11 · Anime News Network** — [Jujutsu Kaisen Ranks #4 on Bookscan's September Adult Graphic Novel List in U.S.](https://www.animenewsnetwork.com/news/2026-11-22/jujutsu-kaisen-ranks-no.4-on-bookscan-september-adult-graphic-novel-list-in-u.s/.244055) _(Jujutsu Kaisen)_
+  16 manga volumes including Spy x Family, The Summer Hikaru Died, Steel Ball Run, Demon Slayer, Gachiakuta, One Piece, Witch Hat Atelier, Kaiju No. 8, The Apothecary Diaries make list
+- **21.11 · Anime News Network** — [The Apothecary Diaries Season 3 ‒ Episode 56](https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-56/.244059) _(The Apothecary Diaries)_
+  As Shakespeare said in Henry IV Part Two , “uneasy is the head that wears a crown.”
 - **21.11 · Anime News Network** — [Japanese Animation TV Ranking, November 9-15](https://www.animenewsnetwork.com/news/2026-11-21/japanese-animation-tv-ranking-november-9-15/.244015) _(The Apothecary Diaries)_
   The Apothecary Diaries season 3 earns 4.0% rating
 - **20.11 · Anime News Network** — [North American Anime, Manga Releases, November 15-21](https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879) _(Jujutsu Kaisen)_
@@ -108,19 +116,15 @@
   Live-action Street Fighter ranks at #16 in U.S.
 - **16.11 · Anime News Network** — [Blue Box Season 2 ‒ Episode 6](https://www.animenewsnetwork.com/review/blue-box-season-2/episode-6/.243837) _(Blue Box)_
   Taiki and Chinatsu have hugged each other, everybody, and on Christmas Eve, no less. We can only pray that these crazy kids were smart enough to use contraceptives.
-- **21.11 · TVLine** — [The Rings Of Power Season 3: Who Is Landroval, The Prince Of Eagles?](https://www.tvline.com/2318884/the-rings-of-power-season-3-landroval-prince-of-eagles-explained/) _(The Rings Of Power)_
-  Yes, it happened again: An eagle turned up to save the day in The Rings of Power. But just who is Landroval, and what's his role in the history of Middle-earth?
-- **20.11 · TVLine** — [Percy Jackson EPs Break Down Percy And Annabeth's First Dance, Explain How Season 3 Honors The Duo's 'Connection'](https://www.tvline.com/2323892/percy-jackson-season-3-percy-annabeth-first-dance-song-explained/) _(Percy Jackson and the Olympians)_
-  The team behind Percy Jackson and the Olympians discusses that big premiere moment for Percy and Annabeth - one of their few scenes together in Season 3.
 
 ## Источники
-- PC Gamer: ок, подходящих 33
+- PC Gamer: ок, подходящих 30
 - GameSpot: ок, подходящих 23
-- Eurogamer: ок, подходящих 53
+- Eurogamer: ок, подходящих 58
 - Rock Paper Shotgun: ок, подходящих 14
-- VGC: ок, подходящих 10
-- Polygon: ок, подходящих 4
-- Kotaku: ок, подходящих 15
-- GamesRadar: ок, подходящих 31
-- Anime News Network: ок, подходящих 16
-- TVLine: ок, подходящих 2
+- VGC: ок, подходящих 7
+- Polygon: ок, подходящих 2
+- Kotaku: ок, подходящих 7
+- GamesRadar: ок, подходящих 33
+- Anime News Network: ок, подходящих 21
+- TVLine: ок, подходящих 1
