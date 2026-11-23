@@ -14,7 +14,7 @@ concurrency: { group: catch-up, cancel-in-progress: false }
 jobs:
   run:
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    timeout-minutes: 25
     env:
       GITHUB_TOKEN: ${{ github.token }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

@@ -66,6 +66,7 @@ for (const { file, job, last } of missed) {
   if (job.post && !CFG.allow_posts) { held.push(tag + ' — публикует, жду разрешения Антона'); continue; }
   if ((job.after || []).some((d) => missedFiles.has(d))) { held.push(tag + ' — после ' + job.after.join(', ')); continue; }
   if (DRY) { done.push(tag + ' [проба]'); continue; }
+  if (done.length) await new Promise((r) => setTimeout(r, 45000));   // по одной с паузой: иначе задачи толкаются при сохранении в репозиторий
   try { await api(`actions/workflows/${file}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: job.inputs || {} }) }); done.push(tag); }
   catch (e) { held.push(`${tag} — не запустилась: ${e.message}`); }
 }
