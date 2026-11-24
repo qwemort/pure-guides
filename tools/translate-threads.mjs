@@ -7,6 +7,7 @@
 // Состояние: data/threads-en-done.json. Первый запуск запоминает время и ничего не переводит из старого.
 // Посты с одной картинкой переводятся и публикуются с той же картинкой. Пропускает: видео и карусели, ответы (их API не отдаёт в списке), посты по правилам skip_regex, уже обработанные.
 import fs from 'node:fs'; import path from 'node:path';
+import { splitLink } from './split-link.mjs';   // ссылки — в первый комментарий (24.11)
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CFG = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'threads-en.json'), 'utf8'));
 const G = process.env.THREADS_API_BASE || 'https://graph.threads.net/v1.0';
@@ -133,9 +134,24 @@ for (const m of queue) {
   if (PUBLISH) {
     try {
       me_en ||= await get(TE, 'me', { fields: 'id,username' });
-      const c = await post(TE, `${me_en.id}/threads`, m.media_type === 'IMAGE' ? { media_type: 'IMAGE', image_url: m.media_url, text: final } : { media_type: 'TEXT', text: final });
+      const sp = splitLink(final);                // в самом посте ссылок нет
+      const c = await post(TE, `${me_en.id}/threads`, m.media_type === 'IMAGE' ? { media_type: 'IMAGE', image_url: m.media_url, text: sp.body } : { media_type: 'TEXT', text: sp.body });
       await new Promise((s) => setTimeout(s, 30000));
       const p = await post(TE, `${me_en.id}/threads_publish`, { creation_id: c.id });
+      // ссылки: из перевода и из своего комментария под украинским постом → первым комментарием под английским
+      let links = sp.links;
+      try {
+        const rep = (await get(TU, `${m.id}/replies`, { fields: 'id,text,username' })).data || [];
+        for (const r of rep) if (r.username === me.username) links = links.concat(splitLink(r.text || '').links);
+      } catch { /* нет доступа к ответам — только ссылки из перевода */ }
+      links = [...new Set(links)];
+      if (links.length) try {
+        await new Promise((s) => setTimeout(s, 10000));
+        const rc = await post(TE, `${me_en.id}/threads`, { media_type: 'TEXT', text: links.join('\n'), reply_to_id: p.id });
+        await new Promise((s) => setTimeout(s, 20000));
+        await post(TE, `${me_en.id}/threads_publish`, { creation_id: rc.id });
+        say(`ссылка в комментарии: ${links.join(' ')}`);
+      } catch (e) { say(`ссылку в комментарий добавить не удалось: ${e.message}`); }
       state.done[m.id] = { en_id: p.id, at: new Date().toISOString() };
       say(`опубликовано на @${me_en.username}: ${p.id}`);
       save(state);

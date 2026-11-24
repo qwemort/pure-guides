@@ -3,6 +3,7 @@
 // Берёт out/post.json (текст + картинка). Потом продлевает токен (живёт 60 дней) и пишет новый
 // в out/new-token.txt — workflow сам сохраняет его в Secrets, если задан GH_PAT.
 import fs from 'node:fs'; import path from 'node:path';
+import { splitLink } from './split-link.mjs';   // ссылку — в первый комментарий (24.11)
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const T = process.env.THREADS_TOKEN;
 if (!T) { console.log('нет THREADS_TOKEN — пропуск'); process.exit(0); }
@@ -18,12 +19,22 @@ const me = await call(`${G}/me?fields=id,username&access_token=${encodeURICompon
 if (process.argv.includes('--publish')) {
   // картинка должна уже открываться по публичной ссылке (GitHub Pages)
   if (post.image) for (let i = 0; i < 20; i++) { const r = await fetch(post.image, { method: 'HEAD' }); if (r.ok) break; await new Promise((s) => setTimeout(s, 15000)); }
-  const q = post.image ? new URLSearchParams({ media_type: 'IMAGE', image_url: post.image, text: post.threads, access_token: T })
-    : new URLSearchParams({ media_type: 'TEXT', text: post.threads, access_token: T });   // пост без картинки (автопосты перед релизами)
+  const { body, links } = splitLink(post.threads);    // в самом посте ссылок нет: Threads режет охват
+  const q = post.image ? new URLSearchParams({ media_type: 'IMAGE', image_url: post.image, text: body, access_token: T })
+    : new URLSearchParams({ media_type: 'TEXT', text: body, access_token: T });   // пост без картинки (автопосты перед релизами)
   const c = await call(`${G}/${me.id}/threads?${q}`, 'POST');
   await new Promise((s) => setTimeout(s, 35000));
   const p = await call(`${G}/${me.id}/threads_publish?${new URLSearchParams({ creation_id: c.id, access_token: T })}`, 'POST');
   console.log(`опубликовано в Threads @${me.username}: ${p.id}`);
+  if (links.length) {                                  // ссылка — первым ответом под своим постом
+    try {
+      await new Promise((s) => setTimeout(s, 10000));
+      const rc = await call(`${G}/${me.id}/threads?${new URLSearchParams({ media_type: 'TEXT', text: links.join('\n'), reply_to_id: p.id, access_token: T })}`, 'POST');
+      await new Promise((s) => setTimeout(s, 20000));
+      const rp = await call(`${G}/${me.id}/threads_publish?${new URLSearchParams({ creation_id: rc.id, access_token: T })}`, 'POST');
+      console.log(`ссылка в комментарии: ${rp.id}`);
+    } catch (e) { console.log(`ссылку в комментарий добавить не удалось: ${e.message}`); }
+  }
   let link = ''; try { link = (await call(`${G}/${p.id}?fields=permalink&access_token=${encodeURIComponent(T)}`)).permalink || ''; } catch {}
   fs.writeFileSync(path.join(ROOT, 'out', 'threads-result.txt'), `опубликовано @${me.username}, id ${p.id}${link ? ' ' + link : ''}`);
 } else {

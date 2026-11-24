@@ -5,6 +5,7 @@
 //   Telegram: TG_BOT_TOKEN (бот от @BotFather, добавлен админом в канал), TG_CHAT (@имя_канала)
 //   Bluesky:  BSKY_HANDLE (имя.bsky.social), BSKY_APP_PASSWORD (Settings → App passwords)
 import fs from 'node:fs'; import path from 'node:path';
+import { splitLink } from './split-link.mjs';   // Bluesky: ссылку — в первый ответ (24.11); Telegram-канал — как было
 const A = process.argv.slice(2); const pi = A.indexOf('--post'); const TG = A.includes('--tg'), BS = A.includes('--bsky');
 const post = JSON.parse(fs.readFileSync(path.resolve(pi >= 0 ? A[pi + 1] : 'out/index-post.json'), 'utf8'));
 const out = []; const env = process.env;
@@ -35,14 +36,22 @@ if (env.BSKY_HANDLE && env.BSKY_APP_PASSWORD) {
       await waitImage(post.image_en);
       const img = Buffer.from(await (await fetch(post.image_en)).arrayBuffer());
       const blob = await j(await fetch(X + 'com.atproto.repo.uploadBlob', { method: 'POST', headers: { 'content-type': 'image/png', authorization: 'Bearer ' + s.accessJwt }, body: img }));
-      const text = `${post.en}\n\n${post.url}`;
-      const enc = new TextEncoder(); const start = enc.encode(text.slice(0, text.lastIndexOf(post.url))).length;
+      const sp = splitLink(post.en);
+      const text = sp.body;
+      const links = [...new Set([post.url, ...sp.links].filter(Boolean))];
+      const enc = new TextEncoder();
       const record = {
         $type: 'app.bsky.feed.post', text, createdAt: new Date().toISOString(), langs: ['en'],
-        facets: [{ index: { byteStart: start, byteEnd: start + enc.encode(post.url).length }, features: [{ $type: 'app.bsky.richtext.facet#link', uri: post.url }] }],
         embed: { $type: 'app.bsky.embed.images', images: [{ image: blob.blob, alt: post.alt || `GTA 6 spoiler index card: ${post.en.split("\n").slice(0, 3).join(" ")}`, aspectRatio: { width: 1080, height: 1350 } }] },
       };
-      await j(await fetch(X + 'com.atproto.repo.createRecord', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + s.accessJwt }, body: JSON.stringify({ repo: s.did, collection: 'app.bsky.feed.post', record }) }));
+      const main = await j(await fetch(X + 'com.atproto.repo.createRecord', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + s.accessJwt }, body: JSON.stringify({ repo: s.did, collection: 'app.bsky.feed.post', record }) }));
+      if (links.length) try {                       // ссылка — первым ответом под своим постом
+        const rtext = links.join('\n');
+        const facets = []; let pos = 0;
+        for (const l of links) { const st = enc.encode(rtext.slice(0, rtext.indexOf(l, pos))).length; facets.push({ index: { byteStart: st, byteEnd: st + enc.encode(l).length }, features: [{ $type: 'app.bsky.richtext.facet#link', uri: l }] }); pos = rtext.indexOf(l, pos) + l.length; }
+        const ref = { uri: main.uri, cid: main.cid };
+        await j(await fetch(X + 'com.atproto.repo.createRecord', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + s.accessJwt }, body: JSON.stringify({ repo: s.did, collection: 'app.bsky.feed.post', record: { $type: 'app.bsky.feed.post', text: rtext, createdAt: new Date().toISOString(), langs: ['en'], facets, reply: { root: ref, parent: ref } } }) }));
+      } catch (e) { out.push(`Bluesky: ссылку в ответ добавить не удалось — ${String(e.message || e).slice(0, 120)}`); }
       out.push(`Bluesky: опубликовано @${env.BSKY_HANDLE}`);
     } else out.push(`Bluesky: вход @${env.BSKY_HANDLE} рабочий, публикация выключена`);
   } catch (e) { out.push(`Bluesky: ошибка — ${String(e.message || e).slice(0, 200)}`); }
