@@ -18,7 +18,6 @@ const JOBS = {
   'release-posts.yml': { inputs: { dry: 'false', week: 'false' }, crons: ['47 2 * * *'] },   // только ежедневный пост (не сводку пн)
   'scheduled-post.yml': { post: true, after: ['release-posts.yml'] },
   'leak-watch.yml': { post: true, inputs: { dry: 'false' }, after: ['release-posts.yml'] },
-  'spoiler-index.yml': { post: true, inputs: { post: 'true' } },
   'cws-stats.yml': { inputs: { week: 'false' } },          // сводку по понедельникам скрипт включает сам
   'dom-canary.yml': {}, 'pain-radar.yml': {}, 'store-rank.yml': {}, 'store-stats.yml': {}, 'threads-stats.yml': {}, 'watchdog.yml': {},
   'anime-radar.yml': {}, 'mutelists.yml': {}, 'news.yml': {}, 'spoiler-danger.yml': {}, 'title-dates.yml': {}, 'weekly-report.yml': {},

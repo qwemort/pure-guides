@@ -16,9 +16,7 @@ if (fresh.length) {
   for (const p of fresh.slice(0, 8)) { const l = last(p); md += `| ${l.views ?? '—'} | ${l.likes ?? '—'} | ${l.replies ?? '—'} | [${p.text.slice(0, 55).replace(/\|/g, '/')}](${p.url}) |\n`; }
   const avg = Math.round(fresh.reduce((s, p) => s + (last(p).views || 0), 0) / fresh.length); md += `\nВ среднем **${avg}** просмотров на пост.\n`;
 } else md += 'Новых постов за неделю нет.\n';
-// индекс
-md += `\n### Индекс спойлеров («gta 6», первые видео)\n`;
-const w = idx.filter((x) => x.date >= day(8)); if (w.length) md += w.map((x) => `${x.date.slice(5)}: ${x.main.spoilers}/${x.main.cards}`).join(' · ') + '\n'; else md += 'Замеров за неделю нет.\n';
+// индекс спойлеров выключен 24.11.2026 — из отчёта убран
 // поиск магазина
 md += `\n### Поиск Chrome Web Store\n`;
 const r1 = rank[rank.length - 1]; const r0 = rank.find((x) => x.date >= day(8)) || rank[0];

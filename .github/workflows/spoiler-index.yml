@@ -1,4 +1,5 @@
 name: spoiler-index
+# ВЫКЛЮЧЕН 24.11.2026 (Антон: «индекс уберём, он не растёт, стагнирует»): ежедневного запуска и постов больше нет; ручной запуск оставлен, история — data/spoiler-index.json.
 # «Индекс спойлеров GTA 6»: каждый день бот открывает настоящий YouTube (без логина, США), вбивает
 # одни и те же запросы и считает, сколько из первых 40 видео настоящий Pure Spoiler Blocker закрыл бы.
 # → data/spoiler-index.json (только числа), карточки spoiler-index/*.png, страница spoiler-index/,
@@ -6,8 +7,6 @@ name: spoiler-index
 # публикация в Threads / Telegram / Bluesky — ТОЛЬКО если включено в spoiler-index/config.json.
 # Если YouTube показал капчу — день пропускается, ничего не пишется и не публикуется.
 on:
-  schedule:
-    - cron: '41 15 * * *'   # 16:41 Варшава, 17:41 Киев — вечером, когда люди в телефоне
   workflow_dispatch:
     inputs:
       only_bluesky: { description: 'true = при публикации писать только в Bluesky (Threads не трогать)', required: false, default: 'false' }
