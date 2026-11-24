@@ -1,4 +1,14 @@
 {
+ "Even the Student Council Has Its Holes!": {
+  "kind": "anime",
+  "source": "https://anilist.co/anime/191656",
+  "weeks": [
+   "2026-11-16",
+   "2026-11-23",
+   "2026-11-30"
+  ],
+  "ready": true
+ },
  "Detective Conan": {
   "kind": "anime",
   "source": "https://anilist.co/anime/235",
@@ -68,15 +78,6 @@
   "weeks": [
    "2026-11-09",
    "2026-11-16"
-  ],
-  "ready": true
- },
- "Even the Student Council Has Its Holes!": {
-  "kind": "anime",
-  "source": "https://anilist.co/anime/191656",
-  "weeks": [
-   "2026-11-16",
-   "2026-11-23"
   ],
   "ready": true
  },

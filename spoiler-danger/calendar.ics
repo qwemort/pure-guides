@@ -9,8 +9,194 @@ X-WR-TIMEZONE:Europe/Warsaw
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
+UID:2026-12-02-bad-monkey@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🛡 Bad Monkey · season 2 premiere
+DESCRIPTION:Spoiler danger: Bad Monkey (season 2 premiere). Words to mute
+  on X and Threads: https://qwemort.github.io/pure-guides/mute-list/bad-m
+ onkey.html\nAll of this week: https://qwemort.github.io/pure-guides/spoi
+ ler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/bad-monkey.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-the-apothecary-diaries-season-3@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🛡 The Apothecary Diaries Season 3 · episode 10
+DESCRIPTION:Spoiler danger: The Apothecary Diaries Season 3 (episode 10).
+  Words to mute on X and Threads: https://qwemort.github.io/pure-guides/m
+ ute-list/apothecary.html\nAll of this week: https://qwemort.github.io/pu
+ re-guides/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/apothecary.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-yellowjackets@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🛡 Yellowjackets · season 4\, episode 3
+DESCRIPTION:Spoiler danger: Yellowjackets (season 4\, episode 3). Words t
+ o mute on X and Threads: https://qwemort.github.io/pure-guides/mute-list
+ /yellowjackets.html\nAll of this week: https://qwemort.github.io/pure-gu
+ ides/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/yellowjackets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-black-clover-season-2@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:🛡 Black Clover Season 2 · episode 10
+DESCRIPTION:Spoiler danger: Black Clover Season 2 (episode 10). Words to 
+ mute on X and Threads: https://qwemort.github.io/pure-guides/mute-list/b
+ lack-clover.html\nAll of this week: https://qwemort.github.io/pure-guide
+ s/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/black-clover.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-percy-jackson-and-the-olympians@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🛡 Percy Jackson and the Olympians · 2 episodes
+DESCRIPTION:Spoiler danger: Percy Jackson and the Olympians (2 episodes).
+  Words to mute on X and Threads: https://qwemort.github.io/pure-guides/m
+ ute-list/percy-jackson.html\nAll of this week: https://qwemort.github.io
+ /pure-guides/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/percy-jackson.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-detective-conan@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:🛡 Detective Conan · episode 1222
+DESCRIPTION:Spoiler danger: Detective Conan (episode 1222). Words to mute
+  on X and Threads: https://qwemort.github.io/pure-guides/mute-list/detec
+ tive-conan.html\nAll of this week: https://qwemort.github.io/pure-guides
+ /spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/detective-conan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-the-institute@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🛡 The Institute · season 2\, episode 5
+DESCRIPTION:Spoiler danger: The Institute (season 2\, episode 5). Words t
+ o mute on X and Threads: https://qwemort.github.io/pure-guides/mute-list
+ /the-institute.html\nAll of this week: https://qwemort.github.io/pure-gu
+ ides/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/the-institute.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-the-exiled-heavy-knight-knows-how-to-game-the-system@qwemo
+ rt.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:🛡 The Exiled Heavy Knight Knows How to Game the System · epis
+ ode 23
+DESCRIPTION:Spoiler danger: The Exiled Heavy Knight Knows How to Game the
+  System (episode 23). Words to mute on X and Threads: https://qwemort.gi
+ thub.io/pure-guides/mute-list/exiled-heavy-knight.html\nAll of this week
+ : https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/exiled-heavy-knight.h
+ tml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-the-gilded-age@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🛡 The Gilded Age · season 4\, episode 6
+DESCRIPTION:Spoiler danger: The Gilded Age (season 4\, episode 6). Words 
+ to mute on X and Threads: https://qwemort.github.io/pure-guides/mute-lis
+ t/gilded-age.html\nAll of this week: https://qwemort.github.io/pure-guid
+ es/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/gilded-age.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-overgeared@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🛡 Overgeared · episode 11
+DESCRIPTION:Spoiler danger: Overgeared (episode 11). Words to mute on X a
+ nd Threads: https://qwemort.github.io/pure-guides/mute-list/overgeared.h
+ tml\nAll of this week: https://qwemort.github.io/pure-guides/spoiler-dan
+ ger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/overgeared.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-the-chosen@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🛡 The Chosen · season 6\, episode 6
+DESCRIPTION:Spoiler danger: The Chosen (season 6\, episode 6). Words to m
+ ute on X and Threads: https://qwemort.github.io/pure-guides/mute-list/th
+ e-chosen.html\nAll of this week: https://qwemort.github.io/pure-guides/s
+ poiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/the-chosen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-firefly-wedding@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🛡 Firefly Wedding · episode 9
+DESCRIPTION:Spoiler danger: Firefly Wedding (episode 9). Words to mute on
+  X and Threads: https://qwemort.github.io/pure-guides/mute-list/firefly-
+ wedding.html\nAll of this week: https://qwemort.github.io/pure-guides/sp
+ oiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/firefly-wedding.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-02-reincarnated-as-a-sword-season-2@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🛡 Reincarnated as a Sword Season 2 · episode 10
+DESCRIPTION:Spoiler danger: Reincarnated as a Sword Season 2 (episode 10)
+ . Words to mute on X and Threads: https://qwemort.github.io/pure-guides/
+ mute-list/reincarnated-sword-2.html\nAll of this week: https://qwemort.g
+ ithub.io/pure-guides/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/mute-list/reincarnated-sword-2.
+ html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-even-the-student-council-has-its-holes@qwemort.github.io
+DTSTAMP:20261124T041411Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:🛡 Even the Student Council Has Its Holes! · episode 10
+DESCRIPTION:Spoiler danger: Even the Student Council Has Its Holes! (epis
+ ode 10). Words to mute on X and Threads: https://qwemort.github.io/pure-
+ guides/spoiler-danger/2026-11-30.html\nAll of this week: https://qwemort
+ .github.io/pure-guides/spoiler-danger/2026-11-30.html
+URL:https://qwemort.github.io/pure-guides/spoiler-danger/2026-11-30.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-25-the-lord-of-the-rings-the-rings-of-power@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🛡 The Lord of the Rings: The Rings of Power · 2 episodes
@@ -23,7 +209,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-the-apothecary-diaries-season-3@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🛡 The Apothecary Diaries Season 3 · episode 9
@@ -36,7 +222,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-blade-runner-2099@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🛡 Blade Runner 2099 · season 1\, full drop
@@ -50,7 +236,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-black-clover-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:🛡 Black Clover Season 2 · episode 9
@@ -63,7 +249,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-yellowjackets@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🛡 Yellowjackets · season 4\, episode 2
@@ -77,7 +263,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26-the-exiled-heavy-knight-knows-how-to-game-the-system@qwemo
  rt.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:🛡 The Exiled Heavy Knight Knows How to Game the System · epis
@@ -92,7 +278,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-percy-jackson-and-the-olympians@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🛡 Percy Jackson and the Olympians · 2 episodes
@@ -105,7 +291,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-overgeared@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:🛡 Overgeared · episode 10
@@ -118,7 +304,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-the-institute@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:🛡 The Institute · season 2\, episode 4
@@ -131,7 +317,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-firefly-wedding@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🛡 Firefly Wedding · episode 8
@@ -144,7 +330,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-the-gilded-age@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:🛡 The Gilded Age · season 4\, episode 5
@@ -157,7 +343,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-reincarnated-as-a-sword-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🛡 Reincarnated as a Sword Season 2 · episode 9
@@ -171,7 +357,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-even-the-student-council-has-its-holes@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:🛡 Even the Student Council Has Its Holes! · episode 9
@@ -184,7 +370,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-blue-box-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:🛡 Blue Box Season 2 · episode 8
@@ -197,7 +383,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-gta-vi@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:🛡 GTA VI · release\, PS5\, Xbox Series X|S
@@ -210,7 +396,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-the-hunger-games-sunrise-on-the-reaping@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:🛡 The Hunger Games: Sunrise on the Reaping · release\, in cin
@@ -225,7 +411,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18-the-lord-of-the-rings-the-rings-of-power@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🛡 The Lord of the Rings: The Rings of Power · 2 episodes
@@ -238,7 +424,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-the-apothecary-diaries-season-3@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:🛡 The Apothecary Diaries Season 3 · episode 8
@@ -251,7 +437,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-yellowjackets@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:🛡 Yellowjackets · season 4 premiere
@@ -264,7 +450,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-black-clover-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🛡 Black Clover Season 2 · episode 8
@@ -277,7 +463,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-percy-jackson-and-the-olympians@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:🛡 Percy Jackson and the Olympians · season 3 premiere
@@ -290,7 +476,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-detective-conan@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🛡 Detective Conan · episode 1221
@@ -303,7 +489,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-the-institute@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🛡 The Institute · season 2\, episode 3
@@ -317,7 +503,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-the-exiled-heavy-knight-knows-how-to-game-the-system@qwemo
  rt.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:🛡 The Exiled Heavy Knight Knows How to Game the System · epis
@@ -332,7 +518,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-the-gilded-age@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🛡 The Gilded Age · season 4\, episode 4
@@ -345,7 +531,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-overgeared@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🛡 Overgeared · episode 9
@@ -358,7 +544,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-the-chosen@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🛡 The Chosen · season 6\, episode 4
@@ -371,7 +557,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18-reincarnated-as-a-sword-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🛡 Reincarnated as a Sword Season 2 · episode 8
@@ -385,7 +571,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-firefly-wedding@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:🛡 Firefly Wedding · episode 7
@@ -398,7 +584,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-even-the-student-council-has-its-holes@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🛡 Even the Student Council Has Its Holes! · episode 8
@@ -411,7 +597,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-the-lord-of-the-rings-the-rings-of-power@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:🛡 The Lord of the Rings: The Rings of Power · season 3\, full
@@ -425,7 +611,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-the-apothecary-diaries-season-3@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🛡 The Apothecary Diaries Season 3 · episode 7
@@ -438,7 +624,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-visionquest@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:🛡 VisionQuest · season 1\, episode 8
@@ -451,7 +637,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-black-clover-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:🛡 Black Clover Season 2 · episode 7
@@ -464,7 +650,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-fire-country@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🛡 Fire Country · season 5\, episode 6
@@ -477,7 +663,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-detective-conan@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:🛡 Detective Conan · episode 1220
@@ -490,7 +676,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-the-institute@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 The Institute · season 2\, episode 2
@@ -504,7 +690,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-the-exiled-heavy-knight-knows-how-to-game-the-system@qwemo
  rt.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:🛡 The Exiled Heavy Knight Knows How to Game the System · epis
@@ -518,7 +704,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-the-gilded-age@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 The Gilded Age · season 4\, episode 3
@@ -531,7 +717,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-overgeared@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 Overgeared · episode 8
@@ -544,7 +730,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-blue-skies@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:🛡 Blue Skies · season 2\, episode 7
@@ -557,7 +743,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-reincarnated-as-a-sword-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:🛡 Reincarnated as a Sword Season 2 · episode 7
@@ -570,7 +756,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-firefly-wedding@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🛡 Firefly Wedding · episode 6
@@ -583,7 +769,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-blue-box-season-2@qwemort.github.io
-DTSTAMP:20261123T191717Z
+DTSTAMP:20261124T041411Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:🛡 Blue Box Season 2 · episode 6
