@@ -2925,12 +2925,6 @@
       "rating": "5.0"
      },
      {
-      "id": "jeiicdjopelafmfokikmaimcfhdgamem",
-      "name": "GTA 6 Spoiler Blocker",
-      "users": "",
-      "rating": "4.0"
-     },
-     {
       "id": "jnbamieaacddlfcoanmbkclnpoafhmie",
       "name": "ElementHider: Hide Content & Spoilers",
       "users": "",
@@ -2943,16 +2937,22 @@
       "rating": "0.0"
      },
      {
+      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
+      "name": "Hide Spoilers: Block & Blur Spoilers",
+      "users": "",
+      "rating": "5.0"
+     },
+     {
       "id": "dhoclllpmblppmidhpmbmclajblnfbdb",
       "name": "Spoiler Block",
       "users": "",
       "rating": "5.0"
      },
      {
-      "id": "dglgbepdhdpfihbiklibdcecpadcdcln",
-      "name": "Hide Spoilers: Block & Blur Spoilers",
+      "id": "jeiicdjopelafmfokikmaimcfhdgamem",
+      "name": "GTA 6 Spoiler Blocker",
       "users": "",
-      "rating": "5.0"
+      "rating": "4.0"
      }
     ]
    },
@@ -3188,16 +3188,16 @@
       "rating": "5.0"
      },
      {
-      "id": "ajbibacfgfmalccemahijcnibimcnckm",
-      "name": "GTA VI Spoiler Shield - Custom Keyword Filter",
-      "users": "",
-      "rating": "0.0"
-     },
-     {
       "id": "gajcifjihldpaegdcnfdcjdjflgkiokc",
       "name": "Spoiler Blocker",
       "users": "",
       "rating": "5.0"
+     },
+     {
+      "id": "ajbibacfgfmalccemahijcnibimcnckm",
+      "name": "GTA VI Spoiler Shield - Custom Keyword Filter",
+      "users": "",
+      "rating": "0.0"
      },
      {
       "id": "gbiapdhcgkbpficcccjfmhheakmgdlfb",
@@ -3310,6 +3310,12 @@
       "rating": "5.0"
      },
      {
+      "id": "liidafcnfgmcemdeaaddafoenfbilbke",
+      "name": "Plot Armor: Spoiler Blocker for Movies & TV",
+      "users": "",
+      "rating": "0.0"
+     },
+     {
       "id": "pkemikdeejamekepmklkoglmeiadmdpo",
       "name": "Plot Armor – Spoiler Blocker",
       "users": "",
@@ -3334,20 +3340,14 @@
       "rating": "5.0"
      },
      {
-      "id": "lnakhjgajphdppdjakdmbmjjibljejja",
-      "name": "Spoiler Blocker for GTA 6",
-      "users": "",
-      "rating": "0.0"
-     },
-     {
       "id": "gbopnmhlbfffhbfgjollddlcnjhbblpi",
       "name": "Anti-Spoiler",
       "users": "",
       "rating": "5.0"
      },
      {
-      "id": "pndldfaaidcpodabeeiancdglocccino",
-      "name": "Antispoiler",
+      "id": "lnakhjgajphdppdjakdmbmjjibljejja",
+      "name": "Spoiler Blocker for GTA 6",
       "users": "",
       "rating": "0.0"
      }
@@ -3401,16 +3401,16 @@
       "rating": "3.0"
      },
      {
-      "id": "nidhlmdehkfjbifjmbjohoffjecdcdmm",
-      "name": "YouTube Spoiler Comments Blocker",
-      "users": "",
-      "rating": "0.0"
-     },
-     {
       "id": "pdcocbmidjifbikkgfedadbemddmpnek",
       "name": "No YouTube Spoilers",
       "users": "",
       "rating": "4.3"
+     },
+     {
+      "id": "nidhlmdehkfjbifjmbjohoffjecdcdmm",
+      "name": "YouTube Spoiler Comments Blocker",
+      "users": "",
+      "rating": "0.0"
      },
      {
       "id": "ojkdlgahhkhbmcmaglkmljfdkpnmonpa",
@@ -3474,16 +3474,16 @@
       "rating": "0.0"
      },
      {
-      "id": "bolmmhkapeekgcjopdmnbmnhgaapbpdb",
-      "name": "FocusTube - Hide YouTube Shorts, Recommendations, Suggestion",
-      "users": "",
-      "rating": "4.8"
-     },
-     {
       "id": "afgagfcadngabcggmjpgmjonmciccceg",
       "name": "YouTube Blocker - Advanced Content filtering for YouTube",
       "users": "",
       "rating": "4.0"
+     },
+     {
+      "id": "bolmmhkapeekgcjopdmnbmnhgaapbpdb",
+      "name": "FocusTube - Hide YouTube Shorts, Recommendations, Suggestion",
+      "users": "",
+      "rating": "4.8"
      }
     ]
    },
@@ -3596,14 +3596,14 @@
       "rating": "5.0"
      },
      {
-      "id": "mgfoamiipdnmofihajhbgojaodgijneh",
-      "name": "Reddit News Mosaic",
+      "id": "jahgpaonkaapkapkhmfbnkbjiilfolld",
+      "name": "Spoiler Shield",
       "users": "",
       "rating": "0.0"
      },
      {
-      "id": "jahgpaonkaapkapkhmfbnkbjiilfolld",
-      "name": "Spoiler Shield",
+      "id": "mhkjebedimoomcekbamfhijlcnopfkio",
+      "name": "The Great Filter: AI Content Filter & Spoiler Blocker",
       "users": "",
       "rating": "0.0"
      },
@@ -3645,14 +3645,14 @@
       "rating": "4.4"
      },
      {
-      "id": "lnakhjgajphdppdjakdmbmjjibljejja",
-      "name": "Spoiler Blocker for GTA 6",
-      "users": "",
-      "rating": "0.0"
-     },
-     {
       "id": "hjcjdahljbanoldnfoobemonocojfnpd",
       "name": "No Wanted: GTA 6 Spoiler Blocker",
+      "users": "",
+      "rating": "5.0"
+     },
+     {
+      "id": "lnakhjgajphdppdjakdmbmjjibljejja",
+      "name": "Spoiler Blocker for GTA 6",
       "users": "",
       "rating": "0.0"
      },
@@ -3715,7 +3715,7 @@
       "id": "hjcjdahljbanoldnfoobemonocojfnpd",
       "name": "No Wanted: GTA 6 Spoiler Blocker",
       "users": "",
-      "rating": "0.0"
+      "rating": "5.0"
      },
      {
       "id": "fjlphfamanblaepnmikmpmkcplnckipm",
@@ -3724,16 +3724,16 @@
       "rating": "4.4"
      },
      {
-      "id": "bdoaaoleoaidnfjfhcoehkiakhlfbicb",
-      "name": "Spoiler Blocker for GTA 6",
-      "users": "",
-      "rating": "4.6"
-     },
-     {
       "id": "dlldglkifafkicdfkajaopkjpjnmnlml",
       "name": "GTA 6 Spoiler Blocker",
       "users": "",
       "rating": "0.0"
+     },
+     {
+      "id": "bdoaaoleoaidnfjfhcoehkiakhlfbicb",
+      "name": "Spoiler Blocker for GTA 6",
+      "users": "",
+      "rating": "4.7"
      },
      {
       "id": "pcfffnjdebiihgfdodhmhiiedhndpjfe",
