@@ -3919,12 +3919,6 @@
       "rating": "5.0"
      },
      {
-      "id": "caledcpfdapmmhmflbpjmjnenmjggghp",
-      "name": "NoVice - Block GTA 6 Spoilers",
-      "users": "",
-      "rating": "5.0"
-     },
-     {
       "id": "nljhkjgljaihdfgohaippbpigjoicied",
       "name": "SpoilerCub – YouTube Spoiler Blocker for Movies, Shows & Gam",
       "users": "",
@@ -3935,6 +3929,12 @@
       "name": "Spoiler Block",
       "users": "",
       "rating": "0.0"
+     },
+     {
+      "id": "caledcpfdapmmhmflbpjmjnenmjggghp",
+      "name": "NoVice - Block GTA 6 Spoilers",
+      "users": "",
+      "rating": "5.0"
      },
      {
       "id": "ebadfeeidhnahjigfkafdjbmmdlijhfk",
@@ -4297,16 +4297,16 @@
       "rating": "3.7"
      },
      {
-      "id": "pdcocbmidjifbikkgfedadbemddmpnek",
-      "name": "No YouTube Spoilers",
-      "users": "",
-      "rating": "4.3"
-     },
-     {
       "id": "knllbjmieejiihihaecdhamhcfadaadc",
       "name": "Twitch && Youtube spoiler-free",
       "users": "",
       "rating": "4.6"
+     },
+     {
+      "id": "pdcocbmidjifbikkgfedadbemddmpnek",
+      "name": "No YouTube Spoilers",
+      "users": "",
+      "rating": "4.3"
      },
      {
       "id": "ccfjejodhmecmlmdcacpagkliaephgnn",
@@ -4339,16 +4339,16 @@
       "rating": "0.0"
      },
      {
-      "id": "bolmmhkapeekgcjopdmnbmnhgaapbpdb",
-      "name": "FocusTube - Hide YouTube Shorts, Recommendations, Suggestion",
-      "users": "",
-      "rating": "4.8"
-     },
-     {
       "id": "afgagfcadngabcggmjpgmjonmciccceg",
       "name": "YouTube Blocker - Advanced Content filtering for YouTube",
       "users": "",
       "rating": "4.0"
+     },
+     {
+      "id": "bolmmhkapeekgcjopdmnbmnhgaapbpdb",
+      "name": "FocusTube - Hide YouTube Shorts, Recommendations, Suggestion",
+      "users": "",
+      "rating": "4.8"
      }
     ]
    },
@@ -4412,10 +4412,10 @@
       "rating": "0.0"
      },
      {
-      "id": "cnlhcemloegkfmbidcleflelmcbnckhc",
-      "name": "Hide Football Spoilers for YouTube",
+      "id": "hkkpnepgmgeljhoiplhpoibfkjplbnia",
+      "name": "Video spoilerless",
       "users": "",
-      "rating": "0.0"
+      "rating": "5.0"
      }
     ]
    },
