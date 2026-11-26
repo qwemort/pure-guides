@@ -1,41 +1,34 @@
 name: indexnow
-# Сообщает Bing/Yandex и др. (IndexNow) о новых и изменённых страницах сайта.
-# Само при каждом пуше в main с html; вручную (all=true) — отправить сразу все страницы из sitemap-pages.xml.
+# Сообщает Bing/Yandex и др. (IndexNow) о страницах mutespoilers.com (с 26.11.2026; старый github.io больше не пингуем).
+# Само после каждой успешной выкладки ms-build; вручную — в любой момент.
 on:
-  push:
-    branches: [main]
-    paths: ['**.html']
+  workflow_run:
+    workflows: [ms-build]
+    types: [completed]
   workflow_dispatch:
-    inputs:
-      all: { description: 'Отправить все страницы из sitemap-pages.xml', type: boolean, default: true }
 permissions:
   contents: read
 concurrency: { group: indexnow, cancel-in-progress: false }
 jobs:
   ping:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
       K: 658113910c13cdd1724ac74e4449ac14
-      BASE: https://qwemort.github.io/pure-guides
+      HOST: mutespoilers.com
     steps:
-      - uses: actions/checkout@v5
-        with: { fetch-depth: 2 }
-      - name: Collect URLs
+      - name: Collect URLs from live sitemaps
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.all }}" = "true" ]; then
-            grep -o '<loc>[^<]*</loc>' sitemap-pages.xml | sed 's/<\/*loc>//g' > urls.txt
-          else
-            git diff --name-only --diff-filter=AM HEAD~1 HEAD -- '*.html' \
-              | grep -v -e '^templates/' -e '^design/' -e '^queue/' \
-              | sed -e "s#/index\.html\$#/#" -e "s#^#$BASE/#" > urls.txt || true
-          fi
-          sort -u urls.txt -o urls.txt
+          sleep 20
+          for sm in $(curl -fsS "https://$HOST/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed 's/<\/*loc>//g'); do
+            curl -fsS "$sm" | grep -o '<loc>[^<]*</loc>' | sed 's/<\/*loc>//g'
+          done | sort -u > urls.txt
           echo "URL: $(wc -l < urls.txt)"
       - name: Send to IndexNow
         run: |
           [ -s urls.txt ] || { echo "нечего отправлять"; exit 0; }
-          jq -Rn --arg k "$K" --arg h qwemort.github.io --arg kl "$BASE/$K.txt" \
+          jq -Rn --arg k "$K" --arg h "$HOST" --arg kl "https://$HOST/$K.txt" \
             '{host:$h,key:$k,keyLocation:$kl,urlList:[inputs|select(length>0)]}' < urls.txt > body.json
           curl -sS -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' \
             --data @body.json -o /dev/null -w "IndexNow: %{http_code}\n"

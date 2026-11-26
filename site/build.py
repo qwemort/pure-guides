@@ -296,6 +296,8 @@ def main():
     # robots: явно пускаем поисковики и ИИ-поиск
     (DIST / 'robots.txt').write_text(''.join(f'User-agent: {b}\nAllow: /\n\n' for b in C['bots']) +
                                      f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n', encoding='utf-8')
+    # ключ IndexNow (Bing, Yandex): файл с ключом в корне сайта
+    (DIST / '658113910c13cdd1724ac74e4449ac14.txt').write_text('658113910c13cdd1724ac74e4449ac14', encoding='utf-8')
     # черновой адрес *.pages.dev закрыт от Google ТОЛЬКО заголовком (в HTML noindex нет)
     (DIST / '_headers').write_text('https://:project.pages.dev/*\n  X-Robots-Tag: noindex\n\n'
                                    'https://:version.:project.pages.dev/*\n  X-Robots-Tag: noindex\n', encoding='utf-8')
