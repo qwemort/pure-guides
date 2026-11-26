@@ -16,7 +16,8 @@ fs.mkdirSync(path.join(ROOT, 'out'), { recursive: true });
 const OUT = path.join(ROOT, 'out', 'cws-stats.txt');
 fs.writeFileSync(OUT, '');
 const PUB = process.env.CWS_PUBLISHER_ID;
-const GSC_SITE = process.env.GSC_SITE || 'https://qwemort.github.io/pure-guides/';
+// 26.11.2026 переезд: новый доменный ресурс первым, старый github.io — пока Google не перенёс данные
+const GSC_SITES = (process.env.GSC_SITE || 'sc-domain:mutespoilers.com,https://qwemort.github.io/pure-guides/').split(',');
 if (!process.env.GOOGLE_SA_JSON || !PUB) { console.log('нет ключа Google или ID издателя — пропуск (см. инструкцию в чате)'); process.exit(0); }
 
 const STATE = path.join(ROOT, 'data', 'cws-public.json');
@@ -73,21 +74,24 @@ for (const it of items) {
 }
 
 let gsc = '';
-if (WEEK) try {
-  const end = new Date(Date.now() - 3 * 864e5), start = new Date(Date.now() - 9 * 864e5);
-  const iso = (d) => d.toISOString().slice(0, 10);
-  const base = `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(GSC_SITE)}/searchAnalytics/query`;
-  const tot = await gpost(base, token, { startDate: iso(start), endDate: iso(end), dimensions: [] });
-  const top = await gpost(base, token, { startDate: iso(start), endDate: iso(end), dimensions: ['query'], rowLimit: 8 });
-  const t = tot.rows?.[0] || {};
-  gsc = `🔎 Search Console ${iso(start).slice(8)}.${iso(start).slice(5, 7)}–${iso(end).slice(8)}.${iso(end).slice(5, 7)}: ${t.clicks || 0} кликов, ${t.impressions || 0} показов, позиция ${t.position ? t.position.toFixed(1) : '—'}\n` +
-    (top.rows || []).map((r) => `  «${r.keys[0]}» ${r.clicks}/${r.impressions}`).join('\n');
-} catch (e) { gsc = `🔎 Search Console: не получилось (${e.message.slice(0, 120)}). Проверь, что служебный аккаунт добавлен пользователем в Search Console.`; }
+if (WEEK) for (const site of GSC_SITES) {
+  const name = site.startsWith('sc-domain:') ? site.slice(10) : 'старый github.io';
+  try {
+    const end = new Date(Date.now() - 3 * 864e5), start = new Date(Date.now() - 9 * 864e5);
+    const iso = (d) => d.toISOString().slice(0, 10);
+    const base = `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(site)}/searchAnalytics/query`;
+    const tot = await gpost(base, token, { startDate: iso(start), endDate: iso(end), dimensions: [] });
+    const top = await gpost(base, token, { startDate: iso(start), endDate: iso(end), dimensions: ['query'], rowLimit: 8 });
+    const t = tot.rows?.[0] || {};
+    gsc += `${gsc ? '\n' : ''}🔎 Search Console (${name}) ${iso(start).slice(8)}.${iso(start).slice(5, 7)}–${iso(end).slice(8)}.${iso(end).slice(5, 7)}: ${t.clicks || 0} кликов, ${t.impressions || 0} показов, позиция ${t.position ? t.position.toFixed(1) : '—'}\n` +
+      (top.rows || []).map((r) => `  «${r.keys[0]}» ${r.clicks}/${r.impressions}`).join('\n');
+  } catch (e) { gsc += `${gsc ? '\n' : ''}🔎 Search Console (${name}): не получилось (${e.message.slice(0, 120)}). Проверь, что служебный аккаунт добавлен пользователем в этот ресурс.`; }
+}
 
 state.seenReviews = [...seen].slice(-2000);
 fs.writeFileSync(STATE, JSON.stringify(state, null, 1) + '\n');
 let txt = alerts.join('\n');
 if (WEEK && week.length) txt += `${txt ? '\n\n' : ''}📊 Chrome за неделю:\n${week.join('\n')}${gsc ? `\n\n${gsc}` : ''}`;
 fs.writeFileSync(OUT, txt);
-console.log(`отзывы прочитаны: ${seen.size}; метрики: ${Object.keys(state.items).length} расш.; Search Console: ${WEEK ? (gsc.startsWith('🔎 Search Console:') ? 'ошибка' : 'ок') : 'не в этот раз'}`);
+console.log(`отзывы прочитаны: ${seen.size}; метрики: ${Object.keys(state.items).length} расш.; Search Console: ${WEEK ? (gsc.includes('не получилось') ? 'ошибка' : 'ок') : 'не в этот раз'}`);
 console.log(txt ? 'есть что отправить' : 'тихо');   // сами цифры в публичный лог не печатаем
