@@ -70,5 +70,7 @@ def build(titles, title_langs, prefix, wave0):
 def write(dist, rules):
     lines = ['# 301 со старого сайта qwemort.github.io/pure-guides/ (генерирует site/redirects.py, руками не править)']
     lines += [f'{k} {v} 301' for k, v in sorted(rules.items())]
+    # новые страницы, которые старые автоматики продолжают делать после переезда (26.11.2026)
+    lines += ['/spoiler-danger/* /calendar/ 301', '/spoiler-index/* /out-now/ 301', '/mute-list/* /guides/ 301']
     (dist / '_redirects').write_text('\n'.join(lines) + '\n', encoding='utf-8')
     return len(rules)
