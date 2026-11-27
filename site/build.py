@@ -257,9 +257,17 @@ def main():
         shutil.copy(f, DIST / f.name)
     shutil.copytree(R / 'fonts', DIST / 'fonts', ignore=shutil.ignore_patterns('*.txt'))
     (DIST / 'img').mkdir(); shutil.copy(R / 'img/og.png', DIST / 'img/og.png')
+    # Отдельные страницы старого сайта, на которые ведёт расширение (1.5.0): /s/ (ссылка-спойлер) и /bye/ (после удаления).
+    # Без них оба адреса на mutespoilers.com открывали главную. Страницы самостоятельные: ../style.css и fonts/ уже в dist.
+    for d in ('s', 'bye'):
+        (DIST / d).mkdir()
+        html = (R / d / 'index.html').read_text(encoding='utf-8').replace('https://qwemort.github.io/pure-guides/', BASE + '/')
+        (DIST / d / 'index.html').write_text(html, encoding='utf-8')
+    shutil.copy(R / 'img/spoiler-link.png', DIST / 'img/spoiler-link.png')
     titles = [json.loads(p.read_text(encoding='utf-8')) for p in sorted((R / 'data/titles').glob('*.json'))]
     print(f'списков для модераторов и uBlock: {exports.build(titles, DIST, BASE)}')
     sitemap = {}          # lang -> [(loc, lastmod)]
+    sitemap.setdefault('en', []).append((BASE + '/s/', None))   # ссылка-спойлер: полезная страница, /bye/ закрыта от поиска
     count = 0
     for t in titles:
         langs = title_langs(t)

@@ -37,6 +37,8 @@ def build(titles, title_langs, prefix, wave0):
         if path in rules:
             continue
         parts = path.strip('/').split('/')
+        if parts[0] in ('s', 'bye'):
+            continue                                     # живые страницы нового сайта (ссылка-спойлер, после удаления расширения)
         name = parts[-1]
         lang = html_lang(f)
         hl = lang if lang in wave0 else 'en'
@@ -53,7 +55,7 @@ def build(titles, title_langs, prefix, wave0):
             rules[path] = prefix(hl) + '/out-now/'
         elif parts[0] == 'mute-list':
             rules[path] = prefix(hl) + '/guides/'
-        elif parts[0] in ('block', 'play', 's'):
+        elif parts[0] in ('block', 'play'):
             rules[path] = prefix(hl) + '/'
         elif parts[0] == 'demo':
             rules[path] = prefix(hl) + '/extension/'
