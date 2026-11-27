@@ -76,7 +76,7 @@ def main():
             if bad in main_txt or bad in d.title or bad in d.h1: B('R03', f'{u}: «{bad}» в тексте')
         # R14 случайный noindex
         key0 = LANGP.sub('/', u)
-        if 'noindex' in d.meta_robots and key0 not in tmap: B('R14', f'{u}: noindex в HTML')
+        if 'noindex' in d.meta_robots and key0 not in tmap and u != '/bye/': B('R14', f'{u}: noindex в HTML')   # /bye/ (после удаления расширения) закрыта нарочно
         # R11 canonical
         if d.canon != BASE + u: B('R11', f'{u}: canonical {d.canon}')
         # R11 hreflang в обе стороны
