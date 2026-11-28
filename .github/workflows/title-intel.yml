@@ -40,5 +40,8 @@ jobs:
           git checkout -b "$BR"; git add data/titles; git commit -qm "Разведка: $(paste -sd ', ' out/title-intel-changed.txt)"
           git push -q origin "$BR"
           BODY=$(printf 'Робот разведки нашёл новые факты (даты, эмбарго, ранние релизы, утечки без содержания). Каждый факт с цитатой и ссылкой.\n\nПроверь: нет ли спойлеров и странных дат. Потом Merge.\n\n<details><summary>Отчёт</summary>\n\n```\n%s\n```\n</details>' "$(tail -c 60000 out/title-intel.md)")
-          URL=$(gh pr create --base main --head "$BR" --title "Разведка: $(paste -sd ', ' out/title-intel-changed.txt)" --body "$BODY")
-          node tools/notify.mjs "🕵️ Разведка по тайтлам: $(paste -sd ', ' out/title-intel-changed.txt). Глянь и замержи: $URL"
+          if URL=$(gh pr create --base main --head "$BR" --title "Разведка: $(paste -sd ', ' out/title-intel-changed.txt)" --body "$BODY" 2>/dev/null); then
+            node tools/notify.mjs "🕵️ Разведка: $(paste -sd ', ' out/title-intel-changed.txt). Глянь и замержи: $URL"
+          else   # роботу GitHub не разрешено открывать PR — ссылка на готовую правку, Антон жмёт «Create pull request», потом Merge
+            node tools/notify.mjs "🕵️ Разведка: $(paste -sd ', ' out/title-intel-changed.txt). Открой, нажми «Create pull request», потом Merge: https://github.com/${GITHUB_REPOSITORY}/compare/main...${BR}?expand=1"
+          fi

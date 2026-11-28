@@ -52,13 +52,16 @@ const tag = (x, n) => { const m = x.match(new RegExp(`<${n}[^>]*>([\\s\\S]*?)</$
 const unhtml = (s) => s.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<noscript[\s\S]*?<\/noscript>/gi, ' ')
   .replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;|&#8217;/g, "'").replace(/&quot;|&ldquo;|&rdquo;|&#8220;|&#8221;/g, '"')
   .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).replace(/\s+/g, ' ').trim();
+const flat = (s) => String(s || '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
 const norm = (s) => s.toLowerCase().replace(/[‘’`´]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, '-').replace(/\s+/g, ' ').trim();
+const ALIAS = { us: 'united states', usa: 'united states', 'u.s.': 'united states', uk: 'united kingdom', 'u.k.': 'united kingdom', 'north america': 'united states' };
+const place = (p) => ALIAS[norm(p || '')] || norm(p || '');
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
 
 // Wikidata: дата выхода с уточнением «страна» (P577 + P291)
 async function wikidataDates(qid) {
   if (!/^Q\d+$/.test(qid || '')) return [];
-  const q = `SELECT ?date ?placeLabel WHERE { wd:${qid} p:P577 ?st . ?st ps:P577 ?date . OPTIONAL { ?st pq:P291 ?place } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } }`;
+  const q = `SELECT ?date ?placeLabel WHERE { wd:${qid} p:P577 ?st . ?st psv:P577 ?v . ?v wikibase:timeValue ?date ; wikibase:timePrecision ?pr . FILTER(?pr >= 11) OPTIONAL { ?st pq:P291 ?place } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } }`;
   try {
     const { text } = await get(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(q)}`);
     return JSON.parse(text).results.bindings.map((b) => ({ date: b.date.value.slice(0, 10), place: b.placeLabel?.value || 'worldwide' }));
@@ -107,6 +110,8 @@ Rules:
 - NEVER write plot, ending, deaths, cameos, character names, twists or what a leak showed. For leaks write only the kind of material, e.g. "footage leaked online", "LEGO set names revealed characters".
 - "quote" must be copied exactly from the article text. If you cannot quote it, drop the fact.
 - Use the article's own dates; convert to YYYY-MM-DD. If the article only says "reportedly", keep it but say "reportedly" in note.
+- Ignore single-cinema or local events (one theater, one city festival) and re-releases of older films; keep only nationwide, worldwide or platform-wide dates.
+- Country names in full English (United States, United Kingdom), not abbreviations.
 - No facts about box office, reviews' opinions, casting news or trailers' content.`;
 
 const PLOT = [' dies', ' death of', 'killed', ' kills ', 'twist is', 'ending is', 'cameo by', 'cameo from', 'post-credits scene shows', 'returns as', 'is revealed to be'];
@@ -117,11 +122,11 @@ async function intelFor(t) {
   say(`\n# ${name} (${t.slug}), релиз ${t.release?.date || '?'}`);
   const qs = /^game/.test(t.media || '')
     ? [`"${name}" release date`, `"${name}" leak`, `"${name}" review embargo`, `"${name}" PC release`, `"${name}" early access`]
-    : [`"${name}" premiere`, `"${name}" review embargo`, `"${name}" release date countries`, `"${name}" leak`, `"${name}" early screenings`];
+    : [`"${name}" world premiere`, `"${name}" review embargo`, `"${name}" UK release date`, `"${name}" international release`, `"${name}" leak`, `"${name}" leaked footage`, `"${name}" early screenings`, `"${name}" LEGO leak`];
   if (/^(anime|tv)/.test(t.media || '')) qs.push(`"${name}" episode schedule`, `"${name}" manga leaks`);
   const seen = new Map();
   for (const q of qs) for (const it of await news(q)) if (!seen.has(it.link) && norm(it.title + ' ' + it.desc).includes(norm(name).split(':')[0])) seen.set(it.link, it);
-  const items = [...seen.values()].slice(0, 14);
+  const items = [...seen.values()].slice(0, 24);
   say(`  новостей: ${seen.size}, берём ${items.length}`);
   const docs = [];
   for (const it of items) {
@@ -130,7 +135,7 @@ async function intelFor(t) {
       const body = unhtml(text);
       if (body.length > 800) docs.push({ url, title: it.title, text: body.slice(0, 9000) });
     } catch { docs.push({ url: it.link, title: it.title, text: `${it.title}. ${it.desc}` }); }   // нет доступа к статье — работаем по заголовку и анонсу
-    if (docs.length >= 10) break;
+    if (docs.length >= 16) break;
   }
   const wd = await wikidataDates(t.wikidata?.id || t.wikidata);
   let facts = [];
@@ -143,9 +148,9 @@ async function intelFor(t) {
   const leaky = LEAKY(t);
   const ok = [];
   for (const f of facts) {
-    const d = docs.find((x) => x.url === f.url) || docs.find((x) => norm(x.text).includes(norm(f.quote || '').slice(0, 60)));
+    const d = [docs.find((x) => x.url === f.url), ...docs].find((x) => x && flat(x.text).includes(flat(f.quote)));
     if (!TYPES.includes(f.type)) continue;
-    if (!d || !f.quote || norm(f.quote).length < 20 || !norm(d.text).includes(norm(f.quote))) { say(`  ✗ цитаты нет в статье: ${f.type} ${f.note}`); continue; }
+    if (!d || !f.quote || flat(f.quote).length < 20 || !flat(d.text).includes(flat(f.quote))) { say(`  ✗ цитаты нет в статье: ${f.type} ${f.note}`); continue; }
     if (f.date && !DAY.test(f.date)) f.date = '';
     const txt = ' ' + norm(`${f.note} ${f.place}`) + ' ';
     const hit = leaky.find((w) => txt.includes(w));
@@ -155,13 +160,13 @@ async function intelFor(t) {
   // склейка одинаковых фактов: тип + дата + место
   const groups = new Map();
   for (const f of ok) {
-    const k = `${f.type}|${f.date}|${norm(f.place)}`;
+    const k = `${f.type}|${f.date}|${place(f.place)}`;
     const g = groups.get(k) || { ...f, sources: [] };
     if (!g.sources.find((s) => s.host === f.host)) g.sources.push({ host: f.host, url: f.url, quote: f.quote });
     groups.set(k, g);
   }
   for (const w of wd) {
-    const k = `release_country|${w.date}|${norm(w.place)}`;
+    const k = `release_country|${w.date}|${place(w.place)}`;
     const g = groups.get(k) || { type: 'release_country', date: w.date, place: w.place, note: `release in ${w.place}`, sources: [] };
     g.sources.push({ host: 'wikidata.org', url: `https://www.wikidata.org/wiki/${t.wikidata?.id || t.wikidata}`, quote: '' });
     groups.set(k, g);
