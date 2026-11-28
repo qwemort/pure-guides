@@ -1,0 +1,44 @@
+# Разведка по тайтлам (28.11.2026): когда и откуда прилетят спойлеры — факты с цитатами и ссылками.
+# Изменения идут ТОЛЬКО через Pull Request; Антон мержит сам (первые тайтлы — обязательно он). Telegram: «замержи <ссылка>».
+name: title-intel
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: 'slug через пробел (пусто = авто: открытые окна каждый день, будущие по понедельникам)'
+        required: false
+permissions:
+  contents: write
+  pull-requests: write
+concurrency: { group: title-intel, cancel-in-progress: false }
+jobs:
+  intel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - name: Разведка
+        run: |
+          if [ -n "${{ github.event.inputs.slugs }}" ]; then ARGS="${{ github.event.inputs.slugs }}"; else ARGS="--auto"; fi
+          node tools/title-intel.mjs $ARGS
+          cat out/title-intel.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Pull Request и Telegram
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name 'mutespoilers-bot'; git config user.email 'bot@mutespoilers.com'
+          [ -s out/title-intel-changed.txt ] || { echo 'изменений нет'; exit 0; }
+          BR="intel/$(date -u +%F)-${GITHUB_RUN_ID}"
+          git checkout -b "$BR"; git add data/titles; git commit -qm "Разведка: $(paste -sd ', ' out/title-intel-changed.txt)"
+          git push -q origin "$BR"
+          BODY=$(printf 'Робот разведки нашёл новые факты (даты, эмбарго, ранние релизы, утечки без содержания). Каждый факт с цитатой и ссылкой.\n\nПроверь: нет ли спойлеров и странных дат. Потом Merge.\n\n<details><summary>Отчёт</summary>\n\n```\n%s\n```\n</details>' "$(tail -c 60000 out/title-intel.md)")
+          URL=$(gh pr create --base main --head "$BR" --title "Разведка: $(paste -sd ', ' out/title-intel-changed.txt)" --body "$BODY")
+          node tools/notify.mjs "🕵️ Разведка по тайтлам: $(paste -sd ', ' out/title-intel-changed.txt). Глянь и замержи: $URL"
