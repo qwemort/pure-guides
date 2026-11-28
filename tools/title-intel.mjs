@@ -163,6 +163,8 @@ async function intelFor(t) {
   }
   // склейка одинаковых фактов: тип + дата + место
   const groups = new Map();
+  // копим факты между запусками: ИИ каждый раз находит не всё; старый факт остаётся, пока его дата не ушла на 30+ дней в прошлое
+  for (const g of (t.intel?.facts || [])) if (!g.date || days(g.date) > -30) groups.set(`${g.type}|${g.date}|${place(g.place)}`, { ...g, sources: [...(g.sources || [])] });
   for (const f of ok) {
     const k = `${f.type}|${f.date}|${place(f.place)}`;
     const g = groups.get(k) || { ...f, sources: [] };
@@ -175,7 +177,7 @@ async function intelFor(t) {
     g.sources.push({ host: 'wikidata.org', url: `https://www.wikidata.org/wiki/${t.wikidata?.id || t.wikidata}`, quote: '' });
     groups.set(k, g);
   }
-  const out = [...groups.values()].map(({ quote, url, host: h, ...g }) => ({ ...g, status: g.sources.length >= 2 ? 'confirmed' : 'reported' }))
+  const out = [...groups.values()].map(({ quote, url, host: h, status, ...g }) => ({ ...g, status: g.sources.length >= 2 ? 'confirmed' : 'reported' }))
     .sort((a, b) => (a.date || '9999').localeCompare(b.date || '9999'));
   say(`  фактов прошло проверку: ${out.length} (отброшено ${facts.length - ok.length})`);
   for (const f of out) say(`  · ${f.date || '—'} ${f.type} ${f.place} — ${f.note} [${f.status}, ${f.sources.map((s) => s.host).join(', ')}]`);
