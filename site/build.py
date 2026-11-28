@@ -14,6 +14,7 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import titlepage
 import exports
+import forecast
 
 R = Path(__file__).resolve().parent.parent
 SITE = R / 'site'
@@ -278,6 +279,7 @@ def main():
             s, hl = S(lang), hub_lang(lang)
             name = t['names'].get(lang) or t['names']['en']
             main_html, info = titlepage.render_main(t, lang, s, titles, lambda o, l: f"{prefix(l if l in title_langs(o) else 'en')}/{o['media']}/{o['slug']}/")
+            main_html = forecast.inject(main_html, t, lang)   # прогноз угрозы из intel (робот title-intel), 28.11.2026
             crumbs = {'home': prefix(hl) + '/', 'home_label': C['home'].get(hl, 'Home'),
                       'media': f"{prefix(hl)}/{t['media']}/", 'media_label': C['media'][t['media']].get(hl, C['media'][t['media']]['en'])}
             ctx = common(lang, langs, path_of); ctx['main_class'] = 't-wrap ms-title'

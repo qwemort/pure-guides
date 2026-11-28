@@ -230,3 +230,51 @@ main.ms-pg{max-width:1320px;padding:24px 32px 64px}
 }
 .ms-form input[type=radio]{accent-color:var(--accent);width:18px;height:18px;vertical-align:-3px}
 .foot .ms-fgrid li{margin:0}.foot .ms-fgrid ul{gap:8px}
+
+/* прогноз угрозы на странице тайтла (site/forecast.py), 28.11.2026 */
+.fc,.fc-plan,.fc-src{--s2:8px;--s3:12px;--s4:16px;--s5:24px;--r-md:14px;--font-mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+.fc{display:grid;grid-template-columns:1.25fr 1.35fr .8fr;gap:0;background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;margin:0 0 16px}
+.fc>div{padding:var(--s5)}
+.fc>div+div{border-left:1px solid var(--line)}
+.fc-label{font:600 13px/1.2 var(--font-mono);color:var(--muted);margin:0 0 var(--s2)}
+.fc-level{font-weight:800;font-size:44px;line-height:1;letter-spacing:-.02em;margin:0 0 var(--s4);color:var(--text)}
+.fc-scale{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:0;margin:0 0 var(--s4)}
+.fc-scale li{border-top:6px solid var(--line);padding-top:var(--s2);font-size:13px;line-height:1.3}
+.fc-scale li b{display:block;font-weight:700}
+.fc-scale li span{color:var(--muted)}
+.fc-scale li.on{border-top-color:var(--signal)}
+.fc-scale li:nth-child(3){border-top-color:var(--accent)}
+.fc-scale li:nth-child(4){border-top-color:var(--muted)}
+.fc-scale li{position:relative}.fc-scale li i{position:absolute;top:-30px;left:0;font:600 11px/1 var(--font-mono);background:var(--signal);color:var(--on-signal);padding:4px 6px;border-radius:4px;font-style:normal}
+.fc-scale{margin-top:34px}.fc-scale li span{font-size:12px}
+.fc-why{margin:0;line-height:1.5}
+.fc-from ul{list-style:none;padding:0;margin:0;display:grid;gap:var(--s3)}
+.fc-from li b{display:block}
+.fc-from li span{color:var(--muted);font-size:15px;line-height:1.4}
+.fc-clear{background:var(--accent);color:var(--bg);display:flex;flex-direction:column}
+.fc-facts{margin:auto 0 0;padding-top:var(--s4);display:grid;gap:6px;border-top:1px solid rgba(244,245,243,.2)}/* design-ok: тонкая линия на графите */
+.fc-facts div{display:flex;justify-content:space-between;gap:8px;font-size:14px}.fc-facts dt{opacity:.7}.fc-facts dd{margin:0;font-weight:600}
+.fc-row{display:flex;align-items:center;gap:var(--s4);flex-wrap:wrap}
+.fc-copy{font:700 15px/1 inherit;font-family:inherit;background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:12px 16px;cursor:pointer}
+.fc-clear .fc-label{color:inherit;opacity:.75}
+.fc-date{font-weight:800;font-size:44px;line-height:1;letter-spacing:-.02em;margin:0 0 var(--s3)}
+.fc-note{margin:0;line-height:1.5;opacity:.9}
+.fc-plan{display:grid;grid-template-columns:1.6fr 1fr;gap:16px;margin:0 0 40px}
+.fc-plan>div{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--s5)}
+.fc-plan p{margin:0 0 var(--s3);line-height:1.5}
+.fc-plan .chips{margin:0 0 var(--s3)}
+.fc-link{font-weight:600}
+.fc-pc{border-color:var(--signal)!important;box-shadow:inset 0 0 0 1px var(--signal)}
+.fc-pc small{display:block;margin-top:var(--s2);color:var(--muted)}
+.fc a:focus-visible,.fc-plan a:focus-visible,.fc-plan button:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+@media (max-width:980px){.fc{grid-template-columns:1fr 1fr}.fc-clear{grid-column:1/-1}.fc>div+div{border-left:0;border-top:1px solid var(--line)}.fc-from{border-left:1px solid var(--line)!important;border-top:0!important}}
+@media (max-width:820px){.fc-scale{grid-template-columns:1fr 1fr;row-gap:16px}.fc,.fc-plan{grid-template-columns:1fr}.fc-from{border-left:0!important;border-top:1px solid var(--line)!important}.fc-level,.fc-date{font-size:36px}}
+.fc-src{font-size:13px;margin:0 0 16px}.fc-src a{color:inherit}
+.ms-title .ms-top{margin-bottom:20px}
+/* с прогнозом шапка тайтла идёт над двумя колонками: заголовок слева, вводный текст справа — без пустоты справа */
+.ms-title>.ms-top{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:4px 40px;align-items:end}
+.ms-title>.ms-top .t-kicker{grid-column:1/-1}
+.ms-title>.ms-top h1{grid-column:1;grid-row:2/4;max-width:none;margin:0}
+.ms-title>.ms-top .t-lead{grid-column:2;margin:0;max-width:none}
+.ms-title>.ms-top .ms-checked{grid-column:2;margin:0}
+@media (max-width:820px){.ms-title>.ms-top{display:block}.ms-title>.ms-top h1{margin:0 0 12px}}
