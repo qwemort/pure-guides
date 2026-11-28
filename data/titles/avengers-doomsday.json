@@ -1,679 +1,776 @@
 {
- "id": "avengers-doomsday",
- "slug": "avengers-doomsday",
- "media": "movies",
- "url": "/movies/avengers-doomsday/",
- "names": {
-  "en": "Avengers: Doomsday",
-  "uk": "Месники: Судний день",
-  "ru": "Мстители: Судный день",
-  "pl": "Avengers: Doomsday",
-  "de": "Avengers: Doomsday",
-  "fr": "Avengers : Doomsday",
-  "es": "Vengadores: Doomsday",
-  "it": "Avengers: Doomsday",
-  "pt-BR": "Vingadores: Doomsday",
-  "tr": "Avengers: Doomsday",
-  "ja": "アベンジャーズ／ドゥームズデイ",
-  "ko": "어벤져스: 둠스데이",
-  "zh-CN": "复仇者联盟：毁灭日"
- },
- "release": {
-  "date": "2026-12-18",
-  "status": "confirmed",
-  "source": "https://www.wikidata.org/wiki/Q113244839",
-  "platforms": null,
-  "wikidata_date": "2026-12-17",
-  "first_anywhere": "2026-12-17",
-  "note": "date = релиз в США; first_anywhere = самый ранний показ в мире (Wikidata), с него начинается окно спойлеров"
- },
- "season": null,
- "wikidata": "Q113244839",
- "checked": "2026-11-21",
- "published": "2026-11-17",
- "modified": "2026-11-18",
- "words": {
-  "en": {
-   "basic": [
-    "avengers doomsday",
-    "avengers 5",
-    "marvel doomsday",
-    "doctor doom"
-   ],
-   "balanced": [
-    "victor von doom",
-    "thor",
-    "loki",
-    "captain america",
-    "fantastic four",
-    "x-men",
-    "thunderbolts"
-   ]
+  "id": "avengers-doomsday",
+  "slug": "avengers-doomsday",
+  "media": "movies",
+  "url": "/movies/avengers-doomsday/",
+  "names": {
+    "en": "Avengers: Doomsday",
+    "uk": "Месники: Судний день",
+    "ru": "Мстители: Судный день",
+    "pl": "Avengers: Doomsday",
+    "de": "Avengers: Doomsday",
+    "fr": "Avengers : Doomsday",
+    "es": "Vengadores: Doomsday",
+    "it": "Avengers: Doomsday",
+    "pt-BR": "Vingadores: Doomsday",
+    "tr": "Avengers: Doomsday",
+    "ja": "アベンジャーズ／ドゥームズデイ",
+    "ko": "어벤져스: 둠스데이",
+    "zh-CN": "复仇者联盟：毁灭日"
   },
-  "de": {
-   "basic": [
-    "avengers doomsday",
-    "avengers 5",
-    "marvel doomsday",
-    "doktor doom"
-   ],
-   "balanced": [
-    "victor von doom",
-    "thor",
-    "loki",
-    "captain america",
-    "die fantastischen vier",
-    "x-men",
-    "thunderbolts"
-   ]
+  "release": {
+    "date": "2026-12-18",
+    "status": "confirmed",
+    "source": "https://www.wikidata.org/wiki/Q113244839",
+    "platforms": null,
+    "wikidata_date": "2026-12-17",
+    "first_anywhere": "2026-12-17",
+    "note": "date = релиз в США; first_anywhere = самый ранний показ в мире (Wikidata), с него начинается окно спойлеров"
   },
-  "es": {
-   "basic": [
-    "vengadores doomsday",
-    "avengers doomsday",
-    "avengers 5",
-    "doctor muerte"
-   ],
-   "balanced": [
-    "victor von muerte",
-    "thor",
-    "loki",
-    "capitán américa",
-    "los cuatro fantásticos",
-    "x-men",
-    "thunderbolts"
-   ]
+  "season": null,
+  "wikidata": "Q113244839",
+  "checked": "2026-11-21",
+  "published": "2026-11-17",
+  "modified": "2026-11-18",
+  "words": {
+    "en": {
+      "basic": [
+        "avengers doomsday",
+        "avengers 5",
+        "marvel doomsday",
+        "doctor doom"
+      ],
+      "balanced": [
+        "victor von doom",
+        "thor",
+        "loki",
+        "captain america",
+        "fantastic four",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "de": {
+      "basic": [
+        "avengers doomsday",
+        "avengers 5",
+        "marvel doomsday",
+        "doktor doom"
+      ],
+      "balanced": [
+        "victor von doom",
+        "thor",
+        "loki",
+        "captain america",
+        "die fantastischen vier",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "es": {
+      "basic": [
+        "vengadores doomsday",
+        "avengers doomsday",
+        "avengers 5",
+        "doctor muerte"
+      ],
+      "balanced": [
+        "victor von muerte",
+        "thor",
+        "loki",
+        "capitán américa",
+        "los cuatro fantásticos",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "fr": {
+      "basic": [
+        "avengers doomsday",
+        "avengers 5",
+        "marvel doomsday",
+        "docteur fatalis"
+      ],
+      "balanced": [
+        "victor von fatalis",
+        "thor",
+        "loki",
+        "captain america",
+        "les 4 fantastiques",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "it": {
+      "basic": [
+        "avengers doomsday",
+        "avengers 5",
+        "marvel doomsday",
+        "dottor destino"
+      ],
+      "balanced": [
+        "victor von destino",
+        "thor",
+        "loki",
+        "captain america",
+        "i fantastici quattro",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "ja": {
+      "basic": [
+        "アベンジャーズ ドゥームズデイ",
+        "avengers doomsday",
+        "avengers 5",
+        "ドクター・ドゥーム"
+      ],
+      "balanced": [
+        "ヴィクター・フォン・ドゥーム",
+        "ソー",
+        "ロキ",
+        "キャプテン・アメリカ",
+        "スティーブ・ロジャース",
+        "ファンタスティック・フォー",
+        "X-MEN",
+        "サンダーボルツ"
+      ]
+    },
+    "ko": {
+      "basic": [
+        "어벤져스 둠스데이",
+        "avengers doomsday",
+        "avengers 5",
+        "닥터 둠"
+      ],
+      "balanced": [
+        "빅터 폰 둠",
+        "토르",
+        "로키",
+        "캡틴 아메리카",
+        "스티브 로저스",
+        "판타스틱 4",
+        "엑스맨",
+        "썬더볼츠"
+      ]
+    },
+    "pl": {
+      "basic": [
+        "avengers doomsday",
+        "avengers 5",
+        "marvel doomsday",
+        "doktor doom"
+      ],
+      "balanced": [
+        "victor von doom",
+        "thor",
+        "loki",
+        "kapitan ameryka",
+        "fantastyczna czwórka",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "pt-BR": {
+      "basic": [
+        "vingadores doomsday",
+        "avengers doomsday",
+        "avengers 5",
+        "doutor destino"
+      ],
+      "balanced": [
+        "victor von doom",
+        "thor",
+        "loki",
+        "capitão américa",
+        "quarteto fantástico",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "ru": {
+      "basic": [
+        "мстители судный день",
+        "avengers doomsday",
+        "avengers 5",
+        "доктор дум"
+      ],
+      "balanced": [
+        "виктор фон дум",
+        "тор",
+        "локи",
+        "капитан америка",
+        "стив роджерс",
+        "фантастическая четверка",
+        "люди икс",
+        "громовержцы"
+      ]
+    },
+    "tr": {
+      "basic": [
+        "avengers doomsday",
+        "avengers 5",
+        "marvel doomsday",
+        "doctor doom"
+      ],
+      "balanced": [
+        "victor von doom",
+        "thor",
+        "loki",
+        "kaptan amerika",
+        "fantastik dörtlü",
+        "x-men",
+        "thunderbolts"
+      ]
+    },
+    "uk": {
+      "basic": [
+        "месники судний день",
+        "avengers doomsday",
+        "avengers 5",
+        "доктор дум"
+      ],
+      "balanced": [
+        "віктор фон дум",
+        "тор",
+        "локі",
+        "капітан америка",
+        "стів роджерс",
+        "фантастична четвірка",
+        "люди ікс",
+        "громовержці"
+      ]
+    },
+    "zh-CN": {
+      "basic": [
+        "复仇者联盟 毁灭日",
+        "avengers doomsday",
+        "avengers 5",
+        "毁灭博士"
+      ],
+      "balanced": [
+        "维克多·冯·杜姆",
+        "雷神",
+        "洛基",
+        "美国队长",
+        "史蒂夫·罗杰斯",
+        "神奇四侠",
+        "X战警",
+        "雷霆特攻队"
+      ]
+    }
   },
-  "fr": {
-   "basic": [
-    "avengers doomsday",
-    "avengers 5",
-    "marvel doomsday",
-    "docteur fatalis"
-   ],
-   "balanced": [
-    "victor von fatalis",
-    "thor",
-    "loki",
-    "captain america",
-    "les 4 fantastiques",
-    "x-men",
-    "thunderbolts"
-   ]
+  "spoiler_blocklist": [],
+  "spoiler_safe_verified": true,
+  "texts": {
+    "en": {
+      "name": "Avengers: Doomsday",
+      "desc": "Avengers: Doomsday is out {D}. With a Marvel team-up the risk is who shows up. Words to mute on X, Threads and TikTok, and what no filter catches.",
+      "lead": "With a Marvel team-up the risk is not only the ending, it is who shows up. One cameo in a thumbnail can be the surprise of the whole film.",
+      "why_h": "Cameos travel faster than plot",
+      "why": "<p>Big team-up films are spoiled by casting. \"Who appears\" and \"who dies\" spread as short captions and reaction thumbnails, often with no warning. Post-credits scenes are another favourite, because they hint at the next film.</p><p>Reports say Marvel plans advance screenings before {D0}, and release dates differ by country, so expect leaks several days early. Muting every hero name hides half the internet, so mute the title with story words instead.</p>",
+      "unknown": "Characters and actors kept secret before release cannot be listed in advance.",
+      "demo": "Avengers Doomsday: every cameo, ranked",
+      "cover_line": "Who shows up",
+      "faq": [
+        [
+          "When does Avengers: Doomsday come out?",
+          "It is scheduled for cinemas on {D}. Some reports mention advance screenings a little earlier."
+        ],
+        [
+          "Which words should I mute?",
+          "The title with ending, leak, cameo, post-credits scene and who dies. Muting only \"Avengers\" also hides news you may want."
+        ],
+        [
+          "How long should I avoid spoilers?",
+          "The first two weeks after release are the riskiest, when reactions and memes are everywhere."
+        ],
+        [
+          "Can I mute words on YouTube?",
+          "No. YouTube has no keyword mute. In a desktop browser an extension can do it."
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Месники: Судний день",
+      "desc": "«Месники: Судний день» виходять {D}. У командному фільмі Marvel головний ризик у тому, хто зʼявиться. Які слова заглушити в X, Threads і TikTok.",
+      "lead": "У командному фільмі Marvel ризик не лише в кінцівці, а й у тому, хто зʼявиться. Одне камео на мініатюрі може бути головним сюрпризом фільму.",
+      "why_h": "Камео летять швидше за сюжет",
+      "why": "<p>Великі командні фільми спойлерять акторським складом. «Хто зʼявився» і «хто помер» розлітаються короткими підписами й мініатюрами реакцій, часто без попередження. Ще одна улюблена тема: сцени після титрів, бо вони натякають на наступний фільм.</p><p>Повідомляють, що Marvel планує ранні покази до {D0}, а дати виходу в різних країнах різні, тож чекай зливів за кілька днів. Якщо заглушити імена всіх героїв, зникне пів інтернету, тому краще заглушити назву разом зі словами про сюжет.</p>",
+      "unknown": "Персонажів і акторів, яких тримають у секреті, наперед не перелічиш.",
+      "demo": "Месники: Судний день: усі камео",
+      "cover_line": "Хто зʼявиться",
+      "faq": [
+        [
+          "Коли виходять «Месники: Судний день»?",
+          "Вихід у кіно заплановано на {D}. Деякі джерела згадують ранні покази трохи раніше."
+        ],
+        [
+          "Які слова заглушити?",
+          "Назву разом зі словами «кінцівка», «злив», «камео», «сцена після титрів» і «хто помре». Якщо заглушити лише «Месники», зникнуть і потрібні новини."
+        ],
+        [
+          "Скільки уникати спойлерів?",
+          "Найризиковіші перші два тижні після виходу, коли реакції й меми всюди."
+        ],
+        [
+          "Чи можна заглушити слова на YouTube?",
+          "Ні. На YouTube немає фільтра за словами. У браузері на компʼютері це вміє розширення."
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Мстители: Судный день",
+      "desc": "«Мстители: Судный день» выходят {D}. В командном фильме Marvel главный риск в том, кто появится. Какие слова скрыть в X, Threads и TikTok.",
+      "lead": "В командном фильме Marvel риск не только в концовке, но и в том, кто появится. Одно камео на миниатюре может быть главным сюрпризом фильма.",
+      "why_h": "Камео разлетаются быстрее сюжета",
+      "why": "<p>Большие командные фильмы спойлерят актёрским составом. «Кто появился» и «кто умер» разлетаются короткими подписями и миниатюрами реакций, часто без предупреждения. Ещё одна любимая тема: сцены после титров, потому что они намекают на следующий фильм.</p><p>Сообщают, что Marvel планирует ранние показы до {D0}, а даты выхода в разных странах разные, так что жди сливов за несколько дней. Если скрыть имена всех героев, пропадёт пол-интернета, поэтому лучше скрыть название вместе со словами о сюжете.</p>",
+      "unknown": "Персонажей и актёров, которых держат в секрете, заранее не перечислишь.",
+      "demo": "Мстители: Судный день: все камео",
+      "cover_line": "Кто появится",
+      "faq": [
+        [
+          "Когда выходят «Мстители: Судный день»?",
+          "Выход в кино запланирован на {D}. Некоторые источники упоминают ранние показы чуть раньше."
+        ],
+        [
+          "Какие слова скрыть?",
+          "Название вместе со словами «концовка», «слив», «камео», «сцена после титров» и «кто умрёт». Если скрыть только «Мстители», пропадут и нужные новости."
+        ],
+        [
+          "Сколько избегать спойлеров?",
+          "Самые рискованные первые две недели после выхода, когда реакции и мемы повсюду."
+        ],
+        [
+          "Можно ли скрыть слова на YouTube?",
+          "Нет. На YouTube нет фильтра по словам. В браузере на компьютере это умеет расширение."
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Avengers: Doomsday",
+      "desc": "Avengers: Doomsday wchodzi do kin {D}. W drużynowym filmie Marvela największe ryzyko to to, kto się pojawi. Jakie słowa wyciszyć na X, Threads i TikToku.",
+      "lead": "W drużynowym filmie Marvela ryzykiem jest nie tylko zakończenie, ale też to, kto się pojawi. Jedno cameo na miniaturce może być niespodzianką całego filmu.",
+      "why_h": "Cameo rozchodzą się szybciej niż fabuła",
+      "why": "<p>Wielkie filmy drużynowe psuje obsada. „Kto się pojawił” i „kto zginął” rozchodzą się w krótkich podpisach i miniaturkach reakcji, często bez ostrzeżenia. Ulubionym tematem są też sceny po napisach, bo zdradzają kolejny film.</p><p>Według doniesień Marvel planuje wcześniejsze pokazy przed {D0}, a daty premier różnią się w zależności od kraju, więc przecieki pojawią się kilka dni wcześniej. Wyciszenie wszystkich bohaterów ukryje pół internetu, więc lepiej wycisz tytuł razem ze słowami o fabule.</p>",
+      "unknown": "Postaci i aktorów trzymanych w tajemnicy nie da się wymienić z góry.",
+      "demo": "Avengers Doomsday: wszystkie cameo",
+      "cover_line": "Kto się pojawi",
+      "faq": [
+        [
+          "Kiedy premiera Avengers: Doomsday?",
+          "Premiera kinowa jest planowana na {D}. Niektóre źródła wspominają o pokazach nieco wcześniej."
+        ],
+        [
+          "Jakie słowa wyciszyć?",
+          "Tytuł razem ze słowami „zakończenie”, „przeciek”, „cameo”, „scena po napisach” i „kto zginie”. Samo „Avengers” ukryje też newsy, które chcesz widzieć."
+        ],
+        [
+          "Jak długo unikać spoilerów?",
+          "Najbardziej ryzykowne są pierwsze dwa tygodnie po premierze, kiedy reakcje i memy są wszędzie."
+        ],
+        [
+          "Czy da się wyciszyć słowa na YouTube?",
+          "Nie. YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie."
+        ]
+      ]
+    },
+    "de": {
+      "name": "Avengers: Doomsday",
+      "desc": "Avengers: Doomsday startet am {D}. Bei einem Marvel-Teamfilm ist das Risiko, wer auftaucht. Welche Wörter du auf X, Threads und TikTok stummschaltest.",
+      "lead": "Bei einem Marvel-Teamfilm ist nicht nur das Ende riskant, sondern auch, wer auftaucht. Ein Cameo im Vorschaubild kann die Überraschung des ganzen Films sein.",
+      "why_h": "Cameos verbreiten sich schneller als die Handlung",
+      "why": "<p>Große Teamfilme werden durch die Besetzung gespoilert. „Wer auftaucht“ und „wer stirbt“ verbreiten sich als kurze Bildunterschriften und Reaktions-Thumbnails, oft ohne Warnung. Auch Post-Credit-Szenen sind beliebt, weil sie auf den nächsten Film hinweisen.</p><p>Berichten zufolge plant Marvel Vorpremieren vor dem {D0}, und die Starttermine unterscheiden sich je nach Land. Rechne also mit Leaks einige Tage vorher. Alle Heldennamen stummzuschalten blendet das halbe Internet aus, also schalte lieber den Titel mit Story-Wörtern stumm.</p>",
+      "unknown": "Figuren und Darsteller, die vor dem Start geheim bleiben, lassen sich nicht vorab auflisten.",
+      "demo": "Avengers Doomsday: alle Cameos im Ranking",
+      "cover_line": "Wer auftaucht",
+      "faq": [
+        [
+          "Wann startet Avengers: Doomsday?",
+          "Der Kinostart ist für den {D} geplant. Manche Berichte erwähnen Vorpremieren etwas früher."
+        ],
+        [
+          "Welche Wörter soll ich stummschalten?",
+          "Den Titel mit Ende, Leak, Cameo, Post-Credit-Szene und wer stirbt. Nur „Avengers“ blendet auch News aus, die du sehen willst."
+        ],
+        [
+          "Wie lange sollte ich Spoiler meiden?",
+          "Am riskantesten sind die ersten zwei Wochen nach dem Start, wenn Reaktionen und Memes überall sind."
+        ],
+        [
+          "Kann ich auf YouTube Wörter stummschalten?",
+          "Nein. YouTube hat keinen Wortfilter. Im Desktop-Browser schafft das eine Erweiterung."
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Avengers : Doomsday",
+      "desc": "Avengers : Doomsday sort le {D}. Dans un film d'équipe Marvel, le risque, c'est qui apparaît. Les mots à masquer sur X, Threads et TikTok.",
+      "lead": "Dans un film d'équipe Marvel, le risque n'est pas que la fin, c'est aussi qui apparaît. Un caméo dans une miniature peut être la surprise de tout le film.",
+      "why_h": "Les caméos circulent plus vite que l'intrigue",
+      "why": "<p>Les grands films d'équipe sont spoilés par le casting. « Qui apparaît » et « qui meurt » circulent en courtes légendes et en miniatures de réaction, souvent sans avertissement. Les scènes post-générique sont un autre classique, car elles annoncent le film suivant.</p><p>Selon certaines sources, Marvel prévoit des avant-premières avant le {D0}, et les dates de sortie varient selon les pays : attends-toi à des fuites plusieurs jours avant. Masquer tous les noms de héros cache la moitié d'internet, alors masque plutôt le titre avec des mots d'intrigue.</p>",
+      "unknown": "Les personnages et acteurs gardés secrets avant la sortie ne peuvent pas être listés à l'avance.",
+      "demo": "Avengers Doomsday : tous les caméos classés",
+      "cover_line": "Qui apparaît",
+      "faq": [
+        [
+          "Quand sort Avengers : Doomsday ?",
+          "La sortie au cinéma est prévue le {D}. Certaines sources évoquent des avant-premières un peu plus tôt."
+        ],
+        [
+          "Quels mots masquer ?",
+          "Le titre avec fin, fuite, caméo, scène post-générique et qui meurt. Masquer seulement « Avengers » cache aussi des actus que tu veux voir."
+        ],
+        [
+          "Combien de temps éviter les spoilers ?",
+          "Les deux premières semaines après la sortie sont les plus risquées, quand réactions et mèmes sont partout."
+        ],
+        [
+          "Peut-on masquer des mots sur YouTube ?",
+          "Non. YouTube n'a pas de filtre de mots. Dans un navigateur d'ordinateur, une extension peut le faire."
+        ]
+      ]
+    },
+    "es": {
+      "name": "Vengadores: Doomsday",
+      "desc": "Vengadores: Doomsday se estrena el {D}. En una película de equipo de Marvel el riesgo es quién aparece. Qué palabras silenciar en X, Threads y TikTok.",
+      "lead": "En una película de equipo de Marvel el riesgo no es solo el final, también quién aparece. Un cameo en una miniatura puede ser la sorpresa de toda la película.",
+      "why_h": "Los cameos corren más rápido que la trama",
+      "why": "<p>Las grandes películas de equipo se destripan por el reparto. «Quién aparece» y «quién muere» se difunden en textos cortos y miniaturas de reacciones, a menudo sin aviso. Las escenas postcréditos son otro clásico, porque adelantan la siguiente película.</p><p>Según algunas fuentes, Marvel prepara pases anticipados antes del {D0}, y las fechas de estreno cambian según el país, así que espera filtraciones varios días antes. Silenciar a todos los héroes oculta medio internet, así que mejor silencia el título junto con palabras de la trama.</p>",
+      "unknown": "Los personajes y actores que se mantienen en secreto no se pueden listar por adelantado.",
+      "demo": "Vengadores Doomsday: todos los cameos, clasificados",
+      "cover_line": "Quién aparece",
+      "faq": [
+        [
+          "¿Cuándo se estrena Vengadores: Doomsday?",
+          "El estreno en cines está previsto para el {D}. Algunas fuentes mencionan pases anticipados un poco antes."
+        ],
+        [
+          "¿Qué palabras silencio?",
+          "El título con final, filtración, cameo, escena postcréditos y quién muere. Silenciar solo «Vengadores» oculta también noticias que quieres ver."
+        ],
+        [
+          "¿Cuánto tiempo evito los spoilers?",
+          "Las dos primeras semanas tras el estreno son las más arriesgadas, cuando las reacciones y los memes están en todas partes."
+        ],
+        [
+          "¿Puedo silenciar palabras en YouTube?",
+          "No. YouTube no tiene filtro de palabras. En un navegador de escritorio lo hace una extensión."
+        ]
+      ]
+    },
+    "it": {
+      "name": "Avengers: Doomsday",
+      "desc": "Avengers: Doomsday esce il {D}. In un film corale Marvel il rischio è chi compare. Le parole da silenziare su X, Threads e TikTok.",
+      "lead": "In un film corale Marvel il rischio non è solo il finale, ma anche chi compare. Un cameo in una miniatura può essere la sorpresa di tutto il film.",
+      "why_h": "I cameo corrono più veloci della trama",
+      "why": "<p>I grandi film corali vengono rovinati dal cast. «Chi compare» e «chi muore» girano in brevi didascalie e miniature di reazioni, spesso senza avviso. Le scene post credits sono un altro classico, perché anticipano il film successivo.</p><p>Secondo alcune fonti Marvel prevede anteprime prima del {D0}, e le date di uscita cambiano da paese a paese, quindi aspettati leak qualche giorno prima. Silenziare tutti i nomi degli eroi nasconde mezzo internet, quindi meglio silenziare il titolo insieme a parole sulla trama.</p>",
+      "unknown": "Personaggi e attori tenuti segreti prima dell'uscita non si possono elencare in anticipo.",
+      "demo": "Avengers Doomsday: tutti i cameo in classifica",
+      "cover_line": "Chi compare",
+      "faq": [
+        [
+          "Quando esce Avengers: Doomsday?",
+          "L'uscita al cinema è prevista per il {D}. Alcune fonti parlano di anteprime un po' prima."
+        ],
+        [
+          "Quali parole silenziare?",
+          "Il titolo con finale, leak, cameo, scena post credits e chi muore. Silenziare solo «Avengers» nasconde anche notizie che vuoi vedere."
+        ],
+        [
+          "Per quanto evitare gli spoiler?",
+          "Le prime due settimane dopo l'uscita sono le più rischiose, quando reazioni e meme sono ovunque."
+        ],
+        [
+          "Posso silenziare parole su YouTube?",
+          "No. YouTube non ha un filtro parole. In un browser desktop lo fa un'estensione."
+        ]
+      ]
+    },
+    "pt-BR": {
+      "name": "Vingadores: Doomsday",
+      "desc": "Vingadores: Doomsday estreia em {D}. Em um filme de equipe da Marvel, o risco é quem aparece. Quais palavras silenciar no X, Threads e TikTok.",
+      "lead": "Em um filme de equipe da Marvel, o risco não é só o final, é quem aparece. Uma participação especial numa miniatura pode ser a surpresa do filme inteiro.",
+      "why_h": "Participações especiais correm mais que a trama",
+      "why": "<p>Grandes filmes de equipe são estragados pelo elenco. \"Quem aparece\" e \"quem morre\" se espalham em legendas curtas e miniaturas de reação, muitas vezes sem aviso. Cenas pós-créditos são outro clássico, porque dão pistas do próximo filme.</p><p>Segundo algumas fontes, a Marvel planeja sessões antecipadas antes de {D0}, e as datas de estreia mudam de país para país, então espere vazamentos alguns dias antes. Silenciar o nome de todos os heróis esconde metade da internet, então silencie o título junto com palavras da história.</p>",
+      "unknown": "Personagens e atores mantidos em segredo antes da estreia não podem ser listados com antecedência.",
+      "demo": "Vingadores Doomsday: todas as participações, ranqueadas",
+      "cover_line": "Quem aparece",
+      "faq": [
+        [
+          "Quando estreia Vingadores: Doomsday?",
+          "A estreia nos cinemas está prevista para {D}. Algumas fontes falam em sessões antecipadas um pouco antes."
+        ],
+        [
+          "Quais palavras devo silenciar?",
+          "O título com final, vazamento, participação especial, cena pós-créditos e quem morre. Silenciar só \"Vingadores\" esconde também notícias que você quer ver."
+        ],
+        [
+          "Por quanto tempo evitar spoilers?",
+          "As duas primeiras semanas depois da estreia são as mais arriscadas, quando reações e memes estão por toda parte."
+        ],
+        [
+          "Dá para silenciar palavras no YouTube?",
+          "Não. O YouTube não tem filtro de palavras. No navegador do computador, uma extensão faz isso."
+        ]
+      ]
+    },
+    "tr": {
+      "name": "Avengers: Doomsday",
+      "desc": "Avengers: Doomsday {D} tarihinde vizyonda. Bir Marvel ekip filminde asıl risk kimin ortaya çıktığı. X, Threads ve TikTok'ta sessize alınacak kelimeler.",
+      "lead": "Bir Marvel ekip filminde risk sadece son değil, kimin ortaya çıktığı. Küçük resimdeki tek bir sürpriz konuk bütün filmin sürprizi olabilir.",
+      "why_h": "Sürpriz konuklar hikâyeden hızlı yayılır",
+      "why": "<p>Büyük ekip filmlerini oyuncu kadrosu ele verir. “Kim çıktı” ve “kim öldü” kısa açıklamalar ve tepki küçük resimleriyle, çoğu zaman uyarısız yayılır. Jenerik sonrası sahneler de sevilen bir konu, çünkü bir sonraki filme işaret eder.</p><p>Haberlere göre Marvel {D0} öncesinde erken gösterimler planlıyor ve vizyon tarihleri ülkeye göre değişiyor, yani sızıntıları birkaç gün önceden bekle. Bütün kahraman adlarını sessize almak internetin yarısını gizler, bu yüzden adı hikâye kelimeleriyle birlikte sessize al.</p>",
+      "unknown": "Vizyondan önce gizli tutulan karakterler ve oyuncular önceden listelenemez.",
+      "demo": "Avengers Doomsday: bütün sürpriz konuklar",
+      "cover_line": "Kim çıkıyor",
+      "faq": [
+        [
+          "Avengers: Doomsday ne zaman çıkıyor?",
+          "Sinemalarda {D} tarihinde vizyona girmesi planlanıyor. Bazı haberler biraz daha erken gösterimlerden söz ediyor."
+        ],
+        [
+          "Hangi kelimeleri sessize almalıyım?",
+          "Filmin adını sonu, sızıntı, sürpriz konuk, jenerik sonrası sahne ve kim ölüyor kelimeleriyle birlikte. Sadece “Avengers” yazmak görmek istediğin haberleri de gizler."
+        ],
+        [
+          "Spoiler’lardan ne kadar kaçınmalıyım?",
+          "En riskli dönem vizyondan sonraki ilk iki hafta, tepkiler ve capsler her yerdeyken."
+        ],
+        [
+          "YouTube'da kelime sessize alınabilir mi?",
+          "Hayır. YouTube'da kelime filtresi yok. Bilgisayar tarayıcısında bunu bir eklenti yapabilir."
+        ]
+      ]
+    },
+    "ja": {
+      "name": "アベンジャーズ／ドゥームズデイ",
+      "desc": "『アベンジャーズ／ドゥームズデイ』は{D}公開予定。マーベルのチーム映画では「誰が登場するか」が最大のリスクです。X、Threads、TikTokでミュートする単語。",
+      "lead": "マーベルのチーム映画では、結末だけでなく「誰が登場するか」もネタバレになります。サムネイルのカメオ1つが映画最大のサプライズかもしれません。",
+      "why_h": "カメオは物語より速く広まる",
+      "why": "<p>大型チーム映画はキャストでネタバレされます。「誰が出た」「誰が死んだ」は短いキャプションやリアクションのサムネイルで、警告なしに広がりがちです。次回作をほのめかすエンドロール後のシーンも定番です。</p><p>報道によるとマーベルは{D0}より前に先行上映を予定しており、公開日は国によって異なるため、数日前からリークが出ると考えてください。ヒーロー全員の名前をミュートするとネットの半分が消えるので、作品名と物語に関する単語を組み合わせてミュートしましょう。</p>",
+      "unknown": "公開前に秘密にされているキャラクターや俳優は、事前にリストにできません。",
+      "demo": "アベンジャーズ ドゥームズデイ：カメオ全まとめ",
+      "cover_line": "誰が登場するか",
+      "faq": [
+        [
+          "『アベンジャーズ／ドゥームズデイ』はいつ公開？",
+          "劇場公開は{D}の予定です。少し早い先行上映を伝える報道もあります。"
+        ],
+        [
+          "どの単語をミュートすればいい？",
+          "作品名に「結末」「リーク」「カメオ」「エンドロール後」「誰が死ぬ」を組み合わせます。「アベンジャーズ」だけだと見たいニュースまで消えます。"
+        ],
+        [
+          "どのくらいの期間ネタバレを避ければいい？",
+          "公開後の最初の2週間が最も危険です。感想やミームがあふれる時期です。"
+        ],
+        [
+          "YouTubeで単語をミュートできる？",
+          "できません。YouTubeには単語のミュート機能がありません。パソコンのブラウザなら拡張機能で可能です。"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "어벤져스: 둠스데이",
+      "desc": "《어벤져스: 둠스데이》는 {D} 개봉 예정입니다. 마블 팀업 영화에서는 누가 나오는지가 가장 큰 위험입니다. X, Threads, TikTok에서 뮤트할 단어.",
+      "lead": "마블 팀업 영화에서는 결말뿐 아니라 누가 나오는지도 스포일러입니다. 썸네일 속 카메오 하나가 영화 전체의 반전일 수 있습니다.",
+      "why_h": "카메오는 줄거리보다 빨리 퍼진다",
+      "why": "<p>대형 팀업 영화는 출연진으로 스포일러가 됩니다. \"누가 나왔다\", \"누가 죽었다\"는 짧은 캡션과 리액션 썸네일로 경고 없이 퍼지곤 합니다. 다음 작품을 암시하는 쿠키 영상도 단골 소재입니다.</p><p>보도에 따르면 마블은 {D0} 전에 사전 시사회를 계획하고 있고 개봉일은 나라마다 달라서, 며칠 전부터 유출이 나올 수 있습니다. 모든 히어로 이름을 뮤트하면 인터넷의 절반이 사라지니, 제목과 줄거리 관련 단어를 함께 뮤트하세요.</p>",
+      "unknown": "개봉 전까지 비밀인 캐릭터와 배우는 미리 목록에 넣을 수 없습니다.",
+      "demo": "어벤져스 둠스데이: 카메오 총정리",
+      "cover_line": "누가 나올까",
+      "faq": [
+        [
+          "《어벤져스: 둠스데이》는 언제 개봉하나요?",
+          "극장 개봉은 {D}로 예정되어 있습니다. 조금 더 이른 사전 시사회를 언급하는 보도도 있습니다."
+        ],
+        [
+          "어떤 단어를 뮤트해야 하나요?",
+          "제목에 결말, 유출, 카메오, 쿠키 영상, 누가 죽어를 함께 쓰세요. \"어벤져스\"만 뮤트하면 보고 싶은 소식까지 사라집니다."
+        ],
+        [
+          "얼마나 오래 스포일러를 피해야 하나요?",
+          "개봉 후 첫 2주가 가장 위험합니다. 반응과 밈이 넘쳐나는 시기입니다."
+        ],
+        [
+          "YouTube에서 단어를 뮤트할 수 있나요?",
+          "아니요. YouTube에는 단어 뮤트 기능이 없습니다. 컴퓨터 브라우저에서는 확장 프로그램으로 가능합니다."
+        ]
+      ]
+    },
+    "zh-CN": {
+      "name": "复仇者联盟：毁灭日",
+      "desc": "《复仇者联盟：毁灭日》预计于{D}上映。漫威群像电影最大的风险是谁会登场。在 X、Threads 和 TikTok 上要屏蔽哪些词。",
+      "lead": "漫威群像电影的风险不只是结局，还有谁会登场。缩略图里的一个客串，就可能是整部电影最大的惊喜。",
+      "why_h": "客串比剧情传得更快",
+      "why": "<p>大型群像电影最容易被阵容剧透。\"谁登场了\"\"谁死了\"会以简短配文和反应视频缩略图的形式传开，往往毫无预警。彩蛋也是热门话题，因为它会暗示下一部电影。</p><p>据报道，漫威计划在{D0}之前举办提前场，而且各国上映日期不同，所以要做好提前几天就有泄露的准备。屏蔽所有英雄的名字会让半个互联网消失，最好把片名和剧情相关的词一起屏蔽。</p>",
+      "unknown": "上映前保密的角色和演员，无法提前列出。",
+      "demo": "复仇者联盟：毁灭日 全部客串盘点",
+      "cover_line": "谁会登场",
+      "faq": [
+        [
+          "《复仇者联盟：毁灭日》什么时候上映？",
+          "预计于{D}在影院上映。也有报道提到会更早一些举办提前场。"
+        ],
+        [
+          "应该屏蔽哪些词？",
+          "片名加上结局、泄露、客串、彩蛋、谁会死等词。只屏蔽\"复仇者联盟\"也会挡掉你想看的新闻。"
+        ],
+        [
+          "要避开剧透多久？",
+          "上映后的头两周风险最大，那时反应和梗图到处都是。"
+        ],
+        [
+          "YouTube 能屏蔽词语吗？",
+          "不能。YouTube 没有关键词屏蔽功能。在电脑浏览器里可以用扩展来做到。"
+        ]
+      ]
+    }
   },
-  "it": {
-   "basic": [
-    "avengers doomsday",
-    "avengers 5",
-    "marvel doomsday",
-    "dottor destino"
-   ],
-   "balanced": [
-    "victor von destino",
-    "thor",
-    "loki",
-    "captain america",
-    "i fantastici quattro",
-    "x-men",
-    "thunderbolts"
-   ]
+  "old_urls": {
+    "en": [
+      "avoid-avengers-doomsday-spoilers.html",
+      "block/avengers-doomsday.html",
+      "mute-list/avengers-doomsday.html"
+    ],
+    "de": [
+      "avoid-avengers-doomsday-spoilers.de.html"
+    ],
+    "es": [
+      "avoid-avengers-doomsday-spoilers.es.html"
+    ],
+    "fr": [
+      "avoid-avengers-doomsday-spoilers.fr.html"
+    ],
+    "it": [
+      "avoid-avengers-doomsday-spoilers.it.html"
+    ],
+    "ja": [
+      "avoid-avengers-doomsday-spoilers.ja.html"
+    ],
+    "ko": [
+      "avoid-avengers-doomsday-spoilers.ko.html"
+    ],
+    "pl": [
+      "avoid-avengers-doomsday-spoilers.pl.html"
+    ],
+    "pt-BR": [
+      "avoid-avengers-doomsday-spoilers.pt-br.html"
+    ],
+    "ru": [
+      "avoid-avengers-doomsday-spoilers.ru.html"
+    ],
+    "tr": [
+      "avoid-avengers-doomsday-spoilers.tr.html"
+    ],
+    "uk": [
+      "avoid-avengers-doomsday-spoilers.uk.html"
+    ],
+    "zh-CN": [
+      "avoid-avengers-doomsday-spoilers.zh-cn.html"
+    ]
   },
-  "ja": {
-   "basic": [
-    "アベンジャーズ ドゥームズデイ",
-    "avengers doomsday",
-    "avengers 5",
-    "ドクター・ドゥーム"
-   ],
-   "balanced": [
-    "ヴィクター・フォン・ドゥーム",
-    "ソー",
-    "ロキ",
-    "キャプテン・アメリカ",
-    "スティーブ・ロジャース",
-    "ファンタスティック・フォー",
-    "X-MEN",
-    "サンダーボルツ"
-   ]
+  "legacy": {
+    "page": "avoid-avengers-doomsday-spoilers",
+    "kind": "film"
   },
-  "ko": {
-   "basic": [
-    "어벤져스 둠스데이",
-    "avengers doomsday",
-    "avengers 5",
-    "닥터 둠"
-   ],
-   "balanced": [
-    "빅터 폰 둠",
-    "토르",
-    "로키",
-    "캡틴 아메리카",
-    "스티브 로저스",
-    "판타스틱 4",
-    "엑스맨",
-    "썬더볼츠"
-   ]
-  },
-  "pl": {
-   "basic": [
-    "avengers doomsday",
-    "avengers 5",
-    "marvel doomsday",
-    "doktor doom"
-   ],
-   "balanced": [
-    "victor von doom",
-    "thor",
-    "loki",
-    "kapitan ameryka",
-    "fantastyczna czwórka",
-    "x-men",
-    "thunderbolts"
-   ]
-  },
-  "pt-BR": {
-   "basic": [
-    "vingadores doomsday",
-    "avengers doomsday",
-    "avengers 5",
-    "doutor destino"
-   ],
-   "balanced": [
-    "victor von doom",
-    "thor",
-    "loki",
-    "capitão américa",
-    "quarteto fantástico",
-    "x-men",
-    "thunderbolts"
-   ]
-  },
-  "ru": {
-   "basic": [
-    "мстители судный день",
-    "avengers doomsday",
-    "avengers 5",
-    "доктор дум"
-   ],
-   "balanced": [
-    "виктор фон дум",
-    "тор",
-    "локи",
-    "капитан америка",
-    "стив роджерс",
-    "фантастическая четверка",
-    "люди икс",
-    "громовержцы"
-   ]
-  },
-  "tr": {
-   "basic": [
-    "avengers doomsday",
-    "avengers 5",
-    "marvel doomsday",
-    "doctor doom"
-   ],
-   "balanced": [
-    "victor von doom",
-    "thor",
-    "loki",
-    "kaptan amerika",
-    "fantastik dörtlü",
-    "x-men",
-    "thunderbolts"
-   ]
-  },
-  "uk": {
-   "basic": [
-    "месники судний день",
-    "avengers doomsday",
-    "avengers 5",
-    "доктор дум"
-   ],
-   "balanced": [
-    "віктор фон дум",
-    "тор",
-    "локі",
-    "капітан америка",
-    "стів роджерс",
-    "фантастична четвірка",
-    "люди ікс",
-    "громовержці"
-   ]
-  },
-  "zh-CN": {
-   "basic": [
-    "复仇者联盟 毁灭日",
-    "avengers doomsday",
-    "avengers 5",
-    "毁灭博士"
-   ],
-   "balanced": [
-    "维克多·冯·杜姆",
-    "雷神",
-    "洛基",
-    "美国队长",
-    "史蒂夫·罗杰斯",
-    "神奇四侠",
-    "X战警",
-    "雷霆特攻队"
-   ]
+  "changelog": [],
+  "intel": {
+    "checked": "2026-11-28",
+    "facts": [
+      {
+        "type": "merch_leak",
+        "date": "2026-11-10",
+        "place": "",
+        "note": "Official visual dictionary book revealed synopsis details",
+        "sources": [
+          {
+            "host": "piratesandprincesses.net",
+            "url": "https://piratesandprincesses.net/avengers-doomsday-world-tour-names-9-cities-but-no-dates-yet/",
+            "quote": "The \"new official synopsis\" that spread Thursday didn't come from a Marvel press release. GamesRadar+ and The Direct traced it to From Endgame to Doomsday: A Marvel Studios Visual Dictionary"
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "review_embargo",
+        "date": "2026-12-15",
+        "place": "",
+        "note": "Review embargo reportedly set to lift on December 15",
+        "sources": [
+          {
+            "host": "yahoo.com",
+            "url": "https://www.yahoo.com/entertainment/movies/articles/avengers-doomsday-review-embargo-marvel-201701028.html",
+            "quote": "According to ComicBookMovie , the review embargo is reportedly set to lift on December 15."
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "release_country",
+        "date": "2026-12-16",
+        "place": "United Kingdom",
+        "note": "Early theatrical release in the United Kingdom",
+        "sources": [
+          {
+            "host": "yahoo.com",
+            "url": "https://www.yahoo.com/entertainment/movies/articles/avengers-doomsday-gets-earlier-release-185107840.html",
+            "quote": "Avengers: Doomsday will have an earlier release date in the UK, on December 16, 2026, two days before the US release."
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "release_country",
+        "date": "2026-12-17",
+        "place": "Czech Republic",
+        "note": "release in Czech Republic",
+        "sources": [
+          {
+            "host": "wikidata.org",
+            "url": "https://www.wikidata.org/wiki/Q113244839",
+            "quote": ""
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "release_country",
+        "date": "2026-12-18",
+        "place": "United States",
+        "note": "release in United States",
+        "sources": [
+          {
+            "host": "wikidata.org",
+            "url": "https://www.wikidata.org/wiki/Q113244839",
+            "quote": ""
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "leak",
+        "date": "",
+        "place": "",
+        "note": "Rumored post-credits scenes details leaked online",
+        "sources": [
+          {
+            "host": "comicbookmovie.com",
+            "url": "https://comicbookmovie.com/avengers/avengers-doomsday/have-avengers-doomsdays-post-credits-scenes-been-revealed-latest-spoiler-filled-leak-explained-a229557",
+            "quote": "As excitement for Avengers: Doomsday continues to build, a new rumour claims to reveal the two post-credits scenes planned for the movie"
+          }
+        ],
+        "status": "reported"
+      }
+    ],
+    "threat": {
+      "level": "whispers",
+      "whispers_from": "2026-11-28",
+      "leaking_from": "2026-12-15",
+      "everyone_knows_from": "2026-12-26",
+      "all_clear": "2027-01-08",
+      "first_out": "2026-12-15"
+    }
   }
- },
- "spoiler_blocklist": [],
- "spoiler_safe_verified": true,
- "texts": {
-  "en": {
-   "name": "Avengers: Doomsday",
-   "desc": "Avengers: Doomsday is out {D}. With a Marvel team-up the risk is who shows up. Words to mute on X, Threads and TikTok, and what no filter catches.",
-   "lead": "With a Marvel team-up the risk is not only the ending, it is who shows up. One cameo in a thumbnail can be the surprise of the whole film.",
-   "why_h": "Cameos travel faster than plot",
-   "why": "<p>Big team-up films are spoiled by casting. \"Who appears\" and \"who dies\" spread as short captions and reaction thumbnails, often with no warning. Post-credits scenes are another favourite, because they hint at the next film.</p><p>Reports say Marvel plans advance screenings before {D0}, and release dates differ by country, so expect leaks several days early. Muting every hero name hides half the internet, so mute the title with story words instead.</p>",
-   "unknown": "Characters and actors kept secret before release cannot be listed in advance.",
-   "demo": "Avengers Doomsday: every cameo, ranked",
-   "cover_line": "Who shows up",
-   "faq": [
-    [
-     "When does Avengers: Doomsday come out?",
-     "It is scheduled for cinemas on {D}. Some reports mention advance screenings a little earlier."
-    ],
-    [
-     "Which words should I mute?",
-     "The title with ending, leak, cameo, post-credits scene and who dies. Muting only \"Avengers\" also hides news you may want."
-    ],
-    [
-     "How long should I avoid spoilers?",
-     "The first two weeks after release are the riskiest, when reactions and memes are everywhere."
-    ],
-    [
-     "Can I mute words on YouTube?",
-     "No. YouTube has no keyword mute. In a desktop browser an extension can do it."
-    ]
-   ]
-  },
-  "uk": {
-   "name": "Месники: Судний день",
-   "desc": "«Месники: Судний день» виходять {D}. У командному фільмі Marvel головний ризик у тому, хто зʼявиться. Які слова заглушити в X, Threads і TikTok.",
-   "lead": "У командному фільмі Marvel ризик не лише в кінцівці, а й у тому, хто зʼявиться. Одне камео на мініатюрі може бути головним сюрпризом фільму.",
-   "why_h": "Камео летять швидше за сюжет",
-   "why": "<p>Великі командні фільми спойлерять акторським складом. «Хто зʼявився» і «хто помер» розлітаються короткими підписами й мініатюрами реакцій, часто без попередження. Ще одна улюблена тема: сцени після титрів, бо вони натякають на наступний фільм.</p><p>Повідомляють, що Marvel планує ранні покази до {D0}, а дати виходу в різних країнах різні, тож чекай зливів за кілька днів. Якщо заглушити імена всіх героїв, зникне пів інтернету, тому краще заглушити назву разом зі словами про сюжет.</p>",
-   "unknown": "Персонажів і акторів, яких тримають у секреті, наперед не перелічиш.",
-   "demo": "Месники: Судний день: усі камео",
-   "cover_line": "Хто зʼявиться",
-   "faq": [
-    [
-     "Коли виходять «Месники: Судний день»?",
-     "Вихід у кіно заплановано на {D}. Деякі джерела згадують ранні покази трохи раніше."
-    ],
-    [
-     "Які слова заглушити?",
-     "Назву разом зі словами «кінцівка», «злив», «камео», «сцена після титрів» і «хто помре». Якщо заглушити лише «Месники», зникнуть і потрібні новини."
-    ],
-    [
-     "Скільки уникати спойлерів?",
-     "Найризиковіші перші два тижні після виходу, коли реакції й меми всюди."
-    ],
-    [
-     "Чи можна заглушити слова на YouTube?",
-     "Ні. На YouTube немає фільтра за словами. У браузері на компʼютері це вміє розширення."
-    ]
-   ]
-  },
-  "ru": {
-   "name": "Мстители: Судный день",
-   "desc": "«Мстители: Судный день» выходят {D}. В командном фильме Marvel главный риск в том, кто появится. Какие слова скрыть в X, Threads и TikTok.",
-   "lead": "В командном фильме Marvel риск не только в концовке, но и в том, кто появится. Одно камео на миниатюре может быть главным сюрпризом фильма.",
-   "why_h": "Камео разлетаются быстрее сюжета",
-   "why": "<p>Большие командные фильмы спойлерят актёрским составом. «Кто появился» и «кто умер» разлетаются короткими подписями и миниатюрами реакций, часто без предупреждения. Ещё одна любимая тема: сцены после титров, потому что они намекают на следующий фильм.</p><p>Сообщают, что Marvel планирует ранние показы до {D0}, а даты выхода в разных странах разные, так что жди сливов за несколько дней. Если скрыть имена всех героев, пропадёт пол-интернета, поэтому лучше скрыть название вместе со словами о сюжете.</p>",
-   "unknown": "Персонажей и актёров, которых держат в секрете, заранее не перечислишь.",
-   "demo": "Мстители: Судный день: все камео",
-   "cover_line": "Кто появится",
-   "faq": [
-    [
-     "Когда выходят «Мстители: Судный день»?",
-     "Выход в кино запланирован на {D}. Некоторые источники упоминают ранние показы чуть раньше."
-    ],
-    [
-     "Какие слова скрыть?",
-     "Название вместе со словами «концовка», «слив», «камео», «сцена после титров» и «кто умрёт». Если скрыть только «Мстители», пропадут и нужные новости."
-    ],
-    [
-     "Сколько избегать спойлеров?",
-     "Самые рискованные первые две недели после выхода, когда реакции и мемы повсюду."
-    ],
-    [
-     "Можно ли скрыть слова на YouTube?",
-     "Нет. На YouTube нет фильтра по словам. В браузере на компьютере это умеет расширение."
-    ]
-   ]
-  },
-  "pl": {
-   "name": "Avengers: Doomsday",
-   "desc": "Avengers: Doomsday wchodzi do kin {D}. W drużynowym filmie Marvela największe ryzyko to to, kto się pojawi. Jakie słowa wyciszyć na X, Threads i TikToku.",
-   "lead": "W drużynowym filmie Marvela ryzykiem jest nie tylko zakończenie, ale też to, kto się pojawi. Jedno cameo na miniaturce może być niespodzianką całego filmu.",
-   "why_h": "Cameo rozchodzą się szybciej niż fabuła",
-   "why": "<p>Wielkie filmy drużynowe psuje obsada. „Kto się pojawił” i „kto zginął” rozchodzą się w krótkich podpisach i miniaturkach reakcji, często bez ostrzeżenia. Ulubionym tematem są też sceny po napisach, bo zdradzają kolejny film.</p><p>Według doniesień Marvel planuje wcześniejsze pokazy przed {D0}, a daty premier różnią się w zależności od kraju, więc przecieki pojawią się kilka dni wcześniej. Wyciszenie wszystkich bohaterów ukryje pół internetu, więc lepiej wycisz tytuł razem ze słowami o fabule.</p>",
-   "unknown": "Postaci i aktorów trzymanych w tajemnicy nie da się wymienić z góry.",
-   "demo": "Avengers Doomsday: wszystkie cameo",
-   "cover_line": "Kto się pojawi",
-   "faq": [
-    [
-     "Kiedy premiera Avengers: Doomsday?",
-     "Premiera kinowa jest planowana na {D}. Niektóre źródła wspominają o pokazach nieco wcześniej."
-    ],
-    [
-     "Jakie słowa wyciszyć?",
-     "Tytuł razem ze słowami „zakończenie”, „przeciek”, „cameo”, „scena po napisach” i „kto zginie”. Samo „Avengers” ukryje też newsy, które chcesz widzieć."
-    ],
-    [
-     "Jak długo unikać spoilerów?",
-     "Najbardziej ryzykowne są pierwsze dwa tygodnie po premierze, kiedy reakcje i memy są wszędzie."
-    ],
-    [
-     "Czy da się wyciszyć słowa na YouTube?",
-     "Nie. YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie."
-    ]
-   ]
-  },
-  "de": {
-   "name": "Avengers: Doomsday",
-   "desc": "Avengers: Doomsday startet am {D}. Bei einem Marvel-Teamfilm ist das Risiko, wer auftaucht. Welche Wörter du auf X, Threads und TikTok stummschaltest.",
-   "lead": "Bei einem Marvel-Teamfilm ist nicht nur das Ende riskant, sondern auch, wer auftaucht. Ein Cameo im Vorschaubild kann die Überraschung des ganzen Films sein.",
-   "why_h": "Cameos verbreiten sich schneller als die Handlung",
-   "why": "<p>Große Teamfilme werden durch die Besetzung gespoilert. „Wer auftaucht“ und „wer stirbt“ verbreiten sich als kurze Bildunterschriften und Reaktions-Thumbnails, oft ohne Warnung. Auch Post-Credit-Szenen sind beliebt, weil sie auf den nächsten Film hinweisen.</p><p>Berichten zufolge plant Marvel Vorpremieren vor dem {D0}, und die Starttermine unterscheiden sich je nach Land. Rechne also mit Leaks einige Tage vorher. Alle Heldennamen stummzuschalten blendet das halbe Internet aus, also schalte lieber den Titel mit Story-Wörtern stumm.</p>",
-   "unknown": "Figuren und Darsteller, die vor dem Start geheim bleiben, lassen sich nicht vorab auflisten.",
-   "demo": "Avengers Doomsday: alle Cameos im Ranking",
-   "cover_line": "Wer auftaucht",
-   "faq": [
-    [
-     "Wann startet Avengers: Doomsday?",
-     "Der Kinostart ist für den {D} geplant. Manche Berichte erwähnen Vorpremieren etwas früher."
-    ],
-    [
-     "Welche Wörter soll ich stummschalten?",
-     "Den Titel mit Ende, Leak, Cameo, Post-Credit-Szene und wer stirbt. Nur „Avengers“ blendet auch News aus, die du sehen willst."
-    ],
-    [
-     "Wie lange sollte ich Spoiler meiden?",
-     "Am riskantesten sind die ersten zwei Wochen nach dem Start, wenn Reaktionen und Memes überall sind."
-    ],
-    [
-     "Kann ich auf YouTube Wörter stummschalten?",
-     "Nein. YouTube hat keinen Wortfilter. Im Desktop-Browser schafft das eine Erweiterung."
-    ]
-   ]
-  },
-  "fr": {
-   "name": "Avengers : Doomsday",
-   "desc": "Avengers : Doomsday sort le {D}. Dans un film d'équipe Marvel, le risque, c'est qui apparaît. Les mots à masquer sur X, Threads et TikTok.",
-   "lead": "Dans un film d'équipe Marvel, le risque n'est pas que la fin, c'est aussi qui apparaît. Un caméo dans une miniature peut être la surprise de tout le film.",
-   "why_h": "Les caméos circulent plus vite que l'intrigue",
-   "why": "<p>Les grands films d'équipe sont spoilés par le casting. « Qui apparaît » et « qui meurt » circulent en courtes légendes et en miniatures de réaction, souvent sans avertissement. Les scènes post-générique sont un autre classique, car elles annoncent le film suivant.</p><p>Selon certaines sources, Marvel prévoit des avant-premières avant le {D0}, et les dates de sortie varient selon les pays : attends-toi à des fuites plusieurs jours avant. Masquer tous les noms de héros cache la moitié d'internet, alors masque plutôt le titre avec des mots d'intrigue.</p>",
-   "unknown": "Les personnages et acteurs gardés secrets avant la sortie ne peuvent pas être listés à l'avance.",
-   "demo": "Avengers Doomsday : tous les caméos classés",
-   "cover_line": "Qui apparaît",
-   "faq": [
-    [
-     "Quand sort Avengers : Doomsday ?",
-     "La sortie au cinéma est prévue le {D}. Certaines sources évoquent des avant-premières un peu plus tôt."
-    ],
-    [
-     "Quels mots masquer ?",
-     "Le titre avec fin, fuite, caméo, scène post-générique et qui meurt. Masquer seulement « Avengers » cache aussi des actus que tu veux voir."
-    ],
-    [
-     "Combien de temps éviter les spoilers ?",
-     "Les deux premières semaines après la sortie sont les plus risquées, quand réactions et mèmes sont partout."
-    ],
-    [
-     "Peut-on masquer des mots sur YouTube ?",
-     "Non. YouTube n'a pas de filtre de mots. Dans un navigateur d'ordinateur, une extension peut le faire."
-    ]
-   ]
-  },
-  "es": {
-   "name": "Vengadores: Doomsday",
-   "desc": "Vengadores: Doomsday se estrena el {D}. En una película de equipo de Marvel el riesgo es quién aparece. Qué palabras silenciar en X, Threads y TikTok.",
-   "lead": "En una película de equipo de Marvel el riesgo no es solo el final, también quién aparece. Un cameo en una miniatura puede ser la sorpresa de toda la película.",
-   "why_h": "Los cameos corren más rápido que la trama",
-   "why": "<p>Las grandes películas de equipo se destripan por el reparto. «Quién aparece» y «quién muere» se difunden en textos cortos y miniaturas de reacciones, a menudo sin aviso. Las escenas postcréditos son otro clásico, porque adelantan la siguiente película.</p><p>Según algunas fuentes, Marvel prepara pases anticipados antes del {D0}, y las fechas de estreno cambian según el país, así que espera filtraciones varios días antes. Silenciar a todos los héroes oculta medio internet, así que mejor silencia el título junto con palabras de la trama.</p>",
-   "unknown": "Los personajes y actores que se mantienen en secreto no se pueden listar por adelantado.",
-   "demo": "Vengadores Doomsday: todos los cameos, clasificados",
-   "cover_line": "Quién aparece",
-   "faq": [
-    [
-     "¿Cuándo se estrena Vengadores: Doomsday?",
-     "El estreno en cines está previsto para el {D}. Algunas fuentes mencionan pases anticipados un poco antes."
-    ],
-    [
-     "¿Qué palabras silencio?",
-     "El título con final, filtración, cameo, escena postcréditos y quién muere. Silenciar solo «Vengadores» oculta también noticias que quieres ver."
-    ],
-    [
-     "¿Cuánto tiempo evito los spoilers?",
-     "Las dos primeras semanas tras el estreno son las más arriesgadas, cuando las reacciones y los memes están en todas partes."
-    ],
-    [
-     "¿Puedo silenciar palabras en YouTube?",
-     "No. YouTube no tiene filtro de palabras. En un navegador de escritorio lo hace una extensión."
-    ]
-   ]
-  },
-  "it": {
-   "name": "Avengers: Doomsday",
-   "desc": "Avengers: Doomsday esce il {D}. In un film corale Marvel il rischio è chi compare. Le parole da silenziare su X, Threads e TikTok.",
-   "lead": "In un film corale Marvel il rischio non è solo il finale, ma anche chi compare. Un cameo in una miniatura può essere la sorpresa di tutto il film.",
-   "why_h": "I cameo corrono più veloci della trama",
-   "why": "<p>I grandi film corali vengono rovinati dal cast. «Chi compare» e «chi muore» girano in brevi didascalie e miniature di reazioni, spesso senza avviso. Le scene post credits sono un altro classico, perché anticipano il film successivo.</p><p>Secondo alcune fonti Marvel prevede anteprime prima del {D0}, e le date di uscita cambiano da paese a paese, quindi aspettati leak qualche giorno prima. Silenziare tutti i nomi degli eroi nasconde mezzo internet, quindi meglio silenziare il titolo insieme a parole sulla trama.</p>",
-   "unknown": "Personaggi e attori tenuti segreti prima dell'uscita non si possono elencare in anticipo.",
-   "demo": "Avengers Doomsday: tutti i cameo in classifica",
-   "cover_line": "Chi compare",
-   "faq": [
-    [
-     "Quando esce Avengers: Doomsday?",
-     "L'uscita al cinema è prevista per il {D}. Alcune fonti parlano di anteprime un po' prima."
-    ],
-    [
-     "Quali parole silenziare?",
-     "Il titolo con finale, leak, cameo, scena post credits e chi muore. Silenziare solo «Avengers» nasconde anche notizie che vuoi vedere."
-    ],
-    [
-     "Per quanto evitare gli spoiler?",
-     "Le prime due settimane dopo l'uscita sono le più rischiose, quando reazioni e meme sono ovunque."
-    ],
-    [
-     "Posso silenziare parole su YouTube?",
-     "No. YouTube non ha un filtro parole. In un browser desktop lo fa un'estensione."
-    ]
-   ]
-  },
-  "pt-BR": {
-   "name": "Vingadores: Doomsday",
-   "desc": "Vingadores: Doomsday estreia em {D}. Em um filme de equipe da Marvel, o risco é quem aparece. Quais palavras silenciar no X, Threads e TikTok.",
-   "lead": "Em um filme de equipe da Marvel, o risco não é só o final, é quem aparece. Uma participação especial numa miniatura pode ser a surpresa do filme inteiro.",
-   "why_h": "Participações especiais correm mais que a trama",
-   "why": "<p>Grandes filmes de equipe são estragados pelo elenco. \"Quem aparece\" e \"quem morre\" se espalham em legendas curtas e miniaturas de reação, muitas vezes sem aviso. Cenas pós-créditos são outro clássico, porque dão pistas do próximo filme.</p><p>Segundo algumas fontes, a Marvel planeja sessões antecipadas antes de {D0}, e as datas de estreia mudam de país para país, então espere vazamentos alguns dias antes. Silenciar o nome de todos os heróis esconde metade da internet, então silencie o título junto com palavras da história.</p>",
-   "unknown": "Personagens e atores mantidos em segredo antes da estreia não podem ser listados com antecedência.",
-   "demo": "Vingadores Doomsday: todas as participações, ranqueadas",
-   "cover_line": "Quem aparece",
-   "faq": [
-    [
-     "Quando estreia Vingadores: Doomsday?",
-     "A estreia nos cinemas está prevista para {D}. Algumas fontes falam em sessões antecipadas um pouco antes."
-    ],
-    [
-     "Quais palavras devo silenciar?",
-     "O título com final, vazamento, participação especial, cena pós-créditos e quem morre. Silenciar só \"Vingadores\" esconde também notícias que você quer ver."
-    ],
-    [
-     "Por quanto tempo evitar spoilers?",
-     "As duas primeiras semanas depois da estreia são as mais arriscadas, quando reações e memes estão por toda parte."
-    ],
-    [
-     "Dá para silenciar palavras no YouTube?",
-     "Não. O YouTube não tem filtro de palavras. No navegador do computador, uma extensão faz isso."
-    ]
-   ]
-  },
-  "tr": {
-   "name": "Avengers: Doomsday",
-   "desc": "Avengers: Doomsday {D} tarihinde vizyonda. Bir Marvel ekip filminde asıl risk kimin ortaya çıktığı. X, Threads ve TikTok'ta sessize alınacak kelimeler.",
-   "lead": "Bir Marvel ekip filminde risk sadece son değil, kimin ortaya çıktığı. Küçük resimdeki tek bir sürpriz konuk bütün filmin sürprizi olabilir.",
-   "why_h": "Sürpriz konuklar hikâyeden hızlı yayılır",
-   "why": "<p>Büyük ekip filmlerini oyuncu kadrosu ele verir. “Kim çıktı” ve “kim öldü” kısa açıklamalar ve tepki küçük resimleriyle, çoğu zaman uyarısız yayılır. Jenerik sonrası sahneler de sevilen bir konu, çünkü bir sonraki filme işaret eder.</p><p>Haberlere göre Marvel {D0} öncesinde erken gösterimler planlıyor ve vizyon tarihleri ülkeye göre değişiyor, yani sızıntıları birkaç gün önceden bekle. Bütün kahraman adlarını sessize almak internetin yarısını gizler, bu yüzden adı hikâye kelimeleriyle birlikte sessize al.</p>",
-   "unknown": "Vizyondan önce gizli tutulan karakterler ve oyuncular önceden listelenemez.",
-   "demo": "Avengers Doomsday: bütün sürpriz konuklar",
-   "cover_line": "Kim çıkıyor",
-   "faq": [
-    [
-     "Avengers: Doomsday ne zaman çıkıyor?",
-     "Sinemalarda {D} tarihinde vizyona girmesi planlanıyor. Bazı haberler biraz daha erken gösterimlerden söz ediyor."
-    ],
-    [
-     "Hangi kelimeleri sessize almalıyım?",
-     "Filmin adını sonu, sızıntı, sürpriz konuk, jenerik sonrası sahne ve kim ölüyor kelimeleriyle birlikte. Sadece “Avengers” yazmak görmek istediğin haberleri de gizler."
-    ],
-    [
-     "Spoiler’lardan ne kadar kaçınmalıyım?",
-     "En riskli dönem vizyondan sonraki ilk iki hafta, tepkiler ve capsler her yerdeyken."
-    ],
-    [
-     "YouTube'da kelime sessize alınabilir mi?",
-     "Hayır. YouTube'da kelime filtresi yok. Bilgisayar tarayıcısında bunu bir eklenti yapabilir."
-    ]
-   ]
-  },
-  "ja": {
-   "name": "アベンジャーズ／ドゥームズデイ",
-   "desc": "『アベンジャーズ／ドゥームズデイ』は{D}公開予定。マーベルのチーム映画では「誰が登場するか」が最大のリスクです。X、Threads、TikTokでミュートする単語。",
-   "lead": "マーベルのチーム映画では、結末だけでなく「誰が登場するか」もネタバレになります。サムネイルのカメオ1つが映画最大のサプライズかもしれません。",
-   "why_h": "カメオは物語より速く広まる",
-   "why": "<p>大型チーム映画はキャストでネタバレされます。「誰が出た」「誰が死んだ」は短いキャプションやリアクションのサムネイルで、警告なしに広がりがちです。次回作をほのめかすエンドロール後のシーンも定番です。</p><p>報道によるとマーベルは{D0}より前に先行上映を予定しており、公開日は国によって異なるため、数日前からリークが出ると考えてください。ヒーロー全員の名前をミュートするとネットの半分が消えるので、作品名と物語に関する単語を組み合わせてミュートしましょう。</p>",
-   "unknown": "公開前に秘密にされているキャラクターや俳優は、事前にリストにできません。",
-   "demo": "アベンジャーズ ドゥームズデイ：カメオ全まとめ",
-   "cover_line": "誰が登場するか",
-   "faq": [
-    [
-     "『アベンジャーズ／ドゥームズデイ』はいつ公開？",
-     "劇場公開は{D}の予定です。少し早い先行上映を伝える報道もあります。"
-    ],
-    [
-     "どの単語をミュートすればいい？",
-     "作品名に「結末」「リーク」「カメオ」「エンドロール後」「誰が死ぬ」を組み合わせます。「アベンジャーズ」だけだと見たいニュースまで消えます。"
-    ],
-    [
-     "どのくらいの期間ネタバレを避ければいい？",
-     "公開後の最初の2週間が最も危険です。感想やミームがあふれる時期です。"
-    ],
-    [
-     "YouTubeで単語をミュートできる？",
-     "できません。YouTubeには単語のミュート機能がありません。パソコンのブラウザなら拡張機能で可能です。"
-    ]
-   ]
-  },
-  "ko": {
-   "name": "어벤져스: 둠스데이",
-   "desc": "《어벤져스: 둠스데이》는 {D} 개봉 예정입니다. 마블 팀업 영화에서는 누가 나오는지가 가장 큰 위험입니다. X, Threads, TikTok에서 뮤트할 단어.",
-   "lead": "마블 팀업 영화에서는 결말뿐 아니라 누가 나오는지도 스포일러입니다. 썸네일 속 카메오 하나가 영화 전체의 반전일 수 있습니다.",
-   "why_h": "카메오는 줄거리보다 빨리 퍼진다",
-   "why": "<p>대형 팀업 영화는 출연진으로 스포일러가 됩니다. \"누가 나왔다\", \"누가 죽었다\"는 짧은 캡션과 리액션 썸네일로 경고 없이 퍼지곤 합니다. 다음 작품을 암시하는 쿠키 영상도 단골 소재입니다.</p><p>보도에 따르면 마블은 {D0} 전에 사전 시사회를 계획하고 있고 개봉일은 나라마다 달라서, 며칠 전부터 유출이 나올 수 있습니다. 모든 히어로 이름을 뮤트하면 인터넷의 절반이 사라지니, 제목과 줄거리 관련 단어를 함께 뮤트하세요.</p>",
-   "unknown": "개봉 전까지 비밀인 캐릭터와 배우는 미리 목록에 넣을 수 없습니다.",
-   "demo": "어벤져스 둠스데이: 카메오 총정리",
-   "cover_line": "누가 나올까",
-   "faq": [
-    [
-     "《어벤져스: 둠스데이》는 언제 개봉하나요?",
-     "극장 개봉은 {D}로 예정되어 있습니다. 조금 더 이른 사전 시사회를 언급하는 보도도 있습니다."
-    ],
-    [
-     "어떤 단어를 뮤트해야 하나요?",
-     "제목에 결말, 유출, 카메오, 쿠키 영상, 누가 죽어를 함께 쓰세요. \"어벤져스\"만 뮤트하면 보고 싶은 소식까지 사라집니다."
-    ],
-    [
-     "얼마나 오래 스포일러를 피해야 하나요?",
-     "개봉 후 첫 2주가 가장 위험합니다. 반응과 밈이 넘쳐나는 시기입니다."
-    ],
-    [
-     "YouTube에서 단어를 뮤트할 수 있나요?",
-     "아니요. YouTube에는 단어 뮤트 기능이 없습니다. 컴퓨터 브라우저에서는 확장 프로그램으로 가능합니다."
-    ]
-   ]
-  },
-  "zh-CN": {
-   "name": "复仇者联盟：毁灭日",
-   "desc": "《复仇者联盟：毁灭日》预计于{D}上映。漫威群像电影最大的风险是谁会登场。在 X、Threads 和 TikTok 上要屏蔽哪些词。",
-   "lead": "漫威群像电影的风险不只是结局，还有谁会登场。缩略图里的一个客串，就可能是整部电影最大的惊喜。",
-   "why_h": "客串比剧情传得更快",
-   "why": "<p>大型群像电影最容易被阵容剧透。\"谁登场了\"\"谁死了\"会以简短配文和反应视频缩略图的形式传开，往往毫无预警。彩蛋也是热门话题，因为它会暗示下一部电影。</p><p>据报道，漫威计划在{D0}之前举办提前场，而且各国上映日期不同，所以要做好提前几天就有泄露的准备。屏蔽所有英雄的名字会让半个互联网消失，最好把片名和剧情相关的词一起屏蔽。</p>",
-   "unknown": "上映前保密的角色和演员，无法提前列出。",
-   "demo": "复仇者联盟：毁灭日 全部客串盘点",
-   "cover_line": "谁会登场",
-   "faq": [
-    [
-     "《复仇者联盟：毁灭日》什么时候上映？",
-     "预计于{D}在影院上映。也有报道提到会更早一些举办提前场。"
-    ],
-    [
-     "应该屏蔽哪些词？",
-     "片名加上结局、泄露、客串、彩蛋、谁会死等词。只屏蔽\"复仇者联盟\"也会挡掉你想看的新闻。"
-    ],
-    [
-     "要避开剧透多久？",
-     "上映后的头两周风险最大，那时反应和梗图到处都是。"
-    ],
-    [
-     "YouTube 能屏蔽词语吗？",
-     "不能。YouTube 没有关键词屏蔽功能。在电脑浏览器里可以用扩展来做到。"
-    ]
-   ]
-  }
- },
- "old_urls": {
-  "en": [
-   "avoid-avengers-doomsday-spoilers.html",
-   "block/avengers-doomsday.html",
-   "mute-list/avengers-doomsday.html"
-  ],
-  "de": [
-   "avoid-avengers-doomsday-spoilers.de.html"
-  ],
-  "es": [
-   "avoid-avengers-doomsday-spoilers.es.html"
-  ],
-  "fr": [
-   "avoid-avengers-doomsday-spoilers.fr.html"
-  ],
-  "it": [
-   "avoid-avengers-doomsday-spoilers.it.html"
-  ],
-  "ja": [
-   "avoid-avengers-doomsday-spoilers.ja.html"
-  ],
-  "ko": [
-   "avoid-avengers-doomsday-spoilers.ko.html"
-  ],
-  "pl": [
-   "avoid-avengers-doomsday-spoilers.pl.html"
-  ],
-  "pt-BR": [
-   "avoid-avengers-doomsday-spoilers.pt-br.html"
-  ],
-  "ru": [
-   "avoid-avengers-doomsday-spoilers.ru.html"
-  ],
-  "tr": [
-   "avoid-avengers-doomsday-spoilers.tr.html"
-  ],
-  "uk": [
-   "avoid-avengers-doomsday-spoilers.uk.html"
-  ],
-  "zh-CN": [
-   "avoid-avengers-doomsday-spoilers.zh-cn.html"
-  ]
- },
- "legacy": {
-  "page": "avoid-avengers-doomsday-spoilers",
-  "kind": "film"
- },
- "changelog": []
 }
