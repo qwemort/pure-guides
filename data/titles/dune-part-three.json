@@ -1,677 +1,802 @@
 {
- "id": "dune-3",
- "slug": "dune-part-three",
- "media": "movies",
- "url": "/movies/dune-part-three/",
- "names": {
-  "en": "Dune: Part Three",
-  "uk": "Дюна: Частина третя",
-  "ru": "Дюна: Часть третья",
-  "pl": "Diuna: Część trzecia",
-  "de": "Dune: Part Three",
-  "fr": "Dune : Troisième partie",
-  "es": "Dune: Parte tres",
-  "it": "Dune: Parte tre",
-  "pt-BR": "Duna: Parte Três",
-  "tr": "Dune: Çöl Gezegeni Bölüm Üç",
-  "ja": "デューン 砂の惑星PART3",
-  "ko": "듄: 파트3",
-  "zh-CN": "沙丘3"
- },
- "release": {
-  "date": "2026-12-18",
-  "status": "confirmed",
-  "source": "https://www.wikidata.org/wiki/Q124714245",
-  "platforms": null,
-  "wikidata_date": "2026-12-18"
- },
- "season": null,
- "wikidata": "Q124714245",
- "checked": "2026-11-21",
- "published": "2026-11-17",
- "modified": "2026-11-18",
- "words": {
-  "en": {
-   "basic": [
-    "dune part three",
-    "dune part 3",
-    "dune 3",
-    "dune messiah"
-   ],
-   "balanced": [
-    "paul atreides",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremen",
-    "arrakis",
-    "atreides"
-   ]
+  "id": "dune-3",
+  "slug": "dune-part-three",
+  "media": "movies",
+  "url": "/movies/dune-part-three/",
+  "names": {
+    "en": "Dune: Part Three",
+    "uk": "Дюна: Частина третя",
+    "ru": "Дюна: Часть третья",
+    "pl": "Diuna: Część trzecia",
+    "de": "Dune: Part Three",
+    "fr": "Dune : Troisième partie",
+    "es": "Dune: Parte tres",
+    "it": "Dune: Parte tre",
+    "pt-BR": "Duna: Parte Três",
+    "tr": "Dune: Çöl Gezegeni Bölüm Üç",
+    "ja": "デューン 砂の惑星PART3",
+    "ko": "듄: 파트3",
+    "zh-CN": "沙丘3"
   },
-  "de": {
-   "basic": [
-    "dune teil drei",
-    "dune teil 3",
-    "dune 3",
-    "der herr des wüstenplaneten"
-   ],
-   "balanced": [
-    "paul atreides",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremen",
-    "arrakis",
-    "atreides"
-   ]
+  "release": {
+    "date": "2026-12-18",
+    "status": "confirmed",
+    "source": "https://www.wikidata.org/wiki/Q124714245",
+    "platforms": null,
+    "wikidata_date": "2026-12-18"
   },
-  "es": {
-   "basic": [
-    "dune parte tres",
-    "dune parte 3",
-    "dune 3",
-    "dune mesías"
-   ],
-   "balanced": [
-    "paul atreides",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremen",
-    "arrakis",
-    "atreides"
-   ]
+  "season": null,
+  "wikidata": "Q124714245",
+  "checked": "2026-11-21",
+  "published": "2026-11-17",
+  "modified": "2026-11-18",
+  "words": {
+    "en": {
+      "basic": [
+        "dune part three",
+        "dune part 3",
+        "dune 3",
+        "dune messiah"
+      ],
+      "balanced": [
+        "paul atreides",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremen",
+        "arrakis",
+        "atreides"
+      ]
+    },
+    "de": {
+      "basic": [
+        "dune teil drei",
+        "dune teil 3",
+        "dune 3",
+        "der herr des wüstenplaneten"
+      ],
+      "balanced": [
+        "paul atreides",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremen",
+        "arrakis",
+        "atreides"
+      ]
+    },
+    "es": {
+      "basic": [
+        "dune parte tres",
+        "dune parte 3",
+        "dune 3",
+        "dune mesías"
+      ],
+      "balanced": [
+        "paul atreides",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremen",
+        "arrakis",
+        "atreides"
+      ]
+    },
+    "fr": {
+      "basic": [
+        "dune troisième partie",
+        "dune partie 3",
+        "dune 3",
+        "le messie de dune"
+      ],
+      "balanced": [
+        "paul atréides",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremen",
+        "arrakis",
+        "atréides"
+      ]
+    },
+    "it": {
+      "basic": [
+        "dune parte tre",
+        "dune parte 3",
+        "dune 3",
+        "il messia di dune"
+      ],
+      "balanced": [
+        "paul atreides",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremen",
+        "arrakis",
+        "atreides"
+      ]
+    },
+    "ja": {
+      "basic": [
+        "デューン 砂の惑星 part3",
+        "デューン part3",
+        "デューン3",
+        "デューン 砂の惑星 メシア"
+      ],
+      "balanced": [
+        "ポール・アトレイデス",
+        "ムアディブ",
+        "レト2世",
+        "アリア",
+        "チャニ",
+        "フレメン",
+        "アラキス",
+        "アトレイデス"
+      ]
+    },
+    "ko": {
+      "basic": [
+        "듄 파트 3",
+        "듄 파트3",
+        "듄 3",
+        "듄 메시아"
+      ],
+      "balanced": [
+        "폴 아트레이데스",
+        "무앗딥",
+        "레토 2세",
+        "알리아",
+        "차니",
+        "프레멘",
+        "아라키스",
+        "아트레이데스"
+      ]
+    },
+    "pl": {
+      "basic": [
+        "diuna część trzecia",
+        "diuna część 3",
+        "diuna 3",
+        "diuna mesjasz"
+      ],
+      "balanced": [
+        "paul atryda",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremeni",
+        "arrakis",
+        "atrydzi"
+      ]
+    },
+    "pt-BR": {
+      "basic": [
+        "duna parte três",
+        "duna parte 3",
+        "duna 3",
+        "messias de duna"
+      ],
+      "balanced": [
+        "paul atreides",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremen",
+        "arrakis",
+        "atreides"
+      ]
+    },
+    "ru": {
+      "basic": [
+        "дюна часть третья",
+        "дюна часть 3",
+        "дюна 3",
+        "дюна мессия"
+      ],
+      "balanced": [
+        "пол атрейдес",
+        "муад диб",
+        "лето ii",
+        "алия",
+        "чани",
+        "фремены",
+        "арракис",
+        "атрейдес"
+      ]
+    },
+    "tr": {
+      "basic": [
+        "dune üçüncü bölüm",
+        "dune bölüm 3",
+        "dune 3",
+        "dune messiah"
+      ],
+      "balanced": [
+        "paul atreides",
+        "muad dib",
+        "alia",
+        "chani",
+        "fremen",
+        "arrakis",
+        "atreides"
+      ]
+    },
+    "uk": {
+      "basic": [
+        "дюна частина третя",
+        "дюна частина 3",
+        "дюна 3",
+        "дюна месія"
+      ],
+      "balanced": [
+        "пол атрейдес",
+        "муад діб",
+        "лето ii",
+        "алія",
+        "чані",
+        "фремени",
+        "арракіс",
+        "атрейдес"
+      ]
+    },
+    "zh-CN": {
+      "basic": [
+        "沙丘3",
+        "沙丘 第三部",
+        "沙丘 part3",
+        "沙丘救世主"
+      ],
+      "balanced": [
+        "保罗·厄崔迪",
+        "穆阿迪布",
+        "莱托二世",
+        "艾莉娅",
+        "契妮",
+        "弗雷曼人",
+        "厄拉科斯",
+        "厄崔迪"
+      ]
+    }
   },
-  "fr": {
-   "basic": [
-    "dune troisième partie",
-    "dune partie 3",
-    "dune 3",
-    "le messie de dune"
-   ],
-   "balanced": [
-    "paul atréides",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremen",
-    "arrakis",
-    "atréides"
-   ]
+  "spoiler_blocklist": [],
+  "spoiler_safe_verified": true,
+  "texts": {
+    "en": {
+      "name": "Dune: Part Three",
+      "desc": "Dune: Part Three is out {D}. It adapts Dune Messiah, so the story is already online. Words to mute on X, Threads and TikTok, and what no filter catches.",
+      "lead": "It adapts <em>Dune Messiah</em>, a novel from 1969, so the story is already out there. What to mute, where, and what no setting can catch.",
+      "why_h": "The book is the biggest spoiler",
+      "why": "<p>For most films spoilers start at the premiere. For this one they already exist: plot summaries of Dune Messiah are one search away, and book readers bring them up under trailers, in \"what to expect\" videos and in casting news. If you have not read it, treat anything that mentions Messiah as a spoiler.</p><p>Film details then arrive a few days before {D0} from premieres and press screenings, and \"book vs movie\" breakdowns appear on opening night. Do not mute plain \"Dune\": it also hides Dune: Prophecy and unrelated news.</p>",
+      "unknown": "Changes the film makes to the book cannot be predicted.",
+      "demo": "Dune Part Three: the ending explained",
+      "cover_line": "The ending",
+      "faq": [
+        [
+          "When does Dune: Part Three come out?",
+          "It is scheduled for cinemas on {D}."
+        ],
+        [
+          "Is it based on a book?",
+          "Yes, on Dune Messiah by Frank Herbert (1969), so the main story is widely discussed online."
+        ],
+        [
+          "Which words should I mute?",
+          "The film title and Dune Messiah, with words like ending, spoilers, who dies and book vs movie."
+        ],
+        [
+          "Can I mute words on YouTube?",
+          "No. YouTube has no keyword mute. In a desktop browser an extension can do it."
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Дюна: Частина третя",
+      "desc": "«Дюна: Частина третя» виходить {D}. Фільм знято за «Месією Дюни», тож сюжет уже є в мережі. Які слова заглушити в X, Threads і TikTok і що не ловить жоден фільтр.",
+      "lead": "Фільм знято за «Месією Дюни», романом 1969 року, тож історія вже давно відома. Що заглушити, де саме і чого не зловить жодне налаштування.",
+      "why_h": "Найбільший спойлер тут книга",
+      "why": "<p>Зазвичай спойлери починаються з премʼєри. Тут вони вже існують: переказ «Месії Дюни» знаходиться за один запит, а ті, хто читав книгу, згадують його під трейлерами, у відео «чого чекати» і в новинах про акторів. Якщо ти не читав, вважай спойлером усе, що згадує «Месію».</p><p>Деталі самого фільму зʼявляться за кілька днів до {D0} з премʼєр і пресових показів, а розбори «книга проти фільму» вийдуть у ніч старту. Не заглушуй просто «Дюна»: так зникнуть і «Дюна: Пророцтво», і зовсім інші новини.</p>",
+      "unknown": "Що фільм змінить у книзі, передбачити неможливо.",
+      "demo": "Дюна 3: пояснення кінцівки",
+      "cover_line": "Кінцівка",
+      "faq": [
+        [
+          "Коли виходить «Дюна: Частина третя»?",
+          "Вихід у кіно заплановано на {D}."
+        ],
+        [
+          "Фільм знято за книгою?",
+          "Так, за «Месією Дюни» Френка Герберта (1969), тож головний сюжет широко обговорюють у мережі."
+        ],
+        [
+          "Які слова заглушити?",
+          "Назву фільму і «Месія Дюни» разом зі словами «кінцівка», «спойлери», «хто помре» та «книга проти фільму»."
+        ],
+        [
+          "Чи можна заглушити слова на YouTube?",
+          "Ні. На YouTube немає фільтра за словами. У браузері на компʼютері це вміє розширення."
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Дюна: Часть третья",
+      "desc": "«Дюна: Часть третья» выходит {D}. Фильм снят по «Мессии Дюны», так что сюжет уже есть в сети. Какие слова скрыть в X, Threads и TikTok и что не ловит ни один фильтр.",
+      "lead": "Фильм снят по «Мессии Дюны», роману 1969 года, так что история давно известна. Что скрыть, где именно и чего не поймает ни одна настройка.",
+      "why_h": "Главный спойлер тут книга",
+      "why": "<p>Обычно спойлеры начинаются с премьеры. Здесь они уже есть: пересказ «Мессии Дюны» находится за один запрос, а читавшие книгу упоминают его под трейлерами, в видео «чего ждать» и в новостях о касте. Если ты не читал, считай спойлером всё, где упоминается «Мессия».</p><p>Детали самого фильма появятся за несколько дней до {D0} с премьер и пресс-показов, а разборы «книга против фильма» выйдут в ночь старта. Не скрывай просто «Дюна»: так пропадут и «Дюна: Пророчество», и совсем другие новости.</p>",
+      "unknown": "Что фильм изменит в книге, предсказать нельзя.",
+      "demo": "Дюна 3: объяснение концовки",
+      "cover_line": "Концовка",
+      "faq": [
+        [
+          "Когда выходит «Дюна: Часть третья»?",
+          "Выход в кино запланирован на {D}."
+        ],
+        [
+          "Фильм снят по книге?",
+          "Да, по «Мессии Дюны» Фрэнка Герберта (1969), поэтому основной сюжет широко обсуждают в сети."
+        ],
+        [
+          "Какие слова скрыть?",
+          "Название фильма и «Мессия Дюны» вместе со словами «концовка», «спойлеры», «кто умрёт» и «книга против фильма»."
+        ],
+        [
+          "Можно ли скрыть слова на YouTube?",
+          "Нет. На YouTube нет фильтра по словам. В браузере на компьютере это умеет расширение."
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Diuna: Część trzecia",
+      "desc": "„Diuna: Część trzecia” wchodzi do kin {D}. Film powstał na podstawie „Mesjasza Diuny”, więc fabuła jest już w sieci. Jakie słowa wyciszyć na X, Threads i TikToku.",
+      "lead": "Film powstał na podstawie „Mesjasza Diuny”, powieści z 1969 roku, więc historia jest znana od dawna. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
+      "why_h": "Największym spoilerem jest książka",
+      "why": "<p>Zwykle spoilery zaczynają się od premiery. Tu już istnieją: streszczenie „Mesjasza Diuny” jest o jedno wyszukiwanie, a czytelnicy książki wspominają je pod zwiastunami, w filmach „czego się spodziewać” i w newsach o obsadzie. Jeśli nie czytałeś, traktuj jako spoiler wszystko, co wspomina „Mesjasza”.</p><p>Szczegóły samego filmu pojawią się kilka dni przed {D0} z premier i pokazów prasowych, a porównania „książka kontra film” w noc premiery. Nie wyciszaj samego słowa „Diuna”: znikną też „Diuna: Proroctwo” i zupełnie inne newsy.</p>",
+      "unknown": "Nie da się przewidzieć, co film zmieni względem książki.",
+      "demo": "Diuna 3: wyjaśnienie zakończenia",
+      "cover_line": "Zakończenie",
+      "faq": [
+        [
+          "Kiedy premiera „Diuny: Część trzecia”?",
+          "Premiera kinowa jest planowana na {D}."
+        ],
+        [
+          "Czy film powstał na podstawie książki?",
+          "Tak, na podstawie „Mesjasza Diuny” Franka Herberta (1969), więc główna fabuła jest szeroko omawiana w sieci."
+        ],
+        [
+          "Jakie słowa wyciszyć?",
+          "Tytuł filmu i „Mesjasz Diuny” razem ze słowami „zakończenie”, „spoilery”, „kto zginie” i „książka kontra film”."
+        ],
+        [
+          "Czy da się wyciszyć słowa na YouTube?",
+          "Nie. YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie."
+        ]
+      ]
+    },
+    "de": {
+      "name": "Dune: Part Three",
+      "desc": "Dune: Part Three startet am {D}. Der Film basiert auf „Der Herr des Wüstenplaneten“, die Handlung steht also schon im Netz. Welche Wörter du auf X, Threads und TikTok stummschaltest.",
+      "lead": "Der Film basiert auf <em>Der Herr des Wüstenplaneten</em> (Dune Messiah), einem Roman von 1969. Die Geschichte ist also längst bekannt. Was du stummschaltest, wo, und was keine Einstellung fängt.",
+      "why_h": "Der größte Spoiler ist das Buch",
+      "why": "<p>Bei den meisten Filmen beginnen Spoiler mit der Premiere. Hier gibt es sie schon: Zusammenfassungen von Dune Messiah sind eine Suche entfernt, und Buchleser erwähnen sie unter Trailern, in „Was erwartet uns“-Videos und in Besetzungsnews. Wenn du es nicht gelesen hast, behandle alles, was „Messiah“ erwähnt, als Spoiler.</p><p>Details zum Film kommen dann ein paar Tage vor dem {D0} von Premieren und Pressevorführungen, und „Buch gegen Film“-Vergleiche erscheinen in der Startnacht. Schalte nicht einfach „Dune“ stumm: Dann verschwinden auch Dune: Prophecy und fremde News.</p>",
+      "unknown": "Was der Film gegenüber dem Buch ändert, lässt sich nicht vorhersagen.",
+      "demo": "Dune Part Three: das Ende erklärt",
+      "cover_line": "Das Ende",
+      "faq": [
+        [
+          "Wann startet Dune: Part Three?",
+          "Der Kinostart ist für den {D} geplant."
+        ],
+        [
+          "Basiert der Film auf einem Buch?",
+          "Ja, auf Dune Messiah (Der Herr des Wüstenplaneten) von Frank Herbert (1969). Die Haupthandlung wird online viel besprochen."
+        ],
+        [
+          "Welche Wörter soll ich stummschalten?",
+          "Den Filmtitel und Dune Messiah, dazu Wörter wie Ende, Spoiler, wer stirbt und Buch gegen Film."
+        ],
+        [
+          "Kann ich auf YouTube Wörter stummschalten?",
+          "Nein. YouTube hat keinen Wortfilter. Im Desktop-Browser schafft das eine Erweiterung."
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Dune : Troisième partie",
+      "desc": "Dune : Troisième partie sort le {D}. Le film adapte Le Messie de Dune, donc l'histoire est déjà en ligne. Les mots à masquer sur X, Threads et TikTok, et ce qu'aucun filtre n'attrape.",
+      "lead": "Le film adapte <em>Le Messie de Dune</em>, un roman de 1969 : l'histoire est donc connue depuis longtemps. Quoi masquer, où, et ce qu'aucun réglage n'attrape.",
+      "why_h": "Le plus gros spoiler, c'est le livre",
+      "why": "<p>Pour la plupart des films, les spoilers commencent à la première. Ici, ils existent déjà : les résumés du Messie de Dune sont à une recherche, et les lecteurs du livre en parlent sous les bandes-annonces, dans les vidéos « à quoi s'attendre » et dans les actus de casting. Si tu ne l'as pas lu, considère tout ce qui mentionne le Messie comme un spoiler.</p><p>Les détails du film arrivent ensuite quelques jours avant le {D0}, avec les avant-premières et projections presse, et les comparatifs « livre contre film » sortent le soir de la sortie. Ne masque pas simplement « Dune » : tu cacherais aussi Dune: Prophecy et des actus sans rapport.</p>",
+      "unknown": "Impossible de prévoir ce que le film changera par rapport au livre.",
+      "demo": "Dune 3 : la fin expliquée",
+      "cover_line": "La fin",
+      "faq": [
+        [
+          "Quand sort Dune : Troisième partie ?",
+          "La sortie au cinéma est prévue le {D}."
+        ],
+        [
+          "Le film est-il tiré d'un livre ?",
+          "Oui, du Messie de Dune de Frank Herbert (1969), donc l'histoire principale est largement discutée en ligne."
+        ],
+        [
+          "Quels mots masquer ?",
+          "Le titre du film et Le Messie de Dune, avec des mots comme fin, spoilers, qui meurt et livre contre film."
+        ],
+        [
+          "Peut-on masquer des mots sur YouTube ?",
+          "Non. YouTube n'a pas de filtre de mots. Dans un navigateur d'ordinateur, une extension peut le faire."
+        ]
+      ]
+    },
+    "es": {
+      "name": "Dune: Parte tres",
+      "desc": "Dune: Parte tres se estrena el {D}. Adapta El mesías de Dune, así que la historia ya está en internet. Qué palabras silenciar en X, Threads y TikTok y qué no detecta ningún filtro.",
+      "lead": "Adapta <em>El mesías de Dune</em>, una novela de 1969, así que la historia ya se conoce. Qué silenciar, dónde y qué no detecta ningún ajuste.",
+      "why_h": "El mayor spoiler es el libro",
+      "why": "<p>En casi todas las películas los spoilers empiezan con el estreno. Aquí ya existen: los resúmenes de El mesías de Dune están a una búsqueda, y quienes leyeron el libro los sacan bajo los tráileres, en vídeos de «qué esperar» y en noticias del reparto. Si no lo has leído, trata como spoiler todo lo que mencione al Mesías.</p><p>Los detalles de la película llegarán unos días antes del {D0} desde premieres y pases de prensa, y las comparativas «libro contra película» salen la noche del estreno. No silencies solo «Dune»: también ocultarías Dune: La profecía y noticias que no tienen nada que ver.</p>",
+      "unknown": "No se puede prever qué cambiará la película respecto al libro.",
+      "demo": "Dune 3: el final explicado",
+      "cover_line": "El final",
+      "faq": [
+        [
+          "¿Cuándo se estrena Dune: Parte tres?",
+          "El estreno en cines está previsto para el {D}."
+        ],
+        [
+          "¿Está basada en un libro?",
+          "Sí, en El mesías de Dune de Frank Herbert (1969), así que la historia principal se comenta mucho en internet."
+        ],
+        [
+          "¿Qué palabras silencio?",
+          "El título de la película y El mesías de Dune, con palabras como final, spoilers, quién muere y libro contra película."
+        ],
+        [
+          "¿Puedo silenciar palabras en YouTube?",
+          "No. YouTube no tiene filtro de palabras. En un navegador de escritorio lo hace una extensión."
+        ]
+      ]
+    },
+    "it": {
+      "name": "Dune: Parte tre",
+      "desc": "Dune: Parte tre esce il {D}. Adatta Il messia di Dune, quindi la storia è già online. Le parole da silenziare su X, Threads e TikTok e cosa nessun filtro intercetta.",
+      "lead": "Adatta <em>Il messia di Dune</em>, un romanzo del 1969, quindi la storia è nota da tempo. Cosa silenziare, dove e cosa nessuna impostazione intercetta.",
+      "why_h": "Lo spoiler più grande è il libro",
+      "why": "<p>Per quasi tutti i film gli spoiler partono con la prima. Qui esistono già: i riassunti del Messia di Dune sono a una ricerca di distanza, e chi ha letto il libro li tira fuori sotto i trailer, nei video «cosa aspettarsi» e nelle notizie sul cast. Se non l'hai letto, considera spoiler tutto ciò che nomina il Messia.</p><p>I dettagli del film arriveranno qualche giorno prima del {D0} da anteprime e proiezioni stampa, e i confronti «libro contro film» escono la sera dell'uscita. Non silenziare solo «Dune»: spariscono anche Dune: Prophecy e notizie che non c'entrano.</p>",
+      "unknown": "Non si può prevedere cosa il film cambierà rispetto al libro.",
+      "demo": "Dune 3: il finale spiegato",
+      "cover_line": "Il finale",
+      "faq": [
+        [
+          "Quando esce Dune: Parte tre?",
+          "L'uscita al cinema è prevista per il {D}."
+        ],
+        [
+          "È tratto da un libro?",
+          "Sì, da Il messia di Dune di Frank Herbert (1969), quindi la trama principale è molto discussa online."
+        ],
+        [
+          "Quali parole silenziare?",
+          "Il titolo del film e Il messia di Dune, con parole come finale, spoiler, chi muore e libro contro film."
+        ],
+        [
+          "Posso silenziare parole su YouTube?",
+          "No. YouTube non ha un filtro parole. In un browser desktop lo fa un'estensione."
+        ]
+      ]
+    },
+    "pt-BR": {
+      "name": "Duna: Parte Três",
+      "desc": "Duna: Parte Três estreia em {D}. O filme adapta O Messias de Duna, então a história já está na internet. Quais palavras silenciar no X, Threads e TikTok.",
+      "lead": "O filme adapta <em>O Messias de Duna</em>, um romance de 1969, então a história já é conhecida. O que silenciar, onde e o que nenhuma configuração pega.",
+      "why_h": "O maior spoiler é o livro",
+      "why": "<p>Na maioria dos filmes os spoilers começam na estreia. Aqui eles já existem: resumos de O Messias de Duna estão a uma busca de distância, e quem leu o livro fala deles nos trailers, em vídeos de \"o que esperar\" e nas notícias de elenco. Se você não leu, trate como spoiler tudo que menciona o Messias.</p><p>Os detalhes do filme chegam alguns dias antes de {D0} com pré-estreias e sessões para a imprensa, e as comparações \"livro x filme\" saem na noite da estreia. Não silencie só \"Duna\": isso esconde também Duna: A Profecia e notícias sem relação.</p>",
+      "unknown": "Não dá para prever o que o filme vai mudar em relação ao livro.",
+      "demo": "Duna 3: o final explicado",
+      "cover_line": "O final",
+      "faq": [
+        [
+          "Quando estreia Duna: Parte Três?",
+          "A estreia nos cinemas está prevista para {D}."
+        ],
+        [
+          "É baseado em um livro?",
+          "Sim, em O Messias de Duna, de Frank Herbert (1969), então a história principal é muito discutida na internet."
+        ],
+        [
+          "Quais palavras devo silenciar?",
+          "O título do filme e O Messias de Duna, com palavras como final, spoilers, quem morre e livro x filme."
+        ],
+        [
+          "Dá para silenciar palavras no YouTube?",
+          "Não. O YouTube não tem filtro de palavras. No navegador do computador, uma extensão faz isso."
+        ]
+      ]
+    },
+    "tr": {
+      "name": "Dune: Çöl Gezegeni Bölüm Üç",
+      "desc": "Dune: Çöl Gezegeni Bölüm Üç {D} tarihinde vizyonda. Film Dune Mesihi'ni uyarlıyor, yani hikâye zaten internette. X, Threads ve TikTok'ta sessize alınacak kelimeler.",
+      "lead": "Film 1969 tarihli <em>Dune Mesihi</em> romanını uyarlıyor, yani hikâye çoktan biliniyor. Neyi, nerede sessize alacağın ve hiçbir ayarın yakalayamadıkları.",
+      "why_h": "En büyük spoiler kitabın kendisi",
+      "why": "<p>Çoğu filmde spoiler'lar vizyonla başlar. Bunda zaten var: Dune Mesihi'nin özeti tek aramalık mesafede ve kitabı okuyanlar onu fragmanların altında, “neler bekliyor” videolarında ve oyuncu haberlerinde anıyor. Okumadıysan Mesih'ten bahseden her şeyi spoiler say.</p><p>Filmin ayrıntıları {D0} tarihinden birkaç gün önce galalardan ve basın gösterimlerinden gelir, “kitap mı film mi” karşılaştırmaları da vizyon gecesi çıkar. Sadece “Dune” kelimesini sessize alma: Dune: Prophecy ve alakasız haberler de gizlenir.</p>",
+      "unknown": "Filmin kitapta neyi değiştireceği önceden bilinemez.",
+      "demo": "Dune 3: sonun açıklaması",
+      "cover_line": "Sonu",
+      "faq": [
+        [
+          "Dune: Çöl Gezegeni Bölüm Üç ne zaman çıkıyor?",
+          "Sinemalarda {D} tarihinde vizyona girmesi planlanıyor."
+        ],
+        [
+          "Film bir kitaba mı dayanıyor?",
+          "Evet, Frank Herbert'ın Dune Mesihi (1969) romanına. Bu yüzden ana hikâye internette çok konuşuluyor."
+        ],
+        [
+          "Hangi kelimeleri sessize almalıyım?",
+          "Filmin adını ve Dune Mesihi'ni; sonu, spoiler, kim ölüyor ve kitap mı film mi gibi kelimelerle birlikte."
+        ],
+        [
+          "YouTube'da kelime sessize alınabilir mi?",
+          "Hayır. YouTube'da kelime filtresi yok. Bilgisayar tarayıcısında bunu bir eklenti yapabilir."
+        ]
+      ]
+    },
+    "ja": {
+      "name": "デューン 砂の惑星PART3",
+      "desc": "『デューン 砂の惑星PART3』は{D}公開予定。原作は『デューン 砂漠の救世主』なので、物語はすでにネット上にあります。X、Threads、TikTokでミュートする単語と、どのフィルターでも防げないもの。",
+      "lead": "原作は1969年の小説<em>『デューン 砂漠の救世主』</em>。物語はとっくに知られています。何を、どこでミュートするか、そしてどの設定でも防げないもの。",
+      "why_h": "最大のネタバレは原作小説",
+      "why": "<p>多くの映画では、ネタバレは公開日から始まります。この作品はすでに存在します。『砂漠の救世主』のあらすじは検索ひとつで出てきて、原作を読んだ人は予告編の下や「予想」動画、キャスト情報で話題にします。読んでいないなら、「救世主」に触れているものはすべてネタバレと考えてください。</p><p>映画そのものの情報は、{D0}の数日前にプレミアや試写会から出てきます。「原作と映画の違い」の解説は公開初日の夜に出ます。「デューン」だけをミュートするのはやめましょう。『デューン 預言』や関係ないニュースまで消えてしまいます。</p>",
+      "unknown": "映画が原作をどう変えるかは予測できません。",
+      "demo": "デューン PART3：結末を解説",
+      "cover_line": "結末",
+      "faq": [
+        [
+          "『デューン 砂の惑星PART3』はいつ公開？",
+          "劇場公開は{D}の予定です。"
+        ],
+        [
+          "原作はある？",
+          "あります。フランク・ハーバートの『デューン 砂漠の救世主』（1969年）なので、主な物語はネットで広く語られています。"
+        ],
+        [
+          "どの単語をミュートすればいい？",
+          "作品名と「砂漠の救世主」に、「結末」「ネタバレ」「誰が死ぬ」「原作との違い」などを組み合わせます。"
+        ],
+        [
+          "YouTubeで単語をミュートできる？",
+          "できません。YouTubeには単語のミュート機能がありません。パソコンのブラウザなら拡張機能で可能です。"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "듄: 파트3",
+      "desc": "《듄: 파트3》는 {D} 개봉 예정입니다. 원작이 《듄의 메시아》라서 줄거리는 이미 인터넷에 있습니다. X, Threads, TikTok에서 뮤트할 단어와 어떤 필터도 못 잡는 것.",
+      "lead": "1969년 소설 <em>《듄의 메시아》</em>가 원작이라 이야기는 이미 알려져 있습니다. 무엇을, 어디서 뮤트할지, 그리고 어떤 설정으로도 못 막는 것.",
+      "why_h": "가장 큰 스포일러는 원작 소설",
+      "why": "<p>대부분의 영화는 개봉과 함께 스포일러가 시작됩니다. 이 작품은 이미 있습니다. 《듄의 메시아》 줄거리는 검색 한 번이면 나오고, 원작을 읽은 사람들은 예고편 댓글, \"예상\" 영상, 캐스팅 소식에서 이를 언급합니다. 읽지 않았다면 \"메시아\"를 언급하는 건 모두 스포일러로 생각하세요.</p><p>영화 자체의 정보는 {D0} 며칠 전 시사회와 언론 시사에서 나오고, \"원작 vs 영화\" 비교는 개봉일 밤에 올라옵니다. \"듄\"만 뮤트하지 마세요. 《듄: 프로퍼시》와 상관없는 소식까지 사라집니다.</p>",
+      "unknown": "영화가 원작에서 무엇을 바꿀지는 예측할 수 없습니다.",
+      "demo": "듄 파트3: 결말 해석",
+      "cover_line": "결말",
+      "faq": [
+        [
+          "《듄: 파트3》는 언제 개봉하나요?",
+          "극장 개봉은 {D}로 예정되어 있습니다."
+        ],
+        [
+          "원작 소설이 있나요?",
+          "네, 프랭크 허버트의 《듄의 메시아》(1969)가 원작이라 주요 줄거리가 인터넷에서 많이 이야기됩니다."
+        ],
+        [
+          "어떤 단어를 뮤트해야 하나요?",
+          "작품 제목과 \"듄의 메시아\"에 결말, 스포일러, 누가 죽어, 원작 vs 영화 같은 단어를 함께 쓰세요."
+        ],
+        [
+          "YouTube에서 단어를 뮤트할 수 있나요?",
+          "아니요. YouTube에는 단어 뮤트 기능이 없습니다. 컴퓨터 브라우저에서는 확장 프로그램으로 가능합니다."
+        ]
+      ]
+    },
+    "zh-CN": {
+      "name": "沙丘3",
+      "desc": "《沙丘3》预计于{D}上映。电影改编自《沙丘救世主》，所以剧情早已在网上。在 X、Threads 和 TikTok 上要屏蔽哪些词，以及任何过滤器都拦不住的内容。",
+      "lead": "电影改编自1969年的小说<em>《沙丘救世主》</em>，故事早就为人所知。屏蔽什么、在哪里屏蔽，以及任何设置都拦不住的内容。",
+      "why_h": "最大的剧透是原著小说",
+      "why": "<p>大多数电影的剧透从上映开始。这部不一样，剧透早就存在：《沙丘救世主》的剧情梗概一搜就有，读过原著的人会在预告片下面、\"预测\"视频和选角新闻里提起。如果你没读过，凡是提到\"救世主\"的内容都当作剧透。</p><p>电影本身的细节会在{D0}前几天随首映和媒体场流出，\"原著对比电影\"的解析会在上映当晚出现。不要只屏蔽\"沙丘\"：这样《沙丘：预言》和无关新闻也会被隐藏。</p>",
+      "unknown": "电影会对原著做哪些改动，无法预测。",
+      "demo": "沙丘3：结局解析",
+      "cover_line": "结局",
+      "faq": [
+        [
+          "《沙丘3》什么时候上映？",
+          "预计于{D}在影院上映。"
+        ],
+        [
+          "电影改编自小说吗？",
+          "是的，改编自弗兰克·赫伯特的《沙丘救世主》（1969），所以主要剧情在网上被广泛讨论。"
+        ],
+        [
+          "应该屏蔽哪些词？",
+          "片名和\"沙丘救世主\"，再加上结局、剧透、谁会死、原著对比电影等词。"
+        ],
+        [
+          "YouTube 能屏蔽词语吗？",
+          "不能。YouTube 没有关键词屏蔽功能。在电脑浏览器里可以用扩展来做到。"
+        ]
+      ]
+    }
   },
-  "it": {
-   "basic": [
-    "dune parte tre",
-    "dune parte 3",
-    "dune 3",
-    "il messia di dune"
-   ],
-   "balanced": [
-    "paul atreides",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremen",
-    "arrakis",
-    "atreides"
-   ]
+  "old_urls": {
+    "en": [
+      "avoid-dune-part-three-spoilers.html",
+      "block/dune-3.html",
+      "mute-list/dune-3.html"
+    ],
+    "de": [
+      "avoid-dune-part-three-spoilers.de.html"
+    ],
+    "es": [
+      "avoid-dune-part-three-spoilers.es.html"
+    ],
+    "fr": [
+      "avoid-dune-part-three-spoilers.fr.html"
+    ],
+    "it": [
+      "avoid-dune-part-three-spoilers.it.html"
+    ],
+    "ja": [
+      "avoid-dune-part-three-spoilers.ja.html"
+    ],
+    "ko": [
+      "avoid-dune-part-three-spoilers.ko.html"
+    ],
+    "pl": [
+      "avoid-dune-part-three-spoilers.pl.html"
+    ],
+    "pt-BR": [
+      "avoid-dune-part-three-spoilers.pt-br.html"
+    ],
+    "ru": [
+      "avoid-dune-part-three-spoilers.ru.html"
+    ],
+    "tr": [
+      "avoid-dune-part-three-spoilers.tr.html"
+    ],
+    "uk": [
+      "avoid-dune-part-three-spoilers.uk.html"
+    ],
+    "zh-CN": [
+      "avoid-dune-part-three-spoilers.zh-cn.html"
+    ]
   },
-  "ja": {
-   "basic": [
-    "デューン 砂の惑星 part3",
-    "デューン part3",
-    "デューン3",
-    "デューン 砂の惑星 メシア"
-   ],
-   "balanced": [
-    "ポール・アトレイデス",
-    "ムアディブ",
-    "レト2世",
-    "アリア",
-    "チャニ",
-    "フレメン",
-    "アラキス",
-    "アトレイデス"
-   ]
+  "legacy": {
+    "page": "avoid-dune-part-three-spoilers",
+    "kind": "film"
   },
-  "ko": {
-   "basic": [
-    "듄 파트 3",
-    "듄 파트3",
-    "듄 3",
-    "듄 메시아"
-   ],
-   "balanced": [
-    "폴 아트레이데스",
-    "무앗딥",
-    "레토 2세",
-    "알리아",
-    "차니",
-    "프레멘",
-    "아라키스",
-    "아트레이데스"
-   ]
-  },
-  "pl": {
-   "basic": [
-    "diuna część trzecia",
-    "diuna część 3",
-    "diuna 3",
-    "diuna mesjasz"
-   ],
-   "balanced": [
-    "paul atryda",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremeni",
-    "arrakis",
-    "atrydzi"
-   ]
-  },
-  "pt-BR": {
-   "basic": [
-    "duna parte três",
-    "duna parte 3",
-    "duna 3",
-    "messias de duna"
-   ],
-   "balanced": [
-    "paul atreides",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremen",
-    "arrakis",
-    "atreides"
-   ]
-  },
-  "ru": {
-   "basic": [
-    "дюна часть третья",
-    "дюна часть 3",
-    "дюна 3",
-    "дюна мессия"
-   ],
-   "balanced": [
-    "пол атрейдес",
-    "муад диб",
-    "лето ii",
-    "алия",
-    "чани",
-    "фремены",
-    "арракис",
-    "атрейдес"
-   ]
-  },
-  "tr": {
-   "basic": [
-    "dune üçüncü bölüm",
-    "dune bölüm 3",
-    "dune 3",
-    "dune messiah"
-   ],
-   "balanced": [
-    "paul atreides",
-    "muad dib",
-    "alia",
-    "chani",
-    "fremen",
-    "arrakis",
-    "atreides"
-   ]
-  },
-  "uk": {
-   "basic": [
-    "дюна частина третя",
-    "дюна частина 3",
-    "дюна 3",
-    "дюна месія"
-   ],
-   "balanced": [
-    "пол атрейдес",
-    "муад діб",
-    "лето ii",
-    "алія",
-    "чані",
-    "фремени",
-    "арракіс",
-    "атрейдес"
-   ]
-  },
-  "zh-CN": {
-   "basic": [
-    "沙丘3",
-    "沙丘 第三部",
-    "沙丘 part3",
-    "沙丘救世主"
-   ],
-   "balanced": [
-    "保罗·厄崔迪",
-    "穆阿迪布",
-    "莱托二世",
-    "艾莉娅",
-    "契妮",
-    "弗雷曼人",
-    "厄拉科斯",
-    "厄崔迪"
-   ]
+  "changelog": [],
+  "intel": {
+    "checked": "2026-11-28",
+    "facts": [
+      {
+        "type": "release_country",
+        "date": "2026-01-01",
+        "place": "worldwide",
+        "note": "release in worldwide",
+        "sources": [
+          {
+            "host": "wikidata.org",
+            "url": "https://www.wikidata.org/wiki/Q124714245",
+            "quote": ""
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "early_screening",
+        "date": "2026-11-13",
+        "place": "IMAX theaters",
+        "note": "IMAX double feature re-release with sneak peek",
+        "sources": [
+          {
+            "host": "hypebeast.com",
+            "url": "https://hypebeast.com/2026/11/dune-films-returning-to-imax-theaters-exclusive-dune-part-three-sneak-peek-revealed",
+            "quote": "Screenings kick off with a one-day double feature on November 13 followed by individual showtimes through November 18"
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "early_screening",
+        "date": "2026-12-14",
+        "place": "IMAX 70mm",
+        "note": "Dune Insiders early IMAX 70mm screenings",
+        "sources": [
+          {
+            "host": "gizmodo.com",
+            "url": "https://gizmodo.com/dune-part-three-tickets-on-sale-new-footage-2000799980",
+            "quote": "offering \" Dune Insiders\" (aka, people who signed up on their website) screenings on December 14 in 70mm IMAX, December 15 in other IMAX theaters, and then December 17 in other premium format theaters."
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "early_screening",
+        "date": "2026-12-15",
+        "place": "La Garenne-Colombes",
+        "note": "Advance screening at Cinéma de La Garenne",
+        "sources": [
+          {
+            "host": "sortiraparis.com",
+            "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/cinema-series/articles/359629-dune-part-three-to-get-an-advance-screening-for-the-opening-of-the-garenne-cinema",
+            "quote": "The first screening is scheduled for the evening of Tuesday, December 15, 2026, with Dune: Part Three , Denis Villeneuve’s film, showing the day before its nationwide release."
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "early_screening",
+        "date": "2026-12-15",
+        "place": "IMAX theaters",
+        "note": "Dune Insiders early IMAX screenings",
+        "sources": [
+          {
+            "host": "gizmodo.com",
+            "url": "https://gizmodo.com/dune-part-three-tickets-on-sale-new-footage-2000799980",
+            "quote": "offering \" Dune Insiders\" (aka, people who signed up on their website) screenings on December 14 in 70mm IMAX, December 15 in other IMAX theaters, and then December 17 in other premium format theaters."
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "early_screening",
+        "date": "2026-12-17",
+        "place": "premium format theaters",
+        "note": "Dune Insiders early premium format screenings",
+        "sources": [
+          {
+            "host": "gizmodo.com",
+            "url": "https://gizmodo.com/dune-part-three-tickets-on-sale-new-footage-2000799980",
+            "quote": "offering \" Dune Insiders\" (aka, people who signed up on their website) screenings on December 14 in 70mm IMAX, December 15 in other IMAX theaters, and then December 17 in other premium format theaters."
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "release_country",
+        "date": "2026-12-17",
+        "place": "Hungary",
+        "note": "release in Hungary",
+        "sources": [
+          {
+            "host": "wikidata.org",
+            "url": "https://www.wikidata.org/wiki/Q124714245",
+            "quote": ""
+          }
+        ],
+        "status": "reported"
+      },
+      {
+        "type": "release_country",
+        "date": "2026-12-18",
+        "place": "United States",
+        "note": "release in United States",
+        "sources": [
+          {
+            "host": "wikidata.org",
+            "url": "https://www.wikidata.org/wiki/Q124714245",
+            "quote": ""
+          }
+        ],
+        "status": "reported"
+      }
+    ],
+    "threat": {
+      "level": "leaking",
+      "whispers_from": "2026-12-04",
+      "leaking_from": "2026-01-01",
+      "everyone_knows_from": "2026-12-26",
+      "all_clear": "2027-01-08",
+      "first_out": "2026-01-01"
+    }
   }
- },
- "spoiler_blocklist": [],
- "spoiler_safe_verified": true,
- "texts": {
-  "en": {
-   "name": "Dune: Part Three",
-   "desc": "Dune: Part Three is out {D}. It adapts Dune Messiah, so the story is already online. Words to mute on X, Threads and TikTok, and what no filter catches.",
-   "lead": "It adapts <em>Dune Messiah</em>, a novel from 1969, so the story is already out there. What to mute, where, and what no setting can catch.",
-   "why_h": "The book is the biggest spoiler",
-   "why": "<p>For most films spoilers start at the premiere. For this one they already exist: plot summaries of Dune Messiah are one search away, and book readers bring them up under trailers, in \"what to expect\" videos and in casting news. If you have not read it, treat anything that mentions Messiah as a spoiler.</p><p>Film details then arrive a few days before {D0} from premieres and press screenings, and \"book vs movie\" breakdowns appear on opening night. Do not mute plain \"Dune\": it also hides Dune: Prophecy and unrelated news.</p>",
-   "unknown": "Changes the film makes to the book cannot be predicted.",
-   "demo": "Dune Part Three: the ending explained",
-   "cover_line": "The ending",
-   "faq": [
-    [
-     "When does Dune: Part Three come out?",
-     "It is scheduled for cinemas on {D}."
-    ],
-    [
-     "Is it based on a book?",
-     "Yes, on Dune Messiah by Frank Herbert (1969), so the main story is widely discussed online."
-    ],
-    [
-     "Which words should I mute?",
-     "The film title and Dune Messiah, with words like ending, spoilers, who dies and book vs movie."
-    ],
-    [
-     "Can I mute words on YouTube?",
-     "No. YouTube has no keyword mute. In a desktop browser an extension can do it."
-    ]
-   ]
-  },
-  "uk": {
-   "name": "Дюна: Частина третя",
-   "desc": "«Дюна: Частина третя» виходить {D}. Фільм знято за «Месією Дюни», тож сюжет уже є в мережі. Які слова заглушити в X, Threads і TikTok і що не ловить жоден фільтр.",
-   "lead": "Фільм знято за «Месією Дюни», романом 1969 року, тож історія вже давно відома. Що заглушити, де саме і чого не зловить жодне налаштування.",
-   "why_h": "Найбільший спойлер тут книга",
-   "why": "<p>Зазвичай спойлери починаються з премʼєри. Тут вони вже існують: переказ «Месії Дюни» знаходиться за один запит, а ті, хто читав книгу, згадують його під трейлерами, у відео «чого чекати» і в новинах про акторів. Якщо ти не читав, вважай спойлером усе, що згадує «Месію».</p><p>Деталі самого фільму зʼявляться за кілька днів до {D0} з премʼєр і пресових показів, а розбори «книга проти фільму» вийдуть у ніч старту. Не заглушуй просто «Дюна»: так зникнуть і «Дюна: Пророцтво», і зовсім інші новини.</p>",
-   "unknown": "Що фільм змінить у книзі, передбачити неможливо.",
-   "demo": "Дюна 3: пояснення кінцівки",
-   "cover_line": "Кінцівка",
-   "faq": [
-    [
-     "Коли виходить «Дюна: Частина третя»?",
-     "Вихід у кіно заплановано на {D}."
-    ],
-    [
-     "Фільм знято за книгою?",
-     "Так, за «Месією Дюни» Френка Герберта (1969), тож головний сюжет широко обговорюють у мережі."
-    ],
-    [
-     "Які слова заглушити?",
-     "Назву фільму і «Месія Дюни» разом зі словами «кінцівка», «спойлери», «хто помре» та «книга проти фільму»."
-    ],
-    [
-     "Чи можна заглушити слова на YouTube?",
-     "Ні. На YouTube немає фільтра за словами. У браузері на компʼютері це вміє розширення."
-    ]
-   ]
-  },
-  "ru": {
-   "name": "Дюна: Часть третья",
-   "desc": "«Дюна: Часть третья» выходит {D}. Фильм снят по «Мессии Дюны», так что сюжет уже есть в сети. Какие слова скрыть в X, Threads и TikTok и что не ловит ни один фильтр.",
-   "lead": "Фильм снят по «Мессии Дюны», роману 1969 года, так что история давно известна. Что скрыть, где именно и чего не поймает ни одна настройка.",
-   "why_h": "Главный спойлер тут книга",
-   "why": "<p>Обычно спойлеры начинаются с премьеры. Здесь они уже есть: пересказ «Мессии Дюны» находится за один запрос, а читавшие книгу упоминают его под трейлерами, в видео «чего ждать» и в новостях о касте. Если ты не читал, считай спойлером всё, где упоминается «Мессия».</p><p>Детали самого фильма появятся за несколько дней до {D0} с премьер и пресс-показов, а разборы «книга против фильма» выйдут в ночь старта. Не скрывай просто «Дюна»: так пропадут и «Дюна: Пророчество», и совсем другие новости.</p>",
-   "unknown": "Что фильм изменит в книге, предсказать нельзя.",
-   "demo": "Дюна 3: объяснение концовки",
-   "cover_line": "Концовка",
-   "faq": [
-    [
-     "Когда выходит «Дюна: Часть третья»?",
-     "Выход в кино запланирован на {D}."
-    ],
-    [
-     "Фильм снят по книге?",
-     "Да, по «Мессии Дюны» Фрэнка Герберта (1969), поэтому основной сюжет широко обсуждают в сети."
-    ],
-    [
-     "Какие слова скрыть?",
-     "Название фильма и «Мессия Дюны» вместе со словами «концовка», «спойлеры», «кто умрёт» и «книга против фильма»."
-    ],
-    [
-     "Можно ли скрыть слова на YouTube?",
-     "Нет. На YouTube нет фильтра по словам. В браузере на компьютере это умеет расширение."
-    ]
-   ]
-  },
-  "pl": {
-   "name": "Diuna: Część trzecia",
-   "desc": "„Diuna: Część trzecia” wchodzi do kin {D}. Film powstał na podstawie „Mesjasza Diuny”, więc fabuła jest już w sieci. Jakie słowa wyciszyć na X, Threads i TikToku.",
-   "lead": "Film powstał na podstawie „Mesjasza Diuny”, powieści z 1969 roku, więc historia jest znana od dawna. Co wyciszyć, gdzie i czego nie złapie żadne ustawienie.",
-   "why_h": "Największym spoilerem jest książka",
-   "why": "<p>Zwykle spoilery zaczynają się od premiery. Tu już istnieją: streszczenie „Mesjasza Diuny” jest o jedno wyszukiwanie, a czytelnicy książki wspominają je pod zwiastunami, w filmach „czego się spodziewać” i w newsach o obsadzie. Jeśli nie czytałeś, traktuj jako spoiler wszystko, co wspomina „Mesjasza”.</p><p>Szczegóły samego filmu pojawią się kilka dni przed {D0} z premier i pokazów prasowych, a porównania „książka kontra film” w noc premiery. Nie wyciszaj samego słowa „Diuna”: znikną też „Diuna: Proroctwo” i zupełnie inne newsy.</p>",
-   "unknown": "Nie da się przewidzieć, co film zmieni względem książki.",
-   "demo": "Diuna 3: wyjaśnienie zakończenia",
-   "cover_line": "Zakończenie",
-   "faq": [
-    [
-     "Kiedy premiera „Diuny: Część trzecia”?",
-     "Premiera kinowa jest planowana na {D}."
-    ],
-    [
-     "Czy film powstał na podstawie książki?",
-     "Tak, na podstawie „Mesjasza Diuny” Franka Herberta (1969), więc główna fabuła jest szeroko omawiana w sieci."
-    ],
-    [
-     "Jakie słowa wyciszyć?",
-     "Tytuł filmu i „Mesjasz Diuny” razem ze słowami „zakończenie”, „spoilery”, „kto zginie” i „książka kontra film”."
-    ],
-    [
-     "Czy da się wyciszyć słowa na YouTube?",
-     "Nie. YouTube nie ma filtra słów. W przeglądarce na komputerze zrobi to rozszerzenie."
-    ]
-   ]
-  },
-  "de": {
-   "name": "Dune: Part Three",
-   "desc": "Dune: Part Three startet am {D}. Der Film basiert auf „Der Herr des Wüstenplaneten“, die Handlung steht also schon im Netz. Welche Wörter du auf X, Threads und TikTok stummschaltest.",
-   "lead": "Der Film basiert auf <em>Der Herr des Wüstenplaneten</em> (Dune Messiah), einem Roman von 1969. Die Geschichte ist also längst bekannt. Was du stummschaltest, wo, und was keine Einstellung fängt.",
-   "why_h": "Der größte Spoiler ist das Buch",
-   "why": "<p>Bei den meisten Filmen beginnen Spoiler mit der Premiere. Hier gibt es sie schon: Zusammenfassungen von Dune Messiah sind eine Suche entfernt, und Buchleser erwähnen sie unter Trailern, in „Was erwartet uns“-Videos und in Besetzungsnews. Wenn du es nicht gelesen hast, behandle alles, was „Messiah“ erwähnt, als Spoiler.</p><p>Details zum Film kommen dann ein paar Tage vor dem {D0} von Premieren und Pressevorführungen, und „Buch gegen Film“-Vergleiche erscheinen in der Startnacht. Schalte nicht einfach „Dune“ stumm: Dann verschwinden auch Dune: Prophecy und fremde News.</p>",
-   "unknown": "Was der Film gegenüber dem Buch ändert, lässt sich nicht vorhersagen.",
-   "demo": "Dune Part Three: das Ende erklärt",
-   "cover_line": "Das Ende",
-   "faq": [
-    [
-     "Wann startet Dune: Part Three?",
-     "Der Kinostart ist für den {D} geplant."
-    ],
-    [
-     "Basiert der Film auf einem Buch?",
-     "Ja, auf Dune Messiah (Der Herr des Wüstenplaneten) von Frank Herbert (1969). Die Haupthandlung wird online viel besprochen."
-    ],
-    [
-     "Welche Wörter soll ich stummschalten?",
-     "Den Filmtitel und Dune Messiah, dazu Wörter wie Ende, Spoiler, wer stirbt und Buch gegen Film."
-    ],
-    [
-     "Kann ich auf YouTube Wörter stummschalten?",
-     "Nein. YouTube hat keinen Wortfilter. Im Desktop-Browser schafft das eine Erweiterung."
-    ]
-   ]
-  },
-  "fr": {
-   "name": "Dune : Troisième partie",
-   "desc": "Dune : Troisième partie sort le {D}. Le film adapte Le Messie de Dune, donc l'histoire est déjà en ligne. Les mots à masquer sur X, Threads et TikTok, et ce qu'aucun filtre n'attrape.",
-   "lead": "Le film adapte <em>Le Messie de Dune</em>, un roman de 1969 : l'histoire est donc connue depuis longtemps. Quoi masquer, où, et ce qu'aucun réglage n'attrape.",
-   "why_h": "Le plus gros spoiler, c'est le livre",
-   "why": "<p>Pour la plupart des films, les spoilers commencent à la première. Ici, ils existent déjà : les résumés du Messie de Dune sont à une recherche, et les lecteurs du livre en parlent sous les bandes-annonces, dans les vidéos « à quoi s'attendre » et dans les actus de casting. Si tu ne l'as pas lu, considère tout ce qui mentionne le Messie comme un spoiler.</p><p>Les détails du film arrivent ensuite quelques jours avant le {D0}, avec les avant-premières et projections presse, et les comparatifs « livre contre film » sortent le soir de la sortie. Ne masque pas simplement « Dune » : tu cacherais aussi Dune: Prophecy et des actus sans rapport.</p>",
-   "unknown": "Impossible de prévoir ce que le film changera par rapport au livre.",
-   "demo": "Dune 3 : la fin expliquée",
-   "cover_line": "La fin",
-   "faq": [
-    [
-     "Quand sort Dune : Troisième partie ?",
-     "La sortie au cinéma est prévue le {D}."
-    ],
-    [
-     "Le film est-il tiré d'un livre ?",
-     "Oui, du Messie de Dune de Frank Herbert (1969), donc l'histoire principale est largement discutée en ligne."
-    ],
-    [
-     "Quels mots masquer ?",
-     "Le titre du film et Le Messie de Dune, avec des mots comme fin, spoilers, qui meurt et livre contre film."
-    ],
-    [
-     "Peut-on masquer des mots sur YouTube ?",
-     "Non. YouTube n'a pas de filtre de mots. Dans un navigateur d'ordinateur, une extension peut le faire."
-    ]
-   ]
-  },
-  "es": {
-   "name": "Dune: Parte tres",
-   "desc": "Dune: Parte tres se estrena el {D}. Adapta El mesías de Dune, así que la historia ya está en internet. Qué palabras silenciar en X, Threads y TikTok y qué no detecta ningún filtro.",
-   "lead": "Adapta <em>El mesías de Dune</em>, una novela de 1969, así que la historia ya se conoce. Qué silenciar, dónde y qué no detecta ningún ajuste.",
-   "why_h": "El mayor spoiler es el libro",
-   "why": "<p>En casi todas las películas los spoilers empiezan con el estreno. Aquí ya existen: los resúmenes de El mesías de Dune están a una búsqueda, y quienes leyeron el libro los sacan bajo los tráileres, en vídeos de «qué esperar» y en noticias del reparto. Si no lo has leído, trata como spoiler todo lo que mencione al Mesías.</p><p>Los detalles de la película llegarán unos días antes del {D0} desde premieres y pases de prensa, y las comparativas «libro contra película» salen la noche del estreno. No silencies solo «Dune»: también ocultarías Dune: La profecía y noticias que no tienen nada que ver.</p>",
-   "unknown": "No se puede prever qué cambiará la película respecto al libro.",
-   "demo": "Dune 3: el final explicado",
-   "cover_line": "El final",
-   "faq": [
-    [
-     "¿Cuándo se estrena Dune: Parte tres?",
-     "El estreno en cines está previsto para el {D}."
-    ],
-    [
-     "¿Está basada en un libro?",
-     "Sí, en El mesías de Dune de Frank Herbert (1969), así que la historia principal se comenta mucho en internet."
-    ],
-    [
-     "¿Qué palabras silencio?",
-     "El título de la película y El mesías de Dune, con palabras como final, spoilers, quién muere y libro contra película."
-    ],
-    [
-     "¿Puedo silenciar palabras en YouTube?",
-     "No. YouTube no tiene filtro de palabras. En un navegador de escritorio lo hace una extensión."
-    ]
-   ]
-  },
-  "it": {
-   "name": "Dune: Parte tre",
-   "desc": "Dune: Parte tre esce il {D}. Adatta Il messia di Dune, quindi la storia è già online. Le parole da silenziare su X, Threads e TikTok e cosa nessun filtro intercetta.",
-   "lead": "Adatta <em>Il messia di Dune</em>, un romanzo del 1969, quindi la storia è nota da tempo. Cosa silenziare, dove e cosa nessuna impostazione intercetta.",
-   "why_h": "Lo spoiler più grande è il libro",
-   "why": "<p>Per quasi tutti i film gli spoiler partono con la prima. Qui esistono già: i riassunti del Messia di Dune sono a una ricerca di distanza, e chi ha letto il libro li tira fuori sotto i trailer, nei video «cosa aspettarsi» e nelle notizie sul cast. Se non l'hai letto, considera spoiler tutto ciò che nomina il Messia.</p><p>I dettagli del film arriveranno qualche giorno prima del {D0} da anteprime e proiezioni stampa, e i confronti «libro contro film» escono la sera dell'uscita. Non silenziare solo «Dune»: spariscono anche Dune: Prophecy e notizie che non c'entrano.</p>",
-   "unknown": "Non si può prevedere cosa il film cambierà rispetto al libro.",
-   "demo": "Dune 3: il finale spiegato",
-   "cover_line": "Il finale",
-   "faq": [
-    [
-     "Quando esce Dune: Parte tre?",
-     "L'uscita al cinema è prevista per il {D}."
-    ],
-    [
-     "È tratto da un libro?",
-     "Sì, da Il messia di Dune di Frank Herbert (1969), quindi la trama principale è molto discussa online."
-    ],
-    [
-     "Quali parole silenziare?",
-     "Il titolo del film e Il messia di Dune, con parole come finale, spoiler, chi muore e libro contro film."
-    ],
-    [
-     "Posso silenziare parole su YouTube?",
-     "No. YouTube non ha un filtro parole. In un browser desktop lo fa un'estensione."
-    ]
-   ]
-  },
-  "pt-BR": {
-   "name": "Duna: Parte Três",
-   "desc": "Duna: Parte Três estreia em {D}. O filme adapta O Messias de Duna, então a história já está na internet. Quais palavras silenciar no X, Threads e TikTok.",
-   "lead": "O filme adapta <em>O Messias de Duna</em>, um romance de 1969, então a história já é conhecida. O que silenciar, onde e o que nenhuma configuração pega.",
-   "why_h": "O maior spoiler é o livro",
-   "why": "<p>Na maioria dos filmes os spoilers começam na estreia. Aqui eles já existem: resumos de O Messias de Duna estão a uma busca de distância, e quem leu o livro fala deles nos trailers, em vídeos de \"o que esperar\" e nas notícias de elenco. Se você não leu, trate como spoiler tudo que menciona o Messias.</p><p>Os detalhes do filme chegam alguns dias antes de {D0} com pré-estreias e sessões para a imprensa, e as comparações \"livro x filme\" saem na noite da estreia. Não silencie só \"Duna\": isso esconde também Duna: A Profecia e notícias sem relação.</p>",
-   "unknown": "Não dá para prever o que o filme vai mudar em relação ao livro.",
-   "demo": "Duna 3: o final explicado",
-   "cover_line": "O final",
-   "faq": [
-    [
-     "Quando estreia Duna: Parte Três?",
-     "A estreia nos cinemas está prevista para {D}."
-    ],
-    [
-     "É baseado em um livro?",
-     "Sim, em O Messias de Duna, de Frank Herbert (1969), então a história principal é muito discutida na internet."
-    ],
-    [
-     "Quais palavras devo silenciar?",
-     "O título do filme e O Messias de Duna, com palavras como final, spoilers, quem morre e livro x filme."
-    ],
-    [
-     "Dá para silenciar palavras no YouTube?",
-     "Não. O YouTube não tem filtro de palavras. No navegador do computador, uma extensão faz isso."
-    ]
-   ]
-  },
-  "tr": {
-   "name": "Dune: Çöl Gezegeni Bölüm Üç",
-   "desc": "Dune: Çöl Gezegeni Bölüm Üç {D} tarihinde vizyonda. Film Dune Mesihi'ni uyarlıyor, yani hikâye zaten internette. X, Threads ve TikTok'ta sessize alınacak kelimeler.",
-   "lead": "Film 1969 tarihli <em>Dune Mesihi</em> romanını uyarlıyor, yani hikâye çoktan biliniyor. Neyi, nerede sessize alacağın ve hiçbir ayarın yakalayamadıkları.",
-   "why_h": "En büyük spoiler kitabın kendisi",
-   "why": "<p>Çoğu filmde spoiler'lar vizyonla başlar. Bunda zaten var: Dune Mesihi'nin özeti tek aramalık mesafede ve kitabı okuyanlar onu fragmanların altında, “neler bekliyor” videolarında ve oyuncu haberlerinde anıyor. Okumadıysan Mesih'ten bahseden her şeyi spoiler say.</p><p>Filmin ayrıntıları {D0} tarihinden birkaç gün önce galalardan ve basın gösterimlerinden gelir, “kitap mı film mi” karşılaştırmaları da vizyon gecesi çıkar. Sadece “Dune” kelimesini sessize alma: Dune: Prophecy ve alakasız haberler de gizlenir.</p>",
-   "unknown": "Filmin kitapta neyi değiştireceği önceden bilinemez.",
-   "demo": "Dune 3: sonun açıklaması",
-   "cover_line": "Sonu",
-   "faq": [
-    [
-     "Dune: Çöl Gezegeni Bölüm Üç ne zaman çıkıyor?",
-     "Sinemalarda {D} tarihinde vizyona girmesi planlanıyor."
-    ],
-    [
-     "Film bir kitaba mı dayanıyor?",
-     "Evet, Frank Herbert'ın Dune Mesihi (1969) romanına. Bu yüzden ana hikâye internette çok konuşuluyor."
-    ],
-    [
-     "Hangi kelimeleri sessize almalıyım?",
-     "Filmin adını ve Dune Mesihi'ni; sonu, spoiler, kim ölüyor ve kitap mı film mi gibi kelimelerle birlikte."
-    ],
-    [
-     "YouTube'da kelime sessize alınabilir mi?",
-     "Hayır. YouTube'da kelime filtresi yok. Bilgisayar tarayıcısında bunu bir eklenti yapabilir."
-    ]
-   ]
-  },
-  "ja": {
-   "name": "デューン 砂の惑星PART3",
-   "desc": "『デューン 砂の惑星PART3』は{D}公開予定。原作は『デューン 砂漠の救世主』なので、物語はすでにネット上にあります。X、Threads、TikTokでミュートする単語と、どのフィルターでも防げないもの。",
-   "lead": "原作は1969年の小説<em>『デューン 砂漠の救世主』</em>。物語はとっくに知られています。何を、どこでミュートするか、そしてどの設定でも防げないもの。",
-   "why_h": "最大のネタバレは原作小説",
-   "why": "<p>多くの映画では、ネタバレは公開日から始まります。この作品はすでに存在します。『砂漠の救世主』のあらすじは検索ひとつで出てきて、原作を読んだ人は予告編の下や「予想」動画、キャスト情報で話題にします。読んでいないなら、「救世主」に触れているものはすべてネタバレと考えてください。</p><p>映画そのものの情報は、{D0}の数日前にプレミアや試写会から出てきます。「原作と映画の違い」の解説は公開初日の夜に出ます。「デューン」だけをミュートするのはやめましょう。『デューン 預言』や関係ないニュースまで消えてしまいます。</p>",
-   "unknown": "映画が原作をどう変えるかは予測できません。",
-   "demo": "デューン PART3：結末を解説",
-   "cover_line": "結末",
-   "faq": [
-    [
-     "『デューン 砂の惑星PART3』はいつ公開？",
-     "劇場公開は{D}の予定です。"
-    ],
-    [
-     "原作はある？",
-     "あります。フランク・ハーバートの『デューン 砂漠の救世主』（1969年）なので、主な物語はネットで広く語られています。"
-    ],
-    [
-     "どの単語をミュートすればいい？",
-     "作品名と「砂漠の救世主」に、「結末」「ネタバレ」「誰が死ぬ」「原作との違い」などを組み合わせます。"
-    ],
-    [
-     "YouTubeで単語をミュートできる？",
-     "できません。YouTubeには単語のミュート機能がありません。パソコンのブラウザなら拡張機能で可能です。"
-    ]
-   ]
-  },
-  "ko": {
-   "name": "듄: 파트3",
-   "desc": "《듄: 파트3》는 {D} 개봉 예정입니다. 원작이 《듄의 메시아》라서 줄거리는 이미 인터넷에 있습니다. X, Threads, TikTok에서 뮤트할 단어와 어떤 필터도 못 잡는 것.",
-   "lead": "1969년 소설 <em>《듄의 메시아》</em>가 원작이라 이야기는 이미 알려져 있습니다. 무엇을, 어디서 뮤트할지, 그리고 어떤 설정으로도 못 막는 것.",
-   "why_h": "가장 큰 스포일러는 원작 소설",
-   "why": "<p>대부분의 영화는 개봉과 함께 스포일러가 시작됩니다. 이 작품은 이미 있습니다. 《듄의 메시아》 줄거리는 검색 한 번이면 나오고, 원작을 읽은 사람들은 예고편 댓글, \"예상\" 영상, 캐스팅 소식에서 이를 언급합니다. 읽지 않았다면 \"메시아\"를 언급하는 건 모두 스포일러로 생각하세요.</p><p>영화 자체의 정보는 {D0} 며칠 전 시사회와 언론 시사에서 나오고, \"원작 vs 영화\" 비교는 개봉일 밤에 올라옵니다. \"듄\"만 뮤트하지 마세요. 《듄: 프로퍼시》와 상관없는 소식까지 사라집니다.</p>",
-   "unknown": "영화가 원작에서 무엇을 바꿀지는 예측할 수 없습니다.",
-   "demo": "듄 파트3: 결말 해석",
-   "cover_line": "결말",
-   "faq": [
-    [
-     "《듄: 파트3》는 언제 개봉하나요?",
-     "극장 개봉은 {D}로 예정되어 있습니다."
-    ],
-    [
-     "원작 소설이 있나요?",
-     "네, 프랭크 허버트의 《듄의 메시아》(1969)가 원작이라 주요 줄거리가 인터넷에서 많이 이야기됩니다."
-    ],
-    [
-     "어떤 단어를 뮤트해야 하나요?",
-     "작품 제목과 \"듄의 메시아\"에 결말, 스포일러, 누가 죽어, 원작 vs 영화 같은 단어를 함께 쓰세요."
-    ],
-    [
-     "YouTube에서 단어를 뮤트할 수 있나요?",
-     "아니요. YouTube에는 단어 뮤트 기능이 없습니다. 컴퓨터 브라우저에서는 확장 프로그램으로 가능합니다."
-    ]
-   ]
-  },
-  "zh-CN": {
-   "name": "沙丘3",
-   "desc": "《沙丘3》预计于{D}上映。电影改编自《沙丘救世主》，所以剧情早已在网上。在 X、Threads 和 TikTok 上要屏蔽哪些词，以及任何过滤器都拦不住的内容。",
-   "lead": "电影改编自1969年的小说<em>《沙丘救世主》</em>，故事早就为人所知。屏蔽什么、在哪里屏蔽，以及任何设置都拦不住的内容。",
-   "why_h": "最大的剧透是原著小说",
-   "why": "<p>大多数电影的剧透从上映开始。这部不一样，剧透早就存在：《沙丘救世主》的剧情梗概一搜就有，读过原著的人会在预告片下面、\"预测\"视频和选角新闻里提起。如果你没读过，凡是提到\"救世主\"的内容都当作剧透。</p><p>电影本身的细节会在{D0}前几天随首映和媒体场流出，\"原著对比电影\"的解析会在上映当晚出现。不要只屏蔽\"沙丘\"：这样《沙丘：预言》和无关新闻也会被隐藏。</p>",
-   "unknown": "电影会对原著做哪些改动，无法预测。",
-   "demo": "沙丘3：结局解析",
-   "cover_line": "结局",
-   "faq": [
-    [
-     "《沙丘3》什么时候上映？",
-     "预计于{D}在影院上映。"
-    ],
-    [
-     "电影改编自小说吗？",
-     "是的，改编自弗兰克·赫伯特的《沙丘救世主》（1969），所以主要剧情在网上被广泛讨论。"
-    ],
-    [
-     "应该屏蔽哪些词？",
-     "片名和\"沙丘救世主\"，再加上结局、剧透、谁会死、原著对比电影等词。"
-    ],
-    [
-     "YouTube 能屏蔽词语吗？",
-     "不能。YouTube 没有关键词屏蔽功能。在电脑浏览器里可以用扩展来做到。"
-    ]
-   ]
-  }
- },
- "old_urls": {
-  "en": [
-   "avoid-dune-part-three-spoilers.html",
-   "block/dune-3.html",
-   "mute-list/dune-3.html"
-  ],
-  "de": [
-   "avoid-dune-part-three-spoilers.de.html"
-  ],
-  "es": [
-   "avoid-dune-part-three-spoilers.es.html"
-  ],
-  "fr": [
-   "avoid-dune-part-three-spoilers.fr.html"
-  ],
-  "it": [
-   "avoid-dune-part-three-spoilers.it.html"
-  ],
-  "ja": [
-   "avoid-dune-part-three-spoilers.ja.html"
-  ],
-  "ko": [
-   "avoid-dune-part-three-spoilers.ko.html"
-  ],
-  "pl": [
-   "avoid-dune-part-three-spoilers.pl.html"
-  ],
-  "pt-BR": [
-   "avoid-dune-part-three-spoilers.pt-br.html"
-  ],
-  "ru": [
-   "avoid-dune-part-three-spoilers.ru.html"
-  ],
-  "tr": [
-   "avoid-dune-part-three-spoilers.tr.html"
-  ],
-  "uk": [
-   "avoid-dune-part-three-spoilers.uk.html"
-  ],
-  "zh-CN": [
-   "avoid-dune-part-three-spoilers.zh-cn.html"
-  ]
- },
- "legacy": {
-  "page": "avoid-dune-part-three-spoilers",
-  "kind": "film"
- },
- "changelog": []
 }
