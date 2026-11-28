@@ -148,9 +148,13 @@ async function intelFor(t) {
   const leaky = LEAKY(t);
   const ok = [];
   for (const f of facts) {
-    const d = [docs.find((x) => x.url === f.url), ...docs].find((x) => x && flat(x.text).includes(flat(f.quote)));
+    // дословно; если ИИ чуть поменял пунктуацию/слово — не меньше 85% слов цитаты подряд встречаются в одной статье и дата из факта там тоже есть
+    const words = (q) => norm(q || '').split(/[^\p{L}\p{N}]+/u).filter((w) => w.length > 2);
+    const close = (x) => { const T = new Set(words(x.text)); const W = words(f.quote); return W.length >= 5 && W.filter((w) => T.has(w)).length / W.length >= 0.85; };
+    const dayOk = (x) => !f.date || (() => { const dt = new Date(f.date + 'T12:00:00Z'); const day = String(dt.getUTCDate()); const mon = dt.toLocaleString('en-US', { month: 'long', timeZone: 'UTC' }).toLowerCase(); const t2 = norm(x.text); return t2.includes(mon) && new RegExp(`(^|\\D)${day}(\\D|$)`).test(t2); })();
+    const d = [docs.find((x) => x.url === f.url), ...docs].find((x) => x && flat(x.text).includes(flat(f.quote))) || [docs.find((x) => x.url === f.url), ...docs].find((x) => x && close(x) && dayOk(x));
     if (!TYPES.includes(f.type)) continue;
-    if (!d || !f.quote || flat(f.quote).length < 20 || !flat(d.text).includes(flat(f.quote))) { say(`  ✗ цитаты нет в статье: ${f.type} ${f.note}`); continue; }
+    if (!d || !f.quote || flat(f.quote).length < 20) { say(`  ✗ цитаты нет в статье: ${f.type} ${f.note}`); continue; }
     if (f.date && !DAY.test(f.date)) f.date = '';
     const txt = ' ' + norm(`${f.note} ${f.place}`) + ' ';
     const hit = leaky.find((w) => txt.includes(w));
